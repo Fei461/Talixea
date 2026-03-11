@@ -35,9 +35,11 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 
 /* NAV LANDING */
 .lnav{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;position:sticky;top:0;z-index:100;background:rgba(249,246,240,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(226,232,240,.6)}
-.lnav-logo{display:flex;align-items:center;gap:9px;cursor:pointer;text-decoration:none}
-.lnav-mark{width:34px;height:34px;background:var(--indigo);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.lnav-t{font-family:'Lora',serif;font-size:19px;font-weight:700;color:var(--text)}
+.lnav-logo{display:flex;align-items:center;gap:2px;cursor:pointer;text-decoration:none}
+.lnav-mark{display:none}
+.logo-text{font-family:'Lora',serif;font-size:20px;font-weight:700;color:var(--text);letter-spacing:0.5px}
+.logo-text .lt{color:var(--indigo);font-size:24px}
+.lnav-t{display:none}
 .lnav-btns{display:flex;gap:10px;align-items:center}
 .lnav-in{background:none;border:none;cursor:pointer;font-size:14px;font-weight:500;color:var(--soft);font-family:'Inter',sans-serif;padding:8px 14px;border-radius:8px;transition:all .18s}
 .lnav-in:hover{color:var(--text);background:var(--bs)}
@@ -109,9 +111,11 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 
 /* ── AUTH ── */
 .auth{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 24px;background:var(--bg)}
-.auth-logo{display:flex;align-items:center;gap:10px;margin-bottom:40px;cursor:pointer}
-.auth-lm{width:44px;height:44px;background:var(--indigo);border-radius:12px;display:flex;align-items:center;justify-content:center}
-.auth-lt{font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--text)}
+.auth-logo{display:flex;align-items:center;gap:6px;margin-bottom:40px;cursor:pointer}
+.auth-lm{display:none}
+.auth-lt{display:none}
+.auth-logo .logo-text{font-size:26px}
+.auth-logo .logo-text .lt{font-size:32px}
 .auth-card{width:100%;max-width:380px;background:#fff;border-radius:var(--r);padding:32px;box-shadow:var(--sh);border:1px solid var(--border)}
 .auth-title{font-family:'Lora',serif;font-size:22px;font-weight:700;margin-bottom:6px}
 .auth-sub{font-size:14px;color:var(--soft);margin-bottom:28px;line-height:1.5}
@@ -130,8 +134,10 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 /* ── HEADER APP ── */
 .hdr{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(249,246,240,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
 .logo{display:flex;align-items:center;gap:9px;cursor:pointer}
-.logo-m{width:32px;height:32px;background:var(--indigo);border-radius:9px;display:flex;align-items:center;justify-content:center}
-.logo-t{font-family:'Lora',serif;font-size:18px;font-weight:700;color:var(--text)}
+.logo-m{display:none}
+.logo-t{display:none}
+.logo-text{font-family:'Lora',serif;font-size:19px;font-weight:700;color:var(--text);letter-spacing:0.5px;line-height:1}
+.logo-text .lt{color:var(--indigo);font-size:23px}
 .nav{display:flex;gap:2px}
 .np{border:none;background:transparent;cursor:pointer;padding:7px 12px;border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--soft);transition:all .18s}
 .np.on{background:var(--ip);color:var(--indigo);font-weight:600}
@@ -355,13 +361,13 @@ La sirenita nadó hasta acercarse a las ventanas y pudo ver dentro: había mucho
 
 // ── MEZCLA ────────────────────────────────────────────────────────────────────
 function calcPct(capIdx,totalCaps){
-  // Cap 0 = 20%, último = 90%, progresión lineal
   const min=20,max=90;
   if(totalCaps<=1)return min;
   return Math.round(min+(max-min)*(capIdx/(totalCaps-1)));
 }
 
-function mezclar(txt,idioma,pct,aprd){
+// Tokeniza el texto en expresiones/palabras/literales — SIN aleatorio
+function tokenizar(txt,idioma){
   const tokens=[];let i=0;
   while(i<txt.length){
     let matched=false;
@@ -373,25 +379,41 @@ function mezclar(txt,idioma,pct,aprd){
     }
     if(matched)continue;
     const wm=txt.substring(i).match(/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]+/);
-    if(wm){tokens.push({tipo:'w',txt:wm[0]});i+=wm[0].length;}
-    else{tokens.push({tipo:'l',txt:txt[i]});i++;}
+    if(wm){
+      const limpia=wm[0].toLowerCase();
+      const expr=EXPR.find(x=>x.es===limpia);
+      if(expr&&expr[idioma]) tokens.push({tipo:'e',orig:wm[0],trad:expr[idioma],key:expr.es});
+      else tokens.push({tipo:'w',txt:wm[0]});
+      i+=wm[0].length;
+    } else{tokens.push({tipo:'l',txt:txt[i]});i++;}
   }
-  const cands=tokens.filter(t=>t.tipo==='e'||(t.tipo==='w'&&EXPR.some(e=>e.es===t.txt.toLowerCase())));
-  const n=Math.floor(cands.length*(pct/100));
-  const chosen=new Set(cands.sort(()=>Math.random()-.5).slice(0,n).map(t=>t.tipo==='e'?t.key:t.txt.toLowerCase()));
+  return tokens;
+}
+
+// Elige qué keys se muestran traducidas — aleatorio SOLO al cargar capítulo
+function elegirTraducidas(tokens,pct){
+  const cands=tokens.filter(t=>t.tipo==='e').map(t=>t.key);
+  // Deduplicar keys
+  const unicas=[...new Set(cands)];
+  const n=Math.floor(unicas.length*(pct/100));
+  const elegidas=new Set(unicas.sort(()=>Math.random()-.5).slice(0,n));
+  return elegidas;
+}
+
+// Renderiza tokens aplicando elegidas + aprendidas — NO aleatorio
+function aplicarEstado(tokens,elegidas,aprd){
   return tokens.map(t=>{
-    if(t.tipo==='l')return{r:'l',txt:t.txt};
-    if(t.tipo==='e'){const ya=aprd.has(t.key);return{r:ya?'k':(chosen.has(t.key)?'n':'p'),orig:t.orig,trad:t.trad,key:t.key};}
-    const e=EXPR.find(x=>x.es===t.txt.toLowerCase());
-    if(e&&e[idioma]){const ya=aprd.has(e.es);return{r:ya?'k':(chosen.has(e.es)?'n':'p'),orig:t.txt,trad:e[idioma],key:e.es};}
-    return{r:'p',txt:t.txt};
+    if(t.tipo==='l'||t.tipo==='w')return{r:'p',txt:t.txt||t.orig};
+    const ya=aprd.has(t.key);
+    const sel=elegidas.has(t.key);
+    return{r:ya?'k':(sel?'n':'p'),orig:t.orig,trad:t.trad,key:t.key};
   });
 }
 
 // ── COMPONENTES TEXTO ─────────────────────────────────────────────────────────
 function Palabra({tok,onApr}){
   const [hov,setHov]=useState(false);
-  if(tok.r==='l'||tok.r==='p')return h('span',null,tok.txt||tok.orig);
+  if(tok.r==='p')return h('span',null,tok.txt||tok.orig);
   if(tok.r==='k')return h('span',{className:'pal-k'},tok.trad);
   return h('span',{className:'pal-n',onMouseEnter:()=>setHov(true),onMouseLeave:()=>setHov(false),onTouchStart:e=>{e.preventDefault();setHov(v=>!v);},onClick:()=>{onApr(tok.key);setHov(false);}},
     tok.trad,
@@ -401,12 +423,13 @@ function Palabra({tok,onApr}){
 function renderTxt(toks,onApr){
   const lines=[];let cur=[];
   toks.forEach(t=>{
-    if(t.r==='l'&&t.txt==='\n'){if(cur.length){lines.push([...cur]);cur=[];}}
+    if(t.r==='p'&&(t.txt==='\n'||t.orig==='\n')){if(cur.length){lines.push([...cur]);cur=[];}}
     else cur.push(t);
   });
   if(cur.length)lines.push(cur);
   return lines.map((ln,li)=>h('p',{key:li,className:'par'},ln.map((t,ti)=>h(Palabra,{key:ti,tok:t,onApr}))));
 }
+
 
 // ── AUTH HOOK ─────────────────────────────────────────────────────────────────
 function useAuth(){
@@ -437,9 +460,11 @@ function Landing({onLogin,onReg}){
   const [demoImm,setDemoImm]=useState(35);
   const [faqOpen,setFaqOpen]=useState(null);
   const DEMO_IDIOMA='en';
-
   const demoBase=`Había una vez una princesa que vivía en un gran castillo en el bosque oscuro. Era muy hermosa y muy valiente, pero vivía sola porque su madre había muerto hace muchos años.`;
-  const demoToks=mezclar(demoBase,DEMO_IDIOMA,demoImm,new Set());
+  const demoTokens=useState(()=>tokenizar(demoBase,DEMO_IDIOMA))[0];
+  const [demoElegidas,setDemoElegidas]=useState(()=>elegirTraducidas(demoTokens,demoImm));
+  useEffect(()=>setDemoElegidas(elegirTraducidas(demoTokens,demoImm)),[demoImm]);
+  const demoToks=aplicarEstado(demoTokens,demoElegidas,new Set());
 
   const FAQS=[
     {q:'¿El método funciona de verdad?',a:'Sí. El método diglot weave está respaldado por investigación científica. Tu cerebro aprende vocabulario y gramática en contexto real, que es exactamente cómo los niños adquieren su lengua materna. Los estudios muestran mejor retención y más velocidad de aprendizaje frente a métodos tradicionales.'},
@@ -455,8 +480,7 @@ function Landing({onLogin,onReg}){
     // NAV
     h('nav',{className:'lnav'},
       h('div',{className:'lnav-logo'},
-        h('div',{className:'lnav-mark'},h(IcoLibro)),
-        h('span',{className:'lnav-t'},'Talixea')),
+        h('span',{className:'logo-text'},h('span',{className:'lt'},'T'),'ALIXEA')),
       h('div',{className:'lnav-btns'},
         h('button',{className:'lnav-in',onClick:onLogin},'Iniciar sesión'),
         h('button',{className:'lnav-reg',onClick:onReg},'Empezar gratis'))),
@@ -464,11 +488,11 @@ function Landing({onLogin,onReg}){
     // HERO
     h('section',{className:'hero-sec'},
       h('div',{className:'hero-blob'}),
-      h('div',{className:'hero-badge'},'✦ Método científicamente probado'),
+      h('div',{className:'hero-badge'},'✦ Método respaldado por la ciencia'),
       h('h1',{className:'hero-h'},'Aprende idiomas ',h('em',null,'leyendo'),'.',h('br'),null,'Como siempre debió ser.'),
-      h('p',{className:'hero-sub'},'Talixea mezcla tu idioma nativo con el que estás aprendiendo dentro de textos reales. Tu cerebro absorbe el idioma de forma natural, sin flashcards ni ejercicios aburridos.'),
+      h('p',{className:'hero-sub'},'Talixea teje tu lengua materna con el nuevo idioma en textos reales. Tu mente absorbe el idioma como lo que es: una historia que se despliega.'),
       h('div',{className:'hero-btns'},
-        h('button',{className:'btn-p',onClick:onReg},'Empezar gratis — sin tarjeta'),
+        h('button',{className:'btn-p',onClick:onReg},'Comenzar tu historia — es gratis'),
         h('button',{className:'btn-g',onClick:onLogin},'Ya tengo cuenta')),
       h('div',{className:'hero-trust'},
         h('div',{className:'hero-trust-item'},'✓ Gratis para siempre'),
@@ -553,11 +577,11 @@ function Registro({onReg,onLogin}){
   }
 
   return h('div',{className:'auth'},
-    h('div',{className:'auth-logo'},
-      h('div',{className:'auth-lm'},h(IcoLibro)),
-      h('span',{className:'auth-lt'},'Talixea')),
+    h('div',{className:'auth-logo',onClick:onLogin,style:{cursor:'pointer'}},
+      h('span',{className:'logo-text'},h('span',{className:'lt'},'T'),'ALIXEA')),
     h('div',{className:'auth-card'},
       paso===1?[
+        h('button',{key:'back',onClick:onLogin,style:{background:'none',border:'none',cursor:'pointer',color:'var(--soft)',fontSize:13,fontFamily:'Inter,sans-serif',marginBottom:16,padding:0,display:'flex',alignItems:'center',gap:4}},'← Volver'),
         h('h1',{key:'t',className:'auth-title'},'Crea tu cuenta'),
         h('p',{key:'s',className:'auth-sub'},'Empieza a aprender idiomas leyendo. Es gratis.'),
         err&&h('div',{key:'e',className:'auth-err'},err),
@@ -588,9 +612,9 @@ function Login({onLogin,onLanding,onReg}){
   function go(){const r=onLogin(email,pw);if(r.error)setErr(r.error);}
   return h('div',{className:'auth'},
     h('div',{className:'auth-logo',onClick:onLanding},
-      h('div',{className:'auth-lm'},h(IcoLibro)),
-      h('span',{className:'auth-lt'},'Talixea')),
+      h('span',{className:'logo-text'},h('span',{className:'lt'},'T'),'ALIXEA')),
     h('div',{className:'auth-card'},
+      h('button',{onClick:onLanding,style:{background:'none',border:'none',cursor:'pointer',color:'var(--soft)',fontSize:13,fontFamily:'Inter,sans-serif',marginBottom:16,padding:0,display:'flex',alignItems:'center',gap:4}},'← Volver'),
       h('h1',{className:'auth-title'},'Bienvenido de nuevo'),
       h('p',{className:'auth-sub'},'Continúa tu aventura de aprendizaje'),
       err&&h('div',{className:'auth-err'},err),
@@ -608,8 +632,9 @@ function App(){
   const [screen,setScreen]=useState('landing'); // landing|login|registro|inicio|biblioteca|ajustes|lector
   const [libro,setLibro]=useState(null);
   const [cap,setCap]=useState(0);
-  const [toks,setToks]=useState([]);
-  const [aprd,setAprd]=useState(new Set());
+  const [tokensBase,setTokensBase]=useState([]); // tokens del capítulo actual (estables)
+  const [elegidas,setElegidas]=useState(new Set()); // keys elegidas para traducir (estables por capítulo)
+  const [aprd,setAprd]=useState(new Set()); // palabras marcadas como aprendidas (acumulativas)
   const [prog,setProg]=useState(0);
   const [meta,setMeta]=useState({tipo:'minutos',unidad:'min',valor:10});
   const [menuOpen,setMenuOpen]=useState(false);
@@ -619,16 +644,21 @@ function App(){
   const isPrem=false;
   const progDia=3;
 
+  // toks renderizados = tokensBase + elegidas + aprd (sin aleatorio)
+  const toks = tokensBase.length>0 ? aplicarEstado(tokensBase,elegidas,aprd) : [];
+
   // Al hacer login ir a inicio
   useEffect(()=>{if(user&&(screen==='landing'||screen==='login'||screen==='registro'))setScreen('inicio');},[user]);
 
-  // Mezcla
+  // Cargar capítulo: tokenizar UNA VEZ y elegir traducidas UNA VEZ
   useEffect(()=>{
     if(libro&&user){
       const pct=calcPct(cap,libro.totalCaps);
-      setToks(mezclar(libro.caps[cap].txt,user.idioma,pct,aprd));
+      const tokens=tokenizar(libro.caps[cap].txt,user.idioma);
+      setTokensBase(tokens);
+      setElegidas(elegirTraducidas(tokens,pct));
     }
-  },[libro,cap,aprd,user]);
+  },[libro,cap,user]); // NO depende de aprd — por eso las palabras son estables
 
   // Scroll → progreso
   useEffect(()=>{
@@ -642,7 +672,7 @@ function App(){
   function abrirLibro(lb){
     if(!lb.gratis&&!isPrem){alert('📚 Contenido Premium\nDesbloquea la biblioteca completa con Talixea Premium.');return;}
     if(!lb.caps.length)return;
-    setLibro(lb);setCap(0);setAprd(new Set());setScreen('lector');setProg(0);
+    setLibro(lb);setCap(0);setAprd(new Set());setTokensBase([]);setElegidas(new Set());setScreen('lector');setProg(0);
   }
 
   function IcoLibro({color='#fff',size=18}){return h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:color,strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:size,height:size},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));}
@@ -650,8 +680,7 @@ function App(){
   function Nav({act}){
     return h('header',{className:'hdr'},
       h('div',{className:'logo',onClick:()=>setScreen('inicio')},
-        h('div',{className:'logo-m'},h(IcoLibro)),
-        h('span',{className:'logo-t'},'Talixea')),
+        h('span',{className:'logo-text'},h('span',{className:'lt'},'T'),'ALIXEA')),
       h('nav',{className:'nav'},
         h('button',{className:`np ${act==='inicio'?'on':''}`,onClick:()=>setScreen('inicio')},'Inicio'),
         h('button',{className:`np ${act==='biblioteca'?'on':''}`,onClick:()=>setScreen('biblioteca')},'Biblioteca'),
@@ -679,14 +708,18 @@ function App(){
     h(Nav,{act:'inicio'}),
     h('main',{className:'imain'},
       h('div',{className:'racha'},
-        h('span',{className:'racha-ic'},3>0?'🔥':'💤'),
+        h('div',{className:'racha-ic'},
+          h('svg',{viewBox:'0 0 24 36',width:28,height:42,fill:'none'},
+            h('path',{d:'M2 2h20v32l-10-7L2 34V2z',fill: (user.racha||0)>0 ?'#6366F1':'#E2E8F0',stroke:(user.racha||0)>0?'#4F46E5':'#CBD5E1',strokeWidth:1.5,strokeLinejoin:'round'}),
+            (user.racha||0)>0&&h('path',{d:'M8 12l2 2 4-4',stroke:'#fff',strokeWidth:1.8,strokeLinecap:'round',strokeLinejoin:'round'})
+          )),
         h('div',{className:'racha-inf'},
-          h('div',{className:'racha-top'},h('span',{className:'racha-n'},user.racha||0),h('span',{className:'racha-lb'},'días de racha')),
+          h('div',{className:'racha-top'},h('span',{className:'racha-n'},user.racha||0),h('span',{className:'racha-lb'},(user.racha||0)===1?'capítulo de racha':'capítulos de racha')),
           h('div',{className:'rb-bg'},h('div',{className:'rb-fill',style:{width:`${Math.min(100,(progDia/meta.valor)*100)}%`}})),
-          h('span',{className:'racha-mt'},`${progDia}/${meta.valor} ${meta.unidad} completados hoy`))),
+          h('span',{className:'racha-mt'},`Tu marcapáginas avanza: ${progDia} de ${meta.valor} ${meta.unidad} hoy`))),
       h('section',{className:'hero-app'},
-        h('h1',{className:'hero-app-t'},`Hola, ${user.name.split(' ')[0]}.\u00A0¿Seguimos?`),
-        h('p',{className:'hero-app-s'},'El método diglot weave mezcla tu idioma con el nuevo en textos reales. Tu cerebro aprende de forma natural sin ningún esfuerzo consciente.')),
+        h('h1',{className:'hero-app-t'},`Bienvenido, ${user.name.split(' ')[0]}.`),
+        h('p',{className:'hero-app-s'},'Tu próximo capítulo te espera. Cada página que lees teje un nuevo hilo en tu vocabulario — sin esfuerzo, sin repetición.')),
       h('section',{className:'sec'},
         h('div',{className:'sec-hdr'},h('span',{className:'sec-t'},'Tu idioma')),
         h('div',{className:'idioma-activo'},
