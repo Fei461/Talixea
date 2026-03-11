@@ -3,25 +3,26 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Talixea</title>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<title>Talixea — Aprende idiomas leyendo</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#F9F6F0;--text:#1E293B;--soft:#64748B;--mute:#94A3B8;
-  --indigo:#6366F1;--indigo-l:#818CF8;--indigo-pale:#EEF2FF;--indigo-d:#4F46E5;
-  --white:#fff;--border:#E2E8F0;--border-s:#F1F5F9;
+  --indigo:#6366F1;--il:#818CF8;--ip:#EEF2FF;--id:#4F46E5;
+  --white:#fff;--border:#E2E8F0;--bs:#F1F5F9;
   --sh:0 1px 3px rgba(0,0,0,.06),0 4px 16px rgba(0,0,0,.06);
-  --sh2:0 4px 8px rgba(0,0,0,.08),0 12px 32px rgba(0,0,0,.10);
+  --sh2:0 8px 32px rgba(0,0,0,.12);
   --r:16px;--rs:10px;
 }
+html{scroll-behavior:smooth}
 body{background:var(--bg);font-family:'Inter',sans-serif;color:var(--text);min-height:100vh}
 .app{max-width:480px;margin:0 auto;min-height:100vh}
 
-/* UTILS */
-.btn-p{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--indigo);color:#fff;border:none;cursor:pointer;padding:13px 24px;border-radius:var(--rs);font-family:'Inter',sans-serif;font-size:15px;font-weight:600;transition:all .2s;width:100%}
-.btn-p:hover{background:var(--indigo-d);transform:translateY(-1px);box-shadow:0 4px 16px rgba(99,102,241,.35)}
-.btn-g{background:none;border:1.5px solid var(--border);cursor:pointer;padding:11px 20px;border-radius:var(--rs);font-family:'Inter',sans-serif;font-size:14px;font-weight:500;color:var(--soft);transition:all .2s;width:100%}
+/* ── UTILS ── */
+.btn-p{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--indigo);color:#fff;border:none;cursor:pointer;padding:14px 28px;border-radius:var(--rs);font-family:'Inter',sans-serif;font-size:15px;font-weight:600;transition:all .2s;width:100%}
+.btn-p:hover{background:var(--id);transform:translateY(-1px);box-shadow:0 4px 20px rgba(99,102,241,.4)}
+.btn-g{background:none;border:1.5px solid var(--border);cursor:pointer;padding:12px 20px;border-radius:var(--rs);font-family:'Inter',sans-serif;font-size:14px;font-weight:500;color:var(--soft);transition:all .2s;width:100%}
 .btn-g:hover{border-color:var(--indigo);color:var(--indigo)}
 input[type=email],input[type=password],input[type=text]{width:100%;padding:12px 16px;border-radius:var(--rs);border:1.5px solid var(--border);background:#fff;font-family:'Inter',sans-serif;font-size:15px;color:var(--text);outline:none;transition:border-color .2s}
 input:focus{border-color:var(--indigo);box-shadow:0 0 0 3px rgba(99,102,241,.12)}
@@ -29,29 +30,120 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .fg{margin-bottom:16px}
 .lnk{background:none;border:none;cursor:pointer;color:var(--indigo);font-size:14px;font-weight:600;font-family:'Inter',sans-serif}
 
-/* HEADER */
-.hdr{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(249,246,240,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
-.logo{display:flex;align-items:center;gap:9px;cursor:pointer}
-.logo-m{width:32px;height:32px;background:var(--indigo);border-radius:9px;display:flex;align-items:center;justify-content:center}
-.logo-t{font-family:'Lora',serif;font-size:18px;font-weight:700;color:var(--text)}
-.nav{display:flex;gap:2px}
-.np{border:none;background:transparent;cursor:pointer;padding:7px 12px;border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--soft);transition:all .18s}
-.np.on{background:var(--indigo-pale);color:var(--indigo);font-weight:600}
-.np:hover:not(.on){background:var(--border-s);color:var(--text)}
-.av{width:34px;height:34px;border-radius:50%;background:var(--indigo);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;font-family:'Inter',sans-serif;flex-shrink:0}
+/* ── LANDING ── */
+.landing{background:var(--bg);min-height:100vh;overflow-x:hidden}
 
-/* AUTH */
+/* NAV LANDING */
+.lnav{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;position:sticky;top:0;z-index:100;background:rgba(249,246,240,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(226,232,240,.6)}
+.lnav-logo{display:flex;align-items:center;gap:9px;cursor:pointer;text-decoration:none}
+.lnav-mark{width:34px;height:34px;background:var(--indigo);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.lnav-t{font-family:'Lora',serif;font-size:19px;font-weight:700;color:var(--text)}
+.lnav-btns{display:flex;gap:10px;align-items:center}
+.lnav-in{background:none;border:none;cursor:pointer;font-size:14px;font-weight:500;color:var(--soft);font-family:'Inter',sans-serif;padding:8px 14px;border-radius:8px;transition:all .18s}
+.lnav-in:hover{color:var(--text);background:var(--bs)}
+.lnav-reg{background:var(--indigo);color:#fff;border:none;cursor:pointer;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;padding:9px 18px;border-radius:8px;transition:all .2s}
+.lnav-reg:hover{background:var(--id)}
+
+/* HERO */
+.hero-sec{padding:64px 24px 48px;text-align:center;position:relative;overflow:hidden}
+.hero-blob{position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:500px;height:400px;background:radial-gradient(ellipse,rgba(99,102,241,.12) 0%,transparent 70%);pointer-events:none;z-index:0}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:var(--ip);color:var(--indigo);border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700;letter-spacing:.3px;margin-bottom:24px;border:1px solid rgba(99,102,241,.2);position:relative;z-index:1}
+.hero-h{font-family:'Lora',serif;font-size:36px;line-height:1.2;font-weight:700;color:var(--text);margin-bottom:18px;position:relative;z-index:1}
+.hero-h em{font-style:italic;color:var(--indigo)}
+.hero-sub{font-size:16px;color:var(--soft);line-height:1.7;margin-bottom:36px;position:relative;z-index:1;max-width:360px;margin-left:auto;margin-right:auto}
+.hero-btns{display:flex;flex-direction:column;gap:12px;max-width:320px;margin:0 auto 48px;position:relative;z-index:1}
+.hero-btns .btn-p{font-size:16px;padding:16px}
+.hero-trust{display:flex;align-items:center;justify-content:center;gap:20px;position:relative;z-index:1}
+.hero-trust-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--mute);font-weight:500}
+
+/* DEMO INTERACTIVA */
+.demo-sec{padding:0 24px 56px;position:relative;z-index:1}
+.demo-card{background:#fff;border-radius:20px;box-shadow:var(--sh2);border:1px solid var(--border);overflow:hidden}
+.demo-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.demo-libro{font-family:'Lora',serif;font-size:14px;font-weight:700;color:var(--text)}
+.demo-lang{display:flex;align-items:center;gap:6px;background:var(--ip);border-radius:8px;padding:5px 10px;font-size:12px;font-weight:700;color:var(--indigo)}
+.demo-slider-wrap{padding:14px 20px;background:var(--bs);border-bottom:1px solid var(--border)}
+.demo-slider-lbl{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);font-weight:500;margin-bottom:8px}
+.demo-slider{width:100%;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;outline:none;cursor:pointer}
+.demo-slider::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--indigo);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 6px rgba(99,102,241,.4)}
+.demo-txt{padding:20px;font-family:'Lora',serif;font-size:16px;line-height:1.9;color:var(--text);min-height:120px}
+.demo-pal{color:var(--indigo);font-weight:600;background:var(--ip);border-radius:3px;padding:0 3px;cursor:help;position:relative}
+.demo-pal:hover::after{content:attr(data-orig);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:var(--text);color:#fff;border-radius:7px;padding:5px 10px;font-size:11px;white-space:nowrap;font-family:'Inter',sans-serif;z-index:10}
+
+/* FEATURES */
+.feat-sec{padding:40px 24px 56px}
+.feat-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--indigo);margin-bottom:12px}
+.feat-h{font-family:'Lora',serif;font-size:26px;font-weight:700;color:var(--text);margin-bottom:32px;line-height:1.3}
+.feat-list{display:flex;flex-direction:column;gap:20px}
+.feat-item{display:flex;gap:16px;align-items:flex-start}
+.feat-ico{width:42px;height:42px;border-radius:12px;background:var(--ip);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px}
+.feat-body h3{font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px}
+.feat-body p{font-size:13px;color:var(--soft);line-height:1.6}
+
+/* SCIENCE */
+.sci-sec{padding:40px 24px 56px;background:#fff;margin:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.sci-quote{font-family:'Lora',serif;font-size:18px;font-style:italic;color:var(--text);line-height:1.7;margin-bottom:20px;padding-left:16px;border-left:3px solid var(--indigo)}
+.sci-author{font-size:13px;color:var(--mute);font-weight:500}
+
+/* FAQ */
+.faq-sec{padding:40px 24px 56px}
+.faq-item{border-bottom:1px solid var(--border);padding:18px 0;cursor:pointer}
+.faq-item:first-child{border-top:1px solid var(--border)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-qt{font-size:15px;font-weight:600;color:var(--text);line-height:1.4}
+.faq-ico{font-size:18px;color:var(--mute);flex-shrink:0;transition:transform .25s}
+.faq-ico.open{transform:rotate(45deg);color:var(--indigo)}
+.faq-a{font-size:14px;color:var(--soft);line-height:1.7;margin-top:12px;display:none}
+.faq-a.open{display:block}
+
+/* CTA FINAL */
+.cta-sec{padding:48px 24px;text-align:center;background:linear-gradient(160deg,#1E293B 0%,#0F172A 100%);margin-top:0}
+.cta-h{font-family:'Lora',serif;font-size:28px;font-weight:700;color:#fff;margin-bottom:14px;line-height:1.3}
+.cta-sub{font-size:15px;color:rgba(255,255,255,.65);margin-bottom:32px;line-height:1.6}
+.cta-sec .btn-p{max-width:320px;margin:0 auto;font-size:16px;padding:16px}
+.cta-trust{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:20px}
+.cta-trust-item{font-size:12px;color:rgba(255,255,255,.4)}
+
+/* FOOTER */
+.lfoot{padding:24px;text-align:center;font-size:12px;color:var(--mute)}
+
+/* ── AUTH ── */
 .auth{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 24px;background:var(--bg)}
-.auth-logo{display:flex;align-items:center;gap:10px;margin-bottom:40px}
-.auth-lm{width:48px;height:48px;background:var(--indigo);border-radius:14px;display:flex;align-items:center;justify-content:center}
-.auth-lt{font-family:'Lora',serif;font-size:26px;font-weight:700;color:var(--text)}
+.auth-logo{display:flex;align-items:center;gap:10px;margin-bottom:40px;cursor:pointer}
+.auth-lm{width:44px;height:44px;background:var(--indigo);border-radius:12px;display:flex;align-items:center;justify-content:center}
+.auth-lt{font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--text)}
 .auth-card{width:100%;max-width:380px;background:#fff;border-radius:var(--r);padding:32px;box-shadow:var(--sh);border:1px solid var(--border)}
 .auth-title{font-family:'Lora',serif;font-size:22px;font-weight:700;margin-bottom:6px}
 .auth-sub{font-size:14px;color:var(--soft);margin-bottom:28px;line-height:1.5}
 .auth-foot{text-align:center;margin-top:20px;font-size:14px;color:var(--soft)}
 .auth-err{background:#FEF2F2;color:#DC2626;border-radius:6px;padding:10px 14px;font-size:13px;margin-bottom:16px;border:1px solid #FECACA}
 
-/* RACHA */
+/* SELECTOR IDIOMA EN REGISTRO */
+.lang-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:24px}
+.lang-opt{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:var(--rs);border:2px solid var(--border);cursor:pointer;transition:all .18s;background:var(--bg)}
+.lang-opt:hover{border-color:var(--il)}
+.lang-opt.on{border-color:var(--indigo);background:var(--ip)}
+.lang-flag{width:28px;height:28px;border-radius:50%;overflow:hidden;flex-shrink:0}
+.lang-name{font-size:13px;font-weight:600;color:var(--soft)}
+.lang-opt.on .lang-name{color:var(--indigo)}
+
+/* ── HEADER APP ── */
+.hdr{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(249,246,240,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.logo{display:flex;align-items:center;gap:9px;cursor:pointer}
+.logo-m{width:32px;height:32px;background:var(--indigo);border-radius:9px;display:flex;align-items:center;justify-content:center}
+.logo-t{font-family:'Lora',serif;font-size:18px;font-weight:700;color:var(--text)}
+.nav{display:flex;gap:2px}
+.np{border:none;background:transparent;cursor:pointer;padding:7px 12px;border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--soft);transition:all .18s}
+.np.on{background:var(--ip);color:var(--indigo);font-weight:600}
+.np:hover:not(.on){background:var(--bs);color:var(--text)}
+.av{width:34px;height:34px;border-radius:50%;background:var(--indigo);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;flex-shrink:0}
+.pm-wrap{position:absolute;top:60px;right:16px;z-index:200;background:#fff;border-radius:var(--rs);border:1px solid var(--border);box-shadow:var(--sh2);min-width:200px;overflow:hidden}
+.pm-hdr{padding:14px 16px;border-bottom:1px solid var(--bs)}
+.pm-name{font-size:14px;font-weight:700}.pm-email{font-size:12px;color:var(--mute)}
+.pm-item{display:flex;align-items:center;gap:10px;padding:12px 16px;font-size:14px;color:var(--text);cursor:pointer;border:none;background:none;width:100%;text-align:left;font-family:'Inter',sans-serif;font-weight:500;transition:background .15s}
+.pm-item:hover{background:var(--bs)}.pm-item.danger{color:#DC2626}
+
+/* ── RACHA ── */
 .racha{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:14px 18px;margin:16px 20px 0;box-shadow:var(--sh)}
 .racha-ic{font-size:28px;line-height:1}
 .racha-inf{flex:1}
@@ -59,37 +151,33 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .racha-n{font-size:22px;font-weight:700;color:var(--text)}
 .racha-lb{font-size:13px;color:var(--soft);font-weight:500}
 .rb-bg{height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:4px}
-.rb-fill{height:100%;background:linear-gradient(90deg,var(--indigo-l),var(--indigo));border-radius:3px;transition:width .5s}
+.rb-fill{height:100%;background:linear-gradient(90deg,var(--il),var(--indigo));border-radius:3px;transition:width .5s}
 .racha-mt{font-size:11px;color:var(--mute)}
 
-/* HERO */
+/* ── INICIO ── */
 .imain{padding-bottom:48px}
-.hero{padding:28px 20px 20px}
-.hero-t{font-family:'Lora',serif;font-size:30px;line-height:1.25;font-weight:700;margin-bottom:12px}
-.hero-s{font-size:14px;color:var(--soft);line-height:1.7}
+.hero-app{padding:28px 20px 20px}
+.hero-app-t{font-family:'Lora',serif;font-size:28px;line-height:1.25;font-weight:700;margin-bottom:10px}
+.hero-app-s{font-size:14px;color:var(--soft);line-height:1.7}
+
+/* IDIOMA ACTIVO BADGE */
+.idioma-activo{display:flex;align-items:center;gap:12px;background:#fff;border-radius:var(--rs);padding:14px 16px;border:1.5px solid var(--indigo);box-shadow:0 0 0 3px rgba(99,102,241,.08)}
+.ia-flag{width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0}
+.ia-info{flex:1}
+.ia-label{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mute);font-weight:600;display:block;margin-bottom:2px}
+.ia-name{font-size:16px;font-weight:700;color:var(--text)}
+.ia-change{font-size:12px;color:var(--indigo);font-weight:600;background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif}
 
 /* SECCIÓN */
 .sec{padding:24px 20px 0}
-.sec-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
-.sec-t{font-size:13px;font-weight:700;color:var(--text);text-transform:uppercase;letter-spacing:.6px}
+.sec-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.sec-t{font-size:12px;font-weight:700;color:var(--text);text-transform:uppercase;letter-spacing:.6px}
 .ver-t{background:none;border:none;cursor:pointer;font-size:13px;color:var(--indigo);font-weight:600;font-family:'Inter',sans-serif}
 
-/* IDIOMAS */
-.id-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.id-card{display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 8px;border-radius:var(--rs);background:#fff;border:2px solid var(--border);cursor:pointer;transition:all .18s;box-shadow:var(--sh)}
-.id-card:hover{border-color:var(--indigo-l)}
-.id-card.on{border-color:var(--indigo);background:var(--indigo-pale)}
-.id-flag{width:36px;height:36px;border-radius:50%;overflow:hidden}
-.id-name{font-size:12px;font-weight:600;color:var(--soft)}
-.id-card.on .id-name{color:var(--indigo)}
-
-/* SLIDER */
-.imm-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.imm-val{font-size:22px;font-weight:700;color:var(--indigo);font-family:'Lora',serif}
-.slider{width:100%;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;outline:none;cursor:pointer}
-.slider::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--indigo);box-shadow:0 2px 8px rgba(99,102,241,.4);cursor:pointer;border:3px solid #fff}
-.imm-lbs{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-top:8px}
-.plock{color:var(--indigo);font-weight:600}
+/* PROGRESO INMERSIÓN INFO */
+.imm-info{background:var(--ip);border-radius:var(--rs);padding:14px 16px;border:1px solid rgba(99,102,241,.15)}
+.imm-info-t{font-size:13px;font-weight:600;color:var(--indigo);margin-bottom:4px}
+.imm-info-s{font-size:12px;color:var(--soft);line-height:1.5}
 
 /* LIBROS */
 .lb-scroll{display:flex;gap:14px;padding:4px 20px 24px;overflow-x:auto;scrollbar-width:none}
@@ -99,12 +187,13 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .lb-cov{height:100px;display:flex;align-items:center;justify-content:center;font-size:40px;position:relative}
 .lb-cov.grimm{background:linear-gradient(135deg,#e0e7ff,#c7d2fe)}
 .lb-cov.andersen{background:linear-gradient(135deg,#dbeafe,#bfdbfe)}
-.lb-cov.lock{background:linear-gradient(135deg,#f1f5f9,#e2e8f0)}
 .lb-prem{position:absolute;top:8px;right:8px;background:var(--indigo);color:#fff;font-size:9px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.5px}
 .lb-inf{padding:10px 12px 12px}
 .lb-cat{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--indigo);font-weight:700;display:block;margin-bottom:3px}
 .lb-tit{font-size:13px;font-weight:700;color:var(--text);line-height:1.3;font-family:'Lora',serif;display:block;margin-bottom:2px}
 .lb-aut{font-size:11px;color:var(--mute);display:block}
+.lb-prog{height:3px;background:var(--border);border-radius:2px;margin-top:8px;overflow:hidden}
+.lb-prog-fill{height:100%;background:var(--indigo);border-radius:2px}
 
 /* BIBLIOTECA */
 .pmain{padding:20px 20px 48px}
@@ -118,41 +207,19 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .lb-ri{flex:1;min-width:0}
 .badge-pr{background:var(--indigo);color:#fff;font-size:9px;font-weight:700;padding:4px 8px;border-radius:6px;letter-spacing:.5px;white-space:nowrap}
 
-/* AJUSTES */
-.aj-bl{background:#fff;border-radius:var(--r);padding:20px;margin-bottom:16px;box-shadow:var(--sh);border:1px solid var(--border)}
-.aj-t{font-size:15px;font-weight:700;margin-bottom:4px}
-.aj-d{font-size:13px;color:var(--soft);margin-bottom:16px;line-height:1.5}
-.metas{display:flex;flex-direction:column;gap:10px}
-.mc{border:1.5px solid var(--border);border-radius:var(--rs);padding:13px 15px;cursor:pointer;transition:all .18s;background:var(--bg)}
-.mc.on{border-color:var(--indigo);background:var(--indigo-pale)}
-.ml{font-size:14px;font-weight:500}
-.mvs{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
-.mv{flex:1;min-width:40px;padding:7px 4px;border-radius:8px;border:1.5px solid var(--border);background:#fff;cursor:pointer;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;transition:all .15s}
-.mv.on{border-color:var(--indigo);background:var(--indigo);color:#fff}
-.prem-bl{background:linear-gradient(135deg,#1E293B,#0F172A);border-radius:var(--r);padding:24px}
-.prem-bl .aj-t{color:#E0E7FF;font-size:17px;margin-bottom:16px}
-.prem-li{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
-.prem-li li{font-size:14px;color:rgba(255,255,255,.8)}
-.btn-prem{width:100%;padding:14px;border-radius:var(--rs);background:var(--indigo);border:none;cursor:pointer;color:#fff;font-size:15px;font-weight:700;font-family:'Inter',sans-serif;box-shadow:0 4px 16px rgba(99,102,241,.5);transition:all .2s}
-.btn-prem:hover{background:var(--indigo-d);transform:translateY(-1px)}
-
-/* LECTOR */
-.lec-wrap{display:flex;flex-direction:column;min-height:100vh;background:#F9F6F0}
+/* ── LECTOR ── */
+.lec-wrap{display:flex;flex-direction:column;min-height:100vh;background:#F9F6F0;overflow-y:auto;height:100vh}
 .lec-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
 .btn-v{background:none;border:none;cursor:pointer;font-size:14px;font-weight:600;color:var(--indigo);font-family:'Inter',sans-serif;padding:4px 0}
-.lec-th{font-size:15px;font-weight:600;color:var(--text);font-family:'Lora',serif;max-width:160px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.lec-badge{display:flex;align-items:center;gap:5px;background:var(--indigo-pale);border-radius:20px;padding:5px 10px;font-size:13px;font-weight:700;color:var(--indigo)}
-.prog-wrap{height:3px;background:var(--border);position:sticky;top:57px;z-index:99}
-.prog-fill{height:100%;background:var(--indigo);transition:width .3s}
-.lec-ctrl{display:flex;align-items:center;gap:12px;padding:10px 16px;background:#fff;border-bottom:1px solid var(--border-s)}
-.ctrl-lb{font-size:11px;color:var(--mute);display:block;margin-bottom:5px;font-weight:500;letter-spacing:.3px}
-.ctrl-lb strong{color:var(--indigo)}
-.ctrl-im{flex:1}
-.sl-mini{width:100%;-webkit-appearance:none;appearance:none;height:4px;border-radius:2px;outline:none;cursor:pointer}
-.sl-mini::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;border-radius:50%;background:var(--indigo);cursor:pointer;border:2.5px solid #fff;box-shadow:0 1px 5px rgba(99,102,241,.35)}
-.id-minis{display:flex;gap:5px}
-.id-mb{width:32px;height:32px;background:var(--border-s);border:1.5px solid transparent;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;padding:4px}
-.id-mb.on{border-color:var(--indigo);background:var(--indigo-pale)}
+.lec-th{font-size:14px;font-weight:600;color:var(--text);font-family:'Lora',serif;max-width:160px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lec-badge{display:flex;align-items:center;gap:5px;background:var(--ip);border-radius:20px;padding:5px 10px;font-size:12px;font-weight:700;color:var(--indigo)}
+.prog-wrap{height:3px;background:var(--border);position:sticky;top:57px;z-index:99;flex-shrink:0}
+.prog-fill{height:100%;background:linear-gradient(90deg,var(--il),var(--indigo));transition:width .2s}
+.imm-strip{background:#fff;border-bottom:1px solid var(--bs);padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
+.imm-strip-l{font-size:11px;color:var(--mute)}
+.imm-strip-v{font-size:13px;font-weight:700;color:var(--indigo)}
+.imm-strip-bar{flex:1;height:4px;background:var(--border);border-radius:2px;margin:0 12px;overflow:hidden}
+.imm-strip-fill{height:100%;background:linear-gradient(90deg,var(--il),var(--indigo));border-radius:2px;transition:width .5s}
 .lec-main{padding:28px 22px 60px;flex:1}
 .cap-t{font-family:'Lora',serif;font-size:21px;font-weight:700;margin-bottom:6px}
 .cap-lb{font-size:13px;color:var(--mute);margin-bottom:24px}
@@ -160,21 +227,23 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .txt{font-family:'Lora',serif;font-size:18px;line-height:2;color:var(--text)}
 .par{margin-bottom:1.4em}
 .pal-k{color:var(--indigo);font-weight:600}
-.pal-n{position:relative;color:var(--indigo);font-weight:600;cursor:pointer;border-bottom:1.5px dashed var(--indigo-l)}
-.tt{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--text);color:#fff;border-radius:9px;padding:7px 12px;font-size:12px;white-space:nowrap;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);font-family:'Inter',sans-serif;font-weight:500;pointer-events:none;align-items:center;gap:6px}
+.pal-n{position:relative;color:var(--indigo);font-weight:600;cursor:pointer;border-bottom:1.5px dashed var(--il)}
+.tt{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--text);color:#fff;border-radius:9px;padding:7px 12px;font-size:12px;white-space:nowrap;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);font-family:'Inter',sans-serif;pointer-events:none;align-items:center;gap:6px}
 .tt::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--text)}
 .pal-n:hover .tt{display:flex}
 .to{color:rgba(255,255,255,.5);text-decoration:line-through;font-size:11px}
-.ta{color:var(--indigo-l);font-size:11px}
+.ta{color:var(--il);font-size:11px}
 .tn{color:#fff}
-.leyenda{margin-top:36px;padding:14px 16px;background:var(--indigo-pale);border-radius:var(--rs);font-size:13px;color:var(--soft);line-height:1.6}
-.pm-wrap{position:absolute;top:60px;right:16px;z-index:200;background:#fff;border-radius:var(--rs);border:1px solid var(--border);box-shadow:var(--sh2);min-width:200px;overflow:hidden}
-.pm-hdr{padding:14px 16px;border-bottom:1px solid var(--border-s)}
-.pm-name{font-size:14px;font-weight:700}
-.pm-email{font-size:12px;color:var(--mute)}
-.pm-item{display:flex;align-items:center;gap:10px;padding:12px 16px;font-size:14px;color:var(--text);cursor:pointer;border:none;background:none;width:100%;text-align:left;font-family:'Inter',sans-serif;font-weight:500;transition:background .15s}
-.pm-item:hover{background:var(--border-s)}
-.pm-item.danger{color:#DC2626}
+.leyenda{margin-top:36px;padding:14px 16px;background:var(--ip);border-radius:var(--rs);font-size:13px;color:var(--soft);line-height:1.6}
+
+/* CAP NAV */
+.cap-nav{display:flex;gap:10px;margin-top:36px}
+
+/* MODAL CAMBIO IDIOMA */
+.modal-bg{position:fixed;inset:0;background:rgba(15,23,42,.5);z-index:500;display:flex;align-items:flex-end;justify-content:center}
+.modal{background:#fff;border-radius:20px 20px 0 0;padding:28px 24px 40px;width:100%;max-width:480px}
+.modal-t{font-family:'Lora',serif;font-size:20px;font-weight:700;margin-bottom:8px}
+.modal-s{font-size:14px;color:var(--soft);margin-bottom:24px;line-height:1.5}
 </style>
 </head>
 <body>
@@ -182,61 +251,34 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
-// ── FLAGS SVG ──────────────────────────────────────────────────────────────────
-const FLAGS = {
-  en: () => React.createElement('svg',{viewBox:'0 0 36 36',xmlns:'http://www.w3.org/2000/svg'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'ce'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#ce)'},
-      React.createElement('rect',{width:36,height:36,fill:'#012169'}),
-      React.createElement('path',{d:'M0,0 L36,36 M36,0 L0,36',stroke:'#fff',strokeWidth:6}),
-      React.createElement('path',{d:'M0,0 L36,36 M36,0 L0,36',stroke:'#C8102E',strokeWidth:3.6}),
-      React.createElement('path',{d:'M18,0 V36 M0,18 H36',stroke:'#fff',strokeWidth:9}),
-      React.createElement('path',{d:'M18,0 V36 M0,18 H36',stroke:'#C8102E',strokeWidth:5.4}))),
-  fr: () => React.createElement('svg',{viewBox:'0 0 36 36'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'cf'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#cf)'},
-      React.createElement('rect',{width:12,height:36,fill:'#002395'}),
-      React.createElement('rect',{x:12,width:12,height:36,fill:'#fff'}),
-      React.createElement('rect',{x:24,width:12,height:36,fill:'#ED2939'}))),
-  de: () => React.createElement('svg',{viewBox:'0 0 36 36'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'cg'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#cg)'},
-      React.createElement('rect',{width:36,height:12,fill:'#000'}),
-      React.createElement('rect',{y:12,width:36,height:12,fill:'#DD0000'}),
-      React.createElement('rect',{y:24,width:36,height:12,fill:'#FFCE00'}))),
-  it: () => React.createElement('svg',{viewBox:'0 0 36 36'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'ci'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#ci)'},
-      React.createElement('rect',{width:12,height:36,fill:'#009246'}),
-      React.createElement('rect',{x:12,width:12,height:36,fill:'#fff'}),
-      React.createElement('rect',{x:24,width:12,height:36,fill:'#CE2B37'}))),
-  pt: () => React.createElement('svg',{viewBox:'0 0 36 36'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'cp'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#cp)'},
-      React.createElement('rect',{width:15,height:36,fill:'#006600'}),
-      React.createElement('rect',{x:15,width:21,height:36,fill:'#FF0000'}),
-      React.createElement('circle',{cx:15,cy:18,r:7,fill:'#FFD700',stroke:'#006600',strokeWidth:1}),
-      React.createElement('circle',{cx:15,cy:18,r:4.5,fill:'#fff',stroke:'#003399',strokeWidth:1.5}))),
-  ca: () => React.createElement('svg',{viewBox:'0 0 36 36'},
-    React.createElement('defs',null,React.createElement('clipPath',{id:'cca'},React.createElement('circle',{cx:18,cy:18,r:18}))),
-    React.createElement('g',{clipPath:'url(#cca)'},
-      React.createElement('rect',{width:36,height:36,fill:'#FCDD09'}),
-      ...[0,1,2,3].map(i=>React.createElement('rect',{key:i,x:0,y:i*9,width:36,height:4.5,fill:'#DA121A'})))),
+const {useState,useEffect,useRef}=React;
+const h=React.createElement;
+
+// ── FLAGS ──────────────────────────────────────────────────────────────────────
+const FLAGS={
+  en:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'ce'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#ce)'},h('rect',{width:36,height:36,fill:'#012169'}),h('path',{d:'M0,0 L36,36 M36,0 L0,36',stroke:'#fff',strokeWidth:6}),h('path',{d:'M0,0 L36,36 M36,0 L0,36',stroke:'#C8102E',strokeWidth:3.6}),h('path',{d:'M18,0 V36 M0,18 H36',stroke:'#fff',strokeWidth:9}),h('path',{d:'M18,0 V36 M0,18 H36',stroke:'#C8102E',strokeWidth:5.4}))),
+  fr:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'cf'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#cf)'},h('rect',{width:12,height:36,fill:'#002395'}),h('rect',{x:12,width:12,height:36,fill:'#fff'}),h('rect',{x:24,width:12,height:36,fill:'#ED2939'}))),
+  de:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'cg'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#cg)'},h('rect',{width:36,height:12,fill:'#000'}),h('rect',{y:12,width:36,height:12,fill:'#DD0000'}),h('rect',{y:24,width:36,height:12,fill:'#FFCE00'}))),
+  it:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'ci'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#ci)'},h('rect',{width:12,height:36,fill:'#009246'}),h('rect',{x:12,width:12,height:36,fill:'#fff'}),h('rect',{x:24,width:12,height:36,fill:'#CE2B37'}))),
+  pt:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'cp'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#cp)'},h('rect',{width:15,height:36,fill:'#006600'}),h('rect',{x:15,width:21,height:36,fill:'#FF0000'}),h('circle',{cx:15,cy:18,r:7,fill:'#FFD700',stroke:'#006600',strokeWidth:1}),h('circle',{cx:15,cy:18,r:4.5,fill:'#fff',stroke:'#003399',strokeWidth:1.5}))),
+  ca:()=>h('svg',{viewBox:'0 0 36 36'},h('defs',null,h('clipPath',{id:'cca'},h('circle',{cx:18,cy:18,r:18}))),h('g',{clipPath:'url(#cca)'},h('rect',{width:36,height:36,fill:'#FCDD09'}),...[0,1,2,3].map(i=>h('rect',{key:i,x:0,y:i*9,width:36,height:4.5,fill:'#DA121A'})))),
 };
+const Flag=({id,size=36})=>{const C=FLAGS[id];return C?h('div',{style:{width:size,height:size,borderRadius:'50%',overflow:'hidden',flexShrink:0}},h(C)):null;};
 
 const IDIOMAS=[{id:'en',n:'Inglés'},{id:'fr',n:'Francés'},{id:'de',n:'Alemán'},{id:'it',n:'Italiano'},{id:'pt',n:'Portugués'},{id:'ca',n:'Catalán'}];
 
+// ── EXPRESIONES ────────────────────────────────────────────────────────────────
 const EXPR=[
-  {es:'había una vez',en:'once upon a time',fr:'il était une fois',de:'es war einmal',it:'c\'era una volta',pt:'era uma vez',ca:'hi havia una vegada'},
-  {es:'y vivieron felices para siempre',en:'and they lived happily ever after',fr:'et ils vécurent heureux pour toujours',de:'und sie lebten glücklich bis ans Ende',it:'e vissero felici e contenti',pt:'e viveram felizes para sempre',ca:'i visqueren feliços per sempre'},
-  {es:'de repente',en:'suddenly',fr:'soudain',de:'plötzlich',it:'all\'improvviso',pt:'de repente',ca:'de sobte'},
+  {es:'había una vez',en:'once upon a time',fr:'il était une fois',de:'es war einmal',it:"c'era una volta",pt:'era uma vez',ca:'hi havia una vegada'},
+  {es:'y vivieron felices para siempre',en:'and they lived happily ever after',fr:'et ils vécurent heureux pour toujours',de:'und sie lebten glücklich',it:'e vissero felici e contenti',pt:'e viveram felizes para sempre',ca:'i visqueren feliços per sempre'},
+  {es:'de repente',en:'suddenly',fr:'soudain',de:'plötzlich',it:"all'improvviso",pt:'de repente',ca:'de sobte'},
   {es:'sin embargo',en:'however',fr:'cependant',de:'jedoch',it:'tuttavia',pt:'no entanto',ca:'tanmateix'},
   {es:'a lo lejos',en:'in the distance',fr:'au loin',de:'in der Ferne',it:'in lontananza',pt:'ao longe',ca:'a la llunyania'},
   {es:'por fin',en:'at last',fr:'enfin',de:'endlich',it:'finalmente',pt:'por fim',ca:'per fi'},
   {es:'poco a poco',en:'little by little',fr:'peu à peu',de:'nach und nach',it:'poco a poco',pt:'pouco a pouco',ca:'a poc a poc'},
   {es:'al cabo de los años',en:'after many years',fr:'après de nombreuses années',de:'nach vielen Jahren',it:'dopo tanti anni',pt:'passados muitos anos',ca:'al cap dels anys'},
-  {es:'en cambio',en:'instead',fr:'en revanche',de:'hingegen',it:'invece',pt:'em vez disso',ca:'en canvi'},
   {es:'al mismo tiempo',en:'at the same time',fr:'en même temps',de:'zur gleichen Zeit',it:'allo stesso tempo',pt:'ao mesmo tempo',ca:'al mateix temps'},
+  {es:'en cambio',en:'instead',fr:'en revanche',de:'hingegen',it:'invece',pt:'em vez disso',ca:'en canvi'},
   {es:'rey',en:'king',fr:'roi',de:'König',it:'re',pt:'rei',ca:'rei'},
   {es:'reina',en:'queen',fr:'reine',de:'Königin',it:'regina',pt:'rainha',ca:'reina'},
   {es:'príncipe',en:'prince',fr:'prince',de:'Prinz',it:'principe',pt:'príncipe',ca:'príncep'},
@@ -266,69 +308,67 @@ const EXPR=[
   {es:'camino',en:'path',fr:'chemin',de:'Weg',it:'sentiero',pt:'caminho',ca:'camí'},
   {es:'mágico',en:'magical',fr:'magique',de:'magisch',it:'magico',pt:'mágico',ca:'màgic'},
   {es:'oscuro',en:'dark',fr:'sombre',de:'dunkel',it:'oscuro',pt:'escuro',ca:'fosc'},
+  {es:'cazador',en:'hunter',fr:'chasseur',de:'Jäger',it:'cacciatore',pt:'caçador',ca:'caçador'},
+  {es:'nieve',en:'snow',fr:'neige',de:'Schnee',it:'neve',pt:'neve',ca:'neu'},
+  {es:'sangre',en:'blood',fr:'sang',de:'Blut',it:'sangue',pt:'sangue',ca:'sang'},
 ];
 EXPR.sort((a,b)=>b.es.length-a.es.length);
 
+// ── LIBROS ────────────────────────────────────────────────────────────────────
 const LIBROS=[
-  {id:1,tit:'Blancanieves',aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🍎',caps:[
-    {tit:'La reina malvada',txt:`Había una vez, en pleno invierno, cuando los copos de nieve caían del cielo como plumas, una reina que estaba sentada cosiendo junto a una ventana con marco de ébano negro. Mientras cosía y miraba caer la nieve, se pinchó el dedo con la aguja y cayeron tres gotas de sangre sobre la nieve blanca. Pensó la reina: «¡Ojalá tuviera una hija tan blanca como la nieve, tan roja como la sangre y tan negra como el ébano!».
+  {id:1,tit:'Blancanieves',aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🍎',totalCaps:3,caps:[
+    {tit:'La reina malvada',txt:`Había una vez, en pleno invierno, cuando los copos de nieve caían del cielo como plumas, una reina que estaba sentada cosiendo junto a una ventana con marco de ébano negro. Mientras cosía y miraba caer la nieve, se pinchó el dedo con la aguja y cayeron tres gotas de sangre sobre la nieve blanca. Pensó la reina: ojalá tuviera una hija tan blanca como la nieve, tan roja como la sangre y tan negra como el ébano de ese marco.
 
 Poco después tuvo una hija de piel blanca como la nieve, mejillas rosadas como la sangre y cabello negro como el ébano, y la llamaron Blancanieves. Pero cuando la niña nació, la reina madre murió.
 
-Al cabo de los años, el rey tomó una segunda esposa. Era una mujer hermosa, pero soberbia y arrogante, y no podía soportar que nadie la superase en belleza. Tenía un espejo mágico, y cuando se miraba en él preguntaba: «Espejo, espejito, ¿quién es la más hermosa del reino?». Y el espejo siempre respondía: «Vos, mi señora, sois la más hermosa del reino».
+Al cabo de los años, el rey tomó una segunda esposa. Era una mujer hermosa, pero soberbia y arrogante, y no podía soportar que nadie la superase en belleza. Tenía un espejo mágico, y cuando se miraba en él preguntaba: espejo, espejito, quién es la más hermosa del reino. Y el espejo siempre respondía: vos, mi señora, sois la más hermosa del reino.
 
-Sin embargo, Blancanieves fue creciendo. Al cumplir los siete años era más bella que la propia reina. Un día, al preguntarle al espejo quién era la más hermosa, el espejo respondió: «Blancanieves es mil veces más hermosa que vos». La reina se quedó petrificada, y desde aquel momento el corazón se le llenó de envidia y odio.`},
-    {tit:'La huida al bosque',txt:`De repente, la reina llamó a un cazador y le ordenó: «Llévate a la niña al bosque oscuro. No quiero volver a verla. La matarás y me traerás su corazón como prueba».
-
-El cazador obedeció y se llevó a Blancanieves al bosque. Pero cuando ya iba a sacar su cuchillo, la niña se echó a llorar: «¡Ay, querido cazador, déjame con vida! Me internaré en el bosque y no volveré jamás».
-
-Como era tan hermosa, el cazador se apiadó de ella. «Corre, pobre niña», le dijo, pensando que las fieras del bosque acabarían con ella de todos modos. Mató un jabalí, le sacó el corazón y se lo llevó a la reina malvada como prueba.
+Sin embargo, Blancanieves fue creciendo. Al cumplir los siete años era más hermosa que la propia reina. Un día el espejo respondió: Blancanieves es mil veces más hermosa. La reina se quedó petrificada, y desde aquel momento el corazón se le llenó de envidia y miedo.`},
+    {tit:'La huida al bosque',txt:`De repente, la reina llamó a un cazador y le ordenó llevarse a la niña al bosque oscuro y matarla. Pero cuando el cazador ya iba a sacar su cuchillo, Blancanieves se echó a llorar y le rogó que la dejase con vida. Como era tan hermosa, el cazador se apiadó de ella y la dejó correr al bosque.
 
 Así Blancanieves se encontró sola en el gran bosque oscuro. Tuvo mucho miedo y corrió sobre las piedras y entre los matorrales. Los animales salvajes pasaban a su lado sin hacerle daño. Corrió todo cuanto le alcanzaron las piernas, y cuando ya anochecía divisó a lo lejos una casita pequeña y entró en ella para descansar.
 
-En la casita todo era diminuto pero tan bonito y tan limpio que no hay palabras para describirlo. Había una mesita cubierta con un mantel blanco y siete platitos pequeños, siete jarritas, siete cuchillos y siete tenedores. Contra la pared había siete camitas alineadas con sábanas blancas como la nieve.`},
-    {tit:'Los siete enanitos',txt:`Blancanieves, que tenía mucha hambre y sed, comió un poquito de cada plato y bebió una gota de cada jarrita. Después, agotada, se tumbó en la séptima camita y se quedó dormida.
+En la casita todo era diminuto pero tan bonito y tan limpio que no hay palabras para describirlo. Había una mesita cubierta con un mantel blanco, siete platitos pequeños, siete jarritas, siete cuchillos y siete tenedores. Contra la pared había siete camitas alineadas con sábanas blancas como la nieve. Blancanieves, que tenía mucha hambre y sed, comió un poquito de cada plato y se durmió en la séptima camita.`},
+    {tit:'Los siete enanitos',txt:`Por fin llegaron los dueños de la casita: los siete enanitos que trabajaban en las montañas. Encendieron sus velitas y vieron que alguien había estado allí. El séptimo, al mirar su cama, encontró a Blancanieves dormida. Los demás acudieron corriendo. Cómo era tan hermosa, decidieron no despertarla.
 
-Por fin llegaron los dueños de la casita: los siete enanitos que trabajaban en las montañas. Encendieron sus velitas y vieron que alguien había estado allí.
+A la mañana siguiente, Blancanieves les contó su historia. Los enanitos le ofrecieron quedarse con ellos: si cuidas la casa y cocinas para nosotros, podrás vivir aquí sin ningún peligro. Blancanieves aceptó de buen corazón y así vivió feliz con los enanitos.
 
-—¿Quién se ha sentado en mi sillita? —dijo el primero.
-—¿Quién ha comido en mi platito? —dijo el segundo.
-—¿Quién ha bebido de mi jarrita? —dijo el tercero.
-
-Pero el séptimo, al mirar su cama, exclamó: «¡Hay alguien aquí!». Los demás acudieron corriendo con sus velitas y alumbraron a Blancanieves dormida. «¡Dios mío, qué hermosa es!», susurraron, y decidieron no despertarla.
-
-A la mañana siguiente, Blancanieves se despertó y sintió mucho miedo al ver a los siete enanitos. Pero ellos fueron amables con ella, y cuando les contó su historia, le ofrecieron quedarse. «Si cuidas la casa y cocinas para nosotros, podrás vivir aquí sin ningún peligro», le dijeron. Blancanieves aceptó de buen corazón, y así vivió feliz con los enanitos en el bosque.`}
+Sin embargo, la malvada reina consultó de nuevo su espejo mágico y descubrió que Blancanieves seguía viva en el bosque. Ardiendo de envidia, disfrazó su hermosa cara con la de una anciana y se dirigió a la casita. Llamó a la puerta ofreciendo manzanas rojas y brillantes. Blancanieves, que no reconoció a la reina disfrazada, aceptó una manzana envenenada y cayó al suelo sin vida.`}
   ]},
-  {id:2,tit:'La Sirenita',aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🌊',caps:[
-    {tit:'El fondo del mar',txt:`Había una vez, muy lejos en alta mar, donde el agua es tan azul como los pétalos del aciano más hermoso y tan transparente como el cristal más puro, un lugar muy profundo donde ningún ancla había llegado jamás. Allá en el fondo vivían las gentes del mar.
+  {id:2,tit:'La Sirenita',aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🌊',totalCaps:2,caps:[
+    {tit:'El fondo del mar',txt:`Había una vez, muy lejos en alta mar, donde el agua es tan azul como los pétalos del aciano más hermoso y tan transparente como el cristal, un lugar muy profundo donde ningún ancla había llegado jamás. Allá en el fondo vivían las gentes del mar.
 
-El palacio del Rey del Mar tenía paredes de coral, ventanas de ámbar amarillo, y techos de conchas que se abrían y cerraban según la corriente. En cada concha brillaban perlas que serían un magnífico ornamento en la corona de cualquier reina.
+El palacio del Rey del Mar tenía paredes de coral, ventanas de ámbar amarillo, y techos de conchas que se abrían y cerraban según la corriente. Era muy hermoso, porque en cada concha brillaban perlas que serían un magnífico ornamento en la corona de cualquier reina.
 
-El rey llevaba muchos años viudo, y su anciana madre cuidaba de su palacio y de sus seis nietas, las pequeñas sirenas. La más joven era la más hermosa de todas. Tenía la piel suave como un pétalo de rosa y los ojos azules y profundos como el mar más hondo. Sin embargo, como todas las demás, no tenía pies: su cuerpo terminaba en cola de pez.
+El rey llevaba muchos años viudo, y su anciana madre cuidaba del palacio y de sus seis nietas. La más joven era la más hermosa de todas. Tenía la piel suave como un pétalo de rosa y los ojos azules y profundos como el mar más hondo. Sin embargo, como todas las demás, no tenía pies: su cuerpo terminaba en cola de pez.
 
-Cada una de las princesas tenía su propio jardín en el fondo del mar. La más pequeña plantó el suyo de flores de color rojo como el sol, y colocó en el centro una estatua de mármol blanco que representaba a un hermoso muchacho, caída al fondo del mar desde un naufragio. Junto a la estatua plantó un sauce rosado que creció espléndido y colgaba sus ramas sobre ella como un manto de sueños.`},
-    {tit:'El mundo de arriba',txt:`Lo que más deseaba la sirenita era saber cómo era el mundo de arriba, el mundo de los humanos. Su abuela le contaba historias sobre barcos y ciudades, sobre bosques y animales. Le explicó que las flores de la superficie tenían aroma, cosa que no sucedía en el fondo del mar, y que los peces que cantaban entre los árboles —a los que llamaban pájaros— lo hacían mucho más hermoso que cualquier criatura del mar.
+Cada una de las princesas tenía su propio jardín. La más pequeña plantó el suyo de flores de color rojo como el sol, y colocó en el centro una hermosa estatua de mármol blanco que representaba a un joven muchacho, caída al fondo del mar desde un naufragio. Junto a la estatua plantó un sauce rosado que creció espléndido y colgaba sus ramas sobre la figura como un manto.`},
+    {tit:'El mundo de arriba',txt:`Lo que más deseaba la sirenita era saber cómo era el mundo de arriba, el mundo de los humanos. Su abuela le contaba historias sobre barcos y ciudades, sobre bosques y animales. Le explicó que las flores de la superficie tenían aroma, y que los peces que cantaban entre los árboles, que los humanos llamaban pájaros, lo hacían con una belleza que ninguna criatura del mar podía igualar.
 
-—Cuando cumpláis quince años —les prometía la abuela— podréis subir a la superficie y sentaros en las rocas a la luz de la luna y ver los barcos pasar.
+Por fin llegó el turno de la sirenita. Subió a la superficie como una burbuja, ligera y silenciosa. El sol acababa de ponerse y las nubes brillaban como rosas y oro. En medio del mar quieto se mecía un gran barco con tres mástiles. En cubierta había música y luces, y cuando oscureció del todo, cientos de farolillos de colores se encendieron, haciendo que el barco pareciera flotar entre las estrellas.
 
-Por fin llegó el turno de la sirenita pequeña. Subió a la superficie como una burbuja, ligera y silenciosa. El sol acababa de ponerse y las nubes brillaban como rosas y oro. En medio del mar quieto se mecía un gran barco con tres mástiles. En cubierta había música y luces, y cuando oscureció del todo, cientos de farolillos de colores se encendieron, haciendo que el barco pareciera flotar entre las estrellas.
-
-La sirenita nadó hasta acercarse a las ventanas de la cabina y pudo ver dentro: había muchos hombres elegantes, pero el más hermoso era un joven príncipe de ojos negros y profundos. No podría tener más de dieciséis años. Era su cumpleaños, y por eso había tanta fiesta y alegría a bordo.`}
+La sirenita nadó hasta acercarse a las ventanas y pudo ver dentro: había muchos hombres elegantes, pero el más hermoso era un joven príncipe de ojos negros y profundos. Era su cumpleaños, y por eso había tanta fiesta y alegría a bordo. De repente, el cielo se cubrió de nubes negras y el mar comenzó a rugir. La sirenita vio cómo el barco se sacudía como una pluma en el viento.`}
   ]},
-  {id:3,tit:'Caperucita Roja',aut:'Hermanos Grimm',cat:'Grimm',gratis:false,cov:'grimm',emo:'🐺',caps:[{tit:'',txt:''}]},
-  {id:4,tit:'El Patito Feo',aut:'H.C. Andersen',cat:'Andersen',gratis:false,cov:'andersen',emo:'🦢',caps:[{tit:'',txt:''}]},
+  {id:3,tit:'Caperucita Roja',aut:'Hermanos Grimm',cat:'Grimm',gratis:false,cov:'grimm',emo:'🐺',totalCaps:2,caps:[]},
+  {id:4,tit:'El Patito Feo',aut:'H.C. Andersen',cat:'Andersen',gratis:false,cov:'andersen',emo:'🦢',totalCaps:3,caps:[]},
 ];
 
-// ── MEZCLA ─────────────────────────────────────────────────────────────────────
-function mezclar(txt,idioma,pct,aprendidas){
-  const tokens=[];
-  let i=0;
+// ── MEZCLA ────────────────────────────────────────────────────────────────────
+function calcPct(capIdx,totalCaps){
+  // Cap 0 = 20%, último = 90%, progresión lineal
+  const min=20,max=90;
+  if(totalCaps<=1)return min;
+  return Math.round(min+(max-min)*(capIdx/(totalCaps-1)));
+}
+
+function mezclar(txt,idioma,pct,aprd){
+  const tokens=[];let i=0;
   while(i<txt.length){
     let matched=false;
     for(const e of EXPR){
-      if(txt.substring(i).toLowerCase().startsWith(e.es)){
-        const trad=e[idioma];
-        if(trad){tokens.push({tipo:'e',orig:txt.substring(i,i+e.es.length),trad,key:e.es});i+=e.es.length;matched=true;break;}
+      if(txt.substring(i).toLowerCase().startsWith(e.es)&&e[idioma]){
+        tokens.push({tipo:'e',orig:txt.substring(i,i+e.es.length),trad:e[idioma],key:e.es});
+        i+=e.es.length;matched=true;break;
       }
     }
     if(matched)continue;
@@ -336,72 +376,45 @@ function mezclar(txt,idioma,pct,aprendidas){
     if(wm){tokens.push({tipo:'w',txt:wm[0]});i+=wm[0].length;}
     else{tokens.push({tipo:'l',txt:txt[i]});i++;}
   }
-  const cands=tokens.filter(t=>(t.tipo==='e')||(t.tipo==='w'&&EXPR.some(e=>e.es===t.txt.toLowerCase())));
+  const cands=tokens.filter(t=>t.tipo==='e'||(t.tipo==='w'&&EXPR.some(e=>e.es===t.txt.toLowerCase())));
   const n=Math.floor(cands.length*(pct/100));
   const chosen=new Set(cands.sort(()=>Math.random()-.5).slice(0,n).map(t=>t.tipo==='e'?t.key:t.txt.toLowerCase()));
   return tokens.map(t=>{
     if(t.tipo==='l')return{r:'l',txt:t.txt};
-    if(t.tipo==='e'){
-      const ya=aprendidas.has(t.key);
-      const sel=chosen.has(t.key);
-      return{r:ya?'k':(sel?'n':'p'),orig:t.orig,trad:t.trad,key:t.key};
-    }
-    const e=EXPR.find(ex=>ex.es===t.txt.toLowerCase());
-    if(e&&e[idioma]){
-      const ya=aprendidas.has(e.es);const sel=chosen.has(e.es);
-      return{r:ya?'k':(sel?'n':'p'),orig:t.txt,trad:e[idioma],key:e.es};
-    }
+    if(t.tipo==='e'){const ya=aprd.has(t.key);return{r:ya?'k':(chosen.has(t.key)?'n':'p'),orig:t.orig,trad:t.trad,key:t.key};}
+    const e=EXPR.find(x=>x.es===t.txt.toLowerCase());
+    if(e&&e[idioma]){const ya=aprd.has(e.es);return{r:ya?'k':(chosen.has(e.es)?'n':'p'),orig:t.txt,trad:e[idioma],key:e.es};}
     return{r:'p',txt:t.txt};
   });
 }
 
-// ── COMPONENTES ────────────────────────────────────────────────────────────────
-const {useState,useEffect,useRef}=React;
-
+// ── COMPONENTES TEXTO ─────────────────────────────────────────────────────────
 function Palabra({tok,onApr}){
   const [hov,setHov]=useState(false);
-  if(tok.r==='l'||tok.r==='p')return React.createElement('span',null,tok.txt||tok.orig);
-  if(tok.r==='k')return React.createElement('span',{className:'pal-k'},tok.trad);
-  return React.createElement('span',{
-    className:'pal-n',
-    onMouseEnter:()=>setHov(true),
-    onMouseLeave:()=>setHov(false),
-    onTouchStart:e=>{e.preventDefault();setHov(v=>!v);},
-    onClick:()=>{onApr(tok.key);setHov(false);}
-  },
+  if(tok.r==='l'||tok.r==='p')return h('span',null,tok.txt||tok.orig);
+  if(tok.r==='k')return h('span',{className:'pal-k'},tok.trad);
+  return h('span',{className:'pal-n',onMouseEnter:()=>setHov(true),onMouseLeave:()=>setHov(false),onTouchStart:e=>{e.preventDefault();setHov(v=>!v);},onClick:()=>{onApr(tok.key);setHov(false);}},
     tok.trad,
-    hov&&React.createElement('span',{className:'tt'},
-      React.createElement('span',{className:'to'},tok.orig),
-      React.createElement('span',{className:'ta'},'→'),
-      React.createElement('span',{className:'tn'},tok.trad)
-    )
+    hov&&h('span',{className:'tt'},h('span',{className:'to'},tok.orig),h('span',{className:'ta'},'→'),h('span',{className:'tn'},tok.trad))
   );
 }
-
 function renderTxt(toks,onApr){
   const lines=[];let cur=[];
-  toks.forEach((t,i)=>{
-    if(t.r==='l'&&(t.txt==='\n')){if(cur.length){lines.push([...cur]);cur=[];};}
-    else cur.push({...t,i});
+  toks.forEach(t=>{
+    if(t.r==='l'&&t.txt==='\n'){if(cur.length){lines.push([...cur]);cur=[];}}
+    else cur.push(t);
   });
   if(cur.length)lines.push(cur);
-  return lines.map((ln,li)=>React.createElement('p',{key:li,className:'par'},
-    ln.map((t,ti)=>React.createElement(Palabra,{key:ti,tok:t,onApr}))
-  ));
+  return lines.map((ln,li)=>h('p',{key:li,className:'par'},ln.map((t,ti)=>h(Palabra,{key:ti,tok:t,onApr}))));
 }
 
-function Flag({id,size=36}){
-  const C=FLAGS[id];
-  return C?React.createElement('div',{style:{width:size,height:size}},React.createElement(C)):null;
-}
-
-// AUTH HOOK
+// ── AUTH HOOK ─────────────────────────────────────────────────────────────────
 function useAuth(){
   const [user,setUser]=useState(()=>{try{return JSON.parse(localStorage.getItem('tx_u')||'null');}catch{return null;}});
-  function reg(name,email,pw){
+  function reg(name,email,pw,idioma){
     const us=JSON.parse(localStorage.getItem('tx_us')||'{}');
     if(us[email])return{error:'Este email ya está registrado.'};
-    const u={name,email,racha:0,idioma:'en'};
+    const u={name,email,racha:0,idioma};
     us[email]={...u,pw};
     localStorage.setItem('tx_us',JSON.stringify(us));
     localStorage.setItem('tx_u',JSON.stringify(u));
@@ -419,253 +432,372 @@ function useAuth(){
   return{user,reg,login,logout,upd};
 }
 
-function Login({onLogin,onReg}){
-  const [e,setE]=useState('');const [p,setP]=useState('');const [err,setErr]=useState('');
-  function go(){const r=onLogin(e,p);if(r.error)setErr(r.error);}
-  return React.createElement('div',{className:'auth'},
-    React.createElement('div',{className:'auth-logo'},
-      React.createElement('div',{className:'auth-lm'},React.createElement('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:26,height:26},React.createElement('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),React.createElement('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}))),
-      React.createElement('span',{className:'auth-lt'},'Talixea')),
-    React.createElement('div',{className:'auth-card'},
-      React.createElement('h1',{className:'auth-title'},'Bienvenido de nuevo'),
-      React.createElement('p',{className:'auth-sub'},'Continúa tu aventura de aprendizaje'),
-      err&&React.createElement('div',{className:'auth-err'},err),
-      React.createElement('div',{className:'fg'},React.createElement('label',null,'Email'),React.createElement('input',{type:'email',value:e,onChange:ev=>setE(ev.target.value),placeholder:'tu@email.com'})),
-      React.createElement('div',{className:'fg'},React.createElement('label',null,'Contraseña'),React.createElement('input',{type:'password',value:p,onChange:ev=>setP(ev.target.value),placeholder:'••••••••',onKeyDown:ev=>ev.key==='Enter'&&go()})),
-      React.createElement('button',{className:'btn-p',onClick:go},'Entrar'),
-      React.createElement('div',{className:'auth-foot'},'¿No tienes cuenta? ',React.createElement('button',{className:'lnk',onClick:onReg},'Regístrate gratis'))
-    )
+// ── LANDING PAGE ──────────────────────────────────────────────────────────────
+function Landing({onLogin,onReg}){
+  const [demoImm,setDemoImm]=useState(35);
+  const [faqOpen,setFaqOpen]=useState(null);
+  const DEMO_IDIOMA='en';
+
+  const demoBase=`Había una vez una princesa que vivía en un gran castillo en el bosque oscuro. Era muy hermosa y muy valiente, pero vivía sola porque su madre había muerto hace muchos años.`;
+  const demoToks=mezclar(demoBase,DEMO_IDIOMA,demoImm,new Set());
+
+  const FAQS=[
+    {q:'¿El método funciona de verdad?',a:'Sí. El método diglot weave está respaldado por investigación científica. Tu cerebro aprende vocabulario y gramática en contexto real, que es exactamente cómo los niños adquieren su lengua materna. Los estudios muestran mejor retención y más velocidad de aprendizaje frente a métodos tradicionales.'},
+    {q:'¿Qué idiomas están disponibles?',a:'Inglés, Francés, Alemán, Italiano, Portugués y Catalán. Estamos trabajando en añadir más idiomas basándonos en las peticiones de nuestra comunidad.'},
+    {q:'¿Cómo funciona la inmersión progresiva?',a:'Empiezas leyendo textos con solo un 20% de palabras en el idioma nuevo. Conforme avanzas capítulos, el porcentaje sube gradualmente hasta el 90% al final del libro. Así nunca te sientes perdido pero siempre estás aprendiendo.'},
+    {q:'¿Es realmente gratis?',a:'Sí. El plan gratuito incluye todos los idiomas, inmersión hasta el 60% y acceso a una selección de libros. El plan Premium desbloquea la biblioteca completa, inmersión al 100% y estadísticas avanzadas.'},
+    {q:'¿Puedo cambiar de idioma en medio de un libro?',a:'No, y es intencional. Como en Duolingo, el idioma que estás aprendiendo se mantiene fijo para que tu cerebro construya consistencia. Puedes añadir un segundo idioma en cualquier momento desde tu perfil.'},
+  ];
+
+  const IcoLibro=()=>h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:20,height:20},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));
+
+  return h('div',{className:'landing'},
+    // NAV
+    h('nav',{className:'lnav'},
+      h('div',{className:'lnav-logo'},
+        h('div',{className:'lnav-mark'},h(IcoLibro)),
+        h('span',{className:'lnav-t'},'Talixea')),
+      h('div',{className:'lnav-btns'},
+        h('button',{className:'lnav-in',onClick:onLogin},'Iniciar sesión'),
+        h('button',{className:'lnav-reg',onClick:onReg},'Empezar gratis'))),
+
+    // HERO
+    h('section',{className:'hero-sec'},
+      h('div',{className:'hero-blob'}),
+      h('div',{className:'hero-badge'},'✦ Método científicamente probado'),
+      h('h1',{className:'hero-h'},'Aprende idiomas ',h('em',null,'leyendo'),'.',h('br'),null,'Como siempre debió ser.'),
+      h('p',{className:'hero-sub'},'Talixea mezcla tu idioma nativo con el que estás aprendiendo dentro de textos reales. Tu cerebro absorbe el idioma de forma natural, sin flashcards ni ejercicios aburridos.'),
+      h('div',{className:'hero-btns'},
+        h('button',{className:'btn-p',onClick:onReg},'Empezar gratis — sin tarjeta'),
+        h('button',{className:'btn-g',onClick:onLogin},'Ya tengo cuenta')),
+      h('div',{className:'hero-trust'},
+        h('div',{className:'hero-trust-item'},'✓ Gratis para siempre'),
+        h('div',{className:'hero-trust-item'},'✓ 6 idiomas'),
+        h('div',{className:'hero-trust-item'},'✓ Sin anuncios en Premium'))),
+
+    // DEMO INTERACTIVA
+    h('section',{className:'demo-sec'},
+      h('div',{className:'demo-card'},
+        h('div',{className:'demo-header'},
+          h('span',{className:'demo-libro'},'📖 Blancanieves · Grimm'),
+          h('div',{className:'demo-lang'},h(Flag,{id:'en',size:16}),'Inglés')),
+        h('div',{className:'demo-slider-wrap'},
+          h('div',{className:'demo-slider-lbl'},
+            h('span',null,'Nivel de inmersión'),
+            h('span',{style:{color:'var(--indigo)',fontWeight:700}},`${demoImm}%`)),
+          h('input',{type:'range',min:0,max:100,value:demoImm,className:'demo-slider',
+            style:{background:`linear-gradient(90deg,var(--indigo) ${demoImm}%,var(--border) ${demoImm}%)`},
+            onChange:e=>setDemoImm(+e.target.value)})),
+        h('div',{className:'demo-txt'},
+          renderTxt(demoToks,()=>{})))),
+
+    // FEATURES
+    h('section',{className:'feat-sec'},
+      h('div',{className:'feat-label'},'Funcionalidades'),
+      h('h2',{className:'feat-h'},'Todo lo que necesitas para aprender de verdad'),
+      h('div',{className:'feat-list'},
+        [{ico:'📈',t:'Inmersión progresiva automática',d:'Empiezas con el 20% en el nuevo idioma. Cada capítulo sube el nivel hasta llegar al 90% al final. Nunca te pierdes, siempre avanzas.'},
+         {ico:'🔥',t:'Racha diaria',d:'Establece tu meta diaria (minutos, palabras o páginas) y mantén tu racha. La constancia es el secreto del aprendizaje.'},
+         {ico:'💡',t:'Traducciones al instante',d:'Pasa el ratón o toca cualquier palabra en el nuevo idioma para ver el original. Haz clic para marcarla como aprendida.'},
+         {ico:'📚',t:'Biblioteca de clásicos',d:'Textos reales de dominio público: Grimm, Andersen, y más. Literatura auténtica, no frases inventadas.'},
+         {ico:'🎯',t:'Palabras aprendidas',d:'Las palabras que ya conoces aparecen siempre en el idioma nuevo, sin tooltip. Tu vocabulario crece de forma visible.'},
+        ].map((f,i)=>h('div',{key:i,className:'feat-item'},
+          h('div',{className:'feat-ico'},f.ico),
+          h('div',{className:'feat-body'},h('h3',null,f.t),h('p',null,f.d)))))),
+
+    // CIENCIA
+    h('section',{className:'sci-sec'},
+      h('div',{className:'feat-label'},'Respaldado por la ciencia'),
+      h('p',{className:'sci-quote'},'"Learners who read diglot weave texts showed significantly faster vocabulary acquisition and better long-term retention compared to traditional methods."'),
+      h('p',{className:'sci-author'},'— Evans et al., 2020 · Second Language Vocabulary Acquisition')),
+
+    // FAQ
+    h('section',{className:'faq-sec'},
+      h('div',{className:'feat-label'},'Preguntas frecuentes'),
+      h('h2',{className:'feat-h'},'Todo lo que necesitas saber'),
+      FAQS.map((f,i)=>h('div',{key:i,className:'faq-item',onClick:()=>setFaqOpen(faqOpen===i?null:i)},
+        h('div',{className:'faq-q'},
+          h('span',{className:'faq-qt'},f.q),
+          h('span',{className:`faq-ico ${faqOpen===i?'open':''}`,style:{fontStyle:'normal'}},'+')),
+        h('p',{className:`faq-a ${faqOpen===i?'open':''}`},f.a)))),
+
+    // CTA FINAL
+    h('section',{className:'cta-sec'},
+      h('h2',{className:'cta-h'},'Empieza a leer hoy.',h('br'),'En serio.'),
+      h('p',{className:'cta-sub'},'Únete gratis. Sin tarjeta de crédito. Sin trucos. Solo buenos libros y un idioma nuevo.'),
+      h('button',{className:'btn-p',onClick:onReg},'Crear cuenta gratis'),
+      h('div',{className:'cta-trust'},
+        ['Gratis para siempre','6 idiomas disponibles','Sin tarjeta de crédito'].map((t,i)=>h('span',{key:i,className:'cta-trust-item'},t)))),
+
+    h('footer',{className:'lfoot'},'© 2025 Talixea · Aprende idiomas leyendo')
   );
 }
 
+// ── REGISTRO ──────────────────────────────────────────────────────────────────
 function Registro({onReg,onLogin}){
-  const [n,setN]=useState('');const [e,setE]=useState('');const [p,setP]=useState('');const [err,setErr]=useState('');
-  function go(){
-    if(!n.trim())return setErr('Escribe tu nombre.');
-    if(!e.includes('@'))return setErr('Email no válido.');
-    if(p.length<6)return setErr('Mínimo 6 caracteres.');
-    const r=onReg(n,e,p);if(r.error)setErr(r.error);
+  const [paso,setPaso]=useState(1);
+  const [name,setName]=useState('');const [email,setEmail]=useState('');const [pw,setPw]=useState('');
+  const [idioma,setIdioma]=useState('');const [err,setErr]=useState('');
+  const IcoLibro=()=>h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:24,height:24},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));
+
+  function paso1(){
+    if(!name.trim())return setErr('Escribe tu nombre.');
+    if(!email.includes('@'))return setErr('Email no válido.');
+    if(pw.length<6)return setErr('Mínimo 6 caracteres.');
+    setErr('');setPaso(2);
   }
-  return React.createElement('div',{className:'auth'},
-    React.createElement('div',{className:'auth-logo'},
-      React.createElement('div',{className:'auth-lm'},React.createElement('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:26,height:26},React.createElement('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),React.createElement('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}))),
-      React.createElement('span',{className:'auth-lt'},'Talixea')),
-    React.createElement('div',{className:'auth-card'},
-      React.createElement('h1',{className:'auth-title'},'Crea tu cuenta'),
-      React.createElement('p',{className:'auth-sub'},'Aprende idiomas leyendo. Es gratis.'),
-      err&&React.createElement('div',{className:'auth-err'},err),
-      React.createElement('div',{className:'fg'},React.createElement('label',null,'Nombre'),React.createElement('input',{type:'text',value:n,onChange:ev=>setN(ev.target.value),placeholder:'Tu nombre'})),
-      React.createElement('div',{className:'fg'},React.createElement('label',null,'Email'),React.createElement('input',{type:'email',value:e,onChange:ev=>setE(ev.target.value),placeholder:'tu@email.com'})),
-      React.createElement('div',{className:'fg'},React.createElement('label',null,'Contraseña'),React.createElement('input',{type:'password',value:p,onChange:ev=>setP(ev.target.value),placeholder:'Mínimo 6 caracteres',onKeyDown:ev=>ev.key==='Enter'&&go()})),
-      React.createElement('button',{className:'btn-p',onClick:go},'Crear cuenta'),
-      React.createElement('div',{className:'auth-foot'},'¿Ya tienes cuenta? ',React.createElement('button',{className:'lnk',onClick:onLogin},'Inicia sesión'))
+  function paso2(){
+    if(!idioma)return setErr('Elige el idioma que quieres aprender.');
+    const r=onReg(name,email,pw,idioma);
+    if(r.error)setErr(r.error);
+  }
+
+  return h('div',{className:'auth'},
+    h('div',{className:'auth-logo'},
+      h('div',{className:'auth-lm'},h(IcoLibro)),
+      h('span',{className:'auth-lt'},'Talixea')),
+    h('div',{className:'auth-card'},
+      paso===1?[
+        h('h1',{key:'t',className:'auth-title'},'Crea tu cuenta'),
+        h('p',{key:'s',className:'auth-sub'},'Empieza a aprender idiomas leyendo. Es gratis.'),
+        err&&h('div',{key:'e',className:'auth-err'},err),
+        h('div',{key:'n',className:'fg'},h('label',null,'Nombre'),h('input',{type:'text',value:name,onChange:e=>setName(e.target.value),placeholder:'Tu nombre'})),
+        h('div',{key:'em',className:'fg'},h('label',null,'Email'),h('input',{type:'email',value:email,onChange:e=>setEmail(e.target.value),placeholder:'tu@email.com'})),
+        h('div',{key:'pw',className:'fg'},h('label',null,'Contraseña'),h('input',{type:'password',value:pw,onChange:e=>setPw(e.target.value),placeholder:'Mínimo 6 caracteres',onKeyDown:e=>e.key==='Enter'&&paso1()})),
+        h('button',{key:'btn',className:'btn-p',onClick:paso1},'Continuar →'),
+        h('div',{key:'f',className:'auth-foot'},'¿Ya tienes cuenta? ',h('button',{className:'lnk',onClick:onLogin},'Inicia sesión'))
+      ]:[
+        h('h1',{key:'t',className:'auth-title'},'¿Qué idioma quieres aprender?'),
+        h('p',{key:'s',className:'auth-sub'},'Esto configurará toda tu experiencia en Talixea. Podrás cambiar de idioma después desde tu perfil.'),
+        err&&h('div',{key:'e',className:'auth-err'},err),
+        h('div',{key:'g',className:'lang-grid'},
+          IDIOMAS.map(id=>h('div',{key:id.id,className:`lang-opt ${idioma===id.id?'on':''}`,onClick:()=>{setIdioma(id.id);setErr('');}},
+            h('div',{className:'lang-flag'},h(Flag,{id:id.id})),
+            h('span',{className:'lang-name'},id.n)))),
+        h('button',{key:'btn',className:'btn-p',onClick:paso2},'Empezar a aprender'),
+        h('button',{key:'bk',className:'btn-g',style:{marginTop:10},onClick:()=>setPaso(1)},'← Volver')
+      ]
     )
   );
 }
 
-// ── APP ────────────────────────────────────────────────────────────────────────
+// ── LOGIN ─────────────────────────────────────────────────────────────────────
+function Login({onLogin,onLanding,onReg}){
+  const [email,setEmail]=useState('');const [pw,setPw]=useState('');const [err,setErr]=useState('');
+  const IcoLibro=()=>h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:24,height:24},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));
+  function go(){const r=onLogin(email,pw);if(r.error)setErr(r.error);}
+  return h('div',{className:'auth'},
+    h('div',{className:'auth-logo',onClick:onLanding},
+      h('div',{className:'auth-lm'},h(IcoLibro)),
+      h('span',{className:'auth-lt'},'Talixea')),
+    h('div',{className:'auth-card'},
+      h('h1',{className:'auth-title'},'Bienvenido de nuevo'),
+      h('p',{className:'auth-sub'},'Continúa tu aventura de aprendizaje'),
+      err&&h('div',{className:'auth-err'},err),
+      h('div',{className:'fg'},h('label',null,'Email'),h('input',{type:'email',value:email,onChange:e=>setEmail(e.target.value),placeholder:'tu@email.com'})),
+      h('div',{className:'fg'},h('label',null,'Contraseña'),h('input',{type:'password',value:pw,onChange:e=>setPw(e.target.value),placeholder:'••••••••',onKeyDown:e=>e.key==='Enter'&&go()})),
+      h('button',{className:'btn-p',onClick:go},'Entrar'),
+      h('div',{className:'auth-foot'},'¿No tienes cuenta? ',h('button',{className:'lnk',onClick:onReg},'Regístrate gratis'))
+    )
+  );
+}
+
+// ── APP PRINCIPAL ─────────────────────────────────────────────────────────────
 function App(){
   const {user,reg,login,logout,upd}=useAuth();
-  const [ap,setAp]=useState('login');
-  const [pg,setPg]=useState('inicio');
-  const [imm,setImm]=useState(30);
+  const [screen,setScreen]=useState('landing'); // landing|login|registro|inicio|biblioteca|ajustes|lector
   const [libro,setLibro]=useState(null);
   const [cap,setCap]=useState(0);
   const [toks,setToks]=useState([]);
   const [aprd,setAprd]=useState(new Set());
   const [prog,setProg]=useState(0);
   const [meta,setMeta]=useState({tipo:'minutos',unidad:'min',valor:10});
-  const [menu,setMenu]=useState(false);
+  const [menuOpen,setMenuOpen]=useState(false);
+  const [modalIdioma,setModalIdioma]=useState(false);
+  const [nuevoIdioma,setNuevoIdioma]=useState('');
   const lRef=useRef(null);
   const isPrem=false;
-  const maxImm=isPrem?100:60;
-  const idioma=user?.idioma||'en';
-  const racha=user?.racha||0;
   const progDia=3;
 
-  useEffect(()=>{
-    if(libro){
-      setToks(mezclar(libro.caps[cap].txt,idioma,imm,aprd));
-    }
-  },[libro,cap,imm,aprd,idioma]);
+  // Al hacer login ir a inicio
+  useEffect(()=>{if(user&&(screen==='landing'||screen==='login'||screen==='registro'))setScreen('inicio');},[user]);
 
+  // Mezcla
   useEffect(()=>{
-    if(pg!=='lector'||!lRef.current)return;
+    if(libro&&user){
+      const pct=calcPct(cap,libro.totalCaps);
+      setToks(mezclar(libro.caps[cap].txt,user.idioma,pct,aprd));
+    }
+  },[libro,cap,aprd,user]);
+
+  // Scroll → progreso
+  useEffect(()=>{
+    if(screen!=='lector'||!lRef.current)return;
     const el=lRef.current;
     const fn=()=>{const sh=el.scrollHeight-el.clientHeight;setProg(sh>0?(el.scrollTop/sh)*100:0);};
-    el.addEventListener('scroll',fn);return()=>el.removeEventListener('scroll',fn);
-  },[pg]);
+    el.addEventListener('scroll',fn);
+    return()=>el.removeEventListener('scroll',fn);
+  },[screen]);
 
   function abrirLibro(lb){
-    if(!lb.gratis&&!isPrem){alert('📚 Contenido Premium\n\nDesbloquea la biblioteca completa con Talixea Premium.');return;}
-    setLibro(lb);setCap(0);setAprd(new Set());setPg('lector');setProg(0);
+    if(!lb.gratis&&!isPrem){alert('📚 Contenido Premium\nDesbloquea la biblioteca completa con Talixea Premium.');return;}
+    if(!lb.caps.length)return;
+    setLibro(lb);setCap(0);setAprd(new Set());setScreen('lector');setProg(0);
   }
 
-  function IcoLibro(){return React.createElement('svg',{viewBox:'0 0 24 24',fill:'none',stroke:'#fff',strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:18,height:18},React.createElement('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),React.createElement('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));}
+  function IcoLibro({color='#fff',size=18}){return h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:color,strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:size,height:size},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));}
 
   function Nav({act}){
-    return React.createElement('header',{className:'hdr'},
-      React.createElement('div',{className:'logo',onClick:()=>setPg('inicio')},
-        React.createElement('div',{className:'logo-m'},React.createElement(IcoLibro)),
-        React.createElement('span',{className:'logo-t'},'Talixea')),
-      React.createElement('nav',{className:'nav'},
-        React.createElement('button',{className:`np ${act==='inicio'?'on':''}`,onClick:()=>setPg('inicio')},'Inicio'),
-        React.createElement('button',{className:`np ${act==='biblioteca'?'on':''}`,onClick:()=>setPg('biblioteca')},'Biblioteca'),
-        React.createElement('button',{className:`np ${act==='ajustes'?'on':''}`,onClick:()=>setPg('ajustes')},'Ajustes')),
-      React.createElement('div',{style:{position:'relative'}},
-        React.createElement('button',{className:'av',onClick:()=>setMenu(v=>!v)},user?.name?.[0]?.toUpperCase()||'?'),
-        menu&&React.createElement('div',{className:'pm-wrap'},
-          React.createElement('div',{className:'pm-hdr'},
-            React.createElement('div',{className:'pm-name'},user?.name),
-            React.createElement('div',{className:'pm-email'},user?.email)),
-          React.createElement('button',{className:'pm-item danger',onClick:()=>{logout();setMenu(false);}},'Cerrar sesión')))
-    );
+    return h('header',{className:'hdr'},
+      h('div',{className:'logo',onClick:()=>setScreen('inicio')},
+        h('div',{className:'logo-m'},h(IcoLibro)),
+        h('span',{className:'logo-t'},'Talixea')),
+      h('nav',{className:'nav'},
+        h('button',{className:`np ${act==='inicio'?'on':''}`,onClick:()=>setScreen('inicio')},'Inicio'),
+        h('button',{className:`np ${act==='biblioteca'?'on':''}`,onClick:()=>setScreen('biblioteca')},'Biblioteca'),
+        h('button',{className:`np ${act==='ajustes'?'on':''}`,onClick:()=>setScreen('ajustes')},'Ajustes')),
+      h('div',{style:{position:'relative'}},
+        h('button',{className:'av',onClick:()=>setMenuOpen(v=>!v)},user?.name?.[0]?.toUpperCase()||'?'),
+        menuOpen&&h('div',{className:'pm-wrap'},
+          h('div',{className:'pm-hdr'},h('div',{className:'pm-name'},user?.name),h('div',{className:'pm-email'},user?.email)),
+          h('button',{className:'pm-item danger',onClick:()=>{logout();setScreen('landing');setMenuOpen(false);}},'Cerrar sesión'))));
   }
 
-  function SliderImm({val,onChange,mini}){
-    const pct=((val-10)/(maxImm-10))*100;
-    const bg=`linear-gradient(90deg,var(--indigo) ${pct}%,var(--border) ${pct}%)`;
-    return React.createElement('input',{type:'range',min:10,max:maxImm,value:val,className:mini?'sl-mini':'slider',style:{background:bg},onChange:e=>onChange(+e.target.value)});
-  }
+  function SliderBg(pct){return `linear-gradient(90deg,var(--indigo) ${pct}%,var(--border) ${pct}%)`;}
 
-  function LibroCard({lb}){
-    return React.createElement('div',{className:'lb-card',onClick:()=>abrirLibro(lb)},
-      React.createElement('div',{className:`lb-cov ${lb.cov}`},
-        React.createElement('span',null,lb.emo),
-        !lb.gratis&&React.createElement('span',{className:'lb-prem'},'PRO')),
-      React.createElement('div',{className:'lb-inf'},
-        React.createElement('span',{className:'lb-cat'},lb.cat),
-        React.createElement('span',{className:'lb-tit'},lb.tit),
-        React.createElement('span',{className:'lb-aut'},lb.aut))
-    );
-  }
-
-  // ── AUTH ──────────────────────────────────────────────────────────────────────
+  // ── PANTALLAS SIN USUARIO ─────────────────────────────────────────────────
   if(!user){
-    if(ap==='login')return React.createElement(Login,{onLogin:login,onReg:()=>setAp('registro')});
-    return React.createElement(Registro,{onReg:reg,onLogin:()=>setAp('login')});
+    if(screen==='login')return h(Login,{onLogin:login,onLanding:()=>setScreen('landing'),onReg:()=>setScreen('registro')});
+    if(screen==='registro')return h(Registro,{onReg:reg,onLogin:()=>setScreen('login')});
+    return h(Landing,{onLogin:()=>setScreen('login'),onReg:()=>setScreen('registro')});
   }
 
-  // ── INICIO ────────────────────────────────────────────────────────────────────
-  if(pg==='inicio') return React.createElement('div',{className:'app',onClick:()=>setMenu(false)},
-    React.createElement(Nav,{act:'inicio'}),
-    React.createElement('main',{className:'imain'},
-      // RACHA
-      React.createElement('div',{className:'racha'},
-        React.createElement('span',{className:'racha-ic'},racha>0?'🔥':'💤'),
-        React.createElement('div',{className:'racha-inf'},
-          React.createElement('div',{className:'racha-top'},
-            React.createElement('span',{className:'racha-n'},racha),
-            React.createElement('span',{className:'racha-lb'},'días de racha')),
-          React.createElement('div',{className:'rb-bg'},React.createElement('div',{className:'rb-fill',style:{width:`${Math.min(100,(progDia/meta.valor)*100)}%`}})),
-          React.createElement('span',{className:'racha-mt'},`${progDia}/${meta.valor} ${meta.unidad} completados hoy`))),
-      // HERO
-      React.createElement('section',{className:'hero'},
-        React.createElement('h1',{className:'hero-t'},`Hola, ${user.name.split(' ')[0]}.\u00A0¿Seguimos leyendo?`),
-        React.createElement('p',{className:'hero-s'},'El método diglot weave introduce palabras del nuevo idioma en textos que ya entiendes. Tu cerebro conecta los significados de forma natural, sin esfuerzo.')),
-      // IDIOMAS
-      React.createElement('section',{className:'sec'},
-        React.createElement('div',{className:'sec-hdr'},React.createElement('span',{className:'sec-t'},'Idioma activo')),
-        React.createElement('div',{className:'id-grid'},
-          IDIOMAS.map(id=>React.createElement('button',{key:id.id,className:`id-card ${idioma===id.id?'on':''}`,onClick:()=>upd({idioma:id.id})},
-            React.createElement('div',{className:'id-flag'},React.createElement(Flag,{id:id.id})),
-            React.createElement('span',{className:'id-name'},id.n))))),
-      // INMERSIÓN
-      React.createElement('section',{className:'sec'},
-        React.createElement('div',{className:'imm-hdr'},
-          React.createElement('span',{className:'sec-t'},'Nivel de inmersión'),
-          React.createElement('span',{className:'imm-val'},`${imm}%`)),
-        React.createElement(SliderImm,{val:imm,onChange:setImm}),
-        React.createElement('div',{className:'imm-lbs'},
-          React.createElement('span',null,'Suave (10%)'),
-          !isPrem&&React.createElement('span',{className:'plock'},'🔒 +60% Premium'),
-          React.createElement('span',null,isPrem?'Total (100%)':'Máx. gratis (60%)'))),
-      // LIBROS
-      React.createElement('section',{className:'sec',style:{paddingBottom:0}},
-        React.createElement('div',{className:'sec-hdr'},
-          React.createElement('span',{className:'sec-t'},'Empieza a leer'),
-          React.createElement('button',{className:'ver-t',onClick:()=>setPg('biblioteca')},'Ver todos →'))),
-      React.createElement('div',{className:'lb-scroll'},
-        LIBROS.filter(l=>l.gratis).map(lb=>React.createElement(LibroCard,{key:lb.id,lb})))
+  const idiomaDatos=IDIOMAS.find(i=>i.id===user.idioma)||IDIOMAS[0];
+
+  // ── INICIO ────────────────────────────────────────────────────────────────
+  if(screen==='inicio') return h('div',{className:'app',onClick:()=>setMenuOpen(false)},
+    h(Nav,{act:'inicio'}),
+    h('main',{className:'imain'},
+      h('div',{className:'racha'},
+        h('span',{className:'racha-ic'},3>0?'🔥':'💤'),
+        h('div',{className:'racha-inf'},
+          h('div',{className:'racha-top'},h('span',{className:'racha-n'},user.racha||0),h('span',{className:'racha-lb'},'días de racha')),
+          h('div',{className:'rb-bg'},h('div',{className:'rb-fill',style:{width:`${Math.min(100,(progDia/meta.valor)*100)}%`}})),
+          h('span',{className:'racha-mt'},`${progDia}/${meta.valor} ${meta.unidad} completados hoy`))),
+      h('section',{className:'hero-app'},
+        h('h1',{className:'hero-app-t'},`Hola, ${user.name.split(' ')[0]}.\u00A0¿Seguimos?`),
+        h('p',{className:'hero-app-s'},'El método diglot weave mezcla tu idioma con el nuevo en textos reales. Tu cerebro aprende de forma natural sin ningún esfuerzo consciente.')),
+      h('section',{className:'sec'},
+        h('div',{className:'sec-hdr'},h('span',{className:'sec-t'},'Tu idioma')),
+        h('div',{className:'idioma-activo'},
+          h('div',{className:'ia-flag'},h(Flag,{id:user.idioma})),
+          h('div',{className:'ia-info'},
+            h('span',{className:'ia-label'},'Aprendiendo'),
+            h('span',{className:'ia-name'},idiomaDatos.n)),
+          h('button',{className:'ia-change',onClick:()=>{setNuevoIdioma(user.idioma);setModalIdioma(true);}},'Cambiar'))),
+      h('section',{className:'sec'},
+        h('div',{className:'sec-hdr'},h('span',{className:'sec-t'},'Cómo funciona la inmersión')),
+        h('div',{className:'imm-info'},
+          h('div',{className:'imm-info-t'},'📈 Progresión automática por capítulos'),
+          h('div',{className:'imm-info-s'},'Comienzas con un 20% del texto en '+idiomaDatos.n+'. Cada capítulo que avanzas, el porcentaje sube gradualmente hasta el 90%. No tienes que ajustar nada.'))),
+      h('section',{className:'sec',style:{paddingBottom:0}},
+        h('div',{className:'sec-hdr'},
+          h('span',{className:'sec-t'},'Empieza a leer'),
+          h('button',{className:'ver-t',onClick:()=>setScreen('biblioteca')},'Ver todos →'))),
+      h('div',{className:'lb-scroll'},
+        LIBROS.filter(l=>l.gratis).map(lb=>h('div',{key:lb.id,className:'lb-card',onClick:()=>abrirLibro(lb)},
+          h('div',{className:`lb-cov ${lb.cov}`},h('span',null,lb.emo)),
+          h('div',{className:'lb-inf'},
+            h('span',{className:'lb-cat'},lb.cat),
+            h('span',{className:'lb-tit'},lb.tit),
+            h('span',{className:'lb-aut'},lb.aut),
+            h('div',{className:'lb-prog'},h('div',{className:'lb-prog-fill',style:{width:'0%'}})))))),
+      // MODAL CAMBIO IDIOMA
+      modalIdioma&&h('div',{className:'modal-bg',onClick:()=>setModalIdioma(false)},
+        h('div',{className:'modal',onClick:e=>e.stopPropagation()},
+          h('div',{className:'modal-t'},'Cambiar idioma'),
+          h('div',{className:'modal-s'},'Al cambiar de idioma se reiniciará tu progreso de palabras aprendidas en los libros abiertos.'),
+          h('div',{className:'lang-grid'},
+            IDIOMAS.map(id=>h('div',{key:id.id,className:`lang-opt ${nuevoIdioma===id.id?'on':''}`,onClick:()=>setNuevoIdioma(id.id)},
+              h('div',{className:'lang-flag'},h(Flag,{id:id.id})),
+              h('span',{className:'lang-name'},id.n)))),
+          h('button',{className:'btn-p',style:{marginTop:8},onClick:()=>{upd({idioma:nuevoIdioma});setModalIdioma(false);}},`Aprender ${IDIOMAS.find(i=>i.id===nuevoIdioma)?.n||''}`)
+        ))
     )
   );
 
-  // ── BIBLIOTECA ────────────────────────────────────────────────────────────────
-  if(pg==='biblioteca') return React.createElement('div',{className:'app',onClick:()=>setMenu(false)},
-    React.createElement(Nav,{act:'biblioteca'}),
-    React.createElement('main',{className:'pmain'},
-      React.createElement('h1',{className:'ptit'},'Biblioteca'),
-      React.createElement('div',{className:'lb-list'},
-        LIBROS.map(lb=>React.createElement('div',{key:lb.id,className:`lb-row ${!lb.gratis&&!isPrem?'blk':''}`,onClick:()=>abrirLibro(lb)},
-          React.createElement('div',{className:`lb-rc ${lb.cov}`},
-            React.createElement('span',null,lb.emo),
-            !lb.gratis&&!isPrem&&React.createElement('div',{className:'lo'},'🔒')),
-          React.createElement('div',{className:'lb-ri'},
-            React.createElement('span',{className:'lb-cat'},lb.cat),
-            React.createElement('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
-            React.createElement('span',{className:'lb-aut'},lb.aut)),
-          !lb.gratis&&!isPrem&&React.createElement('span',{className:'badge-pr'},'PREMIUM'))))
+  // ── BIBLIOTECA ────────────────────────────────────────────────────────────
+  if(screen==='biblioteca') return h('div',{className:'app',onClick:()=>setMenuOpen(false)},
+    h(Nav,{act:'biblioteca'}),
+    h('main',{className:'pmain'},
+      h('h1',{className:'ptit'},'Biblioteca'),
+      h('div',{className:'lb-list'},
+        LIBROS.map(lb=>h('div',{key:lb.id,className:`lb-row ${!lb.gratis&&!isPrem?'blk':''}`,onClick:()=>abrirLibro(lb)},
+          h('div',{className:`lb-rc ${lb.cov}`},h('span',null,lb.emo),!lb.gratis&&!isPrem&&h('div',{className:'lo'},'🔒')),
+          h('div',{className:'lb-ri'},
+            h('span',{className:'lb-cat'},lb.cat),
+            h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
+            h('span',{className:'lb-aut'},lb.aut),
+            h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`)),
+          !lb.gratis&&!isPrem&&h('span',{className:'badge-pr'},'PREMIUM'))))
     )
   );
 
-  // ── AJUSTES ───────────────────────────────────────────────────────────────────
-  if(pg==='ajustes') return React.createElement('div',{className:'app',onClick:()=>setMenu(false)},
-    React.createElement(Nav,{act:'ajustes'}),
-    React.createElement('main',{className:'pmain'},
-      React.createElement('h1',{className:'ptit'},'Ajustes'),
-      React.createElement('div',{className:'aj-bl'},
-        React.createElement('div',{className:'aj-t'},'Meta diaria'),
-        React.createElement('div',{className:'aj-d'},'¿Qué quieres conseguir cada día para mantener tu racha?'),
-        React.createElement('div',{className:'metas'},
+  // ── AJUSTES ───────────────────────────────────────────────────────────────
+  if(screen==='ajustes') return h('div',{className:'app',onClick:()=>setMenuOpen(false)},
+    h(Nav,{act:'ajustes'}),
+    h('main',{className:'pmain'},
+      h('h1',{className:'ptit'},'Ajustes'),
+      h('div',{style:{background:'#fff',borderRadius:'var(--r)',padding:20,marginBottom:16,boxShadow:'var(--sh)',border:'1px solid var(--border)'}},
+        h('div',{style:{fontSize:15,fontWeight:700,marginBottom:4}},'Meta diaria'),
+        h('div',{style:{fontSize:13,color:'var(--soft)',marginBottom:16,lineHeight:1.5}},'¿Qué quieres conseguir cada día para mantener tu racha?'),
+        h('div',{style:{display:'flex',flexDirection:'column',gap:10}},
           [{tipo:'minutos',unidad:'min',label:'⏱ Minutos de lectura',vals:[5,10,15,20,30]},
            {tipo:'palabras',unidad:'pal',label:'💬 Palabras nuevas',vals:[5,10,20,30,50]},
            {tipo:'paginas',unidad:'pág',label:'📄 Páginas leídas',vals:[1,2,3,5,10]},
-          ].map(o=>React.createElement('div',{key:o.tipo,className:`mc ${meta.tipo===o.tipo?'on':''}`,onClick:()=>setMeta({tipo:o.tipo,unidad:o.unidad,valor:o.vals[1]})},
-            React.createElement('span',{className:'ml'},o.label),
-            meta.tipo===o.tipo&&React.createElement('div',{className:'mvs'},
-              o.vals.map(v=>React.createElement('button',{key:v,className:`mv ${meta.valor===v?'on':''}`,onClick:e=>{e.stopPropagation();setMeta(m=>({...m,valor:v}));}},v))))))),
-      React.createElement('div',{className:'prem-bl'},
-        React.createElement('div',{className:'aj-t'},'✨ Talixea Premium'),
-        React.createElement('ul',{className:'prem-li'},
-          ['📚 Biblioteca completa — Grimm, Andersen y más','🎯 Inmersión hasta el 100%','📊 Estadísticas detalladas','📵 Modo sin conexión','🚫 Sin anuncios']
-          .map((t,i)=>React.createElement('li',{key:i},t))),
-        React.createElement('button',{className:'btn-prem'},'Probar gratis 7 días — 4,99€/mes'))
+          ].map(o=>h('div',{key:o.tipo,style:{border:`1.5px solid ${meta.tipo===o.tipo?'var(--indigo)':'var(--border)'}`,borderRadius:'var(--rs)',padding:'13px 15px',cursor:'pointer',background:meta.tipo===o.tipo?'var(--ip)':'var(--bg)'},
+            onClick:()=>setMeta({tipo:o.tipo,unidad:o.unidad,valor:o.vals[1]})},
+            h('span',{style:{fontSize:14,fontWeight:500}},o.label),
+            meta.tipo===o.tipo&&h('div',{style:{display:'flex',gap:8,marginTop:12,flexWrap:'wrap'}},
+              o.vals.map(v=>h('button',{key:v,style:{flex:1,minWidth:40,padding:'7px 4px',borderRadius:8,border:`1.5px solid ${meta.valor===v?'var(--indigo)':'var(--border)'}`,background:meta.valor===v?'var(--indigo)':'#fff',color:meta.valor===v?'#fff':'var(--text)',cursor:'pointer',fontSize:14,fontWeight:600,fontFamily:'Inter,sans-serif'},
+                onClick:e=>{e.stopPropagation();setMeta(m=>({...m,valor:v}));}},v))))))),
+      h('div',{style:{background:'linear-gradient(135deg,#1E293B,#0F172A)',borderRadius:'var(--r)',padding:24}},
+        h('div',{style:{fontSize:17,fontWeight:700,color:'#E0E7FF',marginBottom:16}},'✨ Talixea Premium'),
+        h('ul',{style:{listStyle:'none',display:'flex',flexDirection:'column',gap:10,marginBottom:20}},
+          ['📚 Biblioteca completa — Grimm, Andersen y más','🎯 Inmersión hasta el 100%','📊 Estadísticas detalladas de aprendizaje','📵 Modo sin conexión','🚫 Sin anuncios'].map((t,i)=>h('li',{key:i,style:{fontSize:14,color:'rgba(255,255,255,.8)'}},t))),
+        h('button',{style:{width:'100%',padding:14,borderRadius:'var(--rs)',background:'var(--indigo)',border:'none',cursor:'pointer',color:'#fff',fontSize:15,fontWeight:700,fontFamily:'Inter,sans-serif',boxShadow:'0 4px 16px rgba(99,102,241,.5)'}},'Probar gratis 7 días — 4,99€/mes'))
     )
   );
 
-  // ── LECTOR ────────────────────────────────────────────────────────────────────
+  // ── LECTOR ────────────────────────────────────────────────────────────────
   const capObj=libro?.caps[cap];
-  return React.createElement('div',{className:'lec-wrap',ref:lRef,style:{overflowY:'auto',height:'100vh'}},
-    React.createElement('header',{className:'lec-hdr'},
-      React.createElement('button',{className:'btn-v',onClick:()=>setPg('biblioteca')},'← Volver'),
-      React.createElement('span',{className:'lec-th'},libro?.tit),
-      React.createElement('div',{className:'lec-badge'},
-        React.createElement('div',{style:{width:18,height:18}},React.createElement(Flag,{id:idioma,size:18})),
-        React.createElement('span',null,`${imm}%`))),
-    React.createElement('div',{className:'prog-wrap'},React.createElement('div',{className:'prog-fill',style:{width:`${prog}%`}})),
-    React.createElement('div',{className:'lec-ctrl'},
-      React.createElement('div',{className:'ctrl-im'},
-        React.createElement('span',{className:'ctrl-lb'},React.createElement('span',null,'Inmersión: '),React.createElement('strong',null,`${imm}%`)),
-        React.createElement(SliderImm,{val:imm,onChange:setImm,mini:true})),
-      React.createElement('div',{className:'id-minis'},
-        IDIOMAS.map(id=>React.createElement('button',{key:id.id,className:`id-mb ${idioma===id.id?'on':''}`,title:id.n,onClick:()=>upd({idioma:id.id})},
-          React.createElement(Flag,{id:id.id,size:20}))))),
-    React.createElement('main',{className:'lec-main'},
-      React.createElement('h2',{className:'cap-t'},capObj?.tit),
-      React.createElement('p',{className:'cap-lb'},`${libro?.aut} · ${libro?.cat}`),
-      React.createElement('div',{className:'sep'}),
-      React.createElement('div',{className:'txt'},renderTxt(toks,key=>setAprd(p=>new Set([...p,key])))),
-      libro?.caps?.length>1&&React.createElement('div',{style:{display:'flex',gap:10,marginTop:36}},
-        cap>0&&React.createElement('button',{className:'btn-g',onClick:()=>setCap(v=>v-1)},'← Capítulo anterior'),
-        cap<libro.caps.length-1&&React.createElement('button',{className:'btn-p',onClick:()=>setCap(v=>v+1)},'Capítulo siguiente →')),
-      React.createElement('div',{className:'leyenda'},
-        React.createElement('strong',{style:{color:'var(--indigo)'}},'Palabras en índigo'),
-        ' = ya las conoces · subrayadas punteadas = toca para ver el original · haz clic para marcarlas como aprendidas')
-    )
+  const immPct=libro?calcPct(cap,libro.totalCaps):20;
+  const immPctBar=((immPct-10)/(90-10))*100;
+  return h('div',{className:'lec-wrap',ref:lRef},
+    h('header',{className:'lec-hdr'},
+      h('button',{className:'btn-v',onClick:()=>setScreen('biblioteca')},'← Volver'),
+      h('span',{className:'lec-th'},libro?.tit),
+      h('div',{className:'lec-badge'},h(Flag,{id:user.idioma,size:18}),h('span',null,`${immPct}%`))),
+    h('div',{className:'prog-wrap'},h('div',{className:'prog-fill',style:{width:`${prog}%`}})),
+    h('div',{className:'imm-strip'},
+      h('span',{className:'imm-strip-l'},`Cap. ${cap+1}/${libro?.totalCaps}`),
+      h('div',{className:'imm-strip-bar'},h('div',{className:'imm-strip-fill',style:{width:`${immPctBar}%`}})),
+      h('span',{className:'imm-strip-v'},`${immPct}% ${idiomaDatos.n}`)),
+    h('main',{className:'lec-main'},
+      h('h2',{className:'cap-t'},capObj?.tit),
+      h('p',{className:'cap-lb'},`${libro?.aut} · ${libro?.cat} · Capítulo ${cap+1} de ${libro?.totalCaps}`),
+      h('div',{className:'sep'}),
+      h('div',{className:'txt'},renderTxt(toks,key=>setAprd(p=>new Set([...p,key])))),
+      h('div',{className:'cap-nav'},
+        cap>0&&h('button',{className:'btn-g',onClick:()=>{setCap(v=>v-1);lRef.current?.scrollTo(0,0);}},'← Capítulo anterior'),
+        cap<libro.totalCaps-1&&h('button',{className:'btn-p',onClick:()=>{setCap(v=>v+1);lRef.current?.scrollTo(0,0);}},'Siguiente capítulo →')),
+      h('div',{className:'leyenda'},
+        h('strong',{style:{color:'var(--indigo)'}},'Índigo sin subrayado'),' = ya dominada · ',
+        h('strong',{style:{color:'var(--indigo)',borderBottom:'1.5px dashed var(--il)'}},'Subrayada punteada'),' = toca para ver el original · Haz clic para marcarla como dominada'))
   );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+ReactDOM.createRoot(document.getElementById('root')).render(h(App));
 </script>
 </body>
 </html>
