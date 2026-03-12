@@ -215,6 +215,7 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 
 /* ── LECTOR ── */
 .lec-wrap{display:flex;flex-direction:column;min-height:100vh;background:#F9F6F0;overflow-y:auto;height:100vh}
+@keyframes spin{to{transform:rotate(360deg)}}
 .lec-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
 .btn-v{background:none;border:none;cursor:pointer;font-size:14px;font-weight:600;color:var(--indigo);font-family:'Inter',sans-serif;padding:4px 0}
 .lec-th{font-size:14px;font-weight:600;color:var(--text);font-family:'Lora',serif;max-width:160px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -232,6 +233,11 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .sep{height:2px;background:linear-gradient(90deg,var(--indigo),transparent);border-radius:1px;margin-bottom:28px;width:60px}
 .txt{font-family:'Lora',serif;font-size:18px;line-height:2;color:var(--text)}
 .par{margin-bottom:1.4em}
+.pal-n{color:var(--indigo);font-weight:600;cursor:pointer;border-bottom:1.5px dashed var(--il);position:relative}
+.tt{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--text);color:#fff;border-radius:9px;padding:7px 12px;font-size:12px;white-space:nowrap;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);font-family:'Inter',sans-serif;pointer-events:none;align-items:center;gap:6px}
+.tt::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--text)}
+.pal-n:hover .tt{display:flex}
+.to{color:rgba(255,255,255,.6);font-size:11px}.ta{color:var(--il)}.tn{font-weight:600}
 .frase-idioma{color:var(--indigo);font-weight:500;cursor:pointer;background:var(--ip);border-radius:6px;padding:2px 4px;margin:-2px -4px;position:relative;transition:background .15s}
 .frase-idioma:hover{background:#e0e7ff}
 .tt-frase{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;background:var(--text);color:#fff;border-radius:9px;padding:10px 14px;font-size:13px;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.25);font-family:'Inter',sans-serif;pointer-events:none;font-weight:400;line-height:1.5;white-space:normal}
@@ -278,22 +284,22 @@ const IDIOMAS=[{id:'en',n:'Inglés'},{id:'fr',n:'Francés'},{id:'de',n:'Alemán'
 const EXPR=[
   // ── PALABRAS BÁSICAS (prio:2 — siempre se traducen primero) ──────────────────
   // Artículos
-  {es:'el',en:'the',fr:'le',de:'der',it:'il',pt:'o',ca:'el',prio:2},
-  {es:'la',en:'the',fr:'la',de:'die',it:'la',pt:'a',ca:'la',prio:2},
-  {es:'los',en:'the',fr:'les',de:'die',it:'i',pt:'os',ca:'els',prio:2},
-  {es:'las',en:'the',fr:'les',de:'die',it:'le',pt:'as',ca:'les',prio:2},
-  {es:'un',en:'a',fr:'un',de:'ein',it:'un',pt:'um',ca:'un',prio:2},
-  {es:'una',en:'a',fr:'une',de:'eine',it:'una',pt:'uma',ca:'una',prio:2},
-  {es:'unos',en:'some',fr:'des',de:'einige',it:'alcuni',pt:'uns',ca:'uns',prio:2},
-  {es:'unas',en:'some',fr:'des',de:'einige',it:'alcune',pt:'umas',ca:'unes',prio:2},
+  {es:'el',en:'the',fr:'le',de:'der',it:'il',pt:'o',ca:'el',prio:3},
+  {es:'la',en:'the',fr:'la',de:'die',it:'la',pt:'a',ca:'la',prio:3},
+  {es:'los',en:'the',fr:'les',de:'die',it:'i',pt:'os',ca:'els',prio:3},
+  {es:'las',en:'the',fr:'les',de:'die',it:'le',pt:'as',ca:'les',prio:3},
+  {es:'un',en:'a',fr:'un',de:'ein',it:'un',pt:'um',ca:'un',prio:3},
+  {es:'una',en:'a',fr:'une',de:'eine',it:'una',pt:'uma',ca:'una',prio:3},
+  {es:'unos',en:'some',fr:'des',de:'einige',it:'alcuni',pt:'uns',ca:'uns',prio:3},
+  {es:'unas',en:'some',fr:'des',de:'einige',it:'alcune',pt:'umas',ca:'unes',prio:3},
   // Pronombres personales
-  {es:'yo',en:'I',fr:'je',de:'ich',it:'io',pt:'eu',ca:'jo',prio:2},
-  {es:'tú',en:'you',fr:'tu',de:'du',it:'tu',pt:'tu',ca:'tu',prio:2},
-  {es:'él',en:'he',fr:'il',de:'er',it:'lui',pt:'ele',ca:'ell',prio:2},
-  {es:'ella',en:'she',fr:'elle',de:'sie',it:'lei',pt:'ela',ca:'ella',prio:2},
-  {es:'nosotros',en:'we',fr:'nous',de:'wir',it:'noi',pt:'nós',ca:'nosaltres',prio:2},
-  {es:'ellos',en:'they',fr:'ils',de:'sie',it:'loro',pt:'eles',ca:'ells',prio:2},
-  {es:'ellas',en:'they',fr:'elles',de:'sie',it:'loro',pt:'elas',ca:'elles',prio:2},
+  {es:'yo',en:'I',fr:'je',de:'ich',it:'io',pt:'eu',ca:'jo',prio:3},
+  {es:'tú',en:'you',fr:'tu',de:'du',it:'tu',pt:'tu',ca:'tu',prio:3},
+  {es:'él',en:'he',fr:'il',de:'er',it:'lui',pt:'ele',ca:'ell',prio:3},
+  {es:'ella',en:'she',fr:'elle',de:'sie',it:'lei',pt:'ela',ca:'ella',prio:3},
+  {es:'nosotros',en:'we',fr:'nous',de:'wir',it:'noi',pt:'nós',ca:'nosaltres',prio:3},
+  {es:'ellos',en:'they',fr:'ils',de:'sie',it:'loro',pt:'eles',ca:'ells',prio:3},
+  {es:'ellas',en:'they',fr:'elles',de:'sie',it:'loro',pt:'elas',ca:'elles',prio:3},
   // Preposiciones y conectores básicos
   {es:'en',en:'in',fr:'dans',de:'in',it:'in',pt:'em',ca:'en',prio:2},
   {es:'con',en:'with',fr:'avec',de:'mit',it:'con',pt:'com',ca:'amb',prio:2},
@@ -325,254 +331,199 @@ const EXPR=[
   {es:'vio',en:'saw',fr:'vit',de:'sah',it:'vide',pt:'viu',ca:'va veure',prio:2},
   {es:'llegó',en:'arrived',fr:'arriva',de:'kam an',it:'arrivò',pt:'chegou',ca:'va arribar',prio:2},
 
-  {es:'había una vez',en:'once upon a time',fr:'il était une fois',de:'es war einmal',it:"c'era una volta",pt:'era uma vez',ca:'hi havia una vegada'},
-  {es:'y vivieron felices para siempre',en:'and they lived happily ever after',fr:'et ils vécurent heureux pour toujours',de:'und sie lebten glücklich',it:'e vissero felici e contenti',pt:'e viveram felizes para sempre',ca:'i visqueren feliços per sempre'},
-  {es:'de repente',en:'suddenly',fr:'soudain',de:'plötzlich',it:"all'improvviso",pt:'de repente',ca:'de sobte'},
-  {es:'sin embargo',en:'however',fr:'cependant',de:'jedoch',it:'tuttavia',pt:'no entanto',ca:'tanmateix'},
-  {es:'a lo lejos',en:'in the distance',fr:'au loin',de:'in der Ferne',it:'in lontananza',pt:'ao longe',ca:'a la llunyania'},
-  {es:'por fin',en:'at last',fr:'enfin',de:'endlich',it:'finalmente',pt:'por fim',ca:'per fi'},
-  {es:'poco a poco',en:'little by little',fr:'peu à peu',de:'nach und nach',it:'poco a poco',pt:'pouco a pouco',ca:'a poc a poc'},
-  {es:'al cabo de los años',en:'after many years',fr:'après de nombreuses années',de:'nach vielen Jahren',it:'dopo tanti anni',pt:'passados muitos anos',ca:'al cap dels anys'},
+  {es:'había una vez',en:'once upon a time',fr:'il était une fois',de:'es war einmal',it:"c'era una volta",pt:'era uma vez',ca:'hi havia una vegada',prio:1},
+  {es:'y vivieron felices para siempre',en:'and they lived happily ever after',fr:'et ils vécurent heureux pour toujours',de:'und sie lebten glücklich',it:'e vissero felici e contenti',pt:'e viveram felizes para sempre',ca:'i visqueren feliços per sempre',prio:1},
+  {es:'de repente',en:'suddenly',fr:'soudain',de:'plötzlich',it:"all'improvviso",pt:'de repente',ca:'de sobte',prio:1},
+  {es:'sin embargo',en:'however',fr:'cependant',de:'jedoch',it:'tuttavia',pt:'no entanto',ca:'tanmateix',prio:1},
+  {es:'a lo lejos',en:'in the distance',fr:'au loin',de:'in der Ferne',it:'in lontananza',pt:'ao longe',ca:'a la llunyania',prio:1},
+  {es:'por fin',en:'at last',fr:'enfin',de:'endlich',it:'finalmente',pt:'por fim',ca:'per fi',prio:1},
+  {es:'poco a poco',en:'little by little',fr:'peu à peu',de:'nach und nach',it:'poco a poco',pt:'pouco a pouco',ca:'a poc a poc',prio:1},
+  {es:'al cabo de los años',en:'after many years',fr:'après de nombreuses années',de:'nach vielen Jahren',it:'dopo tanti anni',pt:'passados muitos anos',ca:'al cap dels anys',prio:1},
   {es:'al mismo tiempo',en:'at the same time',fr:'en même temps',de:'zur gleichen Zeit',it:'allo stesso tempo',pt:'ao mesmo tempo',ca:'al mateix temps'},
   {es:'en cambio',en:'instead',fr:'en revanche',de:'hingegen',it:'invece',pt:'em vez disso',ca:'en canvi'},
-  {es:'rey',en:'king',fr:'roi',de:'König',it:'re',pt:'rei',ca:'rei'},
-  {es:'reina',en:'queen',fr:'reine',de:'Königin',it:'regina',pt:'rainha',ca:'reina'},
-  {es:'príncipe',en:'prince',fr:'prince',de:'Prinz',it:'principe',pt:'príncipe',ca:'príncep'},
-  {es:'princesa',en:'princess',fr:'princesse',de:'Prinzessin',it:'principessa',pt:'princesa',ca:'princesa'},
-  {es:'castillo',en:'castle',fr:'château',de:'Schloss',it:'castello',pt:'castelo',ca:'castell'},
-  {es:'bosque',en:'forest',fr:'forêt',de:'Wald',it:'foresta',pt:'floresta',ca:'bosc'},
-  {es:'bruja',en:'witch',fr:'sorcière',de:'Hexe',it:'strega',pt:'bruxa',ca:'bruixa'},
-  {es:'espejo',en:'mirror',fr:'miroir',de:'Spiegel',it:'specchio',pt:'espelho',ca:'mirall'},
-  {es:'manzana',en:'apple',fr:'pomme',de:'Apfel',it:'mela',pt:'maçã',ca:'poma'},
-  {es:'corazón',en:'heart',fr:'cœur',de:'Herz',it:'cuore',pt:'coração',ca:'cor'},
-  {es:'amor',en:'love',fr:'amour',de:'Liebe',it:'amore',pt:'amor',ca:'amor'},
-  {es:'noche',en:'night',fr:'nuit',de:'Nacht',it:'notte',pt:'noite',ca:'nit'},
-  {es:'luna',en:'moon',fr:'lune',de:'Mond',it:'luna',pt:'lua',ca:'lluna'},
-  {es:'estrellas',en:'stars',fr:'étoiles',de:'Sterne',it:'stelle',pt:'estrelas',ca:'estrelles'},
-  {es:'padre',en:'father',fr:'père',de:'Vater',it:'padre',pt:'pai',ca:'pare'},
-  {es:'madre',en:'mother',fr:'mère',de:'Mutter',it:'madre',pt:'mãe',ca:'mare'},
-  {es:'hermana',en:'sister',fr:'sœur',de:'Schwester',it:'sorella',pt:'irmã',ca:'germana'},
-  {es:'hermano',en:'brother',fr:'frère',de:'Bruder',it:'fratello',pt:'irmão',ca:'germà'},
-  {es:'hija',en:'daughter',fr:'fille',de:'Tochter',it:'figlia',pt:'filha',ca:'filla'},
-  {es:'hijo',en:'son',fr:'fils',de:'Sohn',it:'figlio',pt:'filho',ca:'fill'},
-  {es:'valiente',en:'brave',fr:'courageux',de:'tapfer',it:'coraggioso',pt:'corajoso',ca:'valent'},
-  {es:'hermosa',en:'beautiful',fr:'belle',de:'schön',it:'bella',pt:'bela',ca:'bella'},
-  {es:'feliz',en:'happy',fr:'heureux',de:'glücklich',it:'felice',pt:'feliz',ca:'feliç'},
-  {es:'miedo',en:'fear',fr:'peur',de:'Angst',it:'paura',pt:'medo',ca:'por'},
-  {es:'esperanza',en:'hope',fr:'espoir',de:'Hoffnung',it:'speranza',pt:'esperança',ca:'esperança'},
-  {es:'verdad',en:'truth',fr:'vérité',de:'Wahrheit',it:'verità',pt:'verdade',ca:'veritat'},
-  {es:'camino',en:'path',fr:'chemin',de:'Weg',it:'sentiero',pt:'caminho',ca:'camí'},
-  {es:'mágico',en:'magical',fr:'magique',de:'magisch',it:'magico',pt:'mágico',ca:'màgic'},
-  {es:'oscuro',en:'dark',fr:'sombre',de:'dunkel',it:'oscuro',pt:'escuro',ca:'fosc'},
-  {es:'cazador',en:'hunter',fr:'chasseur',de:'Jäger',it:'cacciatore',pt:'caçador',ca:'caçador'},
-  {es:'nieve',en:'snow',fr:'neige',de:'Schnee',it:'neve',pt:'neve',ca:'neu'},
-  {es:'sangre',en:'blood',fr:'sang',de:'Blut',it:'sangue',pt:'sangue',ca:'sang'},
+  {es:'rey',en:'king',fr:'roi',de:'König',it:'re',pt:'rei',ca:'rei',prio:1},
+  {es:'reina',en:'queen',fr:'reine',de:'Königin',it:'regina',pt:'rainha',ca:'reina',prio:1},
+  {es:'príncipe',en:'prince',fr:'prince',de:'Prinz',it:'principe',pt:'príncipe',ca:'príncep',prio:1},
+  {es:'princesa',en:'princess',fr:'princesse',de:'Prinzessin',it:'principessa',pt:'princesa',ca:'princesa',prio:1},
+  {es:'castillo',en:'castle',fr:'château',de:'Schloss',it:'castello',pt:'castelo',ca:'castell',prio:1},
+  {es:'bosque',en:'forest',fr:'forêt',de:'Wald',it:'foresta',pt:'floresta',ca:'bosc',prio:1},
+  {es:'bruja',en:'witch',fr:'sorcière',de:'Hexe',it:'strega',pt:'bruxa',ca:'bruixa',prio:1},
+  {es:'espejo',en:'mirror',fr:'miroir',de:'Spiegel',it:'specchio',pt:'espelho',ca:'mirall',prio:1},
+  {es:'manzana',en:'apple',fr:'pomme',de:'Apfel',it:'mela',pt:'maçã',ca:'poma',prio:1},
+  {es:'corazón',en:'heart',fr:'cœur',de:'Herz',it:'cuore',pt:'coração',ca:'cor',prio:1},
+  {es:'amor',en:'love',fr:'amour',de:'Liebe',it:'amore',pt:'amor',ca:'amor',prio:1},
+  {es:'noche',en:'night',fr:'nuit',de:'Nacht',it:'notte',pt:'noite',ca:'nit',prio:1},
+  {es:'luna',en:'moon',fr:'lune',de:'Mond',it:'luna',pt:'lua',ca:'lluna',prio:1},
+  {es:'estrellas',en:'stars',fr:'étoiles',de:'Sterne',it:'stelle',pt:'estrelas',ca:'estrelles',prio:1},
+  {es:'padre',en:'father',fr:'père',de:'Vater',it:'padre',pt:'pai',ca:'pare',prio:1},
+  {es:'madre',en:'mother',fr:'mère',de:'Mutter',it:'madre',pt:'mãe',ca:'mare',prio:1},
+  {es:'hermana',en:'sister',fr:'sœur',de:'Schwester',it:'sorella',pt:'irmã',ca:'germana',prio:1},
+  {es:'hermano',en:'brother',fr:'frère',de:'Bruder',it:'fratello',pt:'irmão',ca:'germà',prio:1},
+  {es:'hija',en:'daughter',fr:'fille',de:'Tochter',it:'figlia',pt:'filha',ca:'filla',prio:1},
+  {es:'hijo',en:'son',fr:'fils',de:'Sohn',it:'figlio',pt:'filho',ca:'fill',prio:1},
+  {es:'valiente',en:'brave',fr:'courageux',de:'tapfer',it:'coraggioso',pt:'corajoso',ca:'valent',prio:1},
+  {es:'hermosa',en:'beautiful',fr:'belle',de:'schön',it:'bella',pt:'bela',ca:'bella',prio:1},
+  {es:'feliz',en:'happy',fr:'heureux',de:'glücklich',it:'felice',pt:'feliz',ca:'feliç',prio:1},
+  {es:'miedo',en:'fear',fr:'peur',de:'Angst',it:'paura',pt:'medo',ca:'por',prio:1},
+  {es:'esperanza',en:'hope',fr:'espoir',de:'Hoffnung',it:'speranza',pt:'esperança',ca:'esperança',prio:1},
+  {es:'verdad',en:'truth',fr:'vérité',de:'Wahrheit',it:'verità',pt:'verdade',ca:'veritat',prio:1},
+  {es:'camino',en:'path',fr:'chemin',de:'Weg',it:'sentiero',pt:'caminho',ca:'camí',prio:1},
+  {es:'mágico',en:'magical',fr:'magique',de:'magisch',it:'magico',pt:'mágico',ca:'màgic',prio:1},
+  {es:'oscuro',en:'dark',fr:'sombre',de:'dunkel',it:'oscuro',pt:'escuro',ca:'fosc',prio:1},
+  {es:'cazador',en:'hunter',fr:'chasseur',de:'Jäger',it:'cacciatore',pt:'caçador',ca:'caçador',prio:1},
+  {es:'nieve',en:'snow',fr:'neige',de:'Schnee',it:'neve',pt:'neve',ca:'neu',prio:1},
+  {es:'sangre',en:'blood',fr:'sang',de:'Blut',it:'sangue',pt:'sangue',ca:'sang',prio:1},
 ];
 EXPR.sort((a,b)=>b.es.length-a.es.length);
 
 // ── LIBROS ────────────────────────────────────────────────────────────────────
 // Formato de frases: array de objetos {es, en, fr, de, it, pt, ca}
 // Cada objeto es una frase. El motor decide si mostrarla en ES o en el idioma objetivo.
+// ── CATÁLOGO LIGERO (sin datos de caps) ──────────────────────────────────────
+// Los caps se cargan dinámicamente desde JSON al abrir el libro
 const LIBROS=[
-  {id:1,tit:'Blancanieves',aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🍎',totalCaps:3,caps:[
-    {tit:'La reina malvada',frases:[
-      {es:'Había una vez, en pleno invierno, cuando los copos de nieve caían del cielo como plumas, una reina que estaba sentada cosiendo junto a una ventana con marco de ébano negro.',fr:"C'était en plein hiver, et les flocons de neige tombaient du ciel comme un duvet léger. Une reine était assise à sa fenêtre encadrée de bois d'ébène et cousait.",en:'It was the middle of winter, and the snowflakes were falling like feathers from the sky. A queen sat at a window with an ebony frame, sewing.',de:'Es war mitten im Winter, und die Schneeflocken fielen wie Federn vom Himmel. Eine Königin saß an einem Fenster mit einem Rahmen aus Ebenholz und nähte.',it:"Era pieno inverno e i fiocchi di neve cadevano dal cielo come piume. Una regina era seduta accanto a una finestra con un'intelaiatura di ebano e cuciva.",pt:'Era pleno inverno e os flocos de neve caíam do céu como penas. Uma rainha estava sentada junto a uma janela com uma moldura de ébano e costurava.',ca:"Era ple d'hivern i els flocs de neu queien del cel com plomes. Una reina estava asseguda prop d'una finestra amb un marc d'eben i cosint."},
-      {es:'Mientras cosía y miraba la nieve, se pinchó el dedo con la aguja y cayeron tres gotas de sangre sobre la nieve blanca.',fr:'Comme elle cousait en regardant la neige, elle se piqua le doigt et trois gouttes de sang tombèrent sur la neige.',en:'As she was sewing and looking at the snow, she pricked her finger and three drops of blood fell onto the snow.',de:'Während sie nähte und in den Schnee schaute, stach sie sich in den Finger, und drei Blutstropfen fielen auf den Schnee.',it:'Mentre cuciva e guardava la neve, si punse il dito e tre gocce di sangue caddero sulla neve.',pt:'Enquanto costurava e olhava a neve, picou o dedo e três gotas de sangue caíram sobre a neve.',ca:'Mentre cosint i mirant la neu, es va punxar el dit i tres gotes de sang van caure sobre la neu.'},
-      {es:'Pensó la reina: ojalá tuviera una hija tan blanca como la nieve, tan roja como la sangre y tan negra de cabello como el ébano de ese marco.',fr:'La reine pensa : « Oh ! si j'avais une petite fille aussi blanche que la neige, aussi vermeille que le sang et aussi noire de cheveux que l'ébène ! »',en:'The queen thought: "If only I had a child as white as snow, as red as blood, and as black as the wood of this frame."',de:'Die Königin dachte: „Hätte ich doch ein Kind so weiß wie Schnee, so rot wie Blut und so schwarz wie das Holz dieses Rahmens!"',it:'La regina pensò: «Ah, se avessi una bambina bianca come la neve, rossa come il sangue e nera di capelli come l\'ebano di questa finestra!»',pt:'A rainha pensou: «Quem me dera ter uma filha tão branca como a neve, tão vermelha como o sangue e tão negra de cabelos como o ébano desta moldura!»',ca:'La reina va pensar: «Tant de bo tingués una filla tan blanca com la neu, tan vermella com la sang i tan negra de cabells com l\'eben d\'aquest marc!»'},
-      {es:'Poco después tuvo una hija de piel blanca como la nieve, mejillas rosadas como la sangre y cabello negro como el ébano. La llamaron Blancanieves. Pero cuando la niña nació, la reina madre murió.',fr:'Peu après, elle eut une petite fille blanche comme la neige, vermeille comme le sang et noire de cheveux comme l\'ébène. On l\'appela Blanche-Neige. Mais la reine mourut en la mettant au monde.',en:'Soon after, she had a daughter with skin as white as snow, cheeks as red as blood, and hair as black as ebony. She was called Snow White. But the queen died shortly after the child was born.',de:'Bald darauf bekam sie ein Töchterlein, weiß wie Schnee, rot wie Blut und schwarz wie Ebenholz. Es wurde Schneewittchen genannt. Aber die Königin starb, als das Kind geboren wurde.',it:'Ben presto ebbe una bambina bianca come la neve, rossa come il sangue e nera di capelli come l\'ebano. La chiamarono Biancaneve. Ma la regina morì dopo il parto.',pt:'Logo depois teve uma filha branca como a neve, vermelha como o sangue e negra de cabelos como o ébano. Chamaram-na Branca de Neve. Mas a rainha morreu ao dar à luz.',ca:'Poc després va tenir una filla blanca com la neu, vermella com la sang i negra de cabells com l\'eben. La van anomenar Blancaneu. Però la reina va morir en donar-la a llum.'},
-      {es:'Al cabo de los años, el rey tomó una segunda esposa. Era una mujer hermosa, pero soberbia y arrogante, y no podía soportar que nadie la superase en belleza.',fr:'Au bout d'un an, le roi prit une autre femme, très belle, mais si fière et si orgueilleuse qu\'elle ne pouvait supporter qu\'une autre la surpassât en beauté.',en:'After a year had passed, the king took a second wife. She was a beautiful woman, but proud and haughty, and could not bear that anyone should surpass her in beauty.',de:'Nach einem Jahr nahm der König eine zweite Frau. Sie war eine schöne Frau, aber stolz und überheblich und konnte nicht ertragen, dass jemand schöner war als sie.',it:'Dopo un anno, il re prese una seconda moglie, bella ma superba e arrogante, che non sopportava di essere superata in bellezza.',pt:'Após um ano, o rei tomou uma segunda esposa, bela mas soberba e arrogante, que não suportava ser ultrapassada em beleza.',ca:'Al cap d\'un any, el rei va prendre una segona esposa, bella però superba i arrogant, que no suportava ser superada en bellesa.'},
-      {es:'Tenía un espejo mágico, y cuando se miraba en él preguntaba: «Espejo, espejito, ¿quién es la más hermosa del reino?» Y el espejo respondía: «Vos, mi señora, sois la más hermosa del reino.»',fr:'Elle possédait un miroir magique, et quand elle allait s\'y contempler, elle demandait : « Miroir, gentil miroir, dis-moi, qui est la plus belle du royaume ? » Et le miroir répondait : « Vous êtes la plus belle du pays, Madame. »',en:'She had a magic mirror, and when she looked into it she would ask: "Mirror, mirror on the wall, who is the fairest of them all?" And the mirror would always reply: "You, my queen, are the fairest of them all."',de:'Sie hatte einen Zauberspiegel, und wenn sie sich darin betrachtete, fragte sie: „Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?" Der Spiegel antwortete: „Ihr seid die Schönste im Land, Majestät."',it:'Possedeva uno specchio magico, e quando si specchiava chiedeva: «Specchio, specchio delle mie brame, chi è la più bella del reame?» E lo specchio rispondeva: «Voi, mia regina, siete la più bella del reame.»',pt:'Tinha um espelho mágico, e quando se olhava nele perguntava: «Espelho, espelho meu, quem é a mais bela do reino?» E o espelho respondia: «Vós, minha senhora, sois a mais bela do reino.»',ca:'Tenia un mirall màgic, i quan s\'hi mirava preguntava: «Mirall, mirallet, qui és la més bella del regne?» I el mirall responia: «Vós, senyora, sou la més bella del regne.»'},
-      {es:'Sin embargo, Blancanieves fue creciendo y al cumplir los siete años era más hermosa que la propia reina.',fr:'Cependant, Blanche-Neige grandissait et devenait toujours plus belle. Quand elle eut sept ans, elle était plus belle que la reine elle-même.',en:'But Snow White grew up and when she turned seven years old she was as beautiful as the day and more beautiful than the queen herself.',de:'Aber Schneewittchen wuchs heran und wurde immer schöner. Als sie sieben Jahre alt war, war sie schöner als die Königin selbst.',it:'Ma Biancaneve cresceva e diventava sempre più bella. Quando compì sette anni era più bella della stessa regina.',pt:'Mas Branca de Neve crescia e tornava-se cada vez mais bela. Quando fez sete anos era mais bela do que a própria rainha.',ca:'Però Blancaneu creixia i es tornava cada vegada més bella. Quan va fer set anys era més bella que la pròpia reina.'},
-      {es:'Un día el espejo respondió: «Blancanieves es mil veces más hermosa que vos.» La reina se quedó petrificada, y desde aquel momento el corazón se le llenó de envidia y odio.',fr:'Un jour, le miroir répondit : « Blanche-Neige est mille fois plus belle que vous. » La reine pâlit de rage et d\'envie. Depuis ce moment, elle ne pouvait plus voir Blanche-Neige sans que son cœur se remplisse de haine.',en:'One day the mirror replied: "Snow White is a thousand times more beautiful than you." The queen turned pale with rage and envy. From that day on, whenever she saw Snow White, her heart filled with hatred.',de:'Eines Tages antwortete der Spiegel: „Schneewittchen ist tausendmal schöner als Ihr." Die Königin erbleichte vor Wut und Neid. Von diesem Tag an hasste sie Schneewittchen.',it:'Un giorno lo specchio rispose: «Biancaneve è mille volte più bella di voi.» La regina impallidì di rabbia e invidia. Da quel giorno, ogni volta che vedeva Biancaneve, il cuore le si riempiva di odio.',pt:'Um dia o espelho respondeu: «Branca de Neve é mil vezes mais bela do que vós.» A rainha empalideceu de raiva e inveja. A partir desse dia, o coração enchia-se de ódio sempre que via Branca de Neve.',ca:'Un dia el mirall va respondre: «Blancaneu és mil vegades més bella que vós.» La reina va empal·lidir de ràbia i enveja. Des d\'aquell dia, cada vegada que veia Blancaneu, el cor se li omplia d\'odi.'}
-    ]},
-    {tit:'La huida al bosque',frases:[
-      {es:'De repente, la reina llamó a un cazador y le ordenó llevarse a la niña al bosque oscuro y matarla.',fr:'Soudain, la reine fit appeler un chasseur et lui ordonna d\'emmener l\'enfant dans la forêt sombre et de la tuer.',en:'Suddenly, the queen summoned a hunter and ordered him to take the child into the dark forest and kill her.',de:'Plötzlich rief die Königin einen Jäger zu sich und befahl ihm, das Kind in den dunklen Wald zu bringen und es zu töten.',it:"All'improvviso, la regina chiamò un cacciatore e gli ordinò di portare la bambina nel bosco oscuro e di ucciderla.",pt:'De repente, a rainha chamou um caçador e ordenou-lhe que levasse a criança para a floresta escura e a matasse.',ca:"De sobte, la reina va cridar un caçador i li va ordenar que portés la nena al bosc fosc i la matés."},
-      {es:'Pero cuando el cazador ya iba a sacar su cuchillo, Blancanieves se echó a llorar y le rogó que la dejase con vida.',fr:'Mais quand le chasseur tira son couteau, Blanche-Neige se mit à pleurer et le supplia de lui laisser la vie sauve.',en:'But when the hunter drew his knife, Snow White began to cry and begged him to spare her life.',de:'Aber als der Jäger sein Messer zog, fing Schneewittchen zu weinen an und bat ihn, ihr das Leben zu lassen.',it:'Ma quando il cacciatore estrasse il coltello, Biancaneve scoppiò a piangere e lo supplicò di lasciarla in vita.',pt:'Mas quando o caçador tirou a faca, Branca de Neve começou a chorar e implorou-lhe que a deixasse viver.',ca:'Però quan el caçador va treure el ganivet, Blancaneu va posar-se a plorar i li va implorar que la deixés viure.'},
-      {es:'Como era tan hermosa, el cazador se apiadó de ella y la dejó correr hacia el bosque.',fr:'Elle était si belle que le chasseur s\'apitoya et lui dit : « Sauve-toi, pauvre enfant ! » Et il la laissa partir dans la forêt.',en:'She was so beautiful that the hunter took pity on her and said: "Run away, poor child!" And he let her go into the forest.',de:'Sie war so schön, dass der Jäger Mitleid mit ihr hatte und sagte: „Lauf weg, armes Kind!" Und er ließ sie in den Wald laufen.',it:'Era così bella che il cacciatore si impietosì e disse: «Scappa, povera bambina!» E la lasciò correre nel bosco.',pt:'Era tão bela que o caçador se apiedou dela e disse: «Foge, pobre criança!» E deixou-a correr para a floresta.',ca:'Era tan bella que el caçador es va apidar d\'ella i li va dir: «Fuig, pobra criatura!» I la va deixar córrer cap al bosc.'},
-      {es:'Así Blancanieves se encontró sola en el gran bosque oscuro. Tuvo mucho miedo y corrió sobre las piedras y entre los matorrales.',fr:'Ainsi, Blanche-Neige se retrouva seule dans la grande forêt sombre. Elle eut très peur et courut sur les pierres pointues et à travers les épines.',en:'So Snow White found herself alone in the great dark forest. She was terrified and ran over sharp stones and through thorny bushes.',de:'So fand sich Schneewittchen allein im großen dunklen Wald. Sie hatte große Angst und rannte über spitze Steine und durch Dornengestrüpp.',it:'Così Biancaneve si trovò sola nel grande bosco oscuro. Aveva molta paura e corse su pietre aguzze e tra i cespugli spinosi.',pt:'Assim, Branca de Neve ficou sozinha na grande floresta escura. Tinha muito medo e correu sobre pedras pontiagudas e entre arbustos espinhosos.',ca:'Així, Blancaneu es va trobar sola al gran bosc fosc. Va tenir molta por i va córrer sobre pedres punxegudes i entre arbusts espinosos.'},
-      {es:'Los animales salvajes pasaban a su lado sin hacerle daño. Corrió todo cuanto le alcanzaron las piernas.',fr:'Les bêtes féroces bondissaient à côté d\'elle, mais sans lui faire aucun mal. Elle courut aussi longtemps que ses pieds purent la porter.',en:'The wild animals sprang past her but did her no harm. She ran as long as her legs could carry her.',de:'Die wilden Tiere sprangen an ihr vorbei, taten ihr aber keinen Schaden. Sie lief, so lange ihre Beine sie trugen.',it:'Le bestie feroci le saltavano accanto senza farle del male. Corse finché le gambe la ressero.',pt:'As feras selvagens passavam ao seu lado sem lhe fazer mal. Correu enquanto as pernas a aguentaram.',ca:'Les feres salvatges passaven al seu costat sense fer-li mal. Va córrer mentre les cames li aguantaren.'},
-      {es:'Cuando ya anochecía, divisó a lo lejos una casita pequeña y entró en ella para descansar.',fr:'Quand la nuit commençait à tomber, elle aperçut au loin une petite maisonnette et entra pour se reposer.',en:'As evening fell, she saw a little cottage in the distance and went in to rest.',de:'Als es Abend wurde, sah sie in der Ferne ein kleines Häuschen und ging hinein, um sich auszuruhen.',it:'Quando si fece sera, vide in lontananza una casetta e vi entrò per riposarsi.',pt:'Quando começou a escurecer, avistou ao longe uma casinha e entrou para descansar.',ca:'Quan es va fer fosc, va divisar a la llunyania una caseta i hi va entrar per descansar.'},
-      {es:'En la casita todo era diminuto pero tan bonito y tan limpio que no hay palabras para describirlo.',fr:'Dans la maisonnette, tout était petit, mais si joli et si propre qu\'on ne saurait le décrire.',en:'Inside the cottage everything was small but so neat and clean that it was beyond description.',de:'Im Häuschen war alles klein, aber so hübsch und sauber, dass es nicht zu beschreiben war.',it:'Nella casetta tutto era piccolo ma così grazioso e pulito che non si saprebbe descriverlo.',pt:'Lá dentro tudo era pequeno mas tão bonito e limpo que não há palavras para descrever.',ca:'A la caseta tot era petit però tan bonic i net que no es pot descriure.'},
-      {es:'Había una mesita cubierta con un mantel blanco, siete platitos, siete jarritas, siete cuchillos y siete tenedores. Contra la pared había siete camitas con sábanas blancas como la nieve.',fr:'Il y avait une petite table recouverte d\'une nappe blanche avec sept petites assiettes, sept petits couteaux, sept petites fourchettes et sept petits gobelets. Contre le mur, il y avait sept petits lits couverts de draps blancs comme la neige.',en:'There was a little table covered with a white cloth with seven little plates, seven little knives and forks, and seven little cups. Against the wall stood seven little beds covered with sheets as white as snow.',de:'Es gab ein kleines Tisch, bedeckt mit einem weißen Tuch, mit sieben kleinen Tellern, sieben kleinen Messern und Gabeln und sieben kleinen Bechern. An der Wand standen sieben kleine Betten mit weißen Laken.',it:'C\'era un tavolino coperto da una tovaglia bianca con sette piattini, sette coltellini, sette forchettine e sette bicchierini. Contro il muro c\'erano sette lettini ricoperti di lenzuola bianche come la neve.',pt:'Havia uma mesinha coberta com uma toalha branca com sete pratinhos, sete facas, sete garfos e sete copos. Junto à parede havia sete caminhas com lençóis brancos como a neve.',ca:'Hi havia una tauleta coberta amb un mantell blanc amb set platets, set ganivets, set forquilles i set tasses. Contra la paret hi havia set llitons amb llençols blancs com la neu.'},
-      {es:'Blancanieves, que tenía mucha hambre y sed, comió un poquito de cada plato, bebió un sorbo de cada jarrita, y al final se durmió en la séptima camita.',fr:'Blanche-Neige, qui avait très faim et très soif, mangea un peu dans chaque assiette et but une gorgée dans chaque gobelet. Fatiguée, elle s\'allongea dans le septième lit et s\'endormit.',en:'Snow White, who was very hungry and thirsty, ate a little from each plate and drank a little from each cup. Tired, she lay down in the seventh bed and fell asleep.',de:'Schneewittchen, das sehr hungrig und durstig war, aß ein wenig von jedem Teller und trank aus jedem Becher. Müde legte sie sich ins siebte Bett und schlief ein.',it:'Biancaneve, che aveva molta fame e sete, mangiò un po\'da ogni piatto e bevve un sorso da ogni bicchierino. Stanca, si sdraiò nel settimo lettino e si addormentò.',pt:'Branca de Neve, que estava com muita fome e sede, comeu um pouco de cada prato e bebeu um gole de cada copo. Cansada, deitou-se na sétima caminha e adormeceu.',ca:'Blancaneu, que tenia molta gana i set, va menjar una mica de cada plat i va beure un glop de cada tassa. Cansada, es va ajeure al setè llitet i es va adormir.'}
-    ]},
-    {tit:'Los siete enanitos',frases:[
-      {es:'Por fin llegaron los dueños de la casita: los siete enanitos que trabajaban cavando en las montañas.',fr:'Enfin arrivèrent les maîtres de la maisonnette : c\'étaient les sept nains qui travaillaient dans la montagne.',en:'At last the owners of the cottage came home: they were the seven dwarfs who dug in the mountains for ore.',de:'Endlich kamen die Herren des Häuschens nach Hause: das waren die sieben Zwerge, die in den Bergen nach Erz gruben.',it:'Infine arrivarono i padroni della casetta: erano i sette nani che lavoravano scavando nelle montagne.',pt:'Por fim chegaram os donos da casinha: eram os sete anões que trabalhavam nas montanhas.',ca:'Per fi van arribar els amos de la caseta: eren els set nans que treballaven a les muntanyes.'},
-      {es:'Encendieron sus velitas y vieron que alguien había estado allí. El séptimo, al mirar su cama, encontró a Blancanieves dormida. Los demás acudieron corriendo.',fr:'Ils allumèrent leurs petites lampes et virent que quelqu\'un était venu. Le septième, en regardant son lit, aperçut Blanche-Neige qui dormait. Les autres accoururent.',en:'They lit their little lamps and saw that someone had been there. The seventh, looking at his bed, found Snow White sleeping. The others came running.',de:'Sie zündeten ihre kleinen Lampen an und sahen, dass jemand da gewesen war. Der siebte fand Schneewittchen in seinem Bett schlafend. Die anderen kamen herbeigelaufen.',it:'Accesero le loro lampade e videro che qualcuno era stato lì. Il settimo, guardando il suo letto, trovò Biancaneve addormentata. Gli altri accorsero.',pt:'Acenderam as suas luzinhas e viram que alguém tinha estado ali. O sétimo, ao olhar para a sua cama, encontrou Branca de Neve a dormir. Os outros acudiram a correr.',ca:'Van encendre les seves llumetetes i van veure que algú havia estat allà. El setè, en mirar el seu llit, va trobar Blancaneu dormida. Els altres van acudir corrents.'},
-      {es:'Como era tan hermosa, decidieron no despertarla. A la mañana siguiente, Blancanieves les contó su historia.',fr:'Elle était si belle qu\'ils décidèrent de ne pas la réveiller. Le lendemain matin, Blanche-Neige leur raconta son histoire.',en:'She was so beautiful that they decided not to wake her. The next morning, Snow White told them her story.',de:'Sie war so schön, dass sie beschlossen, sie nicht zu wecken. Am nächsten Morgen erzählte Schneewittchen ihnen ihre Geschichte.',it:'Era così bella che decisero di non svegliarla. Il mattino dopo, Biancaneve raccontò loro la sua storia.',pt:'Era tão bela que decidiram não a acordar. Na manhã seguinte, Branca de Neve contou-lhes a sua história.',ca:'Era tan bella que van decidir no despertar-la. L\'endemà al matí, Blancaneu els va explicar la seva història.'},
-      {es:'Los enanitos le ofrecieron quedarse con ellos: si cuidas la casa y cocinas para nosotros, podrás vivir aquí sin ningún peligro.',fr:'Les nains lui proposèrent de rester chez eux : « Si tu t\'occupes de la maison et tu cuisines pour nous, tu pourras vivre ici en toute sécurité. »',en:'The dwarfs offered her a place to stay: "If you keep house for us and cook, you can stay here and no harm will come to you."',de:'Die Zwerge boten ihr an, bei ihnen zu bleiben: „Wenn du unseren Haushalt führst und kochst, kannst du hier in Sicherheit leben."',it:'I nani le proposero di restare con loro: «Se ti occupi della casa e cucini per noi, potrai vivere qui senza alcun pericolo.»',pt:'Os anões ofereceram-lhe ficar com eles: «Se cuidares da casa e cozinhares para nós, poderás viver aqui sem qualquer perigo.»',ca:'Els nans li van oferir quedar-se amb ells: «Si cuides la casa i cuines per a nosaltres, podràs viure aquí sense cap perill.»'},
-      {es:'Blancanieves aceptó de buen corazón y así vivió feliz con los enanitos.',fr:'Blanche-Neige accepta de bon cœur et vécut ainsi heureuse avec les sept nains.',en:'Snow White agreed with all her heart and so she lived happily with the seven dwarfs.',de:'Schneewittchen stimmte von ganzem Herzen zu und lebte so glücklich mit den sieben Zwergen.',it:'Biancaneve accettò di buon cuore e così visse felice con i sette nani.',pt:'Branca de Neve aceitou de bom coração e assim viveu feliz com os sete anões.',ca:'Blancaneu va acceptar de bon cor i així va viure feliç amb els set nans.'},
-      {es:'Sin embargo, la malvada reina consultó de nuevo su espejo mágico y descubrió que Blancanieves seguía viva en el bosque.',fr:'Cependant, la méchante reine interrogea à nouveau son miroir magique et découvrit que Blanche-Neige était toujours en vie dans la forêt.',en:'However, the wicked queen consulted her magic mirror again and discovered that Snow White was still alive in the forest.',de:'Jedoch befragte die böse Königin wieder ihren Zauberspiegel und erfuhr, dass Schneewittchen noch am Leben war.',it:'Tuttavia, la malvagia regina interrogò di nuovo il suo specchio magico e scoprì che Biancaneve era ancora viva nel bosco.',pt:'No entanto, a malvada rainha consultou novamente o seu espelho mágico e descobriu que Branca de Neve ainda estava viva na floresta.',ca:'Tanmateix, la malvada reina va consultar de nou el seu mirall màgic i va descobrir que Blancaneu seguia viva al bosc.'},
-      {es:'Ardiendo de envidia, disfrazó su hermosa cara con la de una anciana y se dirigió a la casita.',fr:'Brûlant d\'envie, elle se déguisa en vieille femme et se dirigea vers la maisonnette.',en:'Burning with envy, she disguised herself as an old woman and made her way to the little cottage.',de:'Vor Neid brennend, verkleidete sie sich als alte Frau und machte sich auf den Weg zur kleinen Hütte.',it:'Ardendo d\'invidia, si travestì da vecchia e si diresse verso la casetta.',pt:'Ardendo de inveja, disfarçou-se de velha e dirigiu-se à casinha.',ca:'Ardent d\'enveja, es va disfressar de vella i es va dirigir cap a la caseta.'},
-      {es:'Llamó a la puerta ofreciendo manzanas rojas y brillantes. Blancanieves, que no reconoció a la reina disfrazada, aceptó una manzana envenenada y cayó al suelo sin vida.',fr:'Elle frappa à la porte en proposant de belles pommes rouges. Blanche-Neige, qui ne reconnut pas la reine déguisée, accepta une pomme empoisonnée et tomba sans vie sur le sol.',en:'She knocked at the door offering beautiful red apples. Snow White, who did not recognise the disguised queen, accepted a poisoned apple and fell lifeless to the ground.',de:'Sie klopfte an die Tür und bot schöne rote Äpfel an. Schneewittchen, die die verkleidete Königin nicht erkannte, nahm einen vergifteten Apfel und fiel leblos zu Boden.',it:'Bussò alla porta offrendo belle mele rosse. Biancaneve, che non riconobbe la regina travestita, accettò una mela avvelenata e cadde a terra senza vita.',pt:'Bateu à porta oferecendo belas maçãs vermelhas. Branca de Neve, que não reconheceu a rainha disfarçada, aceitou uma maçã envenenada e caiu no chão sem vida.',ca:'Va trucar a la porta oferint belles pomes vermelles. Blancaneu, que no va reconèixer la reina disfressada, va acceptar una poma enverinada i va caure a terra sense vida.'}
-    ]}
-  ]},
-  {id:2,tit:'La Sirenita',aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🌊',totalCaps:2,caps:[
-    {tit:'El fondo del mar',frases:[
-      {es:'Había una vez, muy lejos en alta mar, donde el agua es tan azul como los pétalos del aciano más hermoso y tan transparente como el cristal, un lugar muy profundo donde ningún ancla había llegado jamás.',fr:'Il était une fois, bien loin dans la mer, là où l\'eau est aussi bleue que les pétales du bleuet le plus beau et aussi transparente que le cristal, un endroit si profond qu\'aucune ancre n\'y avait jamais touché le fond.',en:'Far out in the ocean, where the water is as blue as the prettiest cornflower and as clear as crystal, it is very deep, so deep that no cable could fathom it.',de:'Weit draußen im Meer ist das Wasser so blau wie die Blätter der schönsten Kornblume und so klar wie das reinste Glas. Es ist sehr tief, so tief, dass kein Ankertau den Boden erreichen kann.',it:'Molto lontano in mare aperto, dove l\'acqua è così blu come i petali del fiordaliso più bello e trasparente come il cristallo, c\'è un posto profondissimo dove nessun\'ancora è mai arrivata.',pt:'Muito longe no mar alto, onde a água é tão azul como as pétalas do mais belo cardo e tão transparente como o cristal, existe um lugar tão profundo que nenhuma âncora jamais lá chegou.',ca:'Molt lluny en alta mar, on l\'aigua és tan blava com els pètals del blauet més bell i tan transparent com el cristall, hi ha un lloc tan profund que cap àncora no hi havia arribat mai.'},
-      {es:'Allá en el fondo vivían las gentes del mar. El palacio del Rey del Mar tenía paredes de coral y ventanas de ámbar amarillo.',fr:'Au fond de la mer vivaient les habitants des eaux. Le palais du roi des mers avait des murs de corail et des fenêtres d\'ambre jaune.',en:'At the bottom of the sea lived the people of the sea. The palace of the Sea King had walls of coral and windows of clear amber.',de:'Auf dem Grund des Meeres lebten die Seeleute. Der Palast des Meerkönigs hatte Wände aus Korallen und Fenster aus klarem Bernstein.',it:'In fondo al mare vivevano le genti del mare. Il palazzo del Re del Mare aveva mura di corallo e finestre di ambra gialla.',pt:'No fundo do mar viviam as gentes do mar. O palácio do Rei do Mar tinha paredes de coral e janelas de âmbar amarelo.',ca:'Al fons del mar vivien les gents del mar. El palau del Rei del Mar tenia parets de corall i finestres d\'ambre groc.'},
-      {es:'El rey llevaba muchos años viudo, y su anciana madre cuidaba del palacio y de sus seis nietas.',fr:'Le roi était veuf depuis de longues années, et sa vieille mère s\'occupait du palais et de ses six petites-filles.',en:'The king had been a widower for many years, and his old mother kept house for him and looked after his six granddaughters.',de:'Der König war seit vielen Jahren Witwer, und seine alte Mutter führte den Haushalt und kümmerte sich um seine sechs Enkeltöchter.',it:'Il re era rimasto vedovo da molti anni e sua madre anziana si occupava del palazzo e delle sue sei nipoti.',pt:'O rei estava viúvo há muitos anos e a sua velha mãe cuidava do palácio e das suas seis netas.',ca:'El rei feia molts anys que era vidu, i la seva vella mare cuidava el palau i les seves sis nétes.'},
-      {es:'La más joven era la más hermosa de todas. Tenía la piel suave como un pétalo de rosa y los ojos azules y profundos como el mar más hondo. Sin embargo, como todas las demás, no tenía pies: su cuerpo terminaba en cola de pez.',fr:'La plus jeune était la plus belle de toutes. Sa peau était douce comme un pétale de rose et ses yeux bleus et profonds comme la mer la plus profonde. Cependant, comme toutes les autres, elle n\'avait pas de pieds : son corps se terminait en queue de poisson.',en:'The youngest was the most beautiful of all. Her skin was as soft as a rose petal and her eyes were as blue and deep as the deepest sea. But like all the others, she had no feet: her body ended in a fish\'s tail.',de:'Die Jüngste war die Schönste von allen. Ihre Haut war so weich wie ein Rosenblatt und ihre Augen so blau und tief wie das tiefste Meer. Aber wie alle anderen hatte sie keine Füße, ihr Körper endete in einem Fischschwanz.',it:'La più giovane era la più bella di tutte. La sua pelle era morbida come un petalo di rosa e i suoi occhi erano azzurri e profondi come il mare più profondo. Eppure, come tutte le altre, non aveva piedi: il suo corpo terminava in coda di pesce.',pt:'A mais jovem era a mais bela de todas. A sua pele era suave como uma pétala de rosa e os seus olhos eram azuis e profundos como o mar mais fundo. No entanto, como todas as outras, não tinha pés: o seu corpo terminava em cauda de peixe.',ca:'La més jove era la més bella de totes. La seva pell era suau com un pètal de rosa i els seus ulls eren blaus i profunds com el mar més fons. Però, com totes les altres, no tenia peus: el seu cos acabava en cua de peix.'},
-      {es:'Cada una de las princesas tenía su propio jardín. La más pequeña plantó el suyo de flores de color rojo como el sol.',fr:'Chacune des princesses avait son propre jardin. La plus petite planta le sien de fleurs couleur rouge comme le soleil.',en:'Each of the princesses had her own little garden. The smallest planted hers with flowers as red as the sun.',de:'Jede der Prinzessinnen hatte ihren eigenen kleinen Garten. Die Kleinste bepflanzte ihren Garten mit Blumen so rot wie die Sonne.',it:'Ognuna delle principesse aveva il proprio giardino. La più piccola piantò il suo di fiori rossi come il sole.',pt:'Cada uma das princesas tinha o seu próprio jardim. A mais pequena plantou o seu com flores vermelhas como o sol.',ca:'Cadascuna de les princeses tenia el seu propi jardí. La més petita va plantar el seu amb flors vermelles com el sol.'},
-      {es:'En el centro colocó una hermosa estatua de mármol blanco que representaba a un joven muchacho, caída al fondo del mar desde un naufragio. Junto a ella plantó un sauce rosado que colgaba sus ramas sobre la figura como un manto.',fr:'Au centre, elle plaça une belle statue de marbre blanc représentant un jeune garçon tombée au fond de la mer depuis un naufrage. À côté, elle planta un saule rose dont les branches tombaient sur la statue comme un manteau.',en:'In the center she placed a beautiful white marble statue of a boy which had sunk to the bottom of the sea from a shipwreck. Beside it she planted a rose-pink willow tree that drooped its branches over the figure like a cloak.',de:'In der Mitte stellte sie eine schöne weiße Marmorstatue eines Jungen auf, die von einem Schiffswreck auf den Meeresgrund gesunken war. Daneben pflanzte sie eine rosafarbene Weide, deren Äste sich wie ein Mantel über die Figur legten.',it:'Al centro aveva posto una bella statua di marmo bianco raffigurante un giovane ragazzo, caduta sul fondo del mare da un naufragio. Accanto aveva piantato un salice rosato i cui rami ricadevano sulla figura come un manto.',pt:'No centro tinha colocado uma bela estátua de mármore branco de um rapaz, que tinha afundado no mar de um naufrágio. Ao lado tinha plantado um salgueiro cor-de-rosa cujos ramos pendiam sobre a figura como um manto.',ca:'Al centre havia col·locat una bella estàtua de marbre blanc d\'un noi, que havia caigut al fons del mar des d\'un naufràgi. Al costat havia plantat un salze rosa les branques del qual queien sobre la figura com un mantell.'}
-    ]},
-    {tit:'El mundo de arriba',frases:[
-      {es:'Lo que más deseaba la sirenita era saber cómo era el mundo de arriba, el mundo de los humanos.',fr:'Ce que la petite sirène désirait le plus au monde, c\'était savoir comment était le monde d\'en haut, le monde des humains.',en:'What the little mermaid wanted most of all was to know what the world above was like, the world of humans.',de:'Was die kleine Meerjungfrau am meisten wünschte, war zu wissen, wie die Welt oben war, die Welt der Menschen.',it:'Quello che la sirenetta desiderava più di ogni cosa era sapere com\'era il mondo di sopra, il mondo degli uomini.',pt:'O que a sereiazinha mais desejava era saber como era o mundo lá de cima, o mundo dos humanos.',ca:'El que la sireneta desitjava més era saber com era el món de dalt, el món dels humans.'},
-      {es:'Su abuela le contaba historias sobre barcos y ciudades, bosques y animales. Le explicó que las flores de la superficie tenían aroma y que los pájaros cantaban con una belleza que ninguna criatura del mar podía igualar.',fr:'Sa grand-mère lui racontait des histoires de navires et de villes, de forêts et d\'animaux. Elle lui expliqua que les fleurs de la surface avaient un parfum et que les oiseaux chantaient avec une beauté qu\'aucune créature marine ne pouvait égaler.',en:'Her grandmother told her stories of ships and cities, forests and animals. She explained that the flowers on the surface had a scent, and that the birds sang with a beauty no sea creature could match.',de:'Ihre Großmutter erzählte ihr Geschichten von Schiffen und Städten, Wäldern und Tieren. Sie erklärte ihr, dass die Blumen an der Oberfläche Duft hatten und dass die Vögel mit einer Schönheit sangen, die kein Meerestier erreichen konnte.',it:'Sua nonna le raccontava storie di navi e città, di foreste e animali. Le spiegò che i fiori in superficie avevano profumo e che gli uccelli cantavano con una bellezza che nessuna creatura marina poteva eguagliare.',pt:'A sua avó contava-lhe histórias sobre navios e cidades, florestas e animais. Explicou-lhe que as flores da superfície tinham aroma e que os pássaros cantavam com uma beleza que nenhuma criatura do mar conseguia igualar.',ca:'La seva àvia li explicava històries de vaixells i ciutats, boscos i animals. Li va explicar que les flors de la superfície tenien aroma i que els ocells cantaven amb una bellesa que cap criatura del mar no podia igualar.'},
-      {es:'Por fin llegó el turno de la sirenita. Subió a la superficie como una burbuja, ligera y silenciosa.',fr:'Enfin vint le tour de la petite sirène. Elle monta à la surface comme une bulle, légère et silencieuse.',en:'At last it was the little mermaid\'s turn. She rose to the surface like a bubble, light and silent.',de:'Endlich war die Reihe an der kleinen Meerjungfrau. Sie stieg wie eine Blase an die Oberfläche, leicht und still.',it:'Finalmente arrivò il turno della sirenetta. Salì in superficie come una bolla, leggera e silenziosa.',pt:'Por fim chegou a vez da sereiazinha. Subiu à superfície como uma bolha, leve e silenciosa.',ca:'Per fi va arribar el torn de la sireneta. Va pujar a la superfície com una bombolla, lleugera i silenciosa.'},
-      {es:'El sol acababa de ponerse y las nubes brillaban como rosas y oro. En medio del mar quieto se mecía un gran barco con tres mástiles.',fr:'Le soleil venait de se coucher et les nuages brillaient comme des roses et de l\'or. Au milieu de la mer calme se balançait un grand bateau à trois mâts.',en:'The sun had just set and the clouds glowed like roses and gold. In the middle of the still sea rocked a great ship with three masts.',de:'Die Sonne war gerade untergegangen und die Wolken leuchteten wie Rosen und Gold. Mitten auf dem ruhigen Meer schaukelte ein großes Schiff mit drei Masten.',it:'Il sole era appena tramontato e le nuvole brillavano come rose e oro. In mezzo al mare calmo dondolava una grande nave a tre alberi.',pt:'O sol acabara de se pôr e as nuvens brilhavam como rosas e ouro. No meio do mar calmo balançava um grande navio com três mastros.',ca:'El sol acabava de pondre\'s i els núvols brillaven com roses i or. Enmig del mar quiet es gronxava un gran vaixell amb tres pals.'},
-      {es:'En cubierta había música y luces. Cuando oscureció del todo, cientos de farolillos de colores se encendieron, haciendo que el barco pareciese flotar entre las estrellas.',fr:'Sur le pont, il y avait de la musique et des lumières. Quand la nuit fut complète, des centaines de lampions de couleur s\'allumèrent, faisant sembler le bateau flotter parmi les étoiles.',en:'On deck there was music and lights. When it grew completely dark, hundreds of coloured lanterns were lit, making the ship seem to float among the stars.',de:'Auf dem Deck gab es Musik und Lichter. Als es völlig dunkel wurde, wurden Hunderte von bunten Laternen angezündet, die das Schiff wie einen zwischen den Sternen schwebenden Körper erscheinen ließen.',it:'Sul ponte c\'erano musica e luci. Quando si fece completamente buio, centinaia di lanterne colorate si accesero, facendo sembrare la nave come sospesa tra le stelle.',pt:'No convés havia música e luzes. Quando escureceu completamente, centenas de lampiões coloridos se acenderam, fazendo o navio parecer flutuar entre as estrelas.',ca:'A coberta hi havia música i llums. Quan va fer-se completament fosc, centenars de llanternes de colors es van encendre, fent que el vaixell semblés flotar entre les estrelles.'},
-      {es:'La sirenita nadó hasta acercarse a las ventanas y pudo ver dentro: había muchos hombres elegantes, pero el más hermoso era un joven príncipe de ojos negros y profundos.',fr:'La petite sirène nagea jusqu\'aux hublots et put regarder à l\'intérieur : il y avait beaucoup d\'hommes élégants, mais le plus beau était un jeune prince aux yeux noirs et profonds.',en:'The little mermaid swam up to the portholes and could look inside: there were many elegant men but the most beautiful was a young prince with dark, deep eyes.',de:'Die kleine Meerjungfrau schwamm zu den Bullaugen und konnte hineinschauen: Es gab viele elegante Männer, aber der Schönste war ein junger Prinz mit dunklen, tiefen Augen.',it:'La sirenetta nuotò fino agli oblò e poté guardare dentro: c\'erano molti uomini eleganti, ma il più bello era un giovane principe dagli occhi scuri e profondi.',pt:'A sereiazinha nadou até às vigias e pôde ver lá dentro: havia muitos homens elegantes, mas o mais belo era um jovem príncipe de olhos negros e profundos.',ca:'La sireneta va nedar fins als ull de bou i va poder veure a l\'interior: hi havia molts homes elegants, però el més bell era un jove príncep d\'ulls negres i profunds.'},
-      {es:'De repente, el cielo se cubrió de nubes negras y el mar comenzó a rugir. La sirenita vio cómo el barco se sacudía como una pluma en el viento.',fr:'Soudain, le ciel se couvrit de nuages noirs et la mer commença à rugir. La petite sirène vit le bateau se secouer comme une plume dans le vent.',en:'Suddenly the sky was covered with dark clouds and the sea began to roar. The little mermaid watched the ship tossed about like a feather in the wind.',de:'Plötzlich bedeckte sich der Himmel mit schwarzen Wolken und das Meer begann zu tosen. Die kleine Meerjungfrau sah, wie das Schiff wie eine Feder im Wind hin und her geworfen wurde.',it:"All'improvviso il cielo si coprì di nuvole nere e il mare cominciò a ruggire. La sirenetta vide la nave scuotersi come una piuma nel vento.",pt:'De repente, o céu cobriu-se de nuvens negras e o mar começou a rugir. A sereiazinha viu o navio sacudir-se como uma pena ao vento.',ca:'De sobte, el cel es va cobrir de núvols negres i el mar va començar a rugir. La sireneta va veure el vaixell sacsejat com una ploma al vent.'}
-    ]}
-  ]},
-  {id:3,tit:'Caperucita Roja',aut:'Hermanos Grimm',cat:'Grimm',gratis:false,cov:'grimm',emo:'🐺',totalCaps:2,caps:[]},
-  {id:4,tit:'El Patito Feo',aut:'H.C. Andersen',cat:'Andersen',gratis:false,cov:'andersen',emo:'🦢',totalCaps:3,caps:[]},
-];
+  {id:1,tit:`Blancanieves`,aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🍎',totalCaps:5,file:'blancanieves.json',caps:[]},
+  {id:2,tit:`La Sirenita`,aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🌊',totalCaps:4,file:'sirenita.json',caps:[]},
+  {id:3,tit:`Caperucita Roja`,aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🐺',totalCaps:3,file:'caperucita.json',caps:[]},
+  {id:4,tit:`El Patito Feo`,aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🦢',totalCaps:3,file:'patito.json',caps:[]},
+]
 
 // ── MEZCLA ────────────────────────────────────────────────────────────────────
+// Niveles de prioridad — determinan el orden de introducción entre capítulos
+// prio:3 = cap1 (artículos, pronombres), prio:2 = cap2 (preposiciones, conectores),
+// prio:1 = cap3+ (sustantivos, verbos concretos), sin prio = vocabulario avanzado
+
 function calcPct(capIdx,totalCaps,isPrem){
-  const min=20, maxFree=60, maxPrem=90;
+  const min=20,maxFree=60,maxPrem=90;
   const max=isPrem?maxPrem:maxFree;
   if(totalCaps<=1)return min;
   return Math.round(min+(max-min)*(capIdx/(totalCaps-1)));
 }
 
-// Calcula el % real de palabras traducidas (ocurrencias, no keys únicas)
-function calcImmReal(toks){
-  if(!toks||!toks.length)return 0;
-  const palabras=toks.filter(t=>t.r==='n'||t.r==='k'||(t.r==='p'&&t.orig&&t.orig.match(/[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]/)));
-  if(!palabras.length)return 0;
-  const traducidas=palabras.filter(t=>t.r==='n'||t.r==='k').length;
-  return Math.round((traducidas/palabras.length)*100);
-}
-
-// Tokeniza el texto en expresiones/palabras/literales — SIN aleatorio
-function tokenizar(txt,idioma){
+// Tokeniza texto buscando entradas del EXPR (más largas primero) + palabras + separadores
+function tokenizarConExpr(txt, idioma){
   const tokens=[];let i=0;
   while(i<txt.length){
     let matched=false;
     for(const e of EXPR){
-      if(txt.substring(i).toLowerCase().startsWith(e.es)&&e[idioma]){
-        // Verificar que no sea parte de una palabra más larga
+      if(!e[idioma]) continue;
+      const chunk=txt.substring(i);
+      if(chunk.toLowerCase().startsWith(e.es)){
         const after=txt[i+e.es.length];
-        if(!after||!after.match(/[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]/)){
+        if(!after||!/[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]/i.test(after)){
           tokens.push({tipo:'e',orig:txt.substring(i,i+e.es.length),trad:e[idioma],key:e.es,prio:e.prio||0});
-          i+=e.es.length;matched=true;break;
+          i+=e.es.length; matched=true; break;
         }
       }
     }
-    if(matched)continue;
+    if(matched) continue;
     const wm=txt.substring(i).match(/^[a-záéíóúüñA-ZÁÉÍÓÚÜÑ]+/);
-    if(wm){
-      tokens.push({tipo:'w',txt:wm[0]});
-      i+=wm[0].length;
-    } else{tokens.push({tipo:'l',txt:txt[i]});i++;}
+    if(wm){tokens.push({tipo:'w',txt:wm[0]});i+=wm[0].length;}
+    else{tokens.push({tipo:'l',txt:txt[i]});i++;}
   }
   return tokens;
 }
 
-// Elige qué tokens concretos se traducen — control preciso de ocurrencias
-function elegirTraducidas(tokens,pct){
-  const ocurr=tokens.filter(t=>t.tipo==='e');
-  if(!ocurr.length)return new Set();
-  const objetivo=Math.round(ocurr.length*(pct/100));
+// Mezcla la frase: sustituye % de las palabras totales por su traducción del EXPR
+// DETERMINISTA: la elección depende solo de fraseES+pct, nunca de render
+function mezclarFrase(fraseES, idioma, pct){
+  const tokens=tokenizarConExpr(fraseES, idioma);
+  if(pct<=0) return tokens.map(t=>({tipo:'plain',txt:t.txt||t.orig}));
 
-  // Separar prioritarios y normales
-  const prios=ocurr.filter(t=>(t.prio||0)>0);
-  const normales=ocurr.filter(t=>(t.prio||0)===0);
+  // Total de palabras (incluye las no traducibles)
+  const totalPals=tokens.filter(t=>t.tipo==='w'||t.tipo==='e').length;
+  const nObj=Math.round(totalPals*(pct/100));
 
-  // Mezclar normales aleatoriamente para variar cada capítulo
-  normales.sort(()=>Math.random()-.5);
+  // Solo podemos traducir las que están en el diccionario
+  const traduciblesIdx=tokens.map((t,i)=>t.tipo==='e'?i:-1).filter(i=>i>=0);
+  if(!traduciblesIdx.length) return tokens.map(t=>({tipo:'plain',txt:t.txt||t.orig}));
 
-  // Construir lista ordenada: primero prioritarios, luego normales
-  const candidatos=[...prios,...normales];
+  // Seed determinista basado en el contenido de la frase (estable entre renders)
+  let seed=0; for(let c=0;c<fraseES.length;c++) seed=(seed*31+fraseES.charCodeAt(c))>>>0;
+  function seededRand(s){ s=(s^61)^(s>>>16); s+=s<<3; s^=s>>>4; s*=0x27d4eb2d; s^=s>>>15; return (s>>>0)/0xffffffff; }
 
-  // Seleccionar token a token hasta llegar al objetivo EXACTO
-  // Usamos índices de posición en el array tokens original para rastrear cada ocurrencia
-  const elegidosIdx=new Set();
-  let count=0;
-  for(const t of candidatos){
-    if(count>=objetivo)break;
-    // Encontrar el índice de este token en el array original
-    const idx=tokens.indexOf(t);
-    if(!elegidosIdx.has(idx)){
-      elegidosIdx.add(idx);
-      count++;
+  // Ordenar los traducibles por posición en el texto (determinista, estable)
+  // Elegir uniformemente: tomar cada (n/nObj)-ésimo candidato
+  const nElegir=Math.min(nObj, traduciblesIdx.length);
+  const elegidas=new Set();
+  if(nElegir>=traduciblesIdx.length){
+    traduciblesIdx.forEach(i=>elegidas.add(i));
+  } else {
+    // Distribución uniforme por posición — puramente determinista
+    const step=traduciblesIdx.length/nElegir;
+    for(let k=0;k<nElegir;k++){
+      const idx=Math.min(traduciblesIdx.length-1, Math.floor(k*step+step/2));
+      elegidas.add(traduciblesIdx[idx]);
     }
   }
-  return elegidosIdx; // Set de índices, no de keys
-}
 
-// Renderiza tokens aplicando elegidas (por índice) + aprendidas (por key)
-function aplicarEstado(tokens,elegidas,aprd){
   return tokens.map((t,idx)=>{
-    if(t.tipo==='l'||t.tipo==='w')return{r:'p',txt:t.txt||t.orig};
-    const ya=aprd.has(t.key);
-    const sel=elegidas.has(idx);
-    return{r:ya?'k':(sel?'n':'p'),orig:t.orig,trad:t.trad,key:t.key};
+    if(t.tipo==='l') return {tipo:'plain',txt:t.txt};
+    if(t.tipo==='w') return {tipo:'plain',txt:t.txt};
+    if(elegidas.has(idx)) return {tipo:'idioma',es:t.orig,trad:t.trad};
+    return {tipo:'plain',txt:t.orig};
   });
 }
 
-// ── SISTEMA DE FRASES BILINGÜE ────────────────────────────────────────────────
-// Elige qué frases mostrar en el idioma objetivo según el % de inmersión
-function elegirFrasesIdioma(frases, pct, idioma){
-  if(!frases||!frases.length)return [];
-  const total=frases.length;
-  const nObjetivo=Math.round(total*(pct/100));
-  // Siempre elegimos las últimas N frases del capítulo en idioma (inmersión progresiva natural)
-  // Las primeras en español para anclar contexto, las últimas en idioma para reto creciente
-  const elegidas=new Set();
-  // Distribuir uniformemente: cada N/nObjetivo frases, una en idioma
-  if(nObjetivo<=0)return frases.map((_,i)=>({idx:i,lang:'es'}));
-  if(nObjetivo>=total)return frases.map((_,i)=>({idx:i,lang:idioma}));
-  
-  // Elegir aleatoriamente pero respetando el % — se fija al cargar el capítulo
-  const indices=[...Array(total).keys()];
-  // shuffle determinista: usamos un seed basado en el contenido de la primera frase
-  const seed=frases[0].es.length*total;
-  const shuffled=indices.sort((a,b)=>((a*seed+7)%total)-((b*seed+3)%total));
-  const elegidosSet=new Set(shuffled.slice(0,nObjetivo));
-  
-  return frases.map((_,i)=>({idx:i,lang:elegidosSet.has(i)?idioma:'es'}));
+// % real = palabras traducidas / TOTAL palabras del capítulo (no solo las del diccionario)
+function calcImmReal(frases, pct, idioma){
+  if(!frases||!frases.length) return 0;
+  let totalPals=0, tradPals=0;
+  for(const f of frases){
+    const toks=tokenizarConExpr(f.es, idioma);
+    const todas=toks.filter(t=>t.tipo==='w'||t.tipo==='e').length;
+    const traducibles=toks.filter(t=>t.tipo==='e').length;
+    totalPals+=todas;
+    // Cuántas se traducen realmente: min(objetivo sobre total, las disponibles)
+    tradPals+=Math.min(traducibles, Math.round(todas*(pct/100)));
+  }
+  return totalPals ? Math.round((tradPals/totalPals)*100) : 0;
 }
 
-function calcImmFrases(plan){
-  if(!plan||!plan.length)return 0;
-  const nIdioma=plan.filter(p=>p.lang!=='es').length;
-  return Math.round((nIdioma/plan.length)*100);
-}
 
-// Componente frase en idioma objetivo con tooltip de traducción al ES
-function FraseIdioma({frase, idioma}){
+
+// Componente palabra en idioma objetivo con tooltip ES
+function PalabraIdioma({es,trad}){
   const [hov,setHov]=useState(false);
-  const txt=frase[idioma]||frase.es;
-  return h('p',{
-    className:'par frase-idioma',
+  return h('span',{
+    className:'pal-n',
     onMouseEnter:()=>setHov(true),
     onMouseLeave:()=>setHov(false),
-    onTouchStart:e=>{e.preventDefault();setHov(v=>!v);},
-    style:{position:'relative'}
+    onTouchStart:e=>{e.preventDefault();setHov(v=>!v);}
   },
-    txt,
-    hov&&h('span',{className:'tt-frase'},
-      h('span',{className:'ta'},'ES'),
-      ' ',
-      frase.es
+    trad,
+    hov&&h('span',{className:'tt'},
+      h('span',{className:'to'},es),
+      h('span',{className:'ta'},'→'),
+      h('span',{className:'tn'},trad)
     )
   );
 }
 
-function renderFrases(frases, plan, idioma){
-  if(!frases||!plan)return null;
+// Renderiza el capítulo mezclando palabras del diccionario EXPR en cada frase
+function renderFrases(frases,pct,idioma){
+  if(!frases)return null;
   return frases.map((f,i)=>{
-    const p=plan[i];
-    if(!p)return null;
-    if(p.lang==='es') return h('p',{key:i,className:'par'},f.es);
-    return h(FraseIdioma,{key:i,frase:f,idioma});
+    const tokens=mezclarFrase(f.es, idioma, pct);
+    // Detectar si el primer token visible es de tipo idioma → capitalizar
+    let primeraPalVista=false;
+    return h('p',{key:i,className:'par'},
+      tokens.map((t,ti)=>{
+        if(t.tipo==='plain'){
+          if(!primeraPalVista&&t.txt&&t.txt.trim())primeraPalVista=true;
+          return h('span',{key:ti},t.txt);
+        }
+        if(t.tipo==='idioma'){
+          const esPrimera=!primeraPalVista;
+          primeraPalVista=true;
+          const trad=esPrimera?t.trad.charAt(0).toUpperCase()+t.trad.slice(1):t.trad;
+          return h(PalabraIdioma,{key:ti,es:t.es,trad});
+        }
+        return null;
+      })
+    );
   });
 }
-
 
 
 // ── AUTH HOOK ─────────────────────────────────────────────────────────────────
@@ -636,7 +587,6 @@ function Landing({onLogin,onReg}){
     {es:'Su madre había muerto hacía muchos años.',en:'Her mother had died many years ago.',fr:'Sa mère était morte il y a de nombreuses années.',de:'Ihre Mutter war vor vielen Jahren gestorben.'},
     {es:'Un día, un príncipe llegó a la puerta del castillo.',en:'One day, a prince arrived at the castle gate.',fr:'Un jour, un prince arriva à la porte du château.',de:'Eines Tages kam ein Prinz an das Tor des Schlosses.'},
   ];
-  const demoPlan=useMemo(()=>elegirFrasesIdioma(DEMO_FRASES,demoImm,DEMO_IDIOMA),[demoImm]);
 
   const FAQS=[
     {q:'¿El método funciona de verdad?',a:'Sí. El método diglot weave está respaldado por investigación científica. Tu cerebro aprende vocabulario y gramática en contexto real, que es exactamente cómo los niños adquieren su lengua materna. Los estudios muestran mejor retención y más velocidad de aprendizaje frente a métodos tradicionales.'},
@@ -685,7 +635,7 @@ function Landing({onLogin,onReg}){
             style:{background:`linear-gradient(90deg,var(--indigo) ${demoImm}%,var(--border) ${demoImm}%)`},
             onChange:e=>setDemoImm(+e.target.value)})),
         h('div',{className:'demo-txt'},
-          renderFrases(DEMO_FRASES,demoPlan,DEMO_IDIOMA)))),
+          renderFrases(DEMO_FRASES,demoImm,DEMO_IDIOMA)))),
 
     // FEATURES
     h('section',{className:'feat-sec'},
@@ -812,7 +762,7 @@ function App(){
   }); // landing|login|registro|inicio|biblioteca|ajustes|lector
   const [libro,setLibro]=useState(null);
   const [cap,setCap]=useState(0);
-  const [planFrases,setPlanFrases]=useState(null); // plan de qué frases en qué idioma
+  const [cargando,setCargando]=useState(false);
   const [prog,setProg]=useState(0);
   const [meta,setMeta]=useState({tipo:'minutos',unidad:'min',valor:10});
   const [menuOpen,setMenuOpen]=useState(false);
@@ -822,17 +772,11 @@ function App(){
   const isPrem=false;
   const progDia=3;
 
+  const immPct=libro?calcPct(cap,libro.totalCaps,isPrem):20;
+  const immReal=libro?calcImmReal(libro.caps[cap]?.frases||[],immPct,user?.idioma):0;
+
   // Al hacer login ir a inicio
   useEffect(()=>{if(user&&(screen==='landing'||screen==='login'||screen==='registro'))setScreen('inicio');},[user]);
-
-  // Cargar capítulo: generar plan de frases UNA VEZ por capítulo
-  useEffect(()=>{
-    if(libro&&user){
-      const pct=calcPct(cap,libro.totalCaps,isPrem);
-      const frases=libro.caps[cap]?.frases||[];
-      setPlanFrases(elegirFrasesIdioma(frases,pct,user.idioma));
-    }
-  },[libro,cap,user?.idioma]);
 
   // Scroll → progreso
   useEffect(()=>{
@@ -843,10 +787,21 @@ function App(){
     return()=>el.removeEventListener('scroll',fn);
   },[screen]);
 
-  function abrirLibro(lb){
+  async function abrirLibro(lb){
     if(!lb.gratis&&!isPrem){alert('📚 Contenido Premium\nDesbloquea la biblioteca completa con Talixea Premium.');return;}
-    if(!lb.caps.length)return;
-    setLibro(lb);setCap(0);setPlanFrases(null);setScreen('lector');setProg(0);
+    // Si ya tiene caps cargados, abrir directamente
+    if(lb.caps&&lb.caps.length>0){setLibro(lb);setCap(0);setScreen('lector');setProg(0);return;}
+    // Cargar JSON dinámicamente
+    setCargando(true);
+    try{
+      const resp=await fetch(`books/${lb.file}`);
+      const data=await resp.json();
+      // Actualizar el catálogo en memoria con los caps cargados
+      const idx=LIBROS.findIndex(l=>l.id===lb.id);
+      if(idx>=0)LIBROS[idx].caps=data.caps;
+      setLibro({...lb,...data});setCap(0);setScreen('lector');setProg(0);
+    }catch(e){alert('No se pudo cargar el libro. Comprueba tu conexión.');}
+    finally{setCargando(false);}
   }
 
   function IcoLibro({color='#fff',size=18}){return h('svg',{viewBox:'0 0 24 24',fill:'none',stroke:color,strokeWidth:2,strokeLinecap:'round',strokeLinejoin:'round',width:size,height:size},h('path',{d:'M4 19.5A2.5 2.5 0 016.5 17H20'}),h('path',{d:'M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z'}));}
@@ -997,33 +952,37 @@ function App(){
     )
   );
 
+  // ── CARGANDO ─────────────────────────────────────────────────────────────
+  if(cargando)return h('div',{style:{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',height:'100vh',gap:16,color:'var(--soft)',fontFamily:'Inter,sans-serif'}},
+    h('div',{style:{width:40,height:40,border:'3px solid var(--border)',borderTopColor:'var(--indigo)',borderRadius:'50%',animation:'spin 0.8s linear infinite'}}),
+    h('span',null,'Cargando libro...')
+  );
+
   // ── LECTOR ────────────────────────────────────────────────────────────────
   const capObj=libro?.caps[cap];
-  const immPctObj=libro?calcPct(cap,libro.totalCaps,isPrem):20; // objetivo
-  const immPctReal=calcImmFrases(planFrases); // % real en pantalla
   const maxPct=isPrem?90:60;
-  const immPctBar=Math.round((immPctObj/maxPct)*100);
+  const immPctBar=Math.round((immPct/maxPct)*100);
   return h('div',{className:'lec-wrap',ref:lRef},
     h('header',{className:'lec-hdr'},
       h('button',{className:'btn-v',onClick:()=>setScreen('biblioteca')},'← Volver'),
       h('span',{className:'lec-th'},libro?.tit),
-      h('div',{className:'lec-badge'},h(Flag,{id:user.idioma,size:18}),h('span',null,`${immPctReal}%`))),
+      h('div',{className:'lec-badge'},h(Flag,{id:user.idioma,size:18}),h('span',null,`${immReal}%`))),
     h('div',{className:'prog-wrap'},h('div',{className:'prog-fill',style:{width:`${prog}%`}})),
     h('div',{className:'imm-strip'},
       h('span',{className:'imm-strip-l'},`Cap. ${cap+1}/${libro?.totalCaps}`),
       h('div',{className:'imm-strip-bar'},h('div',{className:'imm-strip-fill',style:{width:`${immPctBar}%`}})),
-      h('span',{className:'imm-strip-v'},`${immPctObj}% objetivo`)),
+      h('span',{className:'imm-strip-v'},`${immPct}% objetivo`)),
     h('main',{className:'lec-main'},
       h('h2',{className:'cap-t'},capObj?.tit),
       h('p',{className:'cap-lb'},`${libro?.aut} · ${libro?.cat} · Capítulo ${cap+1} de ${libro?.totalCaps}`),
       h('div',{className:'sep'}),
-      h('div',{className:'txt'},renderFrases(capObj?.frases,planFrases,user.idioma)),
+      h('div',{className:'txt'},renderFrases(capObj?.frases,immPct,user.idioma)),
       h('div',{className:'cap-nav'},
         cap>0&&h('button',{className:'btn-g',onClick:()=>{setCap(v=>v-1);lRef.current?.scrollTo(0,0);}},'← Capítulo anterior'),
         cap<libro.totalCaps-1&&h('button',{className:'btn-p',onClick:()=>{setCap(v=>v+1);lRef.current?.scrollTo(0,0);}},'Siguiente capítulo →')),
       h('div',{className:'leyenda'},
-        h('span',{style:{display:'inline-block',background:'var(--ip)',border:'1.5px solid var(--indigo)',borderRadius:6,padding:'2px 8px',color:'var(--indigo)',fontWeight:600,fontSize:13}},'Frase en color'),
-        ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón o toca para ver la traducción en español.'))
+        h('strong',{style:{color:'var(--indigo)',borderBottom:'1.5px dashed var(--il)'}},'Palabras en índigo'),
+        ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón (o toca) para ver el original en español.'))
   );
 }
 
