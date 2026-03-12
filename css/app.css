@@ -443,8 +443,11 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
   .prac-mode{flex:1}
 
   /* Quiz: ocupa espacio tras sidebar, contenido centrado */
-  .quiz-wrap{margin-left:240px;min-height:100vh;width:calc(100% - 240px)}
+  .quiz-wrap{margin-left:240px;min-height:100vh;width:calc(100% - 240px);display:flex;flex-direction:column}
   .quiz-hdr,.quiz-body,.quiz-next,.quiz-result{max-width:600px;margin:0 auto;width:100%}
+
+  /* Libro completado */
+  .lc-content{margin-left:240px;width:calc(100% - 240px)}
 
   /* Inicio: hero más grande */
   .hero-app-t{font-size:36px}
@@ -481,8 +484,11 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 
 /* ── LIBRO COMPLETADO ── */
 .libro-completado{
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  min-height:100vh;padding:40px 24px;text-align:center;background:var(--bg);
+  display:flex;min-height:100vh;background:var(--bg);
+}
+.lc-content{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:40px 24px;text-align:center;
 }
 .lc-confetti{font-size:64px;margin-bottom:16px;animation:lc-bounce .6s ease-in-out}
 @keyframes lc-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
