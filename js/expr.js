@@ -100,8 +100,8 @@ EXPR.sort((a,b)=>b.es.length-a.es.length);
 // ── CATÁLOGO LIGERO (sin datos de caps) ──────────────────────────────────────
 // Los caps se cargan dinámicamente desde JSON al abrir el libro
 const LIBROS=[
-  {id:1,tit:`Blancanieves`,aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🍎',totalCaps:5,file:'blancanieves.json',caps:[]},
-  {id:2,tit:`La Sirenita`,aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🌊',totalCaps:4,file:'sirenita.json',caps:[]},
-  {id:3,tit:`Caperucita Roja`,aut:'Hermanos Grimm',cat:'Grimm',gratis:true,cov:'grimm',emo:'🐺',totalCaps:3,file:'caperucita.json',caps:[]},
-  {id:4,tit:`El Patito Feo`,aut:'H.C. Andersen',cat:'Andersen',gratis:true,cov:'andersen',emo:'🦢',totalCaps:3,file:'patito.json',caps:[]},
+  {id:1,tit:`Blancanieves`,aut:'Hermanos Grimm',cat:'Cuentos Grimm',gratis:true,cov:'grimm',emo:'🍎',totalCaps:5,file:'blancanieves.json',caps:[]},
+  {id:2,tit:`La Sirenita`,aut:'H.C. Andersen',cat:'Cuentos Andersen',gratis:true,cov:'andersen',emo:'🌊',totalCaps:4,file:'sirenita.json',caps:[]},
+  {id:3,tit:`Caperucita Roja`,aut:'Hermanos Grimm',cat:'Cuentos Grimm',gratis:true,cov:'grimm',emo:'🐺',totalCaps:3,file:'caperucita.json',caps:[]},
+  {id:4,tit:`El Patito Feo`,aut:'H.C. Andersen',cat:'Cuentos Andersen',gratis:true,cov:'andersen',emo:'🦢',totalCaps:3,file:'patito.json',caps:[]},
 ]
