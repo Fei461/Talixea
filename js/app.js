@@ -321,7 +321,7 @@ function App(){
           ,nuevoIdioma?`Añadir ${IDIOMAS.find(i=>i.id===nuevoIdioma)?.n}`:'Selecciona un idioma')
         ))
     )
-  );
+  ));
 
   // ── BIBLIOTECA ────────────────────────────────────────────────────────────
   if(screen==='biblioteca') return h(AppShell,{act:'biblioteca'},
