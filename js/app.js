@@ -184,7 +184,7 @@ function App(){
   function Nav({act}){
     return h('header',{className:'hdr'},
       h('div',{className:'logo'},
-        h(TalixeaLogo,{height:28,onClick:()=>setScreen('inicio')})),
+        h(TalixeaLogo,{size:32,onClick:()=>setScreen('inicio')})),
       h('nav',{className:'nav'},
         h('button',{className:`np ${act==='inicio'?'on':''}`,onClick:()=>setScreen('inicio')},'Inicio'),
         h('button',{className:`np ${act==='biblioteca'?'on':''}`,onClick:()=>setScreen('biblioteca')},'Biblioteca'),
@@ -224,7 +224,7 @@ function App(){
   function SidebarDesktop({act}){
     return h('aside',{className:'sidebar-desktop'},
       h('div',{className:'sidebar-logo'},
-        h(TalixeaLogo,{height:30,onClick:()=>setScreen('inicio')})),
+        h(TalixeaLogo,{size:36,onClick:()=>setScreen('inicio')})),
       h('nav',{className:'sidebar-nav'},
         NAV_ITEMS.map(item=>h('button',{
           key:item.id,
@@ -741,9 +741,12 @@ function App(){
                 setCap(v=>v+1);lRef.current?.scrollTo(0,0);
               }},'Siguiente capítulo →')
             :h('button',{className:'btn-p',style:{background:'linear-gradient(135deg,#6366F1,#8B5CF6)',boxShadow:'0 4px 20px rgba(99,102,241,.4)'},onClick:()=>{
-                capCompletado();
+                const yaCompletado=(stats.librosCompletados||[]).includes(libro.id);
+                if(!yaCompletado){
+                  capCompletado(); // XP solo la primera vez
+                  setStats(prev=>({...prev,librosCompletados:[...new Set([...(prev.librosCompletados||[]),libro.id])]}));
+                }
                 registrarPalabrasVistas(capObj?.frases,user.idioma);
-                setStats(prev=>({...prev,librosCompletados:[...new Set([...(prev.librosCompletados||[]),libro.id])]}));
                 setScreen('libro-completado');
               }},'🎉 ¡Libro completado!')),
         h('div',{className:'leyenda'},
