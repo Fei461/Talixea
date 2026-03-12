@@ -183,8 +183,8 @@ function App(){
 
   function Nav({act}){
     return h('header',{className:'hdr'},
-      h('div',{className:'logo',onClick:()=>setScreen('inicio')},
-        h('span',{className:'logo-text'},h('span',{className:'lt'},'T'),'ALIXEA')),
+      h('div',{className:'logo'},
+        h(TalixeaLogo,{height:28,onClick:()=>setScreen('inicio')})),
       h('nav',{className:'nav'},
         h('button',{className:`np ${act==='inicio'?'on':''}`,onClick:()=>setScreen('inicio')},'Inicio'),
         h('button',{className:`np ${act==='biblioteca'?'on':''}`,onClick:()=>setScreen('biblioteca')},'Biblioteca'),
@@ -224,8 +224,7 @@ function App(){
   function SidebarDesktop({act}){
     return h('aside',{className:'sidebar-desktop'},
       h('div',{className:'sidebar-logo'},
-        h('span',{className:'logo-text',style:{cursor:'pointer'},onClick:()=>setScreen('inicio')},
-          h('span',{className:'lt'},'T'),'ALIXEA')),
+        h(TalixeaLogo,{height:30,onClick:()=>setScreen('inicio')})),
       h('nav',{className:'sidebar-nav'},
         NAV_ITEMS.map(item=>h('button',{
           key:item.id,
@@ -424,13 +423,12 @@ function App(){
                 return h('div',{key:lb.id,className:`lb-row ${bloqueado?'blk':''}`,onClick:()=>abrirLibro(lb)},
                   h('div',{className:`lb-rc ${lb.cov}`},h('span',null,lb.emo),bloqueado&&h('div',{className:'lo'},'🔒')),
                   h('div',{className:'lb-ri'},
-                    h('span',{className:'lb-cat'},lb.cat),
-                    h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
-                    h('span',{className:'lb-aut'},lb.aut),
-                    h('div',{style:{display:'flex',alignItems:'center',gap:8,marginTop:2}},
-                      h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`),
-                      completado&&h('span',{style:{fontSize:11,fontWeight:700,color:'#16A34A',background:'#DCFCE7',padding:'2px 8px',borderRadius:10}},'✓ Completado'))),
-                  bloqueado&&h('span',{className:'badge-pr'},'PREMIUM'));
+                    h('span',{className:'lb-cat',style:{fontSize:10,fontWeight:700,textTransform:'uppercase',letterSpacing:'.5px',color:'var(--mute)',marginBottom:2,display:'block'}},lb.cat),
+                    h('span',{className:'lb-tit',style:{display:'block',fontSize:14,fontWeight:700,lineHeight:1.3,marginBottom:2}},lb.tit),
+                    h('span',{className:'lb-aut',style:{fontSize:12,color:'var(--soft)'}},lb.aut),
+                    h('div',{style:{display:'flex',alignItems:'center',gap:6,marginTop:6,flexWrap:'wrap'}},
+                      completado&&h('span',{style:{fontSize:10,fontWeight:700,color:'#16A34A',background:'#DCFCE7',padding:'2px 7px',borderRadius:8}},'✓ Completado'),
+                      bloqueado&&h('span',{className:'badge-pr'},'PREMIUM'))));
               }))
           :h('div',{className:'bib-empty'},
               h('div',{className:'bib-empty-ico'},'📭'),
@@ -729,27 +727,28 @@ function App(){
       h('div',{className:'imm-strip-bar'},h('div',{className:'imm-strip-fill',style:{width:`${immPctBar}%`}})),
       h('span',{className:'imm-strip-v'},`${immPct}% objetivo`)),
     h('main',{className:'lec-main'},
-      h('h2',{className:'cap-t'},capObj?.tit),
-      h('p',{className:'cap-lb'},`${libro?.aut} · ${libro?.cat} · Capítulo ${cap+1} de ${libro?.totalCaps}`),
-      h('div',{className:'sep'}),
-      h('div',{className:'txt'},renderFrases(capObj?.frases,immPct,user.idioma)),
-      h('div',{className:'cap-nav'},
-        cap>0&&h('button',{className:'btn-g',onClick:()=>{setCap(v=>v-1);lRef.current?.scrollTo(0,0);}},'← Capítulo anterior'),
-        cap<(libro?.totalCaps??1)-1
-          ?h('button',{className:'btn-p',onClick:()=>{
-              capCompletado();
-              registrarPalabrasVistas(capObj?.frases,user.idioma);
-              setCap(v=>v+1);lRef.current?.scrollTo(0,0);
-            }},'Siguiente capítulo →')
-          :h('button',{className:'btn-p',style:{background:'linear-gradient(135deg,#6366F1,#8B5CF6)',boxShadow:'0 4px 20px rgba(99,102,241,.4)'},onClick:()=>{
-              capCompletado();
-              registrarPalabrasVistas(capObj?.frases,user.idioma);
-              setStats(prev=>({...prev,librosCompletados:[...new Set([...(prev.librosCompletados||[]),libro.id])]}));
-              setScreen('libro-completado');
-            }},'🎉 ¡Libro completado!')),
-      h('div',{className:'leyenda'},
-        h('strong',{style:{color:'var(--indigo)',borderBottom:'1.5px dashed var(--il)'}},'Palabras en índigo'),
-        ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón (o toca) para ver el original en español.')),
+      h('div',{className:'lec-main-inner'},
+        h('h2',{className:'cap-t'},capObj?.tit),
+        h('p',{className:'cap-lb'},`${libro?.aut} · ${libro?.cat} · Capítulo ${cap+1} de ${libro?.totalCaps}`),
+        h('div',{className:'sep'}),
+        h('div',{className:'txt'},renderFrases(capObj?.frases,immPct,user.idioma)),
+        h('div',{className:'cap-nav'},
+          cap>0&&h('button',{className:'btn-g',onClick:()=>{setCap(v=>v-1);lRef.current?.scrollTo(0,0);}},'← Capítulo anterior'),
+          cap<(libro?.totalCaps??1)-1
+            ?h('button',{className:'btn-p',onClick:()=>{
+                capCompletado();
+                registrarPalabrasVistas(capObj?.frases,user.idioma);
+                setCap(v=>v+1);lRef.current?.scrollTo(0,0);
+              }},'Siguiente capítulo →')
+            :h('button',{className:'btn-p',style:{background:'linear-gradient(135deg,#6366F1,#8B5CF6)',boxShadow:'0 4px 20px rgba(99,102,241,.4)'},onClick:()=>{
+                capCompletado();
+                registrarPalabrasVistas(capObj?.frases,user.idioma);
+                setStats(prev=>({...prev,librosCompletados:[...new Set([...(prev.librosCompletados||[]),libro.id])]}));
+                setScreen('libro-completado');
+              }},'🎉 ¡Libro completado!')),
+        h('div',{className:'leyenda'},
+          h('strong',{style:{color:'var(--indigo)',textDecorationLine:'underline',textDecorationStyle:'dashed',textDecorationThickness:'1px',textUnderlineOffset:'4px',textDecorationColor:'rgba(129,140,248,.5)'}},'Palabras en índigo'),
+          ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón (o toca) para ver el original en español.'))),
     achToast&&h('div',{className:'ach-toast'},
       h('div',{className:'ach-toast-ico'},achToast.ico),
       h('div',null,
