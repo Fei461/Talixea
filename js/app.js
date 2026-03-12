@@ -87,15 +87,20 @@ function App(){
     finally{setCargando(false);}
   }
 
-  // Registrar palabras vistas en lectura
+  // Registrar palabras vistas — solo las del EXPR que aparecen en las frases
   function registrarPalabrasVistas(frases,idioma){
     if(!frases||!idioma)return;
     const nuevasPals={...stats.palabras};
     frases.forEach(f=>{
-      if(f[idioma]&&f.es){
-        const key=`${idioma}:${f.es.slice(0,40)}`;
-        if(!nuevasPals[key])nuevasPals[key]={es:f.es,trad:f[idioma],aciertos:0,escrituraOk:0};
-      }
+      if(!f.es)return;
+      // Tokenizar y extraer solo las palabras del EXPR que tienen traducción
+      const tokens=tokenizarConExpr(f.es,idioma);
+      tokens.forEach(t=>{
+        if(t.tipo==='e'&&t.trad){
+          const key=`${idioma}:${t.key}`;
+          if(!nuevasPals[key])nuevasPals[key]={es:t.key,trad:t.trad,aciertos:0,escrituraOk:0};
+        }
+      });
     });
     setStats(prev=>({...prev,palabras:nuevasPals}));
   }
@@ -324,20 +329,89 @@ function App(){
   ));
 
   // ── BIBLIOTECA ────────────────────────────────────────────────────────────
-  if(screen==='biblioteca') return h(AppShell,{act:'biblioteca'},
-    h('main',{className:'pmain'},
-      h('h1',{className:'ptit'},'Biblioteca'),
-      h('div',{className:'lb-list'},
-        LIBROS.map(lb=>h('div',{key:lb.id,className:`lb-row ${!lb.gratis&&!isPrem?'blk':''}`,onClick:()=>abrirLibro(lb)},
-          h('div',{className:`lb-rc ${lb.cov}`},h('span',null,lb.emo),!lb.gratis&&!isPrem&&h('div',{className:'lo'},'🔒')),
-          h('div',{className:'lb-ri'},
-            h('span',{className:'lb-cat'},lb.cat),
-            h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
-            h('span',{className:'lb-aut'},lb.aut),
-            h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`)),
-          !lb.gratis&&!isPrem&&h('span',{className:'badge-pr'},'PREMIUM'))))
-    )
-  );
+  if(screen==='biblioteca'){
+    const [bibQ,setBibQ]=useState('');
+    const [bibFiltro,setBibFiltro]=useState('Todos');
+
+    const cats=[...new Set(LIBROS.map(l=>l.cat))];
+    const autores=[...new Set(LIBROS.map(l=>l.aut))];
+    // Chips: Todos + colecciones (por cat) + autores
+    const chips=[
+      {label:'Todos',tipo:'todos'},
+      ...cats.map(c=>({label:c,tipo:'cat',val:c})),
+      ...autores.map(a=>({label:a,tipo:'aut',val:a})),
+      {label:'Gratis',tipo:'gratis'},
+      {label:'Premium',tipo:'premium'},
+    ];
+
+    const librosFiltrados=LIBROS.filter(lb=>{
+      const q=bibQ.toLowerCase().trim();
+      const matchQ=!q||(lb.tit.toLowerCase().includes(q)||lb.aut.toLowerCase().includes(q)||lb.cat.toLowerCase().includes(q));
+      const matchF=bibFiltro==='Todos'||(()=>{
+        const chip=chips.find(c=>c.label===bibFiltro);
+        if(!chip)return true;
+        if(chip.tipo==='cat')return lb.cat===chip.val;
+        if(chip.tipo==='aut')return lb.aut===chip.val;
+        if(chip.tipo==='gratis')return lb.gratis;
+        if(chip.tipo==='premium')return !lb.gratis;
+        return true;
+      })();
+      return matchQ&&matchF;
+    });
+
+    return h(AppShell,{act:'biblioteca'},
+      h('main',{className:'pmain'},
+        h('h1',{className:'ptit'},'Biblioteca'),
+
+        // Buscador
+        h('div',{className:'bib-search-wrap'},
+          h('span',{className:'bib-search-ico'},'🔍'),
+          h('input',{
+            className:'bib-search',
+            type:'text',
+            placeholder:'Buscar por título, autor o colección...',
+            value:bibQ,
+            onChange:e=>setBibQ(e.target.value),
+          })),
+
+        // Chips de filtro
+        h('div',{className:'bib-filters'},
+          chips.map(c=>h('button',{
+            key:c.label,
+            className:`bib-chip ${bibFiltro===c.label?'on':''}`,
+            onClick:()=>setBibFiltro(c.label),
+          },c.label))),
+
+        // Meta: cuántos resultados
+        h('div',{className:'bib-results-meta'},
+          librosFiltrados.length===LIBROS.length
+            ?`${LIBROS.length} libros en la biblioteca`
+            :`${librosFiltrados.length} de ${LIBROS.length} libros`),
+
+        // Lista
+        librosFiltrados.length>0
+          ?h('div',{className:'lb-list'},
+              librosFiltrados.map(lb=>{
+                const bloqueado=!lb.gratis&&!isPrem;
+                return h('div',{key:lb.id,className:`lb-row ${bloqueado?'blk':''}`,onClick:()=>abrirLibro(lb)},
+                  h('div',{className:`lb-rc ${lb.cov}`},
+                    h('span',null,lb.emo),
+                    bloqueado&&h('div',{className:'lo'},'🔒')),
+                  h('div',{className:'lb-ri'},
+                    h('span',{className:'lb-cat'},lb.cat),
+                    h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
+                    h('span',{className:'lb-aut'},lb.aut),
+                    h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`)),
+                  bloqueado&&h('span',{className:'badge-pr'},'PREMIUM'));
+              }))
+          :h('div',{className:'bib-empty'},
+              h('div',{className:'bib-empty-ico'},'📭'),
+              h('div',{className:'bib-empty-t'},'Sin resultados'),
+              h('div',{className:'bib-empty-s'},`No hay libros que coincidan con "${bibQ || bibFiltro}".`),
+              h('button',{className:'lnk',style:{marginTop:12},onClick:()=>{setBibQ('');setBibFiltro('Todos');}},'Limpiar filtros'))
+      )
+    );
+  }
 
   // ── AJUSTES ───────────────────────────────────────────────────────────────
   if(screen==='ajustes') return h(AppShell,{act:'ajustes'},
@@ -429,19 +503,7 @@ function App(){
             h('div',{className:'prac-mode-info'},
               h('div',{className:'prac-mode-t'},'Repaso libre'),
               h('div',{className:'prac-mode-s'},'Sin vidas · Sin límite · Practica cuando quieras')),
-            h('div',{className:'prac-mode-badge'},'LIBRE'))),
-        nPals>0&&h('div',null,
-          h('div',{style:{fontSize:13,fontWeight:700,color:'var(--soft)',textTransform:'uppercase',letterSpacing:'.5px',marginBottom:12}},'Tu vocabulario'),
-          h('div',{style:{display:'flex',flexDirection:'column',gap:8}},
-            Object.values(stats.palabras||{}).slice(0,15).map((p,i)=>{
-              const est=calcEstrella(p);
-              return h('div',{key:i,style:{background:'#fff',borderRadius:'var(--rs)',padding:'10px 14px',border:'1px solid var(--border)',display:'flex',alignItems:'center',justifyContent:'space-between'}},
-                h('div',null,
-                  h('div',{style:{fontSize:14,fontWeight:600}},p.es),
-                  h('div',{style:{fontSize:12,color:'var(--soft)'}},p.trad)),
-                h('div',{className:'word-stars'},
-                  [1,2,3,4,5].map(n=>h('span',{key:n,className:`wstar ${n<=est?'on':''}`},n<=est?'⭐':'☆'))));
-            })))
+            h('div',{className:'prac-mode-badge'},'LIBRE')))
       )
     );
   }
@@ -540,6 +602,25 @@ function App(){
           }},quizIdx>=quizQs.length-1?'Ver resultado →':'Siguiente →')));
   }
 
+  // ── LIBRO COMPLETADO ─────────────────────────────────────────────────────
+  if(screen==='libro-completado'){
+    const palsDom=Object.values(stats.palabras||{}).filter(p=>calcEstrella(p)>=2).length;
+    const totPals=Object.values(stats.palabras||{}).length;
+    return h('div',{className:'libro-completado'},
+      h(SidebarDesktop,{act:'biblioteca'}),
+      h('div',{style:{marginLeft:0,display:'flex',flexDirection:'column',alignItems:'center',width:'100%'}},
+        h('div',{className:'lc-confetti'},'🎉'),
+        h('h1',{className:'lc-titulo'},'¡Libro completado!'),
+        h('p',{className:'lc-sub'},`Has terminado "${libro?.tit}". Cada capítulo ha tejido nuevas palabras en tu vocabulario.`),
+        h('div',{className:'lc-stats'},
+          h('div',{className:'lc-stat'},h('div',{className:'lc-stat-n'},libro?.totalCaps||0),h('div',{className:'lc-stat-l'},'Capítulos leídos')),
+          h('div',{className:'lc-stat'},h('div',{className:'lc-stat-n'},totPals),h('div',{className:'lc-stat-l'},'Palabras aprendidas')),
+          h('div',{className:'lc-stat'},h('div',{className:'lc-stat-n'},`+${(libro?.totalCaps||0)*100}`),h('div',{className:'lc-stat-l'},'XP ganados'))),
+        h('div',{className:'lc-btns'},
+          h('button',{className:'btn-p',onClick:()=>setScreen('practica')},'⚡ Practicar vocabulario'),
+          h('button',{className:'btn-g',onClick:()=>setScreen('biblioteca')},'← Volver a biblioteca'))));
+  }
+
   // ── CARGANDO ─────────────────────────────────────────────────────────────
   if(cargando)return h('div',{style:{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',height:'100vh',gap:16,color:'var(--soft)',fontFamily:'Inter,sans-serif'}},
     h('div',{style:{width:40,height:40,border:'3px solid var(--border)',borderTopColor:'var(--indigo)',borderRadius:'50%',animation:'spin 0.8s linear infinite'}}),
@@ -555,7 +636,7 @@ function App(){
     h('header',{className:'lec-hdr'},
       h('button',{className:'btn-v',onClick:()=>setScreen('biblioteca')},'← Volver'),
       h('span',{className:'lec-th'},libro?.tit),
-      h('div',{className:'lec-badge'},h(Flag,{id:user.idioma,size:18}),h('span',null,`${immReal}%`))),
+      h('div',{className:'lec-badge'},h(Flag,{id:user.idioma,size:18}),h('span',null,`${immPct}%`))),
     h('div',{className:'prog-wrap'},h('div',{className:'prog-fill',style:{width:`${prog}%`}})),
     h('div',{className:'acc-bar'},
       h('span',{style:{fontSize:11,color:'var(--soft)',fontWeight:600,marginRight:4}},'Texto:'),
@@ -581,11 +662,11 @@ function App(){
               registrarPalabrasVistas(capObj?.frases,user.idioma);
               setCap(v=>v+1);lRef.current?.scrollTo(0,0);
             }},'Siguiente capítulo →')
-          :h('button',{className:'btn-p',style:{background:'#22C55E'},onClick:()=>{
+          :h('button',{className:'btn-p',style:{background:'linear-gradient(135deg,#6366F1,#8B5CF6)',boxShadow:'0 4px 20px rgba(99,102,241,.4)'},onClick:()=>{
               capCompletado();
               registrarPalabrasVistas(capObj?.frases,user.idioma);
-              setScreen('biblioteca');
-            }},'✓ Libro completado')),
+              setScreen('libro-completado');
+            }},'🎉 ¡Libro completado!'))),
       h('div',{className:'leyenda'},
         h('strong',{style:{color:'var(--indigo)',borderBottom:'1.5px dashed var(--il)'}},'Palabras en índigo'),
         ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón (o toca) para ver el original en español.')),
@@ -596,5 +677,5 @@ function App(){
         h('div',{className:'ach-toast-s'},achToast.name)))
   );
 }
- 
+
 ReactDOM.createRoot(document.getElementById('root')).render(h(App));
