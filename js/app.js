@@ -460,7 +460,14 @@ function App(){
         h('div',{style:{fontSize:17,fontWeight:700,color:'#E0E7FF',marginBottom:16}},'✨ Talixea Premium'),
         h('ul',{style:{listStyle:'none',display:'flex',flexDirection:'column',gap:10,marginBottom:20}},
           ['📚 Biblioteca completa — Grimm, Andersen y más','🎯 Inmersión hasta el 100%','📊 Estadísticas detalladas de aprendizaje','📵 Modo sin conexión','🚫 Sin anuncios'].map((t,i)=>h('li',{key:i,style:{fontSize:14,color:'rgba(255,255,255,.8)'}},t))),
-        h('button',{style:{width:'100%',padding:14,borderRadius:'var(--rs)',background:'var(--indigo)',border:'none',cursor:'pointer',color:'#fff',fontSize:15,fontWeight:700,fontFamily:'Inter,sans-serif',boxShadow:'0 4px 16px rgba(99,102,241,.5)'}},'Probar gratis 7 días — 4,99€/mes'))
+        h('button',{style:{width:'100%',padding:14,borderRadius:'var(--rs)',background:'var(--indigo)',border:'none',cursor:'pointer',color:'#fff',fontSize:15,fontWeight:700,fontFamily:'Inter,sans-serif',boxShadow:'0 4px 16px rgba(99,102,241,.5)'}},'Probar gratis 7 días — 4,99€/mes')),
+      h('div',{style:{background:'#fff',borderRadius:'var(--r)',padding:20,marginTop:16,boxShadow:'var(--sh)',border:'1px solid var(--border)'}},
+        h('div',{style:{fontSize:15,fontWeight:700,marginBottom:4}},'Restablecer vocabulario'),
+        h('div',{style:{fontSize:13,color:'var(--soft)',marginBottom:14,lineHeight:1.5}},'Borra el vocabulario guardado y empieza de cero. Útil si las preguntas de práctica muestran frases enteras en lugar de palabras sueltas.'),
+        h('button',{
+          style:{padding:'10px 16px',borderRadius:'var(--rs)',background:'none',border:'1.5px solid #EF4444',color:'#EF4444',cursor:'pointer',fontSize:14,fontWeight:600,fontFamily:'Inter,sans-serif'},
+          onClick:()=>{if(confirm('¿Seguro? Se borrará todo tu vocabulario y progreso de práctica.')){setStats(prev=>({...prev,palabras:{},xp:Math.max(0,(prev.xp||0)-500)}));alert('Vocabulario restablecido.');}}}
+        ,'🗑 Borrar vocabulario'))
     )
   );
 
@@ -649,7 +656,7 @@ function App(){
             h('button',{className:'quiz-fail-btn hint',onClick:()=>setQuizShowHint(true)},
               '💡 Ver una pista'),
             h('button',{className:'quiz-fail-btn',onClick:avanzar},
-              `👁 Ver solución: ${q.respuesta}`)),
+              '👁 Ver solución y continuar')),
 
           // Pista
           esFallo&&quizShowHint&&h('div',{style:{display:'flex',flexDirection:'column',gap:8}},
@@ -658,7 +665,7 @@ function App(){
             h('button',{className:'quiz-fail-btn retry',style:{marginTop:4},onClick:()=>{setQuizSel(null);setQuizWrite('');setQuizShowHint(false);}},
               '🔄 Volver a intentarlo'),
             h('button',{className:'quiz-fail-btn',onClick:avanzar},
-              `👁 Ver solución: ${q.respuesta}`))),
+              '👁 Ver solución y continuar'))),
 
         // Botón siguiente (solo si correcto)
         h('div',{className:'quiz-next'},
