@@ -420,13 +420,16 @@ function App(){
           ?h('div',{className:'lb-list'},
               librosFiltrados.map(lb=>{
                 const bloqueado=!lb.gratis&&!isPrem;
+                const completado=(stats.librosCompletados||[]).includes(lb.id);
                 return h('div',{key:lb.id,className:`lb-row ${bloqueado?'blk':''}`,onClick:()=>abrirLibro(lb)},
                   h('div',{className:`lb-rc ${lb.cov}`},h('span',null,lb.emo),bloqueado&&h('div',{className:'lo'},'🔒')),
                   h('div',{className:'lb-ri'},
                     h('span',{className:'lb-cat'},lb.cat),
                     h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
                     h('span',{className:'lb-aut'},lb.aut),
-                    h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`)),
+                    h('div',{style:{display:'flex',alignItems:'center',gap:8,marginTop:2}},
+                      h('span',{style:{fontSize:11,color:'var(--mute)'}},`${lb.totalCaps} capítulos`),
+                      completado&&h('span',{style:{fontSize:11,fontWeight:700,color:'#16A34A',background:'#DCFCE7',padding:'2px 8px',borderRadius:10}},'✓ Completado'))),
                   bloqueado&&h('span',{className:'badge-pr'},'PREMIUM'));
               }))
           :h('div',{className:'bib-empty'},
@@ -505,7 +508,8 @@ function App(){
               return h('div',{key:b.id,className:`badge-card ${unlocked?'unlocked':'locked'}`},
                 h('span',{className:'badge-ico'},b.ico),
                 h('div',{className:'badge-name'},b.name),
-                h('div',{className:'badge-hint'},unlocked?'✓ Desbloqueado':b.hint));
+                h('div',{className:'badge-hint'},b.hint),
+                unlocked&&h('div',{style:{fontSize:11,fontWeight:700,color:'#16A34A',marginTop:4}},'✓ Desbloqueado'));
             }))))
       )
     );
@@ -615,7 +619,8 @@ function App(){
           q.tipo!=='write'&&h('div',{className:'quiz-opts'},
             q.opts.map((opt,i)=>{
               let cls='quiz-opt';
-              if(quizSel!==null){if(opt.ok)cls+=' correct';else if(quizSel===i)cls+=' wrong';else cls+=' reveal';}
+              if(quizSel!==null&&esCorrecta){if(opt.ok)cls+=' correct';else if(quizSel===i)cls+=' wrong';else cls+=' reveal';}
+              else if(quizSel!==null&&!esCorrecta){if(quizSel===i)cls+=' wrong';}
               return h('button',{key:i,className:cls,disabled:quizSel!==null,
                 onClick:()=>{
                   if(quizSel!==null)return;
@@ -679,7 +684,7 @@ function App(){
     const totPals=Object.values(stats.palabras||{}).length;
     return h('div',{className:'libro-completado'},
       h(SidebarDesktop,{act:'biblioteca'}),
-      h('div',{style:{marginLeft:0,display:'flex',flexDirection:'column',alignItems:'center',width:'100%'}},
+      h('div',{className:'lc-content'},
         h('div',{className:'lc-confetti'},'🎉'),
         h('h1',{className:'lc-titulo'},'¡Libro completado!'),
         h('p',{className:'lc-sub'},`Has terminado "${libro?.tit}". Cada capítulo ha tejido nuevas palabras en tu vocabulario.`),
@@ -703,8 +708,10 @@ function App(){
   const capObj=libro?.caps[cap];
   const maxPct=isPrem?90:60;
   const immPctBar=Math.round((immPct/maxPct)*100);
-  const lectorClasses=`lec-wrap font-${fontSize}${dyslexic?' dyslexic':''}`;
-  return h('div',{className:lectorClasses,ref:lRef},
+  const lectorClasses=`lec-wrap font-${fontSize}${dyslexic?' dyslexia':''}`;
+  return h('div',{style:{display:'contents'}},
+    h(SidebarDesktop,{act:'biblioteca'}),
+    h('div',{className:lectorClasses,ref:lRef},
     h('header',{className:'lec-hdr'},
       h('button',{className:'btn-v',onClick:()=>setScreen('biblioteca')},'← Volver'),
       h('span',{className:'lec-th'},libro?.tit),
@@ -737,6 +744,7 @@ function App(){
           :h('button',{className:'btn-p',style:{background:'linear-gradient(135deg,#6366F1,#8B5CF6)',boxShadow:'0 4px 20px rgba(99,102,241,.4)'},onClick:()=>{
               capCompletado();
               registrarPalabrasVistas(capObj?.frases,user.idioma);
+              setStats(prev=>({...prev,librosCompletados:[...new Set([...(prev.librosCompletados||[]),libro.id])]}));
               setScreen('libro-completado');
             }},'🎉 ¡Libro completado!')),
       h('div',{className:'leyenda'},
@@ -747,7 +755,7 @@ function App(){
       h('div',null,
         h('div',{className:'ach-toast-t'},'¡Logro desbloqueado!'),
         h('div',{className:'ach-toast-s'},achToast.name)))
-  );
+  ));
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(h(App));
