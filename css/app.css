@@ -443,8 +443,8 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
   .prac-mode{flex:1}
 
   /* Quiz: ocupa espacio tras sidebar, contenido centrado */
-  .quiz-wrap{margin-left:240px;min-height:100vh}
-  .quiz-hdr,.quiz-body,.quiz-next,.quiz-result{max-width:600px;margin:0 auto}
+  .quiz-wrap{margin-left:240px;min-height:100vh;width:calc(100% - 240px)}
+  .quiz-hdr,.quiz-body,.quiz-next,.quiz-result{max-width:600px;margin:0 auto;width:100%}
 
   /* Inicio: hero más grande */
   .hero-app-t{font-size:36px}
