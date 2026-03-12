@@ -72,17 +72,19 @@ const XP_ESTRELLA=[0,10,20,30,40,50];
 
 // ── PREGUNTAS DEL QUIZ ────────────────────────────────────────────────────────
 function generarPreguntas(palabras,idioma,n=20){
-  if(palabras.length<2)return [];
+  // Filtrar solo palabras cortas (del EXPR) — descartar frases enteras guardadas antes
+  const soloExprs=palabras.filter(p=>p.es&&p.trad&&p.es.length<=40&&p.trad.length<=60&&!p.es.includes(',')&&!p.es.includes('.')); 
+  if(soloExprs.length<2)return [];
   const qs=[];
-  const pool=[...palabras].sort(()=>Math.random()-.5);
+  const pool=[...soloExprs].sort(()=>Math.random()-.5);
   for(let i=0;i<Math.min(n,pool.length);i++){
     const p=pool[i];
     const tipo=Math.random()<.3?'write':Math.random()<.5?'es2trad':'trad2es';
-    // Distractores: 3 palabras aleatorias distintas
-    const otros=palabras.filter(x=>x.es!==p.es).sort(()=>Math.random()-.5).slice(0,3);
+    const otros=soloExprs.filter(x=>x.es!==p.es).sort(()=>Math.random()-.5).slice(0,3);
+    if(otros.length<3)continue; // necesitamos 3 distractores
     if(tipo==='trad2es'){
       const opts=[{t:p.es,ok:true},...otros.map(x=>({t:x.es,ok:false}))].sort(()=>Math.random()-.5);
-      qs.push({tipo,pregunta:p.trad,preguntaLabel:`¿Qué significa en español?`,opts,respuesta:p.es,palabra:p});
+      qs.push({tipo,pregunta:p.trad,preguntaLabel:'¿Qué significa en español?',opts,respuesta:p.es,palabra:p});
     }else if(tipo==='es2trad'){
       const opts=[{t:p.trad,ok:true},...otros.map(x=>({t:x.trad,ok:false}))].sort(()=>Math.random()-.5);
       qs.push({tipo,pregunta:p.es,preguntaLabel:`¿Cómo se dice en ${idioma}?`,opts,respuesta:p.trad,palabra:p});
