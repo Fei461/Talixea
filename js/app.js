@@ -31,7 +31,10 @@ function App(){
   const [quizXPGanado,setQuizXPGanado]=useState(0);
   // Biblioteca
   const [bibQ,setBibQ]=useState('');
-  const [bibFiltro,setBibFiltro]=useState('Todos');
+  const [bibFiltro,setBibFiltro]=useState({precio:null,coleccion:null,autor:null});
+  const [bibDropdown,setBibDropdown]=useState(null); // 'precio'|'coleccion'|'autor'|null
+  // Quiz extra
+  const [quizShowHint,setQuizShowHint]=useState(false);
 
   const lRef=useRef(null);
   const isPrem=false;
@@ -335,54 +338,78 @@ function App(){
   if(screen==='biblioteca'){
     const cats=[...new Set(LIBROS.map(l=>l.cat))];
     const autores=[...new Set(LIBROS.map(l=>l.aut))];
-    // Chips: Todos + colecciones (por cat) + autores
-    const chips=[
-      {label:'Todos',tipo:'todos'},
-      ...cats.map(c=>({label:c,tipo:'cat',val:c})),
-      ...autores.map(a=>({label:a,tipo:'aut',val:a})),
-      {label:'Gratis',tipo:'gratis'},
-      {label:'Premium',tipo:'premium'},
-    ];
 
     const librosFiltrados=LIBROS.filter(lb=>{
       const q=bibQ.toLowerCase().trim();
       const matchQ=!q||(lb.tit.toLowerCase().includes(q)||lb.aut.toLowerCase().includes(q)||lb.cat.toLowerCase().includes(q));
-      const matchF=bibFiltro==='Todos'||(()=>{
-        const chip=chips.find(c=>c.label===bibFiltro);
-        if(!chip)return true;
-        if(chip.tipo==='cat')return lb.cat===chip.val;
-        if(chip.tipo==='aut')return lb.aut===chip.val;
-        if(chip.tipo==='gratis')return lb.gratis;
-        if(chip.tipo==='premium')return !lb.gratis;
-        return true;
-      })();
-      return matchQ&&matchF;
+      const matchPrecio=!bibFiltro.precio||(bibFiltro.precio==='gratis'?lb.gratis:!lb.gratis);
+      const matchCat=!bibFiltro.coleccion||lb.cat===bibFiltro.coleccion;
+      const matchAut=!bibFiltro.autor||lb.aut===bibFiltro.autor;
+      return matchQ&&matchPrecio&&matchCat&&matchAut;
     });
 
+    const hayFiltro=bibFiltro.precio||bibFiltro.coleccion||bibFiltro.autor;
+
+    function toggleDropdown(k){setBibDropdown(v=>v===k?null:k);}
+    function setFiltro(grupo,val){
+      setBibFiltro(prev=>({...prev,[grupo]:prev[grupo]===val?null:val}));
+      setBibDropdown(null);
+    }
+
     return h(AppShell,{act:'biblioteca'},
-      h('main',{className:'pmain'},
+      h('main',{className:'pmain',onClick:()=>setBibDropdown(null)},
         h('h1',{className:'ptit'},'Biblioteca'),
 
         // Buscador
         h('div',{className:'bib-search-wrap'},
           h('span',{className:'bib-search-ico'},'🔍'),
-          h('input',{
-            className:'bib-search',
-            type:'text',
+          h('input',{className:'bib-search',type:'text',
             placeholder:'Buscar por título, autor o colección...',
-            value:bibQ,
-            onChange:e=>setBibQ(e.target.value),
-          })),
+            value:bibQ,onChange:e=>setBibQ(e.target.value)})),
 
-        // Chips de filtro
-        h('div',{className:'bib-filters'},
-          chips.map(c=>h('button',{
-            key:c.label,
-            className:`bib-chip ${bibFiltro===c.label?'on':''}`,
-            onClick:()=>setBibFiltro(c.label),
-          },c.label))),
+        // Filtros agrupados
+        h('div',{className:'bib-filter-groups',onClick:e=>e.stopPropagation()},
 
-        // Meta: cuántos resultados
+          // Precio
+          h('div',{className:'bib-group'},
+            h('button',{
+              className:`bib-group-btn ${bibFiltro.precio?'active':''}`,
+              onClick:()=>toggleDropdown('precio')
+            },bibFiltro.precio?(bibFiltro.precio==='gratis'?'Gratis':'Premium'):'Precio',h('span',{className:'arrow'},'▾')),
+            bibDropdown==='precio'&&h('div',{className:'bib-dropdown'},
+              [{val:'gratis',label:'🆓 Gratis'},{val:'premium',label:'🔒 Premium'}].map(o=>
+                h('div',{key:o.val,className:`bib-dropdown-item ${bibFiltro.precio===o.val?'on':''}`,
+                  onClick:()=>setFiltro('precio',o.val)},
+                  o.label,bibFiltro.precio===o.val&&h('span',{className:'check'},'✓'))))),
+
+          // Colección
+          h('div',{className:'bib-group'},
+            h('button',{
+              className:`bib-group-btn ${bibFiltro.coleccion?'active':''}`,
+              onClick:()=>toggleDropdown('coleccion')
+            },bibFiltro.coleccion||'Colección',h('span',{className:'arrow'},'▾')),
+            bibDropdown==='coleccion'&&h('div',{className:'bib-dropdown'},
+              cats.map(c=>h('div',{key:c,className:`bib-dropdown-item ${bibFiltro.coleccion===c?'on':''}`,
+                onClick:()=>setFiltro('coleccion',c)},
+                c,bibFiltro.coleccion===c&&h('span',{className:'check'},'✓'))))),
+
+          // Autor
+          h('div',{className:'bib-group'},
+            h('button',{
+              className:`bib-group-btn ${bibFiltro.autor?'active':''}`,
+              onClick:()=>toggleDropdown('autor')
+            },bibFiltro.autor||'Autor',h('span',{className:'arrow'},'▾')),
+            bibDropdown==='autor'&&h('div',{className:'bib-dropdown'},
+              autores.map(a=>h('div',{key:a,className:`bib-dropdown-item ${bibFiltro.autor===a?'on':''}`,
+                onClick:()=>setFiltro('autor',a)},
+                a,bibFiltro.autor===a&&h('span',{className:'check'},'✓'))))),
+
+          // Limpiar filtros
+          hayFiltro&&h('button',{className:'bib-group-btn',style:{color:'var(--red,#EF4444)',borderColor:'var(--red,#EF4444)'},
+            onClick:()=>{setBibFiltro({precio:null,coleccion:null,autor:null});setBibDropdown(null);}},
+            '✕ Limpiar')),
+
+        // Meta
         h('div',{className:'bib-results-meta'},
           librosFiltrados.length===LIBROS.length
             ?`${LIBROS.length} libros en la biblioteca`
@@ -394,9 +421,7 @@ function App(){
               librosFiltrados.map(lb=>{
                 const bloqueado=!lb.gratis&&!isPrem;
                 return h('div',{key:lb.id,className:`lb-row ${bloqueado?'blk':''}`,onClick:()=>abrirLibro(lb)},
-                  h('div',{className:`lb-rc ${lb.cov}`},
-                    h('span',null,lb.emo),
-                    bloqueado&&h('div',{className:'lo'},'🔒')),
+                  h('div',{className:`lb-rc ${lb.cov}`},h('span',null,lb.emo),bloqueado&&h('div',{className:'lo'},'🔒')),
                   h('div',{className:'lb-ri'},
                     h('span',{className:'lb-cat'},lb.cat),
                     h('span',{className:'lb-tit',style:{display:'block'}},lb.tit),
@@ -407,8 +432,9 @@ function App(){
           :h('div',{className:'bib-empty'},
               h('div',{className:'bib-empty-ico'},'📭'),
               h('div',{className:'bib-empty-t'},'Sin resultados'),
-              h('div',{className:'bib-empty-s'},`No hay libros que coincidan con "${bibQ || bibFiltro}".`),
-              h('button',{className:'lnk',style:{marginTop:12},onClick:()=>{setBibQ('');setBibFiltro('Todos');}},'Limpiar filtros'))
+              h('div',{className:'bib-empty-s'},'Prueba a cambiar los filtros o el texto de búsqueda.'),
+              h('button',{className:'lnk',style:{marginTop:12},
+                onClick:()=>{setBibQ('');setBibFiltro({precio:null,coleccion:null,autor:null});}},'Limpiar filtros'))
       )
     );
   }
@@ -512,25 +538,31 @@ function App(){
   if(screen==='quiz'){
     if(quizDone||(quizMode==='diaria'&&quizLives<=0)){
       const perdido=quizMode==='diaria'&&quizLives<=0&&!quizDone;
-      return h('div',{className:'quiz-wrap'},
-        h('div',{className:'quiz-result'},
-          h('div',{className:'quiz-result-ico'},perdido?'💔':'🎉'),
-          h('div',{className:'quiz-result-t'},perdido?'Se acabaron las vidas':'¡Sesión completada!'),
-          h('div',{className:'quiz-result-s'},`${quizAciertos} respuestas correctas de ${Math.min(quizIdx+1,quizQs.length)} preguntas.`),
-          quizXPGanado>0&&h('div',{className:'quiz-xp-earn'},
-            h('div',{className:'quiz-xp-n'},`+${quizXPGanado}`),
-            h('div',{className:'quiz-xp-l'},'XP ganados')),
-          h('button',{className:'btn-p',style:{marginTop:8,maxWidth:300},onClick:()=>setScreen('practica')},'Volver a Práctica')));
+      return h('div',{style:{display:'contents'}},
+        h(SidebarDesktop,{act:'practica'}),
+        h('div',{className:'quiz-wrap'},
+          h('div',{className:'quiz-result'},
+            h('div',{className:'quiz-result-ico'},perdido?'💔':'🎉'),
+            h('div',{className:'quiz-result-t'},perdido?'Se acabaron las vidas':'¡Sesión completada!'),
+            h('div',{className:'quiz-result-s'},`${quizAciertos} respuestas correctas de ${Math.min(quizIdx+1,quizQs.length)} preguntas.`),
+            quizXPGanado>0&&h('div',{className:'quiz-xp-earn'},
+              h('div',{className:'quiz-xp-n'},`+${quizXPGanado}`),
+              h('div',{className:'quiz-xp-l'},'XP ganados')),
+            h('button',{className:'btn-p',style:{marginTop:8,maxWidth:300},onClick:()=>setScreen('practica')},'Volver a Práctica'))));
     }
     const q=quizQs[quizIdx];
     if(!q)return null;
 
+    const esCorrecta=(q.tipo!=='write'&&q.opts?.[quizSel]?.ok)||(q.tipo==='write'&&quizSel==='ok');
+    const esFallo=quizSel!==null&&!esCorrecta;
+
     function verificarEscritura(){
       const ok=quizWrite.trim().toLowerCase()===q.respuesta.toLowerCase();
       setQuizSel(ok?'ok':'ko');
-      const prevEstrella=calcEstrella(stats.palabras[`${user.idioma}:${q.palabra.es.slice(0,40)}`]);
+      setQuizShowHint(false);
+      const key=`${user.idioma}:${q.palabra.es}`;
+      const prevEstrella=calcEstrella(stats.palabras[key]);
       setStats(prev=>{
-        const key=`${user.idioma}:${q.palabra.es.slice(0,40)}`;
         const pal={...(prev.palabras[key]||{es:q.palabra.es,trad:q.palabra.trad,aciertos:0,escrituraOk:0})};
         if(ok){pal.aciertos=(pal.aciertos||0)+1;pal.escrituraOk=(pal.escrituraOk||0)+1;}
         const nuevaEstrella=calcEstrella(pal);
@@ -542,64 +574,96 @@ function App(){
       if(ok)setQuizAciertos(v=>v+1);
     }
 
-    return h('div',{className:'quiz-wrap'},
-      h('div',{className:'quiz-hdr'},
-        h('button',{className:'btn-v',onClick:()=>setScreen('practica')},'✕'),
-        h('div',{className:'quiz-prog'},h('div',{className:'quiz-prog-fill',style:{width:`${((quizIdx+1)/quizQs.length)*100}%`}})),
-        quizMode==='diaria'&&h('div',{className:'quiz-lives'},[1,2,3,4,5].map(n=>h('span',{key:n,className:`quiz-life ${n>quizLives?'lost':''}`},'❤️'))),
-        h('span',{style:{fontSize:12,color:'var(--soft)',whiteSpace:'nowrap'}},`${quizIdx+1}/${quizQs.length}`)),
-      h('div',{className:'quiz-body'},
-        h('div',{className:'quiz-q-type'},q.preguntaLabel),
-        h('div',{className:'quiz-q-word'},q.pregunta),
-        q.tipo!=='write'&&h('div',{className:'quiz-opts'},
-          q.opts.map((opt,i)=>{
-            let cls='quiz-opt';
-            if(quizSel!==null){if(opt.ok)cls+=' correct';else if(quizSel===i)cls+=' wrong';else cls+=' reveal';}
-            return h('button',{key:i,className:cls,disabled:quizSel!==null,
-              onClick:()=>{
-                if(quizSel!==null)return;
-                const ok=opt.ok;
-                setQuizSel(i);
-                const prevEstrella=calcEstrella(stats.palabras[`${user.idioma}:${q.palabra.es.slice(0,40)}`]);
-                setStats(prev=>{
-                  const key=`${user.idioma}:${q.palabra.es.slice(0,40)}`;
-                  const pal={...(prev.palabras[key]||{es:q.palabra.es,trad:q.palabra.trad,aciertos:0,escrituraOk:0})};
-                  if(ok)pal.aciertos=(pal.aciertos||0)+1;
-                  const nuevaEstrella=calcEstrella(pal);
-                  let xpExtra=ok&&quizMode==='diaria'?15:0;
-                  if(nuevaEstrella>prevEstrella)xpExtra+=XP_ESTRELLA[nuevaEstrella];
-                  return checkBadges({...prev,palabras:{...prev.palabras,[key]:pal},xp:(prev.xp||0)+xpExtra});
-                });
-                if(!ok&&quizMode==='diaria')setQuizLives(v=>v-1);
-                if(ok)setQuizAciertos(v=>v+1);
-              }},opt.t);
-          })),
-        q.tipo==='write'&&h('div',{style:{display:'flex',flexDirection:'column',gap:12}},
-          h('input',{className:`quiz-write ${quizSel==='ok'?'correct':quizSel==='ko'?'wrong':''}`,
-            type:'text',placeholder:'Escribe tu respuesta...',value:quizWrite,
-            disabled:quizSel!==null,
-            onChange:e=>setQuizWrite(e.target.value),
-            onKeyDown:e=>{if(e.key==='Enter'&&quizSel===null&&quizWrite.trim())verificarEscritura();}}),
-          quizSel===null&&h('button',{className:'btn-p',onClick:verificarEscritura,disabled:!quizWrite.trim()},'Comprobar')),
-        quizSel!==null&&h('div',{className:`quiz-feedback ${(q.tipo!=='write'&&q.opts[quizSel]?.ok)||(q.tipo==='write'&&quizSel==='ok')?'ok':'ko'}`},
-          (q.tipo!=='write'&&q.opts[quizSel]?.ok)||(q.tipo==='write'&&quizSel==='ok')
-            ?'✓ ¡Correcto!':`✗ La respuesta era: ${q.respuesta}`)),
-      h('div',{className:'quiz-next'},
-        quizSel!==null&&h('button',{className:'quiz-btn',
-          onClick:()=>{
-            if(quizIdx>=quizQs.length-1){
-              let xpFinal=0;
-              if(quizMode==='diaria'&&!stats.practicaDiariaHoy){
-                const xpMap=[0,50,75,100,125,150];
-                xpFinal=xpMap[Math.min(5,quizLives)];
-                setStats(prev=>({...prev,practicaDiariaHoy:true,ultimaDiaria:new Date().toDateString(),xp:(prev.xp||0)+xpFinal}));
-              }else if(quizMode==='libre'&&!stats.repasoLibreHoyXP&&quizAciertos>=5){
-                xpFinal=15;
-                setStats(prev=>({...prev,repasoLibreHoyXP:true,xp:(prev.xp||0)+xpFinal}));
-              }
-              setQuizXPGanado(xpFinal);setQuizDone(true);
-            }else{setQuizIdx(v=>v+1);setQuizSel(null);setQuizWrite('');}
-          }},quizIdx>=quizQs.length-1?'Ver resultado →':'Siguiente →')));
+    function avanzar(){
+      if(quizIdx>=quizQs.length-1){
+        let xpFinal=0;
+        if(quizMode==='diaria'&&!stats.practicaDiariaHoy){
+          const xpMap=[0,50,75,100,125,150];
+          xpFinal=xpMap[Math.min(5,quizLives)];
+          setStats(prev=>({...prev,practicaDiariaHoy:true,ultimaDiaria:new Date().toDateString(),xp:(prev.xp||0)+xpFinal}));
+        }else if(quizMode==='libre'&&!stats.repasoLibreHoyXP&&quizAciertos>=5){
+          xpFinal=15;
+          setStats(prev=>({...prev,repasoLibreHoyXP:true,xp:(prev.xp||0)+xpFinal}));
+        }
+        setQuizXPGanado(xpFinal);setQuizDone(true);
+      }else{setQuizIdx(v=>v+1);setQuizSel(null);setQuizWrite('');setQuizShowHint(false);}
+    }
+
+    // Pista: primera letra + longitud
+    const pista=q.respuesta?`Empieza por "${q.respuesta[0].toUpperCase()}" · ${q.respuesta.length} letras`:null;
+
+    return h('div',{style:{display:'contents'}},
+      h(SidebarDesktop,{act:'practica'}),
+      h('div',{className:'quiz-wrap'},
+        h('div',{className:'quiz-hdr'},
+          h('button',{className:'btn-v',onClick:()=>setScreen('practica')},'✕'),
+          h('div',{className:'quiz-prog'},h('div',{className:'quiz-prog-fill',style:{width:`${((quizIdx+1)/quizQs.length)*100}%`}})),
+          quizMode==='diaria'&&h('div',{className:'quiz-lives'},[1,2,3,4,5].map(n=>h('span',{key:n,className:`quiz-life ${n>quizLives?'lost':''}`},'❤️'))),
+          h('span',{style:{fontSize:12,color:'var(--soft)',whiteSpace:'nowrap'}},`${quizIdx+1}/${quizQs.length}`)),
+        h('div',{className:'quiz-body'},
+          h('div',{className:'quiz-q-type'},q.preguntaLabel),
+          h('div',{className:'quiz-q-word'},q.pregunta),
+
+          // Opciones múltiple
+          q.tipo!=='write'&&h('div',{className:'quiz-opts'},
+            q.opts.map((opt,i)=>{
+              let cls='quiz-opt';
+              if(quizSel!==null){if(opt.ok)cls+=' correct';else if(quizSel===i)cls+=' wrong';else cls+=' reveal';}
+              return h('button',{key:i,className:cls,disabled:quizSel!==null,
+                onClick:()=>{
+                  if(quizSel!==null)return;
+                  const ok=opt.ok;
+                  setQuizSel(i);setQuizShowHint(false);
+                  const key=`${user.idioma}:${q.palabra.es}`;
+                  const prevEstrella=calcEstrella(stats.palabras[key]);
+                  setStats(prev=>{
+                    const pal={...(prev.palabras[key]||{es:q.palabra.es,trad:q.palabra.trad,aciertos:0,escrituraOk:0})};
+                    if(ok)pal.aciertos=(pal.aciertos||0)+1;
+                    const nuevaEstrella=calcEstrella(pal);
+                    let xpExtra=ok&&quizMode==='diaria'?15:0;
+                    if(nuevaEstrella>prevEstrella)xpExtra+=XP_ESTRELLA[nuevaEstrella];
+                    return checkBadges({...prev,palabras:{...prev.palabras,[key]:pal},xp:(prev.xp||0)+xpExtra});
+                  });
+                  if(!ok&&quizMode==='diaria')setQuizLives(v=>v-1);
+                  if(ok)setQuizAciertos(v=>v+1);
+                }},opt.t);
+            })),
+
+          // Escritura
+          q.tipo==='write'&&h('div',{style:{display:'flex',flexDirection:'column',gap:12}},
+            h('input',{className:`quiz-write ${quizSel==='ok'?'correct':quizSel==='ko'?'wrong':''}`,
+              type:'text',placeholder:'Escribe tu respuesta...',value:quizWrite,
+              disabled:quizSel!==null,
+              onChange:e=>setQuizWrite(e.target.value),
+              onKeyDown:e=>{if(e.key==='Enter'&&quizSel===null&&quizWrite.trim())verificarEscritura();}}),
+            quizSel===null&&h('button',{className:'btn-p',onClick:verificarEscritura,disabled:!quizWrite.trim()},'Comprobar')),
+
+          // Feedback correcto
+          quizSel!==null&&esCorrecta&&h('div',{className:'quiz-feedback ok'},'✓ ¡Correcto!'),
+
+          // Feedback fallo — 3 opciones
+          esFallo&&!quizShowHint&&h('div',{className:'quiz-fail-opts'},
+            h('div',{className:'quiz-feedback ko',style:{marginBottom:4}},'✗ Incorrecto'),
+            h('button',{className:'quiz-fail-btn retry',onClick:()=>{setQuizSel(null);setQuizWrite('');}},
+              '🔄 Volver a intentarlo'),
+            h('button',{className:'quiz-fail-btn hint',onClick:()=>setQuizShowHint(true)},
+              '💡 Ver una pista'),
+            h('button',{className:'quiz-fail-btn',onClick:avanzar},
+              `👁 Ver solución: ${q.respuesta}`)),
+
+          // Pista
+          esFallo&&quizShowHint&&h('div',{style:{display:'flex',flexDirection:'column',gap:8}},
+            h('div',{className:'quiz-feedback ko'},'✗ Incorrecto'),
+            h('div',{className:'quiz-hint-box'},`💡 Pista: ${pista}`),
+            h('button',{className:'quiz-fail-btn retry',style:{marginTop:4},onClick:()=>{setQuizSel(null);setQuizWrite('');setQuizShowHint(false);}},
+              '🔄 Volver a intentarlo'),
+            h('button',{className:'quiz-fail-btn',onClick:avanzar},
+              `👁 Ver solución: ${q.respuesta}`))),
+
+        // Botón siguiente (solo si correcto)
+        h('div',{className:'quiz-next'},
+          quizSel!==null&&esCorrecta&&h('button',{className:'quiz-btn',onClick:avanzar},
+            quizIdx>=quizQs.length-1?'Ver resultado →':'Siguiente →'))));
   }
 
   // ── LIBRO COMPLETADO ─────────────────────────────────────────────────────
