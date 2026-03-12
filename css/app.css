@@ -515,3 +515,26 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .bib-empty-ico{font-size:48px;margin-bottom:12px;opacity:.4}
 .bib-empty-t{font-size:15px;font-weight:600;margin-bottom:6px}
 .bib-empty-s{font-size:13px;line-height:1.5}
+
+/* ── FILTROS AGRUPADOS BIBLIOTECA ── */
+.bib-filter-groups{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.bib-group{position:relative}
+.bib-group-btn{display:flex;align-items:center;gap:6px;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid var(--border);background:#fff;color:var(--soft);font-family:'Inter',sans-serif;transition:all .15s;white-space:nowrap}
+.bib-group-btn:hover{border-color:var(--indigo);color:var(--indigo)}
+.bib-group-btn.active{background:var(--indigo);color:#fff;border-color:var(--indigo)}
+.bib-group-btn .arrow{font-size:9px;opacity:.6}
+.bib-dropdown{position:absolute;top:calc(100% + 6px);left:0;background:#fff;border:1.5px solid var(--border);border-radius:var(--r);box-shadow:0 8px 24px rgba(0,0,0,.1);z-index:50;min-width:160px;overflow:hidden}
+.bib-dropdown-item{padding:9px 16px;font-size:13px;cursor:pointer;color:var(--text);font-weight:500;transition:background .1s;white-space:nowrap;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.bib-dropdown-item:hover{background:var(--bs)}
+.bib-dropdown-item.on{color:var(--indigo);font-weight:700;background:var(--ip)}
+.bib-dropdown-item .check{font-size:11px}
+
+/* ── QUIZ FALLO — 3 opciones ── */
+.quiz-fail-opts{display:flex;flex-direction:column;gap:8px;margin-top:4px}
+.quiz-fail-btn{padding:12px 16px;border-radius:var(--rs);border:1.5px solid var(--border);background:#fff;cursor:pointer;font-size:14px;font-weight:500;text-align:left;font-family:'Inter',sans-serif;color:var(--text);transition:all .15s;display:flex;align-items:center;gap:10px}
+.quiz-fail-btn:hover{border-color:var(--indigo);background:var(--ip);color:var(--indigo)}
+.quiz-fail-btn.retry{border-color:#F59E0B;color:#B45309}
+.quiz-fail-btn.retry:hover{background:#FFFBEB;border-color:#F59E0B}
+.quiz-fail-btn.hint{border-color:#8B5CF6;color:#6D28D9}
+.quiz-fail-btn.hint:hover{background:#F5F3FF;border-color:#8B5CF6}
+.quiz-hint-box{background:#F5F3FF;border:1px solid #DDD6FE;border-radius:var(--rs);padding:12px 16px;font-size:13px;color:#5B21B6;line-height:1.6}
