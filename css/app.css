@@ -196,16 +196,26 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 /* BIBLIOTECA */
 .pmain{padding:20px 20px 48px}
 .ptit{font-family:'Lora',serif;font-size:26px;font-weight:700;margin-bottom:20px}
-.lb-list{display:flex;flex-direction:column;gap:12px}
-.lb-row{display:flex;align-items:center;gap:14px;background:#fff;border-radius:var(--r);padding:14px 16px;cursor:pointer;box-shadow:var(--sh);border:1px solid var(--border);transition:all .15s}
-.lb-row:hover{transform:translateX(3px);box-shadow:var(--sh2)}
+/* ── BIBLIOTECA — Grid de portadas ── */
+.lb-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+/* Tarjeta-portada vertical */
+.lb-row{display:flex;flex-direction:column;background:#fff;border-radius:12px;
+  cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.07);
+  border:1px solid rgba(226,232,240,.7);
+  transition:box-shadow .2s,transform .2s;overflow:hidden;padding:0}
+.lb-row:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.14)}
 .lb-row.blk{opacity:.55}
-.lb-rc{width:52px;height:60px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:28px;position:relative}
-.lo{position:absolute;inset:0;background:rgba(15,23,42,.35);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px}
-.lb-ri{flex:1;min-width:0}
-.badge-pr{background:var(--indigo);color:#fff;font-size:9px;font-weight:700;padding:4px 8px;border-radius:6px;letter-spacing:.5px;white-space:nowrap}
+/* Portada: zona de color con emoji */
+.lb-rc{width:100%;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;
+  font-size:52px;position:relative;flex-shrink:0}
+.lo{position:absolute;inset:0;background:rgba(15,23,42,.35);
+  display:flex;align-items:center;justify-content:center;font-size:20px}
+/* Info debajo de la portada */
+.lb-ri{padding:10px 12px 12px;flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.badge-pr{background:var(--indigo);color:#fff;font-size:9px;font-weight:700;
+  padding:3px 7px;border-radius:6px;letter-spacing:.5px;white-space:nowrap;align-self:flex-start}
 
-/* ── LECTOR ── */
+/* ── LECTOR — Experiencia "Santuario" ── */
 .lec-wrap{display:flex;flex-direction:column;min-height:100vh;background:#F9F6F0;overflow-y:auto;height:100vh}
 @keyframes spin{to{transform:rotate(360deg)}}
 .lec-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
@@ -219,13 +229,22 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .imm-strip-v{font-size:13px;font-weight:700;color:var(--indigo)}
 .imm-strip-bar{flex:1;height:4px;background:var(--border);border-radius:2px;margin:0 12px;overflow:hidden}
 .imm-strip-fill{height:100%;background:linear-gradient(90deg,var(--il),var(--indigo));border-radius:2px;transition:width .5s}
-.lec-main{padding:28px 22px 60px;flex:1}
+.lec-main{padding:40px 24px 80px;flex:1}
+.lec-main-inner{max-width:680px;margin:0 auto}
 .cap-t{font-family:'Lora',serif;font-size:21px;font-weight:700;margin-bottom:6px}
 .cap-lb{font-size:13px;color:var(--mute);margin-bottom:24px}
 .sep{height:2px;background:linear-gradient(90deg,var(--indigo),transparent);border-radius:1px;margin-bottom:28px;width:60px}
 .txt{font-family:'Lora',serif;font-size:18px;line-height:2;color:var(--text)}
-.par{margin-bottom:1.4em}
-.pal-n{color:var(--indigo);font-weight:600;cursor:pointer;border-bottom:1.5px dashed var(--il);position:relative}
+.par{margin-bottom:1.8em}
+/* Palabras mágicas — elegantes y sutiles */
+.pal-n{color:#4F46E5;font-weight:500;cursor:pointer;
+  text-decoration:underline;text-decoration-style:dashed;
+  text-decoration-thickness:1px;text-underline-offset:4px;
+  text-decoration-color:rgba(129,140,248,.5);
+  border-bottom:none;position:relative;
+  transition:color .15s,background .15s,text-decoration-color .15s}
+.pal-n:hover{color:#3730A3;background:rgba(238,242,255,.7);border-radius:3px;
+  text-decoration-color:rgba(99,102,241,.8)}
 .tt{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--text);color:#fff;border-radius:9px;padding:7px 12px;font-size:12px;white-space:nowrap;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.2);font-family:'Inter',sans-serif;pointer-events:none;align-items:center;gap:6px}
 .tt::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--text)}
 .pal-n:hover .tt{display:flex}
@@ -256,9 +275,12 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 .lec-wrap.font-xl .txt{font-size:26px}
 .lec-wrap.dyslexic .txt{font-family:'OpenDyslexic',sans-serif!important;line-height:2.2;letter-spacing:.06em;word-spacing:.2em}
 .lec-wrap.dyslexic .pal-n,.lec-wrap.dyslexic .frase-idioma{font-family:'OpenDyslexic',sans-serif!important}
-.acc-bar{display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--bs);border-bottom:1px solid var(--border)}
-.acc-btn{background:none;border:1.5px solid var(--border);border-radius:8px;padding:5px 10px;cursor:pointer;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:var(--soft);transition:all .15s}
-.acc-btn:hover,.acc-btn.on{border-color:var(--indigo);color:var(--indigo);background:var(--ip)}
+.acc-bar{display:flex;align-items:center;gap:8px;padding:10px 16px;background:rgba(249,246,240,.95);border-bottom:1px solid var(--border)}
+.acc-btn{background:rgba(0,0,0,.05);border:none;border-radius:999px;padding:6px 14px;cursor:pointer;
+  font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#475569;
+  transition:background .15s,color .15s}
+.acc-btn:hover{background:rgba(238,242,255,.9);color:#4338CA}
+.acc-btn.on{background:#EEF2FF;color:#4338CA;box-shadow:inset 0 0 0 1.5px rgba(99,102,241,.3)}
 .acc-sep{width:1px;height:22px;background:var(--border);margin:0 2px}
 
 /* ── ESTADÍSTICAS ── */
@@ -424,9 +446,8 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
     max-width:860px;margin:0 auto;padding:32px 40px 60px;
   }
 
-  /* Grid de libros: 2 columnas en lista */
-  .lb-list{gap:14px}
-  .lb-row{padding:18px 20px}
+  /* Grid de libros: 3 columnas en desktop */
+  .lb-list{grid-template-columns:repeat(3,1fr);gap:20px}
 
   /* Libros carrusel: más tarjetas visibles */
   .lb-scroll{padding:4px 0 24px;gap:16px}
@@ -458,7 +479,8 @@ label{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bott
 
   /* Lector: ocupa el espacio restante después del sidebar, columna central */
   .lec-wrap{margin-left:240px;min-height:100vh}
-  .lec-wrap .lec-main{max-width:680px;margin:0 auto}
+  .lec-main{padding:48px 48px 80px}
+  .lec-main-inner{max-width:720px;margin:0 auto}
 
   /* Modal centrado */
   .modal-bg{align-items:center}
