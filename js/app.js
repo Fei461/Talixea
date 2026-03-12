@@ -699,6 +699,7 @@ function App(){
   );
 
   // ── LECTOR ────────────────────────────────────────────────────────────────
+  if(!libro){setScreen('biblioteca');return null;}
   const capObj=libro?.caps[cap];
   const maxPct=isPrem?90:60;
   const immPctBar=Math.round((immPct/maxPct)*100);
@@ -727,7 +728,7 @@ function App(){
       h('div',{className:'txt'},renderFrases(capObj?.frases,immPct,user.idioma)),
       h('div',{className:'cap-nav'},
         cap>0&&h('button',{className:'btn-g',onClick:()=>{setCap(v=>v-1);lRef.current?.scrollTo(0,0);}},'← Capítulo anterior'),
-        cap<libro.totalCaps-1
+        cap<(libro?.totalCaps??1)-1
           ?h('button',{className:'btn-p',onClick:()=>{
               capCompletado();
               registrarPalabrasVistas(capObj?.frases,user.idioma);
