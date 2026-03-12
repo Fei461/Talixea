@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talixea · Generador de Libros</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0d0f;
+  --surface:#16161a;
+  --surface2:#1e1e24;
+  --border:#2a2a32;
+  --text:#f0f0f5;
+  --soft:#888899;
+  --gold:#e8c97e;
+  --gold2:#c9a84c;
+  --green:#4ade80;
+  --red:#f87171;
+  --blue:#60a5fa;
+  --rs:10px;
+}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}
+
+/* HEADER */
+.hdr{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 32px;border-bottom:1px solid var(--border);
+  background:var(--surface);
+}
+.logo{font-family:'Playfair Display',serif;font-size:22px;letter-spacing:-.5px}
+.logo span{color:var(--gold)}
+.badge{background:rgba(232,201,126,.12);color:var(--gold);font-size:11px;font-weight:600;
+  padding:4px 10px;border-radius:20px;border:1px solid rgba(232,201,126,.25);
+  font-family:'JetBrains Mono',monospace;letter-spacing:.5px}
+
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 65px)}
+
+/* SIDEBAR */
+.sidebar{
+  background:var(--surface);border-right:1px solid var(--border);
+  padding:24px;display:flex;flex-direction:column;gap:20px;overflow-y:auto;
+}
+.sidebar h2{font-family:'Playfair Display',serif;font-size:17px;color:var(--gold);font-weight:400;margin-bottom:4px}
+.fg{display:flex;flex-direction:column;gap:6px}
+label{font-size:12px;font-weight:600;color:var(--soft);text-transform:uppercase;letter-spacing:.5px}
+input,textarea,select{
+  background:var(--surface2);border:1px solid var(--border);color:var(--text);
+  padding:10px 12px;border-radius:var(--rs);font-family:'DM Sans',sans-serif;font-size:14px;
+  transition:border-color .15s;resize:none;width:100%
+}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--gold)}
+textarea{line-height:1.6}
+
+.caps-list{display:flex;flex-direction:column;gap:6px;max-height:200px;overflow-y:auto}
+.cap-item{
+  display:flex;align-items:center;gap:8px;padding:8px 10px;
+  background:var(--surface2);border-radius:8px;border:1px solid var(--border);
+  cursor:pointer;transition:border-color .15s;
+}
+.cap-item:hover,.cap-item.active{border-color:var(--gold)}
+.cap-item.done{border-color:rgba(74,222,128,.3)}
+.cap-num{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--soft);min-width:24px}
+.cap-tit{font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap-status{font-size:16px}
+
+.btn{
+  padding:11px 18px;border-radius:var(--rs);font-family:'DM Sans',sans-serif;
+  font-weight:600;font-size:14px;cursor:pointer;border:none;transition:all .15s;
+}
+.btn-gold{background:var(--gold);color:#1a1200}
+.btn-gold:hover{background:var(--gold2)}
+.btn-ghost{background:transparent;color:var(--soft);border:1px solid var(--border)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.btn-green{background:rgba(74,222,128,.15);color:var(--green);border:1px solid rgba(74,222,128,.3)}
+.btn-green:hover{background:rgba(74,222,128,.25)}
+.btn-red{background:rgba(248,113,113,.12);color:var(--red);border:1px solid rgba(248,113,113,.25)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+
+.sep{height:1px;background:var(--border)}
+
+/* MAIN */
+.main{display:flex;flex-direction:column;overflow:hidden}
+.toolbar{
+  display:flex;align-items:center;gap:12px;padding:16px 24px;
+  border-bottom:1px solid var(--border);background:var(--surface);flex-wrap:wrap
+}
+.toolbar-info{flex:1;font-size:13px;color:var(--soft)}
+.toolbar-info strong{color:var(--text)}
+
+.workspace{flex:1;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+
+.panel{display:flex;flex-direction:column;overflow:hidden}
+.panel:first-child{border-right:1px solid var(--border)}
+.panel-hdr{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 20px;border-bottom:1px solid var(--border);
+  font-size:12px;font-weight:600;color:var(--soft);text-transform:uppercase;letter-spacing:.5px;
+}
+.panel-hdr .lang-pills{display:flex;gap:6px}
+.lang-pill{
+  padding:3px 8px;border-radius:20px;font-size:11px;font-family:'JetBrains Mono',monospace;
+  border:1px solid var(--border);cursor:pointer;transition:all .12s;color:var(--soft);
+}
+.lang-pill:hover,.lang-pill.on{background:rgba(232,201,126,.12);border-color:var(--gold);color:var(--gold)}
+.panel-body{flex:1;overflow-y:auto;padding:20px}
+
+/* SENTENCE EDITOR */
+.frase-row{
+  display:flex;gap:10px;align-items:flex-start;padding:12px 0;
+  border-bottom:1px solid rgba(42,42,50,.6);
+}
+.frase-row:last-child{border-bottom:none}
+.frase-n{
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--soft);
+  min-width:22px;margin-top:4px;
+}
+.frase-texts{flex:1;display:flex;flex-direction:column;gap:6px}
+.frase-es{font-size:14px;line-height:1.6;color:var(--text)}
+.frase-trad{
+  font-size:13px;line-height:1.6;color:rgba(232,201,126,.8);
+  font-style:italic;padding:6px 10px;background:rgba(232,201,126,.05);
+  border-radius:6px;border-left:2px solid rgba(232,201,126,.3);
+}
+.frase-trad.loading{color:var(--soft);font-style:normal;animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+.frase-edit{
+  background:transparent;border:1px solid transparent;color:var(--text);
+  font-size:14px;line-height:1.6;padding:4px 6px;border-radius:6px;
+  font-family:'DM Sans',sans-serif;resize:none;width:100%;
+}
+.frase-edit:focus{background:var(--surface2);border-color:var(--border);outline:none}
+.frase-actions{display:flex;gap:4px;align-items:flex-start;padding-top:2px}
+.ico-btn{
+  width:28px;height:28px;background:none;border:1px solid transparent;
+  border-radius:6px;cursor:pointer;color:var(--soft);font-size:14px;
+  display:flex;align-items:center;justify-content:center;transition:all .12s;
+}
+.ico-btn:hover{background:var(--surface2);border-color:var(--border);color:var(--text)}
+
+/* ADD FRASE */
+.add-frase{
+  display:flex;gap:10px;padding:16px 20px;border-top:1px solid var(--border);
+}
+.add-frase textarea{flex:1;height:48px;padding:8px 12px;font-size:13px}
+.add-frase button{white-space:nowrap;align-self:flex-start}
+
+/* PROGRESS */
+.progress-bar{
+  height:3px;background:var(--border);border-radius:2px;overflow:hidden;
+}
+.progress-fill{height:100%;background:var(--gold);border-radius:2px;transition:width .3s}
+
+/* OUTPUT PANEL */
+.output-wrap{
+  flex:1;overflow:auto;padding:20px;
+  font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.7;
+  color:#8b9ebb;
+}
+.output-wrap .key{color:#e06c75}
+.output-wrap .str{color:#98c379}
+.output-wrap .punc{color:var(--soft)}
+.json-output{white-space:pre-wrap;word-break:break-all}
+
+/* STATES */
+.empty-state{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:16px;color:var(--soft);text-align:center;padding:40px
+}
+.empty-state .ico{font-size:48px;opacity:.4}
+.empty-state p{font-size:14px;max-width:280px;line-height:1.6}
+
+/* TOAST */
+.toast{
+  position:fixed;bottom:24px;right:24px;padding:12px 18px;border-radius:var(--rs);
+  font-size:13px;font-weight:600;z-index:999;animation:toastIn .2s ease;
+}
+.toast.ok{background:rgba(74,222,128,.15);color:var(--green);border:1px solid rgba(74,222,128,.3)}
+.toast.err{background:rgba(248,113,113,.12);color:var(--red);border:1px solid rgba(248,113,113,.25)}
+@keyframes toastIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* STATS */
+.stats{display:flex;gap:16px;flex-wrap:wrap}
+.stat{
+  flex:1;min-width:100px;padding:12px 14px;background:var(--surface2);
+  border-radius:8px;border:1px solid var(--border);
+}
+.stat-n{font-size:24px;font-weight:700;font-family:'Playfair Display',serif;color:var(--gold)}
+.stat-l{font-size:11px;color:var(--soft);margin-top:2px}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--soft)}
+
+/* RESPONSIVE WORKSPACE */
+@media(max-width:1100px){
+  .workspace{grid-template-columns:1fr}
+  .panel:first-child{border-right:none;border-bottom:1px solid var(--border);max-height:50vh}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="logo"><span>T</span>ALIXEA <span style="color:var(--soft);font-size:14px;font-style:italic">· Generador de Biblioteca</span></div>
+  <div class="badge">HERRAMIENTA INTERNA</div>
+</header>
+
+<div class="layout">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div>
+      <h2>Metadatos del libro</h2>
+      <p style="font-size:12px;color:var(--soft);margin-top:4px">Configura antes de generar</p>
+    </div>
+
+    <div class="fg">
+      <label>Título</label>
+      <input type="text" id="titulo" placeholder="Ej: La Odisea" />
+    </div>
+    <div class="fg">
+      <label>Autor</label>
+      <input type="text" id="autor" placeholder="Ej: Homero" />
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div class="fg">
+        <label>Categoría</label>
+        <select id="cat">
+          <option>Cuentos</option>
+          <option>Mitología</option>
+          <option>Fábulas</option>
+          <option>Clásicos</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label>Emoji</label>
+        <input type="text" id="emo" placeholder="⚡" style="text-align:center;font-size:20px" />
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div class="fg">
+        <label>ID libro</label>
+        <input type="number" id="libro-id" value="5" min="1" />
+      </div>
+      <div class="fg">
+        <label>Gratis</label>
+        <select id="gratis">
+          <option value="true">Sí</option>
+          <option value="false">No (Premium)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sep"></div>
+
+    <div>
+      <h2>Idiomas a generar</h2>
+      <p style="font-size:12px;color:var(--soft);margin-top:4px">El español ES siempre es base</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px" id="lang-toggles">
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="en" checked> 🇬🇧 Inglés</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="fr" checked> 🇫🇷 Francés</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="de" checked> 🇩🇪 Alemán</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="it" checked> 🇮🇹 Italiano</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="pt" checked> 🇵🇹 Portugués</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;text-transform:none;letter-spacing:0;cursor:pointer">
+        <input type="checkbox" value="ca" checked> 🏴󠁥󠁳󠁣󠁴󠁿 Catalán</label>
+    </div>
+
+    <div class="sep"></div>
+
+    <div>
+      <h2>Capítulos</h2>
+      <p style="font-size:12px;color:var(--soft);margin-top:4px;margin-bottom:12px">Crea capítulos y añade frases</p>
+      <div class="caps-list" id="caps-list"></div>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <input type="text" id="new-cap-title" placeholder="Nombre del capítulo..." style="flex:1" />
+        <button class="btn btn-ghost" onclick="addCap()">+</button>
+      </div>
+    </div>
+
+    <div class="sep"></div>
+
+    <div class="stats" id="stats">
+      <div class="stat"><div class="stat-n" id="s-caps">0</div><div class="stat-l">Capítulos</div></div>
+      <div class="stat"><div class="stat-n" id="s-frases">0</div><div class="stat-l">Frases</div></div>
+      <div class="stat"><div class="stat-n" id="s-gen">0</div><div class="stat-l">Generadas</div></div>
+    </div>
+
+    <button class="btn btn-green" onclick="exportJSON()" id="export-btn">⬇ Exportar JSON</button>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="toolbar">
+      <div class="toolbar-info" id="toolbar-info">
+        <strong>Selecciona un capítulo</strong> para empezar a editar
+      </div>
+      <button class="btn btn-ghost" onclick="genCapitulo()" id="btn-gen-cap" disabled>
+        ✦ Generar traducciones del capítulo
+      </button>
+      <button class="btn btn-gold" onclick="genTodo()" id="btn-gen-all" disabled>
+        ⚡ Generar TODO
+      </button>
+    </div>
+
+    <div class="workspace">
+      <!-- EDITOR DE FRASES -->
+      <div class="panel" id="editor-panel">
+        <div class="panel-hdr">
+          <span id="editor-title">Editor</span>
+          <div style="display:flex;gap:8px;align-items:center">
+            <div class="progress-bar" style="width:120px"><div class="progress-fill" id="cap-progress" style="width:0%"></div></div>
+            <span id="cap-progress-txt" style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--soft)">0%</span>
+          </div>
+        </div>
+        <div class="panel-body" id="frases-body">
+          <div class="empty-state">
+            <div class="ico">📖</div>
+            <p>Añade un capítulo desde la barra lateral y empieza a escribir frases en español.</p>
+          </div>
+        </div>
+        <div class="add-frase" id="add-frase-bar" style="display:none">
+          <textarea id="new-frase" placeholder="Escribe aquí una nueva frase en español..." rows="2"></textarea>
+          <button class="btn btn-gold" onclick="addFrase()">+ Añadir</button>
+        </div>
+      </div>
+
+      <!-- VISTA PREVIA / JSON OUTPUT -->
+      <div class="panel" id="output-panel">
+        <div class="panel-hdr">
+          <span>Vista previa · JSON</span>
+          <div class="lang-pills" id="preview-langs">
+            <span class="lang-pill on" data-lang="es" onclick="setPreviewLang('es')">ES</span>
+            <span class="lang-pill" data-lang="en" onclick="setPreviewLang('en')">EN</span>
+            <span class="lang-pill" data-lang="fr" onclick="setPreviewLang('fr')">FR</span>
+            <span class="lang-pill" data-lang="de" onclick="setPreviewLang('de')">DE</span>
+            <span class="lang-pill" data-lang="it" onclick="setPreviewLang('it')">IT</span>
+            <span class="lang-pill" data-lang="pt" onclick="setPreviewLang('pt')">PT</span>
+            <span class="lang-pill" data-lang="ca" onclick="setPreviewLang('ca')">CA</span>
+            <span class="lang-pill" data-lang="json" onclick="setPreviewLang('json')">JSON</span>
+          </div>
+        </div>
+        <div class="output-wrap" id="output-body">
+          <div class="empty-state">
+            <div class="ico">✦</div>
+            <p>El JSON listo para guardar en <code style="color:var(--gold)">books/</code> aparecerá aquí.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+// ── ESTADO ────────────────────────────────────────────────────────────────────
+const LANGS=['en','fr','de','it','pt','ca'];
+let state={
+  caps:[],      // [{tit, frases:[{es,en,fr,de,it,pt,ca}]}]
+  activeCap:null,
+  previewLang:'es',
+  generating:false
+};
+
+// ── UTILIDADES ───────────────────────────────────────────────────────────────
+function toast(msg,type='ok'){
+  const t=document.createElement('div');
+  t.className=`toast ${type}`;t.textContent=msg;
+  document.body.appendChild(t);
+  setTimeout(()=>t.remove(),3000);
+}
+
+function getActiveLangs(){
+  return Array.from(document.querySelectorAll('#lang-toggles input:checked')).map(i=>i.value);
+}
+
+function updateStats(){
+  const totalFrases=state.caps.reduce((s,c)=>s+c.frases.length,0);
+  const totalGen=state.caps.reduce((s,c)=>s+c.frases.filter(f=>f.en||f.fr).length,0);
+  document.getElementById('s-caps').textContent=state.caps.length;
+  document.getElementById('s-frases').textContent=totalFrases;
+  document.getElementById('s-gen').textContent=totalGen;
+}
+
+function updateCapProgress(){
+  if(state.activeCap===null)return;
+  const cap=state.caps[state.activeCap];
+  if(!cap||!cap.frases.length){
+    document.getElementById('cap-progress').style.width='0%';
+    document.getElementById('cap-progress-txt').textContent='0%';
+    return;
+  }
+  const langs=getActiveLangs();
+  const gen=cap.frases.filter(f=>langs.every(l=>f[l])).length;
+  const pct=Math.round((gen/cap.frases.length)*100);
+  document.getElementById('cap-progress').style.width=pct+'%';
+  document.getElementById('cap-progress-txt').textContent=pct+'%';
+}
+
+// ── CAPÍTULOS ─────────────────────────────────────────────────────────────────
+function addCap(){
+  const inp=document.getElementById('new-cap-title');
+  const tit=inp.value.trim();
+  if(!tit)return;
+  state.caps.push({tit,frases:[]});
+  inp.value='';
+  renderCaps();
+  selectCap(state.caps.length-1);
+  updateStats();
+}
+
+function renderCaps(){
+  const el=document.getElementById('caps-list');
+  if(!state.caps.length){el.innerHTML='<div style="font-size:12px;color:var(--soft);text-align:center;padding:12px">Sin capítulos aún</div>';return;}
+  el.innerHTML=state.caps.map((c,i)=>{
+    const langs=getActiveLangs();
+    const gen=c.frases.filter(f=>langs.every(l=>f[l])).length;
+    const done=c.frases.length>0&&gen===c.frases.length;
+    const partial=gen>0&&!done;
+    return `<div class="cap-item ${i===state.activeCap?'active':''} ${done?'done':''}" onclick="selectCap(${i})">
+      <span class="cap-num">${String(i+1).padStart(2,'0')}</span>
+      <span class="cap-tit">${c.tit}</span>
+      <span class="cap-status">${done?'✅':partial?'⚡':c.frases.length?'📝':'○'}</span>
+    </div>`;
+  }).join('');
+}
+
+function selectCap(i){
+  state.activeCap=i;
+  renderCaps();
+  renderFrases();
+  renderOutput();
+  updateCapProgress();
+  const cap=state.caps[i];
+  document.getElementById('editor-title').textContent=`Cap. ${i+1} · ${cap.tit}`;
+  document.getElementById('toolbar-info').innerHTML=`<strong>${cap.tit}</strong> · ${cap.frases.length} frases`;
+  document.getElementById('add-frase-bar').style.display='flex';
+  document.getElementById('btn-gen-cap').disabled=false;
+  document.getElementById('btn-gen-all').disabled=false;
+}
+
+// ── FRASES ────────────────────────────────────────────────────────────────────
+function addFrase(){
+  if(state.activeCap===null)return;
+  const inp=document.getElementById('new-frase');
+  const txt=inp.value.trim();
+  if(!txt)return;
+  state.caps[state.activeCap].frases.push({es:txt});
+  inp.value='';
+  renderFrases();
+  renderOutput();
+  updateStats();
+  updateCapProgress();
+}
+
+function deleteFrase(capIdx,fraseIdx){
+  state.caps[capIdx].frases.splice(fraseIdx,1);
+  renderFrases();renderOutput();updateStats();updateCapProgress();
+}
+
+function editFrase(capIdx,fraseIdx,val){
+  state.caps[capIdx].frases[fraseIdx].es=val;
+  renderOutput();
+}
+
+function renderFrases(){
+  if(state.activeCap===null)return;
+  const cap=state.caps[state.activeCap];
+  const body=document.getElementById('frases-body');
+  if(!cap.frases.length){
+    body.innerHTML='<div class="empty-state"><div class="ico">✍️</div><p>Añade frases en español abajo. Después genera las traducciones.</p></div>';
+    return;
+  }
+  const langs=getActiveLangs();
+  const previewLang=state.previewLang==='json'?'en':state.previewLang;
+  body.innerHTML=cap.frases.map((f,fi)=>`
+    <div class="frase-row">
+      <span class="frase-n">${fi+1}</span>
+      <div class="frase-texts">
+        <textarea class="frase-edit" rows="2" onchange="editFrase(${state.activeCap},${fi},this.value)">${escHtml(f.es)}</textarea>
+        ${langs.map(l=>`
+          <div class="frase-trad ${!f[l]?'loading':''}" id="trad-${state.activeCap}-${fi}-${l}">
+            ${f[l]?`<span style="font-size:10px;color:var(--soft);font-style:normal;margin-right:6px">${l.toUpperCase()}</span>${escHtml(f[l])}`:'· · · '+l.toUpperCase()}
+          </div>`).join('')}
+      </div>
+      <div class="frase-actions">
+        <button class="ico-btn" title="Eliminar" onclick="deleteFrase(${state.activeCap},${fi})">✕</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function escHtml(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+// ── GENERACIÓN CON CLAUDE API ──────────────────────────────────────────────────
+async function genFrase(cap,fi,langs){
+  const f=cap.frases[fi];
+  if(!f||!f.es)return;
+  
+  // Marcar como cargando en UI
+  langs.forEach(l=>{
+    const el=document.getElementById(`trad-${state.activeCap}-${fi}-${l}`);
+    if(el){el.className='frase-trad loading';el.textContent='Generando '+l.toUpperCase()+'...';}
+  });
+
+  const prompt=`Traduce esta frase al pie de la letra, manteniendo el registro literario, al ${langs.join(', ')}.
+Frase en español: "${f.es}"
+
+Responde SOLO con un objeto JSON con las claves de idioma (${langs.join(',')}), sin explicaciones, sin comillas adicionales, sin markdown.
+Ejemplo de formato: {"en":"...","fr":"...","de":"...","it":"...","pt":"...","ca":"..."}`;
+
+  try{
+    const resp=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        messages:[{role:'user',content:prompt}]
+      })
+    });
+    const data=await resp.json();
+    const raw=data.content?.find(c=>c.type==='text')?.text||'';
+    const clean=raw.replace(/```json|```/g,'').trim();
+    const parsed=JSON.parse(clean);
+    langs.forEach(l=>{if(parsed[l])f[l]=parsed[l];});
+  }catch(e){
+    console.error('Error generando frase',fi,e);
+  }
+
+  // Actualizar UI
+  langs.forEach(l=>{
+    const el=document.getElementById(`trad-${state.activeCap}-${fi}-${l}`);
+    if(el&&f[l]){
+      el.className='frase-trad';
+      el.innerHTML=`<span style="font-size:10px;color:var(--soft);font-style:normal;margin-right:6px">${l.toUpperCase()}</span>${escHtml(f[l])}`;
+    }
+  });
+}
+
+async function genCapitulo(){
+  if(state.activeCap===null||state.generating)return;
+  const cap=state.caps[state.activeCap];
+  if(!cap.frases.length){toast('Añade frases primero','err');return;}
+  const langs=getActiveLangs();
+  if(!langs.length){toast('Selecciona al menos un idioma','err');return;}
+
+  state.generating=true;
+  setBtns(true);
+  toast(`Generando ${cap.frases.length} frases en ${langs.length} idiomas...`);
+
+  for(let fi=0;fi<cap.frases.length;fi++){
+    const f=cap.frases[fi];
+    const missingLangs=langs.filter(l=>!f[l]);
+    if(missingLangs.length>0){
+      await genFrase(cap,fi,missingLangs);
+    }
+    updateCapProgress();
+    renderOutput();
+    updateStats();
+    // Pequeña pausa para no saturar la API
+    await new Promise(r=>setTimeout(r,200));
+  }
+
+  state.generating=false;
+  setBtns(false);
+  renderCaps();
+  toast('✅ Capítulo generado');
+}
+
+async function genTodo(){
+  if(state.generating)return;
+  const langs=getActiveLangs();
+  const capsPendientes=state.caps.filter(c=>c.frases.some(f=>langs.some(l=>!f[l])));
+  if(!capsPendientes.length){toast('Todo ya está generado ✅');return;}
+
+  state.generating=true;
+  setBtns(true);
+  toast(`Generando ${capsPendientes.length} capítulos completos...`);
+
+  const prevCap=state.activeCap;
+  for(let ci=0;ci<state.caps.length;ci++){
+    selectCap(ci);
+    const cap=state.caps[ci];
+    for(let fi=0;fi<cap.frases.length;fi++){
+      const f=cap.frases[fi];
+      const missingLangs=langs.filter(l=>!f[l]);
+      if(missingLangs.length>0){
+        await genFrase(cap,fi,missingLangs);
+      }
+      await new Promise(r=>setTimeout(r,150));
+    }
+    updateCapProgress();
+    renderCaps();
+  }
+
+  if(prevCap!==null)selectCap(prevCap);
+  state.generating=false;
+  setBtns(false);
+  renderOutput();
+  updateStats();
+  toast('✅ Biblioteca completa generada');
+}
+
+function setBtns(loading){
+  document.getElementById('btn-gen-cap').disabled=loading;
+  document.getElementById('btn-gen-all').disabled=loading;
+  document.getElementById('btn-gen-cap').textContent=loading?'Generando...':'✦ Generar traducciones del capítulo';
+  document.getElementById('btn-gen-all').textContent=loading?'Generando todo...':'⚡ Generar TODO';
+}
+
+// ── PREVIEW / OUTPUT ──────────────────────────────────────────────────────────
+function setPreviewLang(lang){
+  state.previewLang=lang;
+  document.querySelectorAll('.lang-pill').forEach(p=>{
+    p.classList.toggle('on',p.dataset.lang===lang);
+  });
+  renderOutput();
+}
+
+function renderOutput(){
+  const body=document.getElementById('output-body');
+  if(!state.caps.length){
+    body.innerHTML='<div class="empty-state"><div class="ico">✦</div><p>Añade capítulos y frases para ver el JSON aquí.</p></div>';
+    return;
+  }
+
+  if(state.previewLang==='json'){
+    const obj=buildJSON();
+    const json=JSON.stringify(obj,null,2);
+    // Syntax highlight básico
+    const highlighted=json
+      .replace(/("(?:es|en|fr|de|it|pt|ca|tit|id|aut|cat|gratis|cov|emo|totalCaps|file|caps|frases)")\s*:/g,'<span class="key">$1</span>:')
+      .replace(/:\s*("(?:[^"\\]|\\.)*")/g,': <span class="str">$1</span>')
+      .replace(/[{}\[\],]/g,'<span class="punc">$&</span>');
+    body.innerHTML=`<pre class="json-output">${highlighted}</pre>`;
+    return;
+  }
+
+  // Vista de lectura por idioma
+  const lang=state.previewLang;
+  const capActual=state.activeCap!==null?state.activeCap:0;
+  const cap=state.caps[capActual];
+  if(!cap){body.innerHTML='';return;}
+
+  body.innerHTML=`
+    <h3 style="font-family:'Playfair Display',serif;font-size:18px;margin-bottom:4px;color:var(--gold)">${escHtml(cap.tit)}</h3>
+    <p style="font-size:12px;color:var(--soft);margin-bottom:20px">${cap.frases.length} frases · ${lang.toUpperCase()}</p>
+    ${cap.frases.map((f,i)=>`
+      <p style="font-size:14px;line-height:1.8;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(42,42,50,.4)">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--soft);margin-right:8px">${i+1}</span>
+        ${f[lang]?escHtml(f[lang]):`<span style="color:var(--soft);font-style:italic">Sin traducción aún</span>`}
+      </p>
+    `).join('')}
+  `;
+}
+
+function buildJSON(){
+  const id=parseInt(document.getElementById('libro-id').value)||5;
+  const tit=document.getElementById('titulo').value||'Sin título';
+  const aut=document.getElementById('autor').value||'Anónimo';
+  const cat=document.getElementById('cat').value||'Cuentos';
+  const emo=document.getElementById('emo').value||'📚';
+  const gratis=document.getElementById('gratis').value==='true';
+  const file=tit.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')+'.json';
+
+  return{
+    id,tit,aut,cat,gratis,cov:cat.toLowerCase(),emo,
+    totalCaps:state.caps.length,
+    file,
+    caps:state.caps.map(c=>({
+      tit:c.tit,
+      frases:c.frases
+    }))
+  };
+}
+
+function exportJSON(){
+  const obj=buildJSON();
+  const json=JSON.stringify(obj,null,2);
+  const blob=new Blob([json],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=obj.file;
+  a.click();
+  toast(`✅ Descargado como ${obj.file}`);
+}
+
+// ── TECLADO ───────────────────────────────────────────────────────────────────
+document.getElementById('new-frase').addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();addFrase();}
+});
+document.getElementById('new-cap-title').addEventListener('keydown',e=>{
+  if(e.key==='Enter')addCap();
+});
+
+// Init
+renderCaps();
+updateStats();
+</script>
+</body>
+</html>
