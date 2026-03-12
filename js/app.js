@@ -666,7 +666,7 @@ function App(){
               capCompletado();
               registrarPalabrasVistas(capObj?.frases,user.idioma);
               setScreen('libro-completado');
-            }},'🎉 ¡Libro completado!'))),
+            }},'🎉 ¡Libro completado!')),
       h('div',{className:'leyenda'},
         h('strong',{style:{color:'var(--indigo)',borderBottom:'1.5px dashed var(--il)'}},'Palabras en índigo'),
         ' = en ',IDIOMAS.find(i=>i.id===user.idioma)?.n||'el idioma objetivo','. Pasa el ratón (o toca) para ver el original en español.')),
