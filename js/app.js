@@ -29,6 +29,9 @@ function App(){
   const [quizDone,setQuizDone]=useState(false);
   const [quizAciertos,setQuizAciertos]=useState(0);
   const [quizXPGanado,setQuizXPGanado]=useState(0);
+  // Biblioteca
+  const [bibQ,setBibQ]=useState('');
+  const [bibFiltro,setBibFiltro]=useState('Todos');
 
   const lRef=useRef(null);
   const isPrem=false;
@@ -330,9 +333,6 @@ function App(){
 
   // ── BIBLIOTECA ────────────────────────────────────────────────────────────
   if(screen==='biblioteca'){
-    const [bibQ,setBibQ]=useState('');
-    const [bibFiltro,setBibFiltro]=useState('Todos');
-
     const cats=[...new Set(LIBROS.map(l=>l.cat))];
     const autores=[...new Set(LIBROS.map(l=>l.aut))];
     // Chips: Todos + colecciones (por cat) + autores
