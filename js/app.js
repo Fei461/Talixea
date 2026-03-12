@@ -1,5 +1,4 @@
 // ── APP PRINCIPAL ─────────────────────────────────────────────────────────────
-const h = React.createElement;
 function App(){
   const {user,reg,login,logout,upd,addIdioma,removeIdioma,switchIdioma}=useAuth();
   const [screen,setScreen]=useState(()=>{
