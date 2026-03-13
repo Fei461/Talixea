@@ -1,0 +1,488 @@
+{
+  "id": 7,
+  "tit": "La reina de las nieves",
+  "aut": "H.C. Andersen",
+  "cat": "Andersen",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "❄️",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "El espejo del diablo",
+      "frases": [
+        {
+          "es": "Había una vez un diablo malísimo que creó un espejo con el poder de hacer que todo lo bello se viera feo y todo lo malo se viera peor.",
+          "en": "Once there was a most wicked devil who made a mirror with the power to make everything beautiful look ugly and everything bad look worse.",
+          "fr": "Il était une fois un diable très méchant qui créa un miroir ayant le pouvoir de rendre tout ce qui est beau laid et tout ce qui est mauvais pire.",
+          "de": "Es gab einmal einen sehr bösen Teufel, der einen Spiegel erschuf, der die Macht hatte, alles Schöne hässlich und alles Schlechte schlimmer erscheinen zu lassen.",
+          "it": "C'era una volta un diavolo malvagio che creò uno specchio con il potere di far sembrare brutto tutto ciò che è bello e peggiore tutto ciò che è cattivo.",
+          "pt": "Era uma vez um diabo muito malvado que criou um espelho com o poder de tornar tudo o que era belo em feio e tudo o que era mau em pior.",
+          "ca": "Hi havia una vegada un dimoni molt dolent que va crear un mirall amb el poder de fer que tot allò bell semblés lleig i tot allò dolent semblés pitjor."
+        },
+        {
+          "es": "El diablo y sus secuaces lo llevaron volando por el mundo, riéndose de todas las distorsiones que producía.",
+          "en": "The devil and his followers carried it flying through the world, laughing at all the distortions it produced.",
+          "fr": "Le diable et ses sbires le transportèrent en volant à travers le monde, riant de toutes les distorsions qu'il produisait.",
+          "de": "Der Teufel und seine Helfer trugen ihn fliegend durch die Welt und lachten über all die Verzerrungen, die er erzeugte.",
+          "it": "Il diavolo e i suoi accoliti lo portarono volando per il mondo, ridendo di tutte le distorsioni che produceva.",
+          "pt": "O diabo e os seus sequazes levaram-no voando pelo mundo, rindo de todas as distorções que produzia.",
+          "ca": "El dimoni i els seus sequaços el van portar volant pel món, rient de totes les distorsions que produïa."
+        },
+        {
+          "es": "Pero cuando intentaron llevar el espejo hasta el cielo para burlarse incluso de los ángeles, el espejo se les escapó de las manos y cayó a la tierra.",
+          "en": "But when they tried to carry the mirror up to heaven to mock even the angels, the mirror slipped from their hands and fell to earth.",
+          "fr": "Mais quand ils tentèrent de porter le miroir jusqu'au ciel pour se moquer même des anges, le miroir leur glissa des mains et tomba sur terre.",
+          "de": "Aber als sie versuchten, den Spiegel bis in den Himmel zu tragen, um selbst die Engel zu verspotten, glitt er ihnen aus den Händen und fiel zur Erde.",
+          "it": "Ma quando cercarono di portare lo specchio fino al cielo per deridere persino gli angeli, lo specchio scivolò dalle loro mani e cadde sulla terra.",
+          "pt": "Mas quando tentaram levar o espelho até ao céu para se burlar até dos anjos, o espelho escorregou-lhes das mãos e caiu na terra.",
+          "ca": "Però quan van intentar portar el mirall fins al cel per burlar-se fins i tot dels àngels, el mirall se'ls va escapar de les mans i va caure a la terra."
+        },
+        {
+          "es": "El espejo se rompió en millones de fragmentos, algunos tan pequeños como un grano de arena.",
+          "en": "The mirror shattered into millions of fragments, some as small as a grain of sand.",
+          "fr": "Le miroir se brisa en millions de fragments, certains aussi petits qu'un grain de sable.",
+          "de": "Der Spiegel zerbrach in Millionen von Splittern, einige so klein wie ein Sandkorn.",
+          "it": "Lo specchio si frantumò in milioni di frammenti, alcuni piccoli come un granello di sabbia.",
+          "pt": "O espelho partiu-se em milhões de fragmentos, alguns tão pequenos como um grão de areia.",
+          "ca": "El mirall es va trencar en milions de fragments, alguns tan petits com un gra de sorra."
+        },
+        {
+          "es": "Los trozos de espejo volaron por el mundo entero. Si alguno entraba en el ojo de una persona, esta empezaba a ver todo al revés.",
+          "en": "The pieces of mirror flew all over the world. If any got into a person's eye, they began to see everything back to front.",
+          "fr": "Les morceaux de miroir volèrent dans le monde entier. Si l'un d'eux entrait dans l'œil d'une personne, elle commençait à tout voir à l'envers.",
+          "de": "Die Spiegelstücke flogen in alle Welt. Wenn eines in das Auge einer Person gelangte, fing sie an, alles verkehrt zu sehen.",
+          "it": "I pezzi di specchio volarono per tutto il mondo. Se qualcuno entrava nell'occhio di una persona, questa cominciava a vedere tutto al contrario.",
+          "pt": "Os pedaços de espelho voaram pelo mundo inteiro. Se algum entrasse no olho de uma pessoa, esta começava a ver tudo ao contrário.",
+          "ca": "Els trossos de mirall van volar per tot el món. Si algun entrava a l'ull d'una persona, aquesta començava a veure-ho tot al revés."
+        },
+        {
+          "es": "Si el fragmento llegaba al corazón, este se volvía frío como el hielo y la persona dejaba de sentir amor o compasión.",
+          "en": "If the fragment reached the heart, it turned cold as ice and the person stopped feeling love or compassion.",
+          "fr": "Si le fragment atteignait le cœur, celui-ci devenait froid comme la glace et la personne cessait de ressentir de l'amour ou de la compassion.",
+          "de": "Wenn der Splitter das Herz erreichte, wurde dieses kalt wie Eis und die Person hörte auf, Liebe oder Mitgefühl zu empfinden.",
+          "it": "Se il frammento raggiungeva il cuore, questo diventava freddo come il ghiaccio e la persona smetteva di sentire amore o compassione.",
+          "pt": "Se o fragmento chegasse ao coração, este tornava-se frio como o gelo e a pessoa deixava de sentir amor ou compaixão.",
+          "ca": "Si el fragment arribava al cor, aquest es tornava fred com el gel i la persona deixava de sentir amor o compassió."
+        },
+        {
+          "es": "Así es como comienza esta historia sobre dos amigos que vivían en lo alto de dos tejados vecinos, donde habían plantado rosas juntos.",
+          "en": "This is how the story begins about two friends who lived high up on two neighbouring rooftops, where they had planted roses together.",
+          "fr": "C'est ainsi que commence cette histoire de deux amis qui vivaient en haut de deux toits voisins, où ils avaient planté des roses ensemble.",
+          "de": "So beginnt diese Geschichte über zwei Freunde, die hoch oben auf zwei benachbarten Dächern lebten, wo sie gemeinsam Rosen gepflanzt hatten.",
+          "it": "Così inizia questa storia di due amici che vivevano in cima a due tetti vicini, dove avevano piantato rose insieme.",
+          "pt": "É assim que começa esta história sobre dois amigos que viviam no alto de dois telhados vizinhos, onde tinham plantado rosas juntos.",
+          "ca": "Així és com comença aquesta història sobre dos amics que vivien a dalt de dos terrats veïns, on havien plantat roses junts."
+        }
+      ]
+    },
+    {
+      "tit": "Kay y Gerda",
+      "frases": [
+        {
+          "es": "Kay y Gerda eran dos niños inseparables que vivían en casas contiguas y se veían cada día a través de las ventanas.",
+          "en": "Kay and Gerda were two inseparable children who lived in adjoining houses and saw each other every day through the windows.",
+          "fr": "Kay et Gerda étaient deux enfants inséparables qui vivaient dans des maisons contiguës et se voyaient chaque jour à travers les fenêtres.",
+          "de": "Kay und Gerda waren zwei unzertrennliche Kinder, die in benachbarten Häusern lebten und sich jeden Tag durch die Fenster sahen.",
+          "it": "Kay e Gerda erano due bambini inseparabili che vivevano in case adiacenti e si vedevano ogni giorno attraverso le finestre.",
+          "pt": "Kay e Gerda eram duas crianças inseparáveis que viviam em casas contíguas e se viam todos os dias pelas janelas.",
+          "ca": "Kay i Gerda eren dos nens inseparables que vivien en cases contigues i es veien cada dia a través de les finestres."
+        },
+        {
+          "es": "En verano trepaban a sus jardines de macetas sobre los tejados y se contaban historias entre las rosas florecidas.",
+          "en": "In summer they climbed to their pot gardens on the rooftops and told each other stories among the blooming roses.",
+          "fr": "En été, ils grimpaient dans leurs jardins en pots sur les toits et se racontaient des histoires parmi les roses en fleurs.",
+          "de": "Im Sommer kletterten sie in ihre Topfgärten auf den Dächern und erzählten sich Geschichten zwischen den blühenden Rosen.",
+          "it": "In estate si arrampicavano nei loro giardini in vaso sui tetti e si raccontavano storie tra le rose fiorite.",
+          "pt": "No verão trepavam aos seus jardins de vasos nos telhados e contavam-se histórias entre as rosas floridas.",
+          "ca": "A l'estiu pujaven als seus jardins de testos als terrats i es contaven històries entre les roses florides."
+        },
+        {
+          "es": "Pero un día de invierno, Kay miraba los copos de nieve caer cuando sintió algo aguijonearlo en el ojo y después en el corazón.",
+          "en": "But one winter day, Kay was watching the snowflakes fall when he felt something sting his eye and then his heart.",
+          "fr": "Mais un jour d'hiver, Kay regardait les flocons de neige tomber quand il sentit quelque chose le piquer dans l'œil, puis dans le cœur.",
+          "de": "Aber an einem Wintertag schaute Kay den fallenden Schneeflocken zu, als er etwas in seinem Auge und dann in seinem Herzen stechen fühlte.",
+          "it": "Ma un giorno d'inverno, Kay stava guardando cadere i fiocchi di neve quando sentì qualcosa pungerlo nell'occhio e poi nel cuore.",
+          "pt": "Mas um dia de inverno, Kay estava a ver os flocos de neve cair quando sentiu algo picar-lhe no olho e depois no coração.",
+          "ca": "Però un dia d'hivern, Kay mirava caure els flocs de neu quan va sentir alguna cosa punxar-li a l'ull i després al cor."
+        },
+        {
+          "es": "Eran fragmentos del espejo del diablo. Desde ese momento, Kay comenzó a ver el mundo de forma fría y cruel.",
+          "en": "They were splinters from the devil's mirror. From that moment, Kay began to see the world in a cold and cruel way.",
+          "fr": "C'étaient des éclats du miroir du diable. À partir de ce moment, Kay commença à voir le monde de façon froide et cruelle.",
+          "de": "Es waren Splitter aus dem Spiegel des Teufels. Von diesem Moment an begann Kay, die Welt auf eine kalte und grausame Weise zu sehen.",
+          "it": "Erano schegge dello specchio del diavolo. Da quel momento, Kay cominciò a vedere il mondo in modo freddo e crudele.",
+          "pt": "Eram fragmentos do espelho do diabo. A partir desse momento, Kay começou a ver o mundo de forma fria e cruel.",
+          "ca": "Eren fragments del mirall del dimoni. Des d'aquell moment, Kay va començar a veure el món d'una manera freda i cruel."
+        },
+        {
+          "es": "Kay empezó a burlarse de Gerda, a decir que las rosas eran feas y a preferir los cristales de hielo a los juegos de antes.",
+          "en": "Kay began to mock Gerda, to say that the roses were ugly and to prefer ice crystals to the games of before.",
+          "fr": "Kay commença à se moquer de Gerda, à dire que les roses étaient laides et à préférer les cristaux de glace aux jeux d'autrefois.",
+          "de": "Kay begann, Gerda zu verspotten, sagte, die Rosen seien hässlich, und zog Eiskristalle den früheren Spielen vor.",
+          "it": "Kay cominciò a prendere in giro Gerda, a dire che le rose erano brutte e a preferire i cristalli di ghiaccio ai giochi di prima.",
+          "pt": "Kay começou a zombar de Gerda, a dizer que as rosas eram feias e a preferir os cristais de gelo às brincadeiras de antes.",
+          "ca": "Kay va començar a burlar-se de Gerda, a dir que les roses eren lletges i a preferir els cristalls de gel als jocs d'abans."
+        },
+        {
+          "es": "Un día de gran nevada, Kay ató su trineo a un gran trineo blanco que pasó por la calle. Era el trineo de la Reina de las Nieves.",
+          "en": "One snowy day, Kay tied his sledge to a great white sledge passing in the street. It was the sledge of the Snow Queen.",
+          "fr": "Un jour de grande neige, Kay attacha son traîneau à un grand traîneau blanc qui passait dans la rue. C'était le traîneau de la Reine des Neiges.",
+          "de": "An einem großen Schneetag band Kay seinen Schlitten an einen großen weißen Schlitten, der durch die Straße fuhr. Es war der Schlitten der Schneekönigin.",
+          "it": "Un giorno di grande nevicata, Kay legò la sua slitta a una grande slitta bianca che passava per la strada. Era la slitta della Regina delle Nevi.",
+          "pt": "Num dia de grande nevada, Kay amarrou o seu trenó a um grande trenó branco que passava pela rua. Era o trenó da Rainha das Neves.",
+          "ca": "Un dia de gran nevada, Kay va lligar el seu trineu a un gran trineu blanc que passava pel carrer. Era el trineu de la Reina de les Neus."
+        },
+        {
+          "es": "La reina lo recogió, lo besó en la frente con un beso de hielo que le borró el recuerdo de Gerda, y partió hacia el norte.",
+          "en": "The queen picked him up, kissed him on the forehead with an icy kiss that erased his memory of Gerda, and set off north.",
+          "fr": "La reine le prit, l'embrassa sur le front d'un baiser de glace qui effaça le souvenir de Gerda, et repartit vers le nord.",
+          "de": "Die Königin holte ihn, küsste ihn auf die Stirn mit einem Eiskuss, der seine Erinnerung an Gerda auslöschte, und fuhr nach Norden.",
+          "it": "La regina lo prese, lo baciò sulla fronte con un bacio di ghiaccio che cancellò il ricordo di Gerda, e ripartì verso nord.",
+          "pt": "A rainha recolheu-o, beijou-o na testa com um beijo de gelo que apagou a memória de Gerda, e partiu para norte.",
+          "ca": "La reina el va recollir, el va besar al front amb un petó de gel que li va esborrar el record de Gerda, i va partir cap al nord."
+        }
+      ]
+    },
+    {
+      "tit": "El largo viaje de Gerda",
+      "frases": [
+        {
+          "es": "Gerda no se resignó a perder a Kay y partió sola a buscarlo, preguntando a todos si lo habían visto.",
+          "en": "Gerda refused to accept losing Kay and set off alone to look for him, asking everyone if they had seen him.",
+          "fr": "Gerda ne se résigna pas à perdre Kay et partit seule à sa recherche, demandant à tout le monde s'ils l'avaient vu.",
+          "de": "Gerda wollte sich nicht damit abfinden, Kay zu verlieren, und machte sich allein auf die Suche nach ihm, indem sie jeden fragte, ob er ihn gesehen hatte.",
+          "it": "Gerda non si rassegnò a perdere Kay e partì da sola a cercarlo, chiedendo a tutti se lo avessero visto.",
+          "pt": "Gerda não se resignou a perder Kay e partiu sozinha à sua procura, perguntando a todos se o tinham visto.",
+          "ca": "Gerda no es va resignar a perdre Kay i va partir sola a buscar-lo, preguntant a tothom si l'havia vist."
+        },
+        {
+          "es": "Primero preguntó al río que corría cerca de su casa, y el río pareció indicarle que fuera hacia el sur.",
+          "en": "First she asked the river running near her home, and the river seemed to point her southward.",
+          "fr": "Elle demanda d'abord à la rivière qui coulait près de chez elle, et la rivière sembla lui indiquer d'aller vers le sud.",
+          "de": "Zuerst fragte sie den Fluss in der Nähe ihres Hauses, und der Fluss schien ihr zu zeigen, dass sie nach Süden gehen sollte.",
+          "it": "Prima chiese al fiume che scorreva vicino a casa sua, e il fiume sembrò indicarle di andare verso sud.",
+          "pt": "Primeiro perguntou ao rio que corria perto da sua casa, e o rio pareceu indicar-lhe que fosse para sul.",
+          "ca": "Primer va preguntar al riu que corria prop de casa seva, i el riu va semblar indicar-li que anés cap al sud."
+        },
+        {
+          "es": "Gerda se subió a un barco de madera y dejó que la corriente la llevara. Llegó así al jardín de una anciana hechicera.",
+          "en": "Gerda got into a little wooden boat and let the current carry her. She arrived at the garden of an old sorceress.",
+          "fr": "Gerda monta dans un petit bateau en bois et laissa le courant l'emporter. Elle arriva ainsi au jardin d'une vieille sorcière.",
+          "de": "Gerda stieg in ein kleines Holzboot und ließ sich von der Strömung treiben. So kam sie zum Garten einer alten Zauberin.",
+          "it": "Gerda salì su una piccola barca di legno e si lasciò portare dalla corrente. Arrivò così al giardino di una vecchia strega.",
+          "pt": "Gerda subiu a um barquinho de madeira e deixou-se levar pela corrente. Chegou assim ao jardim de uma velha feiticeira.",
+          "ca": "Gerda es va pujar a un barquet de fusta i es va deixar portar per la corrent. Va arribar així al jardí d'una vella bruixa."
+        },
+        {
+          "es": "La anciana era bondadosa pero quería quedarse con Gerda, así que usó su magia para que ella olvidara a Kay.",
+          "en": "The old woman was kind but wanted to keep Gerda, so she used her magic to make Gerda forget Kay.",
+          "fr": "La vieille femme était bienveillante mais voulait garder Gerda, alors elle utilisa sa magie pour que Gerda oublie Kay.",
+          "de": "Die alte Frau war gütig, wollte aber Gerda behalten, also benutzte sie ihre Magie, damit Gerda Kay vergaß.",
+          "it": "La vecchia era gentile ma voleva tenere Gerda, così usò la sua magia perché Gerda dimenticasse Kay.",
+          "pt": "A velha era bondosa mas queria ficar com Gerda, por isso usou a sua magia para que ela esquecesse Kay.",
+          "ca": "La vella era bondadosa però volia quedar-se amb Gerda, així que va usar la seva màgia perquè ella oblidés Kay."
+        },
+        {
+          "es": "Pero un día Gerda vio en el sombrero de la anciana una rosa dibujada y recordó las rosas de Kay. Entonces huyó.",
+          "en": "But one day Gerda saw a rose drawn on the old woman's hat and remembered Kay's roses. Then she fled.",
+          "fr": "Mais un jour, Gerda vit une rose dessinée sur le chapeau de la vieille et se souvint des roses de Kay. Elle s'enfuit alors.",
+          "de": "Aber eines Tages sah Gerda eine Zeichnung einer Rose auf dem Hut der alten Frau und erinnerte sich an Kays Rosen. Da floh sie.",
+          "it": "Ma un giorno Gerda vide una rosa disegnata sul cappello della vecchia e ricordò le rose di Kay. Allora fuggì.",
+          "pt": "Mas um dia Gerda viu uma rosa desenhada no chapéu da velha e lembrou-se das rosas de Kay. Então fugiu.",
+          "ca": "Però un dia Gerda va veure una rosa dibuixada al barret de la vella i va recordar les roses de Kay. Llavors va fugir."
+        },
+        {
+          "es": "Al salir al bosque, el otoño ya había llegado. Gerda había pasado meses olvidada en aquel jardín encantado.",
+          "en": "On leaving the forest, autumn had already arrived. Gerda had spent months forgotten in that enchanted garden.",
+          "fr": "En sortant dans la forêt, l'automne était déjà là. Gerda avait passé des mois oubliée dans ce jardin enchanté.",
+          "de": "Als sie in den Wald heraustrat, war der Herbst bereits gekommen. Gerda hatte Monate vergessen in diesem verzauberten Garten verbracht.",
+          "it": "Uscendo nel bosco, l'autunno era già arrivato. Gerda aveva passato mesi dimenticata in quel giardino incantato.",
+          "pt": "Ao sair para o bosque, o outono já tinha chegado. Gerda tinha passado meses esquecida naquele jardim encantado.",
+          "ca": "En sortir al bosc, la tardor ja havia arribat. Gerda havia passat mesos oblidada en aquell jardí encantat."
+        },
+        {
+          "es": "Un cuervo que vivía en el bosque le dijo que quizás había visto a Kay en el palacio de una princesa cercana.",
+          "en": "A crow that lived in the forest told her that perhaps it had seen Kay at the palace of a nearby princess.",
+          "fr": "Un corbeau qui vivait dans la forêt lui dit qu'il avait peut-être vu Kay au palais d'une princesse voisine.",
+          "de": "Eine Krähe, die im Wald lebte, sagte ihr, dass sie Kay vielleicht im Palast einer nahe gelegenen Prinzessin gesehen hatte.",
+          "it": "Un corvo che viveva nel bosco le disse che forse aveva visto Kay al palazzo di una principessa vicina.",
+          "pt": "Um corvo que vivia no bosque disse-lhe que talvez tivesse visto Kay no palácio de uma princesa próxima.",
+          "ca": "Un corb que vivia al bosc li va dir que potser havia vist Kay al palau d'una princesa propera."
+        }
+      ]
+    },
+    {
+      "tit": "La princesa y el bandido",
+      "frases": [
+        {
+          "es": "El corvo llevó a Gerda al palacio de la princesa, pero el joven que vivía allí no era Kay. Era otro chico de ojos oscuros.",
+          "en": "The crow led Gerda to the princess's palace, but the young man who lived there was not Kay. He was another boy with dark eyes.",
+          "fr": "Le corbeau conduisit Gerda au palais de la princesse, mais le jeune homme qui y vivait n'était pas Kay. C'était un autre garçon aux yeux sombres.",
+          "de": "Die Krähe führte Gerda zum Palast der Prinzessin, aber der junge Mann, der dort lebte, war nicht Kay. Es war ein anderer Junge mit dunklen Augen.",
+          "it": "Il corvo guidò Gerda al palazzo della principessa, ma il giovane che vi abitava non era Kay. Era un altro ragazzo dagli occhi scuri.",
+          "pt": "O corvo levou Gerda ao palácio da princesa, mas o jovem que lá vivia não era Kay. Era outro rapaz de olhos escuros.",
+          "ca": "El corb va portar Gerda al palau de la princesa, però el jove que hi vivia no era Kay. Era un altre noi d'ulls foscos."
+        },
+        {
+          "es": "La princesa y el príncipe le regalaron a Gerda ropa de abrigo, un manguito y un carruaje dorado para continuar su viaje.",
+          "en": "The princess and the prince gave Gerda warm clothes, a muff and a golden carriage to continue her journey.",
+          "fr": "La princesse et le prince offrirent à Gerda des vêtements chauds, un manchon et un carrosse doré pour continuer son voyage.",
+          "de": "Die Prinzessin und der Prinz schenkten Gerda warme Kleider, einen Muff und eine goldene Kutsche, um ihre Reise fortzusetzen.",
+          "it": "La principessa e il principe regalarono a Gerda vestiti caldi, un manicotto e una carrozza dorata per continuare il suo viaggio.",
+          "pt": "A princesa e o príncipe ofereceram a Gerda roupas quentes, um regalo e uma carruagem dourada para continuar a viagem.",
+          "ca": "La princesa i el príncep van regalar a Gerda roba d'abric, un manguet i un carruatge daurat per continuar el seu viatge."
+        },
+        {
+          "es": "Pero en el bosque, una banda de ladrones detuvo el carruaje y capturó a Gerda.",
+          "en": "But in the forest, a band of robbers stopped the carriage and captured Gerda.",
+          "fr": "Mais dans la forêt, une bande de brigands arrêta le carrosse et captura Gerda.",
+          "de": "Aber im Wald hielt eine Räuberbande die Kutsche an und nahm Gerda gefangen.",
+          "it": "Ma nel bosco, una banda di ladri fermò la carrozza e catturò Gerda.",
+          "pt": "Mas no bosque, uma banda de ladrões deteve a carruagem e capturou Gerda.",
+          "ca": "Però al bosc, una banda de lladres va aturar el carruatge i va capturar Gerda."
+        },
+        {
+          "es": "La hija de la jefa de los bandidos, una niña salvaje pero con buen corazón, se encaprichó de Gerda y la protegió.",
+          "en": "The daughter of the robber chief, a wild but kind-hearted girl, took a liking to Gerda and protected her.",
+          "fr": "La fille de la chef des bandits, une fille sauvage mais au bon cœur, s'entichait de Gerda et la protégea.",
+          "de": "Die Tochter der Räuberhauptfrau, ein wildes, aber gutmütiges Mädchen, mochte Gerda und beschützte sie.",
+          "it": "La figlia della capo bandito, una bambina selvatica ma di buon cuore, si affezionò a Gerda e la protesse.",
+          "pt": "A filha da chefe dos ladrões, uma rapariga selvagem mas de bom coração, encantou-se com Gerda e protegeu-a.",
+          "ca": "La filla del cap dels bandolers, una nena salvatge però de bon cor, es va encapriotxar de Gerda i la va protegir."
+        },
+        {
+          "es": "Los cuervos y los renos del campamento de los bandidos le dijeron a Gerda que habían visto a Kay en el palacio de la Reina de las Nieves, en Laponia.",
+          "en": "The crows and reindeer at the robbers' camp told Gerda they had seen Kay at the Snow Queen's palace in Lapland.",
+          "fr": "Les corbeaux et les rennes du camp des bandits dirent à Gerda qu'ils avaient vu Kay au palais de la Reine des Neiges, en Laponie.",
+          "de": "Die Krähen und Rentiere im Räuberlager sagten Gerda, dass sie Kay im Palast der Schneekönigin in Lappland gesehen hatten.",
+          "it": "I corvi e le renne del campo dei banditi dissero a Gerda che avevano visto Kay al palazzo della Regina delle Nevi, in Lapponia.",
+          "pt": "Os corvos e as renas do acampamento dos ladrões disseram a Gerda que tinham visto Kay no palácio da Rainha das Neves, na Lapónia.",
+          "ca": "Els corbs i els rens del campament dels bandolers li van dir a Gerda que havien vist Kay al palau de la Reina de les Neus, a Lapònia."
+        },
+        {
+          "es": "La niña bandida liberó a Gerda y le prestó su reno más fuerte para que la llevara al norte.",
+          "en": "The robber girl freed Gerda and lent her her strongest reindeer to carry her north.",
+          "fr": "La petite bandit libéra Gerda et lui prêta son renne le plus fort pour la conduire vers le nord.",
+          "de": "Das Räubermädchen befreite Gerda und lieh ihr ihr stärkstes Rentier, um sie nach Norden zu bringen.",
+          "it": "La bambina bandita liberò Gerda e le prestò la sua renna più forte per portarla a nord.",
+          "pt": "A rapariga bandida libertou Gerda e emprestou-lhe a sua rena mais forte para a levar para norte.",
+          "ca": "La nena bandoler va alliberar Gerda i li va prestar el seu ren més fort per portar-la al nord."
+        },
+        {
+          "es": "Se despidieron con un abrazo inesperado: la niña salvaje nunca antes había abrazado a nadie.",
+          "en": "They said goodbye with an unexpected hug: the wild girl had never hugged anyone before.",
+          "fr": "Elles se dirent au revoir avec une étreinte inattendue : la fille sauvage n'avait jamais serré quelqu'un dans ses bras auparavant.",
+          "de": "Sie verabschiedeten sich mit einer unerwarteten Umarmung: Das wilde Mädchen hatte noch nie jemanden umarmt.",
+          "it": "Si salutarono con un abbraccio inaspettato: la bambina selvatica non aveva mai abbracciato nessuno prima.",
+          "pt": "Despediram-se com um abraço inesperado: a rapariga selvagem nunca tinha abraçado ninguém antes.",
+          "ca": "Es van acomiadar amb una abraçada inesperada: la nena salvatge mai abans havia abraçat ningú."
+        }
+      ]
+    },
+    {
+      "tit": "En tierra de hielo",
+      "frases": [
+        {
+          "es": "El reno llevó a Gerda volando sobre la nieve hasta Laponia, donde vivía una vieja lapona en una cabaña diminuta.",
+          "en": "The reindeer carried Gerda flying over the snow to Lapland, where an old Lapp woman lived in a tiny hut.",
+          "fr": "Le renne porta Gerda en volant sur la neige jusqu'en Laponie, où une vieille femme lapone vivait dans une minuscule cabane.",
+          "de": "Das Rentier trug Gerda fliegend über den Schnee nach Lappland, wo eine alte Lappin in einer winzigen Hütte lebte.",
+          "it": "La renna portò Gerda volando sulla neve fino in Lapponia, dove una vecchia donna lapone viveva in una capanna minuscola.",
+          "pt": "A rena levou Gerda voando sobre a neve até à Lapónia, onde uma velha lapoa vivia numa cabana minúscula.",
+          "ca": "El ren va portar Gerda volant sobre la neu fins a Lapònia, on vivia una vella laponesa en una cabana minúscula."
+        },
+        {
+          "es": "La lapona le dio a Gerda leche caliente y le explicó todo sobre la Reina de las Nieves y el palacio de hielo.",
+          "en": "The Lapp woman gave Gerda warm milk and explained everything about the Snow Queen and the ice palace.",
+          "fr": "La Lapone donna à Gerda du lait chaud et lui expliqua tout sur la Reine des Neiges et le palais de glace.",
+          "de": "Die Lappin gab Gerda warme Milch und erklärte ihr alles über die Schneekönigin und den Eispalast.",
+          "it": "La lapone diede a Gerda latte caldo e le spiegò tutto sulla Regina delle Nevi e il palazzo di ghiaccio.",
+          "pt": "A lapoa deu a Gerda leite quente e explicou-lhe tudo sobre a Rainha das Neves e o palácio de gelo.",
+          "ca": "La laponesa va donar a Gerda llet calenta i li va explicar tot sobre la Reina de les Neus i el palau de gel."
+        },
+        {
+          "es": "Luego el reno viajó aún más al norte hasta encontrar a la mujer finlandesa, que conocía el secreto del poder de Gerda.",
+          "en": "Then the reindeer travelled further north still to find the Finnish woman, who knew the secret of Gerda's power.",
+          "fr": "Puis le renne voyagea encore plus au nord pour trouver la femme finlandaise, qui connaissait le secret du pouvoir de Gerda.",
+          "de": "Dann reiste das Rentier noch weiter nach Norden, um die finnische Frau zu finden, die das Geheimnis von Gerdas Macht kannte.",
+          "it": "Poi la renna viaggiò ancora più a nord per trovare la donna finlandese, che conosceva il segreto del potere di Gerda.",
+          "pt": "Depois o reno viajou ainda mais para norte para encontrar a mulher finlandesa, que conhecia o segredo do poder de Gerda.",
+          "ca": "Llavors el ren va viatjar encara més al nord per trobar la dona finlandesa, que coneixia el secret del poder de Gerda."
+        },
+        {
+          "es": "La mujer finlandesa escribió unas palabras en un trozo de bacalao seco y se lo dio al reno como mensaje para su amiga.",
+          "en": "The Finnish woman wrote some words on a piece of dried cod and gave it to the reindeer as a message for her friend.",
+          "fr": "La femme finlandaise écrivit quelques mots sur un morceau de morue séchée et le donna au renne comme message pour son amie.",
+          "de": "Die finnische Frau schrieb einige Worte auf ein Stück getrockneten Kabeljau und gab es dem Rentier als Nachricht für ihre Freundin.",
+          "it": "La donna finlandese scrisse alcune parole su un pezzo di baccalà secco e lo diede alla renna come messaggio per la sua amica.",
+          "pt": "A mulher finlandesa escreveu umas palavras num pedaço de bacalhau seco e deu-o à rena como mensagem para a sua amiga.",
+          "ca": "La dona finlandesa va escriure unes paraules en un tros de bacallà sec i el va donar al ren com a missatge per a la seva amiga."
+        },
+        {
+          "es": "El secreto era simple y grandioso a la vez: Gerda ya poseía un poder mayor que cualquier magia, que era su amor puro e inquebrantable.",
+          "en": "The secret was simple and great at the same time: Gerda already possessed a power greater than any magic, which was her pure and unbreakable love.",
+          "fr": "Le secret était simple et grandiose à la fois : Gerda possédait déjà un pouvoir plus grand que toute magie, qui était son amour pur et inébranlable.",
+          "de": "Das Geheimnis war gleichzeitig einfach und großartig: Gerda besaß bereits eine Macht, die größer war als jede Magie, nämlich ihre reine und unerschütterliche Liebe.",
+          "it": "Il segreto era semplice e grandioso allo stesso tempo: Gerda possedeva già un potere maggiore di qualsiasi magia, che era il suo amore puro e indistruttibile.",
+          "pt": "O segredo era simples e grandioso ao mesmo tempo: Gerda já possuía um poder maior do que qualquer magia, que era o seu amor puro e inabalável.",
+          "ca": "El secret era simple i grandios alhora: Gerda ja posseïa un poder més gran que qualsevol màgia, que era el seu amor pur i inquebrantable."
+        },
+        {
+          "es": "Nadie podría dar a Gerda ese poder porque ya lo tenía dentro de su corazón desde siempre.",
+          "en": "No one could give Gerda that power because she had always had it inside her heart.",
+          "fr": "Personne ne pourrait donner ce pouvoir à Gerda car elle l'avait toujours eu au fond de son cœur.",
+          "de": "Niemand könnte Gerda diese Macht geben, weil sie sie schon immer in ihrem Herzen gehabt hatte.",
+          "it": "Nessuno avrebbe potuto dare a Gerda quel potere perché lo aveva sempre avuto dentro il suo cuore.",
+          "pt": "Ninguém poderia dar a Gerda esse poder porque ela já o tinha dentro do seu coração desde sempre.",
+          "ca": "Ningú podria donar a Gerda aquell poder perquè ja el tenia dins del seu cor des de sempre."
+        },
+        {
+          "es": "El reno la dejó en los límites del jardín helado de la Reina de las Nieves y regresó llorando, pues la echaba de menos.",
+          "en": "The reindeer left her at the edge of the Snow Queen's frozen garden and went back weeping, for he would miss her.",
+          "fr": "Le renne la laissa aux abords du jardin glacé de la Reine des Neiges et repartit en pleurant, car elle lui manquerait.",
+          "de": "Das Rentier ließ sie am Rand des gefrorenen Gartens der Schneekönigin zurück und kehrte weinend um, denn es würde sie vermissen.",
+          "it": "La renna la lasciò ai margini del giardino ghiacciato della Regina delle Nevi e se ne tornò piangendo, perché le sarebbe mancata.",
+          "pt": "A rena deixou-a nos limites do jardim gelado da Rainha das Neves e regressou a chorar, pois sentiria a sua falta.",
+          "ca": "El ren la va deixar als límits del jardí gelat de la Reina de les Neus i va tornar plorant, perquè la trobaria a faltar."
+        }
+      ]
+    },
+    {
+      "tit": "El palacio de hielo",
+      "frases": [
+        {
+          "es": "El palacio de la Reina de las Nieves era enorme y desolador, construido de nieve y hielo azul que brillaba bajo las estrellas.",
+          "en": "The Snow Queen's palace was huge and desolate, built of snow and blue ice that gleamed beneath the stars.",
+          "fr": "Le palais de la Reine des Neiges était immense et désolé, construit de neige et de glace bleue qui brillait sous les étoiles.",
+          "de": "Der Palast der Schneekönigin war riesig und trostlos, aus Schnee und blauem Eis gebaut, das unter den Sternen glänzte.",
+          "it": "Il palazzo della Regina delle Nevi era enorme e desolato, costruito di neve e ghiaccio blu che brillava sotto le stelle.",
+          "pt": "O palácio da Rainha das Neves era enorme e desolador, construído de neve e gelo azul que brilhava sob as estrelas.",
+          "ca": "El palau de la Reina de les Neus era enorme i desolador, construït de neu i gel blau que brillava sota les estrelles."
+        },
+        {
+          "es": "En el centro del palacio había un lago helado partido en miles de piezas perfectas como un puzle de hielo.",
+          "en": "In the centre of the palace there was a frozen lake broken into thousands of perfect pieces like an ice puzzle.",
+          "fr": "Au centre du palais se trouvait un lac gelé brisé en milliers de morceaux parfaits comme un puzzle de glace.",
+          "de": "In der Mitte des Palastes befand sich ein gefrorener See, der in Tausende perfekter Stücke wie ein Eispuzzle zerbrochen war.",
+          "it": "Al centro del palazzo c'era un lago ghiacciato rotto in migliaia di pezzi perfetti come un puzzle di ghiaccio.",
+          "pt": "No centro do palácio havia um lago gelado partido em milhares de peças perfeitas como um puzzle de gelo.",
+          "ca": "Al centre del palau hi havia un llac gelat partit en milers de peces perfectes com un trencaclosques de gel."
+        },
+        {
+          "es": "Kay estaba allí sentado, solo, intentando formar la palabra ETERNIDAD con las piezas de hielo, pues la reina le había prometido libertad si lo lograba.",
+          "en": "Kay sat there alone, trying to form the word ETERNITY with the ice pieces, for the queen had promised him freedom if he managed it.",
+          "fr": "Kay était là, assis, seul, essayant de former le mot ÉTERNITÉ avec les morceaux de glace, car la reine lui avait promis la liberté s'il y parvenait.",
+          "de": "Kay saß dort allein und versuchte, das Wort EWIGKEIT aus den Eisstücken zu formen, denn die Königin hatte ihm Freiheit versprochen, wenn es ihm gelänge.",
+          "it": "Kay era seduto lì, solo, cercando di formare la parola ETERNITÀ con i pezzi di ghiaccio, poiché la regina gli aveva promesso la libertà se ci fosse riuscito.",
+          "pt": "Kay estava ali sentado, sozinho, a tentar formar a palavra ETERNIDADE com as peças de gelo, pois a rainha prometera-lhe liberdade se o conseguisse.",
+          "ca": "Kay era allà assegut, sol, intentant formar la paraula ETERNITAT amb les peces de gel, perquè la reina li havia promès llibertat si ho aconseguia."
+        },
+        {
+          "es": "Gerda entró corriendo al palacio helado, atravesó las tempestades de nieve sin detenerse y llegó hasta Kay.",
+          "en": "Gerda ran into the icy palace, pushed through snowstorms without stopping, and reached Kay.",
+          "fr": "Gerda entra en courant dans le palais de glace, traversa les tempêtes de neige sans s'arrêter et rejoignit Kay.",
+          "de": "Gerda lief in den Eispalast, durchquerte Schneestürme ohne anzuhalten und erreichte Kay.",
+          "it": "Gerda entrò di corsa nel palazzo ghiacciato, attraversò le tempeste di neve senza fermarsi e raggiunse Kay.",
+          "pt": "Gerda entrou a correr no palácio gelado, atravessou as tempestades de neve sem parar e chegou até Kay.",
+          "ca": "Gerda va entrar corrent al palau gelat, va travessar les tempestes de neu sense aturar-se i va arribar fins a Kay."
+        },
+        {
+          "es": "Kay no la reconoció al principio. Tenía el corazón de hielo y los ojos fríos como el vidrio.",
+          "en": "Kay did not recognise her at first. His heart was ice and his eyes were cold as glass.",
+          "fr": "Kay ne la reconnut pas au début. Son cœur était de glace et ses yeux étaient froids comme du verre.",
+          "de": "Kay erkannte sie zunächst nicht. Sein Herz war Eis und seine Augen waren kalt wie Glas.",
+          "it": "Kay non la riconobbe all'inizio. Il suo cuore era di ghiaccio e i suoi occhi erano freddi come il vetro.",
+          "pt": "Kay não a reconheceu no início. Tinha o coração de gelo e os olhos frios como vidro.",
+          "ca": "Kay no la va reconèixer al principi. Tenia el cor de gel i els ulls freds com el vidre."
+        },
+        {
+          "es": "Gerda lo abrazó con fuerza y comenzó a llorar lágrimas calientes que cayeron sobre el pecho de Kay.",
+          "en": "Gerda hugged him tight and began to weep warm tears that fell on Kay's chest.",
+          "fr": "Gerda le serra dans ses bras et se mit à pleurer des larmes chaudes qui tombèrent sur la poitrine de Kay.",
+          "de": "Gerda umarmte ihn fest und begann, warme Tränen zu weinen, die auf Kays Brust fielen.",
+          "it": "Gerda lo abbracciò forte e cominciò a piangere lacrime calde che caddero sul petto di Kay.",
+          "pt": "Gerda abraçou-o com força e começou a chorar lágrimas quentes que caíram sobre o peito de Kay.",
+          "ca": "Gerda el va abraçar fort i va començar a plorar llàgrimes calentes que van caure sobre el pit de Kay."
+        },
+        {
+          "es": "Las lágrimas penetraron hasta el fragmento de espejo que tenía en el corazón y lo derritieron. Kay empezó a llorar también y el fragmento salió con sus lágrimas.",
+          "en": "The tears reached the mirror splinter in his heart and melted it. Kay began to weep too and the splinter came out with his tears.",
+          "fr": "Les larmes atteignirent l'éclat de miroir dans son cœur et le firent fondre. Kay se mit à pleurer aussi et l'éclat sortit avec ses larmes.",
+          "de": "Die Tränen erreichten den Spiegelsplitter in seinem Herzen und schmolzen ihn. Kay begann ebenfalls zu weinen und der Splitter trat mit seinen Tränen aus.",
+          "it": "Le lacrime raggiunsero il frammento di specchio nel suo cuore e lo sciolsero. Kay cominciò a piangere anch'egli e il frammento uscì con le sue lacrime.",
+          "pt": "As lágrimas penetraram até ao fragmento de espelho que tinha no coração e derreteram-no. Kay começou a chorar também e o fragmento saiu com as suas lágrimas.",
+          "ca": "Les llàgrimes van penetrar fins al fragment de mirall que tenia al cor i el van fondre. Kay va començar a plorar també i el fragment va sortir amb les seves llàgrimes."
+        }
+      ]
+    },
+    {
+      "tit": "El regreso a casa",
+      "frases": [
+        {
+          "es": "Kay miró a Gerda y la reconoció. Gritó su nombre con lágrimas de alegría y la abrazó con toda su fuerza.",
+          "en": "Kay looked at Gerda and recognised her. He cried her name with tears of joy and held her with all his strength.",
+          "fr": "Kay regarda Gerda et la reconnut. Il cria son nom avec des larmes de joie et la serra de toutes ses forces.",
+          "de": "Kay sah Gerda an und erkannte sie. Er rief ihren Namen mit Freudentränen und hielt sie mit aller Kraft.",
+          "it": "Kay guardò Gerda e la riconobbe. Gridò il suo nome con lacrime di gioia e la strinse con tutta la sua forza.",
+          "pt": "Kay olhou para Gerda e reconheceu-a. Gritou o seu nome com lágrimas de alegria e abraçou-a com toda a sua força.",
+          "ca": "Kay va mirar Gerda i la va reconèixer. Va cridar el seu nom amb llàgrimes d'alegria i la va abraçar amb tota la seva força."
+        },
+        {
+          "es": "Las piezas de hielo empezaron a moverse solas y formaron la palabra ETERNIDAD. Así Kay ganó su libertad incluso sin proponérselo.",
+          "en": "The ice pieces began to move on their own and formed the word ETERNITY. So Kay won his freedom without even trying.",
+          "fr": "Les morceaux de glace commencèrent à bouger d'eux-mêmes et formèrent le mot ÉTERNITÉ. Ainsi Kay gagna sa liberté sans même le chercher.",
+          "de": "Die Eisstücke begannen sich von selbst zu bewegen und bildeten das Wort EWIGKEIT. So gewann Kay seine Freiheit, ohne es zu versuchen.",
+          "it": "I pezzi di ghiaccio cominciarono a muoversi da soli e formarono la parola ETERNITÀ. Così Kay guadagnò la sua libertà senza nemmeno provarci.",
+          "pt": "As peças de gelo começaram a mover-se sozinhas e formaram a palavra ETERNIDADE. Assim Kay ganhou a sua liberdade sem sequer se propor a isso.",
+          "ca": "Les peces de gel van començar a moure's soles i van formar la paraula ETERNITAT. Així Kay va guanyar la seva llibertat sense ni tan sols proposar-s'ho."
+        },
+        {
+          "es": "Los dos niños salieron juntos del palacio helado. El cielo del norte los despidió con una aurora boreal de mil colores.",
+          "en": "The two children left the icy palace together. The northern sky bid them farewell with a northern lights of a thousand colours.",
+          "fr": "Les deux enfants quittèrent ensemble le palais de glace. Le ciel du nord leur dit au revoir avec une aurore boréale de mille couleurs.",
+          "de": "Die beiden Kinder verließen gemeinsam den Eispalast. Der Nordhimmel verabschiedete sie mit einem Nordlicht in tausend Farben.",
+          "it": "I due bambini lasciarono insieme il palazzo ghiacciato. Il cielo del nord li salutò con un'aurora boreale di mille colori.",
+          "pt": "As duas crianças saíram juntas do palácio gelado. O céu do norte despediu-se deles com uma aurora boreal de mil cores.",
+          "ca": "Els dos nens van sortir junts del palau gelat. El cel del nord els va acomiadar amb una aurora boreal de mil colors."
+        },
+        {
+          "es": "El reno los estaba esperando con otro reno joven para llevarlos de vuelta al sur, lejos de los hielos eternos.",
+          "en": "The reindeer was waiting for them with another young reindeer to carry them back south, far from the eternal ice.",
+          "fr": "Le renne les attendait avec un autre jeune renne pour les ramener vers le sud, loin des glaces éternelles.",
+          "de": "Das Rentier wartete mit einem anderen jungen Rentier auf sie, um sie zurück nach Süden zu bringen, weit weg von den ewigen Eisfeldern.",
+          "it": "La renna li aspettava con un'altra renna giovane per riportarli a sud, lontano dai ghiacci eterni.",
+          "pt": "A rena estava à espera com outra rena jovem para os levar de volta ao sul, longe dos gelos eternos.",
+          "ca": "El ren els esperava amb un altre ren jove per portar-los de tornada al sud, lluny dels gels eterns."
+        },
+        {
+          "es": "Cuando llegaron a casa, el verano había vuelto. Las rosas florecían sobre los tejados y todo era como antes, pero mejor.",
+          "en": "When they got home, summer had returned. The roses bloomed on the rooftops and everything was as before, but better.",
+          "fr": "Quand ils rentrèrent chez eux, l'été était revenu. Les roses fleurissaient sur les toits et tout était comme avant, mais en mieux.",
+          "de": "Als sie nach Hause kamen, war der Sommer zurückgekehrt. Die Rosen blühten auf den Dächern und alles war wie zuvor, aber besser.",
+          "it": "Quando arrivarono a casa, l'estate era tornata. Le rose fiorivano sui tetti e tutto era come prima, ma meglio.",
+          "pt": "Quando chegaram a casa, o verão tinha voltado. As rosas floresciam nos telhados e tudo era como antes, mas melhor.",
+          "ca": "Quan van arribar a casa, l'estiu havia tornat. Les roses florien als terrats i tot era com abans, però millor."
+        },
+        {
+          "es": "Las abuelas de los dos niños se alegraron tanto que lloraron de felicidad. Kay y Gerda también lloraron, pero de alegría.",
+          "en": "The grandmothers of both children were so glad that they wept with happiness. Kay and Gerda wept too, but from joy.",
+          "fr": "Les grands-mères des deux enfants étaient si heureuses qu'elles pleurèrent de bonheur. Kay et Gerda pleurèrent aussi, mais de joie.",
+          "de": "Die Großmütter beider Kinder freuten sich so sehr, dass sie vor Glück weinten. Kay und Gerda weinten auch, aber vor Freude.",
+          "it": "Le nonne dei due bambini erano così felici da piangere per la gioia. Kay e Gerda piansero anche loro, ma di gioia.",
+          "pt": "As avós das duas crianças ficaram tão contentes que choraram de felicidade. Kay e Gerda também choraram, mas de alegria.",
+          "ca": "Les àvies dels dos nens es van alegrar tant que van plorar de felicitat. Kay i Gerda també van plorar, però d'alegria."
+        },
+        {
+          "es": "Y los dos amigos comprendieron que habían crecido durante ese largo invierno y que el amor verdadero no se congela nunca.",
+          "en": "And the two friends understood that they had grown up during that long winter and that true love never freezes.",
+          "fr": "Et les deux amis comprirent qu'ils avaient grandi pendant ce long hiver et que le vrai amour ne gèle jamais.",
+          "de": "Und die beiden Freunde verstanden, dass sie in diesem langen Winter gewachsen waren und dass wahre Liebe niemals gefriert.",
+          "it": "E i due amici capirono di essere cresciuti durante quel lungo inverno e che il vero amore non si congela mai.",
+          "pt": "E os dois amigos compreenderam que tinham crescido durante aquele longo inverno e que o amor verdadeiro nunca congela.",
+          "ca": "I els dos amics van comprendre que havien crescut durant aquell llarg hivern i que l'amor vertader no es congela mai."
+        }
+      ]
+    }
+  ]
+}
