@@ -1,0 +1,420 @@
+{
+  "id": 9,
+  "tit": "Teseo y el Minotauro",
+  "aut": "Mitología griega",
+  "cat": "Mitología",
+  "gratis": false,
+  "cov": "mito",
+  "emo": "🏛️",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "El tributo de sangre",
+      "frases": [
+        {
+          "es": "Atenas vivía bajo una maldición terrible: cada nueve años debía enviar siete jóvenes y siete doncellas a la isla de Creta como tributo al rey Minos.",
+          "en": "Athens lived under a terrible curse: every nine years it had to send seven young men and seven maidens to the island of Crete as tribute to King Minos.",
+          "fr": "Athènes vivait sous une terrible malédiction : tous les neuf ans, elle devait envoyer sept jeunes gens et sept jeunes filles sur l'île de Crète en tribut au roi Minos.",
+          "de": "Athen lebte unter einem schrecklichen Fluch: Alle neun Jahre musste es sieben junge Männer und sieben Mädchen als Tribut an König Minos auf die Insel Kreta schicken.",
+          "it": "Atene viveva sotto una terribile maledizione: ogni nove anni doveva inviare sette giovani e sette fanciulle sull'isola di Creta come tributo al re Minosse.",
+          "pt": "Atenas vivia sob uma terrível maldição: de nove em nove anos devia enviar sete jovens e sete donzelas para a ilha de Creta como tributo ao rei Minos.",
+          "ca": "Atenes vivia sota una terrible maledicció: cada nou anys havia d'enviar set joves i set donzelles a l'illa de Creta com a tribut al rei Minos."
+        },
+        {
+          "es": "Esos catorce jóvenes eran arrojados dentro del Laberinto, donde habitaba el Minotauro, un monstruo con cuerpo de hombre y cabeza de toro.",
+          "en": "Those fourteen young people were thrown into the Labyrinth, where the Minotaur lived, a monster with the body of a man and the head of a bull.",
+          "fr": "Ces quatorze jeunes gens étaient jetés dans le Labyrinthe, où habitait le Minotaure, un monstre avec un corps d'homme et une tête de taureau.",
+          "de": "Diese vierzehn jungen Menschen wurden in das Labyrinth geworfen, wo der Minotaurus lebte, ein Monster mit dem Körper eines Mannes und dem Kopf eines Stieres.",
+          "it": "Quei quattordici giovani venivano gettati nel Labirinto, dove abitava il Minotauro, un mostro con il corpo di un uomo e la testa di un toro.",
+          "pt": "Esses catorze jovens eram atirados para o Labirinto, onde habitava o Minotauro, um monstro com corpo de homem e cabeça de touro.",
+          "ca": "Aquells catorze joves eren llançats dins del Laberint, on habitava el Minotaure, un monstre amb cos d'home i cap de brau."
+        },
+        {
+          "es": "Nadie había salido jamás del Laberinto. Sus pasillos se retorcían sin fin, diseñados por el genio del arquitecto Dédalo para que nadie pudiera escapar.",
+          "en": "No one had ever come out of the Labyrinth alive. Its corridors twisted endlessly, designed by the genius architect Daedalus so that no one could escape.",
+          "fr": "Personne n'était jamais sorti vivant du Labyrinthe. Ses couloirs se tordaient à l'infini, conçus par le génie de l'architecte Dédale pour que personne ne puisse s'échapper.",
+          "de": "Niemand war jemals lebend aus dem Labyrinth herausgekommen. Seine Gänge wanden sich endlos, entworfen vom genialen Architekten Daidalos, damit niemand entkommen konnte.",
+          "it": "Nessuno era mai uscito vivo dal Labirinto. I suoi corridoi si torcevano senza fine, progettati dal genio dell'architetto Dedalo affinché nessuno potesse fuggire.",
+          "pt": "Ninguém tinha saído jamais do Labirinto. Os seus corredores torciam-se sem fim, desenhados pelo génio do arquiteto Dédalo para que ninguém pudesse escapar.",
+          "ca": "Ningú havia sortit mai del Laberint. Els seus passadissos es retorcien sense fi, dissenyats pel geni de l'arquitecte Dèdal perquè ningú pogués escapar."
+        },
+        {
+          "es": "El rey Egeo de Atenas lloraba cada vez que llegaba el año del tributo, pues veía partir a sus jóvenes hacia una muerte segura.",
+          "en": "King Aegeus of Athens wept each time the year of tribute came, for he saw his young people depart towards certain death.",
+          "fr": "Le roi Égée d'Athènes pleurait chaque fois que l'année du tribut arrivait, car il voyait ses jeunes gens partir vers une mort certaine.",
+          "de": "König Aigeus von Athen weinte jedes Mal, wenn das Jahr des Tributs kam, denn er sah seine jungen Menschen einem sicheren Tod entgegengehen.",
+          "it": "Il re Egeo di Atene piangeva ogni volta che arrivava l'anno del tributo, poiché vedeva i suoi giovani partire verso una morte sicura.",
+          "pt": "O rei Egeu de Atenas chorava cada vez que chegava o ano do tributo, pois via os seus jovens partir para uma morte certa.",
+          "ca": "El rei Egeu d'Atenes plorava cada vegada que arribava l'any del tribut, ja que veia els seus joves partir cap a una mort segura."
+        },
+        {
+          "es": "Teseo era el hijo del rey Egeo, un joven de extraordinaria fuerza y valentía que había crecido lejos de Atenas con su madre.",
+          "en": "Theseus was the son of King Aegeus, a young man of extraordinary strength and bravery who had grown up away from Athens with his mother.",
+          "fr": "Thésée était le fils du roi Égée, un jeune homme d'une force et d'un courage extraordinaires qui avait grandi loin d'Athènes avec sa mère.",
+          "de": "Theseus war der Sohn von König Aigeus, ein junger Mann von außergewöhnlicher Stärke und Tapferkeit, der weit entfernt von Athen bei seiner Mutter aufgewachsen war.",
+          "it": "Teseo era il figlio del re Egeo, un giovane di straordinaria forza e coraggio che era cresciuto lontano da Atene con sua madre.",
+          "pt": "Teseu era o filho do rei Egeu, um jovem de extraordinária força e bravura que tinha crescido longe de Atenas com a sua mãe.",
+          "ca": "Teseu era el fill del rei Egeu, un jove d'extraordinària força i valentia que havia crescut lluny d'Atenes amb la seva mare."
+        },
+        {
+          "es": "Cuando Teseo llegó a Atenas ya adulto, encontró a su padre destrozado por la llegada del tercer tributo.",
+          "en": "When Theseus arrived in Athens as an adult, he found his father broken by the arrival of the third tribute.",
+          "fr": "Quand Thésée arriva à Athènes déjà adulte, il trouva son père brisé par l'arrivée du troisième tribut.",
+          "de": "Als Theseus bereits als Erwachsener nach Athen kam, fand er seinen Vater durch die Ankunft des dritten Tributs gebrochen.",
+          "it": "Quando Teseo arrivò ad Atene già adulto, trovò suo padre distrutto dall'arrivo del terzo tributo.",
+          "pt": "Quando Teseu chegou a Atenas já adulto, encontrou o seu pai destroçado pela chegada do terceiro tributo.",
+          "ca": "Quan Teseu va arribar a Atenes ja adult, va trobar el seu pare destrossat per l'arribada del tercer tribut."
+        },
+        {
+          "es": "Teseo anunció que él mismo partiría hacia Creta como parte del tributo para matar al Minotauro y liberar a Atenas para siempre.",
+          "en": "Theseus announced that he himself would sail to Crete as part of the tribute to kill the Minotaur and free Athens for ever.",
+          "fr": "Thésée annonça qu'il partirait lui-même pour la Crète dans le cadre du tribut pour tuer le Minotaure et libérer Athènes pour toujours.",
+          "de": "Theseus kündigte an, dass er selbst als Teil des Tributs nach Kreta segeln würde, um den Minotaurus zu töten und Athen für immer zu befreien.",
+          "it": "Teseo annunciò che sarebbe partito lui stesso per Creta come parte del tributo per uccidere il Minotauro e liberare Atene per sempre.",
+          "pt": "Teseu anunciou que ele próprio partiria para Creta como parte do tributo para matar o Minotauro e libertar Atenas para sempre.",
+          "ca": "Teseu va anunciar que ell mateix partiria cap a Creta com a part del tribut per matar el Minotaure i alliberar Atenes per sempre."
+        }
+      ]
+    },
+    {
+      "tit": "Ariadna y el hilo",
+      "frases": [
+        {
+          "es": "El barco llegó a Creta y el rey Minos recibió a los jóvenes atenienses con frialdad y desprecio.",
+          "en": "The ship arrived at Crete and King Minos received the Athenian youths coldly and with contempt.",
+          "fr": "Le navire arriva en Crète et le roi Minos reçut les jeunes Athéniens avec froideur et mépris.",
+          "de": "Das Schiff kam auf Kreta an und König Minos empfing die athenischen Jugendlichen kalt und verächtlich.",
+          "it": "La nave arrivò a Creta e il re Minosse accolse i giovani ateniesi con freddezza e disprezzo.",
+          "pt": "O barco chegou a Creta e o rei Minos recebeu os jovens atenienses com frieza e desprezo.",
+          "ca": "El vaixell va arribar a Creta i el rei Minos va rebre els joves atenesos amb fredor i menyspreu."
+        },
+        {
+          "es": "Pero Ariadna, hija del rey Minos, vio a Teseo y se enamoró de él al instante por su valentía y su belleza.",
+          "en": "But Ariadne, daughter of King Minos, saw Theseus and fell in love with him at once because of his bravery and beauty.",
+          "fr": "Mais Ariane, fille du roi Minos, vit Thésée et tomba amoureuse de lui sur-le-champ pour son courage et sa beauté.",
+          "de": "Aber Ariadne, Tochter von König Minos, sah Theseus und verliebte sich sofort in ihn wegen seiner Tapferkeit und Schönheit.",
+          "it": "Ma Arianna, figlia del re Minosse, vide Teseo e si innamorò di lui all'istante per il suo coraggio e la sua bellezza.",
+          "pt": "Mas Ariadne, filha do rei Minos, viu Teseu e apaixonou-se por ele de imediato pela sua bravura e beleza.",
+          "ca": "Però Ariadna, filla del rei Minos, va veure Teseu i es va enamorar d'ell a l'instant per la seva valentia i bellesa."
+        },
+        {
+          "es": "Ariadna fue en secreto hasta la celda de Teseo y le entregó una espada y un ovillo de hilo dorado.",
+          "en": "Ariadne went secretly to Theseus's cell and gave him a sword and a ball of golden thread.",
+          "fr": "Ariane se rendit secrètement dans la cellule de Thésée et lui remit une épée et une pelote de fil doré.",
+          "de": "Ariadne ging heimlich zu Theseus' Zelle und gab ihm ein Schwert und einen Knäuel goldenen Fadens.",
+          "it": "Arianna andò segretamente nella cella di Teseo e gli consegnò una spada e un gomitolo di filo dorato.",
+          "pt": "Ariadne foi secretamente até à cela de Teseu e entregou-lhe uma espada e um novelo de fio dourado.",
+          "ca": "Ariadna va anar en secret fins a la cel·la de Teseu i li va lliurar una espasa i un cabdell de fil daurat."
+        },
+        {
+          "es": "Le explicó que atara el hilo a la entrada del laberinto y lo fuera desenrollando mientras avanzaba, para poder encontrar el camino de regreso.",
+          "en": "She explained that he should tie the thread to the entrance of the labyrinth and unroll it as he went, so he could find his way back.",
+          "fr": "Elle lui expliqua d'attacher le fil à l'entrée du labyrinthe et de le dérouler en avançant, pour pouvoir retrouver le chemin du retour.",
+          "de": "Sie erklärte ihm, dass er den Faden am Eingang des Labyrinths befestigen und ihn beim Vorwärtsgehen abrollen sollte, um den Rückweg zu finden.",
+          "it": "Gli spiegò di legare il filo all'ingresso del labirinto e svolgerlo man mano che avanzava, per poter trovare la via del ritorno.",
+          "pt": "Explicou-lhe que devia atar o fio à entrada do labirinto e desenrolá-lo enquanto avançava, para poder encontrar o caminho de regresso.",
+          "ca": "Li va explicar que lligués el fil a l'entrada del laberint i el fos desenrotllant mentre avançava, per poder trobar el camí de tornada."
+        },
+        {
+          "es": "Teseo prometió a Ariadna que si salía vivo la llevaría con él a Atenas y se casaría con ella.",
+          "en": "Theseus promised Ariadne that if he came out alive he would take her with him to Athens and marry her.",
+          "fr": "Thésée promit à Ariane que s'il sortait vivant, il l'emmènerait avec lui à Athènes et l'épouserait.",
+          "de": "Theseus versprach Ariadne, dass er sie, wenn er lebend herauskäme, nach Athen mitnehmen und heiraten würde.",
+          "it": "Teseo promise ad Arianna che se fosse uscito vivo l'avrebbe portata con sé ad Atene e l'avrebbe sposata.",
+          "pt": "Teseu prometeu a Ariadne que se saísse vivo a levaria consigo para Atenas e se casaria com ela.",
+          "ca": "Teseu va prometre a Ariadna que si sortia viu la portaria amb ell a Atenes i es casaria amb ella."
+        },
+        {
+          "es": "Al amanecer, Teseo fue introducido en el laberinto junto con los demás jóvenes. Ató el hilo a la puerta de entrada.",
+          "en": "At dawn, Theseus was led into the labyrinth along with the other young people. He tied the thread to the entrance door.",
+          "fr": "À l'aube, Thésée fut introduit dans le labyrinthe avec les autres jeunes gens. Il attacha le fil à la porte d'entrée.",
+          "de": "Bei Tagesanbruch wurde Theseus zusammen mit den anderen jungen Menschen in das Labyrinth geführt. Er band den Faden an die Eingangstür.",
+          "it": "All'alba, Teseo fu introdotto nel labirinto insieme agli altri giovani. Legò il filo alla porta d'ingresso.",
+          "pt": "Ao amanhecer, Teseu foi introduzido no labirinto junto com os outros jovens. Atou o fio à porta de entrada.",
+          "ca": "A l'alba, Teseu va ser introduït al laberint juntament amb els altres joves. Va lligar el fil a la porta d'entrada."
+        },
+        {
+          "es": "Los pasillos del laberinto eran oscuros, húmedos y se bifurcaban en todas direcciones. Pero Teseo avanzó sin miedo, siguiendo el hilo.",
+          "en": "The corridors of the labyrinth were dark, damp and forked in every direction. But Theseus pressed on without fear, following the thread.",
+          "fr": "Les couloirs du labyrinthe étaient sombres, humides et se bifurquaient dans toutes les directions. Mais Thésée avança sans peur, suivant le fil.",
+          "de": "Die Gänge des Labyrinths waren dunkel, feucht und verzweigten sich in alle Richtungen. Aber Theseus ging furchtlos voran und folgte dem Faden.",
+          "it": "I corridoi del labirinto erano bui, umidi e si biforcavano in ogni direzione. Ma Teseo avanzò senza paura, seguendo il filo.",
+          "pt": "Os corredores do labirinto eram escuros, húmidos e bifurcavam-se em todas as direções. Mas Teseu avançou sem medo, seguindo o fio.",
+          "ca": "Els passadissos del laberint eren foscos, humits i es bifurcaven en totes direccions. Però Teseu va avançar sense por, seguint el fil."
+        }
+      ]
+    },
+    {
+      "tit": "El combate en el laberinto",
+      "frases": [
+        {
+          "es": "En lo más profundo del laberinto, Teseo escuchó un bramido terrible que hacía temblar las paredes de piedra.",
+          "en": "Deep in the labyrinth, Theseus heard a terrible roar that made the stone walls tremble.",
+          "fr": "Au plus profond du labyrinthe, Thésée entendit un rugissement terrible qui faisait trembler les murs de pierre.",
+          "de": "Tief im Labyrinth hörte Theseus ein schreckliches Brüllen, das die Steinwände erzittern ließ.",
+          "it": "Nel profondo del labirinto, Teseo udì un terribile muggito che faceva tremare le pareti di pietra.",
+          "pt": "No mais fundo do labirinto, Teseu ouviu um bramido terrível que fazia tremer as paredes de pedra.",
+          "ca": "Al més profund del laberint, Teseu va escoltar un bramul terrible que feia tremolar les parets de pedra."
+        },
+        {
+          "es": "El Minotauro era enorme: sus cuernos casi rozaban el techo del laberinto y su piel era tan dura como la roca.",
+          "en": "The Minotaur was enormous: its horns almost brushed the ceiling of the labyrinth and its hide was as hard as rock.",
+          "fr": "Le Minotaure était énorme : ses cornes frôlaient presque le plafond du labyrinthe et sa peau était aussi dure que la roche.",
+          "de": "Der Minotaurus war riesig: Seine Hörner streiften fast die Decke des Labyrinths und seine Haut war hart wie Stein.",
+          "it": "Il Minotauro era enorme: le sue corna sfioravano quasi il soffitto del labirinto e la sua pelle era dura come la roccia.",
+          "pt": "O Minotauro era enorme: os seus chifres quase roçavam o teto do labirinto e a sua pele era tão dura como a rocha.",
+          "ca": "El Minotaure era enorme: les seves banyes gairebé fregaven el sostre del laberint i la seva pell era tan dura com la roca."
+        },
+        {
+          "es": "La bestia cargó contra Teseo con una velocidad aterradora. Teseo esquivó el ataque y blandió la espada de Ariadna.",
+          "en": "The beast charged at Theseus with terrifying speed. Theseus dodged the attack and wielded Ariadne's sword.",
+          "fr": "La bête chargea sur Thésée avec une vitesse terrifiante. Thésée esquiva l'attaque et brandit l'épée d'Ariane.",
+          "de": "Die Bestie stürmte mit erschreckender Geschwindigkeit auf Theseus zu. Theseus wich dem Angriff aus und schwang Ariadnes Schwert.",
+          "it": "La bestia si lanciò contro Teseo con una velocità terrificante. Teseo schivò l'attacco e brandì la spada di Arianna.",
+          "pt": "A besta carregou contra Teseu com uma velocidade aterrorizante. Teseu esquivou o ataque e brandiu a espada de Ariadne.",
+          "ca": "La bèstia va carregar contra Teseu amb una velocitat aterradora. Teseu va esquivar l'atac i va brandir l'espasa d'Ariadna."
+        },
+        {
+          "es": "El combate duró largo tiempo. El Minotauro golpeaba las paredes con sus cuernos y hacía caer polvo del techo.",
+          "en": "The fight lasted a long time. The Minotaur struck the walls with its horns and brought dust down from the ceiling.",
+          "fr": "Le combat dura longtemps. Le Minotaure frappait les murs avec ses cornes et faisait tomber de la poussière du plafond.",
+          "de": "Der Kampf dauerte lange. Der Minotaurus schlug mit seinen Hörnern gegen die Wände und ließ Staub von der Decke fallen.",
+          "it": "Il combattimento durò a lungo. Il Minotauro colpiva le pareti con le sue corna e faceva cadere polvere dal soffitto.",
+          "pt": "O combate durou muito tempo. O Minotauro golpeava as paredes com os seus chifres e fazia cair pó do teto.",
+          "ca": "El combat va durar molt de temps. El Minotaure colpejava les parets amb les seves banyes i feia caure pols del sostre."
+        },
+        {
+          "es": "Pero Teseo era ágil y astuto. Esperó el momento en que el Minotauro estaba desequilibrado y lo atacó directamente en el cuello.",
+          "en": "But Theseus was agile and cunning. He waited for the moment when the Minotaur was off balance and struck it directly in the neck.",
+          "fr": "Mais Thésée était agile et rusé. Il attendit le moment où le Minotaure était déséquilibré et le frappa directement au cou.",
+          "de": "Aber Theseus war flink und schlau. Er wartete den Moment ab, in dem der Minotaurus im Gleichgewicht gestört war, und traf ihn direkt am Hals.",
+          "it": "Ma Teseo era agile e astuto. Aspettò il momento in cui il Minotauro era sbilanciato e lo attaccò direttamente al collo.",
+          "pt": "Mas Teseu era ágil e astuto. Esperou o momento em que o Minotauro estava desequilibrado e atacou-o diretamente no pescoço.",
+          "ca": "Però Teseu era àgil i astut. Va esperar el moment en què el Minotaure estava desequilibrat i el va atacar directament al coll."
+        },
+        {
+          "es": "El Minotauro cayó con un estruendo que retumbó por todo el laberinto. Teseo quedó inmóvil un instante, sin poder creer que había vencido.",
+          "en": "The Minotaur fell with a crash that echoed through the whole labyrinth. Theseus stood motionless for a moment, unable to believe he had won.",
+          "fr": "Le Minotaure tomba avec un fracas qui résonna dans tout le labyrinthe. Thésée resta immobile un instant, incapable de croire qu'il avait vaincu.",
+          "de": "Der Minotaurus fiel mit einem Krachen, das durch das ganze Labyrinth hallte. Theseus blieb einen Augenblick lang reglos stehen, unfähig zu glauben, dass er gewonnen hatte.",
+          "it": "Il Minotauro cadde con un fragore che risuonò per tutto il labirinto. Teseo rimase immobile per un istante, incapace di credere di aver vinto.",
+          "pt": "O Minotauro caiu com um estrondo que retumbou por todo o labirinto. Teseu ficou imóvel por um instante, sem poder acreditar que tinha vencido.",
+          "ca": "El Minotaure va caure amb un estrèpit que va ressonar per tot el laberint. Teseu va quedar immòbil un instant, sense poder creure que havia vençut."
+        },
+        {
+          "es": "Luego tomó el hilo de Ariadna y comenzó a tirar de él hacia atrás, guiándose por él hasta la salida del laberinto.",
+          "en": "Then he took Ariadne's thread and began to pull on it backwards, following it all the way to the exit of the labyrinth.",
+          "fr": "Puis il prit le fil d'Ariane et commença à le tirer en arrière, en le suivant jusqu'à la sortie du labyrinthe.",
+          "de": "Dann nahm er Ariadnes Faden und begann, ihn rückwärts aufzuwickeln, sich daran entlang bis zum Ausgang des Labyrinths führend.",
+          "it": "Poi prese il filo di Arianna e cominciò a tirarlo indietro, guidandosi lungo di esso fino all'uscita del labirinto.",
+          "pt": "Depois tomou o fio de Ariadne e começou a puxá-lo para trás, guiando-se por ele até à saída do labirinto.",
+          "ca": "Llavors va agafar el fil d'Ariadna i va començar a estirar-lo cap enrere, guiant-se per ell fins a la sortida del laberint."
+        }
+      ]
+    },
+    {
+      "tit": "La huida de Creta",
+      "frases": [
+        {
+          "es": "Teseo salió del laberinto al aire libre y reunió a todos los jóvenes atenienses que seguían con vida.",
+          "en": "Theseus came out of the labyrinth into the open air and gathered together all the Athenian young people still alive.",
+          "fr": "Thésée sortit du labyrinthe à l'air libre et rassembla tous les jeunes Athéniens encore en vie.",
+          "de": "Theseus trat ins Freie aus dem Labyrinth und versammelte alle noch lebenden athenischen Jugendlichen.",
+          "it": "Teseo uscì dal labirinto all'aria aperta e radunò tutti i giovani ateniesi ancora in vita.",
+          "pt": "Teseu saiu do labirinto para o ar livre e reuniu todos os jovens atenienses que ainda estavam vivos.",
+          "ca": "Teseu va sortir del laberint a l'aire lliure i va reunir tots els joves atenesos que seguien vius."
+        },
+        {
+          "es": "Ariadna los esperaba en el puerto con provisiones y el barco ateniense preparado para zarpar.",
+          "en": "Ariadne was waiting for them at the harbour with provisions and the Athenian ship ready to sail.",
+          "fr": "Ariane les attendait au port avec des provisions et le navire athénien prêt à appareiller.",
+          "de": "Ariadne wartete im Hafen mit Vorräten und dem athenischen Schiff, das zum Ablegen bereit war.",
+          "it": "Arianna li aspettava al porto con provviste e la nave ateniese pronta a salpare.",
+          "pt": "Ariadne esperava-os no porto com provisões e o barco ateniense preparado para zarpar.",
+          "ca": "Ariadna els esperava al port amb provisions i el vaixell atenès preparat per zarpar."
+        },
+        {
+          "es": "Antes de partir, Teseo hizo algo para asegurarse de que los cretenses no pudieran seguirlos: hizo agujeros en el fondo de todos los barcos del puerto.",
+          "en": "Before leaving, Theseus did something to ensure the Cretans could not follow them: he made holes in the bottom of all the ships in the harbour.",
+          "fr": "Avant de partir, Thésée fit quelque chose pour s'assurer que les Crétois ne pourraient pas les suivre : il fit des trous dans le fond de tous les bateaux du port.",
+          "de": "Vor der Abreise tat Theseus etwas, um sicherzustellen, dass die Kreter ihnen nicht folgen konnten: Er machte Löcher in den Boden aller Schiffe im Hafen.",
+          "it": "Prima di partire, Teseo fece qualcosa per assicurarsi che i cretesi non potessero seguirli: fece dei buchi nel fondo di tutte le navi del porto.",
+          "pt": "Antes de partir, Teseu fez algo para se certificar de que os cretenses não os podiam seguir: fez buracos no fundo de todos os barcos do porto.",
+          "ca": "Abans de partir, Teseu va fer alguna cosa per assegurar-se que els cretesos no podien seguir-los: va fer forats al fons de tots els vaixells del port."
+        },
+        {
+          "es": "Zarparon de noche, aprovechando la oscuridad. El mar estaba en calma y las estrellas iluminaban el camino hacia Atenas.",
+          "en": "They set sail at night, taking advantage of the darkness. The sea was calm and the stars lit the way towards Athens.",
+          "fr": "Ils appareillèrent de nuit, profitant de l'obscurité. La mer était calme et les étoiles éclairaient le chemin vers Athènes.",
+          "de": "Sie segelten nachts ab und nutzten die Dunkelheit. Das Meer war ruhig und die Sterne beleuchteten den Weg nach Athen.",
+          "it": "Salparono di notte, approfittando dell'oscurità. Il mare era calmo e le stelle illuminavano il cammino verso Atene.",
+          "pt": "Zarparam de noite, aproveitando a escuridão. O mar estava calmo e as estrelas iluminavam o caminho para Atenas.",
+          "ca": "Van zarpar de nit, aprofitant la foscor. El mar estava en calma i les estrelles il·luminaven el camí cap a Atenes."
+        },
+        {
+          "es": "En la isla de Naxos, el barco hizo una parada para descansar. Allí ocurrió algo que nadie esperaba.",
+          "en": "On the island of Naxos, the ship stopped to rest. There something happened that no one had expected.",
+          "fr": "Sur l'île de Naxos, le navire fit une halte pour se reposer. Là, il se passa quelque chose que personne n'attendait.",
+          "de": "Auf der Insel Naxos hielt das Schiff an, um sich auszuruhen. Dort geschah etwas, das niemand erwartet hatte.",
+          "it": "Sull'isola di Nasso, la nave fece una sosta per riposare. Lì accadde qualcosa che nessuno si aspettava.",
+          "pt": "Na ilha de Naxos, o barco fez uma paragem para descansar. Aí aconteceu algo que ninguém esperava.",
+          "ca": "A l'illa de Naxos, el vaixell va fer una parada per descansar. Allà va passar alguna cosa que ningú esperava."
+        },
+        {
+          "es": "El dios Dioniso, que gobernaba Naxos, se enamoró de Ariadna y le pidió que se quedara con él en la isla.",
+          "en": "The god Dionysus, who ruled Naxos, fell in love with Ariadne and asked her to stay with him on the island.",
+          "fr": "Le dieu Dionysos, qui gouvernait Naxos, tomba amoureux d'Ariane et lui demanda de rester avec lui sur l'île.",
+          "de": "Der Gott Dionysos, der Naxos regierte, verliebte sich in Ariadne und bat sie, bei ihm auf der Insel zu bleiben.",
+          "it": "Il dio Dioniso, che governava Nasso, si innamorò di Arianna e le chiese di restare con lui sull'isola.",
+          "pt": "O deus Dionísio, que governava Naxos, apaixonou-se por Ariadne e pediu-lhe que ficasse com ele na ilha.",
+          "ca": "El déu Dionís, que governava Naxos, es va enamorar d'Ariadna i li va demanar que es quedés amb ell a l'illa."
+        },
+        {
+          "es": "Teseo, guiado por los dioses del Olimpo que lo instaban a cumplir su destino, partió solo hacia Atenas mientras Ariadna dormía.",
+          "en": "Theseus, guided by the gods of Olympus who urged him to fulfil his destiny, set sail alone for Athens while Ariadne slept.",
+          "fr": "Thésée, guidé par les dieux de l'Olympe qui l'incitaient à accomplir son destin, prit la mer seul vers Athènes pendant qu'Ariane dormait.",
+          "de": "Theseus, geleitet von den Göttern des Olymps, die ihn drängten, sein Schicksal zu erfüllen, segelte allein nach Athen, während Ariadne schlief.",
+          "it": "Teseo, guidato dagli dei dell'Olimpo che lo esortavano a compiere il suo destino, salpò da solo verso Atene mentre Arianna dormiva.",
+          "pt": "Teseu, guiado pelos deuses do Olimpo que o instavam a cumprir o seu destino, partiu sozinho para Atenas enquanto Ariadne dormia.",
+          "ca": "Teseu, guiat pels déus de l'Olimp que l'empenyien a complir el seu destí, va partir sol cap a Atenes mentre Ariadna dormia."
+        }
+      ]
+    },
+    {
+      "tit": "La vela negra",
+      "frases": [
+        {
+          "es": "Al partir, Teseo había prometido a su padre el rey Egeo que si volvía victorioso pondría velas blancas en el barco, en lugar de las negras habituales.",
+          "en": "On leaving, Theseus had promised his father King Aegeus that if he returned victorious he would put white sails on the ship, instead of the usual black ones.",
+          "fr": "Au départ, Thésée avait promis à son père le roi Égée que s'il revenait victorieux, il mettrait des voiles blanches sur le navire, au lieu des noires habituelles.",
+          "de": "Bei der Abfahrt hatte Theseus seinem Vater König Aigeus versprochen, dass er, wenn er siegreich zurückkehrte, weiße Segel auf das Schiff setzen würde, statt der üblichen schwarzen.",
+          "it": "Prima di partire, Teseo aveva promesso a suo padre il re Egeo che se fosse tornato vittorioso avrebbe messo vele bianche sulla nave, al posto di quelle nere abituali.",
+          "pt": "Ao partir, Teseu tinha prometido ao seu pai o rei Egeu que se voltasse vitorioso colocaria velas brancas no barco, em vez das negras habituais.",
+          "ca": "En partir, Teseu havia promès al seu pare el rei Egeu que si tornava victoriós posaria veles blanques al vaixell, en lloc de les negres habituals."
+        },
+        {
+          "es": "Pero Teseo, abrumado por el dolor de haber abandonado a Ariadna, olvidó cambiar las velas negras por las blancas.",
+          "en": "But Theseus, overwhelmed by the pain of having abandoned Ariadne, forgot to change the black sails for white ones.",
+          "fr": "Mais Thésée, accablé par la douleur d'avoir abandonné Ariane, oublia de changer les voiles noires pour des blanches.",
+          "de": "Aber Theseus, überwältigt vom Schmerz, Ariadne verlassen zu haben, vergaß die schwarzen Segel gegen weiße auszutauschen.",
+          "it": "Ma Teseo, sopraffatto dal dolore per aver abbandonato Arianna, dimenticò di cambiare le vele nere con quelle bianche.",
+          "pt": "Mas Teseu, esmagado pela dor de ter abandonado Ariadne, esqueceu-se de mudar as velas negras pelas brancas.",
+          "ca": "Però Teseu, aclaparat pel dolor d'haver abandonat Ariadna, va oblidar canviar les veles negres per les blanques."
+        },
+        {
+          "es": "El rey Egeo estaba en lo alto de un peñasco mirando el mar cada día esperando a su hijo.",
+          "en": "King Aegeus was up on a crag looking out to sea every day waiting for his son.",
+          "fr": "Le roi Égée se trouvait en haut d'un rocher à regarder la mer chaque jour en attendant son fils.",
+          "de": "König Aigeus stand täglich auf einem Felsen und schaute aufs Meer und wartete auf seinen Sohn.",
+          "it": "Il re Egeo stava in cima a una rupe guardando il mare ogni giorno aspettando suo figlio.",
+          "pt": "O rei Egeu estava no alto de um penhasca a olhar para o mar todos os dias à espera do seu filho.",
+          "ca": "El rei Egeu estava dalt d'un penya-segat mirant el mar cada dia esperant el seu fill."
+        },
+        {
+          "es": "Cuando el rey vio venir el barco con las velas negras, creyó que su hijo había muerto en el laberinto.",
+          "en": "When the king saw the ship coming with black sails, he believed his son had died in the labyrinth.",
+          "fr": "Quand le roi vit arriver le navire avec les voiles noires, il crut que son fils était mort dans le labyrinthe.",
+          "de": "Als der König das Schiff mit den schwarzen Segeln kommen sah, glaubte er, sein Sohn sei im Labyrinth gestorben.",
+          "it": "Quando il re vide arrivare la nave con le vele nere, credette che suo figlio fosse morto nel labirinto.",
+          "pt": "Quando o rei viu o barco chegar com as velas negras, acreditou que o seu filho tinha morrido no labirinto.",
+          "ca": "Quan el rei va veure venir el vaixell amb les veles negres, va creure que el seu fill havia mort al laberint."
+        },
+        {
+          "es": "Loco de desesperación, el rey Egeo se lanzó al mar desde el peñasco y murió en las aguas que desde entonces llevan su nombre: el mar Egeo.",
+          "en": "Mad with despair, King Aegeus threw himself into the sea from the crag and died in the waters that have borne his name ever since: the Aegean Sea.",
+          "fr": "Fou de désespoir, le roi Égée se jeta à la mer depuis le rocher et mourut dans les eaux qui portent son nom depuis lors : la mer Égée.",
+          "de": "Wahnsinnig vor Verzweiflung warf sich König Aigeus vom Felsen ins Meer und starb in den Gewässern, die seitdem seinen Namen tragen: das Ägäische Meer.",
+          "it": "Pazzo di disperazione, il re Egeo si gettò in mare dalla rupe e morì nelle acque che da allora portano il suo nome: il Mar Egeo.",
+          "pt": "Louco de desespero, o rei Egeu atirou-se ao mar do penhasca e morreu nas águas que desde então levam o seu nome: o mar Egeu.",
+          "ca": "Boig de desesperació, el rei Egeu es va llançar al mar des del penya-segat i va morir a les aigües que des de llavors porten el seu nom: el mar Egeu."
+        },
+        {
+          "es": "Cuando el barco llegó al puerto y Teseo bajó victorioso, le comunicaron la muerte de su padre. El héroe cayó de rodillas de dolor.",
+          "en": "When the ship reached harbour and Theseus stepped off victorious, he was told of his father's death. The hero fell to his knees in grief.",
+          "fr": "Quand le navire arriva au port et que Thésée descendit victorieux, on lui annonça la mort de son père. Le héros tomba à genoux de douleur.",
+          "de": "Als das Schiff im Hafen ankam und Theseus siegreich von Bord ging, wurde ihm der Tod seines Vaters mitgeteilt. Der Held sank vor Schmerz auf die Knie.",
+          "it": "Quando la nave arrivò al porto e Teseo scese vittorioso, gli comunicarono la morte di suo padre. L'eroe cadde in ginocchio per il dolore.",
+          "pt": "Quando o barco chegou ao porto e Teseu desceu vitorioso, comunicaram-lhe a morte do seu pai. O herói caiu de joelhos de dor.",
+          "ca": "Quan el vaixell va arribar al port i Teseu va baixar victoriós, li van comunicar la mort del seu pare. L'heroi va caure de genolls de dolor."
+        },
+        {
+          "es": "La victoria más grande de su vida llegaba acompañada del mayor dolor, recordándole que incluso los héroes cometen errores que tienen consecuencias.",
+          "en": "The greatest victory of his life came accompanied by the greatest pain, reminding him that even heroes make mistakes that have consequences.",
+          "fr": "La plus grande victoire de sa vie arrivait accompagnée de la plus grande douleur, lui rappelant que même les héros commettent des erreurs qui ont des conséquences.",
+          "de": "Der größte Sieg seines Lebens kam begleitet vom größten Schmerz und erinnerte ihn daran, dass selbst Helden Fehler machen, die Konsequenzen haben.",
+          "it": "La vittoria più grande della sua vita arrivava accompagnata dal più grande dolore, ricordandogli che anche gli eroi commettono errori che hanno conseguenze.",
+          "pt": "A maior vitória da sua vida chegava acompanhada da maior dor, lembrando-lhe que mesmo os heróis cometem erros que têm consequências.",
+          "ca": "La victòria més gran de la seva vida arribava acompanyada del major dolor, recordant-li que fins i tot els herois cometen errors que tenen conseqüències."
+        }
+      ]
+    },
+    {
+      "tit": "El reino de Teseo",
+      "frases": [
+        {
+          "es": "Pese al dolor, Teseo asumió el trono de Atenas y se convirtió en uno de los reyes más sabios y justos de la historia griega.",
+          "en": "Despite the pain, Theseus took the throne of Athens and became one of the wisest and most just kings in Greek history.",
+          "fr": "Malgré la douleur, Thésée prit le trône d'Athènes et devint l'un des rois les plus sages et les plus justes de l'histoire grecque.",
+          "de": "Trotz des Schmerzes übernahm Theseus den Thron von Athen und wurde einer der weisesten und gerechtesten Könige der griechischen Geschichte.",
+          "it": "Nonostante il dolore, Teseo assunse il trono di Atene e divenne uno dei re più saggi e giusti della storia greca.",
+          "pt": "Apesar da dor, Teseu assumiu o trono de Atenas e tornou-se um dos reis mais sábios e justos da história grega.",
+          "ca": "Malgrat el dolor, Teseu va assumir el tron d'Atenes i es va convertir en un dels reis més savis i justos de la història grega."
+        },
+        {
+          "es": "Unificó los pueblos de Ática bajo un solo gobierno, con leyes iguales para todos, ricos y pobres.",
+          "en": "He united the peoples of Attica under a single government, with equal laws for all, rich and poor alike.",
+          "fr": "Il unit les peuples de l'Attique sous un seul gouvernement, avec des lois égales pour tous, riches et pauvres.",
+          "de": "Er vereinte die Völker Attikas unter einer einzigen Regierung mit gleichen Gesetzen für alle, Reiche und Arme gleichermaßen.",
+          "it": "Unificò i popoli dell'Attica sotto un unico governo, con leggi uguali per tutti, ricchi e poveri.",
+          "pt": "Unificou os povos da Ática sob um único governo, com leis iguais para todos, ricos e pobres.",
+          "ca": "Va unificar els pobles de l'Àtica sota un sol govern, amb lleis iguals per a tothom, rics i pobres."
+        },
+        {
+          "es": "La historia del hilo de Ariadna se convirtió en símbolo de cómo la inteligencia y el amor pueden ser más poderosos que la fuerza bruta.",
+          "en": "The story of Ariadne's thread became a symbol of how intelligence and love can be more powerful than brute force.",
+          "fr": "L'histoire du fil d'Ariane devint le symbole de la façon dont l'intelligence et l'amour peuvent être plus puissants que la force brute.",
+          "de": "Die Geschichte von Ariadnes Faden wurde zum Symbol dafür, wie Intelligenz und Liebe mächtiger sein können als rohe Gewalt.",
+          "it": "La storia del filo di Arianna divenne simbolo di come l'intelligenza e l'amore possano essere più potenti della forza bruta.",
+          "pt": "A história do fio de Ariadne tornou-se símbolo de como a inteligência e o amor podem ser mais poderosos do que a força bruta.",
+          "ca": "La història del fil d'Ariadna es va convertir en símbol de com la intel·ligència i l'amor poden ser més poderosos que la força bruta."
+        },
+        {
+          "es": "El Laberinto del Minotauro pasó a ser leyenda. Nadie volvió a entrar en él después de la muerte del monstruo.",
+          "en": "The Minotaur's Labyrinth became legend. No one entered it again after the monster's death.",
+          "fr": "Le Labyrinthe du Minotaure devint légende. Personne n'y entra plus après la mort du monstre.",
+          "de": "Das Labyrinth des Minotaurus wurde zur Legende. Nach dem Tod des Monsters betrat es niemand mehr.",
+          "it": "Il Labirinto del Minotauro divenne leggenda. Nessuno vi entrò più dopo la morte del mostro.",
+          "pt": "O Labirinto do Minotauro tornou-se lenda. Ninguém voltou a entrar nele depois da morte do monstro.",
+          "ca": "El Laberint del Minotaure es va convertir en llegenda. Ningú va tornar a entrar-hi després de la mort del monstre."
+        },
+        {
+          "es": "Ariadna, en la isla de Naxos, vivió feliz con el dios Dioniso, que la amó y la convirtió en inmortal.",
+          "en": "Ariadne, on the island of Naxos, lived happily with the god Dionysus, who loved her and made her immortal.",
+          "fr": "Ariane, sur l'île de Naxos, vécut heureuse avec le dieu Dionysos, qui l'aima et la rendit immortelle.",
+          "de": "Ariadne lebte auf der Insel Naxos glücklich mit dem Gott Dionysos, der sie liebte und sie unsterblich machte.",
+          "it": "Arianna, sull'isola di Nasso, visse felice con il dio Dioniso, che la amò e la rese immortale.",
+          "pt": "Ariadne, na ilha de Naxos, viveu feliz com o deus Dionísio, que a amou e a tornou imortal.",
+          "ca": "Ariadna, a l'illa de Naxos, va viure feliç amb el déu Dionís, que la va estimar i la va convertir en immortal."
+        },
+        {
+          "es": "Y cada vez que alguien en el mundo se pierde en sus propios laberintos de dudas y miedos, la historia de Teseo le recuerda que siempre hay un hilo al que aferrarse.",
+          "en": "And every time someone in the world gets lost in their own labyrinths of doubts and fears, the story of Theseus reminds them that there is always a thread to hold on to.",
+          "fr": "Et chaque fois que quelqu'un dans le monde se perd dans ses propres labyrinthes de doutes et de peurs, l'histoire de Thésée lui rappelle qu'il y a toujours un fil auquel s'accrocher.",
+          "de": "Und jedes Mal, wenn sich jemand in der Welt in seinen eigenen Labyrinthen aus Zweifeln und Ängsten verirrt, erinnert ihn die Geschichte des Theseus daran, dass es immer einen Faden gibt, an dem man sich festhalten kann.",
+          "it": "E ogni volta che qualcuno nel mondo si perde nei propri labirinti di dubbi e paure, la storia di Teseo gli ricorda che c'è sempre un filo a cui aggrapparsi.",
+          "pt": "E cada vez que alguém no mundo se perde nos seus próprios labirintos de dúvidas e medos, a história de Teseu lembra-lhe que há sempre um fio a que se agarrar.",
+          "ca": "I cada vegada que algú al món es perd en els seus propis laberints de dubtes i pors, la història de Teseu li recorda que sempre hi ha un fil al qual aferrar-se."
+        },
+        {
+          "es": "La leyenda de Teseo es una de las más antiguas de Grecia y sigue viva en la memoria del mundo tres mil años después.",
+          "en": "The legend of Theseus is one of the oldest in Greece and remains alive in the memory of the world three thousand years later.",
+          "fr": "La légende de Thésée est l'une des plus anciennes de Grèce et reste vivante dans la mémoire du monde trois mille ans plus tard.",
+          "de": "Die Legende des Theseus ist eine der ältesten Griechenlands und lebt drei Jahrtausende später noch in der Erinnerung der Welt.",
+          "it": "La leggenda di Teseo è una delle più antiche della Grecia e rimane viva nella memoria del mondo tremila anni dopo.",
+          "pt": "A lenda de Teseu é uma das mais antigas da Grécia e continua viva na memória do mundo três mil anos depois.",
+          "ca": "La llegenda de Teseu és una de les més antigues de Grècia i continua viva a la memòria del món tres mil anys després."
+        }
+      ]
+    }
+  ]
+}
