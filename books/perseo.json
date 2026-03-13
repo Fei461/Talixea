@@ -1,0 +1,556 @@
+{
+  "id": 6,
+  "tit": "Perseo y Medusa",
+  "aut": "Mitología griega",
+  "cat": "Mitología",
+  "gratis": true,
+  "cov": "mito",
+  "emo": "⚔️",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "El nacimiento del héroe",
+      "frases": [
+        {
+          "es": "Había una vez un rey llamado Acrisio que tenía una bella hija llamada Dánae y ningún hijo varón.",
+          "en": "There was once a king called Acrisius who had a beautiful daughter called Danaë and no male heir.",
+          "fr": "Il y avait autrefois un roi appelé Acrisios qui avait une belle fille nommée Danaé et pas d'héritier mâle.",
+          "de": "Es gab einmal einen König namens Akrisios, der eine schöne Tochter namens Danaë hatte und keinen männlichen Erben.",
+          "it": "C'era una volta un re chiamato Acrisio che aveva una bella figlia di nome Danae e nessun erede maschio.",
+          "pt": "Era uma vez um rei chamado Acrísio que tinha uma bela filha chamada Dánae e nenhum herdeiro masculino.",
+          "ca": "Hi havia una vegada un rei anomenat Acrísi que tenia una bella filla anomenada Dànae i cap hereu masculí."
+        },
+        {
+          "es": "El oráculo de Delfos le reveló una terrible profecía: moriría a manos del hijo de su propia hija.",
+          "en": "The oracle of Delphi revealed a terrible prophecy to him: he would die at the hands of his own daughter's son.",
+          "fr": "L'oracle de Delphes lui révéla une terrible prophétie : il mourrait de la main du fils de sa propre fille.",
+          "de": "Das Orakel von Delphi offenbarte ihm eine schreckliche Prophezeiung: er würde durch die Hand des Sohnes seiner eigenen Tochter sterben.",
+          "it": "L'oracolo di Delfi gli rivelò una terribile profezia: sarebbe morto per mano del figlio della sua stessa figlia.",
+          "pt": "O oráculo de Delfos revelou-lhe uma terrível profecia: morreria às mãos do filho da sua própria filha.",
+          "ca": "L'oracle de Delfos li va revelar una terrible profecia: moriria a mans del fill de la seva pròpia filla."
+        },
+        {
+          "es": "Aterrado, el rey encerró a Dánae en una torre de bronce sin puertas para que ningún hombre pudiera acercarse a ella.",
+          "en": "Terrified, the king locked Danaë in a bronze tower with no doors so that no man could approach her.",
+          "fr": "Terrifié, le roi enferma Danaé dans une tour de bronze sans portes pour qu'aucun homme ne puisse s'approcher d'elle.",
+          "de": "Erschrocken sperrte der König Danaë in einem bronzenen Turm ohne Türen ein, damit sich kein Mann ihr nähern konnte.",
+          "it": "Terrorizzato, il re rinchiuse Danae in una torre di bronzo senza porte affinché nessun uomo potesse avvicinarsi a lei.",
+          "pt": "Aterrorizado, o rei encerrou Dánae numa torre de bronze sem portas para que nenhum homem pudesse aproximar-se dela.",
+          "ca": "Aterrit, el rei va tancar Dànae en una torre de bronze sense portes perquè cap home pogués apropar-s'hi."
+        },
+        {
+          "es": "Pero Zeus, el rey de los dioses, se enamoró de la bella Dánae y se transformó en una lluvia de oro que cayó dentro de la torre.",
+          "en": "But Zeus, king of the gods, fell in love with beautiful Danaë and transformed himself into a shower of gold that fell inside the tower.",
+          "fr": "Mais Zeus, le roi des dieux, tomba amoureux de la belle Danaé et se transforma en une pluie d'or qui tomba à l'intérieur de la tour.",
+          "de": "Aber Zeus, der König der Götter, verliebte sich in die schöne Danaë und verwandelte sich in einen Goldregen, der in den Turm fiel.",
+          "it": "Ma Zeus, il re degli dei, si innamorò della bella Danae e si trasformò in una pioggia d'oro che cadde all'interno della torre.",
+          "pt": "Mas Zeus, o rei dos deuses, apaixonou-se pela bela Dánae e transformou-se numa chuva de ouro que caiu dentro da torre.",
+          "ca": "Però Zeus, el rei dels déus, es va enamorar de la bella Dànae i es va transformar en una pluja d'or que va caure dins la torre."
+        },
+        {
+          "es": "De esta unión nació Perseo, un niño de ojos brillantes y corazón valiente como su padre divino.",
+          "en": "From this union Perseus was born, a boy with bright eyes and a brave heart like his divine father.",
+          "fr": "De cette union naquit Persée, un garçon aux yeux brillants et au cœur vaillant comme son père divin.",
+          "de": "Aus dieser Vereinigung wurde Perseus geboren, ein Junge mit strahlenden Augen und einem tapferen Herz wie sein göttlicher Vater.",
+          "it": "Da questa unione nacque Perseo, un ragazzo dagli occhi brillanti e dal cuore coraggioso come il suo padre divino.",
+          "pt": "Desta união nasceu Perseu, um rapaz de olhos brilhantes e coração corajoso como o seu pai divino.",
+          "ca": "D'aquesta unió va néixer Perseu, un noi d'ulls brillants i cor valent com el seu pare diví."
+        },
+        {
+          "es": "Cuando Acrisio descubrió al bebé, ordenó que arrojaran a madre e hijo al mar en un cofre de madera.",
+          "en": "When Acrisius discovered the baby, he ordered mother and son to be cast into the sea in a wooden chest.",
+          "fr": "Quand Acrisios découvrit le bébé, il ordonna de jeter la mère et l'enfant à la mer dans un coffre en bois.",
+          "de": "Als Akrisios das Baby entdeckte, befahl er, Mutter und Kind in einer hölzernen Kiste ins Meer zu werfen.",
+          "it": "Quando Acrisio scoprì il bambino, ordinò di gettare madre e figlio nel mare in una cassa di legno.",
+          "pt": "Quando Acrísio descobriu o bebé, ordenou que atirassem mãe e filho ao mar num baú de madeira.",
+          "ca": "Quan Acrísi va descobrir el bebè, va ordenar que llancés mare i fill al mar en un cofre de fusta."
+        },
+        {
+          "es": "El cofre flotó durante días hasta llegar a la isla de Sérifos, donde un pescador llamado Dictis los encontró y los acogió con bondad.",
+          "en": "The chest floated for days until it reached the island of Seriphos, where a fisherman called Dictys found them and welcomed them kindly.",
+          "fr": "Le coffre flotta pendant des jours jusqu'à atteindre l'île de Sériphos, où un pêcheur appelé Dictys les trouva et les accueillit avec bonté.",
+          "de": "Die Kiste trieb tagelang, bis sie die Insel Seriphos erreichte, wo ein Fischer namens Diktys sie fand und freundlich aufnahm.",
+          "it": "La cassa galleggiò per giorni fino a raggiungere l'isola di Serifo, dove un pescatore di nome Ditti li trovò e li accolse con gentilezza.",
+          "pt": "O baú flutuou durante dias até chegar à ilha de Sérifos, onde um pescador chamado Díctis os encontrou e os acolheu com bondade.",
+          "ca": "El cofre va flotar durant dies fins arribar a l'illa de Serifos, on un pescador anomenat Dîctis els va trobar i els va acollir amb bondat."
+        }
+      ]
+    },
+    {
+      "tit": "El desafío del rey Polidectes",
+      "frases": [
+        {
+          "es": "Perseo creció en la isla de Sérifos y se convirtió en un joven fuerte y valiente.",
+          "en": "Perseus grew up on the island of Seriphos and became a strong and brave young man.",
+          "fr": "Persée grandit sur l'île de Sériphos et devint un jeune homme fort et courageux.",
+          "de": "Perseus wuchs auf der Insel Seriphos auf und wurde ein starker und mutiger junger Mann.",
+          "it": "Perseo crebbe sull'isola di Serifo e divenne un giovane forte e coraggioso.",
+          "pt": "Perseu cresceu na ilha de Sérifos e tornou-se um jovem forte e corajoso.",
+          "ca": "Perseu va créixer a l'illa de Serifos i es va convertir en un jove fort i valent."
+        },
+        {
+          "es": "El rey de la isla, Polidectes, se había enamorado de Dánae, pero Perseo la protegía con fiereza.",
+          "en": "The island's king, Polydectes, had fallen in love with Danaë, but Perseus protected her fiercely.",
+          "fr": "Le roi de l'île, Polydectès, était tombé amoureux de Danaé, mais Persée la protégeait avec ardeur.",
+          "de": "Der König der Insel, Polydektes, hatte sich in Danaë verliebt, aber Perseus beschützte sie heftig.",
+          "it": "Il re dell'isola, Polidette, si era innamorato di Danae, ma Perseo la proteggeva con fierezza.",
+          "pt": "O rei da ilha, Polidectes, tinha-se apaixonado por Dánae, mas Perseu protegia-a com ferocidade.",
+          "ca": "El rei de l'illa, Polidectes, s'havia enamorat de Dànae, però Perseu la protegia amb ferocitat."
+        },
+        {
+          "es": "Para deshacerse de Perseo, el rey organizó un banquete y pidió a cada invitado que le trajera un regalo.",
+          "en": "To get rid of Perseus, the king organised a banquet and asked each guest to bring him a gift.",
+          "fr": "Pour se débarrasser de Persée, le roi organisa un banquet et demanda à chaque invité de lui apporter un cadeau.",
+          "de": "Um Perseus loszuwerden, veranstaltete der König ein Bankett und bat jeden Gast, ihm ein Geschenk zu bringen.",
+          "it": "Per sbarazzarsi di Perseo, il re organizzò un banchetto e chiese a ogni ospite di portargli un dono.",
+          "pt": "Para se livrar de Perseu, o rei organizou um banquete e pediu a cada convidado que lhe trouxesse um presente.",
+          "ca": "Per desfer-se de Perseu, el rei va organitzar un banquet i va demanar a cada convidat que li portés un regal."
+        },
+        {
+          "es": "Los otros invitados trajeron caballos, pero Perseo no tenía nada que ofrecer. El rey le desafió a traer la cabeza de Medusa.",
+          "en": "The other guests brought horses, but Perseus had nothing to offer. The king challenged him to bring the head of Medusa.",
+          "fr": "Les autres invités apportèrent des chevaux, mais Persée n'avait rien à offrir. Le roi le défia de rapporter la tête de Méduse.",
+          "de": "Die anderen Gäste brachten Pferde, aber Perseus hatte nichts zu bieten. Der König forderte ihn heraus, den Kopf der Medusa zu bringen.",
+          "it": "Gli altri ospiti portarono cavalli, ma Perseo non aveva nulla da offrire. Il re lo sfidò a portare la testa di Medusa.",
+          "pt": "Os outros convidados trouxeram cavalos, mas Perseu não tinha nada a oferecer. O rei desafiou-o a trazer a cabeça de Medusa.",
+          "ca": "Els altres convidats van portar cavalls, però Perseu no tenia res a oferir. El rei el va desafiar a portar el cap de Medusa."
+        },
+        {
+          "es": "Medusa era una gorgona cuya mirada convertía en piedra a todo aquel que la miraba directamente a los ojos.",
+          "en": "Medusa was a gorgon whose gaze turned to stone anyone who looked directly into her eyes.",
+          "fr": "Méduse était une gorgone dont le regard transformait en pierre quiconque la regardait directement dans les yeux.",
+          "de": "Medusa war eine Gorgo, deren Blick jeden, der ihr direkt in die Augen sah, zu Stein verwandelte.",
+          "it": "Medusa era una gorgone il cui sguardo trasformava in pietra chiunque la guardasse direttamente negli occhi.",
+          "pt": "Medusa era uma górgona cujo olhar transformava em pedra qualquer pessoa que a olhasse diretamente nos olhos.",
+          "ca": "Medusa era una gorgona la mirada de la qual convertia en pedra tothom que la mirava directament als ulls."
+        },
+        {
+          "es": "Perseo aceptó el reto sin dudarlo, pues prefería morir en la aventura antes que ver a su madre en manos de aquel rey cruel.",
+          "en": "Perseus accepted the challenge without hesitation, for he preferred to die on the adventure rather than see his mother in the hands of that cruel king.",
+          "fr": "Persée accepta le défi sans hésiter, car il préférait mourir dans l'aventure plutôt que de voir sa mère aux mains de ce roi cruel.",
+          "de": "Perseus nahm die Herausforderung ohne Zögern an, denn er zog es vor, bei dem Abenteuer zu sterben, als seine Mutter in den Händen dieses grausamen Königs zu sehen.",
+          "it": "Perseo accettò la sfida senza esitare, poiché preferiva morire nell'avventura piuttosto che vedere sua madre nelle mani di quel re crudele.",
+          "pt": "Perseu aceitou o desafio sem hesitar, pois preferia morrer na aventura a ver a sua mãe nas mãos daquele rei cruel.",
+          "ca": "Perseu va acceptar el repte sense dubtar, perquè preferia morir en l'aventura abans que veure la seva mare a les mans d'aquell rei cruel."
+        },
+        {
+          "es": "Así comenzó la gran aventura de Perseo, el hijo del dios Zeus y la mortal Dánae.",
+          "en": "And so began the great adventure of Perseus, son of the god Zeus and the mortal Danaë.",
+          "fr": "Ainsi commença la grande aventure de Persée, le fils du dieu Zeus et de la mortelle Danaé.",
+          "de": "So begann das große Abenteuer des Perseus, des Sohnes des Gottes Zeus und der sterblichen Danaë.",
+          "it": "Così ebbe inizio la grande avventura di Perseo, figlio del dio Zeus e della mortale Danae.",
+          "pt": "Assim começou a grande aventura de Perseu, filho do deus Zeus e da mortal Dánae.",
+          "ca": "Així va començar la gran aventura de Perseu, el fill del déu Zeus i la mortal Dànae."
+        }
+      ]
+    },
+    {
+      "tit": "Los dones de los dioses",
+      "frases": [
+        {
+          "es": "Atenea, la diosa de la sabiduría, decidió ayudar a Perseo y se le apareció en sueños.",
+          "en": "Athena, goddess of wisdom, decided to help Perseus and appeared to him in a dream.",
+          "fr": "Athéna, la déesse de la sagesse, décida d'aider Persée et lui apparut en songe.",
+          "de": "Athene, die Göttin der Weisheit, beschloss Perseus zu helfen und erschien ihm im Traum.",
+          "it": "Atena, la dea della saggezza, decise di aiutare Perseo e gli apparve in sogno.",
+          "pt": "Atena, a deusa da sabedoria, decidiu ajudar Perseu e apareceu-lhe em sonho.",
+          "ca": "Atena, la deessa de la saviesa, va decidir ajudar Perseu i se li va aparèixer en somnis."
+        },
+        {
+          "es": "La diosa le entregó un escudo de bronce pulido como un espejo y le explicó cómo usarlo para no mirar a Medusa directamente.",
+          "en": "The goddess gave him a shield of bronze polished like a mirror and explained how to use it to avoid looking at Medusa directly.",
+          "fr": "La déesse lui remit un bouclier de bronze poli comme un miroir et lui expliqua comment l'utiliser pour éviter de regarder Méduse directement.",
+          "de": "Die Göttin gab ihm einen Schild aus Bronze, glänzend wie ein Spiegel, und erklärte ihm, wie er ihn benutzen sollte, um Medusa nicht direkt anzusehen.",
+          "it": "La dea gli consegnò uno scudo di bronzo lucido come uno specchio e gli spiegò come usarlo per non guardare Medusa direttamente.",
+          "pt": "A deusa entregou-lhe um escudo de bronze polido como um espelho e explicou-lhe como usá-lo para não olhar para Medusa diretamente.",
+          "ca": "La deessa li va lliurar un escut de bronze polit com un mirall i li va explicar com usar-lo per no mirar Medusa directament."
+        },
+        {
+          "es": "Hermes, el mensajero de los dioses, también acudió y le regaló sus sandalias aladas para que pudiera volar.",
+          "en": "Hermes, messenger of the gods, also came and gave him his winged sandals so he could fly.",
+          "fr": "Hermès, le messager des dieux, vint également et lui offrit ses sandales ailées pour qu'il puisse voler.",
+          "de": "Hermes, der Götterbote, kam ebenfalls und schenkte ihm seine geflügelten Sandalen, damit er fliegen konnte.",
+          "it": "Ermes, il messaggero degli dei, si presentò anch'egli e gli donò i suoi sandali alati affinché potesse volare.",
+          "pt": "Hermes, o mensageiro dos deuses, também apareceu e ofereceu-lhe as suas sandálias aladas para que pudesse voar.",
+          "ca": "Hermes, el missatger dels déus, també va acudir i li va regalar les seves sandàlies alades perquè pogués volar."
+        },
+        {
+          "es": "Pero aún necesitaba tres objetos mágicos que guardaban las ninfas del norte: una bolsa especial, el casco de Hades y una espada de diamante.",
+          "en": "But he still needed three magic objects kept by the nymphs of the north: a special bag, the helm of Hades and a diamond sword.",
+          "fr": "Mais il avait encore besoin de trois objets magiques gardés par les nymphes du nord : un sac spécial, le casque d'Hadès et une épée de diamant.",
+          "de": "Aber er brauchte noch drei magische Gegenstände, die von den Nymphen des Nordens aufbewahrt wurden: einen besonderen Beutel, den Helm des Hades und ein Diamantschwert.",
+          "it": "Ma aveva ancora bisogno di tre oggetti magici custoditi dalle ninfe del nord: una borsa speciale, l'elmo di Ade e una spada di diamante.",
+          "pt": "Mas ainda precisava de três objetos mágicos guardados pelas ninfas do norte: um saco especial, o elmo de Hades e uma espada de diamante.",
+          "ca": "Però encara necessitava tres objectes màgics que guardaven les nimfes del nord: una bossa especial, el casc d'Hades i una espasa de diamant."
+        },
+        {
+          "es": "Para encontrar a las ninfas, primero debía buscar a las Grayas, tres ancianas que compartían un solo ojo y un solo diente.",
+          "en": "To find the nymphs, he first had to seek out the Graeae, three old women who shared a single eye and a single tooth.",
+          "fr": "Pour trouver les nymphes, il devait d'abord chercher les Grées, trois vieilles femmes qui partageaient un seul œil et une seule dent.",
+          "de": "Um die Nymphen zu finden, musste er zuerst die Graeae aufsuchen, drei alte Frauen, die sich ein Auge und einen Zahn teilten.",
+          "it": "Per trovare le ninfe, doveva prima cercare le Graie, tre vecchie donne che condividevano un solo occhio e un solo dente.",
+          "pt": "Para encontrar as ninfas, primeiro devia procurar as Greas, três velhas que partilhavam um único olho e um único dente.",
+          "ca": "Per trobar les nimfes, primer havia de buscar les Graies, tres velles que compartien un únic ull i una única dent."
+        },
+        {
+          "es": "Perseo voló hacia el norte con las sandalias de Hermes y encontró a las tres ancianas pasándose el ojo de mano en mano.",
+          "en": "Perseus flew north with the sandals of Hermes and found the three old women passing the eye from hand to hand.",
+          "fr": "Persée vola vers le nord avec les sandales d'Hermès et trouva les trois vieilles femmes qui se passaient l'œil de main en main.",
+          "de": "Perseus flog mit den Sandalen des Hermes nach Norden und fand die drei alten Frauen, die das Auge von Hand zu Hand weitergaben.",
+          "it": "Perseo volò verso nord con i sandali di Ermes e trovò le tre vecchie che si passavano l'occhio di mano in mano.",
+          "pt": "Perseu voou para norte com as sandálias de Hermes e encontrou as três velhas passando o olho de mão em mão.",
+          "ca": "Perseu va volar cap al nord amb les sandàlies d'Hermes i va trobar les tres velles passant-se l'ull de mà en mà."
+        },
+        {
+          "es": "Con rapidez, Perseo arrebató el ojo en el momento del intercambio y se negó a devolverlo hasta que las ancianas le revelaran el camino.",
+          "en": "Swiftly, Perseus snatched the eye at the moment of exchange and refused to return it until the old women revealed the way to him.",
+          "fr": "Rapidement, Persée s'empara de l'œil au moment de l'échange et refusa de le rendre jusqu'à ce que les vieilles femmes lui révèlent le chemin.",
+          "de": "Schnell schnappte Perseus das Auge im Moment des Austausches und weigerte sich, es zurückzugeben, bis die alten Frauen ihm den Weg zeigten.",
+          "it": "Con rapidità, Perseo strappò l'occhio nel momento dello scambio e si rifiutò di restituirlo finché le anziane non gli rivelarono la strada.",
+          "pt": "Com rapidez, Perseu arrebatou o olho no momento da troca e recusou-se a devolvê-lo até que as velhas lhe revelassem o caminho.",
+          "ca": "Amb rapidesa, Perseu va arrabassarl'ull en el moment de l'intercanvi i es va negar a tornar-lo fins que les velles li van revelar el camí."
+        }
+      ]
+    },
+    {
+      "tit": "En la guarida de Medusa",
+      "frases": [
+        {
+          "es": "Las ninfas entregaron a Perseo la bolsa mágica, el casco de Hades que lo hacía invisible y la espada de diamante.",
+          "en": "The nymphs gave Perseus the magic bag, the helm of Hades that made him invisible, and the diamond sword.",
+          "fr": "Les nymphes remirent à Persée le sac magique, le casque d'Hadès qui le rendait invisible et l'épée de diamant.",
+          "de": "Die Nymphen gaben Perseus den magischen Beutel, den Helm des Hades, der ihn unsichtbar machte, und das Diamantschwert.",
+          "it": "Le ninfe consegnarono a Perseo la borsa magica, l'elmo di Ade che lo rendeva invisibile e la spada di diamante.",
+          "pt": "As ninfas entregaram a Perseu o saco mágico, o elmo de Hades que o tornava invisível e a espada de diamante.",
+          "ca": "Les nimfes van lliurar a Perseu la bossa màgica, el casc d'Hades que el feia invisible i l'espasa de diamant."
+        },
+        {
+          "es": "Perseo voló hasta el confín del mundo donde las tres gorgonas dormían entre estatuas de piedra que antes habían sido hombres.",
+          "en": "Perseus flew to the edge of the world where the three gorgons slept among stone statues that had once been men.",
+          "fr": "Persée vola jusqu'au bout du monde où les trois gorgones dormaient parmi des statues de pierre qui avaient autrefois été des hommes.",
+          "de": "Perseus flog bis ans Ende der Welt, wo die drei Gorgonen zwischen Steinstatuen schliefen, die einst Männer gewesen waren.",
+          "it": "Perseo volò fino ai confini del mondo dove le tre gorgoni dormivano tra statue di pietra che un tempo erano stati uomini.",
+          "pt": "Perseu voou até ao fim do mundo onde as três górgonas dormiam entre estátuas de pedra que antes tinham sido homens.",
+          "ca": "Perseu va volar fins al confí del món on les tres gorgones dormien entre estàtues de pedra que abans havien estat homes."
+        },
+        {
+          "es": "Medusa era la única mortal de las tres hermanas. Tenía cabello de serpientes vivas que silbaban constantemente.",
+          "en": "Medusa was the only mortal of the three sisters. She had hair made of living snakes that hissed constantly.",
+          "fr": "Méduse était la seule mortelle des trois sœurs. Elle avait des cheveux faits de serpents vivants qui sifflaient constamment.",
+          "de": "Medusa war die einzige Sterbliche der drei Schwestern. Sie hatte Haare aus lebenden Schlangen, die ständig zischten.",
+          "it": "Medusa era l'unica mortale delle tre sorelle. Aveva capelli fatti di serpenti vivi che sibilavano costantemente.",
+          "pt": "Medusa era a única mortal das três irmãs. Tinha cabelo feito de serpentes vivas que sibilavam constantemente.",
+          "ca": "Medusa era l'única mortal de les tres germanes. Tenia cabells fets de serps vives que xiulaven constantment."
+        },
+        {
+          "es": "Perseo, con el casco invisible puesto, se acercó en silencio mirando solo el reflejo en su escudo de bronce.",
+          "en": "Perseus, wearing the invisible helm, crept close in silence looking only at the reflection in his bronze shield.",
+          "fr": "Persée, avec le casque invisible sur la tête, s'approcha en silence en regardant uniquement le reflet dans son bouclier de bronze.",
+          "de": "Perseus, mit dem Unsichtbarkeitshelm auf dem Kopf, schlich sich lautlos heran und sah nur auf den Spiegel in seinem Bronzeschild.",
+          "it": "Perseo, con l'elmo invisibile in testa, si avvicinò in silenzio guardando solo il riflesso nel suo scudo di bronzo.",
+          "pt": "Perseu, com o elmo invisível posto, aproximou-se em silêncio olhando apenas para o reflexo no seu escudo de bronze.",
+          "ca": "Perseu, amb el casc invisible posat, es va apropar en silenci mirant només el reflex en el seu escut de bronze."
+        },
+        {
+          "es": "Con un movimiento certero y rápido, Perseo blandió la espada de diamante y cercenó la cabeza de Medusa de un solo golpe.",
+          "en": "With a sure and swift movement, Perseus wielded the diamond sword and severed Medusa's head with a single blow.",
+          "fr": "D'un geste précis et rapide, Persée brandit l'épée de diamant et trancha la tête de Méduse d'un seul coup.",
+          "de": "Mit einer sicheren und schnellen Bewegung schwang Perseus das Diamantschwert und trennte Medusas Kopf mit einem einzigen Hieb ab.",
+          "it": "Con un movimento preciso e rapido, Perseo brandì la spada di diamante e mozzò la testa di Medusa con un solo colpo.",
+          "pt": "Com um movimento certeiro e rápido, Perseu brandiu a espada de diamante e decepou a cabeça de Medusa com um único golpe.",
+          "ca": "Amb un moviment cert i ràpid, Perseu va brandirr l'espasa de diamant i va tallar el cap de Medusa d'un sol cop."
+        },
+        {
+          "es": "Del cuello cortado de Medusa surgió el caballo alado Pegaso, blanco como la nieve y con alas de plata.",
+          "en": "From Medusa's severed neck sprang the winged horse Pegasus, white as snow and with silver wings.",
+          "fr": "Du cou tranché de Méduse surgit le cheval ailé Pégase, blanc comme neige et aux ailes d'argent.",
+          "de": "Aus Medusas abgetrenntem Hals sprang der geflügelte Hengst Pegasus, weiß wie Schnee und mit silbernen Flügeln.",
+          "it": "Dal collo reciso di Medusa balzò fuori il cavallo alato Pegaso, bianco come la neve e con ali d'argento.",
+          "pt": "Do pescoço cortado de Medusa surgiu o cavalo alado Pégaso, branco como a neve e com asas de prata.",
+          "ca": "Del coll tallat de Medusa va sorgir el cavall alat Pegàs, blanc com la neu i amb ales de plata."
+        },
+        {
+          "es": "Perseo guardó la cabeza en la bolsa mágica sin mirarla y huyó volando antes de que las hermanas de Medusa despertaran.",
+          "en": "Perseus put the head in the magic bag without looking at it and flew away before Medusa's sisters could wake.",
+          "fr": "Persée plaça la tête dans le sac magique sans la regarder et s'enfuit en volant avant que les sœurs de Méduse ne se réveillent.",
+          "de": "Perseus legte den Kopf in den magischen Beutel, ohne ihn anzusehen, und flog weg, bevor Medusas Schwestern erwachen konnten.",
+          "it": "Perseo ripose la testa nella borsa magica senza guardarla e fuggì volando prima che le sorelle di Medusa si svegliassero.",
+          "pt": "Perseu guardou a cabeça no saco mágico sem a olhar e fugiu a voar antes que as irmãs de Medusa pudessem acordar.",
+          "ca": "Perseu va guardar el cap a la bossa màgica sense mirar-lo i va fugir volant abans que les germanes de Medusa es despertessin."
+        }
+      ]
+    },
+    {
+      "tit": "Andrómeda encadenada",
+      "frases": [
+        {
+          "es": "De regreso a casa, Perseo sobrevoló la costa de Etiopía y vio algo que lo detuvo en seco.",
+          "en": "On his way home, Perseus flew over the coast of Ethiopia and saw something that stopped him in his tracks.",
+          "fr": "Sur le chemin du retour, Persée survola la côte d'Éthiopie et vit quelque chose qui l'arrêta net.",
+          "de": "Auf dem Heimweg flog Perseus über die Küste Äthiopiens und sah etwas, das ihn sofort anhielt.",
+          "it": "Sulla via del ritorno, Perseo sorvolò la costa dell'Etiopia e vide qualcosa che lo fermò di colpo.",
+          "pt": "A caminho de casa, Perseu sobrevoou a costa da Etiópia e viu algo que o fez parar de repente.",
+          "ca": "De tornada a casa, Perseu va sobrevolar la costa d'Etiòpia i va veure alguna cosa que el va aturar en sec."
+        },
+        {
+          "es": "Una joven de extraordinaria belleza estaba encadenada a una roca junto al mar. Su nombre era Andrómeda.",
+          "en": "A young woman of extraordinary beauty was chained to a rock by the sea. Her name was Andromeda.",
+          "fr": "Une jeune femme d'une beauté extraordinaire était enchaînée à un rocher près de la mer. Elle s'appelait Andromède.",
+          "de": "Eine junge Frau von außergewöhnlicher Schönheit war an einen Felsen am Meer gekettet. Ihr Name war Andromeda.",
+          "it": "Una giovane donna di straordinaria bellezza era incatenata a una roccia vicino al mare. Il suo nome era Andromeda.",
+          "pt": "Uma jovem de extraordinária beleza estava acorrentada a uma rocha junto ao mar. O seu nome era Andrómeda.",
+          "ca": "Una jove de extraordinària bellesa estava encadenada a una roca prop del mar. El seu nom era Andròmeda."
+        },
+        {
+          "es": "Su madre, la reina Casiopea, había ofendido a las Nereidas al presumir de que su hija era más bella que ellas.",
+          "en": "Her mother, Queen Cassiopeia, had offended the Nereids by boasting that her daughter was more beautiful than them.",
+          "fr": "Sa mère, la reine Cassiopée, avait offensé les Néréides en se vantant que sa fille était plus belle qu'elles.",
+          "de": "Ihre Mutter, Königin Kassiopeia, hatte die Nereiden beleidigt, indem sie prahlte, ihre Tochter sei schöner als sie.",
+          "it": "Sua madre, la regina Cassiopea, aveva offeso le Nereidi vantandosi che sua figlia era più bella di loro.",
+          "pt": "A sua mãe, a rainha Cassiopeia, tinha ofendido as Nereidas ao gabar-se de que a filha era mais bela do que elas.",
+          "ca": "La seva mare, la reina Cassiopea, havia ofès les Nereides presumint que la seva filla era més bella que elles."
+        },
+        {
+          "es": "Poseidón, dios del mar, había enviado un monstruo marino para devastar el reino como castigo.",
+          "en": "Poseidon, god of the sea, had sent a sea monster to devastate the kingdom as punishment.",
+          "fr": "Poséidon, dieu de la mer, avait envoyé un monstre marin pour dévaster le royaume en guise de châtiment.",
+          "de": "Poseidon, der Gott des Meeres, hatte ein Meeresungeheuer geschickt, um das Königreich zur Strafe zu verwüsten.",
+          "it": "Poseidone, dio del mare, aveva inviato un mostro marino per devastare il regno come punizione.",
+          "pt": "Posídon, deus do mar, tinha enviado um monstro marinho para devastar o reino como castigo.",
+          "ca": "Posidó, déu del mar, havia enviat un monstre marí per devastar el regne com a càstig."
+        },
+        {
+          "es": "El oráculo había dictaminado que el mal solo cesaría si ofrecían a Andrómeda como sacrificio a la bestia.",
+          "en": "The oracle had decreed that the evil would only cease if Andromeda were offered as a sacrifice to the beast.",
+          "fr": "L'oracle avait décrété que le mal ne cesserait que si Andromède était offerte en sacrifice à la bête.",
+          "de": "Das Orakel hatte verkündet, dass das Übel nur aufhören würde, wenn Andromeda der Bestie geopfert würde.",
+          "it": "L'oracolo aveva decretato che il male si sarebbe fermato solo se Andromeda fosse stata offerta come sacrificio alla bestia.",
+          "pt": "O oráculo tinha decretado que o mal só cessaria se Andrómeda fosse oferecida como sacrifício à besta.",
+          "ca": "L'oracle havia decretat que el mal només cessaria si oferien Andròmeda com a sacrifici a la bèstia."
+        },
+        {
+          "es": "Perseo habló con el rey Cefeo, padre de Andrómeda: la salvaré si me la dais en matrimonio.",
+          "en": "Perseus spoke to King Cepheus, Andromeda's father: I will save her if you give her to me in marriage.",
+          "fr": "Persée parla au roi Céphée, père d'Andromède : je la sauverai si vous me la donnez en mariage.",
+          "de": "Perseus sprach mit König Kepheus, Andromedas Vater: ich werde sie retten, wenn ihr sie mir zur Frau gebt.",
+          "it": "Perseo parlò con il re Cefeo, padre di Andromeda: la salverò se me la date in moglie.",
+          "pt": "Perseu falou com o rei Cefeu, pai de Andrómeda: vou salvá-la se ma derem em casamento.",
+          "ca": "Perseu va parlar amb el rei Cefeu, pare d'Andròmeda: la salvaré si me la doneu en matrimoni."
+        },
+        {
+          "es": "El rey aceptó sin dudarlo. Perseo esperó junto a la roca con la espada lista y el corazón firme.",
+          "en": "The king agreed without hesitation. Perseus waited by the rock with his sword ready and his heart firm.",
+          "fr": "Le roi accepta sans hésiter. Persée attendit près du rocher avec son épée prête et le cœur ferme.",
+          "de": "Der König stimmte ohne Zögern zu. Perseus wartete am Felsen mit gezogenem Schwert und festem Herzen.",
+          "it": "Il re accettò senza esitare. Perseo aspettò vicino alla roccia con la spada pronta e il cuore fermo.",
+          "pt": "O rei aceitou sem hesitar. Perseu esperou junto à rocha com a espada pronta e o coração firme.",
+          "ca": "El rei va acceptar sense dubtar. Perseu va esperar al costat de la roca amb l'espasa llesta i el cor ferm."
+        }
+      ]
+    },
+    {
+      "tit": "La batalla con el monstruo",
+      "frases": [
+        {
+          "es": "Al amanecer, el mar comenzó a agitarse y una forma enorme y oscura emergió de las profundidades.",
+          "en": "At dawn, the sea began to churn and a huge dark shape emerged from the depths.",
+          "fr": "À l'aube, la mer commença à s'agiter et une forme énorme et sombre émergea des profondeurs.",
+          "de": "Bei Tagesanbruch begann das Meer sich aufzuregen und eine riesige, dunkle Gestalt tauchte aus der Tiefe auf.",
+          "it": "All'alba, il mare cominciò ad agitarsi e una forma enorme e scura emerse dalle profondità.",
+          "pt": "Ao amanhecer, o mar começou a agitar-se e uma forma enorme e escura emergiu das profundezas.",
+          "ca": "A l'alba, el mar va començar a agitar-se i una forma enorme i fosca va emergir de les profunditats."
+        },
+        {
+          "es": "El monstruo marino era más grande que tres barcos juntos y sus escamas brillaban como el acero bajo el sol.",
+          "en": "The sea monster was bigger than three ships together and its scales gleamed like steel in the sun.",
+          "fr": "Le monstre marin était plus grand que trois navires réunis et ses écailles brillaient comme de l'acier sous le soleil.",
+          "de": "Das Meeresungeheuer war größer als drei Schiffe zusammen und seine Schuppen glänzten wie Stahl in der Sonne.",
+          "it": "Il mostro marino era più grande di tre navi messe insieme e le sue squame brillavano come acciaio sotto il sole.",
+          "pt": "O monstro marinho era maior que três navios juntos e as suas escamas brilhavam como aço sob o sol.",
+          "ca": "El monstre marí era més gran que tres vaixells junts i les seves escates brillaven com l'acer sota el sol."
+        },
+        {
+          "es": "Perseo se lanzó al aire con las sandalias aladas y comenzó a atacar al monstruo desde arriba, esquivando sus fauces.",
+          "en": "Perseus launched himself into the air on his winged sandals and began to attack the monster from above, dodging its jaws.",
+          "fr": "Persée s'élança dans les airs avec ses sandales ailées et commença à attaquer le monstre par le haut, esquivant ses mâchoires.",
+          "de": "Perseus schoss mit seinen geflügelten Sandalen in die Luft und begann, das Monster von oben anzugreifen, wobei er seinem Maul auswich.",
+          "it": "Perseo si lanciò in aria con i sandali alati e cominciò ad attaccare il mostro dall'alto, schivando le sue fauci.",
+          "pt": "Perseu lançou-se ao ar com as sandálias aladas e começou a atacar o monstro por cima, esquivando as suas fauces.",
+          "ca": "Perseu es va llançar a l'aire amb les sandàlies alades i va començar a atacar el monstre des de dalt, esquivant les seves fauces."
+        },
+        {
+          "es": "La lucha fue larga y brutal. El monstruo casi alcanzó a Perseo tres veces con sus enormes mandíbulas.",
+          "en": "The fight was long and brutal. The monster almost caught Perseus three times with its enormous jaws.",
+          "fr": "Le combat fut long et brutal. Le monstre faillit attraper Persée trois fois avec ses énormes mâchoires.",
+          "de": "Der Kampf war lang und brutal. Das Monster hätte Perseus dreimal fast mit seinem riesigen Kiefer erwischt.",
+          "it": "La lotta fu lunga e brutale. Il mostro quasi afferrò Perseo tre volte con le sue enormi mascelle.",
+          "pt": "A luta foi longa e brutal. O monstro quase apanhou Perseu três vezes com as suas enormes mandíbulas.",
+          "ca": "La lluita va ser llarga i brutal. El monstre quasi va agafar Perseu tres vegades amb les seves enormes mandíbules."
+        },
+        {
+          "es": "En el momento decisivo, Perseo sacó la cabeza de Medusa de la bolsa y se la mostró al monstruo.",
+          "en": "At the decisive moment, Perseus took Medusa's head from the bag and showed it to the monster.",
+          "fr": "Au moment décisif, Persée sortit la tête de Méduse du sac et la montra au monstre.",
+          "de": "Im entscheidenden Moment holte Perseus den Kopf der Medusa aus dem Beutel und zeigte ihn dem Monster.",
+          "it": "Nel momento decisivo, Perseo estrasse la testa di Medusa dalla borsa e la mostrò al mostro.",
+          "pt": "No momento decisivo, Perseu tirou a cabeça de Medusa do saco e mostrou-a ao monstro.",
+          "ca": "En el moment decisiu, Perseu va treure el cap de Medusa de la bossa i el va mostrar al monstre."
+        },
+        {
+          "es": "El monstruo se convirtió al instante en una enorme roca de piedra gris que aún hoy asoma sobre las aguas.",
+          "en": "The monster was instantly turned into a huge grey stone rock that still rises above the waters today.",
+          "fr": "Le monstre se transforma instantanément en un énorme rocher de pierre grise qui émerge encore aujourd'hui au-dessus des eaux.",
+          "de": "Das Monster verwandelte sich sofort in einen riesigen grauen Steinblock, der noch heute aus den Gewässern ragt.",
+          "it": "Il mostro si trasformò istantaneamente in un enorme masso di pietra grigia che ancora oggi emerge dalle acque.",
+          "pt": "O monstro transformou-se instantaneamente numa enorme rocha de pedra cinzenta que ainda hoje emerge das águas.",
+          "ca": "El monstre es va convertir a l'instant en una enorme roca de pedra grisa que encara avui sobresurt de les aigües."
+        },
+        {
+          "es": "Perseo liberó a Andrómeda y el pueblo entero celebró al héroe que había salvado a la princesa.",
+          "en": "Perseus freed Andromeda and the entire people celebrated the hero who had saved the princess.",
+          "fr": "Persée libéra Andromède et tout le peuple célébra le héros qui avait sauvé la princesse.",
+          "de": "Perseus befreite Andromeda und das ganze Volk feierte den Helden, der die Prinzessin gerettet hatte.",
+          "it": "Perseo liberò Andromeda e l'intero popolo festeggiò l'eroe che aveva salvato la principessa.",
+          "pt": "Perseu libertou Andrómeda e o povo inteiro celebrou o herói que tinha salvado a princesa.",
+          "ca": "Perseu va alliberar Andròmeda i el poble sencer va celebrar l'heroi que havia salvat la princesa."
+        }
+      ]
+    },
+    {
+      "tit": "El regreso victorioso",
+      "frases": [
+        {
+          "es": "Perseo regresó a Sérifos con Andrómeda como esposa y con la cabeza de Medusa en la bolsa mágica.",
+          "en": "Perseus returned to Seriphos with Andromeda as his wife and with Medusa's head in the magic bag.",
+          "fr": "Persée retourna à Sériphos avec Andromède comme épouse et avec la tête de Méduse dans le sac magique.",
+          "de": "Perseus kehrte nach Seriphos zurück mit Andromeda als seiner Frau und dem Kopf der Medusa im magischen Beutel.",
+          "it": "Perseo tornò a Serifo con Andromeda come moglie e con la testa di Medusa nella borsa magica.",
+          "pt": "Perseu regressou a Sérifos com Andrómeda como esposa e com a cabeça de Medusa no saco mágico.",
+          "ca": "Perseu va tornar a Serifos amb Andròmeda com a esposa i amb el cap de Medusa a la bossa màgica."
+        },
+        {
+          "es": "Al llegar descubrió que el rey Polidectes había forzado a su madre Dánae a casarse con él.",
+          "en": "On arriving he discovered that King Polydectes had forced his mother Danaë to marry him.",
+          "fr": "En arrivant, il découvrit que le roi Polydectès avait forcé sa mère Danaé à l'épouser.",
+          "de": "Bei seiner Ankunft entdeckte er, dass König Polydektes seine Mutter Danaë zur Heirat gezwungen hatte.",
+          "it": "Arrivando scoprì che il re Polidette aveva costretto sua madre Danae a sposarlo.",
+          "pt": "Ao chegar, descobriu que o rei Polidectes tinha forçado a sua mãe Dánae a casar com ele.",
+          "ca": "En arribar va descobrir que el rei Polidectes havia forçat la seva mare Dànae a casar-se amb ell."
+        },
+        {
+          "es": "Perseo entró en el palacio donde el rey festejaba con sus hombres y sacó la cabeza de Medusa.",
+          "en": "Perseus entered the palace where the king was feasting with his men and drew out the head of Medusa.",
+          "fr": "Persée entra dans le palais où le roi festoyait avec ses hommes et sortit la tête de Méduse.",
+          "de": "Perseus betrat den Palast, wo der König mit seinen Männern feierte, und zog den Kopf der Medusa heraus.",
+          "it": "Perseo entrò nel palazzo dove il re festeggiava con i suoi uomini e tirò fuori la testa di Medusa.",
+          "pt": "Perseu entrou no palácio onde o rei festejava com os seus homens e tirou a cabeça de Medusa.",
+          "ca": "Perseu va entrar al palau on el rei festejava amb els seus homes i va treure el cap de Medusa."
+        },
+        {
+          "es": "El rey y todos sus seguidores quedaron convertidos en estatuas de piedra para siempre.",
+          "en": "The king and all his followers were turned to stone statues for ever.",
+          "fr": "Le roi et tous ses partisans furent transformés en statues de pierre pour toujours.",
+          "de": "Der König und alle seine Anhänger wurden für immer in Steinstatuen verwandelt.",
+          "it": "Il re e tutti i suoi seguaci furono trasformati in statue di pietra per sempre.",
+          "pt": "O rei e todos os seus seguidores ficaram transformados em estátuas de pedra para sempre.",
+          "ca": "El rei i tots els seus seguidors van quedar convertits en estàtues de pedra per sempre."
+        },
+        {
+          "es": "Perseo regaló la cabeza de Medusa a la diosa Atenea, quien la colocó en el centro de su escudo, llamado Égida.",
+          "en": "Perseus gave Medusa's head to the goddess Athena, who placed it at the centre of her shield, called the Aegis.",
+          "fr": "Persée offrit la tête de Méduse à la déesse Athéna, qui la plaça au centre de son bouclier, appelé Égide.",
+          "de": "Perseus schenkte den Kopf der Medusa der Göttin Athene, die ihn in die Mitte ihres Schildes, der Ägis, setzte.",
+          "it": "Perseo regalò la testa di Medusa alla dea Atena, che la pose al centro del suo scudo, detto Egida.",
+          "pt": "Perseu ofereceu a cabeça de Medusa à deusa Atena, que a colocou no centro do seu escudo, chamado Égide.",
+          "ca": "Perseu va regalar el cap de Medusa a la deessa Atena, que el va col·locar al centre del seu escut, anomenat Égida."
+        },
+        {
+          "es": "Después Perseo viajó a Argos para encontrar a su abuelo Acrisio, aunque sin intención de hacerle daño.",
+          "en": "Perseus then travelled to Argos to find his grandfather Acrisius, though with no intention of harming him.",
+          "fr": "Persée voyagea ensuite à Argos pour retrouver son grand-père Acrisios, mais sans intention de lui faire du mal.",
+          "de": "Perseus reiste dann nach Argos, um seinen Großvater Akrisios zu finden, jedoch ohne die Absicht, ihm zu schaden.",
+          "it": "Perseo viaggiò poi ad Argo per trovare suo nonno Acrisio, ma senza intenzione di fargli del male.",
+          "pt": "Perseu viajou depois para Argos para encontrar o seu avô Acrísio, embora sem intenção de lhe fazer mal.",
+          "ca": "Després Perseu va viatjar a Argos per trobar el seu avi Acrísi, tot i que sense intenció de fer-li mal."
+        },
+        {
+          "es": "El destino, sin embargo, no puede evitarse: en unos juegos atléticos, el disco de Perseo voló y mató al anciano Acrisio sin querer, cumpliendo así la profecía del oráculo.",
+          "en": "Fate, however, cannot be avoided: at some athletic games, Perseus's discus flew and killed old Acrisius by accident, thus fulfilling the oracle's prophecy.",
+          "fr": "Le destin, cependant, ne peut être évité : lors de jeux athlétiques, le disque de Persée vola et tua le vieux Acrisios par accident, accomplissant ainsi la prophétie de l'oracle.",
+          "de": "Das Schicksal kann jedoch nicht vermieden werden: Bei Wettkämpfen flog Perseus' Diskus und tötete den alten Akrisios versehentlich, womit sich die Prophezeiung des Orakels erfüllte.",
+          "it": "Il destino, tuttavia, non può essere evitato: durante alcuni giochi atletici, il disco di Perseo volò e uccise il vecchio Acrisio per errore, compiendo così la profezia dell'oracolo.",
+          "pt": "O destino, no entanto, não pode ser evitado: em alguns jogos atléticos, o disco de Perseu voou e matou o velho Acrísio sem querer, cumprindo assim a profecia do oráculo.",
+          "ca": "El destí, però, no es pot evitar: en uns jocs atlètics, el disc de Perseu va volar i va matar el vell Acrísi sense voler, complint així la profecia de l'oracle."
+        }
+      ]
+    },
+    {
+      "tit": "La corona de estrellas",
+      "frases": [
+        {
+          "es": "Perseo reinó durante muchos años en Argos con Andrómeda a su lado, y su reino fue próspero y justo.",
+          "en": "Perseus reigned for many years in Argos with Andromeda at his side, and his kingdom was prosperous and just.",
+          "fr": "Persée régna pendant de nombreuses années à Argos avec Andromède à ses côtés, et son royaume fut prospère et juste.",
+          "de": "Perseus herrschte viele Jahre in Argos mit Andromeda an seiner Seite, und sein Königreich war wohlhabend und gerecht.",
+          "it": "Perseo regnò per molti anni ad Argo con Andromeda al suo fianco, e il suo regno fu prospero e giusto.",
+          "pt": "Perseu reinou durante muitos anos em Argos com Andrómeda ao seu lado, e o seu reino foi próspero e justo.",
+          "ca": "Perseu va regnar durant molts anys a Argos amb Andròmeda al seu costat, i el seu regne va ser pròsper i just."
+        },
+        {
+          "es": "Andrómeda fue una reina sabia y amada que enseñó a su pueblo el valor de la humildad frente a los dioses.",
+          "en": "Andromeda was a wise and beloved queen who taught her people the value of humility before the gods.",
+          "fr": "Andromède fut une reine sage et aimée qui enseigna à son peuple la valeur de l'humilité face aux dieux.",
+          "de": "Andromeda war eine weise und geliebte Königin, die ihrem Volk den Wert der Bescheidenheit vor den Göttern lehrte.",
+          "it": "Andromeda fu una regina saggia e amata che insegnò al suo popolo il valore dell'umiltà di fronte agli dei.",
+          "pt": "Andrómeda foi uma rainha sábia e amada que ensinou ao seu povo o valor da humildade perante os deuses.",
+          "ca": "Andròmeda va ser una reina sàvia i estimada que va ensenyar al seu poble el valor de la humilitat davant els déus."
+        },
+        {
+          "es": "Cuando llegó su hora, los dioses del Olimpo decidieron honrar a Perseo colocándolo entre las estrellas.",
+          "en": "When his time came, the gods of Olympus decided to honour Perseus by placing him among the stars.",
+          "fr": "Quand son heure vint, les dieux de l'Olympe décidèrent d'honorer Persée en le plaçant parmi les étoiles.",
+          "de": "Als seine Stunde kam, beschlossen die Götter des Olymp, Perseus zu ehren, indem sie ihn unter die Sterne versetzten.",
+          "it": "Quando giunse la sua ora, gli dei dell'Olimpo decisero di onorare Perseo ponendolo tra le stelle.",
+          "pt": "Quando chegou a sua hora, os deuses do Olimpo decidiram honrar Perseu colocando-o entre as estrelas.",
+          "ca": "Quan va arribar la seva hora, els déus de l'Olimp van decidir honrar Perseu col·locant-lo entre les estrelles."
+        },
+        {
+          "es": "También Andrómeda, Casiopea, Cefeo y hasta la ballena del monstruo fueron convertidos en constelaciones.",
+          "en": "Andromeda too, and Cassiopeia, Cepheus and even the whale of the monster were turned into constellations.",
+          "fr": "Andromède aussi, ainsi que Cassiopée, Céphée et même la baleine du monstre furent transformés en constellations.",
+          "de": "Auch Andromeda, Kassiopeia, Kepheus und sogar der Wal des Monsters wurden in Sternbilder verwandelt.",
+          "it": "Anche Andromeda, Cassiopea, Cefeo e persino la balena del mostro furono trasformati in costellazioni.",
+          "pt": "Também Andrómeda, Cassiopeia, Cefeu e até a baleia do monstro foram transformados em constelações.",
+          "ca": "També Andròmeda, Cassiopea, Cefeu i fins i tot la balena del monstre van ser convertits en constel·lacions."
+        },
+        {
+          "es": "Así, cada noche, cuando miramos el cielo, podemos ver la historia de Perseo escrita en estrellas para siempre.",
+          "en": "So every night, when we look at the sky, we can see the story of Perseus written in stars for ever.",
+          "fr": "Ainsi, chaque nuit, quand nous regardons le ciel, nous pouvons voir l'histoire de Persée écrite en étoiles pour toujours.",
+          "de": "So können wir jede Nacht, wenn wir in den Himmel schauen, die Geschichte des Perseus für immer in Sterne geschrieben sehen.",
+          "it": "Così, ogni notte, quando guardiamo il cielo, possiamo vedere la storia di Perseo scritta nelle stelle per sempre.",
+          "pt": "Assim, cada noite, quando olhamos para o céu, podemos ver a história de Perseu escrita em estrelas para sempre.",
+          "ca": "Així, cada nit, quan mirem el cel, podem veure la història de Perseu escrita en estrelles per sempre."
+        },
+        {
+          "es": "La moraleja de Perseo es que el valor sin astucia es insuficiente, y la astucia sin valor es vacía.",
+          "en": "The lesson of Perseus is that courage without cleverness is not enough, and cleverness without courage is hollow.",
+          "fr": "La leçon de Persée est que le courage sans ruse est insuffisant, et que la ruse sans courage est vide.",
+          "de": "Die Lehre des Perseus ist, dass Mut ohne List unzureichend ist und List ohne Mut leer ist.",
+          "it": "La morale di Perseo è che il coraggio senza astuzia è insufficiente, e l'astuzia senza coraggio è vuota.",
+          "pt": "A moral de Perseu é que a coragem sem astúcia é insuficiente, e a astúcia sem coragem é vazia.",
+          "ca": "La moralitat de Perseu és que el valor sense astúcia és insuficient, i l'astúcia sense valor és buida."
+        },
+        {
+          "es": "Y Pegaso, el caballo blanco nacido de Medusa, siguió volando libre por los cielos del mundo para siempre.",
+          "en": "And Pegasus, the white horse born from Medusa, kept flying free through the skies of the world for ever.",
+          "fr": "Et Pégase, le cheval blanc né de Méduse, continua de voler librement dans les cieux du monde pour toujours.",
+          "de": "Und Pegasus, das weiße Pferd, das aus Medusa geboren wurde, flog für immer frei durch die Himmel der Welt.",
+          "it": "E Pegaso, il cavallo bianco nato da Medusa, continuò a volare libero nei cieli del mondo per sempre.",
+          "pt": "E Pégaso, o cavalo branco nascido de Medusa, continuou a voar livre pelos céus do mundo para sempre.",
+          "ca": "I Pegàs, el cavall blanc nascut de Medusa, va continuar volant lliure pels cels del món per sempre."
+        }
+      ]
+    }
+  ]
+}
