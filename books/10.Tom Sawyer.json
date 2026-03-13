@@ -1,0 +1,818 @@
+{
+  "id": 10,
+  "tit": "Tom Sawyer",
+  "aut": "Mark Twain",
+  "cat": "Twain",
+  "gratis": true,
+  "cov": "twain",
+  "emo": "🛶",
+  "totalCaps": 35,
+  "caps": [
+    {
+      "tit": "Capítulo 1 – Tom no aparece",
+      "frases": [
+        {
+          "es": "—¡Tom! —Nadie respondió.",
+          "en": "“Tom!” No answer.",
+          "fr": "« Tom ! » Pas de réponse.",
+          "de": "„Tom!“ Keine Antwort.",
+          "it": "«Tom!» Nessuna risposta.",
+          "pt": "“Tom!” Nenhuma resposta.",
+          "ca": "«Tom!» Cap resposta."
+        },
+        {
+          "es": "—¡Tom! —volvió a llamar la tía Polly.",
+          "en": "“Tom!” Aunt Polly called again.",
+          "fr": "« Tom ! » cria encore tante Polly.",
+          "de": "„Tom!“ rief Tante Polly erneut.",
+          "it": "«Tom!» chiamò di nuovo zia Polly.",
+          "pt": "“Tom!” chamou a tia Polly novamente.",
+          "ca": "«Tom!» va tornar a cridar la tia Polly."
+        },
+        {
+          "es": "No hubo respuesta, y la anciana miró por encima de sus gafas.",
+          "en": "There was no answer, and the old lady looked over her glasses.",
+          "fr": "Il n'y eut pas de réponse et la vieille dame regarda par-dessus ses lunettes.",
+          "de": "Es kam keine Antwort, und die alte Dame sah über ihre Brille hinweg.",
+          "it": "Non ci fu risposta e la vecchia guardò sopra gli occhiali.",
+          "pt": "Não houve resposta e a velha olhou por cima dos óculos.",
+          "ca": "No hi va haver resposta i la vella va mirar per sobre de les ulleres."
+        },
+        {
+          "es": "Luego miró por debajo de las gafas, cosa que hacía cuando quería ver algo cercano.",
+          "en": "Then she looked under the glasses, which she did for near things.",
+          "fr": "Puis elle regarda sous ses lunettes, comme elle faisait pour voir de près.",
+          "de": "Dann sah sie unter der Brille hindurch, wie sie es für nahe Dinge tat.",
+          "it": "Poi guardò sotto gli occhiali, come faceva per le cose vicine.",
+          "pt": "Depois olhou por baixo dos óculos, como fazia para ver de perto.",
+          "ca": "Després va mirar per sota de les ulleres, com feia per veure de prop."
+        },
+        {
+          "es": "Rara vez miraba a través de ellas cuando buscaba a un chico travieso.",
+          "en": "She seldom looked through them when searching for a boy.",
+          "fr": "Elle regardait rarement à travers pour chercher un garçon.",
+          "de": "Selten schaute sie hindurch, wenn sie nach einem Jungen suchte.",
+          "it": "Raramente guardava attraverso quando cercava un ragazzo.",
+          "pt": "Raramente olhava através delas quando procurava um rapaz.",
+          "ca": "Rarament mirava a través d'elles quan buscava un noi."
+        },
+        {
+          "es": "—¡Tom! —dijo con más fuerza.",
+          "en": "“Tom!” she said louder.",
+          "fr": "« Tom ! » dit-elle plus fort.",
+          "de": "„Tom!“ sagte sie lauter.",
+          "it": "«Tom!» disse più forte.",
+          "pt": "“Tom!” disse mais alto.",
+          "ca": "«Tom!» va dir més fort."
+        },
+        {
+          "es": "Se oyó un ruido detrás de ella y se volvió justo a tiempo para agarrar a un chico.",
+          "en": "A slight noise behind her made her turn in time to seize a boy.",
+          "fr": "Un bruit derrière elle la fit se retourner et attraper un garçon.",
+          "de": "Ein Geräusch hinter ihr ließ sie sich umdrehen und einen Jungen packen.",
+          "it": "Un rumore dietro di lei la fece voltare e afferrare un ragazzo.",
+          "pt": "Um barulho atrás dela a fez virar e agarrar um rapaz.",
+          "ca": "Un soroll darrere seu la va fer girar-se i agafar un noi."
+        },
+        {
+          "es": "—¡Ajá! Sabía que estabas ahí. ¿Qué estabas haciendo en ese armario?",
+          "en": "“Ah-ha! I might have thought of that closet. What were you doing there?”",
+          "fr": "« Ah ! Je m’en doutais. Que faisais-tu dans ce placard ? »",
+          "de": "„Aha! Was hast du in dem Schrank gemacht?“",
+          "it": "«Ah! Lo sapevo. Cosa facevi nell’armadio?»",
+          "pt": "“Ah! Eu sabia. O que fazias nesse armário?”",
+          "ca": "«Ah! Ja ho sabia. Què feies en aquest armari?»"
+        },
+        {
+          "es": "—Nada.",
+          "en": "“Nothing.”",
+          "fr": "« Rien. »",
+          "de": "„Nichts.“",
+          "it": "«Niente.»",
+          "pt": "“Nada.”",
+          "ca": "«Res.»"
+        },
+        {
+          "es": "—Nada, ¿eh? Entonces ¿por qué tienes mermelada en las manos?",
+          "en": "“Nothing, eh? Then what is that jam on your hands?”",
+          "fr": "« Rien ? Alors pourquoi as-tu de la confiture sur les mains ? »",
+          "de": "„Nichts? Warum hast du dann Marmelade an den Händen?“",
+          "it": "«Niente? Allora perché hai marmellata sulle mani?»",
+          "pt": "“Nada? Então por que tens doce nas mãos?”",
+          "ca": "«Res? Llavors per què tens melmelada a les mans?»"
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 2 – La valla",
+  "frases": [
+    {
+      "es": "El sábado por la mañana llegó y todos los chicos estaban libres y felices.",
+      "en": "Saturday morning came, and all the boys were free and happy.",
+      "fr": "Le samedi matin arriva et tous les garçons étaient libres et heureux.",
+      "de": "Der Samstagmorgen kam und alle Jungen waren frei und glücklich.",
+      "it": "Arrivò il sabato mattina e tutti i ragazzi erano liberi e felici.",
+      "pt": "Chegou o sábado de manhã e todos os rapazes estavam livres e felizes.",
+      "ca": "Va arribar el dissabte al matí i tots els nois estaven lliures i feliços."
+    },
+    {
+      "es": "Tom, en cambio, tenía que pintar la valla del jardín.",
+      "en": "Tom, however, had to paint the fence.",
+      "fr": "Tom, cependant, devait peindre la clôture.",
+      "de": "Tom jedoch musste den Zaun streichen.",
+      "it": "Tom invece doveva dipingere la staccionata.",
+      "pt": "Tom, porém, tinha de pintar a cerca.",
+      "ca": "Tom, en canvi, havia de pintar la tanca."
+    },
+    {
+      "es": "La valla era larga y alta, y el trabajo parecía terrible.",
+      "en": "The fence was long and high, and the work looked terrible.",
+      "fr": "La clôture était longue et haute, et le travail semblait terrible.",
+      "de": "Der Zaun war lang und hoch, und die Arbeit schien schrecklich.",
+      "it": "La staccionata era lunga e alta, e il lavoro sembrava terribile.",
+      "pt": "A cerca era longa e alta, e o trabalho parecia terrível.",
+      "ca": "La tanca era llarga i alta, i la feina semblava terrible."
+    },
+    {
+      "es": "Tom suspiró y mojó el pincel en el cubo de cal.",
+      "en": "Tom sighed and dipped the brush into the bucket of whitewash.",
+      "fr": "Tom soupira et plongea le pinceau dans le seau de chaux.",
+      "de": "Tom seufzte und tauchte den Pinsel in den Kalk.",
+      "it": "Tom sospirò e immerse il pennello nella calce.",
+      "pt": "Tom suspirou e mergulhou o pincel no balde de cal.",
+      "ca": "Tom va sospirar i va mullar el pinzell al cub de calç."
+    },
+    {
+      "es": "Pensó que todos los chicos irían al río mientras él trabajaba.",
+      "en": "He thought all the boys would go to the river while he worked.",
+      "fr": "Il pensa que tous les garçons iraient à la rivière pendant qu'il travaillait.",
+      "de": "Er dachte, alle Jungen würden zum Fluss gehen, während er arbeitete.",
+      "it": "Pensò che tutti i ragazzi sarebbero andati al fiume mentre lui lavorava.",
+      "pt": "Pensou que todos os rapazes iriam ao rio enquanto ele trabalhava.",
+      "ca": "Va pensar que tots els nois anirien al riu mentre ell treballava."
+    },
+    {
+      "es": "En ese momento apareció Ben Rogers comiendo una manzana.",
+      "en": "At that moment Ben Rogers appeared, eating an apple.",
+      "fr": "À ce moment-là, Ben Rogers apparut en mangeant une pomme.",
+      "de": "In diesem Moment erschien Ben Rogers und aß einen Apfel.",
+      "it": "In quel momento apparve Ben Rogers mangiando una mela.",
+      "pt": "Nesse momento apareceu Ben Rogers comendo uma maçã.",
+      "ca": "En aquell moment va aparèixer Ben Rogers menjant una poma."
+    },
+    {
+      "es": "Ben se rió al ver a Tom trabajando.",
+      "en": "Ben laughed when he saw Tom working.",
+      "fr": "Ben rit en voyant Tom travailler.",
+      "de": "Ben lachte, als er Tom arbeiten sah.",
+      "it": "Ben rise vedendo Tom lavorare.",
+      "pt": "Ben riu ao ver Tom a trabalhar.",
+      "ca": "Ben va riure en veure Tom treballant."
+    },
+    {
+      "es": "Tom siguió pintando sin mirarlo, como si el trabajo fuera muy importante.",
+      "en": "Tom kept painting without looking at him, as if the work were very important.",
+      "fr": "Tom continua à peindre sans le regarder, comme si le travail était important.",
+      "de": "Tom strich weiter, als wäre die Arbeit sehr wichtig.",
+      "it": "Tom continuò a dipingere come se fosse un lavoro importante.",
+      "pt": "Tom continuou a pintar como se fosse algo importante.",
+      "ca": "Tom va continuar pintant com si fos molt important."
+    },
+    {
+      "es": "Ben preguntó si era divertido pintar.",
+      "en": "Ben asked if painting was fun.",
+      "fr": "Ben demanda si peindre était amusant.",
+      "de": "Ben fragte, ob Streichen Spaß machte.",
+      "it": "Ben chiese se dipingere fosse divertente.",
+      "pt": "Ben perguntou se pintar era divertido.",
+      "ca": "Ben va preguntar si pintar era divertit."
+    },
+    {
+      "es": "Tom dijo que no todos podían hacerlo, porque era un trabajo muy especial.",
+      "en": "Tom said not everyone could do it, because it was special work.",
+      "fr": "Tom dit que tout le monde ne pouvait pas le faire.",
+      "de": "Tom sagte, nicht jeder könne das machen.",
+      "it": "Tom disse che non tutti potevano farlo.",
+      "pt": "Tom disse que nem todos podiam fazer aquilo.",
+      "ca": "Tom va dir que no tothom podia fer-ho."
+    },
+    {
+      "es": "Ben quiso probar y ofreció su manzana a cambio.",
+      "en": "Ben wanted to try and offered his apple.",
+      "fr": "Ben voulut essayer et offrit sa pomme.",
+      "de": "Ben wollte es versuchen und bot seinen Apfel an.",
+      "it": "Ben volle provare e offrì la mela.",
+      "pt": "Ben quis tentar e ofereceu a maçã.",
+      "ca": "Ben va voler provar i va oferir la poma."
+    },
+    {
+      "es": "Tom aceptó y se sentó a la sombra mientras Ben pintaba.",
+      "en": "Tom agreed and sat in the shade while Ben painted.",
+      "fr": "Tom accepta et s'assit à l'ombre.",
+      "de": "Tom setzte sich in den Schatten.",
+      "it": "Tom si sedette all'ombra.",
+      "pt": "Tom sentou-se à sombra.",
+      "ca": "Tom es va asseure a l'ombra."
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 3 – Problemas y castigos",
+  "frases": [
+    {
+      "es": "Tom disfrutaba del sábado después de haber terminado el trabajo de la valla.",
+      "en": "Tom enjoyed Saturday after finishing the fence work.",
+      "fr": "Tom profitait du samedi après avoir fini la clôture.",
+      "de": "Tom genoss den Samstag nach der Zaunarbeit.",
+      "it": "Tom si godeva il sabato dopo la staccionata.",
+      "pt": "Tom aproveitava o sábado depois da cerca.",
+      "ca": "Tom gaudia del dissabte després de la tanca."
+    },
+    {
+      "es": "Los otros chicos lo miraban con respeto porque había conseguido que hicieran su trabajo.",
+      "en": "The other boys respected him because he made them do his work.",
+      "fr": "Les autres garçons le respectaient.",
+      "de": "Die anderen Jungen respektierten ihn.",
+      "it": "Gli altri ragazzi lo rispettavano.",
+      "pt": "Os outros rapazes o respeitavam.",
+      "ca": "Els altres nois el respectaven."
+    },
+    {
+      "es": "Tom regresó a casa con pequeños tesoros que había conseguido cambiando el turno de pintar.",
+      "en": "Tom returned home with small treasures earned from trading the work.",
+      "fr": "Tom rentra avec des trésors.",
+      "de": "Tom kam mit Schätzen zurück.",
+      "it": "Tom tornò con piccoli tesori.",
+      "pt": "Tom voltou com pequenos tesouros.",
+      "ca": "Tom va tornar amb petits tresors."
+    },
+    {
+      "es": "La tía Polly estaba sorprendida de ver el trabajo terminado.",
+      "en": "Aunt Polly was surprised to see the work finished.",
+      "fr": "La tante Polly fut surprise.",
+      "de": "Tante Polly war überrascht.",
+      "it": "Zia Polly fu sorpresa.",
+      "pt": "A tia Polly ficou surpresa.",
+      "ca": "La tia Polly es va sorprendre."
+    },
+    {
+      "es": "Pensó que Tom había cambiado, pero no estaba segura.",
+      "en": "She thought Tom had changed, but was not sure.",
+      "fr": "Elle pensait qu'il avait changé.",
+      "de": "Sie dachte, er habe sich geändert.",
+      "it": "Pensò che fosse cambiato.",
+      "pt": "Pensou que tinha mudado.",
+      "ca": "Va pensar que havia canviat."
+    },
+    {
+      "es": "Por la tarde, Tom salió a jugar y vio a una niña nueva en el pueblo.",
+      "en": "In the afternoon Tom saw a new girl in town.",
+      "fr": "L'après-midi Tom vit une nouvelle fille.",
+      "de": "Am Nachmittag sah Tom ein neues Mädchen.",
+      "it": "Tom vide una nuova ragazza.",
+      "pt": "Tom viu uma menina nova.",
+      "ca": "Tom va veure una noia nova."
+    },
+    {
+      "es": "La niña llevaba un vestido blanco y parecía muy elegante.",
+      "en": "The girl wore a white dress.",
+      "fr": "La fille portait une robe blanche.",
+      "de": "Das Mädchen trug ein weißes Kleid.",
+      "it": "La ragazza aveva un vestito bianco.",
+      "pt": "A menina usava vestido branco.",
+      "ca": "La noia duia vestit blanc."
+    },
+    {
+      "es": "Tom olvidó a su antigua amiga Amy y quiso llamar la atención de la nueva niña.",
+      "en": "Tom forgot Amy and wanted the new girl's attention.",
+      "fr": "Tom oublia Amy.",
+      "de": "Tom vergaß Amy.",
+      "it": "Tom dimenticò Amy.",
+      "pt": "Tom esqueceu Amy.",
+      "ca": "Tom va oblidar Amy."
+    },
+    {
+      "es": "Hizo piruetas, saltos y movimientos para parecer valiente.",
+      "en": "He made tricks and jumps.",
+      "fr": "Il fit des tours.",
+      "de": "Er machte Kunststücke.",
+      "it": "Fece salti.",
+      "pt": "Fez acrobacias.",
+      "ca": "Va fer salts."
+    },
+    {
+      "es": "La niña fingió no verlo, lo que hizo que Tom se sintiera aún más decidido.",
+      "en": "The girl ignored him.",
+      "fr": "La fille l'ignora.",
+      "de": "Das Mädchen ignorierte ihn.",
+      "it": "La ragazza lo ignorò.",
+      "pt": "A menina ignorou.",
+      "ca": "La noia el va ignorar."
+    },
+    {
+      "es": "Cuando la niña entró en su casa, Tom se quedó mirando la puerta.",
+      "en": "Tom stared at the door.",
+      "fr": "Tom regarda la porte.",
+      "de": "Tom sah zur Tür.",
+      "it": "Tom guardò la porta.",
+      "pt": "Tom ficou olhando.",
+      "ca": "Tom mirava la porta."
+    },
+    {
+      "es": "Pensó que su vida sería muy triste si ella no lo notaba.",
+      "en": "He thought life would be sad.",
+      "fr": "Il pensa que la vie serait triste.",
+      "de": "Er dachte, das Leben wäre traurig.",
+      "it": "Pensò che sarebbe triste.",
+      "pt": "Pensou que seria triste.",
+      "ca": "Va pensar que seria trist."
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 4 – La escuela dominical",
+  "frases": [
+    {
+      "es": "El domingo por la mañana Tom no tenía ganas de ir a la escuela dominical.",
+      "en": "Sunday morning Tom did not want to go to Sunday school.",
+      "fr": "Le dimanche matin Tom ne voulait pas aller à l'école du dimanche.",
+      "de": "Am Sonntag wollte Tom nicht zur Sonntagsschule gehen.",
+      "it": "Domenica Tom non voleva andare alla scuola.",
+      "pt": "No domingo Tom não queria ir à escola.",
+      "ca": "Diumenge Tom no volia anar a l'escola."
+    },
+    {
+      "es": "La tía Polly insistió en que debía lavarse y vestirse bien.",
+      "en": "Aunt Polly insisted he must wash and dress well.",
+      "fr": "La tante Polly insista.",
+      "de": "Tante Polly bestand darauf.",
+      "it": "Zia Polly insistette.",
+      "pt": "A tia Polly insistiu.",
+      "ca": "La tia Polly va insistir."
+    },
+    {
+      "es": "Tom odiaba la ropa limpia porque significaba que no podía jugar.",
+      "en": "Tom hated clean clothes because he could not play.",
+      "fr": "Tom détestait les vêtements propres.",
+      "de": "Tom hasste saubere Kleidung.",
+      "it": "Tom odiava i vestiti puliti.",
+      "pt": "Tom odiava roupa limpa.",
+      "ca": "Tom odiava roba neta."
+    },
+    {
+      "es": "En la escuela dominical los niños debían memorizar versículos.",
+      "en": "At Sunday school the boys memorized verses.",
+      "fr": "Les garçons apprenaient des versets.",
+      "de": "Die Jungen lernten Verse.",
+      "it": "I ragazzi memorizzavano versi.",
+      "pt": "Os rapazes decoravam versos.",
+      "ca": "Els nois memorizaven versos."
+    },
+    {
+      "es": "Por cada versículo recibido daban un ticket de color.",
+      "en": "Each verse gave a colored ticket.",
+      "fr": "Chaque verset donnait un ticket.",
+      "de": "Für jeden Vers gab es ein Ticket.",
+      "it": "Ogni verso dava un biglietto.",
+      "pt": "Cada verso dava um bilhete.",
+      "ca": "Cada vers donava un tiquet."
+    },
+    {
+      "es": "Tom no sabía los versículos, pero tenía muchos tickets.",
+      "en": "Tom did not know verses but had many tickets.",
+      "fr": "Tom ne savait pas les versets.",
+      "de": "Tom kannte die Verse nicht.",
+      "it": "Tom non sapeva i versi.",
+      "pt": "Tom não sabia versos.",
+      "ca": "Tom no sabia els versos."
+    },
+    {
+      "es": "Los había cambiado por tesoros con otros chicos.",
+      "en": "He traded for them.",
+      "fr": "Il les échangea.",
+      "de": "Er tauschte sie.",
+      "it": "Li scambiò.",
+      "pt": "Ele trocou.",
+      "ca": "Els va canviar."
+    },
+    {
+      "es": "El juez visitó la escuela y todos querían impresionarlo.",
+      "en": "The judge visited the school.",
+      "fr": "Le juge visita l'école.",
+      "de": "Der Richter kam.",
+      "it": "Il giudice visitò.",
+      "pt": "O juiz visitou.",
+      "ca": "El jutge va visitar."
+    },
+    {
+      "es": "Tom entregó sus tickets y recibió una gran Biblia.",
+      "en": "Tom got a big Bible.",
+      "fr": "Tom reçut une Bible.",
+      "de": "Tom bekam eine Bibel.",
+      "it": "Tom ricevette una Bibbia.",
+      "pt": "Tom recebeu uma Bíblia.",
+      "ca": "Tom va rebre una Bíblia."
+    },
+    {
+      "es": "Cuando le preguntaron algo difícil, no supo responder.",
+      "en": "He could not answer.",
+      "fr": "Il ne répondit pas.",
+      "de": "Er konnte nicht antworten.",
+      "it": "Non seppe rispondere.",
+      "pt": "Não soube responder.",
+      "ca": "No va saber respondre."
+    },
+    {
+      "es": "Todos rieron y Tom se sintió avergonzado.",
+      "en": "Everyone laughed.",
+      "fr": "Tout le monde rit.",
+      "de": "Alle lachten.",
+      "it": "Tutti risero.",
+      "pt": "Todos riram.",
+      "ca": "Tots van riure."
+    },
+    {
+      "es": "Tom decidió que la escuela dominical era el peor lugar del mundo.",
+      "en": "Tom thought Sunday school was terrible.",
+      "fr": "Tom pensa que c'était terrible.",
+      "de": "Tom fand es schrecklich.",
+      "it": "Tom pensò fosse terribile.",
+      "pt": "Tom achou terrível.",
+      "ca": "Tom va pensar que era terrible."
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 5 – La iglesia",
+  "frases": [
+    {
+      "es": "Después de la escuela dominical, todos fueron a la iglesia.",
+      "en": "After Sunday school, everyone went to church.",
+      "fr": "Après l'école, ils allèrent à l'église.",
+      "de": "Nach der Schule gingen alle zur Kirche.",
+      "it": "Dopo la scuola andarono in chiesa.",
+      "pt": "Depois foram à igreja.",
+      "ca": "Després van anar a l'església."
+    },
+    {
+      "es": "Tom se sentó junto a la tía Polly y trató de comportarse.",
+      "en": "Tom sat with Aunt Polly and tried to behave.",
+      "fr": "Tom s'assit avec sa tante.",
+      "de": "Tom saß bei seiner Tante.",
+      "it": "Tom si sedette con la zia.",
+      "pt": "Tom sentou com a tia.",
+      "ca": "Tom es va asseure amb la tia."
+    },
+    {
+      "es": "El sermón comenzó y Tom pronto se aburrió.",
+      "en": "The sermon began and Tom grew bored.",
+      "fr": "Le sermon commença.",
+      "de": "Die Predigt begann.",
+      "it": "Il sermone iniziò.",
+      "pt": "O sermão começou.",
+      "ca": "El sermó va començar."
+    },
+    {
+      "es": "Intentó contar las tablas del techo para pasar el tiempo.",
+      "en": "He counted the boards on the ceiling.",
+      "fr": "Il compta les planches.",
+      "de": "Er zählte Bretter.",
+      "it": "Contò le tavole.",
+      "pt": "Contou as tábuas.",
+      "ca": "Va comptar les taules."
+    },
+    {
+      "es": "Luego encontró un escarabajo en el suelo.",
+      "en": "He found a beetle.",
+      "fr": "Il trouva un insecte.",
+      "de": "Er fand einen Käfer.",
+      "it": "Trovò un insetto.",
+      "pt": "Encontrou um inseto.",
+      "ca": "Va trobar un insecte."
+    },
+    {
+      "es": "Tom jugó con el insecto sin que nadie lo viera.",
+      "en": "Tom played quietly.",
+      "fr": "Tom joua en silence.",
+      "de": "Tom spielte leise.",
+      "it": "Tom giocò piano.",
+      "pt": "Tom brincou quieto.",
+      "ca": "Tom jugava en silenci."
+    },
+    {
+      "es": "Un perro apareció y quiso atrapar al escarabajo.",
+      "en": "A dog tried to catch it.",
+      "fr": "Un chien arriva.",
+      "de": "Ein Hund kam.",
+      "it": "Arrivò un cane.",
+      "pt": "Um cão apareceu.",
+      "ca": "Va aparèixer un gos."
+    },
+    {
+      "es": "El perro saltaba y la gente intentaba no reír.",
+      "en": "People tried not to laugh.",
+      "fr": "Les gens riaient.",
+      "de": "Die Leute lachten.",
+      "it": "La gente rideva.",
+      "pt": "As pessoas riam.",
+      "ca": "La gent reia."
+    },
+    {
+      "es": "El pastor se enfadó porque nadie prestaba atención.",
+      "en": "The minister was annoyed.",
+      "fr": "Le pasteur se fâcha.",
+      "de": "Der Pfarrer ärgerte sich.",
+      "it": "Il prete si arrabbiò.",
+      "pt": "O pastor irritou-se.",
+      "ca": "El pastor es va enfadar."
+    },
+    {
+      "es": "Tom pensó que la iglesia era muy larga.",
+      "en": "Tom thought church was very long.",
+      "fr": "Tom trouva cela long.",
+      "de": "Tom fand es lang.",
+      "it": "Tom lo trovò lungo.",
+      "pt": "Tom achou longo.",
+      "ca": "Tom ho trobava llarg."
+    },
+    {
+      "es": "Cuando terminó, salió corriendo con los otros chicos.",
+      "en": "When it ended, he ran outside.",
+      "fr": "Il sortit en courant.",
+      "de": "Er rannte hinaus.",
+      "it": "Corse fuori.",
+      "pt": "Saiu correndo.",
+      "ca": "Va sortir corrent."
+    },
+    {
+      "es": "Para Tom, la libertad después del sermón era lo mejor del domingo.",
+      "en": "Freedom after church was the best part.",
+      "fr": "La liberté était le meilleur moment.",
+      "de": "Freiheit war das Beste.",
+      "it": "La libertà era il meglio.",
+      "pt": "A liberdade era o melhor.",
+      "ca": "La llibertat era el millor."
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 6 – El diente y la escuela",
+  "frases": [
+    {
+      "es": "El lunes por la mañana Tom no quería ir a la escuela.",
+      "en": "On Monday morning Tom did not want to go to school.",
+      "fr": "Lundi matin Tom ne voulait pas aller à l'école.",
+      "de": "Am Montag wollte Tom nicht zur Schule gehen.",
+      "it": "Lunedì Tom non voleva andare a scuola.",
+      "pt": "Na segunda Tom não queria ir à escola.",
+      "ca": "Dilluns Tom no volia anar a l'escola."
+    },
+    {
+      "es": "Pensó en fingir que estaba enfermo.",
+      "en": "He thought about pretending to be sick.",
+      "fr": "Il pensa faire semblant.",
+      "de": "Er wollte krank tun.",
+      "it": "Pensò di fingere.",
+      "pt": "Pensou em fingir.",
+      "ca": "Va pensar fingir."
+    },
+    {
+      "es": "Descubrió que tenía un diente flojo y creyó que podía usarlo.",
+      "en": "He found a loose tooth.",
+      "fr": "Il trouva une dent.",
+      "de": "Er hatte einen lockeren Zahn.",
+      "it": "Aveva un dente mosso.",
+      "pt": "Tinha um dente mole.",
+      "ca": "Tenia una dent fluixa."
+    },
+    {
+      "es": "La tía Polly se alegró al principio, pero decidió sacarlo.",
+      "en": "Aunt Polly decided to pull it out.",
+      "fr": "La tante l'enleva.",
+      "de": "Die Tante zog ihn.",
+      "it": "La zia lo tolse.",
+      "pt": "A tia tirou.",
+      "ca": "La tia la va treure."
+    },
+    {
+      "es": "Tom gritó mucho, pero el diente salió rápido.",
+      "en": "Tom screamed but it was quick.",
+      "fr": "Tom cria.",
+      "de": "Tom schrie.",
+      "it": "Tom gridò.",
+      "pt": "Tom gritou.",
+      "ca": "Tom va cridar."
+    },
+    {
+      "es": "Después intentó otra excusa para no ir a la escuela.",
+      "en": "He tried another excuse.",
+      "fr": "Il chercha une excuse.",
+      "de": "Er suchte eine Ausrede.",
+      "it": "Cercò una scusa.",
+      "pt": "Procurou desculpa.",
+      "ca": "Va buscar excusa."
+    },
+    {
+      "es": "Sid descubrió el truco y la tía Polly obligó a Tom a ir.",
+      "en": "Sid told the truth.",
+      "fr": "Sid parla.",
+      "de": "Sid sagte es.",
+      "it": "Sid disse.",
+      "pt": "Sid contou.",
+      "ca": "Sid ho va dir."
+    },
+    {
+      "es": "En el camino Tom se encontró con Huckleberry Finn.",
+      "en": "Tom met Huck Finn.",
+      "fr": "Tom rencontra Huck.",
+      "de": "Tom traf Huck.",
+      "it": "Tom incontrò Huck.",
+      "pt": "Tom encontrou Huck.",
+      "ca": "Tom va trobar Huck."
+    },
+    {
+      "es": "Huck llevaba un gato muerto para curar verrugas.",
+      "en": "Huck had a dead cat.",
+      "fr": "Huck avait un chat.",
+      "de": "Huck hatte eine Katze.",
+      "it": "Huck aveva un gatto.",
+      "pt": "Huck tinha um gato.",
+      "ca": "Huck tenia un gat."
+    },
+    {
+      "es": "Hablaron de magia y cementerios con mucha emoción.",
+      "en": "They talked about magic.",
+      "fr": "Ils parlèrent de magie.",
+      "de": "Sie sprachen über Magie.",
+      "it": "Parlarono di magia.",
+      "pt": "Falaram de magia.",
+      "ca": "Van parlar de màgia."
+    },
+    {
+      "es": "Tom llegó tarde a la escuela por culpa de la conversación.",
+      "en": "Tom arrived late.",
+      "fr": "Tom arriva en retard.",
+      "de": "Tom kam zu spät.",
+      "it": "Tom arrivò tardi.",
+      "pt": "Tom chegou tarde.",
+      "ca": "Tom va arribar tard."
+    },
+    {
+      "es": "El maestro lo castigó y lo sentó junto a la niña nueva.",
+      "en": "The teacher punished him.",
+      "fr": "Le maître le punit.",
+      "de": "Der Lehrer bestrafte ihn.",
+      "it": "Il maestro lo punì.",
+      "pt": "O professor puniu.",
+      "ca": "El mestre el va castigar."
+    },
+    {
+      "es": "Tom estaba feliz porque pudo sentarse junto a Becky.",
+      "en": "Tom was happy to sit near Becky.",
+      "fr": "Tom était content.",
+      "de": "Tom war froh.",
+      "it": "Tom era felice.",
+      "pt": "Tom ficou feliz.",
+      "ca": "Tom estava content."
+    }
+  ]
+}
+,
+{
+  "tit": "Capítulo 7 – Tom y Becky",
+  "frases": [
+    {
+      "es": "Tom se sentó junto a Becky Thatcher en la escuela.",
+      "en": "Tom sat next to Becky Thatcher at school.",
+      "fr": "Tom s'assit près de Becky.",
+      "de": "Tom setzte sich neben Becky.",
+      "it": "Tom si sedette accanto a Becky.",
+      "pt": "Tom sentou ao lado de Becky.",
+      "ca": "Tom es va asseure al costat de Becky."
+    },
+    {
+      "es": "Al principio ninguno de los dos hablaba.",
+      "en": "At first neither spoke.",
+      "fr": "Au début ils ne parlaient pas.",
+      "de": "Zuerst sprach keiner.",
+      "it": "All'inizio non parlarono.",
+      "pt": "No início não falaram.",
+      "ca": "Al principi no parlaven."
+    },
+    {
+      "es": "Tom empezó a dibujar en la pizarra para llamar su atención.",
+      "en": "Tom began drawing to get her attention.",
+      "fr": "Tom dessina.",
+      "de": "Tom zeichnete.",
+      "it": "Tom disegnò.",
+      "pt": "Tom desenhou.",
+      "ca": "Tom va dibuixar."
+    },
+    {
+      "es": "Becky miró el dibujo y sonrió.",
+      "en": "Becky looked and smiled.",
+      "fr": "Becky sourit.",
+      "de": "Becky lächelte.",
+      "it": "Becky sorrise.",
+      "pt": "Becky sorriu.",
+      "ca": "Becky va somriure."
+    },
+    {
+      "es": "Tom dibujó una casa y dijo que podía enseñarle a dibujar.",
+      "en": "Tom drew a house.",
+      "fr": "Tom dessina une maison.",
+      "de": "Tom zeichnete ein Haus.",
+      "it": "Tom disegnò una casa.",
+      "pt": "Tom desenhou uma casa.",
+      "ca": "Tom va dibuixar una casa."
+    },
+    {
+      "es": "Becky aceptó y los dos se acercaron más.",
+      "en": "Becky agreed.",
+      "fr": "Becky accepta.",
+      "de": "Becky stimmte zu.",
+      "it": "Becky accettò.",
+      "pt": "Becky aceitou.",
+      "ca": "Becky va acceptar."
+    },
+    {
+      "es": "Tom le dio un trozo de melocotón como regalo.",
+      "en": "Tom gave her a peach.",
+      "fr": "Tom donna un fruit.",
+      "de": "Tom gab ihr Obst.",
+      "it": "Tom diede un frutto.",
+      "pt": "Tom deu fruta.",
+      "ca": "Tom li va donar fruita."
+    },
+    {
+      "es": "Le preguntó si alguna vez había estado prometida.",
+      "en": "He asked if she was engaged.",
+      "fr": "Il demanda si elle était promise.",
+      "de": "Er fragte nach Verlobung.",
+      "it": "Chiese se era promessa.",
+      "pt": "Perguntou se era prometida.",
+      "ca": "Va preguntar si era promesa."
+    },
+    {
+      "es": "Becky dijo que no sabía lo que era eso.",
+      "en": "Becky said she did not know.",
+      "fr": "Becky ne savait pas.",
+      "de": "Becky wusste nicht.",
+      "it": "Becky non sapeva.",
+      "pt": "Becky não sabia.",
+      "ca": "Becky no sabia."
+    },
+    {
+      "es": "Tom explicó que significaba quererse mucho.",
+      "en": "Tom explained it meant love.",
+      "fr": "Tom expliqua.",
+      "de": "Tom erklärte.",
+      "it": "Tom spiegò.",
+      "pt": "Tom explicou.",
+      "ca": "Tom va explicar."
+    },
+    {
+      "es": "Becky aceptó y los dos dijeron que eran novios.",
+      "en": "They agreed to be engaged.",
+      "fr": "Ils acceptèrent.",
+      "de": "Sie waren einverstanden.",
+      "it": "Accettarono.",
+      "pt": "Aceitaram.",
+      "ca": "Van acceptar."
+    },
+    {
+      "es": "Tom cometió el error de hablar de Amy.",
+      "en": "Tom mentioned Amy.",
+      "fr": "Tom parla d'Amy.",
+      "de": "Tom erwähnte Amy.",
+      "it": "Tom parlò di Amy.",
+      "pt": "Tom falou de Amy.",
+      "ca": "Tom va parlar d'Amy."
+    },
+    {
+      "es": "Becky se enfadó y empezó a llorar.",
+      "en": "Becky got angry and cried.",
+      "fr": "Becky pleura.",
+      "de": "Becky weinte.",
+      "it": "Becky pianse.",
+      "pt": "Becky chorou.",
+      "ca": "Becky va plorar."
+    },
+    {
+      "es": "Tom no supo qué hacer y se sintió muy triste.",
+      "en": "Tom felt very sad.",
+      "fr": "Tom était triste.",
+      "de": "Tom war traurig.",
+      "it": "Tom era triste.",
+      "pt": "Tom ficou triste.",
+      "ca": "Tom estava trist."
+    }
+  ]
+}
