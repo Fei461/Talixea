@@ -11,98 +11,554 @@
     {
       "tit": "La cigarra y la hormiga",
       "frases": [
-        {"es": "En un caluroso verano, una cigarra cantaba alegremente bajo el sol mientras una hormiga trabajaba sin descanso.", "en": "In a hot summer, a grasshopper sang cheerfully under the sun while an ant worked without rest.", "fr": "Par un chaud été, une cigale chantait joyeusement sous le soleil tandis qu'une fourmi travaillait sans relâche.", "de": "In einem heißen Sommer sang eine Grille fröhlich unter der Sonne, während eine Ameise ohne Pause arbeitete.", "it": "In una calda estate, una cicala cantava allegramente sotto il sole mentre una formica lavorava senza sosta.", "pt": "Num quente verão, uma cigarra cantava alegremente sob o sol enquanto uma formiga trabalhava sem descanso.", "ca": "En un calorós estiu, una cigala cantava alegrement sota el sol mentre una formiga treballava sense descans."},
-        {"es": "La hormiga llevaba granos de trigo al hormiguero uno a uno, preparándose para el invierno que se avecinaba.", "en": "The ant carried grains of wheat to the anthill one by one, preparing for the coming winter.", "fr": "La fourmi portait des grains de blé à la fourmilière un par un, se préparant pour l'hiver qui approchait.", "de": "Die Ameise trug Weizenkörner einzeln zum Ameisenhügel und bereitete sich auf den kommenden Winter vor.", "it": "La formica portava chicchi di grano al formicaio uno per uno, preparandosi per l'inverno che si avvicinava.", "pt": "A formiga carregava grãos de trigo para o formigueiro um a um, preparando-se para o inverno que se aproximava.", "ca": "La formiga portava grans de blat al formiguer un a un, preparant-se per a l'hivern que s'aproximava."},
-        {"es": "La cigarra se burlaba de la hormiga y le decía: ¿para qué trabajas tanto? ¡El verano es para disfrutar!", "en": "The grasshopper mocked the ant and said: why do you work so hard? Summer is for enjoying!", "fr": "La cigale se moquait de la fourmi et lui disait : pourquoi travailles-tu autant ? L'été est fait pour en profiter !", "de": "Die Grille verspottete die Ameise und sagte: warum arbeitest du so viel? Der Sommer ist zum Genießen da!", "it": "La cicala si prendeva gioco della formica e le diceva: perché lavori tanto? L'estate è per divertirsi!", "pt": "A cigarra zombava da formiga e dizia-lhe: para que trabalhas tanto? O verão é para desfrutar!", "ca": "La cigala es burlava de la formiga i li deia: per a què treballes tant? L'estiu és per gaudir!"},
-        {"es": "La hormiga respondió con calma: me preparo para el invierno. Te aconsejo que tú también lo hagas.", "en": "The ant replied calmly: I am preparing for winter. I advise you to do the same.", "fr": "La fourmi répondit calmement : je me prépare pour l'hiver. Je te conseille d'en faire autant.", "de": "Die Ameise antwortete ruhig: ich bereite mich auf den Winter vor. Ich rate dir, dasselbe zu tun.", "it": "La formica rispose con calma: mi sto preparando per l'inverno. Ti consiglio di fare lo stesso.", "pt": "A formiga respondeu com calma: estou a preparar-me para o inverno. Aconselho-te a fazer o mesmo.", "ca": "La formiga va respondre amb calma: em preparo per a l'hivern. Et aconsello que facis el mateix."},
-        {"es": "Pero la cigarra no hizo caso y siguió cantando y bailando todos los días del verano.", "en": "But the grasshopper paid no attention and kept singing and dancing every day of summer.", "fr": "Mais la cigale n'y prêta aucune attention et continua à chanter et à danser tous les jours de l'été.", "de": "Aber die Grille achtete nicht darauf und sang und tanzte weiterhin jeden Tag des Sommers.", "it": "Ma la cicala non prestò attenzione e continuò a cantare e ballare ogni giorno dell'estate.", "pt": "Mas a cigarra não ligou e continuou a cantar e a dançar todos os dias do verão.", "ca": "Però la cigala no va fer cas i va continuar cantant i ballant tots els dies de l'estiu."},
-        {"es": "Cuando llegó el invierno, la nieve cubrió el campo y no había nada que comer.", "en": "When winter came, snow covered the fields and there was nothing to eat.", "fr": "Quand l'hiver arriva, la neige couvrit les champs et il n'y avait rien à manger.", "de": "Als der Winter kam, bedeckte Schnee die Felder und es gab nichts zu essen.", "it": "Quando arrivò l'inverno, la neve coprì i campi e non c'era nulla da mangiare.", "pt": "Quando chegou o inverno, a neve cobriu os campos e não havia nada para comer.", "ca": "Quan va arribar l'hivern, la neu va cobrir els camps i no hi havia res per menjar."},
-        {"es": "La cigarra, hambrienta y tiritando de frío, fue a pedir comida a la hormiga.", "en": "The grasshopper, hungry and shivering with cold, went to ask the ant for food.", "fr": "La cigale, affamée et tremblant de froid, alla demander de la nourriture à la fourmi.", "de": "Die Grille, hungrig und vor Kälte zitternd, ging zur Ameise, um um Essen zu bitten.", "it": "La cicala, affamata e tremante di freddo, andò a chiedere cibo alla formica.", "pt": "A cigarra, faminta e a tremer de frio, foi pedir comida à formiga.", "ca": "La cigala, afamada i tremolant de fred, va anar a demanar menjar a la formiga."},
-        {"es": "La hormiga le preguntó: ¿qué hiciste durante el verano? La cigarra respondió: canté todo el día.", "en": "The ant asked her: what did you do during summer? The grasshopper answered: I sang all day long.", "fr": "La fourmi lui demanda : qu'as-tu fait pendant l'été ? La cigale répondit : j'ai chanté toute la journée.", "de": "Die Ameise fragte sie: was hast du im Sommer gemacht? Die Grille antwortete: ich sang den ganzen Tag.", "it": "La formica le chiese: cosa hai fatto durante l'estate? La cicala rispose: ho cantato tutto il giorno.", "pt": "A formiga perguntou-lhe: o que fizeste durante o verão? A cigarra respondeu: cantei o dia todo.", "ca": "La formiga li va preguntar: que vas fer durant l'estiu? La cigala va respondre: vaig cantar tot el dia."},
-        {"es": "La hormiga cerró la puerta y dijo: pues ahora que has cantado en verano, baila en invierno.", "en": "The ant closed the door and said: well, since you sang in summer, now dance in winter.", "fr": "La fourmi ferma la porte et dit : eh bien, puisque tu as chanté en été, danse maintenant en hiver.", "de": "Die Ameise schloss die Tür und sagte: nun, da du im Sommer gesungen hast, tanze jetzt im Winter.", "it": "La formica chiuse la porta e disse: bene, poiché hai cantato in estate, ora danza in inverno.", "pt": "A formiga fechou a porta e disse: pois, já que cantaste no verão, agora dança no inverno.", "ca": "La formiga va tancar la porta i va dir: doncs, ja que vas cantar a l'estiu, ara balla a l'hivern."},
-        {"es": "Moraleja: hay un tiempo para trabajar y un tiempo para descansar, pero quien no trabaja cuando puede, sufre cuando debe.", "en": "Moral: there is a time to work and a time to rest, but whoever does not work when they can, suffers when they must.", "fr": "Morale : il y a un temps pour travailler et un temps pour se reposer, mais celui qui ne travaille pas quand il le peut souffre quand il le doit.", "de": "Moral: Es gibt eine Zeit zum Arbeiten und eine Zeit zum Ruhen, aber wer nicht arbeitet, wenn er kann, leidet, wenn er muss.", "it": "Morale: c'è un tempo per lavorare e un tempo per riposare, ma chi non lavora quando può, soffre quando deve.", "pt": "Moral: há um tempo para trabalhar e um tempo para descansar, mas quem não trabalha quando pode sofre quando deve.", "ca": "Moralitat: hi ha un temps per treballar i un temps per descansar, però qui no treballa quan pot, sofreix quan ha de fer-ho."}
+        {
+          "es": "En un caluroso verano, una cigarra cantaba alegremente bajo el sol mientras una hormiga trabajaba sin descanso.",
+          "en": "In a hot summer, a grasshopper sang cheerfully under the sun while an ant worked without rest.",
+          "fr": "Par un chaud été, une cigale chantait joyeusement sous le soleil tandis qu'une fourmi travaillait sans relâche.",
+          "de": "In einem heißen Sommer sang eine Grille fröhlich unter der Sonne, während eine Ameise ohne Pause arbeitete.",
+          "it": "In una calda estate, una cicala cantava allegramente sotto il sole mentre una formica lavorava senza sosta.",
+          "pt": "Num quente verão, uma cigarra cantava alegremente sob o sol enquanto uma formiga trabalhava sem descanso.",
+          "ca": "En un calorós estiu, una cigala cantava alegrement sota el sol mentre una formiga treballava sense descans."
+        },
+        {
+          "es": "La hormiga llevaba granos de trigo al hormiguero uno a uno, preparándose para el invierno que se avecinaba.",
+          "en": "The ant carried grains of wheat to the anthill one by one, preparing for the coming winter.",
+          "fr": "La fourmi portait des grains de blé à la fourmilière un par un, se préparant pour l'hiver qui approchait.",
+          "de": "Die Ameise trug Weizenkörner einzeln zum Ameisenhügel und bereitete sich auf den kommenden Winter vor.",
+          "it": "La formica portava chicchi di grano al formicaio uno per uno, preparandosi per l'inverno che si avvicinava.",
+          "pt": "A formiga carregava grãos de trigo para o formigueiro um a um, preparando-se para o inverno que se aproximava.",
+          "ca": "La formiga portava grans de blat al formiguer un a un, preparant-se per a l'hivern que s'aproximava."
+        },
+        {
+          "es": "La cigarra se burlaba de la hormiga y le decía: ¿para qué trabajas tanto? ¡El verano es para disfrutar!",
+          "en": "The grasshopper mocked the ant and said: why do you work so hard? Summer is for enjoying!",
+          "fr": "La cigale se moquait de la fourmi et lui disait : pourquoi travailles-tu autant ? L'été est fait pour en profiter !",
+          "de": "Die Grille verspottete die Ameise und sagte: warum arbeitest du so viel? Der Sommer ist zum Genießen da!",
+          "it": "La cicala si prendeva gioco della formica e le diceva: perché lavori tanto? L'estate è per divertirsi!",
+          "pt": "A cigarra zombava da formiga e dizia-lhe: para que trabalhas tanto? O verão é para desfrutar!",
+          "ca": "La cigala es burlava de la formiga i li deia: per a què treballes tant? L'estiu és per gaudir!"
+        },
+        {
+          "es": "La hormiga respondió con calma: me preparo para el invierno. Te aconsejo que tú también lo hagas.",
+          "en": "The ant replied calmly: I am preparing for winter. I advise you to do the same.",
+          "fr": "La fourmi répondit calmement : je me prépare pour l'hiver. Je te conseille d'en faire autant.",
+          "de": "Die Ameise antwortete ruhig: ich bereite mich auf den Winter vor. Ich rate dir, dasselbe zu tun.",
+          "it": "La formica rispose con calma: mi sto preparando per l'inverno. Ti consiglio di fare lo stesso.",
+          "pt": "A formiga respondeu com calma: estou a preparar-me para o inverno. Aconselho-te a fazer o mesmo.",
+          "ca": "La formiga va respondre amb calma: em preparo per a l'hivern. Et aconsello que facis el mateix."
+        },
+        {
+          "es": "Pero la cigarra no hizo caso y siguió cantando y bailando todos los días del verano.",
+          "en": "But the grasshopper paid no attention and kept singing and dancing every day of summer.",
+          "fr": "Mais la cigale n'y prêta aucune attention et continua à chanter et à danser tous les jours de l'été.",
+          "de": "Aber die Grille achtete nicht darauf und sang und tanzte weiterhin jeden Tag des Sommers.",
+          "it": "Ma la cicala non prestò attenzione e continuò a cantare e ballare ogni giorno dell'estate.",
+          "pt": "Mas a cigarra não ligou e continuou a cantar e a dançar todos os dias do verão.",
+          "ca": "Però la cigala no va fer cas i va continuar cantant i ballant tots els dies de l'estiu."
+        },
+        {
+          "es": "Cuando llegó el invierno, la nieve cubrió el campo y no había nada que comer.",
+          "en": "When winter came, snow covered the fields and there was nothing to eat.",
+          "fr": "Quand l'hiver arriva, la neige couvrit les champs et il n'y avait rien à manger.",
+          "de": "Als der Winter kam, bedeckte Schnee die Felder und es gab nichts zu essen.",
+          "it": "Quando arrivò l'inverno, la neve coprì i campi e non c'era nulla da mangiare.",
+          "pt": "Quando chegou o inverno, a neve cobriu os campos e não havia nada para comer.",
+          "ca": "Quan va arribar l'hivern, la neu va cobrir els camps i no hi havia res per menjar."
+        },
+        {
+          "es": "La cigarra, hambrienta y tiritando de frío, fue a pedir comida a la hormiga.",
+          "en": "The grasshopper, hungry and shivering with cold, went to ask the ant for food.",
+          "fr": "La cigale, affamée et tremblant de froid, alla demander de la nourriture à la fourmi.",
+          "de": "Die Grille, hungrig und vor Kälte zitternd, ging zur Ameise, um um Essen zu bitten.",
+          "it": "La cicala, affamata e tremante di freddo, andò a chiedere cibo alla formica.",
+          "pt": "A cigarra, faminta e a tremer de frio, foi pedir comida à formiga.",
+          "ca": "La cigala, afamada i tremolant de fred, va anar a demanar menjar a la formiga."
+        },
+        {
+          "es": "La hormiga le preguntó: ¿qué hiciste durante el verano? La cigarra respondió: canté todo el día.",
+          "en": "The ant asked her: what did you do during summer? The grasshopper answered: I sang all day long.",
+          "fr": "La fourmi lui demanda : qu'as-tu fait pendant l'été ? La cigale répondit : j'ai chanté toute la journée.",
+          "de": "Die Ameise fragte sie: was hast du im Sommer gemacht? Die Grille antwortete: ich sang den ganzen Tag.",
+          "it": "La formica le chiese: cosa hai fatto durante l'estate? La cicala rispose: ho cantato tutto il giorno.",
+          "pt": "A formiga perguntou-lhe: o que fizeste durante o verão? A cigarra respondeu: cantei o dia todo.",
+          "ca": "La formiga li va preguntar: que vas fer durant l'estiu? La cigala va respondre: vaig cantar tot el dia."
+        },
+        {
+          "es": "La hormiga cerró la puerta y dijo: pues ahora que has cantado en verano, baila en invierno.",
+          "en": "The ant closed the door and said: well, since you sang in summer, now dance in winter.",
+          "fr": "La fourmi ferma la porte et dit : eh bien, puisque tu as chanté en été, danse maintenant en hiver.",
+          "de": "Die Ameise schloss die Tür und sagte: nun, da du im Sommer gesungen hast, tanze jetzt im Winter.",
+          "it": "La formica chiuse la porta e disse: bene, poiché hai cantato in estate, ora danza in inverno.",
+          "pt": "A formiga fechou a porta e disse: pois, já que cantaste no verão, agora dança no inverno.",
+          "ca": "La formiga va tancar la porta i va dir: doncs, ja que vas cantar a l'estiu, ara balla a l'hivern."
+        },
+        {
+          "es": "Moraleja: hay un tiempo para trabajar y un tiempo para descansar, pero quien no trabaja cuando puede, sufre cuando debe.",
+          "en": "Moral: there is a time to work and a time to rest, but whoever does not work when they can, suffers when they must.",
+          "fr": "Morale : il y a un temps pour travailler et un temps pour se reposer, mais celui qui ne travaille pas quand il le peut souffre quand il le doit.",
+          "de": "Moral: Es gibt eine Zeit zum Arbeiten und eine Zeit zum Ruhen, aber wer nicht arbeitet, wenn er kann, leidet, wenn er muss.",
+          "it": "Morale: c'è un tempo per lavorare e un tempo per riposare, ma chi non lavora quando può, soffre quando deve.",
+          "pt": "Moral: há um tempo para trabalhar e um tempo para descansar, mas quem não trabalha quando pode sofre quando deve.",
+          "ca": "Moralitat: hi ha un temps per treballar i un temps per descansar, però qui no treballa quan pot, sofreix quan ha de fer-ho."
+        }
       ]
     },
     {
       "tit": "El zorro y las uvas",
       "frases": [
-        {"es": "Un día de otoño, un zorro hambriento caminaba por el campo cuando vio un hermoso racimo de uvas maduras colgando de una parra.", "en": "One autumn day, a hungry fox was walking through the fields when he saw a beautiful bunch of ripe grapes hanging from a vine.", "fr": "Un jour d'automne, un renard affamé marchait dans les champs quand il vit une belle grappe de raisins mûrs suspendue à une vigne.", "de": "An einem Herbsttag lief ein hungriger Fuchs über die Felder, als er eine schöne Traube reifer Weintrauben an einem Weinstock hängen sah.", "it": "Un giorno d'autunno, una volpe affamata camminava per i campi quando vide un bel grappolo di uva matura appeso a una vite.", "pt": "Num dia de outono, uma raposa faminta caminhava pelos campos quando viu um belo cacho de uvas maduras pendurado numa videira.", "ca": "Un dia de tardor, una guineu famolenca caminava pels camps quan va veure un bell raïm d'uves madures penjat d'una parra."},
-        {"es": "Las uvas brillaban al sol y parecían deliciosas. El zorro sintió cómo le hacían agua la boca.", "en": "The grapes shone in the sun and seemed delicious. The fox felt his mouth water.", "fr": "Les raisins brillaient au soleil et semblaient délicieux. Le renard sentit l'eau lui venir à la bouche.", "de": "Die Trauben glänzten in der Sonne und sahen köstlich aus. Dem Fuchs lief das Wasser im Mund zusammen.", "it": "L'uva brillava al sole e sembrava deliziosa. Alla volpe venne l'acquolina in bocca.", "pt": "As uvas brilhavam ao sol e pareciam deliciosas. A raposa sentiu a boca a encher de água.", "ca": "Les uves brillaven al sol i semblaven delicioses. A la guineu se li va fer la boca aigua."},
-        {"es": "El zorro saltó una y otra vez intentando alcanzar las uvas, pero estas estaban demasiado altas.", "en": "The fox jumped again and again trying to reach the grapes, but they were too high up.", "fr": "Le renard sauta encore et encore en essayant d'atteindre les raisins, mais ils étaient trop haut.", "de": "Der Fuchs sprang immer wieder und versuchte, die Trauben zu erreichen, aber sie hingen zu hoch.", "it": "La volpe saltò più e più volte cercando di raggiungere l'uva, ma era troppo in alto.", "pt": "A raposa saltou uma e outra vez tentando alcançar as uvas, mas estas estavam demasiado altas.", "ca": "La guineu va saltar una i altra vegada intentant agafar les uves, però estaven massa altes."},
-        {"es": "Después de mucho esfuerzo, el zorro se rindió. Se alejó con la cabeza bien alta y dijo: esas uvas seguramente están verdes.", "en": "After much effort, the fox gave up. He walked away with his head held high and said: those grapes are surely sour.", "fr": "Après beaucoup d'efforts, le renard abandonna. Il s'éloigna la tête haute et dit : ces raisins sont sûrement aigres.", "de": "Nach großer Mühe gab der Fuchs auf. Er ging mit erhobenem Kopf weg und sagte: diese Trauben sind sicher sauer.", "it": "Dopo molto sforzo, la volpe si arrese. Si allontanò a testa alta e disse: quelle uve sono di certo acerbe.", "pt": "Depois de muito esforço, a raposa desistiu. Afastou-se de cabeça erguida e disse: essas uvas devem estar verdes.", "ca": "Després de molt esforç, la guineu es va rendir. Es va allunyar amb el cap ben alt i va dir: aquestes uves segurament estan verdes."},
-        {"es": "No me gustan nada, añadió el zorro, como si las uvas le resultaran despreciables desde siempre.", "en": "I do not like them at all, added the fox, as if he had always despised those grapes.", "fr": "Je ne les aime pas du tout, ajouta le renard, comme si les raisins lui avaient toujours semblé méprisables.", "de": "Ich mag sie überhaupt nicht, fügte der Fuchs hinzu, als ob er die Trauben schon immer verachtet hätte.", "it": "Non mi piacciono affatto, aggiunse la volpe, come se l'uva le fosse sempre sembrata spregevole.", "pt": "Não gosto nada delas, acrescentou a raposa, como se as uvas lhe tivessem sempre parecido desprezíveis.", "ca": "No m'agraden gens, va afegir la guineu, com si les uves li haguessin semblat sempre menyspables."},
-        {"es": "Un cuervo que había observado toda la escena desde un árbol soltó una carcajada.", "en": "A crow that had been watching the whole scene from a tree burst out laughing.", "fr": "Un corbeau qui avait observé toute la scène depuis un arbre éclata de rire.", "de": "Eine Krähe, die die ganze Szene von einem Baum aus beobachtet hatte, brach in lautes Lachen aus.", "it": "Un corvo che aveva osservato tutta la scena da un albero scoppiò a ridere.", "pt": "Um corvo que tinha observado toda a cena de uma árvore soltou uma gargalhada.", "ca": "Un corb que havia observat tota l'escena des d'un arbre va esclatar a riure."},
-        {"es": "Moraleja: es fácil despreciar lo que no podemos alcanzar.", "en": "Moral: it is easy to despise what we cannot reach.", "fr": "Morale : il est facile de mépriser ce que l'on ne peut pas atteindre.", "de": "Moral: Es ist leicht, das zu verachten, was wir nicht erreichen können.", "it": "Morale: è facile disprezzare ciò che non riusciamo a raggiungere.", "pt": "Moral: é fácil desprezar o que não conseguimos alcançar.", "ca": "Moralitat: és fàcil menysprear allò que no podem aconseguir."}
+        {
+          "es": "Un día de otoño, un zorro hambriento caminaba por el campo cuando vio un hermoso racimo de uvas maduras colgando de una parra.",
+          "en": "One autumn day, a hungry fox was walking through the fields when he saw a beautiful bunch of ripe grapes hanging from a vine.",
+          "fr": "Un jour d'automne, un renard affamé marchait dans les champs quand il vit une belle grappe de raisins mûrs suspendue à une vigne.",
+          "de": "An einem Herbsttag lief ein hungriger Fuchs über die Felder, als er eine schöne Traube reifer Weintrauben an einem Weinstock hängen sah.",
+          "it": "Un giorno d'autunno, una volpe affamata camminava per i campi quando vide un bel grappolo di uva matura appeso a una vite.",
+          "pt": "Num dia de outono, uma raposa faminta caminhava pelos campos quando viu um belo cacho de uvas maduras pendurado numa videira.",
+          "ca": "Un dia de tardor, una guineu famolenca caminava pels camps quan va veure un bell raïm d'uves madures penjat d'una parra."
+        },
+        {
+          "es": "Las uvas brillaban al sol y parecían deliciosas. El zorro sintió cómo le hacían agua la boca.",
+          "en": "The grapes shone in the sun and seemed delicious. The fox felt his mouth water.",
+          "fr": "Les raisins brillaient au soleil et semblaient délicieux. Le renard sentit l'eau lui venir à la bouche.",
+          "de": "Die Trauben glänzten in der Sonne und sahen köstlich aus. Dem Fuchs lief das Wasser im Mund zusammen.",
+          "it": "L'uva brillava al sole e sembrava deliziosa. Alla volpe venne l'acquolina in bocca.",
+          "pt": "As uvas brilhavam ao sol e pareciam deliciosas. A raposa sentiu a boca a encher de água.",
+          "ca": "Les uves brillaven al sol i semblaven delicioses. A la guineu se li va fer la boca aigua."
+        },
+        {
+          "es": "El zorro saltó una y otra vez intentando alcanzar las uvas, pero estas estaban demasiado altas.",
+          "en": "The fox jumped again and again trying to reach the grapes, but they were too high up.",
+          "fr": "Le renard sauta encore et encore en essayant d'atteindre les raisins, mais ils étaient trop haut.",
+          "de": "Der Fuchs sprang immer wieder und versuchte, die Trauben zu erreichen, aber sie hingen zu hoch.",
+          "it": "La volpe saltò più e più volte cercando di raggiungere l'uva, ma era troppo in alto.",
+          "pt": "A raposa saltou uma e outra vez tentando alcançar as uvas, mas estas estavam demasiado altas.",
+          "ca": "La guineu va saltar una i altra vegada intentant agafar les uves, però estaven massa altes."
+        },
+        {
+          "es": "Después de mucho esfuerzo, el zorro se rindió. Se alejó con la cabeza bien alta y dijo: esas uvas seguramente están verdes.",
+          "en": "After much effort, the fox gave up. He walked away with his head held high and said: those grapes are surely sour.",
+          "fr": "Après beaucoup d'efforts, le renard abandonna. Il s'éloigna la tête haute et dit : ces raisins sont sûrement aigres.",
+          "de": "Nach großer Mühe gab der Fuchs auf. Er ging mit erhobenem Kopf weg und sagte: diese Trauben sind sicher sauer.",
+          "it": "Dopo molto sforzo, la volpe si arrese. Si allontanò a testa alta e disse: quelle uve sono di certo acerbe.",
+          "pt": "Depois de muito esforço, a raposa desistiu. Afastou-se de cabeça erguida e disse: essas uvas devem estar verdes.",
+          "ca": "Després de molt esforç, la guineu es va rendir. Es va allunyar amb el cap ben alt i va dir: aquestes uves segurament estan verdes."
+        },
+        {
+          "es": "No me gustan nada, añadió el zorro, como si las uvas le resultaran despreciables desde siempre.",
+          "en": "I do not like them at all, added the fox, as if he had always despised those grapes.",
+          "fr": "Je ne les aime pas du tout, ajouta le renard, comme si les raisins lui avaient toujours semblé méprisables.",
+          "de": "Ich mag sie überhaupt nicht, fügte der Fuchs hinzu, als ob er die Trauben schon immer verachtet hätte.",
+          "it": "Non mi piacciono affatto, aggiunse la volpe, come se l'uva le fosse sempre sembrata spregevole.",
+          "pt": "Não gosto nada delas, acrescentou a raposa, como se as uvas lhe tivessem sempre parecido desprezíveis.",
+          "ca": "No m'agraden gens, va afegir la guineu, com si les uves li haguessin semblat sempre menyspables."
+        },
+        {
+          "es": "Un cuervo que había observado toda la escena desde un árbol soltó una carcajada.",
+          "en": "A crow that had been watching the whole scene from a tree burst out laughing.",
+          "fr": "Un corbeau qui avait observé toute la scène depuis un arbre éclata de rire.",
+          "de": "Eine Krähe, die die ganze Szene von einem Baum aus beobachtet hatte, brach in lautes Lachen aus.",
+          "it": "Un corvo che aveva osservato tutta la scena da un albero scoppiò a ridere.",
+          "pt": "Um corvo que tinha observado toda a cena de uma árvore soltou uma gargalhada.",
+          "ca": "Un corb que havia observat tota l'escena des d'un arbre va esclatar a riure."
+        },
+        {
+          "es": "Moraleja: es fácil despreciar lo que no podemos alcanzar.",
+          "en": "Moral: it is easy to despise what we cannot reach.",
+          "fr": "Morale : il est facile de mépriser ce que l'on ne peut pas atteindre.",
+          "de": "Moral: Es ist leicht, das zu verachten, was wir nicht erreichen können.",
+          "it": "Morale: è facile disprezzare ciò che non riusciamo a raggiungere.",
+          "pt": "Moral: é fácil desprezar o que não conseguimos alcançar.",
+          "ca": "Moralitat: és fàcil menysprear allò que no podem aconseguir."
+        }
       ]
     },
     {
       "tit": "El lobo y el cordero",
       "frases": [
-        {"es": "Un lobo vio a un cordero bebiendo agua en un arroyo y quiso devorarle, pero buscó una excusa para hacerlo.", "en": "A wolf saw a lamb drinking water at a stream and wanted to devour it, but looked for an excuse to do so.", "fr": "Un loup vit un agneau buvant de l'eau à un ruisseau et voulut le dévorer, mais chercha un prétexte pour le faire.", "de": "Ein Wolf sah ein Lamm, das an einem Bach Wasser trank, und wollte es fressen, suchte aber nach einem Vorwand.", "it": "Un lupo vide un agnello che beveva acqua in un ruscello e volle divorarlo, ma cercò una scusa per farlo.", "pt": "Um lobo viu um cordeiro a beber água num ribeiro e quis devorá-lo, mas procurou um pretexto para o fazer.", "ca": "Un llop va veure un anyell bevent aigua en un rierol i va voler devorar-lo, però va buscar una excusa per fer-ho."},
-        {"es": "El lobo dijo: ¿cómo te atreves a enturbiar el agua que yo bebo? El cordero respondió: pero señor, yo bebo río abajo de donde usted bebe.", "en": "The wolf said: how dare you muddy the water I drink? The lamb replied: but sir, I drink downstream from where you drink.", "fr": "Le loup dit : comment oses-tu troubler l'eau que je bois ? L'agneau répondit : mais monsieur, je bois en aval de l'endroit où vous buvez.", "de": "Der Wolf sagte: wie wagst du es, das Wasser zu trüben, das ich trinke? Das Lamm antwortete: aber Herr, ich trinke flussabwärts von Ihnen.", "it": "Il lupo disse: come osi intorbidire l'acqua che bevo? L'agnello rispose: ma signore, bevo a valle di dove beve lei.", "pt": "O lobo disse: como te atreves a turvar a água que eu bebo? O cordeiro respondeu: mas senhor, eu bebo rio abaixo de onde o senhor bebe.", "ca": "El llop va dir: com t'atreveixes a enterbolir l'aigua que jo bec? L'anyell va respondre: però senyor, jo bec riu avall d'on vostè beu."},
-        {"es": "El lobo no podía contradecir la verdad, así que inventó otra acusación: pues el año pasado le insultaste a mi padre.", "en": "The wolf could not contradict the truth, so he invented another accusation: well, last year you insulted my father.", "fr": "Le loup ne pouvait contredire la vérité, alors il inventa une autre accusation : l'an dernier, tu as insulté mon père.", "de": "Der Wolf konnte der Wahrheit nicht widersprechen und erfand eine neue Anschuldigung: letztes Jahr hast du meinen Vater beleidigt.", "it": "Il lupo non poteva contraddire la verità, così inventò un'altra accusa: l'anno scorso hai insultato mio padre.", "pt": "O lobo não podia contradizer a verdade, então inventou outra acusação: no ano passado insultaste o meu pai.", "ca": "El llop no podia contradir la veritat, així que va inventar una altra acusació: l'any passat vas insultar el meu pare."},
-        {"es": "El cordero respondió: eso es imposible, señor, pues yo aún no había nacido el año pasado.", "en": "The lamb replied: that is impossible, sir, for I was not yet born last year.", "fr": "L'agneau répondit : c'est impossible, monsieur, car je n'étais pas encore né l'an dernier.", "de": "Das Lamm antwortete: das ist unmöglich, Herr, denn ich war letztes Jahr noch nicht geboren.", "it": "L'agnello rispose: è impossibile, signore, poiché l'anno scorso non ero ancora nato.", "pt": "O cordeiro respondeu: isso é impossível, senhor, pois eu ainda não tinha nascido no ano passado.", "ca": "L'anyell va respondre: és impossible, senyor, perquè jo encara no havia nascut l'any passat."},
-        {"es": "Pero el lobo, sin importarle la verdad ni la razón, declaró: ¡pues fue alguno de tu familia! Y se abalanzó sobre el cordero.", "en": "But the wolf, caring nothing for truth or reason, declared: then it was one of your family! And he leaped upon the lamb.", "fr": "Mais le loup, sans se soucier de la vérité ni de la raison, déclara : alors c'était un membre de ta famille ! Et il se jeta sur l'agneau.", "de": "Aber der Wolf, dem Wahrheit und Vernunft gleichgültig waren, erklärte: dann war es jemand aus deiner Familie! Und er stürzte sich auf das Lamm.", "it": "Ma il lupo, senza curarsi della verità né della ragione, dichiarò: allora era qualcuno della tua famiglia! E si avventò sull'agnello.", "pt": "Mas o lobo, sem se importar com a verdade nem com a razão, declarou: pois foi alguém da tua família! E atirou-se ao cordeiro.", "ca": "Però el llop, sense importar-li la veritat ni la raó, va declarar: doncs va ser algú de la teva família! I es va llançar sobre l'anyell."},
-        {"es": "Moraleja: el tirano siempre encuentra una excusa para oprimir a los inocentes.", "en": "Moral: the tyrant always finds an excuse to oppress the innocent.", "fr": "Morale : le tyran trouve toujours un prétexte pour opprimer les innocents.", "de": "Moral: Der Tyrann findet immer eine Ausrede, um die Unschuldigen zu unterdrücken.", "it": "Morale: il tiranno trova sempre una scusa per opprimere gli innocenti.", "pt": "Moral: o tirano encontra sempre um pretexto para oprimir os inocentes.", "ca": "Moralitat: el tirà sempre troba una excusa per oprimir els innocents."}
+        {
+          "es": "Un lobo vio a un cordero bebiendo agua en un arroyo y quiso devorarle, pero buscó una excusa para hacerlo.",
+          "en": "A wolf saw a lamb drinking water at a stream and wanted to devour it, but looked for an excuse to do so.",
+          "fr": "Un loup vit un agneau buvant de l'eau à un ruisseau et voulut le dévorer, mais chercha un prétexte pour le faire.",
+          "de": "Ein Wolf sah ein Lamm, das an einem Bach Wasser trank, und wollte es fressen, suchte aber nach einem Vorwand.",
+          "it": "Un lupo vide un agnello che beveva acqua in un ruscello e volle divorarlo, ma cercò una scusa per farlo.",
+          "pt": "Um lobo viu um cordeiro a beber água num ribeiro e quis devorá-lo, mas procurou um pretexto para o fazer.",
+          "ca": "Un llop va veure un anyell bevent aigua en un rierol i va voler devorar-lo, però va buscar una excusa per fer-ho."
+        },
+        {
+          "es": "El lobo dijo: ¿cómo te atreves a enturbiar el agua que yo bebo? El cordero respondió: pero señor, yo bebo río abajo de donde usted bebe.",
+          "en": "The wolf said: how dare you muddy the water I drink? The lamb replied: but sir, I drink downstream from where you drink.",
+          "fr": "Le loup dit : comment oses-tu troubler l'eau que je bois ? L'agneau répondit : mais monsieur, je bois en aval de l'endroit où vous buvez.",
+          "de": "Der Wolf sagte: wie wagst du es, das Wasser zu trüben, das ich trinke? Das Lamm antwortete: aber Herr, ich trinke flussabwärts von Ihnen.",
+          "it": "Il lupo disse: come osi intorbidire l'acqua che bevo? L'agnello rispose: ma signore, bevo a valle di dove beve lei.",
+          "pt": "O lobo disse: como te atreves a turvar a água que eu bebo? O cordeiro respondeu: mas senhor, eu bebo rio abaixo de onde o senhor bebe.",
+          "ca": "El llop va dir: com t'atreveixes a enterbolir l'aigua que jo bec? L'anyell va respondre: però senyor, jo bec riu avall d'on vostè beu."
+        },
+        {
+          "es": "El lobo no podía contradecir la verdad, así que inventó otra acusación: pues el año pasado le insultaste a mi padre.",
+          "en": "The wolf could not contradict the truth, so he invented another accusation: well, last year you insulted my father.",
+          "fr": "Le loup ne pouvait contredire la vérité, alors il inventa une autre accusation : l'an dernier, tu as insulté mon père.",
+          "de": "Der Wolf konnte der Wahrheit nicht widersprechen und erfand eine neue Anschuldigung: letztes Jahr hast du meinen Vater beleidigt.",
+          "it": "Il lupo non poteva contraddire la verità, così inventò un'altra accusa: l'anno scorso hai insultato mio padre.",
+          "pt": "O lobo não podia contradizer a verdade, então inventou outra acusação: no ano passado insultaste o meu pai.",
+          "ca": "El llop no podia contradir la veritat, així que va inventar una altra acusació: l'any passat vas insultar el meu pare."
+        },
+        {
+          "es": "El cordero respondió: eso es imposible, señor, pues yo aún no había nacido el año pasado.",
+          "en": "The lamb replied: that is impossible, sir, for I was not yet born last year.",
+          "fr": "L'agneau répondit : c'est impossible, monsieur, car je n'étais pas encore né l'an dernier.",
+          "de": "Das Lamm antwortete: das ist unmöglich, Herr, denn ich war letztes Jahr noch nicht geboren.",
+          "it": "L'agnello rispose: è impossibile, signore, poiché l'anno scorso non ero ancora nato.",
+          "pt": "O cordeiro respondeu: isso é impossível, senhor, pois eu ainda não tinha nascido no ano passado.",
+          "ca": "L'anyell va respondre: és impossible, senyor, perquè jo encara no havia nascut l'any passat."
+        },
+        {
+          "es": "Pero el lobo, sin importarle la verdad ni la razón, declaró: ¡pues fue alguno de tu familia! Y se abalanzó sobre el cordero.",
+          "en": "But the wolf, caring nothing for truth or reason, declared: then it was one of your family! And he leaped upon the lamb.",
+          "fr": "Mais le loup, sans se soucier de la vérité ni de la raison, déclara : alors c'était un membre de ta famille ! Et il se jeta sur l'agneau.",
+          "de": "Aber der Wolf, dem Wahrheit und Vernunft gleichgültig waren, erklärte: dann war es jemand aus deiner Familie! Und er stürzte sich auf das Lamm.",
+          "it": "Ma il lupo, senza curarsi della verità né della ragione, dichiarò: allora era qualcuno della tua famiglia! E si avventò sull'agnello.",
+          "pt": "Mas o lobo, sem se importar com a verdade nem com a razão, declarou: pois foi alguém da tua família! E atirou-se ao cordeiro.",
+          "ca": "Però el llop, sense importar-li la veritat ni la raó, va declarar: doncs va ser algú de la teva família! I es va llançar sobre l'anyell."
+        },
+        {
+          "es": "Moraleja: el tirano siempre encuentra una excusa para oprimir a los inocentes.",
+          "en": "Moral: the tyrant always finds an excuse to oppress the innocent.",
+          "fr": "Morale : le tyran trouve toujours un prétexte pour opprimer les innocents.",
+          "de": "Moral: Der Tyrann findet immer eine Ausrede, um die Unschuldigen zu unterdrücken.",
+          "it": "Morale: il tiranno trova sempre una scusa per opprimere gli innocenti.",
+          "pt": "Moral: o tirano encontra sempre um pretexto para oprimir os inocentes.",
+          "ca": "Moralitat: el tirà sempre troba una excusa per oprimir els innocents."
+        }
       ]
     },
     {
       "tit": "La liebre y la tortuga",
       "frases": [
-        {"es": "Una liebre se burlaba constantemente de la tortuga por lo despacio que caminaba.", "en": "A hare constantly mocked the tortoise for how slowly she walked.", "fr": "Un lièvre se moquait constamment de la tortue pour sa lenteur.", "de": "Ein Hase verspottete die Schildkröte ständig wegen ihrer Langsamkeit.", "it": "Una lepre si prendeva continuamente gioco della tartaruga per quanto lentamente camminasse.", "pt": "Uma lebre caçoava constantemente da tartaruga por andar tão devagar.", "ca": "Una llebre es burlava constantment de la tortuga per com caminava de despaci."},
-        {"es": "La tortuga, cansada de las burlas, desafió a la liebre a una carrera.", "en": "The tortoise, tired of the mockery, challenged the hare to a race.", "fr": "La tortue, lasse des moqueries, défia le lièvre à une course.", "de": "Die Schildkröte, müde von den Spötteleien, forderte den Hasen zu einem Rennen heraus.", "it": "La tartaruga, stanca delle prese in giro, sfidò la lepre a una gara.", "pt": "A tartaruga, cansada das zombarias, desafiou a lebre para uma corrida.", "ca": "La tortuga, cansada de les burles, va desafiar la llebre a una cursa."},
-        {"es": "La liebre aceptó entre carcajadas, pues le parecía ridículo que alguien tan lento pudiera ganarle.", "en": "The hare accepted amid laughter, for it seemed ridiculous that anyone so slow could beat her.", "fr": "Le lièvre accepta en riant, car il lui semblait ridicule que quelqu'un d'aussi lent puisse le battre.", "de": "Der Hase nahm die Herausforderung lachend an, denn es schien ihm lächerlich, dass jemand so Langsames ihn besiegen könnte.", "it": "La lepre accettò tra le risate, poiché le sembrava ridicolo che qualcuno così lento potesse batterla.", "pt": "A lebre aceitou entre gargalhadas, pois parecia-lhe ridículo que alguém tão lento pudesse vencê-la.", "ca": "La llebre va acceptar entre riallades, perquè li semblava ridícul que algú tan lent pogués guanyar-la."},
-        {"es": "La carrera comenzó y la liebre salió disparada. Pronto llevaba tanta ventaja que decidió descansar bajo un árbol.", "en": "The race began and the hare shot forward. She soon had such a lead that she decided to rest under a tree.", "fr": "La course commença et le lièvre s'élança. Il avait bientôt une telle avance qu'il décida de se reposer sous un arbre.", "de": "Das Rennen begann und der Hase schoss los. Er hatte bald einen solchen Vorsprung, dass er beschloss, sich unter einem Baum auszuruhen.", "it": "La gara iniziò e la lepre scattò in avanti. Aveva presto un vantaggio tale da decidere di riposarsi sotto un albero.", "pt": "A corrida começou e a lebre disparou. Em breve tinha tanta vantagem que decidiu descansar debaixo de uma árvore.", "ca": "La cursa va començar i la llebre va sortir disparada. Aviat portava tanta avantatge que va decidir descansar sota un arbre."},
-        {"es": "La tortuga siguió caminando sin parar, paso a paso, sin apresurarse pero sin detenerse jamás.", "en": "The tortoise kept walking without stopping, step by step, without hurrying but never stopping.", "fr": "La tortue continua de marcher sans s'arrêter, pas à pas, sans se presser mais sans jamais s'arrêter.", "de": "Die Schildkröte lief weiter ohne anzuhalten, Schritt für Schritt, ohne Eile aber auch ohne je anzuhalten.", "it": "La tartaruga continuò a camminare senza fermarsi, passo dopo passo, senza affrettarsi ma senza mai fermarsi.", "pt": "A tartaruga continuou a caminhar sem parar, passo a passo, sem se apressar mas sem jamais parar.", "ca": "La tortuga va continuar caminant sense parar, pas a pas, sense apressar-se però sense aturar-se mai."},
-        {"es": "La liebre se quedó dormida. Cuando despertó, corrió con todas sus fuerzas pero ya era tarde: la tortuga había cruzado la meta.", "en": "The hare fell asleep. When she woke up, she ran with all her might but it was too late: the tortoise had already crossed the finish line.", "fr": "Le lièvre s'endormit. Quand il se réveilla, il courut de toutes ses forces mais il était trop tard : la tortue avait déjà franchi la ligne d'arrivée.", "de": "Der Hase schlief ein. Als er aufwachte, lief er mit aller Kraft, aber es war zu spät: die Schildkröte hatte die Ziellinie bereits überquert.", "it": "La lepre si addormentò. Quando si svegliò, corse con tutte le sue forze ma era troppo tardi: la tartaruga aveva già tagliato il traguardo.", "pt": "A lebre adormeceu. Quando acordou, correu com todas as suas forças mas já era tarde: a tartaruga já tinha cruzado a meta.", "ca": "La llebre es va adormir. Quan es va despertar, va córrer amb totes les seves forces però ja era tard: la tortuga havia creuat la meta."},
-        {"es": "Moraleja: la constancia y la perseverancia vencen al talento cuando este se acompaña de arrogancia.", "en": "Moral: constancy and perseverance overcome talent when it is accompanied by arrogance.", "fr": "Morale : la constance et la persévérance l'emportent sur le talent quand celui-ci s'accompagne d'arrogance.", "de": "Moral: Beständigkeit und Ausdauer überwinden Talent, wenn dieses von Arroganz begleitet wird.", "it": "Morale: la costanza e la perseveranza vincono sul talento quando questo è accompagnato dall'arroganza.", "pt": "Moral: a constância e a perseverança vencem o talento quando este se acompanha de arrogância.", "ca": "Moralitat: la constància i la perseverança vencen el talent quan aquest s'acompanya d'arrogància."}
+        {
+          "es": "Una liebre se burlaba constantemente de la tortuga por lo despacio que caminaba.",
+          "en": "A hare constantly mocked the tortoise for how slowly she walked.",
+          "fr": "Un lièvre se moquait constamment de la tortue pour sa lenteur.",
+          "de": "Ein Hase verspottete die Schildkröte ständig wegen ihrer Langsamkeit.",
+          "it": "Una lepre si prendeva continuamente gioco della tartaruga per quanto lentamente camminasse.",
+          "pt": "Uma lebre caçoava constantemente da tartaruga por andar tão devagar.",
+          "ca": "Una llebre es burlava constantment de la tortuga per com caminava de despaci."
+        },
+        {
+          "es": "La tortuga, cansada de las burlas, desafió a la liebre a una carrera.",
+          "en": "The tortoise, tired of the mockery, challenged the hare to a race.",
+          "fr": "La tortue, lasse des moqueries, défia le lièvre à une course.",
+          "de": "Die Schildkröte, müde von den Spötteleien, forderte den Hasen zu einem Rennen heraus.",
+          "it": "La tartaruga, stanca delle prese in giro, sfidò la lepre a una gara.",
+          "pt": "A tartaruga, cansada das zombarias, desafiou a lebre para uma corrida.",
+          "ca": "La tortuga, cansada de les burles, va desafiar la llebre a una cursa."
+        },
+        {
+          "es": "La liebre aceptó entre carcajadas, pues le parecía ridículo que alguien tan lento pudiera ganarle.",
+          "en": "The hare accepted amid laughter, for it seemed ridiculous that anyone so slow could beat her.",
+          "fr": "Le lièvre accepta en riant, car il lui semblait ridicule que quelqu'un d'aussi lent puisse le battre.",
+          "de": "Der Hase nahm die Herausforderung lachend an, denn es schien ihm lächerlich, dass jemand so Langsames ihn besiegen könnte.",
+          "it": "La lepre accettò tra le risate, poiché le sembrava ridicolo che qualcuno così lento potesse batterla.",
+          "pt": "A lebre aceitou entre gargalhadas, pois parecia-lhe ridículo que alguém tão lento pudesse vencê-la.",
+          "ca": "La llebre va acceptar entre riallades, perquè li semblava ridícul que algú tan lent pogués guanyar-la."
+        },
+        {
+          "es": "La carrera comenzó y la liebre salió disparada. Pronto llevaba tanta ventaja que decidió descansar bajo un árbol.",
+          "en": "The race began and the hare shot forward. She soon had such a lead that she decided to rest under a tree.",
+          "fr": "La course commença et le lièvre s'élança. Il avait bientôt une telle avance qu'il décida de se reposer sous un arbre.",
+          "de": "Das Rennen begann und der Hase schoss los. Er hatte bald einen solchen Vorsprung, dass er beschloss, sich unter einem Baum auszuruhen.",
+          "it": "La gara iniziò e la lepre scattò in avanti. Aveva presto un vantaggio tale da decidere di riposarsi sotto un albero.",
+          "pt": "A corrida começou e a lebre disparou. Em breve tinha tanta vantagem que decidiu descansar debaixo de uma árvore.",
+          "ca": "La cursa va començar i la llebre va sortir disparada. Aviat portava tanta avantatge que va decidir descansar sota un arbre."
+        },
+        {
+          "es": "La tortuga siguió caminando sin parar, paso a paso, sin apresurarse pero sin detenerse jamás.",
+          "en": "The tortoise kept walking without stopping, step by step, without hurrying but never stopping.",
+          "fr": "La tortue continua de marcher sans s'arrêter, pas à pas, sans se presser mais sans jamais s'arrêter.",
+          "de": "Die Schildkröte lief weiter ohne anzuhalten, Schritt für Schritt, ohne Eile aber auch ohne je anzuhalten.",
+          "it": "La tartaruga continuò a camminare senza fermarsi, passo dopo passo, senza affrettarsi ma senza mai fermarsi.",
+          "pt": "A tartaruga continuou a caminhar sem parar, passo a passo, sem se apressar mas sem jamais parar.",
+          "ca": "La tortuga va continuar caminant sense parar, pas a pas, sense apressar-se però sense aturar-se mai."
+        },
+        {
+          "es": "La liebre se quedó dormida. Cuando despertó, corrió con todas sus fuerzas pero ya era tarde: la tortuga había cruzado la meta.",
+          "en": "The hare fell asleep. When she woke up, she ran with all her might but it was too late: the tortoise had already crossed the finish line.",
+          "fr": "Le lièvre s'endormit. Quand il se réveilla, il courut de toutes ses forces mais il était trop tard : la tortue avait déjà franchi la ligne d'arrivée.",
+          "de": "Der Hase schlief ein. Als er aufwachte, lief er mit aller Kraft, aber es war zu spät: die Schildkröte hatte die Ziellinie bereits überquert.",
+          "it": "La lepre si addormentò. Quando si svegliò, corse con tutte le sue forze ma era troppo tardi: la tartaruga aveva già tagliato il traguardo.",
+          "pt": "A lebre adormeceu. Quando acordou, correu com todas as suas forças mas já era tarde: a tartaruga já tinha cruzado a meta.",
+          "ca": "La llebre es va adormir. Quan es va despertar, va córrer amb totes les seves forces però ja era tard: la tortuga havia creuat la meta."
+        },
+        {
+          "es": "Moraleja: la constancia y la perseverancia vencen al talento cuando este se acompaña de arrogancia.",
+          "en": "Moral: constancy and perseverance overcome talent when it is accompanied by arrogance.",
+          "fr": "Morale : la constance et la persévérance l'emportent sur le talent quand celui-ci s'accompagne d'arrogance.",
+          "de": "Moral: Beständigkeit und Ausdauer überwinden Talent, wenn dieses von Arroganz begleitet wird.",
+          "it": "Morale: la costanza e la perseveranza vincono sul talento quando questo è accompagnato dall'arroganza.",
+          "pt": "Moral: a constância e a perseverança vencem o talento quando este se acompanha de arrogância.",
+          "ca": "Moralitat: la constància i la perseverança vencen el talent quan aquest s'acompanya d'arrogància."
+        }
       ]
     },
     {
       "tit": "El cuervo y el zorro",
       "frases": [
-        {"es": "Un cuervo había encontrado un trozo de queso y se había posado en la rama de un árbol para comerlo tranquilamente.", "en": "A crow had found a piece of cheese and had perched on a tree branch to eat it in peace.", "fr": "Un corbeau avait trouvé un morceau de fromage et s'était perché sur une branche d'arbre pour le manger tranquillement.", "de": "Eine Krähe hatte ein Stück Käse gefunden und sich auf einem Ast niedergelassen, um es in Ruhe zu fressen.", "it": "Un corvo aveva trovato un pezzo di formaggio e si era posato su un ramo d'albero per mangiarlo tranquillamente.", "pt": "Um corvo tinha encontrado um pedaço de queijo e tinha-se pousado num ramo de uma árvore para o comer sossegado.", "ca": "Un corb havia trobat un tros de formatge i s'havia posat a la branca d'un arbre per menjar-lo tranquil·lament."},
-        {"es": "Un zorro pasó por allí, vio el queso y pensó en cómo conseguirlo.", "en": "A fox passed by, saw the cheese and thought about how to get it.", "fr": "Un renard passa par là, vit le fromage et réfléchit à la façon de l'obtenir.", "de": "Ein Fuchs kam vorbei, sah den Käse und überlegte, wie er ihn bekommen könnte.", "it": "Una volpe passò di lì, vide il formaggio e pensò a come ottenerlo.", "pt": "Uma raposa passou por ali, viu o queijo e pensou em como obtê-lo.", "ca": "Una guineu va passar per allà, va veure el formatge i va pensar com aconseguir-lo."},
-        {"es": "El zorro dijo: ¡oh, qué hermoso pájaro! Su plumaje es magnífico. Si su voz fuera tan bella como su aspecto, sería el rey de todos los pájaros.", "en": "The fox said: oh, what a beautiful bird! Its plumage is magnificent. If its voice were as lovely as its appearance, it would be the king of all birds.", "fr": "Le renard dit : oh, quel bel oiseau ! Son plumage est magnifique. Si sa voix était aussi belle que son apparence, il serait le roi de tous les oiseaux.", "de": "Der Fuchs sagte: oh, was für ein schöner Vogel! Sein Gefieder ist prächtig. Wäre seine Stimme so schön wie sein Aussehen, wäre er der König aller Vögel.", "it": "La volpe disse: oh, che bel uccello! Il suo piumaggio è magnifico. Se la sua voce fosse bella quanto il suo aspetto, sarebbe il re di tutti gli uccelli.", "pt": "A raposa disse: oh, que belo pássaro! A sua plumagem é magnífica. Se a sua voz fosse tão bela como a sua aparência, seria o rei de todos os pássaros.", "ca": "La guineu va dir: oh, quina mena de bell ocell! El seu plomatge és magnífic. Si la seva veu fos tan bella com el seu aspecte, seria el rei de tots els ocells."},
-        {"es": "El cuervo, halagado, quiso demostrar que tenía una voz hermosa y abrió el pico para cantar.", "en": "The crow, flattered, wanted to prove it had a beautiful voice and opened its beak to sing.", "fr": "Le corbeau, flatté, voulut prouver qu'il avait une belle voix et ouvrit le bec pour chanter.", "de": "Die Krähe, geschmeichelt, wollte beweisen, dass sie eine schöne Stimme hatte, und öffnete den Schnabel zum Singen.", "it": "Il corvo, lusingato, volle dimostrare di avere una bella voce e aprì il becco per cantare.", "pt": "O corvo, lisonjeado, quis demonstrar que tinha uma voz bonita e abriu o bico para cantar.", "ca": "El corb, afalagat, va voler demostrar que tenia una veu bonica i va obrir el bec per cantar."},
-        {"es": "El queso cayó al suelo y el zorro lo atrapó al vuelo antes de que el cuervo pudiera reaccionar.", "en": "The cheese fell to the ground and the fox caught it in mid-air before the crow could react.", "fr": "Le fromage tomba par terre et le renard l'attrapa au vol avant que le corbeau ne puisse réagir.", "de": "Der Käse fiel zu Boden und der Fuchs fing ihn im Flug auf, bevor die Krähe reagieren konnte.", "it": "Il formaggio cadde a terra e la volpe lo afferrò al volo prima che il corvo potesse reagire.", "pt": "O queijo caiu ao chão e a raposa apanhou-o em pleno voo antes de o corvo poder reagir.", "ca": "El formatge va caure a terra i la guineu el va agafar en vol abans que el corb pogués reaccionar."},
-        {"es": "El zorro dijo: aprende esta lección, amigo: quien te adula quiere algo a cambio.", "en": "The fox said: learn this lesson, friend: whoever flatters you wants something in return.", "fr": "Le renard dit : apprends cette leçon, ami : celui qui te flatte veut quelque chose en échange.", "de": "Der Fuchs sagte: lerne diese Lektion, Freund: wer dir schmeichelt, will etwas dafür haben.", "it": "La volpe disse: impara questa lezione, amico: chi ti adula vuole qualcosa in cambio.", "pt": "A raposa disse: aprende esta lição, amigo: quem te adula quer algo em troca.", "ca": "La guineu va dir: aprèn aquesta lliçó, amic: qui t'adulà vol alguna cosa a canvi."},
-        {"es": "Moraleja: desconfía de los halagos excesivos, pues suelen esconder intenciones egoístas.", "en": "Moral: beware of excessive flattery, for it usually hides selfish intentions.", "fr": "Morale : méfie-toi des flatteries excessives, car elles cachent souvent des intentions égoïstes.", "de": "Moral: Misstraue übertriebener Schmeichelei, denn sie verbirgt meist selbstsüchtige Absichten.", "it": "Morale: diffida delle adulazioni eccessive, poiché nascondono solitamente intenzioni egoistiche.", "pt": "Moral: desconfia dos elogios excessivos, pois costumam esconder intenções egoístas.", "ca": "Moralitat: desconfia dels afalacs excessius, perquè solen amagar intencions egoistes."}
+        {
+          "es": "Un cuervo había encontrado un trozo de queso y se había posado en la rama de un árbol para comerlo tranquilamente.",
+          "en": "A crow had found a piece of cheese and had perched on a tree branch to eat it in peace.",
+          "fr": "Un corbeau avait trouvé un morceau de fromage et s'était perché sur une branche d'arbre pour le manger tranquillement.",
+          "de": "Eine Krähe hatte ein Stück Käse gefunden und sich auf einem Ast niedergelassen, um es in Ruhe zu fressen.",
+          "it": "Un corvo aveva trovato un pezzo di formaggio e si era posato su un ramo d'albero per mangiarlo tranquillamente.",
+          "pt": "Um corvo tinha encontrado um pedaço de queijo e tinha-se pousado num ramo de uma árvore para o comer sossegado.",
+          "ca": "Un corb havia trobat un tros de formatge i s'havia posat a la branca d'un arbre per menjar-lo tranquil·lament."
+        },
+        {
+          "es": "Un zorro pasó por allí, vio el queso y pensó en cómo conseguirlo.",
+          "en": "A fox passed by, saw the cheese and thought about how to get it.",
+          "fr": "Un renard passa par là, vit le fromage et réfléchit à la façon de l'obtenir.",
+          "de": "Ein Fuchs kam vorbei, sah den Käse und überlegte, wie er ihn bekommen könnte.",
+          "it": "Una volpe passò di lì, vide il formaggio e pensò a come ottenerlo.",
+          "pt": "Uma raposa passou por ali, viu o queijo e pensou em como obtê-lo.",
+          "ca": "Una guineu va passar per allà, va veure el formatge i va pensar com aconseguir-lo."
+        },
+        {
+          "es": "El zorro dijo: ¡oh, qué hermoso pájaro! Su plumaje es magnífico. Si su voz fuera tan bella como su aspecto, sería el rey de todos los pájaros.",
+          "en": "The fox said: oh, what a beautiful bird! Its plumage is magnificent. If its voice were as lovely as its appearance, it would be the king of all birds.",
+          "fr": "Le renard dit : oh, quel bel oiseau ! Son plumage est magnifique. Si sa voix était aussi belle que son apparence, il serait le roi de tous les oiseaux.",
+          "de": "Der Fuchs sagte: oh, was für ein schöner Vogel! Sein Gefieder ist prächtig. Wäre seine Stimme so schön wie sein Aussehen, wäre er der König aller Vögel.",
+          "it": "La volpe disse: oh, che bel uccello! Il suo piumaggio è magnifico. Se la sua voce fosse bella quanto il suo aspetto, sarebbe il re di tutti gli uccelli.",
+          "pt": "A raposa disse: oh, que belo pássaro! A sua plumagem é magnífica. Se a sua voz fosse tão bela como a sua aparência, seria o rei de todos os pássaros.",
+          "ca": "La guineu va dir: oh, quina mena de bell ocell! El seu plomatge és magnífic. Si la seva veu fos tan bella com el seu aspecte, seria el rei de tots els ocells."
+        },
+        {
+          "es": "El cuervo, halagado, quiso demostrar que tenía una voz hermosa y abrió el pico para cantar.",
+          "en": "The crow, flattered, wanted to prove it had a beautiful voice and opened its beak to sing.",
+          "fr": "Le corbeau, flatté, voulut prouver qu'il avait une belle voix et ouvrit le bec pour chanter.",
+          "de": "Die Krähe, geschmeichelt, wollte beweisen, dass sie eine schöne Stimme hatte, und öffnete den Schnabel zum Singen.",
+          "it": "Il corvo, lusingato, volle dimostrare di avere una bella voce e aprì il becco per cantare.",
+          "pt": "O corvo, lisonjeado, quis demonstrar que tinha uma voz bonita e abriu o bico para cantar.",
+          "ca": "El corb, afalagat, va voler demostrar que tenia una veu bonica i va obrir el bec per cantar."
+        },
+        {
+          "es": "El queso cayó al suelo y el zorro lo atrapó al vuelo antes de que el cuervo pudiera reaccionar.",
+          "en": "The cheese fell to the ground and the fox caught it in mid-air before the crow could react.",
+          "fr": "Le fromage tomba par terre et le renard l'attrapa au vol avant que le corbeau ne puisse réagir.",
+          "de": "Der Käse fiel zu Boden und der Fuchs fing ihn im Flug auf, bevor die Krähe reagieren konnte.",
+          "it": "Il formaggio cadde a terra e la volpe lo afferrò al volo prima che il corvo potesse reagire.",
+          "pt": "O queijo caiu ao chão e a raposa apanhou-o em pleno voo antes de o corvo poder reagir.",
+          "ca": "El formatge va caure a terra i la guineu el va agafar en vol abans que el corb pogués reaccionar."
+        },
+        {
+          "es": "El zorro dijo: aprende esta lección, amigo: quien te adula quiere algo a cambio.",
+          "en": "The fox said: learn this lesson, friend: whoever flatters you wants something in return.",
+          "fr": "Le renard dit : apprends cette leçon, ami : celui qui te flatte veut quelque chose en échange.",
+          "de": "Der Fuchs sagte: lerne diese Lektion, Freund: wer dir schmeichelt, will etwas dafür haben.",
+          "it": "La volpe disse: impara questa lezione, amico: chi ti adula vuole qualcosa in cambio.",
+          "pt": "A raposa disse: aprende esta lição, amigo: quem te adula quer algo em troca.",
+          "ca": "La guineu va dir: aprèn aquesta lliçó, amic: qui t'adulà vol alguna cosa a canvi."
+        },
+        {
+          "es": "Moraleja: desconfía de los halagos excesivos, pues suelen esconder intenciones egoístas.",
+          "en": "Moral: beware of excessive flattery, for it usually hides selfish intentions.",
+          "fr": "Morale : méfie-toi des flatteries excessives, car elles cachent souvent des intentions égoïstes.",
+          "de": "Moral: Misstraue übertriebener Schmeichelei, denn sie verbirgt meist selbstsüchtige Absichten.",
+          "it": "Morale: diffida delle adulazioni eccessive, poiché nascondono solitamente intenzioni egoistiche.",
+          "pt": "Moral: desconfia dos elogios excessivos, pois costumam esconder intenções egoístas.",
+          "ca": "Moralitat: desconfia dels afalacs excessius, perquè solen amagar intencions egoistes."
+        }
       ]
     },
     {
       "tit": "El perro y su sombra",
       "frases": [
-        {"es": "Un perro cruzaba un puente sobre un río con un hueso que había encontrado en el camino.", "en": "A dog was crossing a bridge over a river carrying a bone he had found along the way.", "fr": "Un chien traversait un pont sur une rivière avec un os qu'il avait trouvé en chemin.", "de": "Ein Hund überquerte eine Brücke über einen Fluss mit einem Knochen, den er unterwegs gefunden hatte.", "it": "Un cane attraversava un ponte su un fiume con un osso che aveva trovato per strada.", "pt": "Um cão atravessava uma ponte sobre um rio com um osso que tinha encontrado pelo caminho.", "ca": "Un gos travessava un pont sobre un riu amb un os que havia trobat en el camí."},
-        {"es": "Al mirar al agua, vio su propio reflejo y pensó que era otro perro con un hueso más grande.", "en": "Looking into the water, he saw his own reflection and thought it was another dog with a bigger bone.", "fr": "En regardant l'eau, il vit son propre reflet et pensa que c'était un autre chien avec un os plus grand.", "de": "Als er ins Wasser blickte, sah er sein eigenes Spiegelbild und dachte, es sei ein anderer Hund mit einem größeren Knochen.", "it": "Guardando nell'acqua, vide il proprio riflesso e pensò che fosse un altro cane con un osso più grande.", "pt": "Ao olhar para a água, viu o seu próprio reflexo e pensou que era outro cão com um osso maior.", "ca": "En mirar l'aigua, va veure el seu propi reflex i va pensar que era un altre gos amb un os més gran."},
-        {"es": "El perro quiso quitarle el hueso al otro perro y abrió la boca para ladrarle con ferocidad.", "en": "The dog wanted to take the bone from the other dog and opened his mouth to bark at it fiercely.", "fr": "Le chien voulut enlever l'os à l'autre chien et ouvrit la gueule pour lui aboyer dessus avec férocité.", "de": "Der Hund wollte dem anderen Hund den Knochen wegnehmen und öffnete das Maul, um ihn heftig anzubellen.", "it": "Il cane volle sottrarre l'osso all'altro cane e aprì la bocca per abbaiare contro di lui con ferocia.", "pt": "O cão quis tirar o osso ao outro cão e abriu a boca para lhe ladrar com ferocidade.", "ca": "El gos va voler treure-li l'os a l'altre gos i va obrir la boca per lladrar-li amb ferocia."},
-        {"es": "El hueso cayó al río y se hundió en las profundidades. El perro se quedó sin nada.", "en": "The bone fell into the river and sank to the depths. The dog was left with nothing.", "fr": "L'os tomba dans la rivière et coula dans les profondeurs. Le chien se retrouva sans rien.", "de": "Der Knochen fiel in den Fluss und versank in der Tiefe. Der Hund stand mit leeren Händen da.", "it": "L'osso cadde nel fiume e affondò nelle profondità. Il cane rimase senza nulla.", "pt": "O osso caiu no rio e afundou nas profundezas. O cão ficou sem nada.", "ca": "L'os va caure al riu i es va enfonsar a les profunditats. El gos es va quedar sense res."},
-        {"es": "El perro miró al río tristemente, comprendiendo que por querer más había perdido lo poco que tenía.", "en": "The dog looked sadly at the river, understanding that by wanting more he had lost the little he had.", "fr": "Le chien regarda tristement la rivière, comprenant qu'en voulant plus il avait perdu le peu qu'il avait.", "de": "Der Hund blickte traurig auf den Fluss und verstand, dass er durch Gier das Wenige verloren hatte, das er besaß.", "it": "Il cane guardò tristemente il fiume, capendo che volendo di più aveva perso il poco che aveva.", "pt": "O cão olhou tristemente para o rio, percebendo que por querer mais tinha perdido o pouco que tinha.", "ca": "El gos va mirar el riu tristament, comprenent que per voler més havia perdut el poc que tenia."},
-        {"es": "Moraleja: la codicia lleva a perder hasta lo que ya se posee.", "en": "Moral: greed leads to losing even what one already possesses.", "fr": "Morale : la cupidité mène à perdre même ce que l'on possède déjà.", "de": "Moral: Gier führt dazu, selbst das zu verlieren, was man bereits besitzt.", "it": "Morale: l'avidità porta a perdere persino ciò che già si possiede.", "pt": "Moral: a cobiça leva a perder até o que já se possui.", "ca": "Moralitat: la cobdícia porta a perdre fins i tot allò que ja es posseeix."}
+        {
+          "es": "Un perro cruzaba un puente sobre un río con un hueso que había encontrado en el camino.",
+          "en": "A dog was crossing a bridge over a river carrying a bone he had found along the way.",
+          "fr": "Un chien traversait un pont sur une rivière avec un os qu'il avait trouvé en chemin.",
+          "de": "Ein Hund überquerte eine Brücke über einen Fluss mit einem Knochen, den er unterwegs gefunden hatte.",
+          "it": "Un cane attraversava un ponte su un fiume con un osso che aveva trovato per strada.",
+          "pt": "Um cão atravessava uma ponte sobre um rio com um osso que tinha encontrado pelo caminho.",
+          "ca": "Un gos travessava un pont sobre un riu amb un os que havia trobat en el camí."
+        },
+        {
+          "es": "Al mirar al agua, vio su propio reflejo y pensó que era otro perro con un hueso más grande.",
+          "en": "Looking into the water, he saw his own reflection and thought it was another dog with a bigger bone.",
+          "fr": "En regardant l'eau, il vit son propre reflet et pensa que c'était un autre chien avec un os plus grand.",
+          "de": "Als er ins Wasser blickte, sah er sein eigenes Spiegelbild und dachte, es sei ein anderer Hund mit einem größeren Knochen.",
+          "it": "Guardando nell'acqua, vide il proprio riflesso e pensò che fosse un altro cane con un osso più grande.",
+          "pt": "Ao olhar para a água, viu o seu próprio reflexo e pensou que era outro cão com um osso maior.",
+          "ca": "En mirar l'aigua, va veure el seu propi reflex i va pensar que era un altre gos amb un os més gran."
+        },
+        {
+          "es": "El perro quiso quitarle el hueso al otro perro y abrió la boca para ladrarle con ferocidad.",
+          "en": "The dog wanted to take the bone from the other dog and opened his mouth to bark at it fiercely.",
+          "fr": "Le chien voulut enlever l'os à l'autre chien et ouvrit la gueule pour lui aboyer dessus avec férocité.",
+          "de": "Der Hund wollte dem anderen Hund den Knochen wegnehmen und öffnete das Maul, um ihn heftig anzubellen.",
+          "it": "Il cane volle sottrarre l'osso all'altro cane e aprì la bocca per abbaiare contro di lui con ferocia.",
+          "pt": "O cão quis tirar o osso ao outro cão e abriu a boca para lhe ladrar com ferocidade.",
+          "ca": "El gos va voler treure-li l'os a l'altre gos i va obrir la boca per lladrar-li amb ferocia."
+        },
+        {
+          "es": "El hueso cayó al río y se hundió en las profundidades. El perro se quedó sin nada.",
+          "en": "The bone fell into the river and sank to the depths. The dog was left with nothing.",
+          "fr": "L'os tomba dans la rivière et coula dans les profondeurs. Le chien se retrouva sans rien.",
+          "de": "Der Knochen fiel in den Fluss und versank in der Tiefe. Der Hund stand mit leeren Händen da.",
+          "it": "L'osso cadde nel fiume e affondò nelle profondità. Il cane rimase senza nulla.",
+          "pt": "O osso caiu no rio e afundou nas profundezas. O cão ficou sem nada.",
+          "ca": "L'os va caure al riu i es va enfonsar a les profunditats. El gos es va quedar sense res."
+        },
+        {
+          "es": "El perro miró al río tristemente, comprendiendo que por querer más había perdido lo poco que tenía.",
+          "en": "The dog looked sadly at the river, understanding that by wanting more he had lost the little he had.",
+          "fr": "Le chien regarda tristement la rivière, comprenant qu'en voulant plus il avait perdu le peu qu'il avait.",
+          "de": "Der Hund blickte traurig auf den Fluss und verstand, dass er durch Gier das Wenige verloren hatte, das er besaß.",
+          "it": "Il cane guardò tristemente il fiume, capendo che volendo di più aveva perso il poco che aveva.",
+          "pt": "O cão olhou tristemente para o rio, percebendo que por querer mais tinha perdido o pouco que tinha.",
+          "ca": "El gos va mirar el riu tristament, comprenent que per voler més havia perdut el poc que tenia."
+        },
+        {
+          "es": "Moraleja: la codicia lleva a perder hasta lo que ya se posee.",
+          "en": "Moral: greed leads to losing even what one already possesses.",
+          "fr": "Morale : la cupidité mène à perdre même ce que l'on possède déjà.",
+          "de": "Moral: Gier führt dazu, selbst das zu verlieren, was man bereits besitzt.",
+          "it": "Morale: l'avidità porta a perdere persino ciò che già si possiede.",
+          "pt": "Moral: a cobiça leva a perder até o que já se possui.",
+          "ca": "Moralitat: la cobdícia porta a perdre fins i tot allò que ja es posseeix."
+        }
       ]
     },
     {
       "tit": "El pastor mentiroso",
       "frases": [
-        {"es": "Un joven pastor cuidaba el rebaño de ovejas de su aldea en las laderas de una montaña.", "en": "A young shepherd tended the village flock of sheep on the slopes of a mountain.", "fr": "Un jeune berger gardait le troupeau de moutons de son village sur les flancs d'une montagne.", "de": "Ein junger Hirte hütete die Dorfschafherde an den Hängen eines Berges.", "it": "Un giovane pastore badava al gregge di pecore del suo villaggio sui pendii di una montagna.", "pt": "Um jovem pastor cuidava do rebanho de ovelhas da sua aldeia nas encostas de uma montanha.", "ca": "Un jove pastor cuidava el ramat d'ovelles del seu poble als vessants d'una muntanya."},
-        {"es": "Un día, aburrido de la soledad, decidió gastar una broma a los aldeanos y gritó: ¡el lobo, el lobo!", "en": "One day, bored with the loneliness, he decided to play a trick on the villagers and shouted: the wolf, the wolf!", "fr": "Un jour, ennuyé par la solitude, il décida de faire une farce aux villageois et cria : le loup, le loup !", "de": "Eines Tages, gelangweilt von der Einsamkeit, beschloss er, den Dorfbewohnern einen Streich zu spielen und rief: der Wolf, der Wolf!", "it": "Un giorno, annoiato dalla solitudine, decise di fare uno scherzo ai paesani e gridò: il lupo, il lupo!", "pt": "Um dia, aborrecido com a solidão, decidiu pregar uma partida aos aldeões e gritou: o lobo, o lobo!", "ca": "Un dia, avorrit de la solitud, va decidir fer una broma als vilatans i va cridar: el llop, el llop!"},
-        {"es": "Los aldeanos corrieron colina arriba con herramientas y palos para ahuyentar al lobo, pero no había ningún lobo.", "en": "The villagers ran up the hill with tools and sticks to chase away the wolf, but there was no wolf.", "fr": "Les villageois coururent en haut de la colline avec des outils et des bâtons pour chasser le loup, mais il n'y avait pas de loup.", "de": "Die Dorfbewohner rannten mit Werkzeug und Stöcken den Hügel hinauf, um den Wolf zu vertreiben, aber es gab keinen Wolf.", "it": "I paesani corsero su per la collina con attrezzi e bastoni per scacciare il lupo, ma non c'era nessun lupo.", "pt": "Os aldeões correram morro acima com ferramentas e paus para afugentar o lobo, mas não havia nenhum lobo.", "ca": "Els vilatans van córrer turó amunt amb eines i bastons per espantar el llop, però no hi havia cap llop."},
-        {"es": "El pastor se rió de ellos a carcajadas. Los aldeanos se fueron enfadados pero le perdonaron.", "en": "The shepherd laughed at them heartily. The villagers left angry but forgave him.", "fr": "Le berger rit d'eux à gorge déployée. Les villageois partirent en colère mais lui pardonnèrent.", "de": "Der Hirte lachte herzlich über sie. Die Dorfbewohner gingen verärgert, vergaben ihm aber.", "it": "Il pastore rise di gusto di loro. I paesani se ne andarono arrabbiati ma lo perdonarono.", "pt": "O pastor riu-se deles às gargalhadas. Os aldeões foram-se embora zangados mas perdoaram-lhe.", "ca": "El pastor es va riure d'ells a camarotades. Els vilatans se'n van anar enfadats però li van perdonar."},
-        {"es": "Días después el pastor repitió la broma y los aldeanos volvieron a correr, y él volvió a reírse.", "en": "Days later the shepherd repeated the trick and the villagers ran again, and he laughed again.", "fr": "Quelques jours plus tard, le berger répéta la farce et les villageois recoururent, et il rit à nouveau.", "de": "Tage später wiederholte der Hirte den Streich, die Dorfbewohner liefen wieder hin und er lachte erneut.", "it": "Giorni dopo il pastore ripeté lo scherzo e i paesani corsero di nuovo, e lui rise di nuovo.", "pt": "Dias depois o pastor repetiu a brincadeira e os aldeões voltaram a correr, e ele voltou a rir-se.", "ca": "Dies després el pastor va repetir la broma i els vilatans van tornar a córrer, i ell va tornar a riure."},
-        {"es": "Pero un día apareció de verdad un lobo enorme. El pastor gritó aterrorizado: ¡el lobo, el lobo! Pero esta vez nadie acudió.", "en": "But one day a truly enormous wolf appeared. The shepherd shouted in terror: the wolf, the wolf! But this time no one came.", "fr": "Mais un jour, un énorme loup apparut vraiment. Le berger cria terrorisé : le loup, le loup ! Mais cette fois, personne ne vint.", "de": "Aber eines Tages erschien tatsächlich ein riesiger Wolf. Der Hirte schrie entsetzt: der Wolf, der Wolf! Aber diesmal kam niemand.", "it": "Ma un giorno apparve davvero un lupo enorme. Il pastore gridò terrorizzato: il lupo, il lupo! Ma questa volta nessuno venne.", "pt": "Mas um dia apareceu de verdade um lobo enorme. O pastor gritou aterrorizado: o lobo, o lobo! Mas desta vez ninguém acorreu.", "ca": "Però un dia va aparèixer de debò un llop enorme. El pastor va cridar aterroritzat: el llop, el llop! Però aquesta vegada ningú va acudir."},
-        {"es": "Moraleja: quien miente pierde la confianza de los demás, y cuando más la necesita, nadie le cree.", "en": "Moral: whoever lies loses the trust of others, and when they need it most, no one believes them.", "fr": "Morale : celui qui ment perd la confiance des autres, et quand il en a le plus besoin, personne ne le croit.", "de": "Moral: Wer lügt, verliert das Vertrauen anderer, und wenn er es am meisten braucht, glaubt ihm niemand.", "it": "Morale: chi mente perde la fiducia degli altri, e quando ne ha più bisogno, nessuno gli crede.", "pt": "Moral: quem mente perde a confiança dos outros, e quando mais precisa dela, ninguém lhe acredita.", "ca": "Moralitat: qui menteix perd la confiança dels altres, i quan més la necessita, ningú li creu."}
+        {
+          "es": "Un joven pastor cuidaba el rebaño de ovejas de su aldea en las laderas de una montaña.",
+          "en": "A young shepherd tended the village flock of sheep on the slopes of a mountain.",
+          "fr": "Un jeune berger gardait le troupeau de moutons de son village sur les flancs d'une montagne.",
+          "de": "Ein junger Hirte hütete die Dorfschafherde an den Hängen eines Berges.",
+          "it": "Un giovane pastore badava al gregge di pecore del suo villaggio sui pendii di una montagna.",
+          "pt": "Um jovem pastor cuidava do rebanho de ovelhas da sua aldeia nas encostas de uma montanha.",
+          "ca": "Un jove pastor cuidava el ramat d'ovelles del seu poble als vessants d'una muntanya."
+        },
+        {
+          "es": "Un día, aburrido de la soledad, decidió gastar una broma a los aldeanos y gritó: ¡el lobo, el lobo!",
+          "en": "One day, bored with the loneliness, he decided to play a trick on the villagers and shouted: the wolf, the wolf!",
+          "fr": "Un jour, ennuyé par la solitude, il décida de faire une farce aux villageois et cria : le loup, le loup !",
+          "de": "Eines Tages, gelangweilt von der Einsamkeit, beschloss er, den Dorfbewohnern einen Streich zu spielen und rief: der Wolf, der Wolf!",
+          "it": "Un giorno, annoiato dalla solitudine, decise di fare uno scherzo ai paesani e gridò: il lupo, il lupo!",
+          "pt": "Um dia, aborrecido com a solidão, decidiu pregar uma partida aos aldeões e gritou: o lobo, o lobo!",
+          "ca": "Un dia, avorrit de la solitud, va decidir fer una broma als vilatans i va cridar: el llop, el llop!"
+        },
+        {
+          "es": "Los aldeanos corrieron colina arriba con herramientas y palos para ahuyentar al lobo, pero no había ningún lobo.",
+          "en": "The villagers ran up the hill with tools and sticks to chase away the wolf, but there was no wolf.",
+          "fr": "Les villageois coururent en haut de la colline avec des outils et des bâtons pour chasser le loup, mais il n'y avait pas de loup.",
+          "de": "Die Dorfbewohner rannten mit Werkzeug und Stöcken den Hügel hinauf, um den Wolf zu vertreiben, aber es gab keinen Wolf.",
+          "it": "I paesani corsero su per la collina con attrezzi e bastoni per scacciare il lupo, ma non c'era nessun lupo.",
+          "pt": "Os aldeões correram morro acima com ferramentas e paus para afugentar o lobo, mas não havia nenhum lobo.",
+          "ca": "Els vilatans van córrer turó amunt amb eines i bastons per espantar el llop, però no hi havia cap llop."
+        },
+        {
+          "es": "El pastor se rió de ellos a carcajadas. Los aldeanos se fueron enfadados pero le perdonaron.",
+          "en": "The shepherd laughed at them heartily. The villagers left angry but forgave him.",
+          "fr": "Le berger rit d'eux à gorge déployée. Les villageois partirent en colère mais lui pardonnèrent.",
+          "de": "Der Hirte lachte herzlich über sie. Die Dorfbewohner gingen verärgert, vergaben ihm aber.",
+          "it": "Il pastore rise di gusto di loro. I paesani se ne andarono arrabbiati ma lo perdonarono.",
+          "pt": "O pastor riu-se deles às gargalhadas. Os aldeões foram-se embora zangados mas perdoaram-lhe.",
+          "ca": "El pastor es va riure d'ells a camarotades. Els vilatans se'n van anar enfadats però li van perdonar."
+        },
+        {
+          "es": "Días después el pastor repitió la broma y los aldeanos volvieron a correr, y él volvió a reírse.",
+          "en": "Days later the shepherd repeated the trick and the villagers ran again, and he laughed again.",
+          "fr": "Quelques jours plus tard, le berger répéta la farce et les villageois recoururent, et il rit à nouveau.",
+          "de": "Tage später wiederholte der Hirte den Streich, die Dorfbewohner liefen wieder hin und er lachte erneut.",
+          "it": "Giorni dopo il pastore ripeté lo scherzo e i paesani corsero di nuovo, e lui rise di nuovo.",
+          "pt": "Dias depois o pastor repetiu a brincadeira e os aldeões voltaram a correr, e ele voltou a rir-se.",
+          "ca": "Dies després el pastor va repetir la broma i els vilatans van tornar a córrer, i ell va tornar a riure."
+        },
+        {
+          "es": "Pero un día apareció de verdad un lobo enorme. El pastor gritó aterrorizado: ¡el lobo, el lobo! Pero esta vez nadie acudió.",
+          "en": "But one day a truly enormous wolf appeared. The shepherd shouted in terror: the wolf, the wolf! But this time no one came.",
+          "fr": "Mais un jour, un énorme loup apparut vraiment. Le berger cria terrorisé : le loup, le loup ! Mais cette fois, personne ne vint.",
+          "de": "Aber eines Tages erschien tatsächlich ein riesiger Wolf. Der Hirte schrie entsetzt: der Wolf, der Wolf! Aber diesmal kam niemand.",
+          "it": "Ma un giorno apparve davvero un lupo enorme. Il pastore gridò terrorizzato: il lupo, il lupo! Ma questa volta nessuno venne.",
+          "pt": "Mas um dia apareceu de verdade um lobo enorme. O pastor gritou aterrorizado: o lobo, o lobo! Mas desta vez ninguém acorreu.",
+          "ca": "Però un dia va aparèixer de debò un llop enorme. El pastor va cridar aterroritzat: el llop, el llop! Però aquesta vegada ningú va acudir."
+        },
+        {
+          "es": "Moraleja: quien miente pierde la confianza de los demás, y cuando más la necesita, nadie le cree.",
+          "en": "Moral: whoever lies loses the trust of others, and when they need it most, no one believes them.",
+          "fr": "Morale : celui qui ment perd la confiance des autres, et quand il en a le plus besoin, personne ne le croit.",
+          "de": "Moral: Wer lügt, verliert das Vertrauen anderer, und wenn er es am meisten braucht, glaubt ihm niemand.",
+          "it": "Morale: chi mente perde la fiducia degli altri, e quando ne ha più bisogno, nessuno gli crede.",
+          "pt": "Moral: quem mente perde a confiança dos outros, e quando mais precisa dela, ninguém lhe acredita.",
+          "ca": "Moralitat: qui menteix perd la confiança dels altres, i quan més la necessita, ningú li creu."
+        }
       ]
     },
     {
       "tit": "El viento del norte y el sol",
       "frases": [
-        {"es": "El viento del norte y el sol discutían sobre quién de los dos era más fuerte.", "en": "The north wind and the sun were arguing about which of them was stronger.", "fr": "Le vent du nord et le soleil se disputaient pour savoir lequel des deux était le plus fort.", "de": "Der Nordwind und die Sonne stritten darüber, wer von beiden stärker sei.", "it": "Il vento del nord e il sole discutevano su chi dei due fosse più forte.", "pt": "O vento norte e o sol discutiam sobre qual dos dois era mais forte.", "ca": "El vent del nord i el sol discutien sobre qui dels dos era més fort."},
-        {"es": "En ese momento pasó por el camino un viajero envuelto en un grueso abrigo de invierno.", "en": "At that moment a traveller wrapped in a thick winter coat came along the road.", "fr": "À ce moment, un voyageur enveloppé dans un épais manteau d'hiver passa sur le chemin.", "de": "In diesem Moment kam ein in einen dicken Wintermantel gehüllter Wanderer den Weg entlang.", "it": "In quel momento passò per la strada un viaggiatore avvolto in un pesante cappotto invernale.", "pt": "Nesse momento passou pelo caminho um viajante embrulhado num grosso casaco de inverno.", "ca": "En aquell moment va passar pel camí un viatger embolicat amb un gruixut abric d'hivern."},
-        {"es": "El sol propuso una prueba: el que antes consiguiera que el viajero se quitara el abrigo sería declarado el más fuerte.", "en": "The sun proposed a test: whoever first managed to make the traveller take off his coat would be declared the strongest.", "fr": "Le soleil proposa une épreuve : celui qui réussirait le premier à faire enlever son manteau au voyageur serait déclaré le plus fort.", "de": "Die Sonne schlug einen Test vor: Wer es zuerst schaffte, den Wanderer dazu zu bringen, seinen Mantel auszuziehen, würde als der Stärkste erklärt.", "it": "Il sole propose una prova: chi per primo fosse riuscito a far togliere il cappotto al viaggiatore sarebbe stato dichiarato il più forte.", "pt": "O sol propôs uma prova: quem primeiro conseguisse que o viajante tirasse o casaco seria declarado o mais forte.", "ca": "El sol va proposar una prova: qui primer aconseguís que el viatger es tragués l'abric seria declarat el més fort."},
-        {"es": "El viento del norte comenzó a soplar con furia. El viajero se aferró más a su abrigo con ambas manos.", "en": "The north wind began to blow furiously. The traveller clutched his coat tighter with both hands.", "fr": "Le vent du nord commença à souffler avec furie. Le voyageur s'agrippa plus fort à son manteau des deux mains.", "de": "Der Nordwind begann wütend zu wehen. Der Wanderer klammerte sich mit beiden Händen fester an seinen Mantel.", "it": "Il vento del nord cominciò a soffiare con furia. Il viaggiatore si aggrappò più stretto al suo cappotto con entrambe le mani.", "pt": "O vento norte começou a soprar com fúria. O viajante agarrou-se mais ao casaco com as duas mãos.", "ca": "El vent del nord va començar a bufar amb fúria. El viatger es va aferrar més al seu abric amb les dues mans."},
-        {"es": "Cuanto más fuerte soplaba el viento, más se apretaba el viajero el abrigo. El viento se rindió exhausto.", "en": "The harder the wind blew, the tighter the traveller wrapped his coat around him. The wind gave up, exhausted.", "fr": "Plus le vent soufflait fort, plus le voyageur serrait son manteau. Le vent abandonna, épuisé.", "de": "Je stärker der Wind blies, desto enger zog der Wanderer seinen Mantel. Der Wind gab erschöpft auf.", "it": "Più forte soffiava il vento, più il viaggiatore stringeva il cappotto. Il vento si arrese esausto.", "pt": "Quanto mais forte soprava o vento, mais o viajante se envolvia no casaco. O vento rendeu-se exausto.", "ca": "Com més fort bufava el vent, més el viatger s'apretava l'abric. El vent es va rendir esgotat."},
-        {"es": "Entonces brilló el sol con suavidad y calidez. El viajero sonrió, se desabotonó el abrigo y pronto lo quitó.", "en": "Then the sun shone gently and warmly. The traveller smiled, unbuttoned his coat and soon took it off.", "fr": "Alors le soleil brilla doucement et chaleureusement. Le voyageur sourit, déboutonna son manteau et finit par l'enlever.", "de": "Dann schien die Sonne sanft und warm. Der Wanderer lächelte, knöpfte seinen Mantel auf und zog ihn bald aus.", "it": "Poi il sole brillò dolcemente e calorosamente. Il viaggiatore sorrise, sbottonò il cappotto e presto lo tolse.", "pt": "Então o sol brilhou com suavidade e calor. O viajante sorriu, desabotoou o casaco e em breve tirou-o.", "ca": "Llavors el sol va brillar suaument i amb calidesa. El viatger va somriure, es va desbotonar l'abric i aviat el va treure."},
-        {"es": "Moraleja: la persuasión y la amabilidad logran más que la fuerza y la violencia.", "en": "Moral: persuasion and kindness achieve more than force and violence.", "fr": "Morale : la persuasion et la gentillesse accomplissent plus que la force et la violence.", "de": "Moral: Überzeugung und Freundlichkeit erreichen mehr als Kraft und Gewalt.", "it": "Morale: la persuasione e la gentilezza ottengono più della forza e della violenza.", "pt": "Moral: a persuasão e a amabilidade conseguem mais do que a força e a violência.", "ca": "Moralitat: la persuasió i l'amabilitat aconsegueixen més que la força i la violència."}
+        {
+          "es": "El viento del norte y el sol discutían sobre quién de los dos era más fuerte.",
+          "en": "The north wind and the sun were arguing about which of them was stronger.",
+          "fr": "Le vent du nord et le soleil se disputaient pour savoir lequel des deux était le plus fort.",
+          "de": "Der Nordwind und die Sonne stritten darüber, wer von beiden stärker sei.",
+          "it": "Il vento del nord e il sole discutevano su chi dei due fosse più forte.",
+          "pt": "O vento norte e o sol discutiam sobre qual dos dois era mais forte.",
+          "ca": "El vent del nord i el sol discutien sobre qui dels dos era més fort."
+        },
+        {
+          "es": "En ese momento pasó por el camino un viajero envuelto en un grueso abrigo de invierno.",
+          "en": "At that moment a traveller wrapped in a thick winter coat came along the road.",
+          "fr": "À ce moment, un voyageur enveloppé dans un épais manteau d'hiver passa sur le chemin.",
+          "de": "In diesem Moment kam ein in einen dicken Wintermantel gehüllter Wanderer den Weg entlang.",
+          "it": "In quel momento passò per la strada un viaggiatore avvolto in un pesante cappotto invernale.",
+          "pt": "Nesse momento passou pelo caminho um viajante embrulhado num grosso casaco de inverno.",
+          "ca": "En aquell moment va passar pel camí un viatger embolicat amb un gruixut abric d'hivern."
+        },
+        {
+          "es": "El sol propuso una prueba: el que antes consiguiera que el viajero se quitara el abrigo sería declarado el más fuerte.",
+          "en": "The sun proposed a test: whoever first managed to make the traveller take off his coat would be declared the strongest.",
+          "fr": "Le soleil proposa une épreuve : celui qui réussirait le premier à faire enlever son manteau au voyageur serait déclaré le plus fort.",
+          "de": "Die Sonne schlug einen Test vor: Wer es zuerst schaffte, den Wanderer dazu zu bringen, seinen Mantel auszuziehen, würde als der Stärkste erklärt.",
+          "it": "Il sole propose una prova: chi per primo fosse riuscito a far togliere il cappotto al viaggiatore sarebbe stato dichiarato il più forte.",
+          "pt": "O sol propôs uma prova: quem primeiro conseguisse que o viajante tirasse o casaco seria declarado o mais forte.",
+          "ca": "El sol va proposar una prova: qui primer aconseguís que el viatger es tragués l'abric seria declarat el més fort."
+        },
+        {
+          "es": "El viento del norte comenzó a soplar con furia. El viajero se aferró más a su abrigo con ambas manos.",
+          "en": "The north wind began to blow furiously. The traveller clutched his coat tighter with both hands.",
+          "fr": "Le vent du nord commença à souffler avec furie. Le voyageur s'agrippa plus fort à son manteau des deux mains.",
+          "de": "Der Nordwind begann wütend zu wehen. Der Wanderer klammerte sich mit beiden Händen fester an seinen Mantel.",
+          "it": "Il vento del nord cominciò a soffiare con furia. Il viaggiatore si aggrappò più stretto al suo cappotto con entrambe le mani.",
+          "pt": "O vento norte começou a soprar com fúria. O viajante agarrou-se mais ao casaco com as duas mãos.",
+          "ca": "El vent del nord va començar a bufar amb fúria. El viatger es va aferrar més al seu abric amb les dues mans."
+        },
+        {
+          "es": "Cuanto más fuerte soplaba el viento, más se apretaba el viajero el abrigo. El viento se rindió exhausto.",
+          "en": "The harder the wind blew, the tighter the traveller wrapped his coat around him. The wind gave up, exhausted.",
+          "fr": "Plus le vent soufflait fort, plus le voyageur serrait son manteau. Le vent abandonna, épuisé.",
+          "de": "Je stärker der Wind blies, desto enger zog der Wanderer seinen Mantel. Der Wind gab erschöpft auf.",
+          "it": "Più forte soffiava il vento, più il viaggiatore stringeva il cappotto. Il vento si arrese esausto.",
+          "pt": "Quanto mais forte soprava o vento, mais o viajante se envolvia no casaco. O vento rendeu-se exausto.",
+          "ca": "Com més fort bufava el vent, més el viatger s'apretava l'abric. El vent es va rendir esgotat."
+        },
+        {
+          "es": "Entonces brilló el sol con suavidad y calidez. El viajero sonrió, se desabotonó el abrigo y pronto lo quitó.",
+          "en": "Then the sun shone gently and warmly. The traveller smiled, unbuttoned his coat and soon took it off.",
+          "fr": "Alors le soleil brilla doucement et chaleureusement. Le voyageur sourit, déboutonna son manteau et finit par l'enlever.",
+          "de": "Dann schien die Sonne sanft und warm. Der Wanderer lächelte, knöpfte seinen Mantel auf und zog ihn bald aus.",
+          "it": "Poi il sole brillò dolcemente e calorosamente. Il viaggiatore sorrise, sbottonò il cappotto e presto lo tolse.",
+          "pt": "Então o sol brilhou com suavidade e calor. O viajante sorriu, desabotoou o casaco e em breve tirou-o.",
+          "ca": "Llavors el sol va brillar suaument i amb calidesa. El viatger va somriure, es va desbotonar l'abric i aviat el va treure."
+        },
+        {
+          "es": "Moraleja: la persuasión y la amabilidad logran más que la fuerza y la violencia.",
+          "en": "Moral: persuasion and kindness achieve more than force and violence.",
+          "fr": "Morale : la persuasion et la gentillesse accomplissent plus que la force et la violence.",
+          "de": "Moral: Überzeugung und Freundlichkeit erreichen mehr als Kraft und Gewalt.",
+          "it": "Morale: la persuasione e la gentilezza ottengono più della forza e della violenza.",
+          "pt": "Moral: a persuasão e a amabilidade conseguem mais do que a força e a violência.",
+          "ca": "Moralitat: la persuasió i l'amabilitat aconsegueixen més que la força i la violència."
+        }
       ]
     }
   ]
