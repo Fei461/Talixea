@@ -1,0 +1,420 @@
+{
+  "id": 16,
+  "tit": "Orfeo y Eurídice",
+  "aut": "Mitología griega",
+  "cat": "Mitología",
+  "gratis": false,
+  "cov": "mito",
+  "emo": "🎵",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "El músico de los dioses",
+      "frases": [
+        {
+          "es": "Orfeo era el músico más grande que había conocido el mundo. Su padre era Apolo, dios de las artes, y su madre la musa Calíope.",
+          "en": "Orpheus was the greatest musician the world had ever known. His father was Apollo, god of the arts, and his mother the muse Calliope.",
+          "fr": "Orphée était le plus grand musicien que le monde ait jamais connu. Son père était Apollon, dieu des arts, et sa mère la muse Calliope.",
+          "de": "Orpheus war der größte Musiker, den die Welt je gekannt hatte. Sein Vater war Apollon, der Gott der Künste, und seine Mutter die Muse Kalliope.",
+          "it": "Orfeo era il più grande musicista che il mondo avesse mai conosciuto. Suo padre era Apollo, dio delle arti, e sua madre la musa Calliope.",
+          "pt": "Orfeu era o maior músico que o mundo tinha conhecido. O seu pai era Apolo, deus das artes, e a sua mãe a musa Calíope.",
+          "ca": "Orfeu era el músic més gran que el món havia conegut. El seu pare era Apol·lo, déu de les arts, i la seva mare la musa Cal·líope."
+        },
+        {
+          "es": "Cuando Orfeo tocaba su lira, los ríos detenían su curso para escucharle, los árboles arrancaban sus raíces y caminaban hacia él.",
+          "en": "When Orpheus played his lyre, rivers halted their course to listen, trees uprooted themselves and walked towards him.",
+          "fr": "Quand Orphée jouait de sa lyre, les rivières s'arrêtaient pour l'écouter, les arbres déracinaient et marchaient vers lui.",
+          "de": "Wenn Orpheus seine Leier spielte, hielten Flüsse ihren Lauf an, um ihm zuzuhören, Bäume entwurzelten sich und gingen auf ihn zu.",
+          "it": "Quando Orfeo suonava la sua lira, i fiumi fermavano il loro corso per ascoltarlo, gli alberi si sradicavano e camminavano verso di lui.",
+          "pt": "Quando Orfeu tocava a sua lira, os rios paravam o seu curso para o ouvir, as árvores arrancavam as raízes e caminhavam para ele.",
+          "ca": "Quan Orfeu tocava la seva lira, els rius detenien el seu curs per escoltar-lo, els arbres arrencaven les arrels i caminaven cap a ell."
+        },
+        {
+          "es": "Las fieras más salvajes se tumbaban mansamente a sus pies y hasta las piedras parecían moverse al ritmo de su música.",
+          "en": "The wildest beasts lay tamely at his feet and even the stones seemed to move to the rhythm of his music.",
+          "fr": "Les bêtes les plus sauvages se couchaient docilement à ses pieds et même les pierres semblaient bouger au rythme de sa musique.",
+          "de": "Die wildesten Tiere legten sich zahm zu seinen Füßen und selbst die Steine schienen sich im Rhythmus seiner Musik zu bewegen.",
+          "it": "Le bestie più selvagge si sdraiavano mansuete ai suoi piedi e persino le pietre sembravano muoversi al ritmo della sua musica.",
+          "pt": "As feras mais selvagens deitavam-se mansamente a seus pés e até as pedras pareciam mover-se ao ritmo da sua música.",
+          "ca": "Les feres més salvatges es tombaven mansament als seus peus i fins i tot les pedres semblaven moure's al ritme de la seva música."
+        },
+        {
+          "es": "Un día Orfeo conoció a Eurídice, una ninfa de extraordinaria belleza, y se enamoró de ella tan profundamente que dejó de tocar durante semanas.",
+          "en": "One day Orpheus met Eurydice, a nymph of extraordinary beauty, and fell so deeply in love that he stopped playing for weeks.",
+          "fr": "Un jour, Orphée rencontra Eurydice, une nymphe d'une beauté extraordinaire, et tomba si profondément amoureux d'elle qu'il cessa de jouer pendant des semaines.",
+          "de": "Eines Tages begegnete Orpheus Eurydike, einer Nymphe von außergewöhnlicher Schönheit, und verliebte sich so tief in sie, dass er wochenlang aufhörte zu spielen.",
+          "it": "Un giorno Orfeo incontrò Euridice, una ninfa di straordinaria bellezza, e se ne innamorò così profondamente da smettere di suonare per settimane.",
+          "pt": "Um dia Orfeu conheceu Eurídice, uma ninfa de extraordinária beleza, e apaixonou-se por ela tão profundamente que deixou de tocar durante semanas.",
+          "ca": "Un dia Orfeu va conèixer Eurídice, una nimfa d'extraordinària bellesa, i es va enamorar d'ella tan profundament que va deixar de tocar durant setmanes."
+        },
+        {
+          "es": "Cuando volvió a tocar, su música era aún más bella, pues ahora estaba llena del amor que sentía por Eurídice.",
+          "en": "When he played again, his music was even more beautiful, for it was now filled with the love he felt for Eurydice.",
+          "fr": "Quand il rejoua, sa musique était encore plus belle, car elle était maintenant remplie de l'amour qu'il ressentait pour Eurydice.",
+          "de": "Als er wieder spielte, war seine Musik noch schöner, denn sie war nun erfüllt von der Liebe, die er für Eurydike empfand.",
+          "it": "Quando tornò a suonare, la sua musica era ancora più bella, poiché era ora piena dell'amore che provava per Euridice.",
+          "pt": "Quando voltou a tocar, a sua música era ainda mais bela, pois estava agora cheia do amor que sentia por Eurídice.",
+          "ca": "Quan va tornar a tocar, la seva música era encara més bella, perquè ara estava plena de l'amor que sentia per Eurídice."
+        },
+        {
+          "es": "Orfeo y Eurídice se casaron en una ceremonia sencilla a orillas del río, rodeados de ninfas y sátiros que bailaron toda la noche.",
+          "en": "Orpheus and Eurydice were married in a simple ceremony by the riverbank, surrounded by nymphs and satyrs who danced all night.",
+          "fr": "Orphée et Eurydice se marièrent lors d'une simple cérémonie au bord de la rivière, entourés de nymphes et de satyres qui dansèrent toute la nuit.",
+          "de": "Orpheus und Eurydike heirateten in einer einfachen Zeremonie am Flussufer, umgeben von Nymphen und Satyrn, die die ganze Nacht tanzten.",
+          "it": "Orfeo ed Euridice si sposarono in una semplice cerimonia sulla riva del fiume, circondati da ninfe e satiri che ballarono tutta la notte.",
+          "pt": "Orfeu e Eurídice casaram-se numa cerimónia simples à beira do rio, rodeados de ninfas e sátiros que dançaram a noite toda.",
+          "ca": "Orfeu i Eurídice es van casar en una cerimònia senzilla a la vora del riu, envoltats de nimfes i sàtirs que van ballar tota la nit."
+        },
+        {
+          "es": "Pero el dios del matrimonio, Himeneo, no traía buenas señales ese día: su antorcha humeaba sin dar llama, un mal presagio.",
+          "en": "But Hymenaeus, god of marriage, brought no good omens that day: his torch smoked without giving flame, a bad portent.",
+          "fr": "Mais Hyménée, le dieu du mariage, n'apportait pas de bons présages ce jour-là : sa torche fumait sans donner de flamme, un mauvais augure.",
+          "de": "Aber Hymenäus, der Gott der Ehe, brachte an diesem Tag keine guten Vorzeichen: Seine Fackel rauchte ohne zu brennen, ein schlechtes Omen.",
+          "it": "Ma Imeneo, dio del matrimonio, non portava buoni presagi quel giorno: la sua torcia fumava senza dare fiamma, un cattivo presagio.",
+          "pt": "Mas o deus do casamento, Himeneo, não trazia bons presságios nesse dia: a sua tocha fumegava sem dar chama, um mau augúrio.",
+          "ca": "Però el déu del matrimoni, Himen, no portava bones senyal aquell dia: la seva torxa fumejava sense donar flama, un mal presagi."
+        }
+      ]
+    },
+    {
+      "tit": "La muerte de Eurídice",
+      "frases": [
+        {
+          "es": "La felicidad de Orfeo y Eurídice duró poco. Un día, mientras Eurídice paseaba por un prado, pisó sin querer una serpiente.",
+          "en": "The happiness of Orpheus and Eurydice lasted only a short time. One day, while Eurydice was walking through a meadow, she accidentally trod on a snake.",
+          "fr": "Le bonheur d'Orphée et d'Eurydice ne dura pas longtemps. Un jour, alors qu'Eurydice se promenait dans une prairie, elle marcha accidentellement sur un serpent.",
+          "de": "Das Glück von Orpheus und Eurydike dauerte nur kurze Zeit. Eines Tages, während Eurydike über eine Wiese ging, trat sie versehentlich auf eine Schlange.",
+          "it": "La felicità di Orfeo ed Euridice durò poco. Un giorno, mentre Euridice passeggiava per un prato, calpestò per sbaglio un serpente.",
+          "pt": "A felicidade de Orfeu e Eurídice durou pouco. Um dia, enquanto Eurídice passeava por um prado, pisou sem querer uma serpente.",
+          "ca": "La felicitat d'Orfeu i Eurídice va durar poc. Un dia, mentre Eurídice pasejava per un prat, va trepitjar sense voler una serp."
+        },
+        {
+          "es": "La serpiente la mordió en el tobillo y Eurídice cayó al suelo. Sus amigas las ninfas corrieron hacia ella, pero ya era tarde.",
+          "en": "The snake bit her on the ankle and Eurydice fell to the ground. Her friends the nymphs ran to her, but it was already too late.",
+          "fr": "Le serpent la mordit à la cheville et Eurydice tomba à terre. Ses amies les nymphes coururent vers elle, mais c'était déjà trop tard.",
+          "de": "Die Schlange biss sie in den Knöchel und Eurydike fiel zu Boden. Ihre Freundinnen, die Nymphen, liefen zu ihr, aber es war bereits zu spät.",
+          "it": "Il serpente la morse alla caviglia ed Euridice cadde a terra. Le sue amiche le ninfe corsero verso di lei, ma era già troppo tardi.",
+          "pt": "A serpente mordeu-a no tornozelo e Eurídice caiu ao chão. As suas amigas as ninfas correram para ela, mas já era tarde.",
+          "ca": "La serp la va mossegar al turmell i Eurídice va caure a terra. Les seves amigues les nimfes van córrer cap a ella, però ja era massa tard."
+        },
+        {
+          "es": "El alma de Eurídice descendió al reino de los muertos, el oscuro Hades donde gobierna el severo Plutón.",
+          "en": "Eurydice's soul descended to the kingdom of the dead, the dark Hades where stern Pluto rules.",
+          "fr": "L'âme d'Eurydice descendit au royaume des morts, le sombre Hadès où règne le sévère Pluton.",
+          "de": "Eurydikes Seele stieg hinab ins Reich der Toten, das dunkle Hades, wo der strenge Pluto regiert.",
+          "it": "L'anima di Euridice discese nel regno dei morti, il buio Ade dove governa il severo Plutone.",
+          "pt": "A alma de Eurídice desceu ao reino dos mortos, o escuro Hades onde governa o severo Plutão.",
+          "ca": "L'ànima d'Eurídice va descendir al regne dels morts, el fosc Hades on governa el sever Plutó."
+        },
+        {
+          "es": "Orfeo quedó destrozado. Su dolor era tan grande que hasta los dioses del Olimpo lloraban escuchando su música.",
+          "en": "Orpheus was devastated. His grief was so great that even the gods of Olympus wept listening to his music.",
+          "fr": "Orphée était anéanti. Sa douleur était si grande que même les dieux de l'Olympe pleuraient en écoutant sa musique.",
+          "de": "Orpheus war am Boden zerstört. Sein Schmerz war so groß, dass selbst die Götter des Olymps weinten, wenn sie seine Musik hörten.",
+          "it": "Orfeo rimase distrutto. Il suo dolore era così grande che persino gli dei dell'Olimpo piangevano ascoltando la sua musica.",
+          "pt": "Orfeu ficou destruído. A sua dor era tão grande que até os deuses do Olimpo choravam ouvindo a sua música.",
+          "ca": "Orfeu va quedar destrossat. El seu dolor era tan gran que fins i tot els déus de l'Olimp ploraven escoltant la seva música."
+        },
+        {
+          "es": "Durante semanas Orfeo vagó por los campos tocando su lira, y todo lo que tocaba se cubría de tristeza.",
+          "en": "For weeks Orpheus wandered through the fields playing his lyre, and everything he touched was covered in sadness.",
+          "fr": "Pendant des semaines, Orphée erra dans les champs en jouant de sa lyre, et tout ce qu'il touchait se couvrait de tristesse.",
+          "de": "Wochenlang irrte Orpheus durch die Felder und spielte seine Leier, und alles, was er berührte, hüllte sich in Traurigkeit.",
+          "it": "Per settimane Orfeo vagò per i campi suonando la sua lira, e tutto ciò che toccava si copriva di tristezza.",
+          "pt": "Durante semanas Orfeu vagueou pelos campos tocando a sua lira, e tudo o que tocava se cobria de tristeza.",
+          "ca": "Durant setmanes Orfeu va vagar pels camps tocant la seva lira, i tot el que tocava es cobria de tristesa."
+        },
+        {
+          "es": "Entonces tomó una decisión que nadie antes había osado: bajaría al reino de los muertos para recuperar a Eurídice.",
+          "en": "Then he made a decision that no one had ever dared before: he would descend to the kingdom of the dead to bring Eurydice back.",
+          "fr": "Il prit alors une décision que personne avant lui n'avait osé prendre : il descendrait au royaume des morts pour récupérer Eurydice.",
+          "de": "Dann traf er eine Entscheidung, die noch niemand vor ihm gewagt hatte: Er würde ins Reich der Toten hinabsteigen, um Eurydike zurückzuholen.",
+          "it": "Allora prese una decisione che nessuno aveva osato prima: sarebbe sceso nel regno dei morti per recuperare Euridice.",
+          "pt": "Então tomou uma decisão que ninguém antes tinha ousado: desceria ao reino dos mortos para recuperar Eurídice.",
+          "ca": "Llavors va prendre una decisió que ningú abans havia gosat: baixaria al regne dels morts per recuperar Eurídice."
+        },
+        {
+          "es": "Con su lira al hombro, Orfeo buscó la entrada al mundo subterráneo y comenzó a descender hacia las sombras.",
+          "en": "With his lyre on his shoulder, Orpheus sought the entrance to the underworld and began to descend towards the shadows.",
+          "fr": "Avec sa lyre sur l'épaule, Orphée chercha l'entrée du monde souterrain et commença à descendre vers les ombres.",
+          "de": "Mit seiner Leier auf der Schulter suchte Orpheus den Eingang zur Unterwelt und begann in die Schatten hinabzusteigen.",
+          "it": "Con la sua lira in spalla, Orfeo cercò l'ingresso nel mondo sotterraneo e cominciò a scendere verso le ombre.",
+          "pt": "Com a sua lira ao ombro, Orfeu procurou a entrada para o mundo subterrâneo e começou a descer em direção às sombras.",
+          "ca": "Amb la seva lira a l'espatlla, Orfeu va buscar l'entrada al món subterrani i va començar a descendir cap a les ombres."
+        }
+      ]
+    },
+    {
+      "tit": "El descenso al Hades",
+      "frases": [
+        {
+          "es": "Orfeo llegó al río Estigia, que separa el mundo de los vivos del mundo de los muertos.",
+          "en": "Orpheus reached the River Styx, which separates the world of the living from the world of the dead.",
+          "fr": "Orphée arriva au fleuve Styx, qui sépare le monde des vivants du monde des morts.",
+          "de": "Orpheus erreichte den Fluss Styx, der die Welt der Lebenden von der Welt der Toten trennt.",
+          "it": "Orfeo arrivò al fiume Stige, che separa il mondo dei vivi dal mondo dei morti.",
+          "pt": "Orfeu chegou ao rio Estige, que separa o mundo dos vivos do mundo dos mortos.",
+          "ca": "Orfeu va arribar al riu Estix, que separa el món dels vius del món dels morts."
+        },
+        {
+          "es": "El barquero Caronte nunca transportaba a los vivos, pero cuando Orfeo comenzó a tocar su lira, las lágrimas le corrieron por las mejillas y lo cruzó en silencio.",
+          "en": "The ferryman Charon never carried the living, but when Orpheus began to play his lyre, tears ran down Charon's cheeks and he ferried him across in silence.",
+          "fr": "Le passeur Charon ne transportait jamais les vivants, mais quand Orphée commença à jouer de sa lyre, des larmes coulèrent sur ses joues et il le fit traverser en silence.",
+          "de": "Der Fährmann Charon trug niemals Lebende, aber als Orpheus seine Leier zu spielen begann, liefen ihm Tränen über die Wangen und er fuhr ihn schweigend hinüber.",
+          "it": "Il traghettatore Caronte non trasportava mai i vivi, ma quando Orfeo cominciò a suonare la sua lira, le lacrime gli scorrevano sulle guance e lo traghettò in silenzio.",
+          "pt": "O barqueiro Caronte nunca transportava os vivos, mas quando Orfeu começou a tocar a sua lira, as lágrimas correram-lhe pelas faces e transportou-o em silêncio.",
+          "ca": "El barquer Caront mai transportava els vius, però quan Orfeu va començar a tocar la seva lira, les llàgrimes li van córrer per les galtes i el va creuar en silenci."
+        },
+        {
+          "es": "Cerbero, el perro de tres cabezas que guardaba la puerta del Hades, dejó caer sus tres cabezas adormecido por la música.",
+          "en": "Cerberus, the three-headed dog that guarded the gate of Hades, let all three heads droop, lulled to sleep by the music.",
+          "fr": "Cerbère, le chien à trois têtes qui gardait la porte des Enfers, laissa tomber ses trois têtes, endormi par la musique.",
+          "de": "Kerberos, der dreiköpfige Hund, der das Tor des Hades bewachte, ließ alle drei Köpfe hängen, von der Musik eingeschläfert.",
+          "it": "Cerbero, il cane a tre teste che custodiva la porta dell'Ade, lasciò cadere le tre teste addormentato dalla musica.",
+          "pt": "Cérbero, o cão de três cabeças que guardava a porta do Hades, deixou cair as três cabeças adormecido pela música.",
+          "ca": "Cèrber, el gos de tres caps que guardava la porta de l'Hades, va deixar caure les tres caps adormit per la música."
+        },
+        {
+          "es": "Las almas de los muertos se agolparon para escuchar aquella música que nunca antes había sonado en el reino de las sombras.",
+          "en": "The souls of the dead crowded together to hear that music which had never before sounded in the kingdom of shadows.",
+          "fr": "Les âmes des morts se pressèrent pour écouter cette musique qui n'avait jamais résonné dans le royaume des ombres.",
+          "de": "Die Seelen der Toten drängten sich, um diese Musik zu hören, die noch nie zuvor im Reich der Schatten erklungen war.",
+          "it": "Le anime dei morti si accalcarono per ascoltare quella musica che non era mai risuonata nel regno delle ombre.",
+          "pt": "As almas dos mortos agruparam-se para ouvir aquela música que nunca antes tinha soado no reino das sombras.",
+          "ca": "Les ànimes dels morts es van apilotar per escoltar aquella música que mai abans havia sonat al regne de les ombres."
+        },
+        {
+          "es": "Sísifo dejó de rodar su roca. Tántalo olvidó su hambre y su sed. Las furias se secaron las lágrimas de los ojos.",
+          "en": "Sisyphus stopped rolling his rock. Tantalus forgot his hunger and thirst. The Furies dried the tears from their eyes.",
+          "fr": "Sisyphe cessa de rouler son rocher. Tantale oublia sa faim et sa soif. Les Furies s'essuyèrent les larmes des yeux.",
+          "de": "Sisyphos hörte auf, seinen Felsen zu rollen. Tantalos vergaß seinen Hunger und seinen Durst. Die Furien trockneten sich die Tränen aus den Augen.",
+          "it": "Sisifo smise di rotolare il suo masso. Tantalo dimenticò la sua fame e la sua sete. Le Furie si asciugarono le lacrime dagli occhi.",
+          "pt": "Sísifo parou de rolar a sua rocha. Tântalo esqueceu a sua fome e sede. As Fúrias secaram as lágrimas dos olhos.",
+          "ca": "Sísif va deixar de fer rodar la seva roca. Tàntal va oblidar la seva gana i la seva set. Les Fúries es van eixugar les llàgrimes dels ulls."
+        },
+        {
+          "es": "Orfeo llegó ante el trono de Plutón y Perséfone, reyes del inframundo, y comenzó a cantar la historia de su amor por Eurídice.",
+          "en": "Orpheus arrived before the throne of Pluto and Persephone, rulers of the underworld, and began to sing the story of his love for Eurydice.",
+          "fr": "Orphée arriva devant le trône de Pluton et Perséphone, souverains des Enfers, et commença à chanter l'histoire de son amour pour Eurydice.",
+          "de": "Orpheus trat vor den Thron von Pluto und Persephone, den Herrschern der Unterwelt, und begann, die Geschichte seiner Liebe zu Eurydike zu singen.",
+          "it": "Orfeo arrivò davanti al trono di Plutone e Persefone, sovrani degli inferi, e cominciò a cantare la storia del suo amore per Euridice.",
+          "pt": "Orfeu chegou perante o trono de Plutão e Perséfone, reis do inframundo, e começou a cantar a história do seu amor por Eurídice.",
+          "ca": "Orfeu va arribar davant del tron de Plutó i Persèfone, reis del inframón, i va començar a cantar la història del seu amor per Eurídice."
+        },
+        {
+          "es": "Hasta Plutón, que nunca había llorado, sintió que algo se le apretaba en el pecho al escuchar aquella música.",
+          "en": "Even Pluto, who had never wept, felt something tighten in his chest as he listened to that music.",
+          "fr": "Même Pluton, qui n'avait jamais pleuré, sentit quelque chose se serrer dans sa poitrine en écoutant cette musique.",
+          "de": "Selbst Pluto, der noch nie geweint hatte, spürte, wie sich ihm etwas in der Brust zusammenzog, als er diese Musik hörte.",
+          "it": "Persino Plutone, che non aveva mai pianto, sentì qualcosa stringersi nel petto ascoltando quella musica.",
+          "pt": "Até Plutão, que nunca tinha chorado, sentiu que algo lhe apertava o peito ao ouvir aquela música.",
+          "ca": "Fins i tot Plutó, que mai havia plorat, va sentir que alguna cosa li apretava al pit en escoltar aquella música."
+        }
+      ]
+    },
+    {
+      "tit": "La condición de Plutón",
+      "frases": [
+        {
+          "es": "Perséfone fue la primera en hablar: devolvedle a su esposa, Plutón. Nunca antes la música nos había conmovido así.",
+          "en": "Persephone was the first to speak: give him back his wife, Pluto. Never before has music moved us like this.",
+          "fr": "Perséphone fut la première à parler : rendez-lui sa femme, Pluton. Jamais la musique ne nous avait émus ainsi.",
+          "de": "Persephone war die Erste, die sprach: Gebt ihm seine Frau zurück, Pluton. Niemals zuvor hat uns Musik so bewegt.",
+          "it": "Persefone fu la prima a parlare: restituitegli sua moglie, Plutone. Mai prima la musica ci aveva commosso così.",
+          "pt": "Perséfone foi a primeira a falar: devolvei-lhe a esposa, Plutão. Nunca antes a música nos tinha comovido assim.",
+          "ca": "Persèfone va ser la primera a parlar: torneu-li la seva esposa, Plutó. Mai abans la música ens havia commogut així."
+        },
+        {
+          "es": "Plutón asintió con gravedad y convocó a Eurídice. El alma de la joven apareció aún cojeando de la herida de la serpiente.",
+          "en": "Pluto nodded gravely and summoned Eurydice. The young woman's soul appeared, still limping from the snake's wound.",
+          "fr": "Pluton hocha la tête gravement et convoqua Eurydice. L'âme de la jeune femme apparut, boitant encore à cause de la blessure du serpent.",
+          "de": "Pluto nickte ernst und rief Eurydike. Die Seele der jungen Frau erschien, immer noch hinkend von der Schlangenwunde.",
+          "it": "Plutone annuì gravemente e convocò Euridice. L'anima della giovane apparve ancora zoppicante per la ferita del serpente.",
+          "pt": "Plutão assentiu gravemente e convocou Eurídice. A alma da jovem apareceu ainda a coxear da ferida da serpente.",
+          "ca": "Plutó va assentir amb gravetat i va convocar Eurídice. L'ànima de la jove va aparèixer encara coixejant de la ferida de la serp."
+        },
+        {
+          "es": "Os la devuelvo con una sola condición, dijo Plutón con voz profunda: Orfeo caminarà delante, y Eurídice le seguirá. Pero si se vuelve a mirarla antes de salir al mundo de los vivos, la perderá para siempre.",
+          "en": "I return her to you on one condition, said Pluto in a deep voice: Orpheus will walk ahead and Eurydice will follow. But if he turns to look at her before they leave the world of the living, he will lose her for ever.",
+          "fr": "Je vous la rends à une seule condition, dit Pluton d'une voix profonde : Orphée marchera devant, et Eurydice le suivra. Mais s'il se retourne pour la regarder avant de sortir dans le monde des vivants, il la perdra pour toujours.",
+          "de": "Ich gebe sie euch unter einer einzigen Bedingung zurück, sagte Pluto mit tiefer Stimme: Orpheus geht voraus und Eurydike folgt ihm. Aber wenn er sich umdreht, um sie anzusehen, bevor sie die Welt der Lebenden erreicht haben, wird er sie für immer verlieren.",
+          "it": "Ve la restituisco a una sola condizione, disse Plutone con voce profonda: Orfeo camminerà davanti, ed Euridice lo seguirà. Ma se si volta a guardarla prima di uscire nel mondo dei vivi, la perderà per sempre.",
+          "pt": "Devolver-vola com uma única condição, disse Plutão com voz profunda: Orfeu caminhará à frente, e Eurídice segui-lo-á. Mas se se virar para a olhar antes de sair para o mundo dos vivos, perdê-la-á para sempre.",
+          "ca": "Us la torno amb una sola condició, va dir Plutó amb veu profunda: Orfeu caminarà davant, i Eurídice el seguirà. Però si es gira per mirar-la abans de sortir al món dels vius, la perdrà per sempre."
+        },
+        {
+          "es": "Orfeo aceptó con el corazón desbocado de alegría y comenzó a subir por el oscuro sendero hacia el mundo de la luz.",
+          "en": "Orpheus accepted with his heart racing with joy and began to climb up the dark path towards the world of light.",
+          "fr": "Orphée accepta, le cœur bondissant de joie, et commença à monter par le sentier sombre vers le monde de la lumière.",
+          "de": "Orpheus stimmte mit einem vor Freude rasendem Herzen zu und begann, den dunklen Pfad hinauf in die Welt des Lichts zu steigen.",
+          "it": "Orfeo accettò con il cuore che balzava di gioia e cominciò a salire per il buio sentiero verso il mondo della luce.",
+          "pt": "Orfeu aceitou com o coração a disparar de alegria e começou a subir pelo escuro caminho em direção ao mundo da luz.",
+          "ca": "Orfeu va acceptar amb el cor desbocant d'alegria i va començar a pujar pel fosc sender cap al món de la llum."
+        },
+        {
+          "es": "Detrás de él escuchaba los pasos suaves de Eurídice. No la veía, pero la sentía cerca y eso le bastaba.",
+          "en": "Behind him he heard Eurydice's soft footsteps. He could not see her, but he felt her near and that was enough.",
+          "fr": "Derrière lui, il entendait les pas doux d'Eurydice. Il ne la voyait pas, mais il la sentait proche et cela lui suffisait.",
+          "de": "Hinter sich hörte er Eurydikes sanfte Schritte. Er sah sie nicht, aber er spürte sie nahe und das reichte ihm.",
+          "it": "Dietro di lui sentiva i passi leggeri di Euridice. Non la vedeva, ma la sentiva vicina e questo gli bastava.",
+          "pt": "Atrás dele ouvia os passos suaves de Eurídice. Não a via, mas sentia-a perto e isso bastava-lhe.",
+          "ca": "Darrere d'ell escoltava els passos suaus d'Eurídice. No la veia, però la sentia a prop i això li bastava."
+        },
+        {
+          "es": "Subieron durante lo que pareció una eternidad. Ya se vislumbraba el resplandor del mundo de arriba.",
+          "en": "They climbed for what seemed an eternity. The glow of the upper world was already visible.",
+          "fr": "Ils grimpèrent pendant ce qui sembla une éternité. La lueur du monde d'en haut était déjà visible.",
+          "de": "Sie stiegen, was wie eine Ewigkeit schien. Der Schimmer der Oberwelt war bereits sichtbar.",
+          "it": "Salirono per quello che sembrò un'eternità. Il bagliore del mondo di sopra era già visibile.",
+          "pt": "Subiram durante o que pareceu uma eternidade. Já se vislumbrava o brilho do mundo de cima.",
+          "ca": "Van pujar durant el que va semblar una eternitat. Ja s'entreveia la resplendor del món de dalt."
+        },
+        {
+          "es": "Orfeo estaba a punto de pisar la luz cuando el silencio le perturbó: ya no oía los pasos de Eurídice.",
+          "en": "Orpheus was about to step into the light when the silence unsettled him: he could no longer hear Eurydice's footsteps.",
+          "fr": "Orphée était sur le point de mettre le pied dans la lumière quand le silence le perturba : il n'entendait plus les pas d'Eurydice.",
+          "de": "Orpheus war im Begriff, ins Licht zu treten, als die Stille ihn beunruhigte: Er hörte Eurydikes Schritte nicht mehr.",
+          "it": "Orfeo stava per mettere piede nella luce quando il silenzio lo turbò: non sentiva più i passi di Euridice.",
+          "pt": "Orfeu estava prestes a pisar a luz quando o silêncio o perturbou: já não ouvia os passos de Eurídice.",
+          "ca": "Orfeu estava a punt de trepitjar la llum quan el silenci el va perturbar: ja no sentia els passos d'Eurídice."
+        }
+      ]
+    },
+    {
+      "tit": "El giro fatal",
+      "frases": [
+        {
+          "es": "El miedo se apoderó de Orfeo. ¿Y si Eurídice ya no estaba allí? ¿Y si la había perdido ya en la oscuridad?",
+          "en": "Fear took hold of Orpheus. What if Eurydice was no longer there? What if he had already lost her in the darkness?",
+          "fr": "La peur s'empara d'Orphée. Et si Eurydice n'était plus là ? Et s'il l'avait déjà perdue dans l'obscurité ?",
+          "de": "Angst ergriff Orpheus. Was, wenn Eurydike nicht mehr da war? Was, wenn er sie bereits in der Dunkelheit verloren hatte?",
+          "it": "La paura si impossessò di Orfeo. E se Euridice non ci fosse più? E se l'avesse già persa nell'oscurità?",
+          "pt": "O medo apoderou-se de Orfeu. E se Eurídice já não estivesse lá? E se já a tivesse perdido na escuridão?",
+          "ca": "La por es va apoderar d'Orfeu. I si Eurídice ja no hi era? I si ja l'havia perduda a la foscor?"
+        },
+        {
+          "es": "Sin poder contenerse, Orfeo se volvió un instante para asegurarse de que Eurídice le seguía.",
+          "en": "Unable to contain himself, Orpheus turned for an instant to make sure Eurydice was following him.",
+          "fr": "Ne pouvant se retenir, Orphée se retourna un instant pour s'assurer qu'Eurydice le suivait.",
+          "de": "Sich nicht beherrschen könnend, drehte sich Orpheus einen Moment um, um sicherzugehen, dass Eurydike ihm folgte.",
+          "it": "Non riuscendo a trattenersi, Orfeo si voltò un istante per assicurarsi che Euridice lo seguisse.",
+          "pt": "Sem se conseguir conter, Orfeu virou-se um instante para se certificar de que Eurídice o seguia.",
+          "ca": "Sense poder contenir-se, Orfeu es va girar un instant per assegurar-se que Eurídice el seguia."
+        },
+        {
+          "es": "La vio: estaba allí, a un solo paso detrás de él, con los ojos llenos de amor. Pero era demasiado tarde.",
+          "en": "He saw her: she was there, just one step behind him, her eyes full of love. But it was too late.",
+          "fr": "Il la vit : elle était là, à un seul pas derrière lui, les yeux pleins d'amour. Mais c'était trop tard.",
+          "de": "Er sah sie: Sie war da, nur einen Schritt hinter ihm, die Augen voller Liebe. Aber es war zu spät.",
+          "it": "La vide: era lì, a un solo passo dietro di lui, gli occhi pieni d'amore. Ma era troppo tardi.",
+          "pt": "Viu-a: estava lá, a um único passo atrás dele, com os olhos cheios de amor. Mas era demasiado tarde.",
+          "ca": "La va veure: era allà, a un sol pas darrere d'ell, amb els ulls plens d'amor. Però era massa tard."
+        },
+        {
+          "es": "Eurídice le miró con una última sonrisa triste y murmuró: adiós, Orfeo. Luego su figura se fue desvaneciendo hacia las sombras.",
+          "en": "Eurydice looked at him with a last sad smile and murmured: farewell, Orpheus. Then her figure faded back into the shadows.",
+          "fr": "Eurydice le regarda avec un dernier sourire triste et murmura : adieu, Orphée. Puis sa silhouette s'estompa vers les ombres.",
+          "de": "Eurydike sah ihn mit einem letzten traurigen Lächeln an und flüsterte: Lebwohl, Orpheus. Dann verblass ihre Gestalt zurück in die Schatten.",
+          "it": "Euridice lo guardò con un ultimo sorriso triste e mormorò: addio, Orfeo. Poi la sua figura si dissolse verso le ombre.",
+          "pt": "Eurídice olhou para ele com um último sorriso triste e murmurou: adeus, Orfeu. Depois a sua figura foi-se desvanecendo para as sombras.",
+          "ca": "Eurídice el va mirar amb un últim somriure trist i va murmurar: adéu, Orfeu. Llavors la seva figura es va anar esvaint cap a les ombres."
+        },
+        {
+          "es": "Orfeo quiso bajar de nuevo al Hades, pero Caronte ya no lo llevó. Nunca más podría cruzar el río.",
+          "en": "Orpheus tried to descend to Hades again, but Charon would not take him. He would never be able to cross the river again.",
+          "fr": "Orphée voulut descendre à nouveau aux Enfers, mais Charon ne le transporta plus. Il ne pourrait plus jamais traverser le fleuve.",
+          "de": "Orpheus wollte erneut in den Hades hinabsteigen, aber Charon nahm ihn nicht mehr mit. Er würde den Fluss nie mehr überqueren können.",
+          "it": "Orfeo volle scendere di nuovo nell'Ade, ma Caronte non lo portò più. Non avrebbe mai più potuto attraversare il fiume.",
+          "pt": "Orfeu quis descer de novo ao Hades, mas Caronte já não o transportou. Nunca mais poderia cruzar o rio.",
+          "ca": "Orfeu va voler baixar de nou a l'Hades, però Caront ja no el va portar. Mai més podria creuar el riu."
+        },
+        {
+          "es": "Durante siete días Orfeo se sentó a orillas del Estigia, sin comer ni beber, tocando su lira para las aguas negras.",
+          "en": "For seven days Orpheus sat on the bank of the Styx, neither eating nor drinking, playing his lyre to the black waters.",
+          "fr": "Pendant sept jours, Orphée s'assit sur la rive du Styx, sans manger ni boire, jouant de sa lyre pour les eaux noires.",
+          "de": "Sieben Tage lang saß Orpheus am Ufer des Styx, ohne zu essen oder zu trinken, und spielte seine Leier für die schwarzen Gewässer.",
+          "it": "Per sette giorni Orfeo sedette sulla riva dello Stige, senza mangiare né bere, suonando la sua lira per le acque nere.",
+          "pt": "Durante sete dias Orfeu sentou-se à beira do Estige, sem comer nem beber, tocando a sua lira para as águas negras.",
+          "ca": "Durant set dies Orfeu es va asseure a la vora de l'Estix, sense menjar ni beure, tocant la seva lira per a les aigües negres."
+        },
+        {
+          "es": "Al octavo día se levantó, volvió al mundo de los vivos y siguió tocando. Pero en su música había ahora una tristeza tan profunda que quien la escuchaba lloraba sin saber por qué.",
+          "en": "On the eighth day he rose, returned to the world of the living and went on playing. But in his music there was now a sadness so deep that whoever heard it wept without knowing why.",
+          "fr": "Le huitième jour, il se leva, retourna dans le monde des vivants et continua à jouer. Mais dans sa musique, il y avait maintenant une tristesse si profonde que quiconque l'entendait pleurait sans savoir pourquoi.",
+          "de": "Am achten Tag stand er auf, kehrte in die Welt der Lebenden zurück und spielte weiter. Aber in seiner Musik lag nun eine so tiefe Traurigkeit, dass jeder, der sie hörte, weinte, ohne zu wissen warum.",
+          "it": "All'ottavo giorno si alzò, tornò nel mondo dei vivi e continuò a suonare. Ma nella sua musica c'era ora una tristezza così profonda che chi la ascoltava piangeva senza sapere perché.",
+          "pt": "No oitavo dia levantou-se, voltou ao mundo dos vivos e continuou a tocar. Mas na sua música havia agora uma tristeza tão profunda que quem a ouvia chorava sem saber porquê.",
+          "ca": "Al vuitè dia es va aixecar, va tornar al món dels vius i va continuar tocant. Però a la seva música hi havia ara una tristesa tan profunda que qui l'escoltava plorava sense saber per què."
+        }
+      ]
+    },
+    {
+      "tit": "El final de Orfeo",
+      "frases": [
+        {
+          "es": "Orfeo vagó por Tracia durante años, rechazando el amor de todas las mujeres que lo admiraban, fiel al recuerdo de Eurídice.",
+          "en": "Orpheus wandered through Thrace for years, rejecting the love of all the women who admired him, faithful to the memory of Eurydice.",
+          "fr": "Orphée erra en Thrace pendant des années, rejetant l'amour de toutes les femmes qui l'admiraient, fidèle au souvenir d'Eurydice.",
+          "de": "Orpheus irrte jahrelang durch Thrakien und wies die Liebe aller Frauen, die ihn bewunderten, zurück, treu dem Andenken an Eurydike.",
+          "it": "Orfeo vagò per la Tracia per anni, rifiutando l'amore di tutte le donne che lo ammiravano, fedele al ricordo di Euridice.",
+          "pt": "Orfeu vagueou pela Trácia durante anos, rejeitando o amor de todas as mulheres que o admiravam, fiel à memória de Eurídice.",
+          "ca": "Orfeu va vagar per Tràcia durant anys, rebutjant l'amor de totes les dones que l'admiraven, fidel al record d'Eurídice."
+        },
+        {
+          "es": "Un día un grupo de ménades, mujeres devotas del dios Dioniso enfurecidas por su rechazo, lo atacaron y lo mataron.",
+          "en": "One day a group of maenads, women devoted to the god Dionysus and enraged by his rejection, attacked and killed him.",
+          "fr": "Un jour, un groupe de ménades, des femmes dévouées au dieu Dionysos et furieuses de son rejet, l'attaquèrent et le tuèrent.",
+          "de": "Eines Tages griff ihn eine Gruppe von Mänaden, Frauen, die dem Gott Dionysos ergeben und durch seine Ablehnung in Wut versetzt waren, an und tötete ihn.",
+          "it": "Un giorno un gruppo di menadi, donne devote al dio Dioniso e infuriate per il suo rifiuto, lo attaccarono e lo uccisero.",
+          "pt": "Um dia um grupo de ménades, mulheres devotas do deus Dionísio enfurecidas pela sua rejeição, atacaram-no e mataram-no.",
+          "ca": "Un dia un grup de mènades, dones devotes del déu Dionís enfurismades pel seu rebuig, el van atacar i el van matar."
+        },
+        {
+          "es": "La cabeza de Orfeo cayó al río Hebro y siguió cantando mientras era arrastrada por la corriente hacia el mar.",
+          "en": "Orpheus's head fell into the River Hebrus and kept singing as it was carried by the current towards the sea.",
+          "fr": "La tête d'Orphée tomba dans le fleuve Hèbre et continua à chanter tandis qu'elle était emportée par le courant vers la mer.",
+          "de": "Orpheus' Kopf fiel in den Fluss Hebros und sang weiter, während er von der Strömung zum Meer getragen wurde.",
+          "it": "La testa di Orfeo cadde nel fiume Ebro e continuò a cantare mentre veniva trascinata dalla corrente verso il mare.",
+          "pt": "A cabeça de Orfeu caiu no rio Hebro e continuou a cantar enquanto era arrastrada pela corrente para o mar.",
+          "ca": "El cap d'Orfeu va caure al riu Hebrus i va continuar cantant mentre era arrossegat per la corrent cap al mar."
+        },
+        {
+          "es": "Las musas recogieron los restos de Orfeo y los enterraron al pie del monte Olimpo, donde los ruiseñores cantan más que en cualquier otro lugar del mundo.",
+          "en": "The muses gathered Orpheus's remains and buried them at the foot of Mount Olympus, where nightingales sing more than anywhere else in the world.",
+          "fr": "Les muses recueillirent les restes d'Orphée et les enterrèrent au pied du mont Olympe, où les rossignols chantent plus qu'en tout autre endroit du monde.",
+          "de": "Die Musen sammelten Orpheus' Überreste und begruben sie am Fuß des Olymp, wo Nachtigallen mehr singen als irgendwo sonst auf der Welt.",
+          "it": "Le muse raccolsero i resti di Orfeo e li seppellirono ai piedi del monte Olimpo, dove i usignoli cantano più che in qualsiasi altro luogo del mondo.",
+          "pt": "As musas recolheram os restos de Orfeu e enterraram-nos ao pé do monte Olimpo, onde os rouxinóis cantam mais do que em qualquer outro lugar do mundo.",
+          "ca": "Les muses van recollir les restes d'Orfeu i les van enterrar al peu del mont Olimp, on els rossinyols canten més que en qualsevol altre lloc del món."
+        },
+        {
+          "es": "El alma de Orfeo bajó al Hades por segunda vez, pero ahora podía reunirse con Eurídice para siempre.",
+          "en": "Orpheus's soul descended to Hades for a second time, but now he could be reunited with Eurydice for ever.",
+          "fr": "L'âme d'Orphée descendit aux Enfers pour la deuxième fois, mais maintenant il pouvait retrouver Eurydice pour toujours.",
+          "de": "Orpheus' Seele stieg zum zweiten Mal in den Hades hinab, aber jetzt konnte er sich für immer mit Eurydike vereinen.",
+          "it": "L'anima di Orfeo scese nell'Ade per la seconda volta, ma ora poteva ricongiungersi con Euridice per sempre.",
+          "pt": "A alma de Orfeu desceu ao Hades pela segunda vez, mas agora podia reunir-se com Eurídice para sempre.",
+          "ca": "L'ànima d'Orfeu va baixar a l'Hades per segona vegada, però ara podia reunir-se amb Eurídice per sempre."
+        },
+        {
+          "es": "Y en el prado de los bienaventurados, Orfeo y Eurídice caminan juntos para siempre, y él puede mirarla todo el tiempo que quiera.",
+          "en": "And in the meadow of the blessed, Orpheus and Eurydice walk together for ever, and he can look at her as long as he wishes.",
+          "fr": "Et dans le pré des bienheureux, Orphée et Eurydice marchent ensemble pour toujours, et il peut la regarder aussi longtemps qu'il le souhaite.",
+          "de": "Und auf der Wiese der Seligen gehen Orpheus und Eurydike für immer zusammen, und er kann sie so lange ansehen, wie er möchte.",
+          "it": "E nel prato dei beati, Orfeo ed Euridice camminano insieme per sempre, e lui può guardarla tutto il tempo che vuole.",
+          "pt": "E no prado dos bem-aventurados, Orfeu e Eurídice caminham juntos para sempre, e ele pode olhar para ela todo o tempo que quiser.",
+          "ca": "I al prat dels benaurats, Orfeu i Eurídice caminen junts per sempre, i ell pot mirar-la tot el temps que vulgui."
+        },
+        {
+          "es": "La lira de Orfeo fue colocada entre las estrellas por los dioses, y allí brilla aún hoy como la constelación Lyra, recordándonos que el amor verdadero nunca muere del todo.",
+          "en": "Orpheus's lyre was placed among the stars by the gods, and there it shines still today as the constellation Lyra, reminding us that true love never dies entirely.",
+          "fr": "La lyre d'Orphée fut placée parmi les étoiles par les dieux, et elle y brille encore aujourd'hui comme la constellation Lyra, nous rappelant que le véritable amour ne meurt jamais tout à fait.",
+          "de": "Orpheus' Leier wurde von den Göttern unter die Sterne gesetzt und leuchtet dort noch heute als das Sternbild Lyra, das uns daran erinnert, dass wahre Liebe nie ganz stirbt.",
+          "it": "La lira di Orfeo fu posta tra le stelle dagli dei, e lì brilla ancora oggi come la costellazione della Lyra, ricordandoci che il vero amore non muore mai del tutto.",
+          "pt": "A lira de Orfeu foi colocada entre as estrelas pelos deuses, e lá brilha ainda hoje como a constelação Lyra, lembrando-nos que o amor verdadeiro nunca morre de todo.",
+          "ca": "La lira d'Orfeu va ser col·locada entre les estrelles pels déus, i allà brilla encara avui com la constel·lació Lyra, recordant-nos que l'amor vertader mai mor del tot."
+        }
+      ]
+    }
+  ]
+}
