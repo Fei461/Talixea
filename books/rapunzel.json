@@ -1,0 +1,420 @@
+{
+  "id": 8,
+  "tit": "Rapunzel",
+  "aut": "Hermanos Grimm",
+  "cat": "Grimm",
+  "gratis": false,
+  "cov": "grimm",
+  "emo": "👸",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "La rapunzel del jardín",
+      "frases": [
+        {
+          "es": "Había una vez un hombre y una mujer que llevaban mucho tiempo deseando tener un hijo, pero en vano.",
+          "en": "There was once a man and a woman who had long wished for a child, but in vain.",
+          "fr": "Il était une fois un homme et une femme qui désiraient depuis longtemps avoir un enfant, mais en vain.",
+          "de": "Es war einmal ein Mann und eine Frau, die sich schon lange ein Kind gewünscht hatten, aber vergeblich.",
+          "it": "C'era una volta un uomo e una donna che da lungo tempo desideravano avere un figlio, ma invano.",
+          "pt": "Era uma vez um homem e uma mulher que há muito desejavam ter um filho, mas em vão.",
+          "ca": "Hi havia una vegada un home i una dona que feia molt de temps que desitjaven tenir un fill, però en va."
+        },
+        {
+          "es": "Desde la pequeña ventana de su casa veían el espléndido jardín de una poderosa bruja, rodeado de altos muros.",
+          "en": "From the small window of their house they could see the splendid garden of a powerful witch, surrounded by high walls.",
+          "fr": "Depuis la petite fenêtre de leur maison, ils voyaient le splendide jardin d'une puissante sorcière, entouré de hauts murs.",
+          "de": "Aus dem kleinen Fenster ihres Hauses sahen sie den prachtvollen Garten einer mächtigen Hexe, umgeben von hohen Mauern.",
+          "it": "Dalla piccola finestra della loro casa vedevano lo splendido giardino di una potente strega, circondato da alte mura.",
+          "pt": "Da pequena janela da sua casa viam o esplêndido jardim de uma poderosa bruxa, rodeado de altos muros.",
+          "ca": "Des de la petita finestra de la seva casa veien l'esplèndid jardí d'una poderosa bruixa, envoltat d'alts murs."
+        },
+        {
+          "es": "Un día la mujer vio en el jardín unas rapunzeles que le parecieron tan apetecibles que enfermó de deseo.",
+          "en": "One day the woman saw some rapunzel lettuces in the garden that seemed so appetising to her that she fell ill with longing.",
+          "fr": "Un jour, la femme vit dans le jardin des raiponces qui lui semblèrent si appétissantes qu'elle tomba malade de désir.",
+          "de": "Eines Tages sah die Frau im Garten Rapunzeln, die ihr so verlockend erschienen, dass sie vor Verlangen krank wurde.",
+          "it": "Un giorno la donna vide nel giardino alcune raperonzole che le sembrarono così appetitose da ammalarsi di desiderio.",
+          "pt": "Um dia a mulher viu no jardim umas rapúncias que lhe pareceram tão apetitosas que adoeceu de desejo.",
+          "ca": "Un dia la dona va veure al jardí unes raponxols que li van semblar tan apetitoses que va emmalaltir de desig."
+        },
+        {
+          "es": "Su marido, preocupado, decidió arriesgarse y trepó al jardín de la bruja para robarle algunas rapunzeles.",
+          "en": "Her husband, worried, decided to take the risk and climbed into the witch's garden to steal some rapunzel.",
+          "fr": "Son mari, inquiet, décida de prendre le risque et grimpa dans le jardin de la sorcière pour lui voler quelques raiponces.",
+          "de": "Ihr Mann, besorgt, beschloss, das Risiko einzugehen, und kletterte in den Garten der Hexe, um ihr etwas Rapunzel zu stehlen.",
+          "it": "Suo marito, preoccupato, decise di rischiare e scalò il giardino della strega per rubarle alcune raperonzole.",
+          "pt": "O seu marido, preocupado, decidiu arriscar e trepou ao jardim da bruxa para lhe roubar algumas rapúncias.",
+          "ca": "El seu marit, preocupat, va decidir arriscar-se i va trepar al jardí de la bruixa per robar-li alguns raponxols."
+        },
+        {
+          "es": "Pero la bruja lo sorprendió y lo amenazó de muerte. El hombre le rogó que lo perdonara y le explicó la necesidad de su mujer.",
+          "en": "But the witch surprised him and threatened him with death. The man begged her to forgive him and explained his wife's need.",
+          "fr": "Mais la sorcière le surprit et le menaça de mort. L'homme la supplia de lui pardonner et lui expliqua le besoin de sa femme.",
+          "de": "Aber die Hexe überraschte ihn und bedrohte ihn mit dem Tod. Der Mann bat sie um Verzeihung und erklärte ihr die Not seiner Frau.",
+          "it": "Ma la strega lo sorprese e lo minacciò di morte. L'uomo la supplicò di perdonarlo e le spiegò il bisogno di sua moglie.",
+          "pt": "Mas a bruxa surpreendeu-o e ameaçou-o de morte. O homem implorou-lhe que o perdoasse e explicou a necessidade da sua mulher.",
+          "ca": "Però la bruixa el va sorprendre i el va amenàçar de mort. L'home li va implorar que el perdonés i li va explicar la necessitat de la seva dona."
+        },
+        {
+          "es": "La bruja accedió a dejarle tomar rapunzeles con una condición: cuando naciese el bebé, se lo entregaría.",
+          "en": "The witch agreed to let him take rapunzel on one condition: when the baby was born, he would hand it over to her.",
+          "fr": "La sorcière accepta de le laisser prendre des raiponces à une condition : quand le bébé naîtrait, il le lui remettrait.",
+          "de": "Die Hexe stimmte zu, ihm Rapunzel zu nehmen unter einer Bedingung: wenn das Baby geboren wäre, würde er es ihr übergeben.",
+          "it": "La strega accettò di lasciarlo prendere le raperonzole a una condizione: quando il bambino fosse nato, glielo avrebbe consegnato.",
+          "pt": "A bruxa concordou em deixá-lo levar rapúncias com uma condição: quando o bebé nascesse, entregá-lo-ia.",
+          "ca": "La bruixa va accedir a deixar-li agafar raponxols amb una condició: quan nasqués el bebè, l'entregaria."
+        },
+        {
+          "es": "Aterrado pero sin elección, el hombre aceptó. Poco después nació una niña hermosa, y la bruja se presentó a llevársela.",
+          "en": "Terrified but with no choice, the man agreed. Shortly after, a beautiful girl was born, and the witch came to take her away.",
+          "fr": "Terrifié mais sans choix, l'homme accepta. Peu après, une belle fille naquit, et la sorcière vint la chercher.",
+          "de": "Erschrocken aber ohne Wahl stimmte der Mann zu. Kurz darauf wurde ein schönes Mädchen geboren und die Hexe kam, um sie zu holen.",
+          "it": "Terrorizzato ma senza scelta, l'uomo accettò. Poco dopo nacque una bella bambina, e la strega venne a prenderla.",
+          "pt": "Aterrorizado mas sem escolha, o homem aceitou. Pouco depois nasceu uma bela menina, e a bruxa apresentou-se para a levar.",
+          "ca": "Aterrit però sense elecció, l'home va acceptar. Poc després va néixer una nena bonica, i la bruixa es va presentar per endur-se-la."
+        }
+      ]
+    },
+    {
+      "tit": "La torre sin puertas",
+      "frases": [
+        {
+          "es": "La bruja llamó a la niña Rapunzel y la cuidó a su manera. Pero cuando Rapunzel cumplió doce años, la encerró en una torre altísima.",
+          "en": "The witch called the girl Rapunzel and cared for her in her own way. But when Rapunzel turned twelve, she locked her in a very tall tower.",
+          "fr": "La sorcière appela la fille Raiponce et s'occupa d'elle à sa façon. Mais quand Raiponce eut douze ans, elle l'enferma dans une tour très haute.",
+          "de": "Die Hexe nannte das Mädchen Rapunzel und kümmerte sich auf ihre Art um es. Aber als Rapunzel zwölf Jahre alt wurde, sperrte sie es in einen sehr hohen Turm.",
+          "it": "La strega chiamò la bambina Raperonzola e se ne prese cura a modo suo. Ma quando Raperonzola compì dodici anni, la rinchiuse in una torre altissima.",
+          "pt": "A bruxa chamou à menina Rapunzel e cuidou dela à sua maneira. Mas quando Rapunzel fez doze anos, encerrou-a numa torre altíssima.",
+          "ca": "La bruixa va anomenar la nena Rapunzel i la va cuidar a la seva manera. Però quan Rapunzel va complir dotze anys, la va tancar en una torre altíssima."
+        },
+        {
+          "es": "La torre no tenía escaleras ni puertas, solo una pequeña ventana en lo más alto desde la que se veía el bosque.",
+          "en": "The tower had no stairs or doors, only a small window at the very top from which the forest could be seen.",
+          "fr": "La tour n'avait ni escaliers ni portes, seulement une petite fenêtre tout en haut d'où l'on pouvait voir la forêt.",
+          "de": "Der Turm hatte keine Treppen oder Türen, nur ein kleines Fenster ganz oben, von dem aus man den Wald sehen konnte.",
+          "it": "La torre non aveva scale né porte, solo una piccola finestra in cima da cui si poteva vedere il bosco.",
+          "pt": "A torre não tinha escadas nem portas, apenas uma pequena janela no topo a partir da qual se via a floresta.",
+          "ca": "La torre no tenia escales ni portes, només una petita finestra al cim des d'on es veia el bosc."
+        },
+        {
+          "es": "Rapunzel tenía una cabellera extraordinaria, dorada y brillante, tan larga que llegaba hasta el suelo cuando la asomaba por la ventana.",
+          "en": "Rapunzel had an extraordinary head of hair, golden and gleaming, so long it reached the ground when she leaned it out of the window.",
+          "fr": "Raiponce avait une chevelure extraordinaire, dorée et brillante, si longue qu'elle atteignait le sol quand elle la penchait par la fenêtre.",
+          "de": "Rapunzel hatte ein außergewöhnliches Haar, golden und glänzend, so lang, dass es bis zum Boden reichte, wenn sie es aus dem Fenster hängte.",
+          "it": "Raperonzola aveva una chioma straordinaria, dorata e lucente, così lunga da raggiungere il suolo quando la sporgeva dalla finestra.",
+          "pt": "Rapunzel tinha uma cabeleira extraordinária, dourada e brilhante, tão comprida que chegava ao chão quando a estendia pela janela.",
+          "ca": "Rapunzel tenia una cabellera extraordinària, daurada i brillant, tan llarga que arribava al terra quan la treuria per la finestra."
+        },
+        {
+          "es": "Cuando la bruja quería visitarla, se plantaba bajo la ventana y gritaba: Rapunzel, Rapunzel, deja caer tu cabello.",
+          "en": "When the witch wanted to visit her, she would stand beneath the window and call: Rapunzel, Rapunzel, let down your hair.",
+          "fr": "Quand la sorcière voulait lui rendre visite, elle se plaçait sous la fenêtre et criait : Raiponce, Raiponce, laisse tomber tes cheveux.",
+          "de": "Wenn die Hexe sie besuchen wollte, stellte sie sich unter das Fenster und rief: Rapunzel, Rapunzel, lass dein Haar herunter.",
+          "it": "Quando la strega voleva farle visita, si piazzava sotto la finestra e gridava: Raperonzola, Raperonzola, lascia cadere i tuoi capelli.",
+          "pt": "Quando a bruxa queria visitá-la, colocava-se debaixo da janela e gritava: Rapunzel, Rapunzel, deixa cair o teu cabelo.",
+          "ca": "Quan la bruixa volia visitar-la, es plantava sota la finestra i cridava: Rapunzel, Rapunzel, deixa caure els teus cabells."
+        },
+        {
+          "es": "Rapunzel dejaba caer su larga trenza por la ventana y la bruja trepaba por ella hasta llegar arriba.",
+          "en": "Rapunzel would let her long braid fall out of the window and the witch would climb up it to the top.",
+          "fr": "Raiponce laissait tomber sa longue tresse par la fenêtre et la sorcière montait en se hissant jusqu'en haut.",
+          "de": "Rapunzel ließ ihre lange Zopf aus dem Fenster fallen und die Hexe kletterte daran hoch bis ganz oben.",
+          "it": "Raperonzola lasciava cadere la sua lunga treccia dalla finestra e la strega vi si arrampicava fino in cima.",
+          "pt": "Rapunzel deixava cair a sua longa trança pela janela e a bruxa trepava por ela até ao topo.",
+          "ca": "Rapunzel deixava caure la seva llarga trena per la finestra i la bruixa hi trepava fins dalt."
+        },
+        {
+          "es": "Rapunzel pasaba los días cantando en la torre. Su voz era tan bella que llegaba hasta el bosque más lejano.",
+          "en": "Rapunzel spent her days singing in the tower. Her voice was so beautiful it reached the most distant forest.",
+          "fr": "Raiponce passait ses journées à chanter dans la tour. Sa voix était si belle qu'elle atteignait la forêt la plus lointaine.",
+          "de": "Rapunzel verbrachte ihre Tage singend im Turm. Ihre Stimme war so schön, dass sie bis in den fernsten Wald reichte.",
+          "it": "Raperonzola trascorreva le giornate cantando nella torre. La sua voce era così bella da raggiungere la foresta più lontana.",
+          "pt": "Rapunzel passava os dias a cantar na torre. A sua voz era tão bela que chegava à floresta mais distante.",
+          "ca": "Rapunzel passava els dies cantant a la torre. La seva veu era tan bella que arribava al bosc més llunyà."
+        },
+        {
+          "es": "Así vivía Rapunzel, sin conocer otro mundo que su pequeña ventana y la copa de los árboles que el viento agitaba a lo lejos.",
+          "en": "So Rapunzel lived, knowing no other world than her little window and the tree tops that the wind stirred in the distance.",
+          "fr": "Ainsi vivait Raiponce, ne connaissant d'autre monde que sa petite fenêtre et les cimes des arbres que le vent agitait au loin.",
+          "de": "So lebte Rapunzel, ohne eine andere Welt zu kennen als ihr kleines Fenster und die Baumkronen, die der Wind in der Ferne bewegte.",
+          "it": "Così viveva Raperonzola, senza conoscere altro mondo che la sua piccola finestra e le cime degli alberi che il vento agitava in lontananza.",
+          "pt": "Assim vivia Rapunzel, sem conhecer outro mundo que não a sua pequena janela e as copas das árvores que o vento agitava ao longe.",
+          "ca": "Així vivia Rapunzel, sense conèixer un altre món que la seva petita finestra i la copa dels arbres que el vent agitava al lluny."
+        }
+      ]
+    },
+    {
+      "tit": "El príncipe y la voz",
+      "frases": [
+        {
+          "es": "Un día un príncipe que cabalgaba por el bosque escuchó el canto de Rapunzel y quedó hechizado por su belleza.",
+          "en": "One day a prince riding through the forest heard Rapunzel's song and was enchanted by its beauty.",
+          "fr": "Un jour, un prince qui chevauchait dans la forêt entendit le chant de Raiponce et fut envoûté par sa beauté.",
+          "de": "Eines Tages hörte ein Prinz, der durch den Wald ritt, Rapunzels Gesang und war von seiner Schönheit verzaubert.",
+          "it": "Un giorno un principe che cavalcava nel bosco udì il canto di Raperonzola e rimase stregato dalla sua bellezza.",
+          "pt": "Um dia um príncipe que cavalgava pela floresta ouviu o canto de Rapunzel e ficou encantado com a sua beleza.",
+          "ca": "Un dia un príncep que cavalgava pel bosc va escoltar el cant de Rapunzel i va quedar encantat per la seva bellesa."
+        },
+        {
+          "es": "Buscó de dónde venía esa voz y llegó a la torre, pero no encontró ninguna puerta ni manera de entrar.",
+          "en": "He searched for where the voice was coming from and reached the tower, but found no door or way in.",
+          "fr": "Il chercha d'où venait cette voix et arriva à la tour, mais ne trouva ni porte ni moyen d'entrer.",
+          "de": "Er suchte nach der Quelle der Stimme und erreichte den Turm, fand aber keine Tür oder Möglichkeit einzutreten.",
+          "it": "Cercò da dove proveniva quella voce e arrivò alla torre, ma non trovò alcuna porta né modo di entrare.",
+          "pt": "Procurou de onde vinha essa voz e chegou à torre, mas não encontrou nenhuma porta nem maneira de entrar.",
+          "ca": "Va buscar d'on venia aquella veu i va arribar a la torre, però no va trobar cap porta ni manera d'entrar."
+        },
+        {
+          "es": "El príncipe regresó cada día al bosque a escuchar el canto. Un atardecer vio a la bruja llegar y escuchó sus palabras.",
+          "en": "The prince returned to the forest every day to listen to the singing. One evening he saw the witch arrive and heard her words.",
+          "fr": "Le prince revenait chaque jour dans la forêt pour écouter le chant. Un soir, il vit la sorcière arriver et entendit ses paroles.",
+          "de": "Der Prinz kehrte jeden Tag in den Wald zurück, um dem Gesang zu lauschen. Eines Abends sah er die Hexe kommen und hörte ihre Worte.",
+          "it": "Il principe tornava ogni giorno nel bosco ad ascoltare il canto. Una sera vide arrivare la strega e ne udì le parole.",
+          "pt": "O príncipe voltava todos os dias ao bosque para ouvir o canto. Uma tarde viu a bruxa chegar e ouviu as suas palavras.",
+          "ca": "El príncep tornava cada dia al bosc a escoltar el cant. Un capvespre va veure arribar la bruixa i va escoltar les seves paraules."
+        },
+        {
+          "es": "Al día siguiente el príncipe se presentó bajo la ventana y gritó: Rapunzel, Rapunzel, deja caer tu cabello.",
+          "en": "The next day the prince presented himself beneath the window and called: Rapunzel, Rapunzel, let down your hair.",
+          "fr": "Le lendemain, le prince se présenta sous la fenêtre et cria : Raiponce, Raiponce, laisse tomber tes cheveux.",
+          "de": "Am nächsten Tag erschien der Prinz unter dem Fenster und rief: Rapunzel, Rapunzel, lass dein Haar herunter.",
+          "it": "Il giorno seguente il principe si presentò sotto la finestra e gridò: Raperonzola, Raperonzola, lascia cadere i tuoi capelli.",
+          "pt": "No dia seguinte o príncipe apresentou-se debaixo da janela e gritou: Rapunzel, Rapunzel, deixa cair o teu cabelo.",
+          "ca": "L'endemà el príncep es va presentar sota la finestra i va cridar: Rapunzel, Rapunzel, deixa caure els teus cabells."
+        },
+        {
+          "es": "Rapunzel se asustó al ver al príncipe, pero él habló con tanta gentileza que ella fue perdiendo el miedo.",
+          "en": "Rapunzel was frightened to see the prince, but he spoke with such kindness that she gradually lost her fear.",
+          "fr": "Raiponce eut peur en voyant le prince, mais il parla avec tant de gentillesse qu'elle perdit peu à peu sa peur.",
+          "de": "Rapunzel erschrak, als sie den Prinzen sah, aber er sprach mit so viel Freundlichkeit, dass sie allmählich ihre Angst verlor.",
+          "it": "Raperonzola si spaventò vedendo il principe, ma lui parlò con tale gentilezza che lei perse gradualmente la paura.",
+          "pt": "Rapunzel assustou-se ao ver o príncipe, mas ele falou com tanta gentileza que ela foi perdendo o medo.",
+          "ca": "Rapunzel es va espantar en veure el príncep, però ell va parlar amb tanta gentilesa que ella va anar perdent la por."
+        },
+        {
+          "es": "El príncipe prometió casarse con ella y liberarla de la torre. Acordaron que él traería seda cada visita para tejer una escalera.",
+          "en": "The prince promised to marry her and free her from the tower. They agreed that he would bring silk on each visit to weave a ladder.",
+          "fr": "Le prince promit de l'épouser et de la libérer de la tour. Ils convinrent qu'il apporterait de la soie à chaque visite pour tresser une échelle.",
+          "de": "Der Prinz versprach, sie zu heiraten und aus dem Turm zu befreien. Sie vereinbarten, dass er bei jedem Besuch Seide bringen würde, um eine Leiter zu flechten.",
+          "it": "Il principe promise di sposarla e di liberarla dalla torre. Concordarono che avrebbe portato della seta a ogni visita per tessere una scala.",
+          "pt": "O príncipe prometeu casar com ela e libertá-la da torre. Acordaram que ele traria seda em cada visita para tecer uma escada.",
+          "ca": "El príncep va prometre casar-se amb ella i alliberar-la de la torre. Van acordar que ell portaria seda a cada visita per teixir una escala."
+        },
+        {
+          "es": "Rapunzel esperaba sus visitas con alegría y el príncipe ascendía por su cabello cada anochecer.",
+          "en": "Rapunzel looked forward to his visits with joy and the prince climbed up her hair every evening.",
+          "fr": "Raiponce attendait ses visites avec joie et le prince montait dans ses cheveux chaque soir.",
+          "de": "Rapunzel freute sich auf seine Besuche und der Prinz kletterte jeden Abend an ihrem Haar hoch.",
+          "it": "Raperonzola aspettava le sue visite con gioia e il principe saliva lungo i suoi capelli ogni sera.",
+          "pt": "Rapunzel esperava as suas visitas com alegria e o príncipe subia pelo seu cabelo todas as noites.",
+          "ca": "Rapunzel esperava les seves visites amb alegria i el príncep pujava pels seus cabells cada nit."
+        }
+      ]
+    },
+    {
+      "tit": "La traición de la bruja",
+      "frases": [
+        {
+          "es": "Un día Rapunzel, sin pensar, le preguntó a la bruja por qué tardaba tanto más en subir que el príncipe.",
+          "en": "One day Rapunzel, without thinking, asked the witch why she was so much slower to climb than the prince.",
+          "fr": "Un jour, Raiponce, sans réfléchir, demanda à la sorcière pourquoi elle mettait beaucoup plus de temps à monter que le prince.",
+          "de": "Eines Tages fragte Rapunzel ohne nachzudenken die Hexe, warum sie so viel länger zum Hochklettern brauche als der Prinz.",
+          "it": "Un giorno Raperonzola, senza pensare, chiese alla strega perché impiegasse molto più tempo a salire del principe.",
+          "pt": "Um dia Rapunzel, sem pensar, perguntou à bruxa por que razão demorava tanto mais a subir do que o príncipe.",
+          "ca": "Un dia Rapunzel, sense pensar, va preguntar a la bruixa per què tardava tant més a pujar que el príncep."
+        },
+        {
+          "es": "La bruja comprendió al instante que alguien visitaba a Rapunzel. Se llenó de una rabia terrible y despiadada.",
+          "en": "The witch understood at once that someone was visiting Rapunzel. She was filled with terrible, merciless rage.",
+          "fr": "La sorcière comprit aussitôt que quelqu'un rendait visite à Raiponce. Elle fut envahie d'une rage terrible et impitoyable.",
+          "de": "Die Hexe verstand sofort, dass jemand Rapunzel besuchte. Sie wurde von einer schrecklichen, erbarmungslosen Wut erfüllt.",
+          "it": "La strega capì all'istante che qualcuno visitava Raperonzola. Fu pervasa da una rabbia terribile e spietata.",
+          "pt": "A bruxa compreendeu de imediato que alguém visitava Rapunzel. Encheu-se de uma raiva terrível e impiedosa.",
+          "ca": "La bruixa va comprendre a l'instant que algú visitava Rapunzel. Es va omplir d'una ràbia terrible i despietada."
+        },
+        {
+          "es": "Con unas tijeras afiladísimas, la bruja cortó de un solo tajo la larga y hermosa trenza de Rapunzel.",
+          "en": "With a very sharp pair of scissors, the witch cut off Rapunzel's long, beautiful braid with a single slash.",
+          "fr": "Avec des ciseaux très aiguisés, la sorcière coupa d'un seul coup la longue et belle tresse de Raiponce.",
+          "de": "Mit einer sehr scharfen Schere schnitt die Hexe Rapunzels langen, schönen Zopf mit einem einzigen Schnitt ab.",
+          "it": "Con delle forbici affilatissime, la strega tagliò d'un solo colpo la lunga e bella treccia di Raperonzola.",
+          "pt": "Com uma tesoura muito afiada, a bruxa cortou com um único golpe a longa e bela trança de Rapunzel.",
+          "ca": "Amb unes tisores molt afilades, la bruixa va tallar d'un sol tall la llarga i bonica trena de Rapunzel."
+        },
+        {
+          "es": "Luego la llevó a un desierto lejano y la abandonó allí, sola y sin nada, para que sufriera.",
+          "en": "Then she took her to a distant desert and abandoned her there, alone and with nothing, to suffer.",
+          "fr": "Puis elle l'emmena dans un désert lointain et l'y abandonna, seule et sans rien, pour qu'elle souffre.",
+          "de": "Dann brachte sie sie in eine ferne Wüste und ließ sie dort allein und ohne alles, damit sie leiden möge.",
+          "it": "Poi la portò in un deserto lontano e la abbandonò lì, sola e senza nulla, affinché soffrisse.",
+          "pt": "Depois levou-a para um deserto distante e abandonou-a lá, sozinha e sem nada, para que sofresse.",
+          "ca": "Després la va portar a un desert llunyà i la va abandonar allà, sola i sense res, perquè patís."
+        },
+        {
+          "es": "Aquella noche la bruja esperó al príncipe con la trenza cortada en la mano y lo dejó subir.",
+          "en": "That night the witch waited for the prince holding the cut braid and let him climb up.",
+          "fr": "Cette nuit-là, la sorcière attendit le prince avec la tresse coupée à la main et le laissa monter.",
+          "de": "In dieser Nacht wartete die Hexe mit dem abgeschnittenen Zopf in der Hand auf den Prinzen und ließ ihn hochklettern.",
+          "it": "Quella notte la strega aspettò il principe con la treccia tagliata in mano e lo lasciò salire.",
+          "pt": "Naquela noite a bruxa esperou o príncipe com a trança cortada na mão e deixou-o subir.",
+          "ca": "Aquella nit la bruixa va esperar el príncep amb la trena tallada a la mà i el va deixar pujar."
+        },
+        {
+          "es": "Cuando el príncipe llegó a la ventana vio a la bruja en lugar de a Rapunzel y retrocedió de terror.",
+          "en": "When the prince reached the window he saw the witch instead of Rapunzel and recoiled in terror.",
+          "fr": "Quand le prince atteignit la fenêtre, il vit la sorcière à la place de Raiponce et recula de terreur.",
+          "de": "Als der Prinz das Fenster erreichte, sah er die Hexe statt Rapunzel und wich vor Schreck zurück.",
+          "it": "Quando il principe raggiunse la finestra, vide la strega al posto di Raperonzola e indietreggiò per il terrore.",
+          "pt": "Quando o príncipe chegou à janela viu a bruxa em lugar de Rapunzel e recuou de terror.",
+          "ca": "Quan el príncep va arribar a la finestra va veure la bruixa en lloc de Rapunzel i va recular de terror."
+        },
+        {
+          "es": "Cayó desde la torre a un matorral de espinos que le arrancó la vista. Ciego y desesperado, vagó por el bosque durante años.",
+          "en": "He fell from the tower onto a thornbush that tore out his sight. Blind and desperate, he wandered through the forest for years.",
+          "fr": "Il tomba de la tour sur un buisson d'épines qui lui arracha la vue. Aveugle et désespéré, il erra dans la forêt pendant des années.",
+          "de": "Er fiel vom Turm auf einen Dornenbusch, der ihm die Augen entriss. Blind und verzweifelt irrte er jahrelang durch den Wald.",
+          "it": "Cadde dalla torre su un cespuglio di spine che gli strappò la vista. Cieco e disperato, vagò per il bosco per anni.",
+          "pt": "Caiu da torre para um matagal de espinhos que lhe arrancou a vista. Cego e desesperado, vagueou pela floresta durante anos.",
+          "ca": "Va caure de la torre a un matoll d'espines que li va arrencar la vista. Cec i desesperat, va vagar pel bosc durant anys."
+        }
+      ]
+    },
+    {
+      "tit": "El desierto y las lágrimas",
+      "frases": [
+        {
+          "es": "Rapunzel vivía en el desierto con grandes penurias. Con el tiempo dio a luz dos gemelos, un niño y una niña.",
+          "en": "Rapunzel lived in the desert with great hardship. In time she gave birth to twins, a boy and a girl.",
+          "fr": "Raiponce vivait dans le désert dans une grande misère. Avec le temps, elle donna naissance à des jumeaux, un garçon et une fille.",
+          "de": "Rapunzel lebte in großer Not in der Wüste. Mit der Zeit gebar sie Zwillinge, einen Jungen und ein Mädchen.",
+          "it": "Raperonzola viveva nel deserto con grandi stenti. Col tempo diede alla luce due gemelli, un maschio e una femmina.",
+          "pt": "Rapunzel vivia no deserto com grandes dificuldades. Com o tempo deu à luz dois gémeos, um menino e uma menina.",
+          "ca": "Rapunzel vivia al desert amb grans penúries. Amb el temps va donar a llum dos bessons, un nen i una nena."
+        },
+        {
+          "es": "Pese a todo, Rapunzel cuidaba a sus hijos con todo el amor que tenía y cantaba para ellos cada noche.",
+          "en": "Despite everything, Rapunzel cared for her children with all the love she had and sang to them every night.",
+          "fr": "Malgré tout, Raiponce s'occupait de ses enfants avec tout l'amour qu'elle avait et leur chantait chaque soir.",
+          "de": "Trotz allem kümmerte sich Rapunzel mit all ihrer Liebe um ihre Kinder und sang jeden Abend für sie.",
+          "it": "Nonostante tutto, Raperonzola si prendeva cura dei suoi figli con tutto l'amore che aveva e cantava per loro ogni notte.",
+          "pt": "Apesar de tudo, Rapunzel cuidava dos seus filhos com todo o amor que tinha e cantava para eles todas as noites.",
+          "ca": "Malgrat tot, Rapunzel cuidava els seus fills amb tot l'amor que tenia i els cantava cada nit."
+        },
+        {
+          "es": "El príncipe ciego vagaba sin rumbo por tierras y desiertos, alimentándose de raíces y bayas silvestres.",
+          "en": "The blind prince wandered aimlessly across lands and deserts, feeding himself on roots and wild berries.",
+          "fr": "Le prince aveugle errait sans but à travers les terres et les déserts, se nourrissant de racines et de baies sauvages.",
+          "de": "Der blinde Prinz irrte ziellos durch Länder und Wüsten und ernährte sich von Wurzeln und wilden Beeren.",
+          "it": "Il principe cieco vagava senza meta attraverso terre e deserti, nutrendosi di radici e bacche selvatiche.",
+          "pt": "O príncipe cego vagueava sem rumo por terras e desertos, alimentando-se de raízes e bagas silvestres.",
+          "ca": "El príncep cec vagava sense rumb per terres i deserts, alimentant-se d'arrels i baies silvestres."
+        },
+        {
+          "es": "Un día llegó a la región donde vivía Rapunzel y escuchó una voz que conocía: era ella cantando a sus hijos.",
+          "en": "One day he came to the region where Rapunzel lived and heard a voice he knew: it was her singing to her children.",
+          "fr": "Un jour, il arriva dans la région où vivait Raiponce et entendit une voix qu'il connaissait : c'était elle qui chantait pour ses enfants.",
+          "de": "Eines Tages gelangte er in die Gegend, in der Rapunzel lebte, und hörte eine Stimme, die er kannte: Es war sie, die für ihre Kinder sang.",
+          "it": "Un giorno arrivò nella regione dove viveva Raperonzola e udì una voce che conosceva: era lei che cantava per i suoi figli.",
+          "pt": "Um dia chegou à região onde vivia Rapunzel e ouviu uma voz que conhecia: era ela a cantar para os seus filhos.",
+          "ca": "Un dia va arribar a la regió on vivia Rapunzel i va escoltar una veu que coneixia: era ella cantant als seus fills."
+        },
+        {
+          "es": "El príncipe corrió hacia aquella voz. Rapunzel lo reconoció también y corrió a su encuentro con lágrimas de alegría.",
+          "en": "The prince ran towards that voice. Rapunzel recognised him too and ran to meet him with tears of joy.",
+          "fr": "Le prince courut vers cette voix. Raiponce le reconnut aussi et courut à sa rencontre avec des larmes de joie.",
+          "de": "Der Prinz rannte auf diese Stimme zu. Rapunzel erkannte ihn ebenfalls und lief ihm mit Freudentränen entgegen.",
+          "it": "Il principe corse verso quella voce. Raperonzola lo riconobbe anch'essa e corse incontro a lui con lacrime di gioia.",
+          "pt": "O príncipe correu para aquela voz. Rapunzel reconheceu-o também e correu ao seu encontro com lágrimas de alegria.",
+          "ca": "El príncep va córrer cap aquella veu. Rapunzel el va reconèixer també i va córrer al seu encontre amb llàgrimes d'alegria."
+        },
+        {
+          "es": "Cuando Rapunzel abrazó al príncipe, dos lágrimas calientes cayeron sobre sus ojos ciegos y él volvió a ver.",
+          "en": "When Rapunzel embraced the prince, two warm tears fell on his blind eyes and he could see again.",
+          "fr": "Quand Raiponce étreignit le prince, deux larmes chaudes tombèrent sur ses yeux aveugles et il put voir à nouveau.",
+          "de": "Als Rapunzel den Prinzen umarmte, fielen zwei warme Tränen auf seine blinden Augen und er konnte wieder sehen.",
+          "it": "Quando Raperonzola abbracciò il principe, due lacrime calde caddero sui suoi occhi ciechi e lui tornò a vedere.",
+          "pt": "Quando Rapunzel abraçou o príncipe, duas lágrimas quentes caíram sobre os seus olhos cegos e ele voltou a ver.",
+          "ca": "Quan Rapunzel va abraçar el príncep, dues llàgrimes calentes van caure sobre els seus ulls cecs i ell va tornar a veure."
+        },
+        {
+          "es": "Ante sus ojos aparecieron Rapunzel y sus dos hijos, hermosos y sanos. El príncipe los llevó a su reino y vivieron felices.",
+          "en": "Before his eyes appeared Rapunzel and their two children, beautiful and healthy. The prince took them to his kingdom and they lived happily.",
+          "fr": "Devant ses yeux apparurent Raiponce et ses deux enfants, beaux et en bonne santé. Le prince les emmena dans son royaume et ils vécurent heureux.",
+          "de": "Vor seinen Augen erschienen Rapunzel und ihre zwei Kinder, schön und gesund. Der Prinz brachte sie in sein Königreich und sie lebten glücklich.",
+          "it": "Davanti ai suoi occhi apparvero Raperonzola e i suoi due figli, belli e sani. Il principe li portò nel suo regno e vissero felici.",
+          "pt": "Perante os seus olhos apareceram Rapunzel e os seus dois filhos, belos e saudáveis. O príncipe levou-os ao seu reino e viveram felizes.",
+          "ca": "Davant els seus ulls van aparèixer Rapunzel i els seus dos fills, bells i sans. El príncep els va portar al seu regne i van viure feliços."
+        }
+      ]
+    },
+    {
+      "tit": "El reinado de los dos",
+      "frases": [
+        {
+          "es": "El príncipe y Rapunzel llegaron al reino con sus dos hijos. La noticia de su regreso se extendió como el fuego.",
+          "en": "The prince and Rapunzel arrived at the kingdom with their two children. News of their return spread like fire.",
+          "fr": "Le prince et Raiponce arrivèrent au royaume avec leurs deux enfants. La nouvelle de leur retour se répandit comme le feu.",
+          "de": "Der Prinz und Rapunzel kamen mit ihren zwei Kindern ins Königreich. Die Nachricht von ihrer Rückkehr verbreitete sich wie ein Lauffeuer.",
+          "it": "Il principe e Raperonzola arrivarono al regno con i loro due figli. La notizia del loro ritorno si diffuse come il fuoco.",
+          "pt": "O príncipe e Rapunzel chegaram ao reino com os seus dois filhos. A notícia do seu regresso espalhou-se como o fogo.",
+          "ca": "El príncep i Rapunzel van arribar al regne amb els seus dos fills. La notícia del seu retorn es va escampar com el foc."
+        },
+        {
+          "es": "El rey y la reina, padres del príncipe, lloraron de emoción al ver a su hijo sano y con vista recuperada.",
+          "en": "The king and queen, the prince's parents, wept with emotion on seeing their son healthy and with his sight restored.",
+          "fr": "Le roi et la reine, parents du prince, pleurèrent d'émotion en voyant leur fils en bonne santé et avec la vue recouvrée.",
+          "de": "Der König und die Königin, Eltern des Prinzen, weinten vor Rührung, als sie ihren Sohn gesund und mit wiederhergestelltem Augenlicht sahen.",
+          "it": "Il re e la regina, genitori del principe, piansero di commozione vedendo loro figlio sano e con la vista recuperata.",
+          "pt": "O rei e a rainha, pais do príncipe, choraram de emoção ao ver o seu filho são e com a vista recuperada.",
+          "ca": "El rei i la reina, pares del príncep, van plorar d'emoció en veure el seu fill sa i amb la vista recuperada."
+        },
+        {
+          "es": "Rapunzel fue recibida como princesa con toda la dignidad y el cariño que merecía, después de tantos años de sufrimiento.",
+          "en": "Rapunzel was welcomed as princess with all the dignity and affection she deserved, after so many years of suffering.",
+          "fr": "Raiponce fut accueillie comme princesse avec toute la dignité et l'affection qu'elle méritait, après tant d'années de souffrance.",
+          "de": "Rapunzel wurde als Prinzessin mit all der Würde und Zuneigung empfangen, die sie verdiente, nach so vielen Jahren des Leidens.",
+          "it": "Raperonzola fu accolta come principessa con tutta la dignità e l'affetto che meritava, dopo tanti anni di sofferenza.",
+          "pt": "Rapunzel foi recebida como princesa com toda a dignidade e o carinho que merecia, depois de tantos anos de sofrimento.",
+          "ca": "Rapunzel va ser rebuda com a princesa amb tota la dignitat i el carinyo que mereixia, després de tants anys de sofriment."
+        },
+        {
+          "es": "Sus dos hijos crecieron en el palacio, rodeados de amor, y fueron conocidos por todo el reino como los gemelos de la torre.",
+          "en": "Their two children grew up in the palace, surrounded by love, and were known throughout the kingdom as the tower twins.",
+          "fr": "Leurs deux enfants grandirent au palais, entourés d'amour, et furent connus dans tout le royaume sous le nom des jumeaux de la tour.",
+          "de": "Ihre zwei Kinder wuchsen im Palast auf, umgeben von Liebe, und waren im ganzen Königreich als die Turmzwillinge bekannt.",
+          "it": "I loro due figli crebbero nel palazzo, circondati d'amore, e furono conosciuti in tutto il regno come i gemelli della torre.",
+          "pt": "Os seus dois filhos cresceram no palácio, rodeados de amor, e eram conhecidos em todo o reino como os gémeos da torre.",
+          "ca": "Els seus dos fills van créixer al palau, envoltats d'amor, i van ser coneguts per tot el regne com els bessons de la torre."
+        },
+        {
+          "es": "De la bruja nunca más se supo. Algunos decían que vivía sola en su jardín, hablando con las flores que ya no podía compartir.",
+          "en": "The witch was never heard of again. Some said she lived alone in her garden, talking to the flowers she could no longer share.",
+          "fr": "On n'entendit plus jamais parler de la sorcière. Certains disaient qu'elle vivait seule dans son jardin, parlant aux fleurs qu'elle ne pouvait plus partager.",
+          "de": "Von der Hexe hörte man nie mehr. Manche sagten, sie lebte allein in ihrem Garten und sprach mit den Blumen, die sie nicht mehr teilen konnte.",
+          "it": "Della strega non si seppe più nulla. Alcuni dicevano che viveva sola nel suo giardino, parlando con i fiori che non poteva più condividere.",
+          "pt": "Da bruxa nunca mais se soube. Alguns diziam que vivia sozinha no seu jardim, a falar com as flores que já não podia partilhar.",
+          "ca": "De la bruixa mai més se'n va saber res. Alguns deien que vivia sola al seu jardí, parlant amb les flors que ja no podia compartir."
+        },
+        {
+          "es": "Rapunzel enseñó a sus hijos a cantar y les contó su historia, para que nunca olvidaran que la libertad y el amor son más fuertes que cualquier torre.",
+          "en": "Rapunzel taught her children to sing and told them her story, so that they would never forget that freedom and love are stronger than any tower.",
+          "fr": "Raiponce apprit à ses enfants à chanter et leur raconta son histoire, pour qu'ils n'oublient jamais que la liberté et l'amour sont plus forts que n'importe quelle tour.",
+          "de": "Rapunzel lehrte ihre Kinder singen und erzählte ihnen ihre Geschichte, damit sie nie vergaßen, dass Freiheit und Liebe stärker sind als jeder Turm.",
+          "it": "Raperonzola insegnò ai suoi figli a cantare e raccontò loro la sua storia, affinché non dimenticassero mai che la libertà e l'amore sono più forti di qualsiasi torre.",
+          "pt": "Rapunzel ensinou os seus filhos a cantar e contou-lhes a sua história, para que nunca esquecessem que a liberdade e o amor são mais fortes do que qualquer torre.",
+          "ca": "Rapunzel va ensenyar els seus fills a cantar i els va explicar la seva història, perquè mai oblidessin que la llibertat i l'amor són més forts que qualsevol torre."
+        },
+        {
+          "es": "Y los dos vivieron muchos años juntos, y su cabello dorado y su voz de pájaro siguieron siendo la maravilla de todo el reino.",
+          "en": "And the two lived many years together, and her golden hair and birdsong voice remained the wonder of all the kingdom.",
+          "fr": "Et les deux vécurent de nombreuses années ensemble, et ses cheveux dorés et sa voix d'oiseau restèrent la merveille de tout le royaume.",
+          "de": "Und die beiden lebten viele Jahre zusammen, und ihr goldenes Haar und ihre Vogelstimme blieben das Wunder des ganzen Königreichs.",
+          "it": "E i due vissero molti anni insieme, e i suoi capelli dorati e la sua voce di uccello rimasero la meraviglia di tutto il regno.",
+          "pt": "E os dois viveram muitos anos juntos, e o seu cabelo dourado e a sua voz de pássaro continuaram a ser a maravilha de todo o reino.",
+          "ca": "I els dos van viure molts anys junts, i els seus cabells daurats i la seva veu d'ocell van continuar sent la meravella de tot el regne."
+        }
+      ]
+    }
+  ]
+}
