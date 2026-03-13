@@ -1,0 +1,452 @@
+{
+  "id": 15,
+  "tit": "Los músicos de Bremen",
+  "aut": "Hermanos Grimm",
+  "cat": "Grimm",
+  "gratis": true,
+  "cov": "grimm",
+  "emo": "🎺",
+  "totalCaps": 7,
+  "caps": [
+    {
+      "tit": "El burro que ya no sirve",
+      "frases": [
+        {
+          "es": "Un burro había trabajado durante muchos años para su amo cargando sacos al molino, pero sus fuerzas empezaban a flaquear.",
+          "en": "A donkey had worked for many years for his master carrying sacks to the mill, but his strength was beginning to fail.",
+          "fr": "Un âne avait travaillé pendant de nombreuses années pour son maître en transportant des sacs au moulin, mais ses forces commençaient à faiblir.",
+          "de": "Ein Esel hatte viele Jahre lang für seinen Herrn gearbeitet und Säcke zur Mühle getragen, aber seine Kräfte begannen nachzulassen.",
+          "it": "Un asino aveva lavorato per molti anni per il suo padrone portando sacchi al mulino, ma le sue forze cominciavano a venire meno.",
+          "pt": "Um burro tinha trabalhado durante muitos anos para o seu dono carregando sacos para o moinho, mas as suas forças começavam a fraquejar.",
+          "ca": "Un ruc havia treballat durant molts anys per al seu amo carregant sacs al molí, però les seves forces començaven a flaquejar."
+        },
+        {
+          "es": "Su amo pensó que ya no valía para nada y empezó a darle menos comida. El burro comprendió que su fin se acercaba.",
+          "en": "His master thought he was no longer good for anything and began giving him less food. The donkey understood that his end was near.",
+          "fr": "Son maître pensa qu'il ne valait plus rien et commença à lui donner moins à manger. L'âne comprit que sa fin approchait.",
+          "de": "Sein Herr dachte, er tauge zu nichts mehr, und fing an, ihm weniger Futter zu geben. Der Esel verstand, dass sein Ende nahte.",
+          "it": "Il suo padrone pensò che non valesse più nulla e cominciò a dargli meno cibo. L'asino capì che la sua fine si avvicinava.",
+          "pt": "O seu dono achou que já não servia para nada e começou a dar-lhe menos comida. O burro percebeu que o seu fim se aproximava.",
+          "ca": "El seu amo va pensar que ja no valia per a res i va començar a donar-li menys menjar. El ruc va comprendre que el seu final s'acostava."
+        },
+        {
+          "es": "Entonces el burro tomó una decisión valiente: huiría y se iría a Bremen a hacerse músico callejero.",
+          "en": "Then the donkey made a brave decision: he would run away and go to Bremen to become a street musician.",
+          "fr": "Alors l'âne prit une décision courageuse : il s'enfuirait et irait à Brême pour devenir musicien de rue.",
+          "de": "Da traf der Esel eine mutige Entscheidung: Er würde fliehen und nach Bremen gehen, um Straßenmusikant zu werden.",
+          "it": "Allora l'asino prese una decisione coraggiosa: sarebbe fuggito e sarebbe andato a Brema a fare il musicante di strada.",
+          "pt": "Então o burro tomou uma decisão corajosa: fugiria e iria para Bremen tornar-se músico de rua.",
+          "ca": "Llavors el ruc va prendre una decisió valenta: fugiria i aniria a Bremen a fer-se músic de carrer."
+        },
+        {
+          "es": "Puso rumbo a Bremen por el camino del bosque, rebuzando con entusiasmo mientras practicaba sus canciones.",
+          "en": "He set off for Bremen along the forest road, braying enthusiastically as he practised his songs.",
+          "fr": "Il prit la direction de Brême par le chemin de la forêt, braiant avec enthousiasme en s'exerçant à ses chansons.",
+          "de": "Er machte sich auf den Weg nach Bremen durch den Waldpfad und schrie begeistert, während er seine Lieder übte.",
+          "it": "Si avviò verso Brema per la strada del bosco, ragliando con entusiasmo mentre si esercitava con le sue canzoni.",
+          "pt": "Pôs-se a caminho de Bremen pelo caminho da floresta, zurrado com entusiasmo enquanto praticava as suas canções.",
+          "ca": "Va posar rumb a Bremen pel camí del bosc, rebufant amb entusiasme mentre practicava les seves cançons."
+        },
+        {
+          "es": "En el camino se encontró con un perro viejo tumbado y jadeando al borde de la senda.",
+          "en": "On the way he came across an old dog lying and panting at the side of the path.",
+          "fr": "En chemin, il rencontra un vieux chien couché et haletant au bord du sentier.",
+          "de": "Auf dem Weg traf er einen alten Hund, der am Wegrand lag und keuchte.",
+          "it": "Per strada si imbatté in un vecchio cane sdraiato e ansimante ai lati del sentiero.",
+          "pt": "No caminho encontrou um cão velho deitado e a ofegar à beira do caminho.",
+          "ca": "En el camí es va trobar amb un gos vell estirat i panteixant a la vora del sender."
+        },
+        {
+          "es": "El burro le preguntó qué le pasaba. El perro le explicó que su amo quería matarlo porque ya no podía cazar.",
+          "en": "The donkey asked him what was wrong. The dog explained that his master wanted to kill him because he could no longer hunt.",
+          "fr": "L'âne lui demanda ce qui n'allait pas. Le chien lui expliqua que son maître voulait le tuer parce qu'il ne pouvait plus chasser.",
+          "de": "Der Esel fragte ihn, was mit ihm nicht stimmte. Der Hund erklärte, dass sein Herr ihn töten wollte, weil er nicht mehr jagen konnte.",
+          "it": "L'asino gli chiese cosa avesse. Il cane spiegò che il suo padrone voleva ucciderlo perché non riusciva più a cacciare.",
+          "pt": "O burro perguntou-lhe o que se passava. O cão explicou que o seu dono queria matá-lo porque já não conseguia caçar.",
+          "ca": "El ruc li va preguntar què li passava. El gos li va explicar que el seu amo el volia matar perquè ja no podia caçar."
+        },
+        {
+          "es": "Ven conmigo a Bremen, dijo el burro. Tú tocarás el tambor y yo tocaré el laúd. Juntos seremos músicos.",
+          "en": "Come with me to Bremen, said the donkey. You will play the drum and I will play the lute. Together we shall be musicians.",
+          "fr": "Viens avec moi à Brême, dit l'âne. Tu joueras du tambour et moi du luth. Ensemble nous serons musiciens.",
+          "de": "Komm mit mir nach Bremen, sagte der Esel. Du spielst die Trommel und ich spiele die Laute. Zusammen werden wir Musiker sein.",
+          "it": "Vieni con me a Brema, disse l'asino. Tu suonerai il tamburo e io suonerò il liuto. Insieme saremo musicisti.",
+          "pt": "Vem comigo para Bremen, disse o burro. Tu tocarás o tambor e eu tocarei o alaúde. Juntos seremos músicos.",
+          "ca": "Vine amb mi a Bremen, va dir el ruc. Tu tocaràs el tambor i jo tocaré el llaüt. Junts serem músics."
+        }
+      ]
+    },
+    {
+      "tit": "El gato y el gallo se unen",
+      "frases": [
+        {
+          "es": "El burro y el perro siguieron caminando y encontraron un gato viejo con cara de tristeza sentado en la carretera.",
+          "en": "The donkey and the dog walked on and found an old cat sitting in the road looking sad.",
+          "fr": "L'âne et le chien continuèrent à marcher et trouvèrent un vieux chat assis sur la route avec un air triste.",
+          "de": "Der Esel und der Hund gingen weiter und fanden eine alte Katze auf der Straße sitzen, die traurig aussah.",
+          "it": "L'asino e il cane continuarono a camminare e trovarono un vecchio gatto seduto sulla strada con l'aria triste.",
+          "pt": "O burro e o cão continuaram a caminhar e encontraram um gato velho com cara triste sentado na estrada.",
+          "ca": "El ruc i el gos van continuar caminant i van trobar un gat vell amb cara de tristesa assegut a la carretera."
+        },
+        {
+          "es": "El gato les explicó que su ama quería ahogarlo porque ya no podía cazar ratones.",
+          "en": "The cat explained that his mistress wanted to drown him because he could no longer catch mice.",
+          "fr": "Le chat expliqua que sa maîtresse voulait le noyer parce qu'il ne pouvait plus attraper de souris.",
+          "de": "Die Katze erklärte, dass ihre Herrin sie ertränken wollte, weil sie keine Mäuse mehr fangen konnte.",
+          "it": "Il gatto spiegò che la sua padrona voleva annegarlo perché non riusciva più a cacciare i topi.",
+          "pt": "O gato explicou que a sua dona queria afogá-lo porque já não conseguia caçar ratinhos.",
+          "ca": "El gat va explicar que la seva mestressa el volia ofegar perquè ja no podia caçar ratolins."
+        },
+        {
+          "es": "Ven con nosotros a Bremen, dijeron el burro y el perro. Con tu voz serás un gran cantante.",
+          "en": "Come with us to Bremen, said the donkey and the dog. With your voice you will be a great singer.",
+          "fr": "Viens avec nous à Brême, dirent l'âne et le chien. Avec ta voix, tu seras un grand chanteur.",
+          "de": "Komm mit uns nach Bremen, sagten der Esel und der Hund. Mit deiner Stimme wirst du ein großartiger Sänger sein.",
+          "it": "Vieni con noi a Brema, dissero l'asino e il cane. Con la tua voce sarai un grande cantante.",
+          "pt": "Vem connosco para Bremen, disseram o burro e o cão. Com a tua voz serás um grande cantor.",
+          "ca": "Vine amb nosaltres a Bremen, van dir el ruc i el gos. Amb la teva veu seràs un gran cantant."
+        },
+        {
+          "es": "El gato se alegró y se unió a la banda. Los tres siguieron el camino juntos, practicando sus tonadas.",
+          "en": "The cat cheered up and joined the band. The three continued on their way together, practising their tunes.",
+          "fr": "Le chat se réjouit et rejoignit le groupe. Les trois continuèrent leur chemin ensemble, s'exerçant à leurs mélodies.",
+          "de": "Die Katze freute sich und schloss sich der Band an. Die drei setzten ihren Weg gemeinsam fort und übten ihre Melodien.",
+          "it": "Il gatto si rallegrò e si unì alla banda. I tre continuarono il cammino insieme, esercitandosi con le loro melodie.",
+          "pt": "O gato animou-se e juntou-se à banda. Os três continuaram o caminho juntos, praticando as suas melodias.",
+          "ca": "El gat es va alegrar i es va unir a la banda. Els tres van continuar el camí junts, practicant les seves tonades."
+        },
+        {
+          "es": "Poco después oyeron a un gallo cantando con toda su fuerza sobre una valla, como si quisiera ensordecerlos.",
+          "en": "Shortly after they heard a cockerel crowing with all its might on a fence, as if trying to deafen them.",
+          "fr": "Peu après, ils entendirent un coq chanter de toutes ses forces sur une clôture, comme s'il voulait les rendre sourds.",
+          "de": "Kurz darauf hörten sie einen Hahn auf einem Zaun mit voller Kraft krähen, als wollte er sie taub machen.",
+          "it": "Poco dopo sentirono un gallo cantare con tutta la sua forza su una staccionata, come se volesse assordirli.",
+          "pt": "Pouco depois ouviram um galo a cantar com toda a sua força em cima de uma vedação, como se quisesse ensurdecer-los.",
+          "ca": "Poc després van sentir un gall cantant amb tota la seva força sobre una tanca, com si volgués ensordirlos."
+        },
+        {
+          "es": "El gallo les contó que su ama quería guisarlo para la cena del domingo. Aquella sería su última mañana.",
+          "en": "The cockerel told them that his mistress wanted to cook him for Sunday dinner. This would be his last morning.",
+          "fr": "Le coq leur dit que sa maîtresse voulait le cuisiner pour le repas du dimanche. Ce serait sa dernière matinée.",
+          "de": "Der Hahn erzählte ihnen, dass seine Herrin ihn zum Sonntagsessen kochen wollte. Dies würde sein letzter Morgen sein.",
+          "it": "Il gallo raccontò loro che la sua padrona voleva cucinarlo per la cena della domenica. Quello sarebbe stato il suo ultimo mattino.",
+          "pt": "O galo contou-lhes que a sua dona queria guisá-lo para o jantar de domingo. Aquela seria a sua última manhã.",
+          "ca": "El gall els va explicar que la seva mestressa el volia guisar per al sopar del diumenge. Aquell seria el seu últim matí."
+        },
+        {
+          "es": "Ven con nosotros a Bremen, dijeron los tres. Tú cantarás la voz más alta y seremos la mejor banda del mundo.",
+          "en": "Come with us to Bremen, the three said. You will sing the highest part and we shall be the best band in the world.",
+          "fr": "Viens avec nous à Brême, dirent les trois. Tu chanteras la voix la plus haute et nous serons le meilleur groupe du monde.",
+          "de": "Komm mit uns nach Bremen, sagten die drei. Du wirst die höchste Stimme singen und wir werden die beste Band der Welt sein.",
+          "it": "Vieni con noi a Brema, dissero i tre. Tu canterai la voce più alta e saremo la migliore band del mondo.",
+          "pt": "Vem connosco para Bremen, disseram os três. Tu cantarás a voz mais alta e seremos a melhor banda do mundo.",
+          "ca": "Vine amb nosaltres a Bremen, van dir els tres. Tu cantaràs la veu més alta i serem la millor banda del món."
+        }
+      ]
+    },
+    {
+      "tit": "La noche en el bosque",
+      "frases": [
+        {
+          "es": "Los cuatro animales caminaron todo el día, pero Bremen quedaba aún lejos y llegó la noche sin que pudieran llegar.",
+          "en": "The four animals walked all day, but Bremen was still far away and night fell before they could get there.",
+          "fr": "Les quatre animaux marchèrent toute la journée, mais Brême était encore loin et la nuit tomba avant qu'ils puissent y arriver.",
+          "de": "Die vier Tiere liefen den ganzen Tag, aber Bremen war noch weit und die Nacht brach herein, bevor sie ankommen konnten.",
+          "it": "I quattro animali camminarono tutto il giorno, ma Brema era ancora lontana e arrivò la notte prima che potessero arrivarci.",
+          "pt": "Os quatro animais caminharam todo o dia, mas Bremen ainda ficava longe e chegou a noite sem que pudessem chegar lá.",
+          "ca": "Els quatre animals van caminar tot el dia, però Bremen encara quedava lluny i va arribar la nit sense que poguessin arribar-hi."
+        },
+        {
+          "es": "El gallo voló a lo alto de un árbol y diviso a lo lejos una luz brillante entre los árboles.",
+          "en": "The cockerel flew to the top of a tree and spotted a bright light in the distance among the trees.",
+          "fr": "Le coq s'envola en haut d'un arbre et aperçut au loin une lumière brillante entre les arbres.",
+          "de": "Der Hahn flog auf einen Baumgipfel und erblickte in der Ferne ein helles Licht zwischen den Bäumen.",
+          "it": "Il gallo volò in cima a un albero e scorse in lontananza una luce brillante tra gli alberi.",
+          "pt": "O galo voou para o alto de uma árvore e avistou ao longe uma luz brilhante entre as árvores.",
+          "ca": "El gall va volar a dalt d'un arbre i va albirar al lluny una llum brillant entre els arbres."
+        },
+        {
+          "es": "Los animales caminaron hacia la luz y llegaron a una casita del bosque con las ventanas iluminadas.",
+          "en": "The animals walked towards the light and arrived at a little forest house with lit windows.",
+          "fr": "Les animaux se dirigèrent vers la lumière et arrivèrent à une petite maison dans la forêt avec des fenêtres illuminées.",
+          "de": "Die Tiere gingen auf das Licht zu und kamen zu einem kleinen Waldhaus mit erleuchteten Fenstern.",
+          "it": "Gli animali camminarono verso la luce e arrivarono a una piccola casa nel bosco con le finestre illuminate.",
+          "pt": "Os animais caminharam em direção à luz e chegaram a uma casinha na floresta com as janelas iluminadas.",
+          "ca": "Els animals van caminar cap a la llum i van arribar a una caseta del bosc amb les finestres il·luminades."
+        },
+        {
+          "es": "El burro, que era el más alto, se asomó a la ventana y vio una mesa llena de comida y bebida rodeada de bandidos.",
+          "en": "The donkey, being the tallest, looked in through the window and saw a table covered in food and drink surrounded by robbers.",
+          "fr": "L'âne, étant le plus grand, regarda par la fenêtre et vit une table couverte de nourriture et de boissons entourée de brigands.",
+          "de": "Der Esel, der am größten war, schaute durchs Fenster und sah einen Tisch voller Essen und Trinken, umgeben von Räubern.",
+          "it": "L'asino, essendo il più alto, si affacciò alla finestra e vide un tavolo pieno di cibo e bevande circondato da banditi.",
+          "pt": "O burro, que era o mais alto, espreitou pela janela e viu uma mesa cheia de comida e bebida rodeada de bandidos.",
+          "ca": "El ruc, que era el més alt, es va asomar a la finestra i va veure una taula plena de menjar i beguda envoltada de bandolers."
+        },
+        {
+          "es": "Los animales hicieron un plan. El burro apoyó las patas delanteras en la ventana, el perro saltó encima del burro, el gato sobre el perro y el gallo en lo alto de todo.",
+          "en": "The animals made a plan. The donkey put his front hooves on the window ledge, the dog jumped on top of the donkey, the cat on top of the dog and the cockerel on top of all.",
+          "fr": "Les animaux firent un plan. L'âne appuya ses pattes avant sur le bord de la fenêtre, le chien sauta sur le dos de l'âne, le chat sur le chien et le coq tout en haut.",
+          "de": "Die Tiere machten einen Plan. Der Esel stützte seine Vorderhufe auf den Fensterbrett, der Hund sprang auf den Esel, die Katze auf den Hund und der Hahn ganz oben drauf.",
+          "it": "Gli animali fecero un piano. L'asino appoggiò gli zoccoli anteriori al davanzale, il cane saltò sull'asino, il gatto sul cane e il gallo in cima a tutto.",
+          "pt": "Os animais fizeram um plano. O burro apoiou as patas dianteiras na janela, o cão saltou em cima do burro, o gato em cima do cão e o galo no topo de tudo.",
+          "ca": "Els animals van fer un pla. El ruc va recolzar les potes davanteres a la finestra, el gos va saltar a sobre del ruc, el gat sobre el gos i el gall a dalt de tot."
+        },
+        {
+          "es": "A una señal del burro, los cuatro empezaron a cantar a pleno pulmón: el burro rebuznó, el perro ladró, el gato maulló y el gallo cantó.",
+          "en": "On a signal from the donkey, all four began to sing at full lung: the donkey brayed, the dog barked, the cat meowed and the cockerel crowed.",
+          "fr": "Sur un signal de l'âne, les quatre commencèrent à chanter à pleins poumons : l'âne braya, le chien aboya, le chat miula et le coq chanta.",
+          "de": "Auf ein Signal des Esels begannen alle vier aus vollen Kehlen zu singen: Der Esel schrie, der Hund bellte, die Katze miaute und der Hahn krähte.",
+          "it": "A un segnale dell'asino, tutti e quattro cominciarono a cantare a pieni polmoni: l'asino ragliò, il cane abbaiò, il gatto miagolò e il gallo cantò.",
+          "pt": "A um sinal do burro, os quatro começaram a cantar a plenos pulmões: o burro zurrou, o cão ladrou, o gato miau e o galo cantou.",
+          "ca": "A un senyal del ruc, els quatre van començar a cantar a ple pulmó: el ruc va rebufar, el gos va lladrar, el gat va miolar i el gall va cantar."
+        },
+        {
+          "es": "Y de golpe todos saltaron al mismo tiempo por la ventana, haciéndola añicos con un estruendo terrible.",
+          "en": "And all at once they all jumped through the window at the same time, smashing it to pieces with a terrible crash.",
+          "fr": "Et d'un coup, ils sautèrent tous en même temps par la fenêtre, la fracassant en morceaux avec un fracas terrible.",
+          "de": "Und mit einem Mal sprangen alle gleichzeitig durchs Fenster und zerschmetterten es mit einem schrecklichen Krachen in Stücke.",
+          "it": "E di colpo saltarono tutti allo stesso tempo attraverso la finestra, frantumandola con un fragore terribile.",
+          "pt": "E de repente todos saltaram ao mesmo tempo pela janela, fazendo-a em pedaços com um estrondo terrível.",
+          "ca": "I de cop tots van saltar al mateix temps per la finestra, trencant-la en bocins amb un estrèpit terrible."
+        }
+      ]
+    },
+    {
+      "tit": "Los bandidos huyen",
+      "frases": [
+        {
+          "es": "Los bandidos, aterrorizados por aquel ruido infernal, huyeron despavoridos al bosque creyendo que era un monstruo.",
+          "en": "The robbers, terrified by that hellish noise, fled in panic into the forest thinking it was a monster.",
+          "fr": "Les brigands, terrorisés par ce bruit infernal, s'enfuirent en panique dans la forêt en croyant que c'était un monstre.",
+          "de": "Die Räuber, erschrocken von diesem höllischen Lärm, flüchteten in Panik in den Wald und dachten, es sei ein Monster.",
+          "it": "I banditi, terrorizzati da quel rumore infernale, fuggirono in preda al panico nel bosco credendo che fosse un mostro.",
+          "pt": "Os bandidos, aterrorizados por aquele ruído infernal, fugiram em pânico para a floresta julgando que era um monstro.",
+          "ca": "Els bandolers, aterroritzats per aquell soroll infernal, van fugir espantats al bosc creient que era un monstre."
+        },
+        {
+          "es": "Los cuatro animales se sentaron a la mesa y devoraron con gran apetito todo lo que los bandidos habían dejado.",
+          "en": "The four animals sat down at the table and devoured with great appetite everything the robbers had left behind.",
+          "fr": "Les quatre animaux s'assirent à table et dévorèrent avec grand appétit tout ce que les brigands avaient laissé.",
+          "de": "Die vier Tiere setzten sich an den Tisch und verschlangen mit großem Appetit alles, was die Räuber zurückgelassen hatten.",
+          "it": "I quattro animali si sedettero a tavola e divorarono con grande appetito tutto ciò che i banditi avevano lasciato.",
+          "pt": "Os quatro animais sentaram-se à mesa e devoraram com grande apetite tudo o que os bandidos tinham deixado.",
+          "ca": "Els quatre animals es van asseure a la taula i van devorar amb gran gana tot el que els bandolers havien deixat."
+        },
+        {
+          "es": "Después de cenar, apagaron la luz y cada uno buscó un lugar para dormir según su costumbre.",
+          "en": "After supper they put out the light and each one found a place to sleep according to his custom.",
+          "fr": "Après le souper, ils éteignirent la lumière et chacun trouva un endroit pour dormir selon ses habitudes.",
+          "de": "Nach dem Abendessen löschten sie das Licht und jeder fand einen Schlafplatz nach seiner Gewohnheit.",
+          "it": "Dopo cena spensero la luce e ognuno trovò un posto per dormire secondo le proprie abitudini.",
+          "pt": "Depois do jantar apagaram a luz e cada um encontrou um lugar para dormir segundo o seu costume.",
+          "ca": "Després de sopar van apagar la llum i cada un va buscar un lloc per dormir segons el seu costum."
+        },
+        {
+          "es": "El burro se tendió en el estiércol del patio, el perro detrás de la puerta, el gato junto a las brasas y el gallo subió al tejado.",
+          "en": "The donkey lay down in the dung in the yard, the dog behind the door, the cat beside the embers and the cockerel flew up to the roof.",
+          "fr": "L'âne se coucha dans le fumier de la cour, le chien derrière la porte, le chat près des braises et le coq monta sur le toit.",
+          "de": "Der Esel legte sich auf den Mist im Hof, der Hund hinter die Tür, die Katze neben die Glut und der Hahn flog aufs Dach.",
+          "it": "L'asino si sdraiò nel letame del cortile, il cane dietro la porta, il gatto vicino alle braci e il gallo salì sul tetto.",
+          "pt": "O burro deitou-se no estrume do pátio, o cão atrás da porta, o gato junto às brasas e o galo subiu ao telhado.",
+          "ca": "El ruc es va estirar al femer del pati, el gos darrere la porta, el gat prop de les brases i el gall va pujar al teulat."
+        },
+        {
+          "es": "A medianoche los bandidos vieron desde el bosque que la casa estaba oscura y el jefe mandó a uno a investigar.",
+          "en": "At midnight the robbers saw from the forest that the house was dark and the leader sent one of them to investigate.",
+          "fr": "À minuit, les brigands virent depuis la forêt que la maison était sombre et le chef en envoya un pour enquêter.",
+          "de": "Um Mitternacht sahen die Räuber vom Wald aus, dass das Haus dunkel war, und der Anführer schickte einen los, um nachzusehen.",
+          "it": "A mezzanotte i banditi videro dalla foresta che la casa era buia e il capo ne mandò uno a fare delle indagini.",
+          "pt": "À meia-noite os bandidos viram da floresta que a casa estava escura e o chefe mandou um investigar.",
+          "ca": "A mitjanit els bandolers van veure des del bosc que la casa estava fosca i el cap va enviar-ne un a investigar."
+        },
+        {
+          "es": "El bandido entró en la cocina a oscuras, vio los ojos brillantes del gato y los confundió con brasas encendidas.",
+          "en": "The robber entered the dark kitchen, saw the cat's shining eyes and mistook them for glowing embers.",
+          "fr": "Le brigand entra dans la cuisine sombre, vit les yeux brillants du chat et les confondit avec des braises ardentes.",
+          "de": "Der Räuber betrat die dunkle Küche, sah die glänzenden Augen der Katze und verwechselte sie mit glühender Glut.",
+          "it": "Il bandito entrò in cucina al buio, vide gli occhi brillanti del gatto e li scambiò per braci accese.",
+          "pt": "O bandido entrou na cozinha às escuras, viu os olhos brilhantes do gato e confundiu-os com brasas acesas.",
+          "ca": "El bandoler va entrar a la cuina a les fosques, va veure els ulls brillants del gat i els va confondre amb brases enceses."
+        },
+        {
+          "es": "Cuando se acercó a encender una vela, el gato le saltó a la cara arañándole. El perro le mordió la pierna, el burro le dio una coz y el gallo gritó desde el tejado.",
+          "en": "When he came close to light a candle, the cat leapt at his face and scratched him. The dog bit his leg, the donkey kicked him and the cockerel crowed from the roof.",
+          "fr": "Quand il s'approcha pour allumer une bougie, le chat lui sauta au visage en le griffant. Le chien lui mordit la jambe, l'âne lui donna un coup de pied et le coq cria depuis le toit.",
+          "de": "Als er sich näherte, um eine Kerze anzuzünden, sprang die Katze ihm ins Gesicht und kratzte ihn. Der Hund biss ihn ins Bein, der Esel trat ihn und der Hahn krähte vom Dach.",
+          "it": "Quando si avvicinò per accendere una candela, il gatto gli saltò in faccia graffiandolo. Il cane lo morse alla gamba, l'asino gli diede un calcio e il gallo gridò dal tetto.",
+          "pt": "Quando se aproximou para acender uma vela, o gato saltou-lhe à cara a arranhar-lhe. O cão mordeu-lhe a perna, o burro deu-lhe um coice e o galo gritou do telhado.",
+          "ca": "Quan es va apropar a encendre una espelma, el gat li va saltar a la cara arrapant-lo. El gos li va mossegar la cama, el ruc li va donar una coça i el gall va cridar des del teulat."
+        }
+      ]
+    },
+    {
+      "tit": "La victoria de los cuatro",
+      "frases": [
+        {
+          "es": "El bandido salió huyendo despavorido y le dijo a su jefe que en aquella casa había una horrible bruja que le había arañado, un hombre que le había clavado un cuchillo, un monstruo negro que le había golpeado y un juez que gritaba desde el tejado.",
+          "en": "The robber fled in terror and told his leader that in that house there was a horrible witch who had scratched him, a man who had stabbed him with a knife, a black monster who had struck him and a judge shouting from the roof.",
+          "fr": "Le brigand s'enfuit terrorisé et dit à son chef que dans cette maison il y avait une horrible sorcière qui l'avait griffé, un homme qui lui avait planté un couteau, un monstre noir qui l'avait frappé et un juge qui criait depuis le toit.",
+          "de": "Der Räuber floh in Panik und sagte seinem Anführer, in dem Haus sei eine schreckliche Hexe, die ihn gekratzt habe, ein Mann, der ihn mit einem Messer gestochen habe, ein schwarzes Monster, das ihn geschlagen habe, und ein Richter, der vom Dach schrie.",
+          "it": "Il bandito fuggì terrorizzato e disse al suo capo che in quella casa c'era una strega orribile che lo aveva graffiato, un uomo che lo aveva pugnalato con un coltello, un mostro nero che lo aveva colpito e un giudice che gridava dal tetto.",
+          "pt": "O bandido fugiu aterrorizado e disse ao seu chefe que naquela casa havia uma bruxa horrível que o tinha arranhado, um homem que o tinha esfaqueado, um monstro negro que o tinha golpeado e um juiz que gritava do telhado.",
+          "ca": "El bandoler va fugir espantat i va dir al seu cap que en aquella casa hi havia una bruixa horrible que li havia arapat, un home que li havia clavat un ganivet, un monstre negre que li havia colpejat i un jutge que cridava des del teulat."
+        },
+        {
+          "es": "Los bandidos no volvieron jamás a aquella casa. Los cuatro animales estaban tan a gusto que decidieron quedarse a vivir allí.",
+          "en": "The robbers never returned to that house. The four animals were so comfortable that they decided to stay and live there.",
+          "fr": "Les brigands ne revinrent jamais dans cette maison. Les quatre animaux s'y trouvaient si bien qu'ils décidèrent d'y rester vivre.",
+          "de": "Die Räuber kehrten nie mehr zu diesem Haus zurück. Die vier Tiere fühlten sich so wohl, dass sie beschlossen, dort zu bleiben und zu leben.",
+          "it": "I banditi non tornarono mai più a quella casa. I quattro animali stavano così bene che decisero di restare lì a vivere.",
+          "pt": "Os bandidos nunca mais voltaram àquela casa. Os quatro animais estavam tão bem que decidiram ficar a viver lá.",
+          "ca": "Els bandolers no van tornar mai més a aquella casa. Els quatre animals estaven tan bé que van decidir quedar-se a viure allà."
+        },
+        {
+          "es": "Nunca llegaron a Bremen, pero encontraron algo mejor: un hogar propio donde nadie los mandaría ni amenazaría.",
+          "en": "They never reached Bremen, but they found something better: a home of their own where no one would give them orders or threaten them.",
+          "fr": "Ils n'arrivèrent jamais à Brême, mais ils trouvèrent quelque chose de mieux : un chez-soi où personne ne leur donnerait d'ordres ni ne les menacerait.",
+          "de": "Sie kamen nie nach Bremen, aber sie fanden etwas Besseres: ein eigenes Zuhause, wo niemand ihnen Befehle erteilen oder sie bedrohen würde.",
+          "it": "Non arrivarono mai a Brema, ma trovarono qualcosa di meglio: una casa propria dove nessuno avrebbe dato loro ordini né li avrebbe minacciati.",
+          "pt": "Nunca chegaram a Bremen, mas encontraram algo melhor: um lar próprio onde ninguém os mandaria nem ameaçaria.",
+          "ca": "Mai van arribar a Bremen, però van trobar alguna cosa millor: una llar pròpia on ningú els manaria ni els amenàçaria."
+        },
+        {
+          "es": "El burro siguió rebuzando sus canciones cada mañana. El perro guardaba la puerta con orgullo. El gato dormía junto al fuego y el gallo cantaba el amanecer desde el tejado.",
+          "en": "The donkey went on braying his songs every morning. The dog guarded the door with pride. The cat slept beside the fire and the cockerel sang the dawn from the roof.",
+          "fr": "L'âne continua à braire ses chansons chaque matin. Le chien gardait la porte avec fierté. Le chat dormait près du feu et le coq chantait l'aube depuis le toit.",
+          "de": "Der Esel sang weiterhin jeden Morgen seine Lieder. Der Hund bewachte stolz die Tür. Die Katze schlief neben dem Feuer und der Hahn sang den Morgengrauen vom Dach.",
+          "it": "L'asino continuò a ragliare le sue canzoni ogni mattina. Il cane custodiva la porta con orgoglio. Il gatto dormiva vicino al fuoco e il gallo cantava l'alba dal tetto.",
+          "pt": "O burro continuou a zurrar as suas canções todas as manhãs. O cão guardava a porta com orgulho. O gato dormia junto ao fogo e o galo cantava o amanhecer do telhado.",
+          "ca": "El ruc va continuar rebufant les seves cançons cada matí. El gos guardava la porta amb orgull. El gat dormia prop del foc i el gall cantava l'alba des del teulat."
+        },
+        {
+          "es": "Moraleja: nunca es tarde para comenzar una vida nueva, y los débiles juntos son más fuertes que cualquier ladrón.",
+          "en": "Moral: it is never too late to begin a new life, and the weak together are stronger than any robber.",
+          "fr": "Morale : il n'est jamais trop tard pour commencer une nouvelle vie, et les faibles ensemble sont plus forts que n'importe quel voleur.",
+          "de": "Moral: Es ist nie zu spät, ein neues Leben zu beginnen, und die Schwachen zusammen sind stärker als jeder Räuber.",
+          "it": "Morale: non è mai troppo tardi per cominciare una nuova vita, e i deboli insieme sono più forti di qualsiasi ladro.",
+          "pt": "Moral: nunca é tarde para começar uma vida nova, e os fracos juntos são mais fortes do que qualquer ladrão.",
+          "ca": "Moralitat: mai és tard per començar una vida nova, i els febles junts són més forts que qualsevol lladre."
+        }
+      ]
+    },
+    {
+      "tit": "La fama de los músicos",
+      "frases": [
+        {
+          "es": "La historia de los cuatro animales que ahuyentaron a los bandidos corrió por toda la región y se hizo famosa.",
+          "en": "The story of the four animals who drove off the robbers spread throughout the region and became famous.",
+          "fr": "L'histoire des quatre animaux qui avaient chassé les brigands se répandit dans toute la région et devint célèbre.",
+          "de": "Die Geschichte der vier Tiere, die die Räuber vertrieben hatten, verbreitete sich in der ganzen Region und wurde berühmt.",
+          "it": "La storia dei quattro animali che avevano messo in fuga i banditi si diffuse in tutta la regione e divenne famosa.",
+          "pt": "A história dos quatro animais que afugentaram os bandidos correu por toda a região e tornou-se famosa.",
+          "ca": "La història dels quatre animals que van espantar els bandolers va córrer per tota la regió i es va fer famosa."
+        },
+        {
+          "es": "La gente del pueblo cercano venía a verlos y les dejaba comida a la puerta en señal de gratitud por haber limpiado el bosque de malhechores.",
+          "en": "People from the nearby village came to see them and left food at the door as a sign of gratitude for having rid the forest of wrongdoers.",
+          "fr": "Les gens du village voisin venaient les voir et leur laissaient de la nourriture à la porte en signe de gratitude pour avoir débarrassé la forêt des malfaiteurs.",
+          "de": "Die Leute aus dem nahen Dorf kamen, um sie zu sehen, und ließen Essen vor der Tür als Zeichen der Dankbarkeit dafür, dass sie den Wald von Übeltätern befreit hatten.",
+          "it": "La gente del villaggio vicino veniva a vederli e lasciava cibo alla porta in segno di gratitudine per aver liberato il bosco dai malfattori.",
+          "pt": "As pessoas da aldeia próxima vinham vê-los e deixavam comida à porta em sinal de gratidão por terem limpo a floresta de malfeitores.",
+          "ca": "La gent del poble proper venia a veure'ls i els deixava menjar a la porta en senyal de gratitud per haver netejat el bosc de malfactors."
+        },
+        {
+          "es": "Y en las noches de verano, los cuatro amigos salían al patio y cantaban juntos bajo las estrellas.",
+          "en": "And on summer nights the four friends went out into the yard and sang together under the stars.",
+          "fr": "Et les nuits d'été, les quatre amis sortaient dans la cour et chantaient ensemble sous les étoiles.",
+          "de": "Und an Sommerabenden gingen die vier Freunde in den Hof hinaus und sangen zusammen unter den Sternen.",
+          "it": "E nelle notti d'estate, i quattro amici uscivano nel cortile e cantavano insieme sotto le stelle.",
+          "pt": "E nas noites de verão, os quatro amigos saíam para o pátio e cantavam juntos sob as estrelas.",
+          "ca": "I a les nits d'estiu, els quatre amics sortien al pati i cantaven junts sota les estrelles."
+        },
+        {
+          "es": "Su música era extraña y ruidosa, pero estaba llena de libertad, y eso era lo más hermoso de todo.",
+          "en": "Their music was strange and noisy, but it was full of freedom, and that was the most beautiful thing of all.",
+          "fr": "Leur musique était étrange et bruyante, mais elle était pleine de liberté, et c'était ce qu'il y avait de plus beau.",
+          "de": "Ihre Musik war seltsam und laut, aber sie war voller Freiheit, und das war das Schönste von allem.",
+          "it": "La loro musica era strana e rumorosa, ma era piena di libertà, e questo era la cosa più bella di tutte.",
+          "pt": "A sua música era estranha e barulhenta, mas estava cheia de liberdade, e isso era o mais belo de tudo.",
+          "ca": "La seva música era estranya i sorollosa, però estava plena de llibertat, i això era el més bonic de tot."
+        },
+        {
+          "es": "Y nadie, ni siquiera los bandidos más valientes, se atrevía a molestarlos jamás.",
+          "en": "And no one, not even the bravest robbers, ever dared to trouble them again.",
+          "fr": "Et personne, pas même les brigands les plus courageux, n'osait jamais les déranger.",
+          "de": "Und niemand, nicht einmal die mutigsten Räuber, wagte es, sie jemals wieder zu belästigen.",
+          "it": "E nessuno, nemmeno i banditi più coraggiosi, osò mai più disturbarli.",
+          "pt": "E ninguém, nem sequer os bandidos mais corajosos, se atrevia a incomodá-los jamais.",
+          "ca": "I ningú, ni tan sols els bandolers més valents, s'atrevia a molestar-los mai."
+        },
+        {
+          "es": "Bremen los esperaba, pero ellos ya no la necesitaban. Habían encontrado lo que todos buscamos: un lugar donde ser queridos tal como somos.",
+          "en": "Bremen was waiting for them, but they no longer needed it. They had found what we all seek: a place where we are loved just as we are.",
+          "fr": "Brême les attendait, mais ils n'en avaient plus besoin. Ils avaient trouvé ce que nous cherchons tous : un endroit où être aimés tels que nous sommes.",
+          "de": "Bremen wartete auf sie, aber sie brauchten es nicht mehr. Sie hatten gefunden, was wir alle suchen: einen Ort, an dem wir geliebt werden, so wie wir sind.",
+          "it": "Brema li aspettava, ma loro non ne avevano più bisogno. Avevano trovato ciò che tutti cerchiamo: un posto dove essere amati così come siamo.",
+          "pt": "Bremen esperava-os, mas eles já não precisavam dela. Tinham encontrado o que todos procuramos: um lugar onde sermos amados tal como somos.",
+          "ca": "Bremen els esperava, però ells ja no la necessitaven. Havien trobat el que tots busquem: un lloc on ser estimats tal com som."
+        }
+      ]
+    },
+    {
+      "tit": "El legado de la amistad",
+      "frases": [
+        {
+          "es": "Pasaron muchos años y los cuatro animales envejecieron juntos en aquella casita del bosque.",
+          "en": "Many years passed and the four animals grew old together in that little forest house.",
+          "fr": "De nombreuses années passèrent et les quatre animaux vieillirent ensemble dans cette petite maison de la forêt.",
+          "de": "Viele Jahre vergingen und die vier Tiere wurden zusammen in diesem kleinen Waldhaus alt.",
+          "it": "Passarono molti anni e i quattro animali invecchiarono insieme in quella casetta nel bosco.",
+          "pt": "Passaram muitos anos e os quatro animais envelheceram juntos naquela casinha da floresta.",
+          "ca": "Van passar molts anys i els quatre animals van envellir junts en aquella caseta del bosc."
+        },
+        {
+          "es": "Los viajeros que pasaban por el camino siempre contaban que de aquella casa salían los sonidos más extraños y maravillosos al anochecer.",
+          "en": "Travellers passing along the road always told how the strangest and most wonderful sounds came from that house at nightfall.",
+          "fr": "Les voyageurs qui passaient par le chemin racontaient toujours que de cette maison sortaient les sons les plus étranges et merveilleux à la tombée de la nuit.",
+          "de": "Reisende, die den Weg entlangkamen, erzählten immer, dass bei Einbruch der Dunkelheit die seltsamsten und wunderbarsten Klänge aus diesem Haus kamen.",
+          "it": "I viaggiatori che passavano per la strada raccontavano sempre che da quella casa uscivano i suoni più strani e meravigliosi al calar della notte.",
+          "pt": "Os viajantes que passavam pelo caminho contavam sempre que daquela casa saíam os sons mais estranhos e maravilhosos ao anoitecer.",
+          "ca": "Els viatgers que passaven pel camí sempre explicaven que d'aquella casa sortien els sons més estranys i meravellosos al capvespre."
+        },
+        {
+          "es": "Algunos decían que era música de los espíritus del bosque. Otros que era el canto de los ángeles. Pero quienes los conocían sabían la verdad.",
+          "en": "Some said it was music of the forest spirits. Others that it was the song of angels. But those who knew them knew the truth.",
+          "fr": "Certains disaient que c'était la musique des esprits de la forêt. D'autres que c'était le chant des anges. Mais ceux qui les connaissaient savaient la vérité.",
+          "de": "Manche sagten, es sei die Musik der Waldgeister. Andere, es sei der Gesang der Engel. Aber diejenigen, die sie kannten, wussten die Wahrheit.",
+          "it": "Alcuni dicevano che era musica degli spiriti del bosco. Altri che era il canto degli angeli. Ma chi li conosceva sapeva la verità.",
+          "pt": "Alguns diziam que era música dos espíritos da floresta. Outros que era o canto dos anjos. Mas quem os conhecia sabia a verdade.",
+          "ca": "Alguns deien que era música dels esperits del bosc. Altres que era el cant dels àngels. Però qui els coneixia sabia la veritat."
+        },
+        {
+          "es": "Era un burro, un perro, un gato y un gallo que cantaban juntos porque eran libres y se tenían el uno al otro.",
+          "en": "It was a donkey, a dog, a cat and a cockerel singing together because they were free and had each other.",
+          "fr": "C'était un âne, un chien, un chat et un coq qui chantaient ensemble parce qu'ils étaient libres et se l'avaient les uns les autres.",
+          "de": "Es war ein Esel, ein Hund, eine Katze und ein Hahn, die zusammen sangen, weil sie frei waren und einander hatten.",
+          "it": "Era un asino, un cane, un gatto e un gallo che cantavano insieme perché erano liberi e si avevano l'uno con l'altro.",
+          "pt": "Era um burro, um cão, um gato e um galo que cantavam juntos porque eram livres e se tinham uns aos outros.",
+          "ca": "Era un ruc, un gos, un gat i un gall que cantaven junts perquè eren lliures i es tenien l'un a l'altre."
+        },
+        {
+          "es": "Y esa es precisamente la mejor música del mundo: la que nace de la libertad y de la amistad verdadera.",
+          "en": "And that is precisely the finest music in the world: the kind that is born from freedom and true friendship.",
+          "fr": "Et c'est précisément la meilleure musique du monde : celle qui naît de la liberté et de la véritable amitié.",
+          "de": "Und das ist genau die schönste Musik der Welt: die, die aus Freiheit und wahrer Freundschaft entsteht.",
+          "it": "E quella è proprio la musica più bella del mondo: quella che nasce dalla libertà e dalla vera amicizia.",
+          "pt": "E essa é precisamente a melhor música do mundo: a que nasce da liberdade e da amizade verdadeira.",
+          "ca": "I aquesta és precisament la millor música del món: la que neix de la llibertat i de l'amistat vertadera."
+        },
+        {
+          "es": "Los músicos de Bremen nunca llegaron a Bremen, pero su historia llegó mucho más lejos: llegó a todos los corazones del mundo.",
+          "en": "The Bremen musicians never reached Bremen, but their story travelled much further: it reached every heart in the world.",
+          "fr": "Les musiciens de Brême n'arrivèrent jamais à Brême, mais leur histoire alla bien plus loin : elle atteignit tous les cœurs du monde.",
+          "de": "Die Bremer Stadtmusikanten kamen nie nach Bremen, aber ihre Geschichte reiste viel weiter: Sie erreichte alle Herzen der Welt.",
+          "it": "I musicanti di Brema non arrivarono mai a Brema, ma la loro storia arrivò molto più lontano: raggiunse tutti i cuori del mondo.",
+          "pt": "Os músicos de Bremen nunca chegaram a Bremen, mas a sua história chegou muito mais longe: chegou a todos os corações do mundo.",
+          "ca": "Els músics de Bremen mai van arribar a Bremen, però la seva història va arribar molt més lluny: va arribar a tots els cors del món."
+        }
+      ]
+    }
+  ]
+}
