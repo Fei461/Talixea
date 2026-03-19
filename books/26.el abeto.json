@@ -1,0 +1,116 @@
+{
+  "id": 26,
+  "tit": "El abeto",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "🎄",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_abeto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El abeto impaciente",
+      "frases": [
+        {
+          "es": "Alla en el bosque habia un abeto lindo y pequeñito que crecia en un buen sitio, con sol y aire a su alrededor. Pero el pequeño abeto solo suspiraba por crecer. Le eran indiferentes el sol, las aves y los ninos que pasaban a su lado.",
+          "en": "Away in the forest there stood a pretty little fir tree. It had a good spot to grow in, with sunshine and fresh air all around. But the little fir tree only sighed with longing to be taller. The warm sunshine, the birds, and the children who passed by meant nothing to it.",
+          "fr": "La-bas dans la foret se trouvait un joli petit sapin qui poussait dans un bon endroit, avec du soleil et de l'air frais alentour. Mais le petit sapin ne faisait que soupirer de desir de grandir. Le soleil, les oiseaux et les enfants qui passaient ne signifiaient rien pour lui.",
+          "de": "Dort im Wald stand ein huebscher kleiner Tannenbaum. Er hatte einen guten Platz zum Wachsen, mit Sonnenschein und frischer Luft ringsum. Aber der kleine Tannenbaum seufzte nur vor Sehnsucht, groesser zu werden. Die warme Sonne, die Voegel und die Kinder, die vorbeikamen, bedeuteten ihm nichts.",
+          "it": "La nel bosco cresceva un bel piccolo abete che aveva un buon posto per crescere, con sole e aria fresca intorno. Ma il piccolo abete sospirava solo dal desiderio di crescere. Il sole, gli uccelli e i bambini che passavano non significavano nulla per lui.",
+          "pt": "La na floresta havia um bonito abetezinho que crescia num bom lugar, com sol e ar fresco ao redor. Mas o pequeno abeto so suspirava pelo desejo de crescer. O sol, os passaros e as criancas que passavam nao significavam nada para ele.",
+          "ca": "Alla al bosc hi havia un bonic avet petit que creixia en un bon lloc, amb sol i aire fresc al seu voltant. Pero el petit avet nomes sospirava de desig de creixer. El sol, els ocells i els nens que passaven no significaven res per a ell."
+        },
+        {
+          "es": "Cada año los leñadores cortaban algunos arboles grandes. Al verlos partir, el abeto preguntaba a las golondrinas: «¿No saben adonde los llevaron?» La ciguena dijo que habia visto muchos barcos con mastiles espléndidos que olian a abeto. «¡Ojala fuera yo lo bastante alto para cruzar los mares!»",
+          "en": "Every year the woodcutters came and felled some of the tallest trees. Watching them go, the fir asked the swallows: 'Do you know where they are taken?' The stork said it had seen many fine ships with magnificent masts that smelled of fir. 'Oh, I wish I were tall enough to cross the seas!'",
+          "fr": "Chaque annee les bucherons venaient abattre quelques-uns des grands arbres. Les voyant partir, le sapin demandait aux hirondelles : « Savez-vous ou on les emmene ? » La cigogne dit avoir vu beaucoup de beaux navires avec des mats splendides qui sentaient le sapin. « Oh, si seulement j'etais assez grand pour traverser les mers ! »",
+          "de": "Jedes Jahr kamen die Holzfaeller und faellten einige der groessten Baeume. Als er sie weggehen sah, fragte der Tannenbaum die Schwalben: Wisst ihr, wohin man sie bringt? Der Storch sagte, er habe viele schoene Schiffe mit praeptigen Masten gesehen, die nach Tannenbaum rochen. Ach, waere ich nur gross genug, um die Meere zu uberqueren!",
+          "it": "Ogni anno i boscaioli venivano e abbattevano alcuni degli alberi piu grandi. Guardandoli partire, l'abete chiedeva alle rondini: Sapete dove li portano? La cicogna disse che aveva visto molte belle navi con alberi splendidi che profumavano di abete. Oh, se solo fossi abbastanza alto da attraversare i mari!",
+          "pt": "Todos os anos os lenhadores vinham e abatiam algumas das arvores mais altas. Ao ve-las partir o abeto perguntava as andorinhas: Sabem para onde as levaram? A cegonha disse que tinha visto muitos navios belos com mastros esplendidos que cheiravam a abeto. Oxala fosse eu suficientemente alto para cruzar os mares!",
+          "ca": "Cada any els llenyataires venien i talaven alguns dels arbres mes alts. En veure'ls partir, l'avet preguntava a les orenetes: Saben on els van portar? La cigonya va dir que havia vist molts vaixells amb mastils esplendids que olien a avet. Ojala fos prou alt per creuar els mars!"
+        },
+        {
+          "es": "En Navidad cortaban arboles jovenes para llevarlos a las casas. Los gorriones contaron al abeto que los adornaban esplendidamente. «¡Si me llevasen a mi!», suspiraba el abeto, sin disfrutar de su hermosa juventud en el bosque.",
+          "en": "At Christmas time young trees were cut down to be taken to people's homes. The sparrows told the fir tree that they were splendidly decorated. 'Oh, if only they would take me!' sighed the fir tree, unable to enjoy its beautiful youth in the forest.",
+          "fr": "Au moment de Noel on coupait de jeunes arbres pour les emmener dans les maisons. Les moineaux raconterent au sapin qu'on les decorait magnifiquement. « Oh, si seulement on m'emmenait ! » soupirait le sapin, incapable de profiter de sa belle jeunesse dans la foret.",
+          "de": "Zur Weihnachtszeit wurden junge Baeume gefaellt, um sie in die Haeuser der Menschen zu bringen. Die Spatzen erzaehlten dem Tannenbaum, dass sie praechtig geschmueckt wurden. Ach, wenn man mich doch nehrne!, seufzte der Tannenbaum, der seine schoene Jugend im Wald nicht geniessen konnte.",
+          "it": "A Natale venivano tagliati alberi giovani per portarli nelle case delle persone. I passeri raccontarono all'abete che venivano adornati splendidamente. Oh, se solo mi portassero via!, sospirava l'abete, incapace di godere della sua bella giovinezza nel bosco.",
+          "pt": "No Natal cortavam-se arvores jovens para as levar para as casas das pessoas. Os pardais contaram ao abeto que as adornavam esplendidamente. Oh, se ao menos me levassem a mim!, suspirava o abeto, incapaz de desfrutar da sua bela juventude na floresta.",
+          "ca": "Per Nadal tallaven arbres joves per portar-los a les cases de la gent. Els pardals van explicar a l'avet que els adornaven esplendidament. Oh, si al menys em portessin a mi!, sospiraba l'avet, incapaç de gaudir de la seva bella joventut al bosc."
+        }
+      ]
+    },
+    {
+      "tit": "La noche de Navidad",
+      "frases": [
+        {
+          "es": "Al llegar Navidad, el abeto fue el primero que cortaron. Lo transportaron a una hermosa habitacion y lo adornaron con luces, dulces, muñecas y una estrella de oropel en la cupside. «¡Esta noche brillara!», decia todo el mundo.",
+          "en": "When Christmas came the fir tree was the first to be cut. It was taken to a fine room and decorated with lights, sweets, dolls and a golden star on its very top. 'Tonight it will shine!' everyone said.",
+          "fr": "Quand Noel arriva, le sapin fut le premier a etre coupe. On le transporta dans une belle piece et on le decora avec des lumieres, des bonbons, des poupees et une etoile doree tout en haut. « Ce soir il brillera ! » disait tout le monde.",
+          "de": "Als Weihnachten kam, war der Tannenbaum der erste, der gefaellt wurde. Er wurde in ein praeptiges Zimmer gebracht und mit Lichtern, Suessigkeiten, Puppen und einem goldenen Stern ganz oben geschmueckt. Heute Nacht wird er strahlen!, sagten alle.",
+          "it": "Quando arrivo Natale, l'abete fu il primo ad essere tagliato. Lo portarono in una bella stanza e lo adornarono con luci, dolci, bambole e una stella dorata in cima. Stanotte brillera!, dicevano tutti.",
+          "pt": "Quando chegou o Natal, o abeto foi o primeiro a ser cortado. Transportaram-no para uma linda divisao e adornaram-no com luzes, doces, bonecos e uma estrela dourada no topo. Esta noite vai brilhar!, dizia toda a gente.",
+          "ca": "Quan va arribar Nadal, l'avet va ser el primer a ser tallat. El van transportar a una bella habitacio i el van adornar amb llums, dolcos, nines i una estrella d'or a la cuspide. Aquesta nit brillara!, deia tothom."
+        },
+        {
+          "es": "Las velas se encendieron. Los ninos irrumpieron en el salon y se lanzaron sobre los regalos. El abeto permanecia callado pensando: «¿Y yo, no cuento para nada? ¿No tengo ningun papel en todo esto?» Pero si que habia desempeñado el suyo bien.",
+          "en": "The candles were lit. The children burst into the room and threw themselves on the presents. The fir tree stood silent thinking: 'And what about me, do I count for nothing? Have I no part to play in all this?' But it had played its part well.",
+          "fr": "Les bougies furent allumees. Les enfants se precipiterent dans la salle et se jeterent sur les cadeaux. Le sapin restait silencieux en pensant : « Et moi, je ne compte pour rien ? N'ai-je aucun role a jouer dans tout cela ? » Mais il avait bien joue son role.",
+          "de": "Die Kerzen wurden angezuendet. Die Kinder stuermten ins Zimmer und stuerzen sich auf die Geschenke. Der Tannenbaum stand still und dachte: Und ich, zaehle ich fuer nichts? Habe ich keine Rolle zu spielen in all dem? Aber er hatte seine Rolle gut gespielt.",
+          "it": "Le candele furono accese. I bambini irruppero nella sala e si gettarono sui regali. L'abete rimase silenzioso pensando: E io, non conto per niente? Non ho nessun ruolo in tutto questo? Ma aveva recitato bene la sua parte.",
+          "pt": "As velas foram acesas. As criancas irromperam na sala e atirar-se aos presentes. O abeto ficou em silencio pensando: E eu, nao conto para nada? Nao tenho nenhum papel nisto tudo? Mas tinha desempenhado bem o seu papel.",
+          "ca": "Les espelmes es van encendre. Els nens van irrompre al saló i es van llançar sobre els regals. L'avet romania callat pensant: I jo, no comptic per res? No tinc cap paper en tot aixo? Pero si que havia fet bé el seu paper."
+        },
+        {
+          "es": "Un hombre bajo y rollizo se sento bajo el abeto y conto la historia de Klumpe-Dumpe, que se cayo por las escaleras y aun asi obtuvo a la princesa. «¡De modo que asi va el mundo!», penso el abeto ilusionado, creyendo que el tambien tendria un futuro brillante.",
+          "en": "A short fat man sat under the fir tree and told the story of Klumpy-Dumpy, who fell down the stairs and yet won the princess. 'So that is how the world goes!' thought the fir tree hopefully, believing that it too would have a brilliant future.",
+          "fr": "Un homme petit et rondelard s'assit sous le sapin et raconta l'histoire de Klumpe-Dumpe, qui tomba dans les escaliers et obtint quand meme la princesse. « C'est donc ainsi que va le monde ! » pensa le sapin plein d'espoir, croyant qu'il aurait lui aussi un avenir brillant.",
+          "de": "Ein kleiner, rundlicher Mann setzte sich unter den Tannenbaum und erzaehlt die Geschichte von Klumpe-Dumpe, der die Treppe hinunterfiel und trotzdem die Prinzessin gewann. So geht es also in der Welt!, dachte der Tannenbaum hoffnungsvoll und glaubte, auch er werde eine glaenzende Zukunft haben.",
+          "it": "Un uomo basso e grassottello si sedo sotto l'abete e racconto la storia di Klumpe-Dumpe, che cadde per le scale e ottenne comunque la principessa. E cosi va il mondo!, penso l'abete pieno di speranza, credendo che anche lui avrebbe avuto un brillante futuro.",
+          "pt": "Um homem baixo e gorducho sentou-se sob o abeto e contou a historia de Klumpe-Dumpe, que caiu pelas escadas e mesmo assim ganhou a princesa. E assim vai o mundo!, pensou o abeto esperancoso, acreditando que tambem ele teria um futuro brilhante.",
+          "ca": "Un home baix i rodanxo es va asseure sota l'avet i va explicar la historia de Klumpe-Dumpe, que va caure per les escales i malgrat aixo va obtenir la princesa. Aixi va el mon!, va pensar l'avet esperançat, creient que ell tambe tindria un futur brillant."
+        }
+      ]
+    },
+    {
+      "tit": "El desván y el olvido",
+      "frases": [
+        {
+          "es": "A la manana siguiente los criados sacaron el abeto de la habitacion y lo dejaron en el desvan, olvidado entre polvo y cajas. «¿Que significa esto?», se preguntaba el arbol. «¿Por que me guardan aqui?»",
+          "en": "The next morning the servants took the fir tree out of the room and left it in the attic, forgotten among dust and boxes. 'What does this mean?' the tree wondered. 'Why are they keeping me here?'",
+          "fr": "Le lendemain matin les serviteurs sortirent le sapin de la piece et l'abandonnerent dans le grenier, oublie parmi la poussiere et les boites. « Qu'est-ce que cela signifie ? » se demandait l'arbre. « Pourquoi me gardent-ils ici ? »",
+          "de": "Am naechsten Morgen trugen die Diener den Tannenbaum aus dem Zimmer und liessen ihn auf dem Dachboden, vergessen zwischen Staub und Kisten. Was bedeutet das?, fragte sich der Baum. Warum halten sie mich hier?",
+          "it": "La mattina dopo i domestici portarono l'abete fuori dalla stanza e lo abbandonarono in soffitta, dimenticato tra polvere e scatole. Cosa significa questo?, si chiedeva l'albero. Perche mi tengono qui?",
+          "pt": "Na manha seguinte os criados tiraram o abeto da divisao e deixaram-no no sotao, esquecido entre po e caixas. O que significa isto?, perguntava-se a arvore. Porque e que me guardam aqui?",
+          "ca": "L'endema al mati els criats van treure l'avet de l'habitacio i el van deixar al graner, oblidat entre pols i caixes. Que vol dir aixo?, es preguntava l'arbre. Per que em guarden aqui?"
+        },
+        {
+          "es": "Unos ratoncillos vinieron a hacerle compania. El abeto les conto su vida en el bosque, la noche de Navidad y los cuentos del hombre rollizo. «¡Que feliz has sido!», decian los ratones. «¿Yo?», replicaba el abeto; y se daba cuenta de que, en efecto, aquellos habian sido tiempos dichosos.",
+          "en": "Some little mice came to keep him company. The fir tree told them about its life in the forest, the Christmas night and the stories of the round little man. 'How happy you have been!' said the mice. 'I?' replied the fir tree; and then it realised that those had indeed been happy times.",
+          "fr": "Quelques petites souris vinrent lui tenir compagnie. Le sapin leur raconta sa vie dans la foret, la nuit de Noel et les histoires du petit homme rondelard. « Que tu as ete heureux ! » disaient les souris. « Moi ? » repondit le sapin ; et il se rendit compte que c'etaient en effet des temps heureux.",
+          "de": "Einige kleine Maeuse kamen, um ihm Gesellschaft zu leisten. Der Tannenbaum erzaehlte ihnen von seinem Leben im Wald, der Weihnachtsnacht und den Geschichten des rundlichen kleinen Mannes. Wie gluecklich du warst!, sagten die Maeuse. Ich?, antwortete der Tannenbaum; und dann merkte er, dass das tatsaechlich glueckliche Zeiten gewesen waren.",
+          "it": "Alcuni topini vennero a fargli compagnia. L'abete raconto loro della sua vita nel bosco, della notte di Natale e delle storie dell'ometto rotondo. Che felice sei stato!, dicevano i topi. Io?, rispose l'abete; e si rendo conto che quelli erano stati davvero tempi felici.",
+          "pt": "Alguns ratinhos vieram fazer-lhe companhia. O abeto contou-lhes sobre a sua vida na floresta, a noite de Natal e as historias do homenzinho rechonchudo. Como foste feliz!, diziam os ratos. Eu?, respondeu o abeto; e percebeu entao que aqueles tinham sido de facto tempos felizes.",
+          "ca": "Uns ratetes van venir a fer-li companyia. L'avet els va explicar la seva vida al bosc, la nit de Nadal i les histories de l'homenet rodanxo. Que feliç has estat!, deien els ratolins. Jo?, va respondre l'avet; i aleshores es va adonar que aquells havien estat temps de veres feliços."
+        },
+        {
+          "es": "En primavera los criados sacaron el arbol al patio. Estaba seco y amarillo. Los ninos le arrancaron la estrella de oropel. «¿Por que no supe gozar cuando era tiempo?», suspiro el abeto. Lo cortaron a pedazos y lo quemaron. Cada chasquido era un hondo suspiro por un recuerdo del bosque.",
+          "en": "In the spring the servants carried the tree out to the yard. It was dry and yellow. The children pulled off its golden star. 'Why did I not enjoy it when I could?' sighed the fir tree. It was chopped to pieces and burned. Each crack was a deep sigh for a memory of the forest.",
+          "fr": "Au printemps les domestiques sortirent l'arbre dans la cour. Il etait sec et jaune. Les enfants lui arracherent son etoile doree. « Pourquoi n'ai-je pas profite quand j'en avais la chance ? » soupira le sapin. On le coupa en morceaux et on le brula. Chaque crepitement etait un profond soupir pour un souvenir de la foret.",
+          "de": "Im Fruehling trugen die Diener den Baum in den Hof. Er war trocken und gelb. Die Kinder rissen ihm seinen goldenen Stern ab. Warum habe ich es nicht genossen, als ich konnte?, seufzte der Tannenbaum. Er wurde in Stuecke geschnitten und verbrannt. Jedes Knistern war ein tiefer Seufzer fuer eine Erinnerung an den Wald.",
+          "it": "In primavera i domestici portarono l'albero nel cortile. Era secco e giallo. I bambini gli strapparono la stella d'oro. Perche non ho goduto quando era il momento?, sospiro l'abete. Lo tagliarono a pezzi e lo bruciarono. Ogni crepitio era un profondo sospiro per un ricordo del bosco.",
+          "pt": "Na primavera os criados levaram a arvore para o patio. Estava seca e amarela. As criancas arrancaram-lhe a estrela dourada. Porque e que nao soube gozar quando era altura?, suspirou o abeto. Cortaram-no em pedacos e queimaram-no. Cada estalido era um fundo suspiro por uma lembranca da floresta.",
+          "ca": "A la primavera els criats van treure l'arbre al pati. Estava sec i groc. Els nens li van arrencar l'estrella d'or. Per que no vaig saber gaudir quan era el moment?, va sospirar l'avet. El van tallar a trossos i el van cremar. Cada petec era un profund sospir per un record del bosc."
+        }
+      ]
+    }
+  ]
+}
