@@ -1,0 +1,98 @@
+{
+  "id": 29,
+  "tit": "El cuello de camisa",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "👔",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_cuello_de_camisa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El elegante cuello",
+      "frases": [
+        {
+          "es": "Érase una vez un caballero muy elegante que por todo equipaje poseía un calzador y un peine. Pero lo más distinguido de su persona era el cuello de camisa, que ya tenía suficiente edad para pensar en casarse.",
+          "en": "There was once a fine gentleman who owned nothing but a boot-jack and a hair-comb. But the most distinguished part of him was his shirt collar, which had grown old enough to think about getting married.",
+          "fr": "Il était une fois un gentleman très élégant qui ne possédait pour tout équipement qu'un chausse-pied et un peigne. Mais ce qu'il avait de plus distingué était son col de chemise, qui avait déjà l'âge de songer au mariage.",
+          "de": "Es war einmal ein sehr eleganter Herr, der als ganzes Gepäck nur einen Schuhlöffel und einen Kamm besaß. Aber das Vornehmste an seiner Person war der Hemdkragen, der schon alt genug war, um ans Heiraten zu denken.",
+          "it": "C'era una volta un gentiluomo molto elegante che come unico bagaglio possedeva un calzante e un pettine. Ma la cosa più distinta della sua persona era il colletto della camicia, che aveva già l'età giusta per pensare al matrimonio.",
+          "pt": "Era uma vez um cavalheiro muito elegante que por toda a bagagem possuía uma calçadeira e um pente. Mas o mais distinto da sua pessoa era o colarinho da camisa, que já tinha idade suficiente para pensar em casar.",
+          "ca": "Hi havia una vegada un cavaller molt elegant que per tot equipatge posseïa un calçador i una pinta. Però el més distingit de la seva persona era el coll de camisa, que ja tenia prou edat per pensar a casar-se."
+        },
+        {
+          "es": "En el cesto de la colada conoció a una liga muy fina y tímida. «Jamás vi a nadie tan esbelto y distinguido», le dijo el cuello. «¡No se acerque tanto, parece usted tan varonil!», contestó la liga. Pero los sacaron del cesto, los almidonaron y los separaron.",
+          "en": "In the laundry basket he met a very fine, shy garter. 'I have never seen anyone so slender and distinguished,' said the collar. 'Don't come so close, you seem so manly!' replied the garter. But they were taken out of the basket, starched and parted.",
+          "fr": "Dans le panier à linge il fit la connaissance d'une jarretière très fine et timide. « Je n'ai jamais vu quelqu'un d'aussi élancé et distingué », lui dit le col. « Ne vous approchez pas tant, vous semblez si viril ! » répondit la jarretière. Mais on les sortit du panier, les amidon et les sépara.",
+          "de": "Im Wäschekorb lernte er eine sehr feine, schüchterne Strumpfbandhalterung kennen. Ich habe noch nie jemanden so schlank und vornehm gesehen, sagte der Kragen. Kommen Sie nicht so nah, Sie sehen so männlich aus!, antwortete das Strumpfband. Aber man nahm sie aus dem Korb, stärkte sie und trennte sie.",
+          "it": "Nel cesto della biancheria conobbe una calza molto fine e timida. Non ho mai visto nessuno così slanciato e distinto, le disse il colletto. Non si avvicini così tanto, sembra così virile!, rispose la calza. Ma li tirarono fuori dal cesto, li inamidarono e li separarono.",
+          "pt": "No cesto da roupa conheceu uma liga muito fina e tímida. Nunca vi ninguém tão esbelto e distinto, disse-lhe o colarinho. Não se aproxime tanto, parece tão varonil!, respondeu a liga. Mas tiraram-nos do cesto, engomaram-nos e separaram-nos.",
+          "ca": "Al cistell de la roba va conèixer una lligacama molt fina i tímida. Mai havia vist ningú tan esvelto i distingit, li va dir el coll. No s'apropi tant, sembla tan varonil!, va contestar la lligacama. Però els van treure del cistell, els van enridar i els van separar."
+        },
+        {
+          "es": "Al pasar la plancha caliente, el cuello le propuso matrimonio: «¡Si no soy yo mismo! ¿Quiere casarse conmigo?» «¡Harapo!», replicó la plancha orgullosamente. Luego la tijera le cortó los bordes deshilachados, y el cuello le propuso matrimonio también a ella. «¿Se me está declarando, el asqueroso?», exclamó la tijera enfadada, y le propinó un corte que lo dejó inservible.",
+          "en": "When the hot iron passed over him, the collar proposed: 'I am quite transformed! Will you marry me?' 'Rag!' replied the iron proudly. Then the scissors snipped his frayed edges, and he proposed to her too. 'Is the wretch making love to me?' she cried angrily, and gave him a snip that left him useless.",
+          "fr": "Quand le fer chaud passa sur lui, le col proposa : « Je suis méconnaissable ! Voulez-vous m'épouser ? » « Chiffon ! » répliqua le fer orgueilleusement. Puis les ciseaux lui rognèrent les bords effilochés, et il leur proposa aussi le mariage. « Ce misérable me fait-il la cour ? » s'écria-t-elle en colère, et lui donna un coup qui le rendit inutilisable.",
+          "de": "Als das heiße Bügeleisen über ihn glitt, machte der Kragen einen Heiratsantrag: Ich bin völlig verwandelt! Wollen Sie mich heiraten? Lumpen!, antwortete das Bügeleisen stolz. Dann schnitt die Schere seine ausgefransten Ränder ab, und er machte auch ihr einen Heiratsantrag. Wirbt das Scheusal um mich?, rief sie wütend und gab ihm einen Schnitt, der ihn unbrauchbar machte.",
+          "it": "Quando il ferro caldo passò su di lui, il colletto propose: Sono completamente trasformato! Vuole sposarmi? Straccio!, replicò il ferro orgogliosamente. Poi le forbici gli tagliarono i bordi sfilacciati, e propose il matrimonio anche a loro. Quel miserabile mi sta corteggiando?, esclamò arrabbiata, e gli diede un taglio che lo rese inservibile.",
+          "pt": "Quando o ferro quente passou sobre ele, o colarinho propôs: Estou completamente transformado! Quer casar comigo? Trapo!, replicou o ferro orgulhosamente. Depois a tesoura cortou-lhe as bordas desfiadas, e ele propôs casamento também a ela. Esse miserável está-me a cortejar?, exclamou ela zangada, e deu-lhe um corte que o deixou inservível.",
+          "ca": "Quan el ferro calent va passar per sobre d'ell, el coll va proposar: Estic completament transformat! Vol casar-se amb mi? Andròmina!, va replicar el ferro orgullosament. Després les tisores li van tallar les vores desflorides, i el coll li va proposar matrimoni també a elles. Aquell miserable em vol festejar?, va exclamar enfadada, i li va fer un tall que el va deixar inservible."
+        }
+      ]
+    },
+    {
+      "tit": "El peine y el fracaso",
+      "frases": [
+        {
+          "es": "«Al fin tendré que solicitar la mano del peine», dijo el cuello. «¡Es admirable cómo conserva usted todos los dientes, mi querida señorita! ¿No ha pensado nunca en casarse?» «¡Claro, ya puede figurárselo! Estoy prometida con el calzador», contestó el peine. «¡Prometida!», suspiró el cuello; y como no había nadie más a quien declararse, se volvió soberbio y presumido.",
+          "en": "'After all, I must ask the comb,' said the collar. 'How wonderful that you have kept all your teeth, my dear! Have you never thought of marrying?' 'Of course, you can well imagine! I am engaged to the boot-jack,' replied the comb. 'Engaged!' sighed the collar; and having no one else to propose to, he became conceited and boastful.",
+          "fr": "« Il faut que je demande finalement la main du peigne », dit le col. « C'est admirable comme vous avez conservé toutes vos dents, ma chère ! N'avez-vous jamais pensé à vous marier ? » « Bien sûr, vous pouvez bien vous l'imaginer ! Je suis fiancée au chausse-pied », répondit le peigne. « Fiancée ! » soupira le col ; et n'ayant plus personne à demander en mariage, il devint vaniteux et présomptueux.",
+          "de": "Am Ende muss ich wohl beim Kamm um die Hand anhalten, sagte der Kragen. Wie bewundernswert, dass Sie alle Ihre Zähne behalten haben, meine Liebe! Haben Sie nie ans Heiraten gedacht? Natürlich, das können Sie sich gut vorstellen! Ich bin dem Schuhlöffel versprochen, antwortete der Kamm. Versprochen!, seufzte der Kragen; und da er niemanden mehr hatte, dem er einen Antrag machen konnte, wurde er eingebildet und angeberisch.",
+          "it": "Devo finalmente chiedere la mano del pettine, disse il colletto. È meraviglioso come conservi tutti i denti, mia cara! Non ha mai pensato di sposarsi? Certo, puoi ben immaginarlo! Sono fidanzata con il calzante, rispose il pettine. Fidanzata!, sospirò il colletto; e non avendo più nessuno a cui fare la proposta, divenne superbo e vanitoso.",
+          "pt": "Afinal tenho de pedir a mão do pente, disse o colarinho. É admirável como conserva todos os dentes, minha querida! Nunca pensou em casar? Claro, já pode imaginar! Estou prometida ao calçadeiro, respondeu o pente. Prometida!, suspirou o colarinho; e não tendo mais ninguém a quem se declarar, tornou-se soberbo e presunçoso.",
+          "ca": "Al final hauré de demanar la mà de la pinta, va dir el coll. Quina meravella com conserva totes les dents, estimada! No ha pensat mai a casar-se? Clar, ja ho pot imaginar! Estic prometida amb el calçador, va contestar la pinta. Prometida!, va sospirar el coll; i com que no hi havia ningú més a qui declarar-se, es va tornar arrogant i presumit."
+        },
+        {
+          "es": "Pasó mucho tiempo y el cuello fue a parar al almacén de un fabricante de papel, donde había una compañía de harapos. El cuello se jactaba de todas sus conquistas amorosas ante los demás trapos, inventando proezas que nunca habían ocurrido.",
+          "en": "Much time passed and the collar ended up at a paper-maker's warehouse, where there was a large company of rags. The collar boasted to the other rags about all his love conquests, inventing feats that had never happened.",
+          "fr": "Beaucoup de temps passa et le col finit dans l'entrepôt d'un fabricant de papier, où se trouvait une nombreuse compagnie de chiffons. Le col se vantait auprès des autres chiffons de toutes ses conquêtes amoureuses, inventant des exploits qui n'avaient jamais eu lieu.",
+          "de": "Viel Zeit verging und der Kragen landete im Lager eines Papierherstellers, wo eine große Gesellschaft von Lumpen war. Der Kragen prahlte gegenüber den anderen Lumpen über all seine Liebeseroberungen und erfand Heldentaten, die nie stattgefunden hatten.",
+          "it": "Passò molto tempo e il colletto finì nel magazzino di un fabbricante di carta, dove c'era una numerosa compagnia di stracci. Il colletto si vantava con gli altri stracci di tutte le sue conquiste amorose, inventando prodezze che non erano mai avvenute.",
+          "pt": "Passou muito tempo e o colarinho foi parar ao armazém de um fabricante de papel, onde havia uma numerosa companhia de trapos. O colarinho gabava-se para os outros trapos de todas as suas conquistas amorosas, inventando proezas que nunca tinham acontecido.",
+          "ca": "Va passar molt de temps i el coll va anar a parar al magatzem d'un fabricant de paper, on hi havia una nombrosa companyia d'andròmines. El coll es vantava davant dels altres draps de totes les seves conquestes amoroses, inventant proeses que mai no havien passat."
+        }
+      ]
+    },
+    {
+      "tit": "Convertido en papel",
+      "frases": [
+        {
+          "es": "«¡La de novias que he tenido!», decía. «Una cinturilla delicada y elegante que se tiró a la bañera. Una plancha ardiente que ardía de amor por mí. Una primera bailarina a la que gustaba estirar las piernas. ¡Mi propio peine se enamoró de mí y perdió todos los dientes de mal de amores!»",
+          "en": "'The sweethearts I have had!' he said. 'A delicate little garter who threw herself into the bathtub. A burning iron that was on fire with love for me. A prima ballerina who loved to stretch her legs. Even my own comb fell in love with me and lost all her teeth from lovesickness!'",
+          "fr": "« Les fiancées que j'ai eues ! » disait-il. « Une jarretière délicate et élégante qui s'est jetée dans la baignoire. Un fer brûlant qui brûlait d'amour pour moi. Une première danseuse qui aimait étirer les jambes. Mon propre peigne est tombé amoureux de moi et a perdu toutes ses dents d'amour ! »",
+          "de": "Was für Bräute ich hatte!, sagte er. Eine zarte kleine Strumpfbandhalterung, die sich in die Badewanne warf. Ein brennendes Bügeleisen, das vor Liebe zu mir glühte. Eine Primaballerina, die gerne ihre Beine streckte. Sogar mein eigener Kamm verliebte sich in mich und verlor alle seine Zähne vor Liebeskummer!",
+          "it": "Quante fidanzate ho avuto!, diceva. Una delicata e elegante calza che si gettò nella vasca da bagno. Un ferro ardente che bruciava d'amore per me. Una prima ballerina che amava allungare le gambe. Persino il mio pettine si innamorò di me e perse tutti i denti di malinconia d'amore!",
+          "pt": "As noivas que tive!, dizia. Uma liga delicada e elegante que se atirou para a banheira. Um ferro ardente que ardia de amor por mim. Uma primeira bailarina que gostava de esticar as pernas. Até o meu próprio pente se apaixonou por mim e perdeu todos os dentes de mal de amores!",
+          "ca": "Les promeses que he tingut!, deia. Una lligacama delicada i elegant que es va tirar a la banyera. Un ferro ardent que cremava d'amor per mi. Una primera ballarina que li agradava estirar les cames. Fins i tot la meva pròpia pinta es va enamorar de mi i va perdre totes les dents de mal d'amor!"
+        },
+        {
+          "es": "Y fue convertido en papel blanco, junto con todos los demás trapos. El cuello es precisamente el papel en que está escrito este cuento. Y le está bien empleado, por haberse jactado de cosas que no eran verdad. Tengámoslo en cuenta para no comportarnos como él.",
+          "en": "And he was made into white paper, along with all the other rags. The collar is actually the very paper on which this story is written. And it serves him right, for having boasted of things that were not true. Let us keep it in mind, so as not to behave as he did.",
+          "fr": "Et il fut transformé en papier blanc, avec tous les autres chiffons. Le col est précisément le papier sur lequel est écrite cette histoire. Et c'est bien fait pour lui, pour s'être vanté de choses qui n'étaient pas vraies. Gardons-le à l'esprit pour ne pas nous comporter comme lui.",
+          "de": "Und er wurde zu weißem Papier gemacht, zusammen mit all den anderen Lumpen. Der Kragen ist genau das Papier, auf dem diese Geschichte geschrieben steht. Und das geschieht ihm recht, weil er sich rühmte, was nicht wahr war. Behalten wir es im Gedächtnis, um uns nicht so zu benehmen wie er.",
+          "it": "E fu trasformato in carta bianca, insieme a tutti gli altri stracci. Il colletto è precisamente la carta su cui è scritta questa storia. E se lo merita, per essersi vantato di cose che non erano vere. Teniamolo a mente per non comportarci come lui.",
+          "pt": "E foi transformado em papel branco, junto com todos os outros trapos. O colarinho é precisamente o papel em que está escrita esta história. E está-lhe bem feito, por se ter gabado de coisas que não eram verdade. Tenhamos isso em conta para não nos comportarmos como ele.",
+          "ca": "I va ser convertit en paper blanc, juntament amb tots els altres draps. El coll és precisament el paper en què està escrita aquesta història. I se li mereix, per haver-se vanagloriat de coses que no eren veritat. Recordem-ho per no comportar-nos com ell."
+        }
+      ]
+    }
+  ]
+}
