@@ -1,0 +1,116 @@
+{
+  "id": 31,
+  "tit": "El escarabajo",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": false,
+  "cov": "andersen",
+  "emo": "🪲",
+  "totalCaps": 4,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_escarabajo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "Las herraduras de oro",
+      "frases": [
+        {
+          "es": "Al caballo del Emperador le pusieron herraduras de oro, una en cada pie. Era un animal hermosísimo, de esbeltas patas, ojos inteligentes y una crin que le colgaba como un velo de seda. Había llevado a su señor a través de batallas y peligros, y por eso le pusieron herraduras de oro.",
+          "en": "The Emperor's horse was shod with golden shoes, one on each hoof. He was a most beautiful animal, with slender legs, intelligent eyes and a mane that hung like a veil of silk. He had carried his master through battles and dangers, and that was why he was shod with golden shoes.",
+          "fr": "On avait mis des fers d'or au cheval de l'Empereur, un à chaque sabot. C'était un animal magnifique, aux pattes gracieuses, aux yeux intelligents et à la crinière pendant comme un voile de soie. Il avait porté son maître à travers batailles et dangers, et c'est pourquoi on lui mit des fers d'or.",
+          "de": "Das Pferd des Kaisers wurde mit goldenen Hufeisen beschlagen, eines an jedem Huf. Es war ein wunderschönes Tier, mit schlanken Beinen, klugen Augen und einer Mähne, die wie ein Seidenschleier herabhing. Es hatte seinen Herrn durch Schlachten und Gefahren getragen, und deshalb wurde es mit goldenen Hufeisen beschlagen.",
+          "it": "Al cavallo dell'Imperatore misero dei ferri d'oro, uno per ogni zoccolo. Era un animale bellissimo, con zampe slanciate, occhi intelligenti e una criniera che pendeva come un velo di seta. Aveva portato il suo signore attraverso battaglie e pericoli, e per questo gli misero i ferri d'oro.",
+          "pt": "Ao cavalo do Imperador puseram ferraduras de ouro, uma em cada casco. Era um animal lindíssimo, de pernas esbeltas, olhos inteligentes e uma crina que lhe pendia como um véu de seda. Tinha levado o seu senhor através de batalhas e perigos, e por isso lhe puseram ferraduras de ouro.",
+          "ca": "Al cavall de l'Emperador li van posar ferreres d'or, una a cada casc. Era un animal bellíssim, de potes esveltes, ulls intel·ligents i una crinera que li penjava com un vel de seda. Havia portat el seu senyor a través de batalles i perills, i per això li van posar ferreres d'or."
+        },
+        {
+          "es": "Y el escarabajo se adelantó: «¡Primero los grandes, después los pequeños!», dijo, y alargó sus delgadas patas para que le pusieran herraduras también a él. El herrador se echó a reír: «¿También tú pretendes llevar herraduras de oro?» «¡Pues sí, señor! ¿Acaso no valgo tanto como ese gran animal?»",
+          "en": "Then the beetle stepped forward: 'First the great ones, then the small!' he said, and stretched out his thin legs to be shod too. The blacksmith laughed: 'Do you also want golden shoes?' 'Indeed I do! Am I not worth as much as that great beast?'",
+          "fr": "Et le scarabée s'avança : « D'abord les grands, puis les petits ! » dit-il, et tendit ses pattes fines pour qu'on lui mette aussi des fers. Le forgeron éclata de rire : « Toi aussi tu prétends porter des fers d'or ? » « Mais oui, monsieur ! Ne vaux-je pas autant que cet grand animal ? »",
+          "de": "Und der Käfer trat vor: Erst die Großen, dann die Kleinen!, sagte er und streckte seine dünnen Beine aus, um auch beschlagen zu werden. Der Schmied lachte: Willst du auch goldene Hufeisen? Natürlich doch! Bin ich nicht genauso viel wert wie dieses große Tier?",
+          "it": "E lo scarabeo si fece avanti: Prima i grandi, poi i piccoli!, disse, e tese le sue zampe sottili per farsi ferrare anche lui. Il maniscalco scoppiò a ridere: Anche tu pretendi di portare ferri d'oro? Certo che sì! Non valgo forse quanto quel grande animale?",
+          "pt": "E o escaravelho avançou: Primeiro os grandes, depois os pequenos!, disse, e estendeu as suas patas finas para que lhe pusessem ferraduras também. O ferreiro riu-se: Também tu pretendes usar ferraduras de ouro? Pois sim, senhor! Não valho tanto quanto esse grande animal?",
+          "ca": "I l'escarabat va avançar: Primer els grans, després els petits!, va dir, i va estendre les seves potes fines perquè li posessin ferreres també a ell. El ferrador es va riure: Tu també pretens portar ferreres d'or? Doncs sí, senyor! No valc tant com aquest gran animal?"
+        },
+        {
+          "es": "«¡Feliz viaje!», se rió el herrador. «¡Mal educado!», gritó el escarabajo, y salió volando por la puerta de la cuadra sintiéndose profundamente ofendido. El mundo le debía herraduras de oro, y se las negaba.",
+          "en": "'Bon voyage!' laughed the blacksmith. 'Ill-bred fellow!' shouted the beetle, and flew out of the stable door feeling deeply offended. The world owed him golden shoes, and was denying them.",
+          "fr": "« Bon voyage ! » rit le forgeron. « Mal élevé ! » cria le scarabée, et il s'envola par la porte de l'écurie en se sentant profondément offensé. Le monde lui devait des fers d'or et les lui refusait.",
+          "de": "Gute Reise!, lachte der Schmied. Ungehobelter Kerl!, schrie der Käfer und flog durch die Stalltür hinaus, tief beleidigt. Die Welt schuldete ihm goldene Hufeisen und verweigerte sie ihm.",
+          "it": "Buon viaggio!, rise il maniscalco. Maleducato!, gridò lo scarabeo, e volò fuori dalla porta della scuderia sentendosi profondamente offeso. Il mondo gli doveva dei ferri d'oro e glieli negava.",
+          "pt": "Boa viagem!, riu o ferreiro. Mal-educado!, gritou o escaravelho, e saiu a voar pela porta da cavalariça sentindo-se profundamente ofendido. O mundo lhe devia ferraduras de ouro e lhas negava.",
+          "ca": "Bon viatge!, es va riure el ferrador. Mal educat!, va cridar l'escarabat, i va sortir volant per la porta de l'estable sentint-se profundament ofès. El món li devia ferreres d'or, i li les negava."
+        }
+      ]
+    },
+    {
+      "tit": "El viaje por el mundo",
+      "frases": [
+        {
+          "es": "El escarabajo viajó por el mundo lleno de indignación. Encontró a una oruga que le dijo que el mundo era hermoso. «¡Qué te crees tú eso!», contestó él. Luego se topó con unas ranas, unas tijeretas orgullosas de sus hijos, y unos escarabajos peloteros que vivían en el fango. En todas partes presumía de venir de la cuadra del Emperador.",
+          "en": "The beetle travelled the world full of indignation. He met a caterpillar who told him the world was beautiful. 'That is what you think!' he replied. Then he came across some frogs, some earwigs proud of their children, and some dung beetles living in the mud. Everywhere he boasted of coming from the Emperor's stable.",
+          "fr": "Le scarabée voyagea par le monde plein d'indignation. Il rencontra une chenille qui lui dit que le monde était beau. « C'est ce que tu crois ! » répondit-il. Puis il croisa des grenouilles, des forficules fières de leurs enfants, et des bousiers vivant dans la boue. Partout il se vantait de venir de l'écurie de l'Empereur.",
+          "de": "Der Käfer reiste voller Empörung durch die Welt. Er begegnete einer Raupe, die ihm sagte, die Welt sei schön. Das glaubst du doch selbst nicht!, antwortete er. Dann traf er Frösche, Ohrwürmer die auf ihre Kinder stolz waren, und Dungkäfer die im Schlamm lebten. Überall prahlte er damit, aus dem kaiserlichen Stall zu kommen.",
+          "it": "Lo scarabeo viaggiò per il mondo pieno d'indignazione. Incontrò un bruco che gli disse che il mondo era bello. Cosa credi tu!, rispose. Poi s'imbatté in alcune rane, in alcune forbicine orgogliose dei loro figli e in degli scarabei stercorari che vivevano nel fango. Ovunque si vantava di provenire dalla scuderia dell'Imperatore.",
+          "pt": "O escaravelho viajou pelo mundo cheio de indignação. Encontrou uma lagarta que lhe disse que o mundo era belo. Isso é o que tu pensas!, respondeu. Depois cruzou-se com rãs, lavandiscas orgulhosas dos seus filhos, e escaravelhos do estrume que viviam na lama. Em todo o lado se gabava de vir da cavalariça do Imperador.",
+          "ca": "L'escarabat va viatjar pel món ple d'indignació. Va trobar una eruga que li va dir que el món era bonic. Això és el que tu creus!, va respondre. Després es va topar amb unes granotes, unes tisoretes orgulloses dels seus fills i uns escarabats pelotaires que vivien al fang. A tot arreu presumia de venir de la quadra de l'Emperador."
+        },
+        {
+          "es": "En su viaje lo capturaron unos científicos, se casó sin querer con una escarabaja y huyó. Lo metieron en una barca de juguete y lo ataron al mástil en una balsa. Una mosca vino a burlarla: «¡Qué bien lo pasa usted!» «¿No se da cuenta de que estoy atado?», gruñó el escarabajo.",
+          "en": "During his travels he was caught by some scientists, accidentally got married to a female beetle and ran away. He was put in a toy boat and tied to the mast on a pond. A fly came to tease him: 'You do enjoy yourself!' 'Can't you see I am tied up?' growled the beetle.",
+          "fr": "Au cours de ses voyages il fut capturé par des scientifiques, se maria sans le vouloir avec une femelle scarabée et s'enfuit. On le mit dans un petit bateau jouet et on l'attacha au mât sur un bassin. Une mouche vint le taquiner : « Comme vous vous amusez bien ! » « Vous ne voyez pas que je suis attaché ? » grogna le scarabée.",
+          "de": "Auf seiner Reise wurde er von einigen Wissenschaftlern gefangen, heiratete ungewollt eine weibliche Käferin und lief weg. Man steckte ihn in ein Spielzeugboot und band ihn an den Mast auf einem Teich. Eine Fliege kam, um ihn zu necken: Wie gut Sie es haben! Sehen Sie nicht, dass ich gefesselt bin?, knurrte der Käfer.",
+          "it": "Durante i suoi viaggi fu catturato da alcuni scienziati, si sposò senza volerlo con una scarabea e fuggì. Lo misero in una barchetta giocattolo e lo legarono all'albero di una piscina. Una mosca venne a stuzzicarlo: Come vi divertite bene! Non vede che sono legato?, brontolò lo scarabeo.",
+          "pt": "Durante as suas viagens foi capturado por alguns cientistas, casou-se sem querer com uma escaravelhinha e fugiu. Puseram-no numa barquinha de brinquedo e amarraram-no ao mastro numa lagoa. Uma mosca veio para o irritar: Como se diverte bem! Não vê que estou amarrado?, resmungou o escaravelho.",
+          "ca": "Durant els seus viatges el van capturar uns científics, es va casar sense voler amb una escarabateta i va fugir. El van posar en un vaixell de joguina i el van lligar al màstil en un estany. Una mosca va venir a burlar-se'n: Com s'ho passa bé! No veu que estic lligat?, va rondinar l'escarabat."
+        },
+        {
+          "es": "Unas niñas lo liberaron cortando el hilo con unas tijeras: «¡Corre, vuela si puedes!» El escarabajo se echó a volar y por una ventana abierta entró en la cuadra del Emperador. Se agarró a la crin del caballo y poco a poco se repuso.",
+          "en": "Some little girls freed him by cutting the thread with scissors: 'Fly away if you can!' The beetle spread his wings and flew in through an open window into the Emperor's stable. He grabbed onto the horse's mane and slowly recovered.",
+          "fr": "Des petites filles le libérèrent en coupant le fil avec des ciseaux : « Envole-toi si tu peux ! » Le scarabée déploya ses ailes et entra par une fenêtre ouverte dans l'écurie de l'Empereur. Il s'agrippa à la crinière du cheval et se remit peu à peu.",
+          "de": "Einige kleine Mädchen befreiten ihn, indem sie den Faden mit einer Schere durchschnitten: Flieg, wenn du kannst! Der Käfer breitete seine Flügel aus und flog durch ein offenes Fenster in den kaiserlichen Stall. Er klammerte sich an die Mähne des Pferdes und erholte sich allmählich.",
+          "it": "Alcune bambine lo liberarono tagliando il filo con delle forbici: Vola via se puoi! Lo scarabeo spiegò le ali ed entrò da una finestra aperta nella scuderia dell'Imperatore. Si aggrappò alla criniera del cavallo e si riprese a poco a poco.",
+          "pt": "Umas meninas libertaram-no cortando o fio com uma tesoura: Voa se puderes! O escaravelho abriu as asas e entrou por uma janela aberta na cavalariça do Imperador. Agarrou-se à crina do cavalo e foi-se recuperando pouco a pouco.",
+          "ca": "Unes nenes el van alliberar tallant el fil amb unes tisores: Corre, vola si pots! L'escarabat va estendre les ales i per una finestra oberta va entrar a la quadra de l'Emperador. Es va aferrar a la crinera del cavall i a poc a poc es va refer."
+        }
+      ]
+    },
+    {
+      "tit": "La gran revelación",
+      "frases": [
+        {
+          "es": "«¡Heme aquí montado en el caballo del Emperador, como un jinete!», exclamó el escarabajo. «¿Por qué le pusieron herraduras de oro al caballo?», se preguntó. Y de repente lo comprendió todo: «¡Se las pusieron por mí! ¡Para hacerme honor cuando me dignara montarlo!»",
+          "en": "'Here I am riding the Emperor's horse, like a horseman!' cried the beetle. 'Why did they put golden shoes on the horse?' he wondered. And suddenly he understood everything: 'They put them on for my sake! To do me honour when I deigned to mount him!'",
+          "fr": "« Me voilà monté sur le cheval de l'Empereur, comme un cavalier ! » s'écria le scarabée. « Pourquoi a-t-on mis des fers d'or au cheval ? » se demanda-t-il. Et soudain il comprit tout : « On les lui a mis pour moi ! Pour me faire honneur quand je daignerais le monter ! »",
+          "de": "Da reite ich auf dem Pferd des Kaisers wie ein Reiter!, rief der Käfer. Warum haben sie dem Pferd goldene Hufeisen gegeben?, fragte er sich. Und plötzlich verstand er alles: Man hat sie meinetwegen daran gemacht! Um mir Ehre zu erweisen, wenn ich mich herabließe, es zu besteigen!",
+          "it": "Eccomi montato sul cavallo dell'Imperatore, come un cavaliere!, esclamò lo scarabeo. Perché misero i ferri d'oro al cavallo?, si chiese. E d'un tratto capì tutto: Li misero per me! Per farmi onore quando mi fossi degnato di montarlo!",
+          "pt": "Aqui estou montado no cavalo do Imperador, como um cavaleiro!, exclamou o escaravelho. Por que puseram ferraduras de ouro no cavalo?, perguntou-se. E de repente compreendeu tudo: Puseram-nas por minha causa! Para me fazer honra quando eu me dignasse a montá-lo!",
+          "ca": "Aquí estic muntat al cavall de l'Emperador, com un genet!, va exclamar l'escarabat. Per què van posar ferreres d'or al cavall?, es va preguntar. I de sobte ho va comprendre tot: Les van posar per mi! Per fer-me honor quan em dignés a muntar-lo!"
+        },
+        {
+          "es": "Este pensamiento lo puso de excelente humor. «¡El viajar aguza el entendimiento!», reflexionó. Los rayos del sol caían directamente sobre él. «¡Pues no está tan mal el mundo!», dijo. «Sólo hay que sabérselo tomar.»",
+          "en": "This thought put him in excellent humour. 'Travelling sharpens the wits!' he reflected. The rays of the sun shone directly on him. 'The world is not so bad after all!' he said. 'You just have to know how to take it.'",
+          "fr": "Cette pensée le mit d'excellente humeur. « Les voyages forment l'esprit ! » réfléchit-il. Les rayons du soleil tombaient directement sur lui. « Le monde n'est pas si mal finalement ! » dit-il. « Il suffit de savoir le prendre. »",
+          "de": "Dieser Gedanke versetzte ihn in ausgezeichnete Laune. Reisen schärft den Verstand!, überlegte er. Die Sonnenstrahlen fielen direkt auf ihn. Die Welt ist doch nicht so schlecht!, sagte er. Man muss sie nur zu nehmen wissen.",
+          "it": "Questo pensiero lo mise di ottimo umore. Il viaggiare aguzza l'ingegno!, rifletté. I raggi del sole cadevano direttamente su di lui. Il mondo non è poi così male!, disse. Bisogna solo saperlo prendere.",
+          "pt": "Este pensamento pô-lo de excelente humor. Viajar aguça o engenho!, refletiu. Os raios do sol caíam diretamente sobre ele. Afinal o mundo não está assim tão mal!, disse. Só é preciso saber tomá-lo.",
+          "ca": "Aquest pensament el va posar de excel·lent humor. Viatjar afila l'enteniment!, va reflexionar. Els raigs del sol caien directament sobre ell. Doncs el món no és tan dolent!, va dir. Només cal saber com prendre'l."
+        },
+        {
+          "es": "El mundo volvía a ser hermoso, pues al caballo del Emperador le habían puesto herraduras de oro... ¡por él! El escarabajo decidió bajar del caballo para explicar a sus parientes lo mucho que se había hecho por él, y que solo pensaba permanecer en casa cuando le apeteciera.",
+          "en": "The world was beautiful again, for the Emperor's horse had been shod with golden shoes... for his sake! The beetle decided to dismount and explain to his relatives how much had been done for him, and that he only intended to stay at home when he felt like it.",
+          "fr": "Le monde était à nouveau beau, car on avait mis des fers d'or au cheval de l'Empereur... pour lui ! Le scarabée décida de descendre du cheval pour expliquer à ses proches tout ce qu'on avait fait pour lui, et qu'il n'avait l'intention de rester chez lui que lorsqu'il en aurait envie.",
+          "de": "Die Welt war wieder schön, denn dem Pferd des Kaisers waren goldene Hufeisen angelegt worden... seinetwegen! Der Käfer beschloss, vom Pferd abzusteigen und seinen Verwandten zu erklären, wie viel für ihn getan worden war, und dass er nur dann zu Hause bleiben wollte, wenn es ihm passte.",
+          "it": "Il mondo era di nuovo bello, perché al cavallo dell'Imperatore avevano messo i ferri d'oro... per lui! Lo scarabeo decise di scendere dal cavallo per spiegare ai suoi parenti quanto era stato fatto per lui, e che aveva intenzione di restare a casa solo quando ne avesse avuto voglia.",
+          "pt": "O mundo voltou a ser belo, pois ao cavalo do Imperador tinham posto ferraduras de ouro... por sua causa! O escaravelho decidiu desmontar do cavalo para explicar aos seus parentes o muito que tinha sido feito por ele, e que só tencionava ficar em casa quando lhe apetecesse.",
+          "ca": "El món tornava a ser bonic, perquè al cavall de l'Emperador li havien posat ferreres d'or... per ell! L'escarabat va decidir baixar del cavall per explicar als seus parents el molt que s'havia fet per ell, i que només pensava romandre a casa quan li vingués de gust."
+        }
+      ]
+    }
+  ]
+}
