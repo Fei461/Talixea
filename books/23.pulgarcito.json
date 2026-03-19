@@ -1,0 +1,134 @@
+{
+  "id": 23,
+  "tit": "Pulgarcito",
+  "aut": "Charles Perrault",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "perrault",
+  "emo": "👣",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Pulgarcito",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El plan del lenador",
+      "frases": [
+        {
+          "es": "Eranse un lenador y una lenadora que tenian siete hijos varones. El menor, llamado Meniquín, habia nacido tan diminuto como el dedo menique. Muy pobre era el matrimonio y sus siete hijos aumentaban su pobreza.",
+          "en": "There was once a woodcutter and his wife who had seven sons. The youngest, called Hop-o'-My-Thumb, had been born no bigger than a little finger. The couple were very poor and their seven children only added to their hardship.",
+          "fr": "Il etait une fois un bucheron et une bucheronne qui avaient sept enfants, tous garcons. Le cadet, appele le Petit Poucet, etait ne si petit qu'on avait peine a le voir. Le menage etait tres pauvre et leurs sept enfants augmentaient leur misere.",
+          "de": "Es waren einmal ein Holzfaeller und seine Frau, die sieben Soehne hatten. Der Juengste, Daumesdick genannt, war so winzig wie ein Daumen zur Welt gekommen. Das Paar war sehr arm und die sieben Kinder vermehrten ihre Not.",
+          "it": "C'erano una volta un taglialegna e sua moglie che avevano sette figli maschi. Il piu piccolo, detto Pollicino, era nato cosi minuscolo da sembrare un ditino. La coppia era molto povera e i sette figli aggravavano la loro miseria.",
+          "pt": "Era uma vez um lenhador e uma lenhadora que tinham sete filhos, todos rapazes. O mais pequeno, chamado Polegarzinho, nascera tao minusculo quanto um dedo mindinho. O casal era muito pobre e os sete filhos aumentavam a sua pobreza.",
+          "ca": "Hi havia una vegada un llenyataire i una llenyatera que tenien set fills, tots nois. El menor, anomenat Meñiquín, havia nascut tan diminut com el dit petit. La parella era molt pobra i els set fills n'augmentaven la miseria."
+        },
+        {
+          "es": "Vino un ano muy duro y tan grande fue la hambre que el pobre matrimonio resolvio abandonar a sus hijos en el bosque. Una noche, creyendo que los ninos dormian, hablaron de su plan en voz baja. Pero Meniquín lo escucho todo desde la cama.",
+          "en": "A very hard year came and the famine grew so great that the poor couple resolved to lose their children in the forest. One night, thinking the children were asleep, they discussed their plan in low voices. But Hop-o'-My-Thumb heard it all from his bed.",
+          "fr": "Il vint une annee tres difficile et la famine fut si grande que le pauvre menage resolut de perdre ses enfants dans la foret. Un soir, croyant les enfants endormis, ils parlerent de leur projet a voix basse. Mais le Petit Poucet entendit tout depuis son lit.",
+          "de": "Ein sehr hartes Jahr kam und die Hungersnot wurde so gross, dass das arme Paar beschloss, seine Kinder im Wald zu verlieren. Eines Abends, im Glauben, die Kinder schliefen, besprachen sie ihren Plan mit leiser Stimme. Aber Daumesdick hoerte alles von seinem Bett aus.",
+          "it": "Arrivo un anno molto duro e la fame divenne cosi grande che la povera coppia decise di abbandonare i figli nel bosco. Una sera, credendo che i bambini dormissero, discussero il loro piano sottovoce. Ma Pollicino senti tutto dal suo letto.",
+          "pt": "Chegou um ano muito duro e a fome tornou-se tao grande que o pobre casal resolveu perder os filhos na floresta. Uma noite, julgando que as criancas dormiam, falaram do seu plano em voz baixa. Mas Polegarzinho ouviu tudo da sua cama.",
+          "ca": "Va venir un any molt dur i la fam va ser tan gran que la pobra parella va resoldre perdre els seus fills al bosc. Una nit, creient que els nens dormien, van parlar del seu pla en veu baixa. Pero Meñiquín ho va escoltar tot des del llit."
+        },
+        {
+          "es": "Antes del alba, Meniquín se escabullo al jardin y lleno los bolsillos de piedrecitas blancas. Cuando adentraron a los ninos en el bosque mas espeso y los abandonaron, Meniquín fue dejando caer piedrecita tras piedrecita por el camino.",
+          "en": "Before dawn Hop-o'-My-Thumb crept out to the garden and filled his pockets with small white pebbles. When they led the children deep into the forest and left them, Hop-o'-My-Thumb dropped pebble after pebble along the way.",
+          "fr": "Avant l'aube le Petit Poucet se glissa dans le jardin et remplit ses poches de petits cailloux blancs. Quand on emmena les enfants dans la foret la plus profonde et qu'on les abandonna, le Petit Poucet laissa tomber caillou apres caillou sur le chemin.",
+          "de": "Vor dem Morgengrauen schlich sich Daumesdick in den Garten und fuellte seine Taschen mit kleinen weissen Kieselsteinen. Als sie die Kinder in den tiefsten Wald fuehrten und zurueckliessen, liess Daumesdick einen Kieselstein nach dem anderen auf dem Weg fallen.",
+          "it": "Prima dell'alba Pollicino si scivol in giardino e riempi le tasche di piccoli sassolini bianchi. Quando condussero i bambini nel bosco piu fitto e li abbandonarono, Pollicino lascio cadere un sassolino dopo l'altro lungo il cammino.",
+          "pt": "Antes do amanhecer Polegarzinho esgueirou-se para o jardim e encheu os bolsos de pedrinhas brancas. Quando conduziram as criancas para o bosque mais profundo e as abandonaram, Polegarzinho foi deixando cair pedrinha apos pedrinha pelo caminho.",
+          "ca": "Abans de l'alba, Meñiquín es va escapolir al jardi i va omplir les butxaques de pedres blanques. Quan van endins els nens al bosc mes espess i els van abandonar, Meñiquín va anar deixant caure pedreta rere pedreta pel cami."
+        },
+        {
+          "es": "Cuando la noche se hizo oscura, Meniquín dijo a sus hermanos que siguieran las piedrecitas que brillaban a la luz de la luna. Gracias a ellas, los ninos encontraron el camino a casa. Sus padres se alegraron mucho al verlos regresar.",
+          "en": "When darkness fell Hop-o'-My-Thumb told his brothers to follow the pebbles that shone in the moonlight. Thanks to them the children found their way home. Their parents were overjoyed to see them return.",
+          "fr": "Quand la nuit fut tombee le Petit Poucet dit a ses freres de suivre les cailloux qui brillaient au clair de lune. Grace a eux les enfants retrouverent le chemin de la maison. Leurs parents furent ravis de les voir revenir.",
+          "de": "Als die Dunkelheit hereinbrach, sagte Daumesdick seinen Bruedern, sie sollten den Kieselsteinen folgen, die im Mondlicht glaenzten. Dank ihnen fanden die Kinder den Weg nach Hause. Ihre Eltern freuten sich sehr, sie zurueckkehren zu sehen.",
+          "it": "Quando fece buio Pollicino disse ai fratelli di seguire i sassolini che brillavano alla luce della luna. Grazie a loro i bambini trovarono la strada di casa. I genitori furono molto felici di vederli tornare.",
+          "pt": "Quando escureceu Polegarzinho disse aos irmaos para seguirem as pedrinhas que brilhavam ao luar. Gracas a elas as criancas encontraram o caminho de casa. Os pais ficaram muito contentes ao ve-los regressar.",
+          "ca": "Quan es va fer fosc, Meñiquín va dir als seus germans que seguissin les pedres que brillaven a la llum de la lluna. Gracies a elles els nens van trobar el cami de casa. Els seus pares es van alegrar molt en veure'ls tornar."
+        }
+      ]
+    },
+    {
+      "tit": "La casa del Ogro",
+      "frases": [
+        {
+          "es": "Pronto vino una hambruna aun mas terrible. Esta vez Meniquín no pudo recoger piedrecitas porque la madrastra habia cerrado la puerta con llave. Solo pudo ir dejando migas de pan, que los pajaros se comieron. Los ninos se perdieron de noche en un bosque espeso y oscuro.",
+          "en": "Soon an even worse famine came. This time Hop-o'-My-Thumb could not collect pebbles because the door had been locked. He could only drop breadcrumbs as he went, and the birds ate them all. The children were lost at night in a thick dark forest.",
+          "fr": "Bientot une famine encore plus terrible arriva. Cette fois le Petit Poucet ne put ramasser de cailloux car la porte avait ete fermee a cle. Il ne put que laisser des miettes de pain en chemin, que les oiseaux mangerent. Les enfants se perdirent la nuit dans une foret epaisse et sombre.",
+          "de": "Bald kam eine noch schlimmere Hungersnot. Diesmal konnte Daumesdick keine Kieselsteine sammeln, weil die Tuer abgeschlossen worden war. Er konnte nur Brotkrumen auf dem Weg fallen lassen, die die Voegel auffraassen. Die Kinder verirrten sich nachts in einem dichten, dunklen Wald.",
+          "it": "Presto arrivo una carestia ancora piu terribile. Questa volta Pollicino non pote raccogliere sassolini perche la porta era stata chiusa a chiave. Pote solo lasciare briciole di pane per la strada, che gli uccelli mangiarono. I bambini si persero di notte in un bosco fitto e buio.",
+          "pt": "Em breve chegou uma fome ainda mais terrivel. Desta vez Polegarzinho nao pode recolher pedrinhas porque a porta tinha sido trancada. So pode deixar migalhas de pao pelo caminho, que os passaros comeram. As criancas perderam-se de noite num bosque espesso e escuro.",
+          "ca": "Aviat va arribar una fam encara mes terrible. Aquesta vegada Meñiquín no va poder recollir pedres perque la porta havia estat tancada amb clau. Nomes va poder anar deixant engrunes de pa, que els ocells van menjar. Els nens es van perdre de nit en un bosc espess i fosc."
+        },
+        {
+          "es": "Meniquín diviso a lo lejos una lucecita y llevo a sus hermanos hacia una casa. Les abrio una buena mujer que les dijo: «Pobres ninos, esta es la casa de un Ogro que se come a los ninos.» Pero los ninos tenian tanta hambre y frio que ella los hizo pasar y les dio de cenar.",
+          "en": "Hop-o'-My-Thumb spotted a small light in the distance and led his brothers towards a house. A kind woman opened the door and warned them: 'Poor children, this is the house of an Ogre who eats children.' But the children were so hungry and cold that she let them in and gave them supper.",
+          "fr": "Le Petit Poucet apercut au loin une petite lumiere et conduisit ses freres vers une maison. Une bonne femme leur ouvrit et les avertit : « Pauvres enfants, c'est la maison d'un Ogre qui mange les enfants. » Mais les enfants avaient si faim et si froid qu'elle les fit entrer et leur donna a souper.",
+          "de": "Daumesdick erblickte in der Ferne ein kleines Licht und fuehrte seine Brueder zu einem Haus. Eine gute Frau oeffnete und warnte sie: Arme Kinder, das ist das Haus eines Ogers, der Kinder frisst. Aber die Kinder hatten solchen Hunger und Kaelte, dass sie sie hereinliess und ihnen zu Abend gab.",
+          "it": "Pollicino scorse in lontananza una piccola luce e guid i fratelli verso una casa. Una buona donna apri e li avvrti: Poveri bambini, questa e la casa di un Orco che mangia i bambini. Ma i bambini avevano cosi tanta fame e freddo che lei li fece entrare e diede loro da mangiare.",
+          "pt": "Polegarzinho avistou ao longe uma pequena luz e conduziu os irmaos ate uma casa. Uma boa mulher abriu e avisou-os: Pobres criancas, esta e a casa de um Ogre que come criancas. Mas as criancas tinham tanta fome e frio que ela os deixou entrar e deu-lhes de jantar.",
+          "ca": "Meñiquín va veure a lo lluny una llumeta i va portar els seus germans cap a una casa. Una bona dona els va obrir i els va advertir: Pobres nens, aquesta es la casa d'un Ogre que es menja els nens. Pero els nens tenien tanta fam i fred que ella els va fer entrar i els va donar de sopar."
+        },
+        {
+          "es": "Llego el Ogro oliendo carne fresca. Su mujer los habia escondido bajo la cama. El Ogro los encontro, pero decidio esperar al dia siguiente para comérselos. Los hizo acostar con sus siete hijas, que tenian coronitas de oro. Meniquín, viendo el peligro, intercambio los gorros de los ninos por las coronas de las hijas.",
+          "en": "The Ogre arrived sniffing fresh meat. His wife had hidden the children under the bed. The Ogre found them but decided to wait until the next day to eat them. He had them put to bed with his seven daughters, who wore little gold crowns. Hop-o'-My-Thumb, sensing the danger, swapped the boys' caps for the daughters' crowns.",
+          "fr": "L'Ogre arriva en flairant de la chair fraiche. Sa femme avait cache les enfants sous le lit. L'Ogre les trouva mais decida d'attendre au lendemain pour les manger. Il les fit coucher avec ses sept filles qui portaient de petites couronnes d'or. Le Petit Poucet, voyant le danger, echangea les bonnets des garcons contre les couronnes des filles.",
+          "de": "Der Oger kam herein und roch frisches Fleisch. Seine Frau hatte die Kinder unter dem Bett versteckt. Der Oger fand sie, beschloss aber, bis zum naechsten Tag zu warten, um sie zu fressen. Er liess sie mit seinen sieben Toechtern zu Bett gehen, die kleine Goldkronen trugen. Daumesdick, die Gefahr erkennend, tauschte die Muetzen der Jungen gegen die Kronen der Toechter aus.",
+          "it": "L'Orco arrivo annusando carne fresca. Sua moglie aveva nascosto i bambini sotto il letto. L'Orco li trovo ma decise di aspettare il giorno dopo per mangiarli. Li fece coricare con le sue sette figlie che portavano delle piccole corone d'oro. Pollicino, vedendo il pericolo, scambio i berretti dei ragazzi con le corone delle figlie.",
+          "pt": "O Ogre chegou cheirando carne fresca. A sua mulher tinha escondido as criancas debaixo da cama. O Ogre encontrou-as mas decidiu esperar ate ao dia seguinte para as comer. Fez com que se deitassem com as suas sete filhas que usavam coroinhas de ouro. Polegarzinho, vendo o perigo, trocou os gorros dos rapazes pelas coroas das filhas.",
+          "ca": "L'Ogre va arribar olint carn fresca. La seva dona els havia amagat sota el llit. L'Ogre els va trobar pero va decidir esperar a l'endema per menjar-se'ls. Els va fer jeure amb les seves set filles, que portaven coronetes d'or. Meñiquín, veient el perill, va intercanviar els gorros dels nens per les corones de les filles."
+        },
+        {
+          "es": "A medianoche el Ogro, queriendo matar a los ninos, busco a tientas los gorros de dormir y degolló a las siete que los llevaban: eran sus propias hijas. Los ninos huyeron en la oscuridad.",
+          "en": "At midnight the Ogre, wanting to kill the children, felt for the nightcaps in the dark and cut the throats of the seven who wore them: they were his own daughters. The children fled into the darkness.",
+          "fr": "A minuit l'Ogre, voulant tuer les enfants, tata les bonnets de nuit dans le noir et degorgea les sept qui en portaient : c'etaient ses propres filles. Les enfants s'enfuirent dans l'obscurite.",
+          "de": "Um Mitternacht fuhlte der Oger, der die Kinder toeten wollte, im Dunkeln nach den Schlafmuetzen und schnitt denen die Kehle durch, die sie trugen: es waren seine eigenen Toechter. Die Kinder flohen in die Dunkelheit.",
+          "it": "A mezzanotte l'Orco, volendo uccidere i bambini, brancolo al buio cercando i berretti da notte e sgozz i sette che li portavano: erano le sue stesse figlie. I bambini fuggirono nell'oscurita.",
+          "pt": "A meia-noite o Ogre, querendo matar as criancas, apalpou os gorros de dormir no escuro e degolou os sete que os usavam: eram as suas proprias filhas. As criancas fugiram na escuridao.",
+          "ca": "A mitjanit l'Ogre, volent matar els nens, va palpar els gorros de dormir a les fosques i va degollar els set que els portaven: eren les seves propies filles. Els nens van fugir a la foscor."
+        }
+      ]
+    },
+    {
+      "tit": "Las botas de siete leguas",
+      "frases": [
+        {
+          "es": "Al despertar el Ogro descubrio el horror de lo que habia hecho. Se calzo sus botas de siete leguas y salio a perseguir a los ninos. Meniquín los oculto en una cueva y espero a que el Ogro, agotado, se durmiera junto a ellos.",
+          "en": "When the Ogre woke up and discovered the horror of what he had done he put on his seven-league boots and set out to pursue the children. Hop-o'-My-Thumb hid his brothers in a cave and waited for the Ogre, exhausted, to fall asleep beside them.",
+          "fr": "Quand l'Ogre se reveilla et decouvrit l'horreur de ce qu'il avait fait, il chaussa ses bottes de sept lieues et sortit pour poursuivre les enfants. Le Petit Poucet cacha ses freres dans une grotte et attendit que l'Ogre, epuise, s'endorme a cote d'eux.",
+          "de": "Als der Oger aufwachte und den Schrecken dessen erkannte, was er getan hatte, zog er seine Siebenmeilenstiefel an und machte sich auf, die Kinder zu verfolgen. Daumesdick verbarg seine Brueder in einer Hoehle und wartete darauf, dass der Oger, erscHoepft, neben ihnen einschlief.",
+          "it": "Quando l'Orco si sveglio e scopri l'orrore di cio che aveva fatto, indosso i suoi stivali delle sette leghe e usci a inseguire i bambini. Pollicino nascose i fratelli in una grotta e aspetto che l'Orco, esausto, si addormentasse vicino a loro.",
+          "pt": "Quando o Ogre acordou e descobriu o horror do que tinha feito calcou as suas botas de sete leguas e saiu a perseguir as criancas. Polegarzinho escondeu os irmaos numa caverna e esperou que o Ogre, exausto, adormecesse ao lado deles.",
+          "ca": "Quan l'Ogre es va despertar i va descobrir l'horror del que havia fet, es va calcar les seves botes de set llegues i va sortir a perseguir els nens. Meñiquín va amagar els seus germans en una cova i va esperar que l'Ogre, esgotat, s'adormis al seu costat."
+        },
+        {
+          "es": "Meniquín se acerco al Ogro dormido, le quito con suavidad las botas de siete leguas y se las puso. Fue a la corte, ofrecio sus servicios al rey como correo rapido y en una sola noche trajo noticias del ejercito. Gano mucho dinero y regreso junto a su familia.",
+          "en": "Hop-o'-My-Thumb crept up to the sleeping Ogre and gently pulled off the seven-league boots and put them on himself. He went to court, offered his services to the king as a swift messenger, and in a single night brought back news of the army. He earned a great deal of money and returned to his family.",
+          "fr": "Le Petit Poucet s'approcha de l'Ogre endormi, lui ota doucement les bottes de sept lieues et les chaussa. Il alla a la cour, offrit ses services au roi comme messager rapide et en une seule nuit rapporta des nouvelles de l'armee. Il gagna beaucoup d'argent et rentra aupres de sa famille.",
+          "de": "Daumesdick schlich an den schlafenden Oger heran, zog ihm sanft die Siebenmeilenstiefel aus und zog sie selbst an. Er ging zum Koenigshofe, bot dem Koenig seine Dienste als schneller Bote an und brachte in einer einzigen Nacht Nachrichten vom Heer. Er verdiente viel Geld und kehrte zu seiner Familie zurueck.",
+          "it": "Pollicino si avvicin all'Orco addormentato, gli tolse delicatamente gli stivali delle sette leghe e se li mise. And a corte, offri i suoi servigi al re come corriere veloce e in una sola notte porto notizie dell'esercito. Guadagno molto denaro e torno dalla sua famiglia.",
+          "pt": "Polegarzinho aproximou-se do Ogre adormecido, tirou-lhe suavemente as botas de sete leguas e calcou-as. Foi a corte, ofereceu os seus servicos ao rei como mensageiro rapido e numa so noite trouxe noticias do exercito. Ganhou muito dinheiro e voltou para a sua familia.",
+          "ca": "Meñiquín es va apropar a l'Ogre adormit, li va treure suaument les botes de set llegues i se les va calcar. Va anar a la cort, va oferir els seus serveis al rei com a correu rapid i en una sola nit va portar noticies de l'exercit. Va guanyar molt de diners i va tornar amb la seva familia."
+        },
+        {
+          "es": "Meniquín cuido de que toda la familia viviese con holgura, procurando buenas colocaciones a sus hermanos y comprando cargos recien creados para su padre y su madre. De este modo el nino mas pequeno y menos valorado de la familia se convirtio en su mayor orgullo.",
+          "en": "Hop-o'-My-Thumb took care that all the family lived comfortably, finding good positions for his brothers and purchasing newly created offices for his father and mother. In this way the smallest and least valued child in the family became their greatest pride.",
+          "fr": "Le Petit Poucet veilla a ce que toute la famille vive dans l'aisance, trouvant de bonnes places a ses freres et achetant des charges nouvellement creees pour son pere et sa mere. Ainsi le plus petit et le moins estime de la famille devint leur plus grande fierté.",
+          "de": "Daumesdick sorgte dafuer, dass die ganze Familie bequem lebte, besorgte seinen Bruedern gute Stellen und kaufte neu geschaffene Aemter fuer seinen Vater und seine Mutter. So wurde das kleinste und am wenigsten geschaetzte Kind in der Familie ihr groesster Stolz.",
+          "it": "Pollicino si prese cura che tutta la famiglia vivesse nell'agiatezza, trovando buone sistemazioni ai fratelli e comprando cariche di nuova istituzione per il padre e la madre. In questo modo il bambino piu piccolo e meno apprezzato della famiglia divento il loro maggior orgoglio.",
+          "pt": "Polegarzinho tratou de que toda a familia vivesse com folga, arranjando bons empregos para os irmaos e comprando cargos recentemente criados para o pai e a mae. Desta forma a crianca mais pequena e menos valorizada da familia tornou-se o seu maior orgulho.",
+          "ca": "Meñiquín va tenir cura que tota la familia visques amb holgura, aconseguint bons llocs per als seus germans i comprant carrecs de nova creacio per al seu pare i la seva mare. D'aquesta manera el nen mes petit i menys valorat de la familia es va convertir en el seu major orgull."
+        }
+      ]
+    }
+  ]
+}
