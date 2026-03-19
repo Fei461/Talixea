@@ -1,0 +1,134 @@
+{
+  "id": 20,
+  "tit": "Cenicienta",
+  "aut": "Charles Perrault",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "perrault",
+  "emo": "👠",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/La_Cenicienta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource. Traduccion de Coll y Vehi.",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "La joven y su madrastra",
+      "frases": [
+        {
+          "es": "Érase un gentilhombre que casó en segundas nupcias con una mujer altiva y huraña que tenía dos hijas tan orgullosas como ella. El esposo tenía una hija cuya dulzura y bondad nadie aventajaba.",
+          "en": "There was once a gentleman who married, for his second wife, a proud and haughty woman who had two daughters who were as proud and ill-natured as herself. Her husband had a daughter of unrivalled goodness and sweetness.",
+          "fr": "Il était une fois un gentilhomme qui épousa en secondes noces une femme fière et hautaine qui avait deux filles aussi orgueilleuses qu'elle. Son mari avait une fille dont la douceur et la bonté n'avaient point de pareilles.",
+          "de": "Es war einmal ein Edelmann, der in zweiter Ehe eine stolze und hochmütige Frau heiratete, die zwei Töchter hatte, die genauso stolz und ungefällig waren wie sie. Der Mann hatte eine Tochter von unvergleichlicher Güte und Sanftmut.",
+          "it": "C'era una volta un gentiluomo che sposò in seconde nozze una donna altera e scontrosa che aveva due figlie orgogliose come lei. Il marito aveva una figlia la cui dolcezza e bontà non avevano eguali.",
+          "pt": "Era uma vez um fidalgo que casou em segundas núpcias com uma mulher altiva e arrogante que tinha duas filhas tão orgulhosas quanto ela. O marido tinha uma filha cuja doçura e bondade ninguém igualava.",
+          "ca": "Hi havia una vegada un gentilhome que es va casar en segones núpcies amb una dona altiva i bravejadora que tenia dues filles tan orgulloses com ella. El marit tenia una filla la dolçor i bondat de la qual ningú igualava."
+        },
+        {
+          "es": "Apenas celebradas las bodas, la madrastra hizo pesar su pésimo carácter sobre la joven. Le encargó las más humildes faenas de la casa y le obligó a dormir en la buhardilla sobre un mal jergón. Su hermanastras dormían en habitaciones con camas de lo más fino.",
+          "en": "As soon as the wedding was over, the stepmother gave full vent to her ill-humour. She could not bear the good qualities of the young girl, and gave her the meanest work in the house to do. She had to sleep in the garret on a wretched mattress, while her sisters slept in fine rooms with the best of beds.",
+          "fr": "À peine les noces furent-elles faites, que la marâtre fit sentir tout son mauvais caractère à la jeune fille. Elle lui confia les plus humbles besognes de la maison et l'obligea à dormir dans le grenier sur un mauvais grabat. Ses demi-sœurs dormaient dans de belles chambres avec des lits des plus fins.",
+          "de": "Kaum waren die Hochzeitsfeierlichkeiten vorbei, ließ die Stiefmutter ihren schlechten Charakter an der jungen Frau aus. Sie übertrug ihr die niedrigsten Hausarbeiten und zwang sie, auf dem Dachboden auf einem schlechten Strohsack zu schlafen. Ihre Stiefschwestern schliefen in schönen Zimmern mit den feinsten Betten.",
+          "it": "Appena celebrate le nozze, la matrigna fece pesare il suo pessimo carattere sulla giovane. Le affidò i lavori più umili della casa e la costrinse a dormire in soffitta su un misero pagliericcio. Le sue sorellastre dormivano in belle stanze con i letti più raffinati.",
+          "pt": "Mal terminadas as bodas, a madrasta fez pesar o seu péssimo caráter sobre a jovem. Encarregou-a das tarefas mais humildes da casa e obrigou-a a dormir no sótão num mau colchão. As suas meias-irmãs dormiam em quartos com as melhores camas.",
+          "ca": "Tan bon punt acabats els nuvis, la madrastra va fer sentir el seu pèssim caràcter sobre la jove. Li va encarregar les feines més humils de la casa i la va obligar a dormir a la golfes sobre un mal jàs. Les seves germanastres dormien en habitacions amb llits dels més fins."
+        },
+        {
+          "es": "La desdichada sufría con paciencia. Cuando había terminado su tarea iba a un rincón de la chimenea y se sentaba entre las cenizas, por lo que sus hermanastras la llamaban Cenicienta. Pero a pesar de sus ropas míseras, era cien veces más hermosa que sus hermanas.",
+          "en": "The poor girl bore all this patiently. When she had done her work she used to go to the chimney corner and sit down among the ashes, which made her sisters call her Cinderella. But Cinderella, in spite of her mean clothes, was a hundred times more beautiful than her sisters.",
+          "fr": "La pauvre fille souffrait tout cela avec patience. Quand elle avait fini son travail, elle allait s'asseoir dans un coin de la cheminée parmi les cendres, ce qui lui valut le surnom de Cendrillon. Mais Cendrillon, malgré ses misérables vêtements, était cent fois plus belle que ses sœurs.",
+          "de": "Das arme Mädchen ertrug alles geduldig. Wenn sie ihre Arbeit getan hatte, setzte sie sich in eine Ecke am Kamin und saß unter der Asche, was ihr den Spitznamen Aschenputtel einbrachte. Aber Aschenputtel war trotz ihrer armen Kleidung hundertmal schöner als ihre Schwestern.",
+          "it": "La povera ragazza sopportava tutto con pazienza. Quando aveva finito il suo lavoro andava in un angolo del camino e si sedeva tra le ceneri, il che le valse il soprannome di Cenerentola. Ma Cenerentola, nonostante i suoi abiti miserabili, era cento volte più bella delle sue sorelle.",
+          "pt": "A infeliz sofria tudo com paciência. Quando tinha acabado a sua tarefa ia a um canto da lareira e sentava-se entre as cinzas, o que fez as irmãs chamarem-lhe Cinderela. Mas a Cinderela, apesar das suas roupas miseráveis, era cem vezes mais bela do que as suas irmãs.",
+          "ca": "La desgràciada suportava tot amb paciència. Quan havia acabat la seva feina anava a un racó de la xemeneia i s'asseia entre les cendres, per la qual cosa les seves germanastres la cridaven Ventafocs. Però la Ventafocs, malgrat la seva roba mísera, era cent vegades més bella que les seves germanes."
+        }
+      ]
+    },
+    {
+      "tit": "El hada madrina",
+      "frases": [
+        {
+          "es": "El hijo del rey dio un baile al que invitó a todas las personas distinguidas. Las hermanastras no hablaban de otra cosa que del traje que se pondrían. Mandaron llamar a Cenicienta para pedirle opinión, porque su gusto era exquisito, y les dio los mejores consejos.",
+          "en": "The king's son gave a ball to which all the fashionable people were invited. The two sisters talked of nothing but the dress they would wear. They called Cinderella to ask her opinion, for her taste was excellent, and she gave them the best advice.",
+          "fr": "Le fils du roi donna un bal auquel toutes les personnes de distinction furent invitées. Les deux sœurs ne parlaient que du bel habit qu'elles mettraient. Elles appelèrent Cendrillon pour lui demander son avis, car son goût était exquis, et elle leur donna les meilleurs conseils.",
+          "de": "Der Königssohn gab einen Ball, zu dem alle vornehmen Leute eingeladen wurden. Die beiden Schwestern sprachen von nichts anderem als von den Kleidern, die sie tragen würden. Sie riefen Aschenputtel, um ihre Meinung zu hören, denn ihr Geschmack war ausgezeichnet, und sie gab ihnen die besten Ratschläge.",
+          "it": "Il figlio del re diede un ballo a cui furono invitate tutte le persone distinte. Le due sorelle non parlavano d'altro che del vestito che avrebbero indossato. Chiamarono Cenerentola per chiederle la sua opinione, perché il suo gusto era squisito, e lei diede loro i migliori consigli.",
+          "pt": "O filho do rei deu um baile a que foram convidadas todas as pessoas distintas. As duas irmãs não falavam de outra coisa senão do traje que vestiriam. Chamaram a Cinderela para lhe pedir opinião, pois o seu gosto era requintado, e ela deu-lhes os melhores conselhos.",
+          "ca": "El fill del rei va donar un ball al qual va convidar totes les persones distingides. Les dues germanastres no parlaven d'altra cosa que del vestit que es posarien. Van cridar la Ventafocs per demanar-li l'opinió, perquè el seu gust era exquisit, i ella els va donar els millors consells."
+        },
+        {
+          "es": "Cuando sus hermanas se fueron al baile, Cenicienta se puso a llorar. Su madrina, que era hada, le preguntó qué tenía. «Quisiera... quisiera...» Los sollozos le embargaban la voz. «¿Deseas ir al baile?», dijo el hada. «¡Ah, sí!», contestó Cenicienta suspirando.",
+          "en": "When her sisters had gone to the ball, Cinderella began to cry. Her godmother, who was a fairy, asked her what was the matter. 'I wish I could... I wish I could...' She was so choked with sobs that she could not finish. 'You wish you could go to the ball?' said the fairy. 'Ah, yes!' answered Cinderella with a sigh.",
+          "fr": "Quand ses sœurs furent parties au bal, Cendrillon se mit à pleurer. Sa marraine, qui était fée, lui demanda ce qu'elle avait. « Je voudrais... je voudrais... » Les sanglots lui coupaient la voix. « Tu voudrais aller au bal ? » dit la fée. « Ah oui ! » répondit Cendrillon en soupirant.",
+          "de": "Als ihre Schwestern zum Ball gegangen waren, fing Aschenputtel an zu weinen. Ihre Patin, die eine Fee war, fragte sie, was sie habe. Ich wollte... ich wollte... Die Schluchzer verschlugen ihr die Stimme. Du möchtest zum Ball gehen?, sagte die Fee. Ah ja!, antwortete Aschenputtel seufzend.",
+          "it": "Quando le sue sorelle se ne andarono al ballo, Cenerentola cominciò a piangere. La sua madrina, che era una fata, le chiese cosa avesse. Vorrei... vorrei... I singhiozzi le strozzavano la voce. Vuoi andare al ballo?, disse la fata. Ah, sì!, rispose Cenerentola sospirando.",
+          "pt": "Quando as suas irmãs foram ao baile, a Cinderela pôs-se a chorar. A sua madrinha, que era fada, perguntou-lhe o que tinha. Queria... queria... Os soluços embargavam-lhe a voz. Desejas ir ao baile?, disse a fada. Ah, sim!, respondeu a Cinderela suspirando.",
+          "ca": "Quan les seves germanes van marxar al ball, la Ventafocs es va posar a plorar. La seva padrina, que era fada, li va preguntar què tenia. Voldria... voldria... Els sanglots li embargaven la veu. Vols anar al ball?, va dir la fada. Ah, sí!, va contestar la Ventafocs sospiran."
+        },
+        {
+          "es": "El hada la llevó al jardín y con su varita convirtió una calabaza en carroza, seis ratones en caballos, una rata en cochero y seis lagartijas en lacayos. Luego tocó los pobres vestidos de Cenicienta y se convirtieron en telas de oro y plata. Le dio también unas chinelas de cristal, las más lindas que ojos humanos hubieran visto.",
+          "en": "The fairy took her to the garden and with her wand turned a pumpkin into a carriage, six mice into horses, a rat into a coachman and six lizards into footmen. She then touched Cinderella's shabby clothes and they became cloth of gold and silver. She also gave her a pair of glass slippers, the prettiest in all the world.",
+          "fr": "La fée l'emmena au jardin et d'un coup de baguette transforma une citrouille en carrosse, six souris en chevaux, un rat en cocher et six lézards en laquais. Elle toucha ensuite les pauvres habits de Cendrillon et ils devinrent des habits d'or et d'argent. Elle lui donna aussi une paire de pantoufles de verre, les plus jolies du monde.",
+          "de": "Die Fee führte sie in den Garten und verwandelte mit ihrem Zauberstab einen Kürbis in eine Kutsche, sechs Mäuse in Pferde, eine Ratte in einen Kutscher und sechs Eidechsen in Lakaien. Dann berührte sie Aschenputtels arme Kleider und sie wurden zu Gold- und Silberstoffen. Sie gab ihr auch ein Paar Glaspantoffel, die schönsten auf der ganzen Welt.",
+          "it": "La fata la portò in giardino e con la sua bacchetta trasformò una zucca in carrozza, sei topi in cavalli, un ratto in cocchiere e sei lucertole in lacchè. Poi toccò i poveri vestiti di Cenerentola e si trasformarono in stoffe d'oro e d'argento. Le diede anche un paio di scarpette di cristallo, le più belle che occhi umani avessero visto.",
+          "pt": "A fada levou-a ao jardim e com a sua varinha converteu uma abóbora numa carruagem, seis ratos em cavalos, um rato em cocheiro e seis lagartixas em lacaios. Depois tocou nas pobres roupas da Cinderela e converteram-se em tecidos de ouro e prata. Deu-lhe também uns sapatos de cristal, os mais bonitos que olhos humanos tinham visto.",
+          "ca": "La fada la va portar al jardí i amb la seva vareta va convertir una carbassa en carruatge, sis ratolins en cavalls, una rata en cotxer i sis llangardaixos en lacais. Després va tocar els pobres vestits de la Ventafocs i es van convertir en teles d'or i plata. Li va donar també uns escarpolins de cristall, els més bonics que ulls humans haguessin vist."
+        },
+        {
+          "es": "Su madrina le recomendó que saliese del baile antes de la medianoche. Cenicienta llegó al baile y causó sensación: todo el mundo guardó silencio y dejó de bailar para contemplarla. El hijo del rey no se separó de su lado en toda la noche.",
+          "en": "Her godmother warned her above all things not to stay past midnight. Cinderella arrived at the ball and caused a great stir: everyone fell silent and stopped dancing to look at her. The king's son never left her side all night.",
+          "fr": "Sa marraine lui recommanda surtout de ne pas manquer de partir avant minuit. Cendrillon arriva au bal et fit sensation : tout le monde garda le silence et cessa de danser pour la contempler. Le fils du roi ne quitta pas son côté de toute la soirée.",
+          "de": "Ihre Patin mahnte sie vor allem, nicht nach Mitternacht zu bleiben. Aschenputtel kam auf den Ball und erregte großes Aufsehen: Alle schwiegen und hörten auf zu tanzen, um sie zu bewundern. Der Königssohn verließ ihre Seite die ganze Nacht nicht.",
+          "it": "La sua madrina le raccomandò soprattutto di non trattenersi oltre la mezzanotte. Cenerentola arrivò al ballo e fece sensazione: tutti tacquero e smisero di ballare per contemplarla. Il figlio del re non si allontanò dal suo fianco per tutta la notte.",
+          "pt": "A sua madrinha recomendou-lhe acima de tudo que não ficasse depois da meia-noite. A Cinderela chegou ao baile e causou sensação: toda a gente ficou em silêncio e parou de dançar para a contemplar. O filho do rei não se afastou do seu lado em toda a noite.",
+          "ca": "La seva padrina li va recomanar sobretot que sortís del ball abans de mitjanit. La Ventafocs va arribar al ball i va causar sensació: tothom va guardar silenci i va deixar de ballar per contemplar-la. El fill del rei no es va separar del seu costat en tota la nit."
+        }
+      ]
+    },
+    {
+      "tit": "Las doce campanadas",
+      "frases": [
+        {
+          "es": "Cenicienta oyó que el reloj daba las doce menos cuarto y hizo una gran reverencia a los asistentes. Al día siguiente sus hermanastras le contaron que había ido una princesa desconocida de una belleza extraordinaria. Cenicienta sonrió y les preguntó si era muy bella.",
+          "en": "Cinderella heard the clock strike a quarter to twelve and made a deep curtsy to everyone present. The next day her stepsisters told her that an unknown princess of extraordinary beauty had attended. Cinderella smiled and asked if she had been very beautiful.",
+          "fr": "Cendrillon entendit l'horloge sonner minuit moins le quart et fit une grande révérence à l'assemblée. Le lendemain ses belles-sœurs lui racontèrent qu'une princesse inconnue d'une beauté extraordinaire était venue. Cendrillon sourit et leur demanda si elle était très belle.",
+          "de": "Aschenputtel hörte die Uhr Viertel vor zwölf schlagen und machte dem Publikum einen tiefen Knicks. Am nächsten Tag erzählten ihr Stiefschwestern, dass eine unbekannte Prinzessin von außergewöhnlicher Schönheit erschienen war. Aschenputtel lächelte und fragte, ob sie sehr schön gewesen sei.",
+          "it": "Cenerentola sentì l'orologio suonare un quarto a mezzanotte e fece una grande riverenza agli astanti. Il giorno dopo le sue sorellastre le raccontarono che era venuta una principessa sconosciuta di straordinaria bellezza. Cenerentola sorrise e chiese loro se fosse molto bella.",
+          "pt": "A Cinderela ouviu o relógio dar um quarto para a meia-noite e fez uma grande vénia aos presentes. No dia seguinte as suas meias-irmãs contaram-lhe que tinha aparecido uma princesa desconhecida de extraordinária beleza. A Cinderela sorriu e perguntou-lhes se era muito bela.",
+          "ca": "La Ventafocs va sentir el rellotge donar les dotze menys quart i va fer una gran reverència als assistents. L'endemà les seves germanastres li van explicar que havia vingut una princesa desconeguda d'extraordinària bellesa. La Ventafocs va somriure i els va preguntar si era molt bella."
+        },
+        {
+          "es": "Al día siguiente Cenicienta volvió al baile aún más adornada. El hijo del rey siempre a su lado. Pero olvidó lo que su madrina le había encargado y cuando oyó dar las doce tuvo que levantarse y huir corriendo. Al bajar las escaleras se le cayó uno de sus zapatos de cristal.",
+          "en": "The next day Cinderella went to the ball even more splendidly dressed. The king's son was always by her side. But she forgot what her godmother had warned her and when she heard midnight strike she had to get up and flee. As she ran down the stairs she lost one of her glass slippers.",
+          "fr": "Le lendemain Cendrillon alla au bal encore plus parée. Le fils du roi toujours à ses côtés. Mais elle oublia ce que sa marraine lui avait recommandé et quand elle entendit sonner minuit il lui fallut se lever et s'enfuir. En dévalant les escaliers elle perdit une de ses pantoufles de verre.",
+          "de": "Am nächsten Tag ging Aschenputtel noch prächtig gekleidet zum Ball. Der Königssohn immer an ihrer Seite. Aber sie vergaß, was ihre Patin ihr ans Herz gelegt hatte, und als sie Mitternacht schlagen hörte, musste sie aufstehen und fliehen. Als sie die Treppe hinunterlief, verlor sie einen ihrer Glaspantoffel.",
+          "it": "Il giorno dopo Cenerentola andò al ballo ancora più adornata. Il figlio del re sempre al suo fianco. Ma dimenticò ciò che la sua madrina le aveva raccomandato e quando sentì suonare la mezzanotte dovette alzarsi e fuggire. Scendendo le scale perse una delle sue scarpette di cristallo.",
+          "pt": "No dia seguinte a Cinderela foi ao baile ainda mais adornada. O filho do rei sempre ao seu lado. Mas esqueceu o que a sua madrinha lhe tinha recomendado e quando ouviu soar a meia-noite teve de se levantar e fugir. Ao descer as escadas perdeu um dos seus sapatos de cristal.",
+          "ca": "L'endemà la Ventafocs va anar al ball encara més adornada. El fill del rei sempre al seu costat. Però va oblidar el que la seva padrina li havia recomanat i quan va sentir tocar mitjanit va haver d'aixecar-se i fugir. En baixar les escales va perdre un dels seus escarpolins de cristall."
+        },
+        {
+          "es": "El hijo del rey mandó publicar que se casaría con aquella mujer a quien le viniera bien la chinela de cristal. Se la fueron probando a todas las damas del reino. Cuando llegó el turno de Cenicienta la probó y le entró perfectamente, ante el asombro de sus hermanastras.",
+          "en": "The king's son had it proclaimed that he would marry the woman whom the glass slipper fitted. It was tried on all the ladies of the court. When Cinderella's turn came she tried it on and it slipped onto her foot perfectly, to the astonishment of her stepsisters.",
+          "fr": "Le fils du roi fit proclamer qu'il épouserait celle à qui irait bien la pantoufle de verre. On l'essaya à toutes les dames de la cour. Quand vint le tour de Cendrillon elle l'essaya et elle lui alla à merveille, à l'étonnement de ses belles-sœurs.",
+          "de": "Der Königssohn ließ ausrufen, er werde die Frau heiraten, der der Glaspantoffel passe. Er wurde allen Damen des Hofes anprobiert. Als Aschenputtels Reihe kam, probierte sie ihn an und er glitt ihr Fuß perfekt, zum Erstaunen ihrer Stiefschwestern.",
+          "it": "Il figlio del re fece proclamare che avrebbe sposato colei a cui la scarpetta di cristallo andasse bene. La si andò provando a tutte le dame di corte. Quando venne il turno di Cenerentola la provò e le calzò perfettamente, con stupore delle sue sorellastre.",
+          "pt": "O filho do rei mandou proclamar que se casaria com aquela a quem assentasse bem o sapato de cristal. Foi-se experimentando a todas as damas da corte. Quando chegou a vez da Cinderela experimentou-o e encaixou perfeitamente, com espanto das suas meias-irmãs.",
+          "ca": "El fill del rei va fer proclamar que es casaria amb aquella a qui li vengués bé l'escarpolí de cristall. Es va anar provant a totes les dames de la cort. Quan va arribar el torn de la Ventafocs el va provar i li va entrar perfectament, davant l'estupor de les seves germanastres."
+        },
+        {
+          "es": "La madrina tocó con su varita los vestidos de Cenicienta y se convirtieron en trajes magníficos. Sus hermanastras la reconocieron entonces y se arrojaron a sus pies. Cenicienta las abrazó y les dijo que les perdonaba de todo corazón. La llevaron al palacio del príncipe, que la encontró más hermosa que nunca, y la boda se celebró pocos días después.",
+          "en": "The godmother touched Cinderella's clothes with her wand and they became magnificent gowns. Her stepsisters then recognised her and threw themselves at her feet. Cinderella embraced them and said she forgave them with all her heart. She was taken to the palace of the prince, who found her more beautiful than ever, and the wedding took place a few days later.",
+          "fr": "La marraine toucha les habits de Cendrillon de sa baguette et ils devinrent des habits magnifiques. Ses belles-sœurs la reconnurent alors et se jetèrent à ses pieds. Cendrillon les embrassa et leur dit qu'elle leur pardonnait de tout son cœur. On la conduisit au palais du prince, qui la trouva plus belle que jamais, et les noces eurent lieu peu de jours après.",
+          "de": "Die Patin berührte Aschenputtels Kleider mit ihrem Zauberstab und sie wurden zu herrlichen Gewändern. Ihre Stiefschwestern erkannten sie dann und warfen sich ihr zu Füßen. Aschenputtel umarmte sie und sagte, sie vergebe ihnen von ganzem Herzen. Sie wurde in den Palast des Prinzen geführt, der sie schöner als je fand, und die Hochzeit fand einige Tage später statt.",
+          "it": "La madrina toccò con la sua bacchetta i vestiti di Cenerentola e si trasformarono in abiti magnifici. Le sue sorellastre la riconobbero allora e si gettarono ai suoi piedi. Cenerentola le abbracciò e disse loro che le perdonava di tutto cuore. La portarono al palazzo del principe, che la trovò più bella che mai, e il matrimonio si celebrò pochi giorni dopo.",
+          "pt": "A madrinha tocou com a sua varinha nos vestidos da Cinderela e converteram-se em trajes magníficos. As suas meias-irmãs reconheceram-na então e atiraram-se a seus pés. A Cinderela abraçou-as e disse-lhes que as perdoava de todo o coração. Levaram-na ao palácio do príncipe, que a encontrou mais bela do que nunca, e o casamento realizou-se poucos dias depois.",
+          "ca": "La padrina va tocar amb la seva vareta els vestits de la Ventafocs i es van convertir en vestits magnífics. Les seves germanastres la van reconèixer llavors i es van llençar als seus peus. La Ventafocs les va abraçar i els va dir que les perdonava de tot cor. La van portar al palau del príncep, que la va trobar més bella que mai, i el casament es va celebrar pocs dies després."
+        }
+      ]
+    }
+  ]
+}
