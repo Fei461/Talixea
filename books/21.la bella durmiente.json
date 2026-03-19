@@ -1,0 +1,175 @@
+{
+  "id": 21,
+  "tit": "La Bella Durmiente",
+  "aut": "Charles Perrault",
+  "cat": "Cuentos",
+  "gratis": false,
+  "cov": "perrault",
+  "emo": "💤",
+  "totalCaps": 4,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/La_Bella_Durmiente",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "La maldición del hada",
+      "frases": [
+        {
+          "es": "En otros tiempos había un rey y una reina que estaban tristes porque no tenían hijos. Por fin la reina dio a luz una niña y el rey, lleno de gozo, ordenó organizar un gran festín al que invitó a todas las hadas del reino para que fueran madrinas de la princesita.",
+          "en": "Once upon a time there were a king and queen who were very unhappy because they had no children. At last the queen had a baby daughter and the king, filled with joy, arranged a great feast to which he invited all the fairies in the kingdom to be godmothers to the little princess.",
+          "fr": "Il était une fois un roi et une reine qui étaient très malheureux de n'avoir pas d'enfants. Enfin la reine donna naissance à une petite fille et le roi, plein de joie, organisa un grand festin auquel il invita toutes les fées du royaume pour qu'elles fussent marraines de la petite princesse.",
+          "de": "Es waren einmal ein König und eine Königin, die sehr traurig waren, weil sie keine Kinder hatten. Schließlich brachte die Königin ein kleines Mädchen zur Welt und der König, voller Freude, veranstaltete ein großes Fest, zu dem er alle Feen des Königreichs einlud, damit sie Patinnen der kleinen Prinzessin würden.",
+          "it": "C'erano una volta un re e una regina che erano molto tristi perché non avevano figli. Finalmente la regina diede alla luce una bambina e il re, pieno di gioia, organizzò un grande banchetto al quale invitò tutte le fate del regno affinché fossero madrine della piccola principessa.",
+          "pt": "Era uma vez um rei e uma rainha que eram muito tristes porque não tinham filhos. Por fim a rainha deu à luz uma menina e o rei, cheio de alegria, organizou um grande festim ao qual convidou todas as fadas do reino para serem madrinhas da princesinha.",
+          "ca": "Hi havia una vegada un rei i una reina que estaven molt tristos perquè no tenien fills. Finalment la reina va donar a llum una nena i el rei, ple de goig, va organitzar un gran festí al qual va convidar totes les fades del regne perquè fossen padrínes de la princeseta."
+        },
+        {
+          "es": "Había sin embargo una vieja hada que no había sido invitada porque hacía más de cincuenta años que no salía de su torre. Cuando se sentaron a la mesa, la vieja hada creyó que se la despreciaba y murmuró amenazas.",
+          "en": "There was however an old fairy who had not been invited because she had not left her tower for more than fifty years. When they sat down at table the old fairy thought she was being slighted and muttered threats.",
+          "fr": "Il y avait cependant une vieille fée qui n'avait pas été invitée parce qu'il y avait plus de cinquante ans qu'elle n'était pas sortie de sa tour. Quand on se mit à table, la vieille fée crut qu'on la méprisait et murmura des menaces.",
+          "de": "Es gab jedoch eine alte Fee, die nicht eingeladen worden war, weil sie seit mehr als fünfzig Jahren ihren Turm nicht verlassen hatte. Als man sich zu Tisch setzte, glaubte die alte Fee, man verachte sie, und murmelte Drohungen.",
+          "it": "C'era tuttavia una vecchia fata che non era stata invitata perché erano più di cinquant'anni che non usciva dalla sua torre. Quando si sedettero a tavola, la vecchia fata credette di essere disprezzata e borbottò minacce.",
+          "pt": "Havia contudo uma velha fada que não tinha sido convidada porque fazia mais de cinquenta anos que não saía da sua torre. Quando se sentaram à mesa, a velha fada julgou ser desprezada e murmurou ameaças.",
+          "ca": "Hi havia tanmateix una vella fada que no havia estat convidada perquè feia més de cinquanta anys que no sortia de la seva torre. Quan es van asseure a taula, la vella fada va creure que se la menyspresava i va murmurar amenaces."
+        },
+        {
+          "es": "Las hadas jóvenes otorgaron a la princesa los dones de la belleza, la gracia y la bondad. Pero cuando llegó el turno de la vieja hada, dijo con voz temblorosa: «La princesa se herirá la mano con un huso y morirá.» Este terrible don estremeció a todos.",
+          "en": "The young fairies granted the princess the gifts of beauty, grace and goodness. But when the old fairy's turn came she said in a trembling voice: 'The princess shall prick her hand on a spindle and die.' This terrible gift horrified everyone.",
+          "fr": "Les jeunes fées accordèrent à la princesse les dons de la beauté, de la grâce et de la bonté. Mais quand vint le tour de la vieille fée, elle dit d'une voix tremblante : « La princesse se piquera la main à un fuseau et en mourra. » Ce terrible don effraya tout le monde.",
+          "de": "Die jungen Feen schenkten der Prinzessin die Gaben der Schönheit, Anmut und Güte. Aber als die alte Fee an der Reihe war, sagte sie mit zitternder Stimme: Die Prinzessin wird sich die Hand an einer Spindel stechen und sterben. Diese schreckliche Gabe erschütterte alle.",
+          "it": "Le fate giovani concedettero alla principessa i doni della bellezza, della grazia e della bontà. Ma quando venne il turno della vecchia fata, disse con voce tremante: La principessa si ferirà la mano con un fuso e morirà. Questo terribile dono scosse tutti.",
+          "pt": "As fadas jovens concederam à princesa os dons da beleza, graça e bondade. Mas quando chegou a vez da velha fada, disse com voz trémula: A princesa picar-se-á a mão com um fuso e morrerá. Este terrível dom horrorizou todos.",
+          "ca": "Les fades joves van atorgar a la princesa els dons de la bellesa, la gràcia i la bondat. Però quan va arribar el torn de la vella fada, va dir amb veu tremolosa: La princesa es punxarà la mà amb un fus i morirà. Aquest terrible do va estremir tothom."
+        },
+        {
+          "es": "Una hada joven que aún no había concedido su don salió de detrás de un tapiz y dijo: «La princesa no morirá. Se herirá la mano con un huso pero, en vez de morir, caerá en un sueño profundo de cien años, del que la despertará el hijo de un rey.» El rey mandó destruir todos los husos del reino.",
+          "en": "A young fairy who had not yet given her gift came out from behind a tapestry and said: 'The princess shall not die. She shall prick her hand on a spindle but, instead of dying, she shall fall into a deep sleep lasting a hundred years, from which a king's son will come to wake her.' The king ordered all the spindles in the kingdom to be destroyed.",
+          "fr": "Une jeune fée qui n'avait pas encore accordé son don sortit de derrière une tapisserie et dit : « La princesse ne mourra pas. Elle se piquera la main à un fuseau mais, au lieu de mourir, elle tombera dans un profond sommeil de cent ans, dont le fils d'un roi viendra la réveiller. » Le roi ordonna de détruire tous les fuseaux du royaume.",
+          "de": "Eine junge Fee, die ihre Gabe noch nicht gegeben hatte, trat hinter einem Wandteppich hervor und sagte: Die Prinzessin wird nicht sterben. Sie wird sich die Hand an einer Spindel stechen, aber anstatt zu sterben, wird sie in einen hundertjährigen tiefen Schlaf fallen, aus dem der Sohn eines Königs sie erwecken wird. Der König ließ alle Spindeln im Königreich vernichten.",
+          "it": "Una giovane fata che non aveva ancora concesso il suo dono uscì da dietro un arazzo e disse: La principessa non morirà. Si ferirà la mano con un fuso ma, invece di morire, cadrà in un profondo sonno di cent'anni, dal quale la sveglierà il figlio di un re. Il re ordinò di distruggere tutti i fusi del regno.",
+          "pt": "Uma fada jovem que ainda não tinha concedido o seu dom saiu de trás de uma tapeçaria e disse: A princesa não morrerá. Picar-se-á a mão com um fuso mas, em vez de morrer, cairá num sono profundo de cem anos, do qual a despertará o filho de um rei. O rei mandou destruir todos os fusos do reino.",
+          "ca": "Una fada jove que encara no havia concedit el seu do va sortir de darrere d'un tapís i va dir: La princesa no morirà. Es punxarà la mà amb un fus però, en lloc de morir, caurà en un son profund de cent anys, del qual la despertarà el fill d'un rei. El rei va ordenar destruir tots els fusos del regne."
+        }
+      ]
+    },
+    {
+      "tit": "El sueño de cien años",
+      "frases": [
+        {
+          "es": "Transcurridos quince o dieciséis años, cierto día la princesa se encontró sola en el palacio y fue a curiosear por todas las habitaciones. Llegó a lo alto de una torre donde una vieja hilaba con su huso.",
+          "en": "About fifteen or sixteen years had passed when one day the princess found herself alone in the palace and went exploring all the rooms. She came to the top of a tower where an old woman sat spinning with her spindle.",
+          "fr": "Quinze ou seize ans s'étaient écoulés quand un jour la princesse se trouva seule dans le palais et se mit à aller voir toutes les chambres. Elle monta au haut d'une tour où une vieille femme filait avec son fuseau.",
+          "de": "Fünfzehn oder sechzehn Jahre waren vergangen, als die Prinzessin sich eines Tages allein im Palast befand und alle Zimmer erkundete. Sie kam in den oberen Teil eines Turmes, wo eine alte Frau mit ihrer Spindel spann.",
+          "it": "Quindici o sedici anni erano passati quando un giorno la principessa si trovò sola nel palazzo e andò a curiosare in tutte le stanze. Arrivò in cima a una torre dove una vecchia filava con il suo fuso.",
+          "pt": "Tinham passado quinze ou dezasseis anos quando um dia a princesa se encontrou sozinha no palácio e foi explorar todos os quartos. Chegou ao alto de uma torre onde uma velha fiava com o seu fuso.",
+          "ca": "Quinze o setze anys havien passat quan un dia la princesa es va trobar sola al palau i va anar a curiosejar per totes les habitacions. Va arribar a dalt d'una torre on una vella filava amb el seu fus."
+        },
+        {
+          "es": "«¿Qué es eso que hacéis?», preguntó la princesa. «Estoy hilando, hermosa niña», contestó la vieja. La princesa quiso coger el huso y, como era muy vivaracha, nada más tomarlo se hirió la mano. Cayó al suelo sin conocimiento.",
+          "en": "'What is that you are doing?' asked the princess. 'I am spinning, my pretty child,' answered the old woman. The princess wanted to take the spindle, and as she was very lively, no sooner had she touched it than she pricked her hand and fell to the floor in a faint.",
+          "fr": "« Qu'est-ce que vous faites ? » demanda la princesse. « Je file, ma jolie enfant », répondit la vieille. La princesse voulut prendre le fuseau et, comme elle était très vive, à peine l'eut-elle pris qu'elle se blessa la main et tomba sans connaissance.",
+          "de": "Was macht Ihr da?, fragte die Prinzessin. Ich spinne, mein schönes Kind, antwortete die Alte. Die Prinzessin wollte die Spindel anfassen, und da sie sehr lebhaft war, stach sie sich kaum hatte sie sie berührt die Hand und fiel ohnmächtig zu Boden.",
+          "it": "Che cosa fate?, chiese la principessa. Sto filando, bella bambina, rispose la vecchia. La principessa volle prendere il fuso e, essendo molto vivace, appena lo toccò si ferì la mano e cadde a terra priva di sensi.",
+          "pt": "O que é que estais a fazer?, perguntou a princesa. Estou a fiar, bela criança, respondeu a velha. A princesa quis pegar no fuso e, como era muito viva, mal o tocou feriu-se na mão e caiu ao chão sem sentidos.",
+          "ca": "Que feu vosaltres?, va preguntar la princesa. Estic filant, bella nena, va contestar la vella. La princesa va voler agafar el fus i, com que era molt viva, tan bon punt el va tocar es va ferir la mà i va caure a terra sense coneixement."
+        },
+        {
+          "es": "El rey recordó la predicción de las hadas y ordenó que dejaran dormir a la princesa. El hada buena llegó en carro de fuego y, para que la princesa no estuviera sola al despertar, tocó con su varita a todos los que había en el palacio: todos se durmieron.",
+          "en": "The king remembered the fairies' prediction and ordered them to let the princess sleep. The good fairy arrived in a fiery chariot and, so that the princess should not be alone when she awoke, touched with her wand everyone in the palace: they all fell asleep.",
+          "fr": "Le roi se souvint de la prédiction des fées et ordonna qu'on laissât dormir la princesse. La bonne fée arriva en char de feu et, pour que la princesse ne fût pas seule à son réveil, toucha de sa baguette tout ce qui était dans le palais : ils s'endormirent tous.",
+          "de": "Der König erinnerte sich an die Prophezeiung der Feen und befahl, die Prinzessin schlafen zu lassen. Die gute Fee traf in einem Feuerwagen ein und berührte, damit die Prinzessin beim Erwachen nicht allein sein würde, alle im Palast mit ihrem Zauberstab: sie schliefen alle ein.",
+          "it": "Il re ricordò la profezia delle fate e ordinò che lasciassero dormire la principessa. La buona fata arrivò su un carro di fuoco e, affinché la principessa non fosse sola al risveglio, toccò con la sua bacchetta tutti quelli che erano nel palazzo: si addormentarono tutti.",
+          "pt": "O rei lembrou-se da predição das fadas e ordenou que deixassem dormir a princesa. A boa fada chegou num carro de fogo e, para que a princesa não estivesse sozinha ao acordar, tocou com a sua varinha todos os que estavam no palácio: todos adormeceram.",
+          "ca": "El rei va recordar la predicció de les fades i va ordenar que deixessin dormir la princesa. La bona fada va arribar en un carro de foc i, perquè la princesa no estigués sola en despertar-se, va tocar amb la seva vareta tots els qui hi havia al palau: tots van adormir-se."
+        },
+        {
+          "es": "En poco tiempo creció alrededor del palacio una espesura tan grande de árboles, zarzas y espinos que nadie podía acercarse. Solo se veía desde lejos lo más alto de las torres del castillo. Así pasaron los cien años.",
+          "en": "In a short time there grew around the palace such a dense thicket of trees and briars and thorns that nobody could approach it. Only the tops of the castle towers could be seen from far off. So passed the hundred years.",
+          "fr": "En peu de temps il crût tout autour du château une si grande quantité de grands arbres, de ronces et d'épines que ni bête ni homme n'eût pu y passer. On ne voyait de loin que le haut des tours du château. Ainsi passèrent les cent ans.",
+          "de": "In kurzer Zeit wuchs rund um das Schloss ein so dichtes Dickicht aus Bäumen, Dornengebüsch und Stacheln, dass weder Mensch noch Tier hindurchkommen konnte. Von weitem sah man nur die Türme des Schlosses. So vergingen die hundert Jahre.",
+          "it": "In poco tempo crebbe attorno al castello una tale fitta boscaglia di alberi, rovi e spine che né bestia né uomo poteva passarvi. Da lontano si vedevano solo le cime delle torri del castello. Così passarono i cento anni.",
+          "pt": "Em pouco tempo cresceu à volta do palácio tal espessura de árvores, silvas e espinhos que ninguém conseguia aproximar-se. Só se via ao longe o alto das torres do castelo. Assim passaram os cem anos.",
+          "ca": "En poc temps va créixer al voltant del palau tal espessor d'arbres, bardisses i espines que ningú podia apropar-s'hi. Només es veien de lluny les copes de les torres del castell. Així van passar els cent anys."
+        }
+      ]
+    },
+    {
+      "tit": "El príncipe y el despertar",
+      "frases": [
+        {
+          "es": "Pasados los cien años, el hijo del rey que reinaba entonces oyó hablar de aquel castillo misterioso. Algunos decían que era un castillo encantado y que una bella princesa dormía allí esperando al príncipe destinado a despertarla.",
+          "en": "When the hundred years had passed, the son of the king who reigned at that time heard tell of that mysterious castle. Some said it was an enchanted castle and that a beautiful princess slept there waiting for the prince destined to wake her.",
+          "fr": "Les cent ans passés, le fils du roi qui régnait alors entendit parler de ce mystérieux château. Certains disaient que c'était un château enchanté et qu'une belle princesse y dormait attendant le prince destiné à la réveiller.",
+          "de": "Als die hundert Jahre vergangen waren, hörte der Sohn des damals regierenden Königs von diesem geheimnisvollen Schloss. Einige sagten, es sei ein verzaubertes Schloss und eine schöne Prinzessin schlafe dort und warte auf den Prinzen, der sie erwecken solle.",
+          "it": "Passati i cento anni, il figlio del re che regnava allora sentì parlare di quel misterioso castello. Alcuni dicevano che era un castello incantato e che una bella principessa vi dormiva aspettando il principe destinato a svegliarla.",
+          "pt": "Passados os cem anos, o filho do rei que então reinava ouviu falar daquele castelo misterioso. Alguns diziam que era um castelo encantado e que uma bela princesa dormia lá à espera do príncipe destinado a despertá-la.",
+          "ca": "Passats els cent anys, el fill del rei que regnava llavors va sentir parlar d'aquell castell misteriós. Alguns deien que era un castell encantat i que una bella princesa hi dormia esperant el príncep destinat a despertar-la."
+        },
+        {
+          "es": "El príncipe, impulsado por el amor y el deseo de gloria, se dirigió al castillo. Cuando se acercó al bosque, los grandes árboles y las zarzas se apartaron solos para dejarlo pasar. Caminó hacia el castillo y vio por todas partes la imagen del sueño.",
+          "en": "The prince, driven by love and desire for glory, made his way to the castle. As he drew near the wood, the great trees and the briars moved aside by themselves to let him pass. He walked towards the castle and saw everywhere the image of sleep.",
+          "fr": "Le prince, poussé par l'amour et le désir de gloire, se dirigea vers le château. À son approche, les grands arbres et les ronces s'écartèrent d'eux-mêmes pour le laisser passer. Il marcha vers le château et vit de tous côtés l'image du sommeil.",
+          "de": "Der Prinz, angetrieben von Liebe und Ruhmessucht, machte sich auf den Weg zum Schloss. Als er sich dem Wald näherte, wichen die großen Bäume und Dornen von selbst zurück, um ihn passieren zu lassen. Er ging auf das Schloss zu und sah überall das Bild des Schlafes.",
+          "it": "Il principe, spinto dall'amore e dal desiderio di gloria, si diresse verso il castello. Avvicinandosi al bosco, i grandi alberi e i rovi si scostarono da soli per lasciarlo passare. Camminò verso il castello e vide dappertutto l'immagine del sonno.",
+          "pt": "O príncipe, impelido pelo amor e pelo desejo de glória, dirigiu-se ao castelo. Ao aproximar-se do bosque, as grandes árvores e as silvas afastaram-se sozinhas para o deixar passar. Caminhou em direção ao castelo e viu por toda a parte a imagem do sono.",
+          "ca": "El príncep, impulsat per l'amor i el desig de glòria, es va dirigir al castell. En apropar-se al bosc, els grans arbres i les bardisses es van apartar sols per deixar-lo passar. Va caminar cap al castell i va veure per tot arreu la imatge del son."
+        },
+        {
+          "es": "Penetró en una cámara completamente dorada y vio en una cama a la princesa, de unos quince o dieciséis años, cuya belleza resplandeciente tenía algo de luminoso y divino. Se arrodilló a su lado. El encantamiento había llegado a su fin y la princesa despertó.",
+          "en": "He entered a room all hung with gold and saw on a bed a princess of about fifteen or sixteen whose radiant beauty had something luminous and divine about it. He knelt down beside her. The enchantment had run its course and the princess awoke.",
+          "fr": "Il entra dans une chambre entièrement dorée et vit sur un lit une princesse d'environ quinze ou seize ans dont la beauté rayonnante avait quelque chose de lumineux et de divin. Il se mit à genoux à son côté. L'enchantement avait pris fin et la princesse se réveilla.",
+          "de": "Er trat in ein ganz vergoldetes Zimmer und sah auf einem Bett eine Prinzessin von etwa fünfzehn oder sechzehn Jahren, deren strahlende Schönheit etwas Leuchtendes und Göttliches hatte. Er kniete neben ihr nieder. Der Zauber hatte sein Ende gefunden und die Prinzessin erwachte.",
+          "it": "Entrò in una camera completamente dorata e vide su un letto una principessa di circa quindici o sedici anni la cui bellezza raggiante aveva qualcosa di luminoso e divino. Si inginocchiò al suo fianco. L'incantesimo era giunto al termine e la principessa si svegliò.",
+          "pt": "Entrou numa câmara completamente dourada e viu numa cama uma princesa de cerca de quinze ou dezasseis anos cuja beleza radiante tinha algo de luminoso e divino. Ajoelhou-se ao seu lado. O encantamento tinha chegado ao fim e a princesa acordou.",
+          "ca": "Va entrar en una cambra completament daurada i va veure en un llit una princesa d'uns quinze o setze anys la bellesa radiant de la qual tenia alguna cosa de lluminosa i divina. Es va agenollar al seu costat. L'encanteri havia arribat al seu fi i la princesa es va despertar."
+        },
+        {
+          "es": "La princesa miró al príncipe con ojos más tiernos que podría parecer prudente en un primer encuentro y le dijo: «¿Sois vos, príncipe mío? ¡Cuánto os habéis hecho esperar!» El príncipe estaba encantado y no sabía cómo demostrarle su alegría. Poco días después se casaron.",
+          "en": "The princess looked at the prince with eyes more tender than a first meeting might seem to warrant and said to him: 'Is it you, my prince? How long you have kept me waiting!' The prince was enchanted and did not know how to show his joy. A few days later they were married.",
+          "fr": "La princesse regarda le prince avec des yeux plus tendres qu'une première rencontre ne semblerait le permettre et lui dit : « Est-ce vous, mon prince ? Que vous vous êtes fait attendre ! » Le prince était ravi et ne savait comment témoigner sa joie. Quelques jours après, ils se marièrent.",
+          "de": "Die Prinzessin blickte den Prinzen mit Augen an, die für eine erste Begegnung zärtlicher schienen als man erwarten würde, und sagte zu ihm: Seid Ihr es, mein Prinz? Wie lange habt Ihr mich warten lassen! Der Prinz war entzückt und wusste nicht, wie er seine Freude zeigen sollte. Wenige Tage später heirateten sie.",
+          "it": "La principessa guardò il principe con occhi più teneri di quanto una prima incontro potrebbe sembrare prudente e gli disse: Siete voi, mio principe? Come vi siete fatto aspettare! Il principe era incantato e non sapeva come dimostrarle la sua gioia. Pochi giorni dopo si sposarono.",
+          "pt": "A princesa olhou para o príncipe com olhos mais ternos do que poderia parecer prudente numa primeira vez e disse-lhe: Sois vós, meu príncipe? Quanto vos fizestes esperar! O príncipe estava encantado e não sabia como demonstrar a sua alegria. Poucos dias depois casaram-se.",
+          "ca": "La princesa va mirar el príncep amb ulls més tendres del que podria semblar prudent en una primera trobada i li va dir: Sou vós, príncep meu? Quant us heu fet esperar! El príncep estava encantat i no sabia com demostrar-li la seva alegria. Pocs dies després es van casar."
+        }
+      ]
+    },
+    {
+      "tit": "La ogra y el final",
+      "frases": [
+        {
+          "es": "El príncipe vivió más de dos años con la princesa en secreto y tuvo de ella dos hijos: una niña llamada Aurora y un niño llamado Día. Al cabo de dos años murió el rey y el príncipe, al subir al trono, declaró públicamente su matrimonio.",
+          "en": "The prince lived more than two years with the princess in secret and had two children by her: a daughter called Dawn and a son called Day. After two years the king died and the prince, on coming to the throne, publicly declared his marriage.",
+          "fr": "Le prince vécut plus de deux ans avec la princesse en secret et en eut deux enfants : une fille qu'on nomma l'Aurore et un garçon qu'on appela le Jour. Au bout de deux ans, le roi mourut et le prince, en montant sur le trône, déclara publiquement son mariage.",
+          "de": "Der Prinz lebte mehr als zwei Jahre lang heimlich mit der Prinzessin zusammen und hatte zwei Kinder von ihr: ein Mädchen namens Aurora und einen Jungen namens Tag. Nach zwei Jahren starb der König und der Prinz erklärte beim Besteigen des Throns öffentlich seine Heirat.",
+          "it": "Il principe visse più di due anni con la principessa in segreto e ne ebbe due figli: una figlia di nome Aurora e un maschio chiamato Giorno. Dopo due anni morì il re e il principe, salendo al trono, dichiarò pubblicamente il suo matrimonio.",
+          "pt": "O príncipe viveu mais de dois anos com a princesa em segredo e teve dela dois filhos: uma filha chamada Aurora e um filho chamado Dia. Ao fim de dois anos morreu o rei e o príncipe, ao subir ao trono, declarou publicamente o seu casamento.",
+          "ca": "El príncep va viure més de dos anys amb la princesa en secret i va tenir d'ella dos fills: una nena anomenada Aurora i un nen anomenat Dia. Al cap de dos anys va morir el rei i el príncep, en pujar al tron, va declarar públicament el seu matrimoni."
+        },
+        {
+          "es": "La madre del rey, que era en realidad una ogra, envió a sus nietos al campo y ordenó al mayordomo que los matara. Pero el buen hombre, incapaz de hacerlo, los ocultó en casa con su esposa.",
+          "en": "The king's mother, who was in truth an ogress, sent her grandchildren to the country and ordered the steward to kill them. But the good man, unable to do so, hid them at home with his wife.",
+          "fr": "La mère du roi, qui était en réalité une ogresse, envoya ses petits-enfants à la campagne et ordonna au majordome de les tuer. Mais le brave homme, incapable de le faire, les cacha chez lui avec sa femme.",
+          "de": "Die Mutter des Königs, die in Wirklichkeit eine Menschenfresserin war, schickte ihre Enkelkinder aufs Land und befahl dem Haushofmeister, sie zu töten. Aber der gute Mann, der dazu nicht fähig war, versteckte sie mit seiner Frau zu Hause.",
+          "it": "La madre del re, che era in realtà un'orchessa, mandò i nipotini in campagna e ordinò al maggiordomo di ucciderli. Ma il buon uomo, incapace di farlo, li nascose a casa con sua moglie.",
+          "pt": "A mãe do rei, que era na realidade uma ogra, enviou os seus netos para o campo e ordenou ao mordomo que os matasse. Mas o bom homem, incapaz de o fazer, escondeu-os em casa com a sua esposa.",
+          "ca": "La mare del rei, que era en realitat una ogra, va enviar els seus néts al camp i va ordenar al majordom que els matés. Però el bon home, incapaç de fer-ho, els va amagar a casa amb la seva esposa."
+        },
+        {
+          "es": "Al volver el rey de la guerra, la ogra descubrió que sus nietos estaban vivos y preparó en el patio un tonel lleno de sierpes y sapos para arrojarlos en él. En ese momento llegó el rey. La ogra, furiosa, se lanzó ella misma al tonel y fue devorada por las bestias. El rey lo sintió, pues era su madre, pero pronto se consoló con su hermosa esposa y sus hijos.",
+          "en": "When the king returned from war, the ogress discovered that her grandchildren were alive and prepared a vat in the courtyard full of snakes and toads to throw them in. At that moment the king arrived. The ogress, furious, threw herself into the vat and was devoured by the creatures. The king was saddened, for she was his mother, but he soon consoled himself with his beautiful wife and children.",
+          "fr": "Quand le roi revint de la guerre, l'ogresse découvrit que ses petits-enfants étaient vivants et prépara dans la cour un tonneau plein de serpents et de crapauds pour les y jeter. À ce moment le roi arriva. L'ogresse, furieuse, se jeta elle-même dans le tonneau et fut dévorée par les bêtes. Le roi en fut attristé, car c'était sa mère, mais il se consola bientôt avec sa belle femme et ses enfants.",
+          "de": "Als der König aus dem Krieg zurückkehrte, entdeckte die Menschenfresserin, dass ihre Enkelkinder am Leben waren, und bereitete im Hof ein Fass voller Schlangen und Kröten vor, um sie hineinzuwerfen. In diesem Moment kam der König. Die Menschenfresserin warf sich wütend selbst in das Fass und wurde von den Tieren gefressen. Der König war betrübt, denn es war seine Mutter, aber er tröstete sich bald mit seiner schönen Frau und seinen Kindern.",
+          "it": "Quando il re tornò dalla guerra, l'orchessa scoprì che i suoi nipoti erano vivi e preparò nel cortile un barile pieno di serpenti e rospi per gettarveli dentro. In quel momento arrivò il re. L'orchessa, furiosa, si gettò ella stessa nel barile e fu divorata dalle bestie. Il re ne fu rattristato, poiché era sua madre, ma si consolò presto con la sua bella moglie e i suoi figli.",
+          "pt": "Quando o rei voltou da guerra, a ogra descobriu que os seus netos estavam vivos e preparou no pátio um barril cheio de serpentes e sapos para os atirar lá para dentro. Nesse momento chegou o rei. A ogra, furiosa, atirou-se ela própria ao barril e foi devorada pelas bestas. O rei sentiu-o, pois era a sua mãe, mas consolou-se logo com a sua bela esposa e os seus filhos.",
+          "ca": "Quan el rei va tornar de la guerra, l'ogra va descobrir que els seus néts estaven vius i va preparar al pati un barril ple de serps i gripaus per llançar-los-hi. En aquell moment va arribar el rei. L'ogra, furiosa, es va llançar ella mateixa al barril i va ser devorada per les besties. El rei ho va sentir, perquè era la seva mare, però aviat es va consolar amb la seva bella esposa i els seus fills."
+        }
+      ]
+    }
+  ]
+}
