@@ -272,7 +272,7 @@
         {
           "es": "Cuando se acercó a encender una vela, el gato le saltó a la cara arañándole. El perro le mordió la pierna, el burro le dio una coz y el gallo gritó desde el tejado.",
           "en": "When he came close to light a candle, the cat leapt at his face and scratched him. The dog bit his leg, the donkey kicked him and the cockerel crowed from the roof.",
-          "fr": "Quand il s'approcha pour allumer une bougie, le chat lui sauta au visage en le griffant. Le chien lui mordit la jambe, l'âne lui donna un coup de pied et le coq cria depuis le toit.",
+          "fr": "Quand il s'approcha pour allumer une bougie, le chat lui sauta au visage en le griffant. Le chien lui mordit la jambe, l'Ã¢ne lui donna un coup de pied et le coq cria depuis le toit.",
           "de": "Als er sich näherte, um eine Kerze anzuzünden, sprang die Katze ihm ins Gesicht und kratzte ihn. Der Hund biss ihn ins Bein, der Esel trat ihn und der Hahn krähte vom Dach.",
           "it": "Quando si avvicinò per accendere una candela, il gatto gli saltò in faccia graffiandolo. Il cane lo morse alla gamba, l'asino gli diede un calcio e il gallo gridò dal tetto.",
           "pt": "Quando se aproximou para acender uma vela, o gato saltou-lhe à cara a arranhar-lhe. O cão mordeu-lhe a perna, o burro deu-lhe um coice e o galo gritou do telhado.",
@@ -448,5 +448,13 @@
         }
       ]
     }
-  ]
+  ],
+  "src": {
+    "name": "Talixea",
+    "url": "",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "No requiere atribución.",
+    "changes": "Texto y traducciones generados/reescritos para Talixea. Inspirado en obras de dominio público."
+  }
 }
