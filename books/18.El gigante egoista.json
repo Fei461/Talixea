@@ -1,0 +1,229 @@
+{
+  "id": 18,
+  "tit": "El gigante egoísta",
+  "aut": "Oscar Wilde",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "wilde",
+  "emo": "🌸",
+  "totalCaps": 4,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_gigante_egoista",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El jardín prohibido",
+      "frases": [
+        {
+          "es": "Todas las tardes, a la salida de la escuela, los niños se habían acostumbrado a ir a jugar en el jardín del gigante.",
+          "en": "Every afternoon, when school was over, the children used to go and play in the giant's garden.",
+          "fr": "Chaque soir, à la sortie de l'école, les enfants avaient pris l'habitude d'aller jouer dans le jardin du géant.",
+          "de": "Jeden Nachmittag, wenn die Schule aus war, pflegten die Kinder in den Garten des Riesen zu gehen und zu spielen.",
+          "it": "Ogni pomeriggio, all'uscita da scuola, i bambini erano soliti andare a giocare nel giardino del gigante.",
+          "pt": "Todas as tardes, ao sair da escola, as crianças tinham o costume de ir brincar no jardim do gigante.",
+          "ca": "Cada tarda, en sortir de l'escola, els nens s'havien acostumat a anar a jugar al jardí del gegant."
+        },
+        {
+          "es": "Era un jardín grande y hermoso, cubierto de verde y suave césped. Dispersas sobre la hierba brillaban bellas flores como estrellas, y había una docena de melocotoneros que en primavera se cubrían de delicadas flores rosadas y doradas.",
+          "en": "It was a large lovely garden, with soft green grass. Here and there over the grass stood beautiful flowers like stars, and there were twelve peach trees that in spring broke out into delicate blossoms of pink and pearl.",
+          "fr": "C'était un grand et beau jardin couvert d'une herbe douce et verte. Dispersées dans l'herbe brillaient de belles fleurs comme des étoiles, et il y avait une douzaine de pêchers qui au printemps se couvraient de délicates fleurs roses et dorées.",
+          "de": "Es war ein großer, wunderschöner Garten mit weichem grünen Gras. Hier und da über dem Gras leuchteten schöne Blumen wie Sterne, und es gab ein Dutzend Pfirsichbäume, die im Frühling zarte rosa und goldene Blüten trugen.",
+          "it": "Era un giardino grande e bellissimo, coperto di morbida erba verde. Sparse sull'erba brillavano belle fiori come stelle, e c'era una dozzina di peschi che in primavera si coprivano di delicati fiori rosa e dorati.",
+          "pt": "Era um jardim grande e belo, coberto de relva verde e macia. Dispersas pela erva brilhavam belas flores como estrelas, e havia uma dúzia de pessegueiros que na primavera se cobriam de delicadas flores cor-de-rosa e douradas.",
+          "ca": "Era un jardí gran i bonic, cobert d'herba verda i suau. Disperses per l'herba brillaven belles flors com estreles, i hi havia una dotzena de presseguers que a la primavera es cobrien de delicades flors roses i daurades."
+        },
+        {
+          "es": "Los pájaros se posaban en los árboles y cantaban tan deliciosamente que los niños interrumpían sus juegos para escucharlos. «¡Qué felices somos aquí!», se gritaban unos a otros.",
+          "en": "The birds sat on the trees and sang so sweetly that the children used to stop their games in order to listen to them. 'How happy we are here!' they cried to each other.",
+          "fr": "Les oiseaux se posaient sur les arbres et chantaient si délicieusement que les enfants interrompaient leurs jeux pour les écouter. « Comme nous sommes heureux ici ! » se criaient-ils les uns aux autres.",
+          "de": "Die Vögel setzten sich auf die Bäume und sangen so lieblich, dass die Kinder ihre Spiele unterbrachen, um ihnen zuzuhören. Wie glücklich sind wir hier!, riefen sie einander zu.",
+          "it": "Gli uccelli si posavano sugli alberi e cantavano così deliziosamente che i bambini interrompevano i loro giochi per ascoltarli. Come siamo felici qui!, si gridavano l'un l'altro.",
+          "pt": "Os pássaros pousavam nas árvores e cantavam tão deliciosamente que as crianças interrompiam os seus jogos para os ouvir. Como somos felizes aqui!, gritavam umas para as outras.",
+          "ca": "Els ocells es posaven als arbres i cantaven tan deliciosament que els nens interrompien els seus jocs per escoltar-los. Com som feliços aquí!, es cridaven els uns als altres."
+        },
+        {
+          "es": "Un día el gigante regresó. Había ido a visitar a su amigo, el ogro de Cornualles, y permaneció con él durante siete años. Al llegar vio a los niños jugando en el jardín.",
+          "en": "One day the Giant came back. He had been to visit his friend the Cornish ogre, and had stayed with him for seven years. When he arrived he saw the children playing in the garden.",
+          "fr": "Un jour le géant revint. Il était allé rendre visite à son ami, l'ogre de Cornouailles, et était resté avec lui pendant sept ans. En arrivant il vit les enfants jouer dans le jardin.",
+          "de": "Eines Tages kam der Riese zurück. Er hatte seinen Freund, den Oger aus Cornwall, besucht und war sieben Jahre bei ihm geblieben. Bei seiner Ankunft sah er die Kinder im Garten spielen.",
+          "it": "Un giorno il gigante tornò. Era andato a trovare il suo amico, l'orco di Cornovaglia, ed era rimasto con lui per sette anni. Arrivando vide i bambini giocare nel giardino.",
+          "pt": "Um dia o gigante voltou. Tinha ido visitar o seu amigo, o ogre da Cornualha, e ficou com ele durante sete anos. Ao chegar viu as crianças a brincar no jardim.",
+          "ca": "Un dia el gegant va tornar. Havia anat a visitar el seu amic, l'ogre de Cornualla, i havia estat amb ell durant set anys. En arribar va veure els nens jugant al jardí."
+        },
+        {
+          "es": "«¿Qué estáis haciendo aquí?», les gritó con voz agria, y los niños salieron corriendo. «Mi jardín es mi jardín», dijo el gigante. «No voy a permitir que nadie más que yo juegue en él.»",
+          "en": "'What are you doing here?' he cried in a very gruff voice, and the children ran away. 'My own garden is my own garden,' said the Giant; 'I will allow nobody to play in it but myself.'",
+          "fr": "« Que faites-vous ici ? » leur cria-t-il d'une voix aigre, et les enfants s'enfuirent en courant. « Mon jardin est mon jardin, dit le géant. Je ne permettrai à personne d'autre qu'à moi d'y jouer. »",
+          "de": "Was macht ihr hier?, schrie er mit rauer Stimme, und die Kinder liefen davon. Mein Garten ist mein Garten, sagte der Riese. Ich werde niemandem außer mir selbst erlauben, darin zu spielen.",
+          "it": "Cosa fate qui?, gridò con voce aspra, e i bambini scapparono di corsa. Il mio giardino è il mio giardino, disse il gigante. Non permetterò a nessuno tranne me di giocarci.",
+          "pt": "O que estais a fazer aqui?, gritou-lhes com voz áspera, e as crianças fugiram a correr. O meu jardim é o meu jardim, disse o gigante. Não vou permitir que ninguém além de mim brinque nele.",
+          "ca": "Que esteu fent aquí?, els va cridar amb veu agra, i els nens van fugir corrent. El meu jardí és el meu jardí, va dir el gegant. No permetré que ningú més que jo hi jugui."
+        },
+        {
+          "es": "Entonces construyó un alto muro alrededor y puso un cartel de «Prohibida la entrada». Era un gigante muy egoísta.",
+          "en": "So he built a high wall all round it, and put up a notice-board: TRESPASSERS WILL BE PROSECUTED. He was a very Selfish Giant.",
+          "fr": "Il construisit alors un grand mur tout autour et posa un écriteau : Entrée interdite. C'était un géant très égoïste.",
+          "de": "So baute er eine hohe Mauer rund herum und stellte ein Schild auf: Betreten verboten. Er war ein sehr egoistischer Riese.",
+          "it": "Allora costruì un alto muro tutt'intorno e mise un cartello: Vietato l'ingresso. Era un gigante molto egoista.",
+          "pt": "Então construiu um alto muro à volta e colocou um cartaz: Entrada proibida. Era um gigante muito egoísta.",
+          "ca": "Llavors va construir un alt mur al voltant i va posar un cartell: Prohibida l'entrada. Era un gegant molt egoista."
+        }
+      ]
+    },
+    {
+      "tit": "El eterno invierno",
+      "frases": [
+        {
+          "es": "Los pobres niños no tenían ahora donde jugar. Trataron de hacerlo en la carretera, pero estaba llena de polvo y piedras. Se acostumbraron a vagar alrededor del alto muro, recordando el hermoso jardín que había dentro.",
+          "en": "The poor children had now nowhere to play. They tried to play on the road, but the road was very dusty and full of hard stones. They used to wander round the high walls wondering about the beautiful garden inside.",
+          "fr": "Les pauvres enfants n'avaient maintenant nulle part où jouer. Ils essayèrent de le faire sur la route, mais elle était pleine de poussière et de pierres. Ils avaient pris l'habitude d'errer autour du haut mur en se souvenant du beau jardin qui se trouvait à l'intérieur.",
+          "de": "Die armen Kinder hatten jetzt nirgendwo zum Spielen. Sie versuchten, auf der Straße zu spielen, aber sie war voller Staub und Steine. Sie gewöhnten sich daran, um die hohe Mauer herumzustreifen und sich an den schönen Garten drinnen zu erinnern.",
+          "it": "I poveri bambini non avevano ora dove giocare. Cercarono di farlo sulla strada, ma era piena di polvere e pietre. Si abituarono a vagare intorno all'alto muro, ricordando il bel giardino che c'era dentro.",
+          "pt": "As pobres crianças não tinham agora onde brincar. Tentaram fazê-lo na estrada, mas estava cheia de pó e pedras. Habituaram-se a vagar ao redor do alto muro, lembrando o belo jardim que havia lá dentro.",
+          "ca": "Les pobres criatures no tenien ara on jugar. Van intentar fer-ho a la carretera, però estava plena de pols i pedres. Es van acostumar a vagar al voltant de l'alt mur, recordant el bonic jardí que hi havia a dins."
+        },
+        {
+          "es": "Entonces llegó la primavera y todo el país se llenó de capullos y pajaritos. Solo en el jardín del gigante egoísta continuaba el invierno. Los pájaros no se preocupaban de cantar en él desde que no había niños, y los árboles se olvidaron de florecer.",
+          "en": "Then the Spring came, and all over the country there were little blossoms and little birds. Only in the garden of the Selfish Giant it was still winter. The birds did not care to sing in it as there were no children, and the trees forgot to blossom.",
+          "fr": "Puis vint le printemps, et dans tout le pays il y avait de petits boutons et de petits oiseaux. Seulement dans le jardin du géant égoïste c'était encore l'hiver. Les oiseaux ne se souciaient pas de chanter dedans puisqu'il n'y avait pas d'enfants, et les arbres oublièrent de fleurir.",
+          "de": "Dann kam der Frühling, und überall im Land gab es kleine Knospen und kleine Vögel. Nur im Garten des egoistischen Riesen war es noch Winter. Die Vögel kümmerten sich nicht darum, darin zu singen, da es keine Kinder gab, und die Bäume vergaßen zu blühen.",
+          "it": "Poi arrivò la primavera e in tutto il paese c'erano piccoli boccioli e piccoli uccelli. Solo nel giardino del gigante egoista era ancora inverno. Gli uccelli non si preoccupavano di cantarci dentro poiché non c'erano bambini, e gli alberi dimenticarono di fiorire.",
+          "pt": "Depois chegou a primavera e por todo o país havia pequenos botões e pequenos pássaros. Só no jardim do gigante egoísta continuava o inverno. Os pássaros não se preocupavam em cantar lá dentro pois não havia crianças, e as árvores esqueceram de florescer.",
+          "ca": "Llavors va arribar la primavera i per tot el país hi havia petits botons i petits ocells. Només al jardí del gegant egoista continuava l'hivern. Els ocells no es preocupaven de cantar-hi dins perquè no hi havia nens, i els arbres van oblidar de florir."
+        },
+        {
+          "es": "Los únicos complacidos eran la Nieve y el Hielo. «La primavera se ha olvidado de este jardín», gritaban. El Viento del Norte aullaba todo el día por el jardín y el Granizo tocaba el tambor sobre el tejado del castillo.",
+          "en": "The Snow and the Frost were pleased. 'Spring has forgotten this garden,' they cried. The North Wind roared all day about the garden and the Hail rattled on the roof of the castle every day.",
+          "fr": "La Neige et la Glace étaient contentes. « Le Printemps a oublié ce jardin », criaient-elles. Le Vent du Nord rugissait tout le jour dans le jardin et la Grêle tambourinait chaque jour sur le toit du château.",
+          "de": "Schnee und Frost waren zufrieden. Der Frühling hat diesen Garten vergessen!, riefen sie. Der Nordwind heulte den ganzen Tag durch den Garten und der Hagel trommelte jeden Tag auf das Dach des Schlosses.",
+          "it": "La Neve e il Ghiaccio erano contenti. La primavera ha dimenticato questo giardino!, gridavano. Il Vento del Nord ululava tutto il giorno per il giardino e la Grandine tambureggiava ogni giorno sul tetto del castello.",
+          "pt": "A Neve e o Gelo estavam satisfeitos. A Primavera esqueceu-se deste jardim!, gritavam. O Vento Norte uivava todo o dia pelo jardim e o Granizo tamborilava todos os dias no telhado do castelo.",
+          "ca": "La Neu i el Gel estaven contents. La primavera s'ha oblidat d'aquest jardí!, cridaven. El Vent del Nord udolava tot el dia pel jardí i el Calamarsa tamborinava cada dia al teulat del castell."
+        },
+        {
+          "es": "«No puedo comprender por qué la primavera tarda tanto en llegar», decía el gigante egoísta, sentado a la ventana, mirando su frío y blanco jardín. «Espero que este tiempo cambiará.» Pero la primavera no llegó, y el verano tampoco.",
+          "en": "'I cannot understand why the Spring is so late in coming,' said the Selfish Giant, as he sat at the window and looked out at his cold white garden. 'I hope there will be a change in the weather.' But the Spring never came, nor the Summer either.",
+          "fr": "« Je ne comprends pas pourquoi le printemps tarde autant à venir », disait le géant égoïste, assis à la fenêtre, regardant son jardin froid et blanc. « J'espère que le temps changera. » Mais le printemps ne vint pas, ni l'été non plus.",
+          "de": "Ich verstehe nicht, warum der Frühling so lange auf sich warten lässt, sagte der egoistische Riese, als er am Fenster saß und in seinen kalten, weißen Garten blickte. Ich hoffe, das Wetter wird sich ändern. Aber der Frühling kam nicht, und der Sommer auch nicht.",
+          "it": "Non riesco a capire perché la primavera tardi tanto ad arrivare, diceva il gigante egoista, seduto alla finestra, guardando il suo giardino freddo e bianco. Spero che il tempo cambierà. Ma la primavera non arrivò, né l'estate.",
+          "pt": "Não consigo perceber porque é que a primavera demora tanto a chegar, dizia o gigante egoísta, sentado à janela, olhando para o seu jardim frio e branco. Espero que o tempo mude. Mas a primavera não chegou, nem o verão.",
+          "ca": "No entenc per què la primavera tarda tant a arribar, deia el gegant egoista, assegut a la finestra, mirant el seu jardí fred i blanc. Espero que el temps canviarà. Però la primavera no va arribar, ni l'estiu tampoc."
+        }
+      ]
+    },
+    {
+      "tit": "La primavera vuelve",
+      "frases": [
+        {
+          "es": "Una mañana el gigante yacía despierto en su cama cuando oyó una música deliciosa. Era un jilguerillo que cantaba ante su ventana, pero hacía tanto tiempo que no oía un pájaro cantar en su jardín que le pareció la más bella música del mundo.",
+          "en": "One morning the Giant lay awake in bed when he heard some lovely music. It was really only a little linnet singing outside his window, but it was so long since he had heard a bird sing in his garden that it seemed to him to be the most beautiful music in the world.",
+          "fr": "Un matin le géant était éveillé dans son lit quand il entendit une musique délicieuse. C'était en réalité seulement un chardonneret qui chantait devant sa fenêtre, mais cela faisait si longtemps qu'il n'avait pas entendu chanter un oiseau dans son jardin que cela lui semblait la plus belle musique du monde.",
+          "de": "Eines Morgens lag der Riese wach in seinem Bett, als er eine herrliche Musik hörte. Es war wirklich nur ein kleiner Stieglitz, der vor seinem Fenster sang, aber es war so lange her, dass er einen Vogel in seinem Garten hatte singen hören, dass es ihm wie die schönste Musik der Welt vorkam.",
+          "it": "Una mattina il gigante giaceva sveglio nel letto quando sentì una musica deliziosa. Era solo un cardellino che cantava davanti alla sua finestra, ma era da così tanto tempo che non sentiva cantare un uccello nel suo giardino che gli sembrò la musica più bella del mondo.",
+          "pt": "Uma manhã o gigante estava acordado na cama quando ouviu uma música deliciosa. Era apenas um pintassilgo a cantar à sua janela, mas fazia tanto tempo que não ouvia um pássaro cantar no seu jardim que lhe pareceu a música mais bela do mundo.",
+          "ca": "Un matí el gegant estava despert al llit quan va sentir una música deliciosa. Era només un cadernera cantant davant la seva finestra, però feia tant de temps que no sentia cantar un ocell al seu jardí que li va semblar la música més bella del món."
+        },
+        {
+          "es": "Vio un espectáculo maravilloso. Por una brecha abierta en el muro los niños habían penetrado en el jardín y estaban sentados en las ramas de los árboles. En todos los árboles que estaban al alcance de su vista había un niño, y los árboles se habían cubierto de flores.",
+          "en": "He saw a most wonderful sight. Through a little hole in the wall the children had crept in, and they were sitting in the branches of the trees. In every tree that he could see there was a little child, and the trees were so glad to have the children back again that they had covered themselves with blossoms.",
+          "fr": "Il vit un spectacle merveilleux. Par une petite brèche dans le mur les enfants s'étaient glissés et étaient assis dans les branches des arbres. Dans tous les arbres qu'il pouvait voir il y avait un petit enfant, et les arbres étaient si heureux d'avoir de nouveau les enfants qu'ils s'étaient couverts de fleurs.",
+          "de": "Er sah einen wunderbaren Anblick. Durch eine kleine Lücke in der Mauer waren die Kinder hineingekrochen und saßen in den Ästen der Bäume. In jedem Baum, den er sehen konnte, saß ein kleines Kind, und die Bäume waren so froh, die Kinder wieder zu haben, dass sie sich mit Blüten bedeckt hatten.",
+          "it": "Vide uno spettacolo meraviglioso. Attraverso una piccola breccia nel muro i bambini erano entrati e sedevano sui rami degli alberi. In ogni albero che riusciva a vedere c'era un bambino, e gli alberi erano così contenti di avere di nuovo i bambini che si erano coperti di fiori.",
+          "pt": "Viu um espetáculo maravilhoso. Por uma brecha no muro as crianças tinham entrado e estavam sentadas nos ramos das árvores. Em cada árvore que conseguia ver havia uma criança, e as árvores estavam tão felizes de ter de novo as crianças que se tinham coberto de flores.",
+          "ca": "Va veure un espectacle meravellós. Per una esquerda al mur els nens havien entrat i estaven asseguts a les branques dels arbres. En cada arbre que podia veure hi havia un nen, i els arbres estaven tan contents de tornar a tenir els nens que s'havien cobert de flors."
+        },
+        {
+          "es": "Solo en un rincón continuaba siendo invierno. Allí se encontraba un niño muy pequeño que no podía alcanzar las ramas del árbol y daba vueltas a su alrededor llorando. «¡Sube, pequeño!», decía el árbol, y le tendía sus ramas tan bajo como podía, pero el niño era muy pequeño.",
+          "en": "In one corner it was still winter. It was the farthest corner of the garden, and in it was standing a little boy. He was so small that he could not reach up to the branches of the tree, and he was wandering all round it, crying bitterly. 'Climb up! little boy,' said the Tree, and it bent its branches down as low as it could, but the boy was too tiny.",
+          "fr": "Dans un coin c'était encore l'hiver. C'était le coin le plus éloigné du jardin, et là se trouvait un tout petit garçon. Il était si petit qu'il ne pouvait pas atteindre les branches de l'arbre et il en faisait le tour en pleurant. « Monte, petit garçon ! » dit l'arbre, et il tendit ses branches aussi bas qu'il pouvait, mais le garçon était trop petit.",
+          "de": "In einer Ecke war es noch Winter. Es war die hinterste Ecke des Gartens, und dort stand ein kleiner Junge. Er war so klein, dass er die Äste des Baumes nicht erreichen konnte, und er lief weinend um ihn herum. Komm hoch, kleiner Junge!, sagte der Baum und bog seine Äste so weit herunter wie er konnte, aber der Junge war zu klein.",
+          "it": "In un angolo era ancora inverno. Era l'angolo più lontano del giardino, e lì si trovava un bambino molto piccolo. Era così piccolo che non riusciva a raggiungere i rami dell'albero e gli girava intorno piangendo. Sali, piccolo!, disse l'albero, e piegò i suoi rami il più in basso possibile, ma il bambino era troppo piccolo.",
+          "pt": "Num canto continuava a ser inverno. Era o canto mais afastado do jardim, e lá estava uma criança muito pequena. Era tão pequena que não conseguia alcançar os ramos da árvore e andava à volta dela a chorar. Sobe, pequenino!, dizia a árvore, e estendia os ramos tão baixo quanto podia, mas a criança era muito pequena.",
+          "ca": "En un racó continuava sent hivern. Era el racó més apartat del jardí, i allà hi havia un nen molt petit. Era tan petit que no podia arribar a les branques de l'arbre i donava voltes al seu voltant plorant. Puja, petit!, deia l'arbre, i estenia les branques tan baix com podia, però el nen era massa petit."
+        },
+        {
+          "es": "El corazón del gigante se enterneció. «¡Qué egoísta he sido!», se dijo. «Ahora comprendo por qué la primavera no ha venido hasta aquí. Voy a colocar al pobre pequeño sobre la copa del árbol, derribaré el muro y mi jardín será el lugar de juego de los niños para siempre.»",
+          "en": "The Giant's heart melted as he looked out. 'How selfish I have been!' he said; 'now I know why the Spring would not come here. I will put that poor little boy on the top of the tree, and then I will knock down the wall, and my garden shall be the children's playground for ever and ever.'",
+          "fr": "Le cœur du géant s'attendrit quand il regarda. « Que j'ai été égoïste ! » dit-il ; « maintenant je comprends pourquoi le printemps ne venait pas ici. Je vais placer ce pauvre petit garçon au sommet de l'arbre, puis je vais démolir le mur et mon jardin sera le terrain de jeux des enfants pour toujours. »",
+          "de": "Das Herz des Riesen wurde weich, als er hinausschaute. Wie egoistisch ich war!, sagte er; jetzt weiß ich, warum der Frühling nicht herkommen wollte. Ich werde den armen kleinen Jungen in die Baumkrone setzen, dann werde ich die Mauer einreißen, und mein Garten soll für immer der Spielplatz der Kinder sein.",
+          "it": "Il cuore del gigante si intenerì mentre guardava. Come sono stato egoista!, disse; adesso capisco perché la primavera non veniva qui. Metterò quel povero piccolo in cima all'albero, poi abbatterò il muro e il mio giardino sarà per sempre il parco giochi dei bambini.",
+          "pt": "O coração do gigante enterneceu ao olhar. Como fui egoísta!, disse; agora percebo por que a primavera não vinha aqui. Vou colocar aquele pobre pequenino no topo da árvore, depois vou demolir o muro e o meu jardim será para sempre o parque de jogos das crianças.",
+          "ca": "El cor del gegant es va endarterir quan va mirar. Que egoista he estat!, va dir; ara entenc per què la primavera no venia aquí. Posaré aquell pobre petit dalt de l'arbre, després demoliré el mur i el meu jardí serà per sempre el parc de jocs dels nens."
+        },
+        {
+          "es": "El gigante se deslizó por las escaleras, abrió la puerta principal con suavidad y salió al jardín. Cuando los niños lo vieron se asustaron y huyeron, y en el jardín volvió a ser invierno. Solo el niño pequeño no corrió, pues sus ojos estaban tan llenos de lágrimas que no vio al gigante acercarse.",
+          "en": "So the Giant crept downstairs and opened the front door quite softly, and went out into the garden. But when the children saw him they were so frightened that they all ran away, and the garden became winter again. Only the little boy did not run, for his eyes were so full of tears that he did not see the Giant coming.",
+          "fr": "Ainsi le géant descendit doucement l'escalier et ouvrit très doucement la porte d'entrée, et sortit dans le jardin. Mais quand les enfants le virent, ils eurent si peur qu'ils s'enfuirent tous et le jardin redevint hivernal. Seul le petit garçon ne courut pas, car ses yeux étaient si pleins de larmes qu'il ne vit pas le géant s'approcher.",
+          "de": "So schlich der Riese die Treppe hinunter und öffnete die Haustür ganz leise und trat in den Garten. Aber als die Kinder ihn sahen, erschraken sie so sehr, dass sie alle wegliefen, und der Garten wurde wieder Winter. Nur der kleine Junge lief nicht, denn seine Augen waren so voller Tränen, dass er den Riesen nicht kommen sah.",
+          "it": "Così il gigante scese di soppiatto le scale e aprì la porta principale molto delicatamente e uscì nel giardino. Ma quando i bambini lo videro si spaventarono tanto che fuggirono tutti e il giardino tornò a essere invernale. Solo il bambino piccolo non corse, poiché i suoi occhi erano così pieni di lacrime che non vide il gigante avvicinarsi.",
+          "pt": "O gigante desceu as escadas silenciosamente e abriu a porta principal com suavidade e saiu para o jardim. Mas quando as crianças o viram ficaram tão assustadas que fugiram todas e o jardim voltou a ser inverno. Só a criança pequena não correu, pois os seus olhos estavam tão cheios de lágrimas que não viu o gigante aproximar-se.",
+          "ca": "Així el gegant va baixar les escales sigil·losament i va obrir la porta principal amb suavitat i va sortir al jardí. Però quan els nens el van veure es van espantar tant que van fugir tots i el jardí va tornar a ser hivern. Només el nen petit no va córrer, perquè els seus ulls estaven tan plens de llàgrimes que no va veure el gegant apropar-se."
+        },
+        {
+          "es": "El gigante se deslizó por detrás del niño, lo cogió suavemente en su mano y lo colocó sobre la copa del árbol. El árbol floreció inmediatamente, los pájaros fueron a cantar en él, y el niño extendió sus bracitos, rodeó el cuello del gigante y lo besó.",
+          "en": "The Giant stole up behind him and took him gently in his hand, and put him up into the tree. And the tree broke at once into blossom, and the birds came and sang on it, and the little boy stretched out his two arms and flung them round the Giant's neck, and kissed him.",
+          "fr": "Le géant se glissa derrière lui, le prit doucement dans sa main et le plaça dans l'arbre. L'arbre fleurit aussitôt, les oiseaux vinrent chanter dessus, et le petit garçon étendit ses deux bras, les passa autour du cou du géant et l'embrassa.",
+          "de": "Der Riese schlich sich hinter ihn, nahm ihn sanft in seine Hand und setzte ihn in den Baum. Der Baum blühte sofort auf, die Vögel kamen und sangen darauf, und der kleine Junge streckte seine beiden Arme aus, schlang sie um den Hals des Riesen und küsste ihn.",
+          "it": "Il gigante si avvicinò furtivamente alle sue spalle, lo prese delicatamente nella sua mano e lo mise sull'albero. L'albero fiorì immediatamente, gli uccelli vennero a cantarci sopra, e il bambino allungò le sue due braccia, le gettò intorno al collo del gigante e lo baciò.",
+          "pt": "O gigante aproximou-se furtivamente por trás dele, pegou-lhe suavemente na mão e colocou-o em cima da árvore. A árvore floresceu imediatamente, os pássaros vieram cantar nela, e a criança estendeu os dois bracinhos, abraçou o pescoço do gigante e beijou-o.",
+          "ca": "El gegant es va lliscar per darrere del nen, el va agafar suaument a la seva mà i el va posar a l'arbre. L'arbre va florir immediatament, els ocells van venir a cantar-hi, i el nen va estendre els dos braços, va envoltar el coll del gegant i el va besar."
+        }
+      ]
+    },
+    {
+      "tit": "El niño misterioso",
+      "frases": [
+        {
+          "es": "Cuando los otros niños vieron que el gigante ya no era malo, volvieron corriendo y la primavera llegó con ellos. «Desde ahora, este es vuestro jardín, queridos niños», dijo el gigante, y cogiendo una gran hacha demolió el muro.",
+          "en": "And when the other children saw that the Giant was not wicked any longer, they came running back, and with them came the Spring. 'It is your garden now, little children,' said the Giant, and he took a great axe and knocked down the wall.",
+          "fr": "Quand les autres enfants virent que le géant n'était plus méchant, ils revinrent en courant et avec eux revint le Printemps. « C'est votre jardin maintenant, chers enfants », dit le géant, et il prit une grande hache et abattit le mur.",
+          "de": "Und als die anderen Kinder sahen, dass der Riese nicht mehr böse war, kamen sie zurückgelaufen, und mit ihnen kam der Frühling. Es ist jetzt euer Garten, liebe Kinder, sagte der Riese, und er nahm eine große Axt und riss die Mauer ein.",
+          "it": "Quando gli altri bambini videro che il gigante non era più cattivo, tornarono di corsa e con loro tornò la primavera. Ora è il vostro giardino, cari bambini, disse il gigante, e prese una grande ascia e abbatté il muro.",
+          "pt": "Quando as outras crianças viram que o gigante já não era mau, voltaram a correr e com elas voltou a Primavera. Este é o vosso jardim agora, queridas crianças, disse o gigante, e apanhou um grande machado e demoliu o muro.",
+          "ca": "Quan els altres nens van veure que el gegant ja no era dolent, van tornar corrent i amb ells va arribar la Primavera. Ara aquest és el vostre jardí, estimats nens, va dir el gegant, i va agafar una gran destral i va demolir el mur."
+        },
+        {
+          "es": "Durante todo el día estuvieron jugando y al atardecer fueron a despedirse del gigante. «Pero, ¿dónde está vuestro pequeño compañero, el niño que subí al árbol?», preguntó. Los niños dijeron que no sabían donde vivía y nunca antes lo habían visto.",
+          "en": "All day long they played, and in the evening they came to the Giant to bid him good-bye. 'But where is your little companion?' he said: 'the boy I put into the tree?' The children said they did not know where he was, and had never seen him before.",
+          "fr": "Tout le jour ils jouèrent, et le soir ils vinrent dire au revoir au géant. « Mais où est votre petit compagnon ? » dit-il, « le garçon que j'ai mis dans l'arbre ? » Les enfants dirent qu'ils ne savaient pas où il était et ne l'avaient jamais vu avant.",
+          "de": "Den ganzen Tag spielten sie, und am Abend kamen sie zum Riesen, um sich zu verabschieden. Aber wo ist euer kleiner Gefährte?, sagte er, der Junge, den ich in den Baum gesetzt habe? Die Kinder sagten, sie wüssten nicht, wo er sei, und hätten ihn noch nie zuvor gesehen.",
+          "it": "Per tutto il giorno giocarono, e la sera vennero dal gigante per salutarlo. Ma dove è il vostro piccolo compagno?, disse, il bambino che ho messo sull'albero? I bambini dissero che non sapevano dove fosse e non lo avevano mai visto prima.",
+          "pt": "Durante todo o dia brincaram, e ao entardecer foram despedir-se do gigante. Mas onde está o vosso pequeno companheiro?, disse ele, o menino que coloquei na árvore? As crianças disseram que não sabiam onde vivia e nunca o tinham visto antes.",
+          "ca": "Durant tot el dia van jugar, i al vespre van anar a acomiadar-se del gegant. Però on és el vostre petit company?, va dir, el nen que vaig posar a l'arbre? Els nens van dir que no sabien on vivia i que mai no l'havien vist abans."
+        },
+        {
+          "es": "Los años transcurrieron y el gigante envejeció mucho. Ya no podía tomar parte en los juegos; sentado en un gran sillón veía jugar a los niños. «Tengo muchas flores hermosas», decía, «pero los niños son las flores más bellas.»",
+          "en": "Many long years went over, and the Giant grew very old and feeble. He could not play about any more, so he sat in a huge armchair, and watched the children at their games. 'I have many beautiful flowers,' he said; 'but the children are the most beautiful flowers of all.'",
+          "fr": "Beaucoup d'années passèrent et le géant vieillit beaucoup. Il ne pouvait plus participer aux jeux ; assis dans un grand fauteuil, il regardait les enfants jouer. « J'ai beaucoup de belles fleurs, disait-il, mais les enfants sont les plus belles fleurs. »",
+          "de": "Viele lange Jahre vergingen und der Riese wurde sehr alt und schwach. Er konnte nicht mehr mitspielen, so saß er in einem riesigen Lehnstuhl und schaute den Kindern beim Spielen zu. Ich habe viele schöne Blumen, sagte er; aber die Kinder sind die schönsten Blumen von allen.",
+          "it": "Molti lunghi anni passarono e il gigante invecchiò molto. Non poteva più partecipare ai giochi; seduto in una grande poltrona guardava giocare i bambini. Ho molti bei fiori, diceva, ma i bambini sono i fiori più belli.",
+          "pt": "Muitos longos anos se passaram e o gigante envelheceu muito. Já não podia participar nos jogos; sentado numa grande poltrona via as crianças brincar. Tenho muitas flores belas, dizia, mas as crianças são as flores mais belas.",
+          "ca": "Molts llargs anys van passar i el gegant va envellir molt. Ja no podia participar en els jocs; assegut en una gran butaca veia jugar els nens. Tinc moltes flors belles, deia, però els nens són les flors més belles."
+        },
+        {
+          "es": "Una mañana de invierno el gigante vio en el rincón más alejado del jardín un árbol completamente cubierto de hermosos capullos, y debajo, de pie, estaba el pequeño niño al que tanto amaba. Corrió al jardín lleno de alegría.",
+          "en": "One winter morning he looked out of his window as he was dressing. In the farthest corner of the garden was a tree quite covered with lovely white blossoms, and underneath it stood the little boy he had loved. He ran out into the garden in great joy.",
+          "fr": "Un matin d'hiver il regarda par la fenêtre en s'habillant. Dans le coin le plus éloigné du jardin se trouvait un arbre tout couvert de jolies fleurs blanches, et en dessous se tenait le petit garçon qu'il avait aimé. Il courut dans le jardin, plein de joie.",
+          "de": "Eines Wintermorgens schaute er aus dem Fenster, während er sich ankleidete. In der hintersten Ecke des Gartens stand ein Baum, der ganz mit schönen weißen Blüten bedeckt war, und darunter stand der kleine Junge, den er so geliebt hatte. Er rannte voller Freude in den Garten.",
+          "it": "Una mattina d'inverno guardò dalla finestra mentre si vestiva. Nell'angolo più lontano del giardino c'era un albero completamente coperto di bellissimi fiori bianchi, e sotto di esso stava il bambino piccolo che aveva tanto amato. Corse nel giardino pieno di gioia.",
+          "pt": "Uma manhã de inverno olhou pela janela enquanto se vestia. No canto mais afastado do jardim havia uma árvore completamente coberta de bonitos botões brancos, e debaixo dela estava a criança pequena que tanto tinha amado. Correu para o jardim cheio de alegria.",
+          "ca": "Un matí d'hivern va mirar per la finestra mentre s'abillava. Al racó més allunyat del jardí hi havia un arbre completament cobert de bells brots blancs, i sota d'ell estava el petit nen que tant havia estimat. Va córrer al jardí ple d'alegria."
+        },
+        {
+          "es": "Al acercarse al niño vio que tenía heridas en las palmas de las manos y en los pies. «¿Quién se atrevió a herirte?», exclamó el gigante. «Estas son las heridas del amor», respondió el niño con una sonrisa. Y cuando llegaron los niños aquella tarde encontraron al gigante tendido muerto bajo el árbol, cubierto de flores blancas.",
+          "en": "But when he came near the boy his face grew red with anger, and he said: 'Who hath dared to wound thee?' For on the palms of the child's hands were the prints of two nails, and the prints of two nails were on the little feet. 'Who hath dared to wound thee?' cried the Giant. 'Nay!' answered the child; 'but these are the wounds of Love.' And when the children ran in that afternoon, they found the Giant lying dead under the tree, all covered with white blossoms.",
+          "fr": "Mais en s'approchant du garçon il vit que ses mains et ses pieds portaient des blessures. « Qui a osé te blesser ? » s'exclama le géant. « Ce sont les blessures de l'amour », répondit l'enfant avec un sourire. Et quand les enfants arrivèrent cet après-midi-là, ils trouvèrent le géant étendu mort sous l'arbre, couvert de fleurs blanches.",
+          "de": "Aber als er sich dem Jungen näherte, sah er, dass er Wunden an den Handflächen und an den Füßen hatte. Wer hat es gewagt, dich zu verwunden?, rief der Riese. Das sind die Wunden der Liebe, antwortete das Kind mit einem Lächeln. Und als die Kinder an jenem Nachmittag hereinkamen, fanden sie den Riesen tot unter dem Baum liegen, ganz bedeckt mit weißen Blüten.",
+          "it": "Ma avvicinandosi al bambino vide che aveva delle ferite sui palmi delle mani e sui piedi. Chi ha osato ferirti?, esclamò il gigante. Queste sono le ferite dell'amore, rispose il bambino con un sorriso. E quando i bambini arrivarono quel pomeriggio trovarono il gigante disteso morto sotto l'albero, tutto coperto di fiori bianchi.",
+          "pt": "Mas ao aproximar-se do menino viu que tinha feridas nas palmas das mãos e nos pés. Quem se atreveu a ferir-te?, exclamou o gigante. Estas são as feridas do amor, respondeu a criança com um sorriso. E quando as crianças chegaram nessa tarde encontraram o gigante deitado morto debaixo da árvore, coberto de flores brancas.",
+          "ca": "Però en apropar-se al nen va veure que tenia ferides als palmells de les mans i als peus. Qui s'ha atrevit a ferir-te?, va exclamar el gegant. Aquestes són les ferides de l'amor, va respondre el nen amb un somriure. I quan els nens van arribar aquella tarda van trobar el gegant estirat mort sota l'arbre, cobert de flors blanques."
+        }
+      ]
+    }
+  ]
+}
