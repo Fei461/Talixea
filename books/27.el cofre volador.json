@@ -1,0 +1,98 @@
+{
+  "id": 27,
+  "tit": "El cofre volador",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "✈️",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_cofre_volador",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El cofre mágico",
+      "frases": [
+        {
+          "es": "Erase una vez un comerciante tan rico que podia empedrar una calle entera con monedas de plata. Fue un mercader muy listo y luego murio. Su hijo heredo todos sus caudales y los derrochó hasta quedarse sin nada.",
+          "en": "There was once a merchant so rich he could have paved a whole street with silver coins. He was a very clever merchant, and then he died. His son inherited all his wealth and squandered it until nothing was left.",
+          "fr": "Il etait une fois un marchand si riche qu'il aurait pu paver toute une rue avec des pieces d'argent. C'etait un marchand tres habile, et puis il mourut. Son fils herita de toute sa fortune et la dilapida jusqu'a n'avoir plus rien.",
+          "de": "Es war einmal ein Kaufmann, so reich, dass er eine ganze Strasse mit Silbermuenzen pflastern koennte. Er war ein sehr kluger Kaufmann, und dann starb er. Sein Sohn erbte den ganzen Reichtum und verschleuderte ihn, bis nichts mehr ubrig war.",
+          "it": "C'era una volta un mercante cosi ricco che avrebbe potuto lastricare un'intera strada con monete d'argento. Era un mercante molto abile, e poi mori. Suo figlio eredito tutta la sua fortuna e la dissipo finche non rimase piu nulla.",
+          "pt": "Era uma vez um comerciante tao rico que poderia ter calcetado uma rua inteira com moedas de prata. Foi um comerciante muito astuto e depois morreu. O seu filho herdou toda a sua riqueza e a esbanjou ate nao restar nada.",
+          "ca": "Hi havia una vegada un comerciant tan ric que hauria pogut empedrar tota un carrer amb monedes de plata. Va ser un mercader molt astut i despres va morir. El seu fill va heretar tota la seva riquesa i la va malgastar fins que no va quedar res."
+        },
+        {
+          "es": "Un amigo le regalo un viejo baul con un consejo: «¡Embala tus cosas!» Era un cofre curioso: echaba a volar en cuanto se le apretaba la cerradura. El mozo se metio en el y en un santiamen se vio por los aires.",
+          "en": "A friend gave him an old trunk with some advice: 'Pack up your things!' It was a strange trunk: it flew up into the air as soon as you pressed the lock. The young man got inside and in a trice found himself up in the air.",
+          "fr": "Un ami lui donna une vieille malle avec un conseil : « Emballe tes affaires ! » C'etait un coffre curieux : il s'envolait des qu'on appuyait sur la serrure. Le jeune homme s'y glissa et en un clin d'oeil se retrouva dans les airs.",
+          "de": "Ein Freund schenkte ihm einen alten Koffer mit einem Rat: Pack deine Sachen! Es war ein merkwuerdiger Koffer: Er flog in die Luft, sobald man das Schloss drueckte. Der junge Mann stieg hinein und war in einem Augenblick in der Luft.",
+          "it": "Un amico gli regalo un vecchio baule con un consiglio: Fai i bagagli! Era un cofano strano: volava in aria non appena si premeva la serratura. Il giovane ci si filo dentro e in un attimo si trovo in aria.",
+          "pt": "Um amigo deu-lhe um velho bau com um conselho: Arruma as tuas coisas! Era um cofre estranho: levantava voo mal se premisse o fecho. O jovem entrou nele e num instante viu-se pelos ares.",
+          "ca": "Un amic li va regalar un vell bau amb un consell: Empaqueta les teves coses! Era un cofre curios: aixecava el vol tan bon punt s'apretava el pany. El jove s'hi va ficar i en un tres i no res es va veure pels aires."
+        },
+        {
+          "es": "El cofre lo llevo a tierra de turcos. El joven supo que en un castillo cercano vivia una princesa a quien tenian encerrada por una profecia. Se colo en el castillo volando, la desperto y le dijo que era el dios de los turcos llegado por los aires para pedirle matrimonio. La princesa acepto.",
+          "en": "The trunk carried him to the land of the Turks. The young man learned that a princess lived in a nearby castle where she was kept shut away because of a prophecy. He flew in through the castle window, woke her and told her he was the Turkish god come through the air to ask for her hand. The princess said yes.",
+          "fr": "Le coffre l'emporta en pays turc. Le jeune homme apprit qu'une princesse vivait dans un chateau voisin ou on la tenait enfermee a cause d'une prophetie. Il s'introduisit dans le chateau en volant, la reveilla et lui dit qu'il etait le dieu des Turcs venu par les airs pour lui demander sa main. La princesse accepta.",
+          "de": "Der Koffer trug ihn ins Land der Tuerken. Der junge Mann erfuhr, dass eine Prinzessin in einem nahegelegenen Schloss lebte, wo sie wegen einer Prophezeiung eingesperrt gehalten wurde. Er flog durch das Schlossfenster ein, weckte sie und sagte ihr, er sei der tuerkische Gott, der durch die Luft gekommen sei, um sie um ihre Hand zu bitten. Die Prinzessin sagte ja.",
+          "it": "Il cofano lo porto in terra di turchi. Il giovane seppe che in un castello vicino viveva una principessa tenuta rinchiusa a causa di una profezia. Si insinuo nel castello volando, la sveglio e le disse che era il dio dei turchi arrivato per aria a chiederle di sposarlo. La principessa accetto.",
+          "pt": "O cofre levou-o a terra dos turcos. O jovem soube que num castelo proximo vivia uma princesa que estava encerrada por causa de uma profecia. Entrou no castelo voando, acordou-a e disse-lhe que era o deus dos turcos que viera pelos ares pedir-lhe a mao. A princesa disse que sim.",
+          "ca": "El cofre el va portar a terra de turcs. El jove va saber que en un castell proper vivia una princesa que tenien tancada per culpa d'una profecia. Es va colar al castell volant, la va despertar i li va dir que era el deu dels turcs que havia vingut pels aires per demanar-li la ma. La princesa va acceptar."
+        }
+      ]
+    },
+    {
+      "tit": "El cuento de los fósforos",
+      "frases": [
+        {
+          "es": "El sabado el joven se presento ante el rey y la reina para tomar el te. La reina le pidio un cuento edificante y el rey uno divertido. El mozo les conto la historia de unos fosforos que se creian los seres mas nobles del mundo por descender de los grandes bosques.",
+          "en": "On Saturday the young man presented himself to the king and queen for tea. The queen asked him for an edifying story and the king for a funny one. The young man told them the story of some matches that considered themselves the noblest beings in the world because they were descended from great forests.",
+          "fr": "Le samedi le jeune homme se presenta au roi et a la reine pour prendre le the. La reine lui demanda un conte edifiant et le roi un conte amusant. Le jeune homme leur raconta l'histoire de quelques allumettes qui se croyaient les etres les plus nobles du monde parce qu'elles descendaient des grandes forets.",
+          "de": "Am Samstag erschien der junge Mann beim Koenig und der Koenigin zum Tee. Die Koenigin bat ihn um eine erbauliche Geschichte und der Koenig um eine unterhaltende. Der junge Mann erzaehlte ihnen die Geschichte einiger Streichhoelzer, die sich fuer die edelsten Wesen der Welt hielten, weil sie von grossen Waeldern abstammten.",
+          "it": "Il sabato il giovane si presento al re e alla regina per prendere il te. La regina gli chiese una storia edificante e il re una divertente. Il giovane raconto loro la storia di alcuni fiammiferi che si credevano gli esseri piu nobili del mondo perche discendevano dalle grandi foreste.",
+          "pt": "No sabado o jovem apresentou-se ao rei e a rainha para tomar o cha. A rainha pediu-lhe uma historia edificante e o rei uma divertida. O jovem contou-lhes a historia de uns fósforos que se julgavam os seres mais nobres do mundo por descenderem das grandes florestas.",
+          "ca": "El dissabte el jove es va presentar davant el rei i la reina per prendre el te. La reina li va demanar un conte edificant i el rei un de divertit. El jove els va explicar la historia d'uns llumins que es creien els essers mes nobles del mon per descendir dels grans boscos."
+        },
+        {
+          "es": "En el cuento, los fosforos, un puchero, un eslabón y otros utensilios de cocina se reunian en una velada. Cada uno presumia de sus cualidades mientras discutian quien era el mas noble. Al final la criada entro y encendio los fosforos: brillaron con orgullo antes de consumirse.",
+          "en": "In the story the matches, a pot, a tinder-box and other kitchen utensils were gathered for an evening party. Each boasted of its own qualities while they argued about who was the noblest. In the end the maid came in and struck the matches: they blazed proudly before burning out.",
+          "fr": "Dans le conte, les allumettes, une marmite, un briquet et d'autres ustensiles de cuisine se reunissaient pour une soiree. Chacun se vantait de ses qualites pendant qu'ils discutaient de qui etait le plus noble. A la fin la servante entra et alluma les allumettes : elles brillerent fierement avant de se consumer.",
+          "de": "In der Geschichte versammelten sich die Streichhoelzer, ein Topf, ein Feuerstein und andere Kuechenutrensilien zu einem Abendempfang. Jeder prahlte mit seinen Qualitaeten, waehrend sie stritten, wer der edelste sei. Am Ende kam die Magd herein und zuendete die Streichhoelzer an: Sie leuchteten stolz, bevor sie sich verbrannten.",
+          "it": "Nel racconto, i fiammiferi, una pentola, un acciarino e altri utensili da cucina si riunivano per una serata. Ognuno si vantava delle proprie qualita mentre discutevano su chi fosse il piu nobile. Alla fine la domestica entro e accese i fiammiferi: brillarono con orgoglio prima di consumarsi.",
+          "pt": "No conto, os fosforos, um tacho, um isqueiro e outros utensilios de cozinha reuniam-se para uma reuniao noturna. Cada um se gabava das suas qualidades enquanto discutiam quem era o mais nobre. No fim a criada entrou e acendeu os fosforos: brilharam com orgulho antes de se consumirem.",
+          "ca": "En el conte, els llumins, un puchero, un eslabo i altres utensilis de cuina es reunien en una vetllada. Cadascun presumia de les seves qualitats mentre discutien qui era el mes noble. Al final la criada va entrar i va encendre els llumins: van brillar amb orgull abans de consumir-se."
+        },
+        {
+          "es": "«¡Que cuento tan bonito! Me parece encontrarme en la cocina», dijo la reina. «Si, te casaras con nuestra hija», asintio el rey. Se fijo el dia de la boda y la vispera el mozo lanzo fuegos artificiales para celebrarlo. Pero una chispa prendio en el cofre y lo redujo a cenizas. Ya no podia volar.",
+          "en": "'What a beautiful story! I feel I am right in the kitchen,' said the queen. 'Yes, you shall marry our daughter,' the king agreed. The wedding day was fixed and the evening before the young man set off fireworks to celebrate. But a spark caught the trunk and burned it to ashes. He could no longer fly.",
+          "fr": "« Quel beau conte ! J'ai l'impression d'etre dans la cuisine », dit la reine. « Oui, tu epouseras notre fille », acquiesca le roi. Le jour du mariage fut fixe et la veille le jeune homme tira des feux d'artifice pour celebrer. Mais une etincelle prit dans le coffre et le reduisit en cendres. Il ne pouvait plus voler.",
+          "de": "Was fuer eine schoene Geschichte! Ich glaube, ich bin in der Kueche, sagte die Koenigin. Ja, du wirst unsere Tochter heiraten, stimmte der Koenig zu. Der Hochzeitstag wurde festgesetzt und am Abend zuvor schoss der junge Mann Feuerwerk ab, um zu feiern. Aber ein Funken traf den Koffer und brannte ihn zu Asche. Er konnte nicht mehr fliegen.",
+          "it": "Che bel racconto! Mi sembra di essere in cucina, disse la regina. Si, sposerai nostra figlia, acconsenti il re. Fu fissato il giorno del matrimonio e la vigilia il giovane lancio fuochi d'artificio per festeggiare. Ma una scintilla prese nel cofano e lo ridusse in cenere. Non poteva piu volare.",
+          "pt": "Que belo conto! Parece-me estar na cozinha, disse a rainha. Sim, casaras com a nossa filha, concordou o rei. Foi marcado o dia do casamento e na vespera o jovem lancou fogos de artificio para celebrar. Mas uma faísca pegou no bau e reduziu-o a cinzas. Ja nao podia voar.",
+          "ca": "Quin conte tan bonic! Em sembla trobar-me a la cuina, va dir la reina. Si, et casaras amb la nostra filla, va assentir el rei. Es va fixar el dia del casament i la vigilia el jove va llançar focs d'artifici per celebrar-ho. Pero una espurna va prendre al cofre i el va reduir a cendres. Ja no podia volar."
+        }
+      ]
+    },
+    {
+      "tit": "El final del sueño",
+      "frases": [
+        {
+          "es": "El mozo no podia volar ni regresar al palacio. La princesa lo espero todo el dia en el tejado, y sigue aún esperando. Mientras tanto el recorre el mundo contando cuentos, aunque ninguno de ellos es tan alegre como el que vivio.",
+          "en": "The young man could neither fly nor return to the palace. The princess waited for him all day on the roof, and is waiting still. Meanwhile he wanders the world telling stories, though none of them is as cheerful as the one he lived himself.",
+          "fr": "Le jeune homme ne pouvait ni voler ni retourner au palais. La princesse l'attendit toute la journee sur le toit, et l'attend encore. Pendant ce temps il parcourt le monde a raconter des contes, bien qu'aucun d'eux ne soit aussi gai que celui qu'il a vecu.",
+          "de": "Der junge Mann konnte weder fliegen noch zum Palast zurueckkehren. Die Prinzessin wartete den ganzen Tag auf dem Dach auf ihn und wartet noch immer. Inzwischen wandert er durch die Welt und erzaehlt Geschichten, obwohl keine von ihnen so froehlich ist wie die, die er selbst erlebt hat.",
+          "it": "Il giovane non poteva ne volare ne tornare al palazzo. La principessa lo aspetto tutto il giorno sul tetto, e lo aspetta ancora. Nel frattempo gira il mondo raccontando storie, anche se nessuna di esse e cosi allegra come quella che lui stesso ha vissuto.",
+          "pt": "O jovem nao podia voar nem regressar ao palacio. A princesa esperou-o todo o dia no telhado, e continua ainda a esperar. Enquanto isso ele percorre o mundo contando historias, embora nenhuma delas seja tao alegre como a que ele proprio viveu.",
+          "ca": "El jove no podia volar ni tornar al palau. La princesa el va esperar tot el dia al teulat, i segueix esperant encara. Mentrestant ell recorre el mon explicant contes, tot i que cap d'ells es tan alegre com el que ell mateix va viure."
+        }
+      ]
+    }
+  ]
+}
