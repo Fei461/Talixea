@@ -1,0 +1,107 @@
+{
+  "id": 24,
+  "tit": "El intrépido soldado de plomo",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "🪖",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_intrépido_soldado_de_plomo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El soldado y la bailarina",
+      "frases": [
+        {
+          "es": "Habia una vez veinticinco soldados de plomo, todos hermanos, pues habian nacido de la misma cuchara vieja. Llevaban el arma al brazo y miraban fijamente al frente; su uniforme era rojo y azul, muy elegante.",
+          "en": "There were once five and twenty tin soldiers, all brothers, for they had been made from the same old tin spoon. They all shouldered arms and looked straight before them; their uniforms were red and blue, very handsome.",
+          "fr": "Il y avait une fois vingt-cinq soldats de plomb, tous freres, car ils etaient nes de la meme vieille cuillere. Ils portaient tous le fusil au bras et regardaient droit devant eux; leur uniforme etait rouge et bleu, tres elegant.",
+          "de": "Es waren einmal fuenfundzwanzig Zinnsoldaten, alle Brueder, denn sie waren aus demselben alten Zinnloeffel gemacht worden. Sie alle schulterten das Gewehr und sahen geradeaus; ihre Uniformen waren rot und blau, sehr stattlich.",
+          "it": "C'erano una volta venticinque soldatini di piombo, tutti fratelli, perche erano stati fusi dallo stesso vecchio cucchiaio. Portavano tutti il fucile a braccio e guardavano dritto davanti a se; la loro uniforme era rossa e blu, molto elegante.",
+          "pt": "Era uma vez vinte e cinco soldados de chumbo, todos irmaos, pois tinham nascido da mesma colher velha. Todos eles carregavam a arma ao braco e olhavam em frente; o fardamento era vermelho e azul, muito elegante.",
+          "ca": "Hi havia una vegada vint-i-cinc soldats de plom, tots germans, perque havien nascut de la mateixa cullera vella. Tots portaven l'arma al brac i miraven fixament al davant; el seu uniforme era vermell i blau, molt elegant."
+        },
+        {
+          "es": "El mas llamativo de los juguetes de la mesa era un lindo castillo de papel, y frente a la puerta habia una bella bailarina que tenia una pierna levantada tan alto que el soldado con una sola pierna creia que ella tampoco tenia mas que una. «He aqui la mujer que me convendra», penso.",
+          "en": "The most striking of all the toys on the table was a pretty paper castle, and in front of its door a pretty little dancer was standing with one leg raised so high that the one-legged soldier thought she had only one leg like himself. 'She is the wife for me,' he thought.",
+          "fr": "Le plus frappant de tous les jouets sur la table etait un joli chateau de papier, et devant sa porte se trouvait une jolie petite danseuse qui avait une jambe levee si haut que le soldat a une jambe croyait qu'elle n'en avait qu'une comme lui. « Voila la femme qu'il me faudrait », pensa-t-il.",
+          "de": "Das auffalligste aller Spielzeuge auf dem Tisch war ein hubsches Papierschloss, und vor seiner Tur stand eine hubsche kleine Tanzerin mit einem so hoch erhobenen Bein, dass der einbeinige Soldat glaubte, sie habe wie er auch nur ein Bein. Das ware die Frau fur mich, dachte er.",
+          "it": "Il piu vistoso di tutti i giocattoli sul tavolo era un grazioso castello di carta, e davanti alla sua porta si trovava una graziosa ballerina con una gamba alzata cosi in alto che il soldato con una sola gamba credeva che anche lei ne avesse solo una. Ecco la donna che mi converrebbe, penso.",
+          "pt": "O mais chamativo de todos os brinquedos na mesa era um bonito castelo de papel, e em frente a porta havia uma bela bailarina com uma perna levantada tao alto que o soldado de uma perna pensava que ela tambem tinha apenas uma. Esta e a mulher que me convinha, pensou.",
+          "ca": "El mes cridaner de tots els joguets de la taula era un bonic castell de paper, i davant la seva porta hi havia una bonica ballarina que tenia una cama aixecada tan amunt que el soldat d'una sola cama creia que ella tampoc en tenia mes que una. Aquesta es la dona que em convindria, va pensar."
+        },
+        {
+          "es": "A medianoche, cuando todo dormia, un gnomo salio de una caja de sorpresas y le grito: «¡Soldado, no dirijas tus miradas hacia personas tan superiores a ti!» El soldado no respondio. «Mañana veras lo que te sucede», amenazo el gnomo.",
+          "en": "At midnight, when everyone was asleep, a goblin popped out of a jack-in-the-box and shouted at him: 'Soldier, keep your eyes to yourself!' The soldier said nothing. 'You'll see what happens to you tomorrow!' the goblin threatened.",
+          "fr": "A minuit, quand tout le monde dormait, un lutin sortit d'une boite a surprise et lui cria : « Soldat, ne lorgne pas des personnes au-dessus de toi ! » Le soldat ne repondit pas. « Demain tu verras ce qui t'arrive ! » menaça le lutin.",
+          "de": "Um Mitternacht, als alle schliefen, sprang ein Kobold aus einer Springschachtel heraus und schrie ihn an: Soldat, schau nicht zu Personen auf, die dir uberlegen sind! Der Soldat sagte nichts. Morgen wirst du sehen, was dir geschieht!, drohte der Kobold.",
+          "it": "A mezzanotte, quando tutti dormivano, un folletto usci da una scatola a sorpresa e gli grido: Soldato, non volgere lo sguardo verso persone superiori a te! Il soldato non rispose. Domani vedrai cosa ti succede!, minacci il folletto.",
+          "pt": "A meia-noite, quando todos dormiam, um duende saiu de uma caixa de surpresa e gritou-lhe: Soldado, nao olhes para pessoas que estao acima de ti! O soldado nao respondeu. Amanha veras o que te acontece!, ameacou o duende.",
+          "ca": "A mitjanit, quan tots dormien, un follet va sortir d'una capsa de sorpresa i li va cridar: Soldat, no dirigeixis les teves mirades cap a persones superiors a tu! El soldat no va respondre. Dema veuràs el que et passa!, va amenagar el follet."
+        }
+      ]
+    },
+    {
+      "tit": "El viaje por el arroyo",
+      "frases": [
+        {
+          "es": "A la manana siguiente el soldado cayo por la ventana al pavimento. Unos ninos lo recogieron y lo metieron en un barquito de papel que pusieron en el arroyo. La corriente era rapida y el barco se bamboleo peligrosamente.",
+          "en": "The next morning the soldier fell out of the window onto the pavement. Some boys picked him up and put him in a little paper boat which they set sailing in the gutter. The current was swift and the boat rocked dangerously.",
+          "fr": "Le lendemain matin le soldat tomba par la fenetre sur le pave. Des garcons le ramasserent et le mirent dans un petit bateau de papier qu'ils firent naviguer dans le ruisseau. Le courant etait rapide et le bateau se balancait dangereusement.",
+          "de": "Am naechsten Morgen fiel der Soldat durch das Fenster auf das Pflaster. Einige Jungen sammelten ihn auf und steckten ihn in ein kleines Papierboot, das sie im Rinnstein schwimmen liessen. Die Stroemung war schnell und das Boot schwankte gefaehrlich.",
+          "it": "La mattina dopo il soldato cadde dalla finestra sul selciato. Alcuni ragazzi lo raccolsero e lo misero in una piccola barca di carta che misero a navigare nel ruscello. La corrente era rapida e la barca dondolava pericolosamente.",
+          "pt": "Na manha seguinte o soldado caiu pela janela para o pavimento. Alguns rapazes apanharam-no e puseram-no num pequeno barco de papel que lancaram no riacho. A corrente era rapida e o barco balancava perigosamente.",
+          "ca": "L'endema al mati el soldat va caure per la finestra al paviment. Uns nens el van recollir i el van posar en un petit vaixell de paper que van posar a navegar al rierol. El corrent era rapid i el vaixell balancejava perillosament."
+        },
+        {
+          "es": "El barco se metio por un tunel oscuro donde una rata le pidio el pasaporte. El soldado no respondio. La corriente arrastro el barco hasta desembocar en un canal, donde el papel se rompio y el soldado se hundio. Un pez lo trago.",
+          "en": "The boat shot into a dark tunnel where a rat demanded his passport. The soldier said nothing. The current swept the boat onward until it tumbled into a canal where the paper burst and the soldier sank. A fish swallowed him.",
+          "fr": "Le bateau s'engouffra dans un tunnel obscur ou un rat lui demanda son passeport. Le soldat ne dit rien. Le courant emporta le bateau jusqu'a ce qu'il debouche dans un canal, ou le papier se dechira et le soldat coula. Un poisson l'avala.",
+          "de": "Das Boot schoss in einen dunklen Tunnel, wo eine Ratte seinen Pass verlangte. Der Soldat sagte nichts. Die Stroemung trug das Boot vorwaerts, bis es in einen Kanal sturzte, wo das Papier riss und der Soldat sank. Ein Fisch verschluckte ihn.",
+          "it": "La barca si infilo in un tunnel buio dove un topo gli chiese il passaporto. Il soldato non disse nulla. La corriente traino la barca finche non sboco in un canale, dove la carta si ruppe e il soldato af. Un pesce lo inghi.",
+          "pt": "O barco entrou por um tunel escuro onde um rato lhe pediu o passaporte. O soldado nao disse nada. A corrente arrastou o barco ate desembocar num canal, onde o papel se rompeu e o soldado se afundou. Um peixe engoliu-o.",
+          "ca": "El vaixell es va endinsar en un tunel fosc on una rata li va demanar el passaport. El soldat no va respondre. El corrent va arrossegar el vaixell fins que va desembocar en un canal, on el paper es va trencar i el soldat es va enfonsar. Un peix el va engolir."
+        },
+        {
+          "es": "Mas tarde pescaron al pez en el mercado y lo compro una cocinera que lo abrio. Saco al soldado y lo puso en la misma habitacion donde habia estado antes. Alli volvio a ver a la bella bailarina.",
+          "en": "Later the fish was caught at market and bought by a cook who cut it open. She pulled out the soldier and put him in the same room he had been in before. There he saw the beautiful dancer again.",
+          "fr": "Plus tard le poisson fut peche au marche et achete par une cuisiniere qui l'ouvrit. Elle sortit le soldat et le mit dans la meme piece ou il s'etait trouve auparavant. La il revit la belle danseuse.",
+          "de": "Spaeter wurde der Fisch auf dem Markt gefangen und von einer Koeching gekauft, die ihn aufschnitt. Sie holte den Soldaten heraus und legte ihn in dasselbe Zimmer, in dem er vorher gewesen war. Dort sah er die schoene Taenzerin wieder.",
+          "it": "Piu tardi il pesce fu pescato al mercato e comprato da una cuoca che lo apri. Tiro fuori il soldato e lo mise nella stessa stanza in cui era stato prima. Li rivide la bella ballerina.",
+          "pt": "Mais tarde o peixe foi pescado no mercado e comprado por uma cozinheira que o abriu. Tirou o soldado e colocou-o na mesma divisao onde tinha estado antes. Ali voltou a ver a bela bailarina.",
+          "ca": "Mes tard el peix va ser pescat al mercat i comprat per una cuinera que el va obrir. Va treure el soldat i el va posar a la mateixa habitacio on havia estat abans. Alla va tornar a veure la bella ballarina."
+        }
+      ]
+    },
+    {
+      "tit": "El fuego",
+      "frases": [
+        {
+          "es": "Uno de los ninos, con mala intencion, tomo al soldado y lo arrojo al fuego. El soldado miro a la bailarina, ella miro al soldado. El sintio que se fundia, pero permanecio firme con el arma al brazo.",
+          "en": "One of the boys, with a mean intent, seized the soldier and threw him into the fire. The soldier looked at the dancer, she looked at the soldier. He felt himself melting, but he still stood firm, shouldering arms.",
+          "fr": "Un des garcons, avec une mauvaise intention, saisit le soldat et le jeta dans le feu. Le soldat regarda la danseuse, elle regarda le soldat. Il sentit qu'il fondait, mais il resta ferme, l'arme au bras.",
+          "de": "Einer der Jungen, mit boesem Willen, ergriff den Soldaten und warf ihn ins Feuer. Der Soldat schaute die Taenzerin an, sie schaute den Soldaten an. Er spuerte, dass er schmolz, blieb aber standhaft mit dem Gewehr im Arm.",
+          "it": "Uno dei bambini, con cattive intenzioni, afferr il soldato e lo getto nel fuoco. Il soldato guardo la ballerina, lei guardo il soldato. Lui senti che si stava sciogliendo, ma rimase fermo con l'arma al braccio.",
+          "pt": "Um dos rapazes, com ma intencao, apanhou o soldado e atirou-o para o fogo. O soldado olhou para a bailarina, ela olhou para o soldado. Ele sentiu que se fundia, mas manteve-se firme com a arma ao braco.",
+          "ca": "Un dels nens, amb mala intencio, va agafar el soldat i el va llançar al foc. El soldat va mirar la ballarina, ella va mirar el soldat. Ell va sentir que es fonia, pero va romandre ferm amb l'arma al brac."
+        },
+        {
+          "es": "De repente la bailarina fue arrastrada por una corriente de aire y cayo en el fuego junto al soldado. Se consumio al instante. Al dia siguiente, cuando barrieron la chimenea, encontraron al soldado convertido en un pequeno corazon de plomo, y junto a el, su flor de lentejuelas.",
+          "en": "Suddenly a draught caught the dancer and she flew into the fire beside the soldier. She blazed up at once and was gone. The next day when the maid swept out the ashes she found the soldier melted into a small heart of tin, and beside him, her little spangle.",
+          "fr": "Tout a coup un courant d'air saisit la danseuse qui vola dans le feu pres du soldat. Elle s'embrasa aussitot et disparut. Le lendemain quand la servante balaya les cendres elle trouva le soldat fondu en un petit coeur d'etain, et pres de lui, sa petite paillette.",
+          "de": "Plotzlich erfasste ein Luftzug die Taenzerin und sie flog ins Feuer neben den Soldaten. Sie loderte sofort auf und war verschwunden. Am naechsten Tag, als die Magd die Asche ausfegten, fand sie den Soldaten zu einem kleinen Zinnherzen geschmolzen, und neben ihm, ihre kleine Flitte.",
+          "it": "All'improvviso una corrente d'aria prese la ballerina che volo nel fuoco accanto al soldato. Brillo immediatamente e scomparve. Il giorno dopo, quando la domestica spazzo le ceneri, trovo il soldato fuso in un piccolo cuore di piombo, e accanto a lui, la sua piccola paillette.",
+          "pt": "De repente uma corrente de ar apanhou a bailarina que voou para o fogo ao lado do soldado. Ela brilhou de imediato e desapareceu. No dia seguinte, quando a criada varreu as cinzas, encontrou o soldado fundido num pequeno coracao de chumbo, e ao lado dele, a sua pequena lantejoula.",
+          "ca": "De sobte una corrient d'aire va agafar la ballarina que va volar al foc al costat del soldat. Va cremar de seguida i va desapareixer. L'endema, quan la criada va escombrar les cendres, va trobar el soldat fos en un petit cor de plom, i al seu costat, la seva petita lluentona."
+        }
+      ]
+    }
+  ]
+}
