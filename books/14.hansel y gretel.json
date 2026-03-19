@@ -5,346 +5,169 @@
   "cat": "Cuentos",
   "gratis": true,
   "cov": "grimm",
-  "emo": "🏠",
-  "totalCaps": 7,
+  "emo": "🍭",
+  "totalCaps": 5,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Hansel_y_Gretel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
   "caps": [
     {
-      "tit": "El leñador y sus hijos",
+      "tit": "El plan de la madrastra",
       "frases": [
         {
-          "es": "En el borde de un gran bosque vivía un leñador pobre con su mujer y sus dos hijos, Hansel y Gretel.",
-          "en": "On the edge of a great forest there lived a poor woodcutter with his wife and his two children, Hansel and Gretel.",
-          "fr": "Au bord d'une grande forêt vivait un pauvre bûcheron avec sa femme et ses deux enfants, Hansel et Gretel.",
-          "de": "Am Rand eines großen Waldes lebte ein armer Holzfäller mit seiner Frau und seinen zwei Kindern, Hänsel und Gretel.",
-          "it": "Al bordo di una grande foresta viveva un povero taglialegna con sua moglie e i suoi due figli, Hansel e Gretel.",
-          "pt": "Na orla de uma grande floresta vivia um pobre lenhador com a sua mulher e os seus dois filhos, Hansel e Gretel.",
-          "ca": "A la vora d'un gran bosc vivia un pobre llenyataire amb la seva dona i els seus dos fills, Hansel i Gretel."
+          "es": "Erase una vez un lenador muy pobre que tenia dos hijos: un nino llamado Hansel y una nina llamada Gretel. Habia contraido nuevamente matrimonio despues de que la madre de los ninos falleciera.",
+          "en": "Once upon a time there was a very poor woodcutter who had two children: a boy called Hansel and a girl called Gretel. He had remarried after the children's mother had died.",
+          "fr": "Il etait une fois un pauvre bucheron qui avait deux enfants : un garcon appele Hansel et une fille appelee Gretel. Il s'etait remarie apres la mort de la mere des enfants.",
+          "de": "Es war einmal ein sehr armer Holzfaller, der zwei Kinder hatte: einen Jungen namens Hansel und ein Madchen namens Gretel. Er hatte nach dem Tod der Mutter der Kinder wieder geheiratet.",
+          "it": "C'era una volta un povero taglialegna che aveva due figli: un bambino di nome Hansel e una bambina di nome Gretel. Si era risposato dopo che la madre dei bambini era morta.",
+          "pt": "Era uma vez um lenhador muito pobre que tinha dois filhos: um menino chamado Hansel e uma menina chamada Gretel. Tinha casado novamente depois da mae das criancas ter morrido.",
+          "ca": "Hi havia una vegada un llenyataire molt pobre que tenia dos fills: un nen anomenat Hansel i una nena anomenada Gretel. S'havia tornat a casar despres que la mare dels nens mories."
         },
         {
-          "es": "La familia era tan pobre que había días en que no tenían ni pan que llevarse a la boca.",
-          "en": "The family was so poor that there were days when they had not even bread to put in their mouths.",
-          "fr": "La famille était si pauvre qu'il y avait des jours où ils n'avaient même pas de pain à manger.",
-          "de": "Die Familie war so arm, dass es Tage gab, an denen sie nicht einmal Brot hatten, das sie essen konnten.",
-          "it": "La famiglia era così povera che c'erano giorni in cui non avevano nemmeno il pane da mangiare.",
-          "pt": "A família era tão pobre que havia dias em que não tinham sequer pão para comer.",
-          "ca": "La família era tan pobra que hi havia dies en què no tenien ni pa per menjar."
+          "es": "El lenador queria mucho a sus hijos pero una terrible hambruna asolo la region. Una noche la malvada esposa le dijo: No podremos sobrevivir los cuatro otro invierno. Llevaremos manana a los ninos a lo mas profundo del bosque y los dejaremos alli.",
+          "en": "The woodcutter loved his children dearly but a terrible famine had struck the region. One night his wicked wife said to him: The four of us cannot survive another winter. Tomorrow we will take the children to the deepest part of the forest and leave them there.",
+          "fr": "Le bucheron aimait beaucoup ses enfants mais une terrible famine avait ravage la region. Une nuit sa mechante femme lui dit : Nous quatre ne pourrons pas survivre a un autre hiver. Demain nous emmenerons les enfants au plus profond de la foret et nous les laisserons la.",
+          "de": "Der Holzfaller liebte seine Kinder sehr, aber eine schreckliche Hungersnot hatte die Gegend heimgesucht. Eines Nachts sagte seine bose Frau zu ihm: Wir vier konnen keinen weiteren Winter uberleben. Morgen bringen wir die Kinder in den tiefsten Wald und lassen sie dort.",
+          "it": "Il taglialegna amava molto i suoi figli ma una terribile carestia aveva devastato la regione. Una notte la malvagia moglie gli disse: Noi quattro non potremo sopravvivere a un altro inverno. Domani porteremo i bambini nella parte piu profonda del bosco e li lasceremo li.",
+          "pt": "O lenhador amava muito os seus filhos mas uma terrivel fome assolou a regiao. Uma noite a malvada esposa disse-lhe: Os quatro nao podemos sobreviver a mais um inverno. Amanha levaremos as criancas para a parte mais profunda do bosque e deixa-las-emos la.",
+          "ca": "El llenyataire estimava molt els seus fills pero una terrible fam va assotar la regio. Una nit la malvada esposa li va dir: Els quatre no podrem sobreviure a un altre hivern. Dema portarem els nens a la part mes profunda del bosc i els deixarem alla."
         },
         {
-          "es": "Una noche el leñador le dijo a su mujer: ¿cómo alimentaremos a los niños si ya no queda nada en casa?",
-          "en": "One night the woodcutter said to his wife: how shall we feed the children when there is nothing left in the house?",
-          "fr": "Un soir, le bûcheron dit à sa femme : comment allons-nous nourrir les enfants s'il ne reste plus rien à la maison ?",
-          "de": "Eines Nachts sagte der Holzfäller zu seiner Frau: Wie sollen wir die Kinder ernähren, wenn nichts mehr im Haus ist?",
-          "it": "Una notte il taglialegna disse a sua moglie: come nutriremo i bambini se non è rimasto nulla in casa?",
-          "pt": "Uma noite o lenhador disse à sua mulher: como alimentaremos as crianças se já não resta nada em casa?",
-          "ca": "Una nit el llenyataire va dir a la seva dona: com alimentarem els nens si ja no queda res a casa?"
+          "es": "El lenador se nego porque amaba a sus hijos, pero su esposa insistio tanto que al final le convenció. Afortunadamente los ninos estaban despiertos y escucharon todo el plan.",
+          "en": "The woodcutter refused because he loved his children, but his wife insisted so much that in the end she won him over. Fortunately the children were still awake and heard the whole plan.",
+          "fr": "Le bucheron refusa parce qu'il aimait ses enfants, mais sa femme insista tellement qu'elle finit par le convaincre. Heureusement les enfants etaient encore eveilles et entendirent tout le plan.",
+          "de": "Der Holzfaller weigerte sich, weil er seine Kinder liebte, aber seine Frau bestand so sehr darauf, dass sie ihn schliesslich uberzeugte. Zum Gluck waren die Kinder noch wach und horten den ganzen Plan.",
+          "it": "Il taglialegna si rifiuto perche amava i suoi figli, ma sua moglie insistette cosi tanto che alla fine lo convinc. Per fortuna i bambini erano ancora svegli e sentirono tutto il piano.",
+          "pt": "O lenhador recusou porque amava os seus filhos, mas a esposa insistiu tanto que no fim a convenceu. Felizmente as criancas ainda estavam acordadas e ouviram todo o plano.",
+          "ca": "El llenyataire es va negar perque estimava els seus fills, pero la seva esposa va insistir tant que al final el va convencer. Afortunadament els nens estaven desperts i van escoltar tot el pla."
         },
         {
-          "es": "La madrastra respondió con crueldad: mañana llevaremos a los niños al bosque y los dejaremos allí. El bosque se ocupará de ellos.",
-          "en": "The stepmother answered cruelly: tomorrow we will take the children into the forest and leave them there. The forest will take care of them.",
-          "fr": "La belle-mère répondit avec cruauté : demain nous emmènerons les enfants dans la forêt et nous les y laisserons. La forêt s'occupera d'eux.",
-          "de": "Die Stiefmutter antwortete grausam: Morgen bringen wir die Kinder in den Wald und lassen sie dort. Der Wald wird sich um sie kümmern.",
-          "it": "La matrigna rispose con crudeltà: domani porteremo i bambini nel bosco e li lasceremo lì. Il bosco si occuperà di loro.",
-          "pt": "A madrasta respondeu com crueldade: amanhã levaremos as crianças para a floresta e deixá-las-emos lá. A floresta tratará delas.",
-          "ca": "La madrastra va respondre amb crueltat: demà portarem els nens al bosc i els deixarem allà. El bosc se n'ocuparà."
-        },
-        {
-          "es": "Hansel y Gretel estaban despiertos y escucharon todo. Gretel lloró amargamente, pero Hansel la consoló.",
-          "en": "Hansel and Gretel were awake and heard everything. Gretel wept bitterly, but Hansel comforted her.",
-          "fr": "Hansel et Gretel étaient éveillés et entendirent tout. Gretel pleura amèrement, mais Hansel la consola.",
-          "de": "Hänsel und Gretel waren wach und hörten alles. Gretel weinte bitterlich, aber Hänsel tröstete sie.",
-          "it": "Hansel e Gretel erano svegli e sentirono tutto. Gretel pianse amaramente, ma Hansel la consolò.",
-          "pt": "Hansel e Gretel estavam acordados e ouviram tudo. Gretel chorou amargamente, mas Hansel consolou-a.",
-          "ca": "Hansel i Gretel estaven desperts i ho van sentir tot. Gretel va plorar amargament, però Hansel la va consolar."
-        },
-        {
-          "es": "Hansel esperó a que sus padres se durmieran, salió sigilosamente y llenó los bolsillos de guijarros blancos que brillaban bajo la luna.",
-          "en": "Hansel waited for his parents to fall asleep, crept out quietly and filled his pockets with white pebbles that gleamed in the moonlight.",
-          "fr": "Hansel attendit que ses parents s'endorment, sortit silencieusement et remplit ses poches de cailloux blancs qui brillaient sous la lune.",
-          "de": "Hänsel wartete, bis seine Eltern eingeschlafen waren, schlich leise hinaus und füllte seine Taschen mit weißen Kieselsteinen, die im Mondlicht glänzten.",
-          "it": "Hansel aspettò che i genitori si addormentassero, uscì silenziosamente e riempì le tasche di sassolini bianchi che brillavano alla luce della luna.",
-          "pt": "Hansel esperou que os pais adormecessem, saiu silenciosamente e encheu os bolsos de seixos brancos que brilhavam ao luar.",
-          "ca": "Hansel va esperar que els seus pares s'adormisin, va sortir sigilosament i va omplir les butxaques de còdols blancs que brillaven sota la lluna."
-        },
-        {
-          "es": "Al día siguiente, mientras los llevaban al bosque, Hansel iba dejando caer guijarros uno a uno por el camino.",
-          "en": "The next day, while they were being led into the forest, Hansel kept dropping pebbles one by one along the path.",
-          "fr": "Le lendemain, pendant qu'on les emmenait dans la forêt, Hansel laissait tomber des cailloux un par un sur le chemin.",
-          "de": "Am nächsten Tag, während sie in den Wald geführt wurden, ließ Hänsel einen nach dem anderen Kieselsteine auf den Weg fallen.",
-          "it": "Il giorno dopo, mentre li portavano nel bosco, Hansel lasciava cadere sassolini uno per uno lungo il sentiero.",
-          "pt": "No dia seguinte, enquanto os levavam para a floresta, Hansel ia deixando cair seixos um a um pelo caminho.",
-          "ca": "L'endemà, mentre els portaven al bosc, Hansel anava deixant caure còdols un a un pel camí."
+          "es": "Gretel lloro amargamente, pero Hansel la consolo: No te preocupes, ya tengo la solucion. Por la noche salio sigilosamente al jardin y lleno sus bolsillos de guijarros blancos que brillaban bajo la luna.",
+          "en": "Gretel wept bitterly, but Hansel comforted her: Do not worry, I already have the solution. During the night he crept out quietly to the garden and filled his pockets with white pebbles that gleamed in the moonlight.",
+          "fr": "Gretel pleurait amèrement, mais Hansel la consola : Ne t'inquiete pas, j'ai deja la solution. La nuit, il sortit silencieusement dans le jardin et remplit ses poches de cailloux blancs qui brillaient sous la lune.",
+          "de": "Gretel weinte bitterlich, aber Hansel trostete sie: Keine Sorge, ich habe schon die Losung. In der Nacht schlich er leise in den Garten und fullte seine Taschen mit weissen Kieselsteinen, die im Mondlicht glanzten.",
+          "it": "Gretel piangeva amaramente, ma Hansel la consolò: Non preoccuparti, ho gia la soluzione. Di notte usci silenziosamente in giardino e riempi le tasche di sassolini bianchi che brillavano al chiaro di luna.",
+          "pt": "Gretel chorava amargamente, mas Hansel consolou-a: Nao te preocupes, ja tenho a solucao. Durante a noite saiu silenciosamente para o jardim e encheu os bolsos de seixos brancos que brilhavam ao luar.",
+          "ca": "Gretel plorava amargament, pero Hansel la va consolar: No et preocupis, ja tinc la solucio. Durant la nit va sortir sigilosament al jardi i va omplir les butxaques de codols blancs que brillaven sota la lluna."
         }
       ]
     },
     {
-      "tit": "Perdidos en el bosque",
+      "tit": "Los guijarros de plata",
       "frases": [
         {
-          "es": "Los padres encendieron un fuego y les dijeron que esperaran. Prometieron volver a buscarlos. Pero no volvieron.",
-          "en": "The parents lit a fire and told them to wait. They promised to come back for them. But they did not come back.",
-          "fr": "Les parents allumèrent un feu et leur dirent d'attendre. Ils promirent de revenir les chercher. Mais ils ne revinrent pas.",
-          "de": "Die Eltern zündeten ein Feuer an und sagten ihnen, sie sollten warten. Sie versprachen, sie zu holen. Aber sie kamen nicht zurück.",
-          "it": "I genitori accesero un fuoco e dissero loro di aspettare. Promisero di tornare a prenderli. Ma non tornarono.",
-          "pt": "Os pais acenderam uma fogueira e disseram-lhes para esperarem. Prometeram voltar a buscá-los. Mas não voltaram.",
-          "ca": "Els pares van encendre un foc i els van dir que esperessin. Van prometre tornar a buscar-los. Però no van tornar."
+          "es": "A la manana siguiente la mujer levanto a los pequenos muy temprano, les dio un pedazo de pan y los cuatro emprendieron la marcha hacia el bosque. Mientras caminaban, Hansel fue dejando caer guijarro tras guijarro formando un camino de migas.",
+          "en": "The next morning the woman woke the children very early, gave each a piece of bread and the four of them set off into the forest. As they walked, Hansel dropped pebble after pebble, laying a trail behind them.",
+          "fr": "Le lendemain matin la femme reveilla les petits de tres bonne heure, leur donna un morceau de pain et les quatre se mirent en marche vers la foret. En marchant, Hansel laissa tomber caillou apres caillou, formant un chemin derriere eux.",
+          "de": "Am nachsten Morgen weckte die Frau die Kleinen sehr fruih, gab ihnen ein Stuck Brot und alle vier machten sich auf den Weg in den Wald. Wahrend sie gingen, liess Hansel einen Kieselstein nach dem anderen fallen und legte einen Weg hinter ihnen an.",
+          "it": "La mattina dopo la donna sveglio i piccoli molto presto, diede a ciascuno un pezzo di pane e tutti e quattro si avviarono verso il bosco. Mentre camminavano, Hansel lascio cadere un sassolino dopo l'altro, formando un sentiero dietro di loro.",
+          "pt": "Na manha seguinte a mulher acordou as criancas muito cedo, deu a cada uma um pedaco de pao e os quatro partiram para o bosque. Enquanto caminhavam, Hansel foi deixando cair seixo apos seixo, formando um caminho atras deles.",
+          "ca": "L'endema al mati la dona va despertar els petits molt d'hora, va donar a cadascun un tros de pa i els quatre van emprendre la marxa cap al bosc. Mentre caminaven, Hansel va anar deixant caure codol rere codol, formant un cami darrere d'ells."
         },
         {
-          "es": "Gretel lloraba, pero Hansel la calmó: cuando salga la luna, los guijarros brillarán y nos indicarán el camino a casa.",
-          "en": "Gretel was crying, but Hansel calmed her: when the moon rises, the pebbles will shine and show us the way home.",
-          "fr": "Gretel pleurait, mais Hansel la calma : quand la lune se lèvera, les cailloux brilleront et nous montreront le chemin de la maison.",
-          "de": "Gretel weinte, aber Hänsel beruhigte sie: Wenn der Mond aufgeht, werden die Kieselsteine leuchten und uns den Weg nach Hause zeigen.",
-          "it": "Gretel piangeva, ma Hansel la calmò: quando sorge la luna, i sassolini brilleranno e ci indicheranno la strada di casa.",
-          "pt": "Gretel chorava, mas Hansel acalmou-a: quando a lua nascer, os seixos brilharão e mostrar-nos-ão o caminho para casa.",
-          "ca": "Gretel plorava, però Hansel la va calmar: quan surti la lluna, els còdols brillaran i ens indicaran el camí cap a casa."
+          "es": "Cuando llegaron a lo mas boscoso, encendieron un fuego y dijeron a los ninos que esperaran hasta que terminaran de trabajar. Por largas horas los ninos esperaron junto al fuego hasta que se hizo de noche.",
+          "en": "When they reached the thickest part of the forest they lit a fire and told the children to wait until they had finished working. For long hours the children waited by the fire until night fell.",
+          "fr": "Quand ils arriverent dans la partie la plus boisee, ils allumerent un feu et dirent aux enfants d'attendre jusqu'a ce qu'ils aient fini de travailler. Pendant de longues heures les enfants attendirent pres du feu jusqu'a ce que la nuit tombe.",
+          "de": "Als sie den dichtesten Teil des Waldes erreichten, entzundeten sie ein Feuer und sagten den Kindern, sie sollten warten, bis sie mit der Arbeit fertig waren. Stundenlang warteten die Kinder am Feuer, bis es Nacht wurde.",
+          "it": "Quando arrivarono nella parte piu boscosa, accesero un fuoco e dissero ai bambini di aspettare finche avessero finito di lavorare. Per lunghe ore i bambini aspettarono vicino al fuoco finche non fu notte.",
+          "pt": "Quando chegaram a parte mais boscosa, acenderam um fogo e disseram as criancas para esperarem ate acabarem de trabalhar. Durante longas horas as criancas esperaram junto ao fogo ate chegar a noite.",
+          "ca": "Quan van arribar a la part mes boscosa, van encendre un foc i van dir als nens que esperessin fins que acabessin de treballar. Durant llargues hores els nens van esperar prop del foc fins que es va fer de nit."
         },
         {
-          "es": "A medianoche la luna salió y los guijarros brillaron como monedas de plata. Los niños los siguieron y llegaron a casa al amanecer.",
-          "en": "At midnight the moon rose and the pebbles shone like silver coins. The children followed them and reached home at dawn.",
-          "fr": "À minuit, la lune se leva et les cailloux brillèrent comme des pièces d'argent. Les enfants les suivirent et arrivèrent chez eux à l'aube.",
-          "de": "Um Mitternacht ging der Mond auf und die Kieselsteine leuchteten wie Silbermünzen. Die Kinder folgten ihnen und erreichten bei Tagesanbruch ihr Zuhause.",
-          "it": "A mezzanotte sorse la luna e i sassolini brillarono come monete d'argento. I bambini li seguirono e arrivarono a casa all'alba.",
-          "pt": "À meia-noite a lua nasceu e os seixos brilharam como moedas de prata. As crianças seguiram-nos e chegaram a casa ao amanhecer.",
-          "ca": "A mitjanit la lluna va sortir i els còdols van brillar com monedes de plata. Els nens els van seguir i van arribar a casa a l'alba."
+          "es": "Cuando la luna salio, los guijarros blancos brillaron como monedas de plata y senalaron el camino de vuelta a casa. A la manana siguiente los dos ninos golpearon la puerta de su padre, que se alegro inmensamente.",
+          "en": "When the moon rose, the white pebbles shone like silver coins and showed them the way back home. The next morning the two children knocked at their father's door, and he was overjoyed to see them.",
+          "fr": "Quand la lune se leva, les cailloux blancs brillerent comme des pieces d'argent et indifferent le chemin du retour. Le lendemain matin les deux enfants frapperent a la porte de leur pere, qui se rejouit enormement.",
+          "de": "Als der Mond aufging, leuchteten die weissen Kieselsteine wie Silbermunzen und zeigten den Weg nach Hause. Am nachsten Morgen klopften die beiden Kinder an die Tur ihres Vaters, der sich ungemein freute.",
+          "it": "Quando la luna sorsi, i sassolini bianchi brillarono come monete d'argento e indicarono la strada di casa. La mattina dopo i due bambini bussarono alla porta del padre, che si rallegrò enormemente.",
+          "pt": "Quando a lua nasceu, os seixos brancos brilharam como moedas de prata e indicaram o caminho de volta a casa. Na manha seguinte as duas criancas bateram a porta do pai, que ficou muitissimo contente.",
+          "ca": "Quan la lluna va sortir, els codols blancs van brillar com monedes de plata i van assenyalar el cami de tornada a casa. L'endema al mati els dos nens van trucar a la porta del seu pare, que es va alegrar enormement."
         },
         {
-          "es": "Pocos días después la miseria volvió y la madrastra insistió de nuevo en abandonar a los niños en el bosque, esta vez más lejos.",
-          "en": "A few days later poverty returned and the stepmother insisted again on abandoning the children in the forest, this time further away.",
-          "fr": "Quelques jours plus tard, la misère revint et la belle-mère insista à nouveau pour abandonner les enfants dans la forêt, cette fois plus loin.",
-          "de": "Wenige Tage später kehrte die Not zurück und die Stiefmutter bestand wieder darauf, die Kinder im Wald auszusetzen, diesmal weiter weg.",
-          "it": "Pochi giorni dopo la miseria tornò e la matrigna insistette di nuovo per abbandonare i bambini nel bosco, questa volta più lontano.",
-          "pt": "Poucos dias depois a miséria voltou e a madrasta insistiu de novo em abandonar as crianças na floresta, desta vez mais longe.",
-          "ca": "Pocs dies després la misèria va tornar i la madrastra va insistir de nou a abandonar els nens al bosc, aquest cop més lluny."
+          "es": "Vivieron los cuatro juntos un tiempo mas, pero pronto una hambruna aun mas terrible que la anterior devasto la region. Esta vez Hansel no pudo salir a recoger guijarros porque la madrastra habia cerrado la puerta con llave.",
+          "en": "The four of them lived together a while longer, but soon an even more terrible famine than the first devastated the region. This time Hansel could not go out to collect pebbles because the stepmother had locked the door.",
+          "fr": "Les quatre vecurent encore un moment ensemble, mais bientot une famine encore plus terrible que la precedente ravagea la region. Cette fois Hansel ne put sortir ramasser des cailloux car la belle-mere avait ferme la porte a cle.",
+          "de": "Die vier lebten noch eine Weile zusammen, aber bald verwustete eine noch schlimmere Hungersnot als die erste die Gegend. Diesmal konnte Hansel nicht hinausgehen, um Kieselsteine zu sammeln, weil die Stiefmutter die Tur abgeschlossen hatte.",
+          "it": "I quattro vissero ancora un po' insieme, ma presto una carestia ancora piu terribile della precedente devasto la regione. Questa volta Hansel non pote uscire a raccogliere sassolini perche la matrigna aveva chiuso la porta a chiave.",
+          "pt": "Os quatro viveram juntos mais algum tempo, mas em breve uma fome ainda mais terrivel do que a anterior devastou a regiao. Desta vez Hansel nao pode sair a recolher seixos porque a madrasta tinha fechado a porta a chave.",
+          "ca": "Els quatre van viure junts una mica mes, pero aviat una fam encara mes terrible que l'anterior va devastar la regio. Aquest cop Hansel no va poder sortir a recollir codols perque la madrastra havia tancat la porta amb clau."
         },
         {
-          "es": "Esta vez Hansel no pudo salir a recoger guijarros porque la madrastra había cerrado la puerta con llave.",
-          "en": "This time Hansel could not go out to collect pebbles because the stepmother had locked the door.",
-          "fr": "Cette fois, Hansel ne put pas sortir pour ramasser des cailloux car la belle-mère avait fermé la porte à clé.",
-          "de": "Diesmal konnte Hänsel nicht hinausgehen, um Kieselsteine zu sammeln, weil die Stiefmutter die Tür abgeschlossen hatte.",
-          "it": "Questa volta Hansel non poté uscire a raccogliere sassolini perché la matrigna aveva chiuso la porta a chiave.",
-          "pt": "Desta vez Hansel não pôde sair para apanhar seixos porque a madrasta tinha fechado a porta à chave.",
-          "ca": "Aquesta vegada Hansel no va poder sortir a recollir còdols perquè la madrastra havia tancat la porta amb clau."
-        },
-        {
-          "es": "En el camino, Hansel fue desmenuzando el trozo de pan que le habían dado y dejando las migas por el sendero.",
-          "en": "On the way, Hansel crumbled the piece of bread he had been given and scattered the crumbs along the path.",
-          "fr": "En chemin, Hansel émietta le morceau de pain qu'on lui avait donné et sema les miettes sur le sentier.",
-          "de": "Unterwegs zerbröselte Hänsel das Stückchen Brot, das man ihm gegeben hatte, und streute die Krümel auf den Weg.",
-          "it": "Per strada, Hansel sbriciolò il pezzo di pane che gli avevano dato e lasciò le briciole lungo il sentiero.",
-          "pt": "No caminho, Hansel foi esfarelando o pedaço de pão que lhe tinham dado e deixando as migalhas pelo caminho.",
-          "ca": "En el camí, Hansel va anar esmicolant el tros de pa que li havien donat i deixant les engrunes pel sender."
-        },
-        {
-          "es": "Pero cuando llegó la noche y quisieron seguir las migas de pan, habían desaparecido: los pájaros del bosque se las habían comido todas.",
-          "en": "But when night came and they tried to follow the bread crumbs, they had vanished: the birds of the forest had eaten them all.",
-          "fr": "Mais quand la nuit tomba et qu'ils voulurent suivre les miettes de pain, elles avaient disparu : les oiseaux de la forêt les avaient toutes mangées.",
-          "de": "Aber als die Nacht kam und sie den Brotkrümeln folgen wollten, waren sie verschwunden: Die Vögel des Waldes hatten sie alle gefressen.",
-          "it": "Ma quando arrivò la notte e vollero seguire le briciole di pane, erano sparite: gli uccelli del bosco le avevano mangiate tutte.",
-          "pt": "Mas quando chegou a noite e quiseram seguir as migalhas de pão, tinham desaparecido: os pássaros da floresta tinham-nas comido todas.",
-          "ca": "Però quan va arribar la nit i van voler seguir les engrunes de pa, havien desaparegut: els ocells del bosc se les havien menjat totes."
+          "es": "Esta vez Hansel fue dejando caer las miguitas del pan que le habian dado. Pero cuando quisieron volver, las migas habian desaparecido: los pajaros del bosque se las habian comido todas. Solos y llenos de miedo, los ninos se encontraron perdidos en el bosque.",
+          "en": "This time Hansel scattered the breadcrumbs from the piece of bread he had been given. But when they tried to go home, the crumbs had gone: the birds of the forest had eaten every one. Alone and full of fear, the children found themselves lost in the forest.",
+          "fr": "Cette fois Hansel laissa tomber les miettes du pain qu'on lui avait donne. Mais quand ils voulurent rentrer, les miettes avaient disparu : les oiseaux de la foret les avaient toutes mangees. Seuls et pleins de peur, les enfants se retrouverent perdus dans la foret.",
+          "de": "Diesmal liess Hansel die Brotkrumen fallen, die man ihm gegeben hatte. Aber als sie nach Hause wollten, waren die Krumen verschwunden: Die Vogel des Waldes hatten alle gefressen. Allein und voller Angst fanden sich die Kinder im Wald verloren.",
+          "it": "Questa volta Hansel lascio cadere le briciole del pane che gli avevano dato. Ma quando vollero tornare a casa, le briciole erano sparite: gli uccelli del bosco le avevano mangiate tutte. Soli e pieni di paura, i bambini si ritrovarono persi nel bosco.",
+          "pt": "Desta vez Hansel foi deixando cair as migalhas do pao que lhe tinham dado. Mas quando quiseram voltar para casa, as migalhas tinham desaparecido: os passaros do bosque tinham-nas comido todas. Sozinhos e cheios de medo, as criancas viram-se perdidas no bosque.",
+          "ca": "Aquesta vegada Hansel va anar deixant caure les engrunes del pa que li havien donat. Pero quan van voler tornar, les engrunes havien desaparegut: els ocells del bosc se les havien menjat totes. Sols i plens de por, els nens es van trobar perduts al bosc."
         }
       ]
     },
     {
-      "tit": "La casa de chocolate",
+      "tit": "La casa de dulces",
       "frases": [
         {
-          "es": "Los niños vagaron tres días por el bosque sin encontrar salida, cada vez más débiles y hambrientos.",
-          "en": "The children wandered three days through the forest without finding a way out, growing weaker and hungrier.",
-          "fr": "Les enfants errèrent trois jours dans la forêt sans trouver de sortie, de plus en plus faibles et affamés.",
-          "de": "Die Kinder irrten drei Tage durch den Wald, ohne einen Ausweg zu finden, immer schwächer und hungriger werdend.",
-          "it": "I bambini vagarono tre giorni nel bosco senza trovare una via d'uscita, sempre più deboli e affamati.",
-          "pt": "As crianças vaguearam três dias pela floresta sem encontrar saída, cada vez mais fracas e famintas.",
-          "ca": "Els nens van vagar tres dies pel bosc sense trobar sortida, cada vegada més febles i famencs."
+          "es": "Vagaron durante muchas horas hasta que sus ojos descubrieron la maravilla mas grande que jamas hubieran podido imaginar: una casita hecha de dulces. Los techos eran de chocolate, las paredes de mazapan, las ventanas de caramelo.",
+          "en": "They wandered for many hours until their eyes discovered the greatest wonder they could ever have imagined: a little house made of sweets. The roof was chocolate, the walls marzipan, the windows toffee.",
+          "fr": "Ils errerent pendant de longues heures jusqu'a ce que leurs yeux decouvrent la plus grande merveille qu'ils auraient pu imaginer : une petite maison faite de sucreries. Le toit etait en chocolat, les murs en massepain, les fenetres en caramel.",
+          "de": "Sie irrten stundenlang umher, bis ihre Augen das grosste Wunder entdeckten, das sie sich je hatten vorstellen konnen: ein kleines Haus aus Sussigkeiten. Das Dach war aus Schokolade, die Wande aus Marzipan, die Fenster aus Karamell.",
+          "it": "Vagarono per molte ore fino a quando i loro occhi scoprirono la meraviglia piu grande che avrebbero mai potuto immaginare: una casetta fatta di dolci. Il tetto era di cioccolato, le pareti di marzapane, le finestre di caramello.",
+          "pt": "Vaguearam durante muitas horas ate que os seus olhos descobriram a maior maravilha que jamais teriam podido imaginar: uma casinha feita de doces. O telhado era de chocolate, as paredes de macapao, as janelas de caramelo.",
+          "ca": "Van vagar durant moltes hores fins que els seus ulls van descobrir la meravella mes gran que mai haurien pogut imaginar: una caseta feta de dolcos. Els sostres eren de xocolata, les parets de massapa, les finestres de caramel."
         },
         {
-          "es": "Al tercer día vieron posarse en una rama un pájaro blanco como la nieve que empezó a cantar para guiarles.",
-          "en": "On the third day they saw a snow-white bird settle on a branch and begin to sing to lead them.",
-          "fr": "Le troisième jour, ils virent se poser sur une branche un oiseau blanc comme neige qui se mit à chanter pour les guider.",
-          "de": "Am dritten Tag sahen sie einen schneeweißen Vogel auf einem Ast landen, der zu singen begann, um sie zu führen.",
-          "it": "Il terzo giorno videro posarsi su un ramo un uccello bianco come la neve che cominciò a cantare per guidarli.",
-          "pt": "No terceiro dia viram pousar num ramo um pássaro branco como a neve que começou a cantar para os guiar.",
-          "ca": "Al tercer dia van veure posar-se a una branca un ocell blanc com la neu que va començar a cantar per guiar-los."
+          "es": "Los ninos corrieron hacia la casa y comenzaron a comer. De repente salio una viejecita apoyada en un baston. Les hablo con amabilidad, les ofrecio cena y cama, pero era en realidad una malvada bruja que atenia a los ninos para comerselos.",
+          "en": "The children ran to the house and began to eat. Suddenly a little old woman came out leaning on a stick. She spoke to them kindly, offered them supper and a bed, but she was in truth a wicked witch who lured children in order to eat them.",
+          "fr": "Les enfants coururent vers la maison et commencerent a manger. Soudain une petite vieille appuyee sur un baton sortit. Elle leur parla aimablement, leur offrit le souper et un lit, mais c'etait en realite une mechante sorciere qui attirait les enfants pour les manger.",
+          "de": "Die Kinder liefen zum Haus und begannen zu essen. Plotzlich kam eine kleine alte Frau heraus, die sich auf einen Stock stutzte. Sie sprach freundlich mit ihnen, bot ihnen Abendessen und ein Bett an, war aber in Wirklichkeit eine bose Hexe, die Kinder anlockte, um sie zu fressen.",
+          "it": "I bambini corsero verso la casa e cominciarono a mangiare. All'improvviso usci una vecchietta appoggiata a un bastone. Parlo loro gentilmente, offri loro cena e letto, ma in realta era una malvagia strega che attirava i bambini per mangiarli.",
+          "pt": "As criancas correram para a casa e comecaram a comer. De repente saiu uma velhinha apoiada numa bengala. Falou-lhes com amabilidade, ofereceu-lhes jantar e cama, mas era na realidade uma malvada bruxa que atraia as criancas para as comer.",
+          "ca": "Els nens van correr cap a la casa i van comecar a menjar. De sobte va sortir una velleta recolzada en un basto. Els va parlar amb amabilitat, els va oferir sopar i llit, pero era en realitat una malvada bruixa que atreia els nens per menjar-se'ls."
         },
         {
-          "es": "El pájaro los llevó hasta una casita maravillosa hecha de pan, con el tejado de tarta y las ventanas de azúcar transparente.",
-          "en": "The bird led them to a wonderful little house made of bread, with a roof of cake and windows of clear sugar.",
-          "fr": "L'oiseau les conduisit jusqu'à une merveilleuse petite maison faite de pain, avec un toit en gâteau et des fenêtres en sucre transparent.",
-          "de": "Der Vogel führte sie zu einem wunderbaren kleinen Haus aus Brot, mit einem Dach aus Kuchen und Fenstern aus durchsichtigem Zucker.",
-          "it": "L'uccello li condusse a una meravigliosa casetta fatta di pane, con il tetto di torta e le finestre di zucchero trasparente.",
-          "pt": "O pássaro levou-os até uma casinha maravilhosa feita de pão, com o telhado de bolo e as janelas de açúcar transparente.",
-          "ca": "L'ocell els va portar fins a una caseta meravellosa feta de pa, amb el teulat de pastís i les finestres de sucre transparent."
-        },
-        {
-          "es": "Los niños, muertos de hambre, empezaron a comer la casa. Hansel arrancó un trozo del tejado y Gretel rompió una ventana entera.",
-          "en": "The children, starving, began to eat the house. Hansel broke off a piece of the roof and Gretel broke out a whole window.",
-          "fr": "Les enfants, morts de faim, commencèrent à manger la maison. Hansel arracha un morceau du toit et Gretel cassa une fenêtre entière.",
-          "de": "Die Kinder, halb verhungert, begannen das Haus zu essen. Hänsel brach ein Stück vom Dach ab und Gretel brach ein ganzes Fenster heraus.",
-          "it": "I bambini, morti di fame, cominciarono a mangiare la casa. Hansel strappò un pezzo del tetto e Gretel sfondò un'intera finestra.",
-          "pt": "As crianças, mortas de fome, começaram a comer a casa. Hansel arrancou um pedaço do telhado e Gretel partiu uma janela inteira.",
-          "ca": "Els nens, morts de gana, van començar a menjar la casa. Hansel va arrencar un tros del teulat i Gretel va trencar una finestra sencera."
-        },
-        {
-          "es": "De repente la puerta se abrió y salió una viejecita apoyada en un bastón. Los niños se asustaron muchísimo.",
-          "en": "Suddenly the door opened and out came a little old woman leaning on a stick. The children were terribly frightened.",
-          "fr": "Soudain, la porte s'ouvrit et une petite vieille femme appuyée sur un bâton sortit. Les enfants eurent très peur.",
-          "de": "Plötzlich öffnete sich die Tür und eine kleine alte Frau, die sich auf einen Stock stützte, trat heraus. Die Kinder erschraken sehr.",
-          "it": "All'improvviso la porta si aprì e uscì una vecchietta appoggiata a un bastone. I bambini si spaventarono moltissimo.",
-          "pt": "De repente a porta abriu-se e saiu uma velhinha apoiada numa bengala. As crianças assustaram-se muito.",
-          "ca": "De sobte la porta es va obrir i va sortir una velleta recolzada en un bastó. Els nens es van espantar molt."
-        },
-        {
-          "es": "La vieja les habló con amabilidad y les ofreció una cena espléndida y camas de plumas para dormir.",
-          "en": "The old woman spoke to them kindly and offered them a splendid supper and feather beds to sleep in.",
-          "fr": "La vieille leur parla aimablement et leur offrit un souper splendide et des lits de plumes pour dormir.",
-          "de": "Die Alte sprach freundlich zu ihnen und bot ihnen ein prächtiges Abendessen und Federbetten zum Schlafen an.",
-          "it": "La vecchia parlò loro gentilmente e offrì loro una splendida cena e letti di piume per dormire.",
-          "pt": "A velha falou-lhes com amabilidade e ofereceu-lhes um jantar esplêndido e camas de penas para dormir.",
-          "ca": "La vella els va parlar amb amabilitat i els va oferir un sopar esplèndid i llits de plomes per dormir."
-        },
-        {
-          "es": "Pero aquella viejecita era en realidad una bruja malvada que atraía a los niños con su casita dulce para comérselos.",
-          "en": "But that little old woman was in truth a wicked witch who lured children with her sweet little house in order to eat them.",
-          "fr": "Mais cette petite vieille était en réalité une méchante sorcière qui attirait les enfants avec sa petite maison sucrée pour les manger.",
-          "de": "Aber diese kleine alte Frau war in Wirklichkeit eine böse Hexe, die Kinder mit ihrem süßen Häuschen anlockte, um sie zu fressen.",
-          "it": "Ma quella vecchietta era in realtà una strega malvagia che attirava i bambini con la sua casetta dolce per mangiarli.",
-          "pt": "Mas aquela velhinha era na realidade uma bruxa malvada que atraía as crianças com a sua casinha doce para as comer.",
-          "ca": "Però aquella velleta era en realitat una bruixa malvada que atreia els nens amb la seva caseta dolça per menjar-los."
+          "es": "La bruja encerro a Hansel en una jaula y obligo a Gretel a cocinar para engordarle. Cada manana palpaba el dedo de Hansel para ver si ya estaba gordo, pero Hansel sacaba un huesito de pollo y la bruja seguia esperando.",
+          "en": "The witch locked Hansel in a cage and made Gretel cook to fatten him up. Every morning she felt Hansel's finger to see if he was fat yet, but Hansel stuck out a little chicken bone and the witch kept on waiting.",
+          "fr": "La sorciere enferma Hansel dans une cage et obligea Gretel a cuisiner pour l'engraisser. Chaque matin elle tatait le doigt de Hansel pour voir s'il etait deja gras, mais Hansel sortait un petit os de poulet et la sorciere continuait d'attendre.",
+          "de": "Die Hexe sperrte Hansel in einen Kafig und zwang Gretel, zu kochen, um ihn zu masten. Jeden Morgen betastete sie Hansels Finger, um zu sehen, ob er schon fett war, aber Hansel streckte ein kleines Huhnerknochen heraus und die Hexe wartete weiter.",
+          "it": "La strega rinchiuse Hansel in una gabbia e obbligò Gretel a cucinare per ingrassarlo. Ogni mattina palpava il dito di Hansel per vedere se era gia grasso, ma Hansel tirava fuori un ossicino di pollo e la strega continuava ad aspettare.",
+          "pt": "A bruxa fechou Hansel numa gaiola e obrigou Gretel a cozinhar para o engordar. Todas as manhas apalpava o dedo de Hansel para ver se ja estava gordo, mas Hansel estendia um ossinzho de galinha e a bruxa continuava a esperar.",
+          "ca": "La bruixa va tancar Hansel en una gabia i va obligar Gretel a cuinar per engreixar-lo. Cada mati palpava el dit de Hansel per veure si ja estava gras, pero Hansel treia un ossetet de pollastre i la bruixa continuava esperant."
         }
       ]
     },
     {
-      "tit": "La jaula y el horno",
+      "tit": "Gretel vence a la bruja",
       "frases": [
         {
-          "es": "Al amanecer la bruja cogió a Hansel dormido y lo encerró en una jaula de hierro en el patio.",
-          "en": "At dawn the witch seized Hansel while he slept and locked him in an iron cage in the yard.",
-          "fr": "À l'aube, la sorcière attrapa Hansel endormi et l'enferma dans une cage en fer dans la cour.",
-          "de": "Bei Tagesanbruch packte die Hexe den schlafenden Hänsel und sperrte ihn in einen eisernen Käfig auf dem Hof.",
-          "it": "All'alba la strega prese Hansel addormentato e lo chiuse in una gabbia di ferro nel cortile.",
-          "pt": "Ao amanhecer a bruxa agarrou Hansel a dormir e encerrou-o numa jaula de ferro no pátio.",
-          "ca": "A l'alba la bruixa va agafar Hansel adormit i el va tancar en una gàbia de ferro al pati."
+          "es": "Un dia la bruja, cansada de esperar, encendio el horno y grito a Gretel que se metiera dentro para ver si estaba caliente. Gretel fingio no saber como hacerlo.",
+          "en": "One day the witch, tired of waiting, lit the oven and shouted at Gretel to climb inside to see if it was hot enough. Gretel pretended not to know how to do it.",
+          "fr": "Un jour la sorciere, lasse d'attendre, alluma le four et cria a Gretel de se mettre dedans pour voir s'il etait chaud. Gretel fit semblant de ne pas savoir comment faire.",
+          "de": "Eines Tages zuundete die Hexe, es leid, zu warten, den Ofen an und schrie Gretel an, sie solle hineinklettern, um zu sehen, ob er heiss genug sei. Gretel tat so, als wusse sie nicht, wie das geht.",
+          "it": "Un giorno la strega, stanca di aspettare, accese il forno e grido a Gretel di entrarci dentro per vedere se era caldo. Gretel finse di non sapere come fare.",
+          "pt": "Um dia a bruxa, cansada de esperar, acendeu o forno e gritou a Gretel que entrasse la dentro para ver se estava quente. Gretel fingiu nao saber como fazer.",
+          "ca": "Un dia la bruixa, cansada d'esperar, va encendre el forn i va cridar a Gretel que s'hi fiques a dins per veure si estava calent. Gretel va fingir no saber com fer-ho."
         },
         {
-          "es": "Luego despertó a Gretel a gritos y le ordenó que cocinara para engordar a su hermano. La bruja quería comérselo cuando estuviera gordo.",
-          "en": "Then she woke Gretel with shouts and ordered her to cook to fatten up her brother. The witch wanted to eat him once he was fat.",
-          "fr": "Puis elle réveilla Gretel en criant et lui ordonna de cuisiner pour engraisser son frère. La sorcière voulait le manger quand il serait gras.",
-          "de": "Dann weckte sie Gretel mit Geschrei und befahl ihr, zu kochen, um ihren Bruder zu mästen. Die Hexe wollte ihn fressen, wenn er fett war.",
-          "it": "Poi svegliò Gretel urlando e le ordinò di cucinare per ingrassare il fratello. La strega voleva mangiarlo quando fosse grasso.",
-          "pt": "Depois acordou Gretel aos gritos e ordenou-lhe que cozinhasse para engordar o irmão. A bruxa queria comê-lo quando estivesse gordo.",
-          "ca": "Després va despertar Gretel a crits i li va ordenar que cuinés per engreixar el seu germà. La bruixa volia menjar-lo quan estigués gras."
+          "es": "La bruja, impaciente, se asomo ella misma al horno para mostrarle como se hacia. En ese instante Gretel la empujo con todas sus fuerzas, cerro la pesada puerta de hierro, y la malvada bruja murio quemada en su propia trampa.",
+          "en": "The witch, impatient, leaned into the oven herself to show her how it was done. At that instant Gretel pushed her with all her strength, shut the heavy iron door, and the wicked witch was burned to death in her own trap.",
+          "fr": "La sorciere, impatiente, se pencha elle-meme dans le four pour lui montrer comment faire. A cet instant Gretel la poussa de toutes ses forces, ferma la lourde porte de fer, et la mechante sorciere mourut brulee dans son propre piege.",
+          "de": "Die Hexe, ungeduldig, beugte sich selbst in den Ofen, um ihr zu zeigen, wie es gemacht wird. In diesem Augenblick stiess Gretel sie mit aller Kraft, schloss die schwere Eisentur, und die bose Hexe verbrannte in ihrer eigenen Falle.",
+          "it": "La strega, impaziente, si sporsi essa stessa nel forno per mostrarle come si faceva. In quell'istante Gretel la spinse con tutta la sua forza, chiuse la pesante porta di ferro, e la malvagia strega mori bruciata nella sua stessa trappola.",
+          "pt": "A bruxa, impaciente, debrucou-se ela propria no forno para lhe mostrar como se fazia. Nesse instante Gretel empurrou-a com todas as suas forcas, fechou a pesada porta de ferro, e a malvada bruxa morreu queimada na sua propria armadilha.",
+          "ca": "La bruixa, impacient, es va asomar ella mateixa al forn per mostrar-li com es feia. En aquell instant Gretel la va empenyer amb totes les seves forces, va tancar la pesada porta de ferro, i la malvada bruixa va morir cremada en la seva propia trampa."
         },
         {
-          "es": "Cada mañana la bruja ordenaba a Hansel que sacara el dedo para ver si ya estaba gordo. Hansel, astuto, sacaba un huesecillo en su lugar.",
-          "en": "Each morning the witch told Hansel to stick out his finger so she could see if he was fat yet. Clever Hansel stuck out a little bone instead.",
-          "fr": "Chaque matin, la sorcière demandait à Hansel de tendre le doigt pour voir s'il était déjà gras. Hansel, rusé, tendait un petit os à la place.",
-          "de": "Jeden Morgen befahl die Hexe Hänsel, seinen Finger herauszustrecken, damit sie sehen konnte, ob er schon fett war. Der schlaue Hänsel streckte stattdessen ein Knöchelchen heraus.",
-          "it": "Ogni mattina la strega ordinava a Hansel di allungare il dito per vedere se era già grasso. Hansel, astuto, allungava invece un ossicino.",
-          "pt": "Todas as manhãs a bruxa mandava Hansel estender o dedo para ver se já estava gordo. Hansel, astuto, estendia um ossinho em vez disso.",
-          "ca": "Cada matí la bruixa ordenava a Hansel que tragués el dit per veure si ja estava gras. Hansel, astut, treia un ossetet en el seu lloc."
-        },
-        {
-          "es": "Pasaron cuatro semanas y la bruja, que tenía los ojos nublados, no entendía por qué Hansel no engordaba.",
-          "en": "Four weeks passed and the witch, whose eyes were cloudy, could not understand why Hansel was not getting fat.",
-          "fr": "Quatre semaines passèrent et la sorcière, dont les yeux étaient voilés, ne comprenait pas pourquoi Hansel n'engraissait pas.",
-          "de": "Vier Wochen vergingen und die Hexe, deren Augen trüb waren, verstand nicht, warum Hänsel nicht fett wurde.",
-          "it": "Passarono quattro settimane e la strega, che aveva gli occhi annebbiati, non capiva perché Hansel non ingrassasse.",
-          "pt": "Passaram quatro semanas e a bruxa, que tinha os olhos nublados, não entendia por que Hansel não engordava.",
-          "ca": "Van passar quatre setmanes i la bruixa, que tenia els ulls entelats, no entenia per què Hansel no engreixava."
-        },
-        {
-          "es": "Perdida la paciencia, la bruja decidió comerse a Hansel de todas formas y mandó a Gretel a encender el horno.",
-          "en": "Losing patience, the witch decided to eat Hansel anyway and sent Gretel to light the oven.",
-          "fr": "Perdant patience, la sorcière décida de manger Hansel de toute façon et envoya Gretel allumer le four.",
-          "de": "Die Geduld verlierend, beschloss die Hexe, Hänsel so oder so zu fressen, und schickte Gretel, den Ofen anzuzünden.",
-          "it": "Perdendo la pazienza, la strega decise di mangiare Hansel comunque e mandò Gretel ad accendere il forno.",
-          "pt": "Perdendo a paciência, a bruxa decidiu comer Hansel de qualquer forma e mandou Gretel acender o forno.",
-          "ca": "Perdent la paciència, la bruixa va decidir menjar-se Hansel de totes formes i va enviar Gretel a encendre el forn."
-        },
-        {
-          "es": "La bruja le pidió a Gretel que se asomara al horno para ver si estaba listo. Pero Gretel fingió no saber cómo hacerlo.",
-          "en": "The witch asked Gretel to lean into the oven to see if it was ready. But Gretel pretended not to know how.",
-          "fr": "La sorcière demanda à Gretel de se pencher dans le four pour voir s'il était prêt. Mais Gretel fit semblant de ne pas savoir comment faire.",
-          "de": "Die Hexe bat Gretel, sich in den Ofen zu beugen, um zu sehen, ob er fertig war. Aber Gretel tat so, als wüsste sie nicht wie.",
-          "it": "La strega chiese a Gretel di sporgersi nel forno per vedere se era pronto. Ma Gretel finse di non sapere come fare.",
-          "pt": "A bruxa pediu a Gretel que se debruçasse no forno para ver se estava pronto. Mas Gretel fingiu não saber como fazê-lo.",
-          "ca": "La bruixa va demanar a Gretel que s'asomés al forn per veure si estava llest. Però Gretel va fingir no saber com fer-ho."
-        },
-        {
-          "es": "La bruja, impaciente, se asomó ella misma al horno. En ese instante Gretel la empujó con todas sus fuerzas y cerró la puerta de hierro.",
-          "en": "The witch, impatient, leaned into the oven herself. At that instant Gretel pushed her with all her strength and shut the iron door.",
-          "fr": "La sorcière, impatiente, se pencha elle-même dans le four. À cet instant, Gretel la poussa de toutes ses forces et ferma la porte en fer.",
-          "de": "Die Hexe, ungeduldig, beugte sich selbst in den Ofen. In diesem Augenblick stieß Gretel sie mit aller Kraft hinein und schloss die eiserne Tür.",
-          "it": "La strega, impaziente, si sporge nel forno essa stessa. In quell'istante Gretel la spinse con tutta la sua forza e chiuse la porta di ferro.",
-          "pt": "A bruxa, impaciente, debruçou-se ela própria no forno. Nesse instante Gretel empurrou-a com todas as suas forças e fechou a porta de ferro.",
-          "ca": "La bruixa, impacient, es va asomar ella mateixa al forn. En aquell instant Gretel la va empènyer amb totes les seves forces i va tancar la porta de ferro."
-        }
-      ]
-    },
-    {
-      "tit": "Los tesoros de la bruja",
-      "frases": [
-        {
-          "es": "Gretel corrió a liberar a Hansel. Los dos hermanos se abrazaron llorando de alegría.",
-          "en": "Gretel ran to free Hansel. The two siblings embraced each other weeping with joy.",
-          "fr": "Gretel courut libérer Hansel. Les deux frères et sœurs s'étreignirent en pleurant de joie.",
-          "de": "Gretel rannte, um Hänsel zu befreien. Die beiden Geschwister umarmten sich weinend vor Freude.",
-          "it": "Gretel corse a liberare Hansel. I due fratelli si abbracciarono piangendo di gioia.",
-          "pt": "Gretel correu a libertar Hansel. Os dois irmãos abraçaram-se a chorar de alegria.",
-          "ca": "Gretel va córrer a alliberar Hansel. Els dos germans es van abraçar plorant d'alegria."
-        },
-        {
-          "es": "Ahora que la bruja había muerto, recorrieron toda la casa y encontraron cofres llenos de perlas y piedras preciosas.",
-          "en": "Now that the witch was dead, they went all through the house and found chests full of pearls and precious stones.",
-          "fr": "Maintenant que la sorcière était morte, ils parcoururent toute la maison et trouvèrent des coffres pleins de perles et de pierres précieuses.",
-          "de": "Jetzt, wo die Hexe tot war, durchsuchten sie das ganze Haus und fanden Truhen voller Perlen und Edelsteine.",
-          "it": "Ora che la strega era morta, percorsero tutta la casa e trovarono forzieri pieni di perle e pietre preziose.",
-          "pt": "Agora que a bruxa tinha morrido, percorreram toda a casa e encontraram cofres cheios de pérolas e pedras preciosas.",
-          "ca": "Ara que la bruixa havia mort, van recórrer tota la casa i van trobar cofres plens de perles i pedres precioses."
-        },
-        {
-          "es": "Hansel se llenó los bolsillos y Gretel también. Luego los dos emprendieron el camino de regreso al bosque.",
-          "en": "Hansel filled his pockets and Gretel did too. Then the two set off back through the forest.",
-          "fr": "Hansel remplit ses poches et Gretel aussi. Puis tous deux se mirent en route pour traverser la forêt à nouveau.",
-          "de": "Hänsel füllte seine Taschen und Gretel auch. Dann machten sich die beiden auf den Rückweg durch den Wald.",
-          "it": "Hansel riempì le tasche e Gretel fece lo stesso. Poi i due si misero in cammino per tornare nel bosco.",
-          "pt": "Hansel encheu os bolsos e Gretel também. Depois os dois puseram-se a caminho de regresso pela floresta.",
-          "ca": "Hansel va omplir les butxaques i Gretel també. Llavors els dos van emprendre el camí de tornada pel bosc."
-        },
-        {
-          "es": "Tras caminar horas llegaron a un gran lago que les cortaba el paso. No había ni puente ni barca.",
-          "en": "After walking for hours they reached a wide lake that blocked their path. There was neither bridge nor boat.",
-          "fr": "Après avoir marché des heures, ils arrivèrent à un grand lac qui leur barrait le passage. Il n'y avait ni pont ni barque.",
-          "de": "Nach stundenlangem Laufen kamen sie an einen breiten See, der ihnen den Weg versperrte. Es gab weder Brücke noch Boot.",
-          "it": "Dopo ore di cammino arrivarono a un grande lago che sbarrava loro il passo. Non c'era né ponte né barca.",
-          "pt": "Depois de caminhar horas chegaram a um grande lago que lhes cortava o caminho. Não havia nem ponte nem barco.",
-          "ca": "Després de caminar hores van arribar a un gran llac que els tallava el pas. No hi havia ni pont ni barca."
-        },
-        {
-          "es": "Entonces una pata blanca pasó nadando. Gretel le pidió que los cruzara y el pato los llevó uno a uno a la orilla opuesta.",
-          "en": "Then a white duck came swimming past. Gretel asked it to carry them across and the duck took them one by one to the far shore.",
-          "fr": "Alors un canard blanc passa en nageant. Gretel lui demanda de les faire traverser et le canard les porta l'un après l'autre sur l'autre rive.",
-          "de": "Da kam eine weiße Ente herangeschwommen. Gretel bat sie, sie hinüberzutragen, und die Ente brachte sie nacheinander ans andere Ufer.",
-          "it": "Allora una paperella bianca passò nuotando. Gretel le chiese di portarli dall'altra parte e l'anatra li portò uno alla volta sulla riva opposta.",
-          "pt": "Então um pato branco passou a nadar. Gretel pediu-lhe que os atravessasse e o pato levou-os um a um para a margem oposta.",
-          "ca": "Llavors un ànec blanc va passar nedant. Gretel li va demanar que els portés a l'altra banda i l'ànec els va portar un a un a l'altra riba."
-        },
-        {
-          "es": "Al poco rato el bosque les fue resultando más familiar y por fin vieron a lo lejos la casa de su padre.",
-          "en": "After a while the forest began to seem more familiar and at last they saw their father's house in the distance.",
-          "fr": "Peu à peu, la forêt leur sembla plus familière et ils aperçurent enfin la maison de leur père au loin.",
-          "de": "Nach einer Weile wurde der Wald ihnen vertrauter und schließlich sahen sie in der Ferne das Haus ihres Vaters.",
-          "it": "Dopo un po' il bosco cominciò a sembrare più familiare e alla fine videro in lontananza la casa del padre.",
-          "pt": "Pouco depois a floresta foi ficando mais familiar e finalmente viram ao longe a casa do seu pai.",
-          "ca": "Al cap de poc el bosc els va anar semblant més familiar i finalment van veure al lluny la casa del seu pare."
-        },
-        {
-          "es": "Echaron a correr y se lanzaron a los brazos del leñador, que lloraba desde que los perdió.",
-          "en": "They broke into a run and threw themselves into the woodcutter's arms. He had been weeping ever since he lost them.",
-          "fr": "Ils se mirent à courir et se jetèrent dans les bras du bûcheron, qui pleurait depuis qu'il les avait perdus.",
-          "de": "Sie liefen los und warfen sich in die Arme des Holzfällers, der geweint hatte, seit er sie verloren hatte.",
-          "it": "Si misero a correre e si gettarono tra le braccia del taglialegna, che piangeva da quando li aveva persi.",
-          "pt": "Puseram-se a correr e lançaram-se nos braços do lenhador, que chorava desde que os perdeu.",
-          "ca": "Van posar-se a córrer i es van llançar als braços del llenyataire, que plorava des que els havia perdut."
+          "es": "Gretel corrio a liberar a su hermano. Descubrieron que en la casa de la bruja habia grandes bolsas llenas de piedras preciosas y perlas. Las llenaron en sus bolsillos y a toda prisa dejaron aquel bosque.",
+          "en": "Gretel ran to free her brother. They discovered that the witch's house was full of large bags of precious stones and pearls. They filled their pockets and hurried away from the forest.",
+          "fr": "Gretel courut liberer son frere. Ils decouvrirent que dans la maison de la sorciere il y avait de grands sacs pleins de pierres precieuses et de perles. Ils remplirent leurs poches et quitterent precipitamment cette foret.",
+          "de": "Gretel lief, um ihren Bruder zu befreien. Sie entdeckten, dass das Haus der Hexe voller grosser Sacke mit Edelsteinen und Perlen war. Sie fullten ihre Taschen und verliessen eilig den Wald.",
+          "it": "Gretel corse a liberare suo fratello. Scoprirono che nella casa della strega c'erano grandi sacchi pieni di pietre preziose e perle. Riempirono le tasche e in fretta lasciarono quel bosco.",
+          "pt": "Gretel correu a libertar o seu irmao. Descobriram que na casa da bruxa havia grandes sacos cheios de pedras preciosas e perolas. Encheram os bolsos e rapidamente deixaram aquele bosque.",
+          "ca": "Gretel va correr a alliberar el seu germa. Van descobrir que a la casa de la bruixa hi havia grans bosses plenes de pedres precioses i perles. Van omplir les butxaques i de pressa van deixar aquell bosc."
         }
       ]
     },
@@ -352,126 +175,31 @@
       "tit": "El regreso a casa",
       "frases": [
         {
-          "es": "La madrastra había muerto durante la ausencia de los niños. El leñador vivía solo y consumido por el remordimiento.",
-          "en": "The stepmother had died during the children's absence. The woodcutter lived alone, consumed by remorse.",
-          "fr": "La belle-mère était morte pendant l'absence des enfants. Le bûcheron vivait seul, rongé par le remords.",
-          "de": "Die Stiefmutter war während der Abwesenheit der Kinder gestorben. Der Holzfäller lebte allein, von Reue verzehrt.",
-          "it": "La matrigna era morta durante l'assenza dei bambini. Il taglialegna viveva solo, consumato dal rimorso.",
-          "pt": "A madrasta tinha morrido durante a ausência das crianças. O lenhador vivia sozinho, consumido pelo remorso.",
-          "ca": "La madrastra havia mort durant l'absència dels nens. El llenyataire vivia sol, consumit pel remordiment."
+          "es": "Caminaron y caminaron sin descansar y finalmente encontraron la casa de su padre. Al verlos llegar se lleno de jubilo, porque desde que los habia abandonado no habia pasado un dia sin lamentarse.",
+          "en": "They walked and walked without resting and at last found their father's house. At the sight of them his heart was filled with joy, for not a single day had passed since he had abandoned them without him regretting it bitterly.",
+          "fr": "Ils marcherent et marcherent sans se reposer et finirent par trouver la maison de leur pere. A leur vue, son coeur fut rempli de joie, car pas un seul jour ne s'etait ecoule depuis qu'il les avait abandonnes sans qu'il le regrette amèrement.",
+          "de": "Sie gingen und gingen ohne Rast und fanden schliesslich das Haus ihres Vaters. Beim Anblick der beiden wurde sein Herz von Freude erfüllt, denn kein einziger Tag war vergangen, seit er sie verlassen hatte, ohne dass er es bitter bereut hatte.",
+          "it": "Camminarono e camminarono senza fermarsi e alla fine trovarono la casa del padre. Nel vederli arrivare si riempi di gioia, perche non era passato un solo giorno da quando li aveva abbandonati senza che se ne pentisse amaramente.",
+          "pt": "Caminharam e caminharam sem descansar e finalmente encontraram a casa do pai. Ao ve-los chegar encheu-se de jubilo, pois nao tinha passado um dia desde que os abandonara sem se lamentar.",
+          "ca": "Van caminar i caminar sense descansar i finalment van trobar la casa del seu pare. En veure'ls arribar es va omplir de jubil, perque no havia passat ni un dia des que els havia abandonat sense lamentar-se'n."
         },
         {
-          "es": "Gretel abrió su delantal y las perlas y piedras preciosas rodaron por el suelo. Hansel sacó puñados de joyas de sus bolsillos.",
-          "en": "Gretel opened her apron and the pearls and precious stones rolled across the floor. Hansel pulled fistfuls of jewels from his pockets.",
-          "fr": "Gretel ouvrit son tablier et les perles et pierres précieuses roulèrent sur le sol. Hansel sortit des poignées de bijoux de ses poches.",
-          "de": "Gretel öffnete ihre Schürze und die Perlen und Edelsteine rollten über den Boden. Hänsel zog Handvoll Juwelen aus seinen Taschen.",
-          "it": "Gretel aprì il suo grembiule e le perle e le pietre preziose rotolarono sul pavimento. Hansel tirò fuori manciate di gioielli dalle tasche.",
-          "pt": "Gretel abriu o seu avental e as pérolas e pedras preciosas rolaram pelo chão. Hansel tirou punhados de joias dos seus bolsos.",
-          "ca": "Gretel va obrir el seu davantal i les perles i pedres precioses van rodolar pel terra. Hansel va treure grapes de joies de les seves butxaques."
+          "es": "Los ninos corrieron a abrazarle. El les conto que la malvada esposa habia muerto y que nunca mas volveria a lastimarlos. Entonces los ninos vaciaron sus bolsillos ante los incrédulos ojos de su padre.",
+          "en": "The children ran to embrace him. He told them that the wicked wife had died and would never hurt them again. Then the children emptied their pockets before their father's disbelieving eyes.",
+          "fr": "Les enfants coururent l'embrasser. Il leur dit que la mechante femme etait morte et ne les blesserait plus jamais. Alors les enfants viderent leurs poches devant les yeux incredules de leur pere.",
+          "de": "Die Kinder liefen, um ihn zu umarmen. Er erzählte ihnen, dass die bose Frau gestorben war und sie nie wieder verletzen wurde. Dann leerten die Kinder ihre Taschen vor den ungläubigen Augen ihres Vaters.",
+          "it": "I bambini corsero ad abbracciarlo. Lui racconto loro che la malvagia moglie era morta e non li avrebbe mai piu feriti. Allora i bambini svuotarono le tasche davanti agli occhi increduli del padre.",
+          "pt": "As criancas correram a abraca-lo. Ele contou-lhes que a malvada esposa tinha morrido e nunca mais os magoaria. Entao as criancas esvaziaram os bolsos diante dos olhos incrédulos do pai.",
+          "ca": "Els nens van correr a abracar-lo. Ell els va explicar que la malvada esposa havia mort i que mai mes els faria mal. Llavors els nens van buidar les butxaques davant dels ulls increduus del seu pare."
         },
         {
-          "es": "Todas sus penas habían terminado y vivieron juntos y felices desde ese día en adelante.",
-          "en": "All their troubles were over and they lived together in happiness from that day forth.",
-          "fr": "Toutes leurs peines étaient terminées et ils vécurent ensemble et heureux à partir de ce jour.",
-          "de": "Alle ihre Sorgen waren vorbei und sie lebten von diesem Tag an glücklich zusammen.",
-          "it": "Tutte le loro pene erano finite e vissero insieme e felici da quel giorno in poi.",
-          "pt": "Todos os seus problemas tinham terminado e viveram juntos e felizes a partir desse dia.",
-          "ca": "Totes les seves penes havien acabat i van viure junts i feliços des d'aquell dia en endavant."
-        },
-        {
-          "es": "La historia de Hansel y Gretel enseña que la astucia y el amor fraternal pueden vencer al peligro más oscuro.",
-          "en": "The story of Hansel and Gretel teaches that cleverness and brotherly love can overcome the darkest danger.",
-          "fr": "L'histoire de Hansel et Gretel enseigne que l'astuce et l'amour fraternel peuvent triompher du danger le plus sombre.",
-          "de": "Die Geschichte von Hänsel und Gretel lehrt, dass Klugheit und Geschwisterliebe die dunkelste Gefahr überwinden können.",
-          "it": "La storia di Hansel e Gretel insegna che l'astuzia e l'amore fraterno possono vincere il pericolo più oscuro.",
-          "pt": "A história de Hansel e Gretel ensina que a astúcia e o amor fraternal podem vencer o perigo mais obscuro.",
-          "ca": "La història de Hansel i Gretel ensenya que l'astúcia i l'amor fraternal poden vèncer el perill més fosc."
-        },
-        {
-          "es": "Gretel demostró que la valentía no es solo cosa de hombres: fue ella quien salvó a su hermano en el momento decisivo.",
-          "en": "Gretel proved that bravery is not only for men: it was she who saved her brother at the decisive moment.",
-          "fr": "Gretel prouva que le courage n'est pas réservé aux hommes : c'est elle qui sauva son frère au moment décisif.",
-          "de": "Gretel bewies, dass Tapferkeit nicht nur Männersache ist: Sie war es, die ihren Bruder im entscheidenden Moment rettete.",
-          "it": "Gretel dimostrò che il coraggio non è solo roba da uomini: fu lei a salvare suo fratello nel momento decisivo.",
-          "pt": "Gretel demonstrou que a coragem não é só coisa de homens: foi ela que salvou o seu irmão no momento decisivo.",
-          "ca": "Gretel va demostrar que la valentia no és sols cosa d'homes: va ser ella qui va salvar el seu germà en el moment decisiu."
-        },
-        {
-          "es": "Y el bosque que una vez los devoró se convirtió para siempre en el símbolo de todos los miedos que se pueden superar.",
-          "en": "And the forest that once swallowed them became for ever the symbol of all the fears that can be overcome.",
-          "fr": "Et la forêt qui les avait autrefois engloutis devint pour toujours le symbole de toutes les peurs que l'on peut surmonter.",
-          "de": "Und der Wald, der sie einst verschluckt hatte, wurde für immer zum Symbol all der Ängste, die man überwinden kann.",
-          "it": "E il bosco che una volta li aveva inghiottiti divenne per sempre il simbolo di tutte le paure che si possono superare.",
-          "pt": "E a floresta que uma vez os devorou tornou-se para sempre o símbolo de todos os medos que se podem superar.",
-          "ca": "I el bosc que una vegada els va engolir es va convertir per sempre en el símbol de totes les pors que es poden superar."
-        },
-        {
-          "es": "Hansel y Gretel crecieron, estudiaron y nunca olvidaron que el ingenio y el cariño entre hermanos son el tesoro más valioso.",
-          "en": "Hansel and Gretel grew up, studied and never forgot that wit and affection between siblings are the most precious treasure.",
-          "fr": "Hansel et Gretel grandirent, étudièrent et n'oublièrent jamais que l'ingéniosité et l'affection entre frères et sœurs sont le trésor le plus précieux.",
-          "de": "Hänsel und Gretel wuchsen auf, lernten und vergaßen nie, dass Witz und Zuneigung zwischen Geschwistern der wertvollste Schatz sind.",
-          "it": "Hansel e Gretel crebbero, studiarono e non dimenticarono mai che l'ingegno e l'affetto tra fratelli sono il tesoro più prezioso.",
-          "pt": "Hansel e Gretel cresceram, estudaram e nunca esqueceram que o engenho e o carinho entre irmãos são o tesouro mais valioso.",
-          "ca": "Hansel i Gretel van créixer, van estudiar i mai van oblidar que l'enginy i el carinyo entre germans són el tresor més valuós."
-        }
-      ]
-    },
-    {
-      "tit": "La lección del bosque",
-      "frases": [
-        {
-          "es": "Los años pasaron y los dos hermanos se hicieron mayores. Hansel se convirtió en leñador como su padre, pero mucho más próspero.",
-          "en": "The years passed and the two siblings grew up. Hansel became a woodcutter like his father, but a much more prosperous one.",
-          "fr": "Les années passèrent et les deux frères et sœurs grandirent. Hansel devint bûcheron comme son père, mais bien plus prospère.",
-          "de": "Die Jahre vergingen und die beiden Geschwister wurden älter. Hänsel wurde Holzfäller wie sein Vater, aber ein viel wohlhabenderer.",
-          "it": "Gli anni passarono e i due fratelli crebbero. Hansel divenne taglialegna come suo padre, ma molto più prospero.",
-          "pt": "Os anos passaram e os dois irmãos cresceram. Hansel tornou-se lenhador como o pai, mas muito mais próspero.",
-          "ca": "Els anys van passar i els dos germans es van fer grans. Hansel es va convertir en llenyataire com el seu pare, però molt més pròsper."
-        },
-        {
-          "es": "Gretel aprendió a cocinar mejor que nadie en el pueblo y nunca usó su horno para hacer daño, sino para dar de comer a los pobres.",
-          "en": "Gretel learned to cook better than anyone in the village and never used her oven to cause harm, but only to feed the poor.",
-          "fr": "Gretel apprit à cuisiner mieux que quiconque au village et n'utilisa jamais son four pour faire du mal, seulement pour nourrir les pauvres.",
-          "de": "Gretel lernte besser zu kochen als jeder andere im Dorf und benutzte ihren Ofen nie, um Schaden anzurichten, sondern nur, um die Armen zu ernähren.",
-          "it": "Gretel imparò a cucinare meglio di chiunque altro nel villaggio e non usò mai il suo forno per fare del male, ma solo per sfamare i poveri.",
-          "pt": "Gretel aprendeu a cozinhar melhor do que ninguém na aldeia e nunca usou o seu forno para fazer mal, mas apenas para alimentar os pobres.",
-          "ca": "Gretel va aprendre a cuinar millor que ningú al poble i mai va usar el seu forn per fer mal, sinó per donar de menjar als pobres."
-        },
-        {
-          "es": "Cada año, el día en que habían escapado de la bruja, los dos hermanos encendían una hoguera y contaban su historia a los niños del pueblo.",
-          "en": "Every year, on the day they had escaped from the witch, the two siblings lit a bonfire and told their story to the children of the village.",
-          "fr": "Chaque année, le jour où ils avaient échappé à la sorcière, les deux frères et sœurs allumaient un feu de joie et racontaient leur histoire aux enfants du village.",
-          "de": "Jedes Jahr, an dem Tag, an dem sie der Hexe entkommen waren, zündeten die beiden Geschwister ein Lagerfeuer an und erzählten ihre Geschichte den Kindern des Dorfes.",
-          "it": "Ogni anno, il giorno in cui erano sfuggiti alla strega, i due fratelli accendevano un falò e raccontavano la loro storia ai bambini del villaggio.",
-          "pt": "Todos os anos, no dia em que tinham escapado da bruxa, os dois irmãos acendiam uma fogueira e contavam a sua história às crianças da aldeia.",
-          "ca": "Cada any, el dia que havien escapat de la bruixa, els dos germans encenien una foguera i explicaven la seva història als nens del poble."
-        },
-        {
-          "es": "Y en su historia siempre decían lo mismo: no temáis al bosque oscuro, pues dentro de vosotros hay más luz de la que creéis.",
-          "en": "And in their story they always said the same thing: do not fear the dark forest, for inside you there is more light than you believe.",
-          "fr": "Et dans leur histoire, ils disaient toujours la même chose : ne craignez pas la forêt sombre, car en vous il y a plus de lumière que vous ne le croyez.",
-          "de": "Und in ihrer Geschichte sagten sie immer dasselbe: Fürchtet euch nicht vor dem dunklen Wald, denn in euch ist mehr Licht, als ihr glaubt.",
-          "it": "E nella loro storia dicevano sempre la stessa cosa: non temete il bosco oscuro, poiché dentro di voi c'è più luce di quanta ne crediate.",
-          "pt": "E na sua história diziam sempre a mesma coisa: não temais a floresta escura, pois dentro de vós há mais luz do que acreditais.",
-          "ca": "I a la seva història sempre deien el mateix: no temeu el bosc fosc, perquè dins vostre hi ha més llum de la que creieu."
-        },
-        {
-          "es": "Los niños que los escuchaban se dormían aquella noche sin miedo, con el corazón lleno de valor.",
-          "en": "The children who heard them went to sleep that night without fear, their hearts full of courage.",
-          "fr": "Les enfants qui les écoutaient s'endormaient cette nuit-là sans peur, le cœur plein de courage.",
-          "de": "Die Kinder, die ihnen zuhörten, schliefen in jener Nacht ohne Angst ein, mit einem Herzen voller Mut.",
-          "it": "I bambini che li ascoltavano si addormentavano quella notte senza paura, con il cuore pieno di coraggio.",
-          "pt": "As crianças que os ouviam adormeciam nessa noite sem medo, com o coração cheio de coragem.",
-          "ca": "Els nens que els escoltaven s'adormien aquella nit sense por, amb el cor ple de valor."
-        },
-        {
-          "es": "Y así, año tras año, la historia de Hansel y Gretel siguió viajando de boca en boca por todos los bosques del mundo.",
-          "en": "And so, year after year, the story of Hansel and Gretel kept travelling from mouth to mouth through all the forests of the world.",
-          "fr": "Et ainsi, année après année, l'histoire de Hansel et Gretel continua de voyager de bouche en bouche à travers toutes les forêts du monde.",
-          "de": "Und so reiste die Geschichte von Hänsel und Gretel Jahr für Jahr von Mund zu Mund durch alle Wälder der Welt.",
-          "it": "E così, anno dopo anno, la storia di Hansel e Gretel continuò a viaggiare di bocca in bocca per tutti i boschi del mondo.",
-          "pt": "E assim, ano após ano, a história de Hansel e Gretel continuou a viajar de boca em boca por todas as florestas do mundo.",
-          "ca": "I així, any rere any, la història de Hansel i Gretel va continuar viatjant de boca en boca per tots els boscos del món."
+          "es": "Con todas aquellas piedras preciosas y perlas, el lenador nunca mas debio padecer necesidad alguna. Y los tres vivieron juntos, felices y tranquilos, el resto de sus vidas.",
+          "en": "With all those precious stones and pearls, the woodcutter never again had to suffer any want. And the three of them lived together, happy and peaceful, for the rest of their lives.",
+          "fr": "Avec toutes ces pierres precieuses et ces perles, le bucheron n'eut plus jamais a souffrir du besoin. Et tous les trois vecurent ensemble, heureux et tranquilles, pour le reste de leurs jours.",
+          "de": "Mit all den Edelsteinen und Perlen musste der Holzfaller nie wieder Not leiden. Und die drei lebten zusammen, glucklich und ruhig, fur den Rest ihres Lebens.",
+          "it": "Con tutte quelle pietre preziose e perle, il taglialegna non dove piu soffrire alcuna necessita. E i tre vissero insieme, felici e tranquilli, per il resto della loro vita.",
+          "pt": "Com todas aquelas pedras preciosas e perolas, o lenhador nunca mais teve de sofrer nenhuma necessidade. E os tres viveram juntos, felizes e tranquilos, pelo resto das suas vidas.",
+          "ca": "Amb totes aquelles pedres precioses i perles, el llenyataire mai mes va haver de patir cap necessitat. I els tres van viure junts, feliços i tranquils, la resta de les seves vides."
         }
       ]
     }
