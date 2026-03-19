@@ -1,0 +1,93 @@
+{
+  "id": 28,
+  "tit": "El ángel",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "👼",
+  "totalCaps": 2,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_ángel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "El vuelo del ángel",
+      "frases": [
+        {
+          "es": "Cada vez que muere un niño bueno, baja del cielo un ángel de Dios, toma en brazos el cuerpecito muerto y, extendiendo sus grandes alas blancas, emprende el vuelo por encima de todos los lugares que el pequeñuelo amó, recogiendo flores para ofrecerlas a Dios. Nuestro Señor besa la flor que más le gusta, y ella adquiere voz y puede cantar en el coro de los bienaventurados.",
+          "en": "Whenever a good child dies, an angel of God comes down from heaven, takes the dead little body in his arms, spreads his great white wings and flies over all the places the little one loved, picking flowers to offer to God. Our Lord kisses the flower he loves best, and it receives a voice so it can sing in the chorus of the blessed.",
+          "fr": "Chaque fois qu'un bon enfant meurt, un ange de Dieu descend du ciel, prend dans ses bras le petit corps mort et, déployant ses grandes ailes blanches, s'envole au-dessus de tous les endroits que le petit aimait, cueillant des fleurs à offrir à Dieu. Notre Seigneur embrasse la fleur qu'il préfère, et elle acquiert une voix pour chanter dans le chœur des bienheureux.",
+          "de": "Wenn immer ein gutes Kind stirbt, kommt ein Engel Gottes vom Himmel herab, nimmt den toten kleinen Körper in die Arme und fliegt mit seinen großen weißen Flügeln über alle Orte, die das Kind liebte, und pflückt Blumen, um sie Gott anzubieten. Unser Herr küsst die Blume, die er am liebsten mag, und sie erhält eine Stimme, um im Chor der Seligen zu singen.",
+          "it": "Ogni volta che un bambino buono muore, un angelo di Dio scende dal cielo, prende tra le braccia il corpicino morto e, spiegando le grandi ali bianche, vola su tutti i luoghi che il piccolo aveva amato, raccogliendo fiori da offrire a Dio. Nostro Signore bacia il fiore che preferisce, ed esso acquista una voce per cantare nel coro dei beati.",
+          "pt": "Sempre que uma criança boa morre, um anjo de Deus desce do céu, toma nos braços o corpinho morto e, estendendo as grandes asas brancas, voa sobre todos os lugares que o pequenino amou, recolhendo flores para oferecer a Deus. Nosso Senhor beija a flor de que mais gosta, e ela adquire voz para cantar no coro dos bem-aventurados.",
+          "ca": "Cada vegada que mor un nen bo, un àngel de Déu baixa del cel, pren en braços el corpet mort i, estenen les seves grans ales blanques, emprèn el vol per sobre de tots els llocs que el petit havia estimat, recollint flors per oferir-les a Déu. El Senyor besa la flor que més li agrada, i ella adquireix veu per cantar en el cor dels benaurats."
+        },
+        {
+          "es": "Un ángel llevaba al cielo a un niño muerto mientras le contaba estas cosas. Volaron sobre jardines y un callejón oscuro donde el ángel recogió los restos de una flor silvestre seca arrojada a la basura durante una mudanza.",
+          "en": "An angel was carrying a dead child to heaven while telling him these things. They flew over gardens and a dark alley where the angel picked up the remains of a dry wild flower that had been thrown out with the rubbish during a house move.",
+          "fr": "Un ange emmenait au ciel un enfant mort tout en lui racontant ces choses. Ils survolèrent des jardins et une sombre ruelle où l'ange ramassa les restes d'une fleur des champs séchée jetée aux ordures lors d'un déménagement.",
+          "de": "Ein Engel trug ein totes Kind in den Himmel, während er ihm diese Dinge erzählte. Sie flogen über Gärten und eine dunkle Gasse, wo der Engel die Überreste einer trockenen Wildblume aufhob, die beim Umzug mit dem Müll weggeworfen worden war.",
+          "it": "Un angelo stava portando in cielo un bambino morto mentre gli raccontava queste cose. Volarono su giardini e un vicolo buio dove l'angelo raccolse i resti di un fiore selvatico secco gettato spazzatura durante un trasloco.",
+          "pt": "Um anjo levava ao céu uma criança morta enquanto lhe contava essas coisas. Voaram sobre jardins e uma ruazinha escura onde o anjo recolheu os restos de uma flor silvestre seca atirada ao lixo durante uma mudança.",
+          "ca": "Un àngel portava al cel un nen mort mentre li explicava aquestes coses. Van volar sobre jardins i un carreró fosc on l'àngel va recollir les restes d'una flor silvestre seca llançada a les escombraries durant una mudança."
+        },
+        {
+          "es": "«¿Por qué recogemos esa flor marchita?», preguntó el niño. El ángel le explicó que en aquel callejón vivió un pobre niño enfermo que nunca pudo salir de su bodega. Los únicos rayos de sol que veía eran los que entraban media hora al día por su ventanuca.",
+          "en": "'Why are we taking that withered flower?' asked the child. The angel explained that in that alley there had lived a poor sick boy who could never leave his cellar. The only sunlight he ever saw was that which entered for half an hour each day through his tiny window.",
+          "fr": "« Pourquoi prenons-nous cette fleur fanée ? » demanda l'enfant. L'ange expliqua que dans cette ruelle avait vécu un pauvre enfant malade qui ne pouvait jamais quitter sa cave. Les seuls rayons de soleil qu'il voyait étaient ceux qui entraient une demi-heure par jour par sa toute petite fenêtre.",
+          "de": "Warum nehmen wir diese verwelkte Blume mit?, fragte das Kind. Der Engel erklärte, dass in dieser Gasse ein armes krankes Kind gelebt hatte, das seinen Keller nie verlassen konnte. Das einzige Sonnenlicht, das es je sah, war das, das eine halbe Stunde täglich durch sein winziges Fenster hereinkam.",
+          "it": "Perché portiamo quel fiore appassito?, chiese il bambino. L'angelo spiegò che in quel vicolo era vissuto un povero bambino malato che non poteva mai uscire dalla sua cantina. Gli unici raggi di sole che vedeva erano quelli che entravano per mezz'ora al giorno dalla sua finestrella.",
+          "pt": "Por que levamos essa flor murchinha?, perguntou a criança. O anjo explicou que naquele beco vivera um pobre menino doente que nunca pôde sair da sua cave. Os únicos raios de sol que via eram os que entravam meia hora por dia pela sua janelinhas.",
+          "ca": "Per què agafem aquesta flor marcida?, va preguntar el nen. L'àngel li va explicar que en aquell carreró havia viscut un pobre nen malalt que mai no va poder sortir del seu soterrani. Els únics raigs de sol que veia eren els que entraven mitja hora al dia per la seva finestrona."
+        },
+        {
+          "es": "Su único tesoro era esa flor que un amigo le trajo del campo y que él cuidó con amor junto a la ventana durante años. Cuando el Señor lo llamó a su seno, la flor quedó olvidada y seca hasta que alguien la arrojó a la calle.",
+          "en": "'His only treasure was that flower which a friend brought him from the fields, and which he tended lovingly by the window for years. When the Lord called him to his side, the flower was left forgotten and dry until someone threw it into the street.'",
+          "fr": "Son seul trésor était cette fleur qu'un ami lui avait apportée des champs et qu'il avait soignée avec amour près de la fenêtre pendant des années. Quand le Seigneur l'appela auprès de lui, la fleur fut oubliée et sécha jusqu'à ce que quelqu'un la jette dans la rue.",
+          "de": "Sein einziger Schatz war diese Blume, die ihm ein Freund vom Feld mitgebracht hatte und die er jahrelang liebevoll am Fenster gepflegt hatte. Als der Herr ihn zu sich rief, blieb die Blume vergessen und vertrocknete, bis jemand sie auf die Straße warf.",
+          "it": "Il suo unico tesoro era quel fiore che un amico gli aveva portato dalla campagna e che lui aveva curato amorevolmente vicino alla finestra per anni. Quando il Signore lo chiamò a sé, il fiore rimase dimenticato e secco finché qualcuno lo gettò in strada.",
+          "pt": "O seu único tesouro era essa flor que um amigo lhe trouxe do campo e que ele cuidou com amor junto à janela durante anos. Quando o Senhor o chamou ao seu seio, a flor ficou esquecida e seca até alguém a atirar para a rua.",
+          "ca": "El seu únic tresor era aquesta flor que un amic li va portar del camp i que ell va cuidar amb amor vora la finestra durant anys. Quan el Senyor el va cridar al seu costat, la flor va quedar oblidada i seca fins que algú la va llançar al carrer."
+        }
+      ]
+    },
+    {
+      "tit": "La flor que más alegría dio",
+      "frases": [
+        {
+          "es": "«¿Cómo sabes todo esto?», preguntó el niño que el ángel llevaba al cielo. «Lo sé», respondió el ángel, «porque yo fui aquel pobre niño enfermo que se sostenía sobre muletas. ¡Y bien conozco mi flor!»",
+          "en": "'How do you know all this?' asked the child the angel was carrying to heaven. 'I know it,' answered the angel, 'because I was that poor sick child who used to walk on crutches. And I know my flower well!'",
+          "fr": "« Comment sais-tu tout cela ? » demanda l'enfant que l'ange emmenait au ciel. « Je le sais, répondit l'ange, parce que j'étais ce pauvre enfant malade qui marchait avec des béquilles. Et je connais bien ma fleur ! »",
+          "de": "Wie weißt du das alles?, fragte das Kind, das der Engel in den Himmel trug. Ich weiß es, antwortete der Engel, denn ich war dieses arme kranke Kind, das auf Krücken lief. Und ich kenne meine Blume sehr gut!",
+          "it": "Come sai tutto questo?, chiese il bambino che l'angelo stava portando in cielo. Lo so, rispose l'angelo, perché ero quel povero bambino malato che camminava con le grucce. E conosco bene il mio fiore!",
+          "pt": "Como sabes tudo isso?, perguntou a criança que o anjo levava ao céu. Sei-o, respondeu o anjo, porque eu fui aquela pobre criança doente que andava de muletas. E conheço bem a minha flor!",
+          "ca": "Com saps tot això?, va preguntar el nen que l'àngel portava al cel. Ho sé, va respondre l'àngel, perquè jo vaig ser aquell pobre nen malalt que caminava amb crosses. I conec bé la meva flor!"
+        },
+        {
+          "es": "El pequeño abrió de par en par los ojos y clavó la mirada en el rostro esplendoroso del ángel. En el mismo momento se encontraron en el Cielo, donde Dios apretó al niño contra su corazón y le salieron alas como a los demás ángeles.",
+          "en": "The little one opened his eyes wide and fixed his gaze on the angel's radiant face. At that very moment they arrived in Heaven, where God pressed the child to his heart and he grew wings just like all the other angels.",
+          "fr": "Le petit ouvrit grand les yeux et fixa son regard sur le visage resplendissant de l'ange. Au même moment ils se retrouvèrent au Ciel, où Dieu serra l'enfant contre son cœur et il lui poussa des ailes comme à tous les autres anges.",
+          "de": "Das Kleine öffnete die Augen weit und heftete seinen Blick auf das strahlende Gesicht des Engels. In diesem Moment befanden sie sich im Himmel, wo Gott das Kind an sein Herz drückte und ihm Flügel wuchsen wie allen anderen Engeln.",
+          "it": "Il piccolo aprì gli occhi spalancati e fissò lo sguardo sul volto splendente dell'angelo. In quello stesso momento si trovarono in Cielo, dove Dio strinse il bambino al cuore e gli crebbero le ali come a tutti gli altri angeli.",
+          "pt": "O pequenino abriu bem os olhos e cravou o olhar no rosto esplendoroso do anjo. Naquele mesmo momento encontraram-se no Céu, onde Deus apertou a criança ao coração e lhe saíram asas como aos outros anjos.",
+          "ca": "El petit va obrir els ulls de bat a bat i va fixar la mirada en el rostre esplendorós de l'àngel. En aquell mateix moment es van trobar al Cel, on Déu va estrènyer el nen contra el seu cor i li van sortir ales com als altres àngels."
+        },
+        {
+          "es": "Nuestro Señor besó también la marchita flor silvestre, infundiéndole voz, y ella rompió a cantar con el coro de angelitos. Todos cantaban juntos: el niño bienaventurado y la pobre flor que había estado abandonada entre la basura del callejón oscuro.",
+          "en": "Our Lord also kissed the withered wild flower, giving it a voice, and it burst into song with the choir of little angels. All sang together: the blessed child and the poor flower that had lain abandoned among the rubbish of the dark alley.",
+          "fr": "Notre Seigneur embrassa aussi la petite fleur des champs fanée en lui insufflant une voix, et elle se mit à chanter avec le chœur des petits anges. Tous chantaient ensemble : l'enfant bienheureux et la pauvre fleur qui avait été abandonnée dans les ordures du sombre callejón.",
+          "de": "Unser Herr küsste auch die verwelkte Wildblume und hauchte ihr eine Stimme ein, und sie brach in Gesang aus zusammen mit dem Chor der Engelchen. Alle sangen gemeinsam: das selige Kind und die arme Blume, die im Abfall der dunklen Gasse gelegen hatte.",
+          "it": "Nostro Signore baciò anche il piccolo fiore selvatico appassito infondendogli una voce, ed esso scoppiò a cantare con il coro degli angioletti. Tutti cantavano insieme: il bambino beato e il povero fiore che era stato abbandonato tra i rifiuti del vicolo buio.",
+          "pt": "Nosso Senhor beijou também a pequena flor silvestre murchinha infundindo-lhe voz, e ela rompeu a cantar com o coro dos anjinhos. Todos cantavam juntos: a criança bem-aventurada e a pobre flor que tinha estado abandonada entre o lixo do beco escuro.",
+          "ca": "El Senyor va besar també la petita flor silvestre marcida infundint-li veu, i ella es va posar a cantar amb el cor dels angelets. Tots cantaven junts: el nen benaurant i la pobra flor que havia estat abandonada entre les escombraries del carreró fosc."
+        }
+      ]
+    }
+  ]
+}
