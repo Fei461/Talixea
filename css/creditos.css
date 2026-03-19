@@ -1,0 +1,24 @@
+/* ── PANTALLA CRÉDITOS ──────────────────────────────────────── */
+.cred-sec{background:#fff;border-radius:var(--r);padding:20px;margin-bottom:16px;box-shadow:var(--sh);border:1px solid var(--border)}
+.cred-sec-note{background:var(--ip);border-color:rgba(99,102,241,.2)}
+.cred-sec-hdr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.cred-sec-t{font-size:15px;font-weight:700;color:var(--text);margin:0}
+.cred-sec-desc{font-size:13px;color:var(--soft);line-height:1.6;margin:0 0 12px}
+.cred-sec-desc:last-child{margin-bottom:0}
+.cred-badge{font-size:10px;font-weight:700;padding:3px 8px;border-radius:5px;white-space:nowrap;letter-spacing:.3px}
+.cred-badge-ccbysa{background:#FEF3C7;color:#92400E}
+.cred-badge-cc0{background:#D1FAE5;color:#065F46}
+.cred-list{display:flex;flex-direction:column;gap:1px;border-radius:var(--rs);overflow:hidden;border:1px solid var(--border)}
+.cred-item{padding:10px 12px;background:#fff}
+.cred-item:nth-child(even){background:#FAFAFA}
+.cred-item-main{display:flex;align-items:baseline;gap:8px;margin-bottom:2px}
+.cred-tit{font-size:13px;font-weight:600;color:var(--text)}
+.cred-aut{font-size:11px;color:var(--mute)}
+.cred-item-sub{font-size:11px;color:var(--soft);line-height:1.4}
+.cred-lnk{color:var(--indigo);font-weight:600;text-decoration:none}
+.cred-lnk:hover{text-decoration:underline}
+
+/* ── AVISO EN EL LECTOR (pie de capítulo) ────────────────────── */
+.lec-credit{font-size:11px;color:var(--mute);line-height:1.5;padding:12px 0 4px;border-top:1px solid var(--border);margin-top:8px;text-align:center}
+.lec-credit a{color:var(--indigo);text-decoration:none;font-weight:600}
+.lec-credit a:hover{text-decoration:underline}
