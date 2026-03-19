@@ -1,0 +1,143 @@
+{
+  "id": 19,
+  "tit": "El gato con botas",
+  "aut": "Charles Perrault",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "perrault",
+  "emo": "🐱",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_gato_con_botas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "La herencia del hijo menor",
+      "frases": [
+        {
+          "es": "Un molinero dejó por toda herencia a sus tres hijos el molino, el asno y el gato. El reparto fue cosa breve: al mayor le correspondió el molino, al segundo el asno, y al menor el gato.",
+          "en": "A miller left his three sons nothing but his mill, his donkey and his cat. The division was simple: the eldest got the mill, the second the donkey, and the youngest the cat.",
+          "fr": "Un meunier ne laissa pour tous biens à ses trois enfants que son moulin, son âne et son chat. Le partage fut bientôt fait : l'aîné eut le moulin, le second eut l'âne, et le plus jeune n'eut que le chat.",
+          "de": "Ein Müller hinterließ seinen drei Söhnen als einziges Erbe die Mühle, den Esel und die Katze. Die Aufteilung war schnell erledigt: Der Älteste erhielt die Mühle, der Zweite den Esel und der Jüngste die Katze.",
+          "it": "Un mugnaio lasciò in eredità ai suoi tre figli solo il mulino, l'asino e il gatto. La divisione fu sbrigativa: al maggiore toccò il mulino, al secondo l'asino e al minore il gatto.",
+          "pt": "Um moleiro deixou em herança aos seus três filhos apenas o moinho, o burro e o gato. A partilha foi rápida: ao mais velho coube o moinho, ao segundo o burro, e ao mais novo o gato.",
+          "ca": "Un moliner va deixar en herència als seus tres fills només el molí, el ruc i el gat. El repartiment va ser ràpid: al gran li va correspondre el molí, al segon el ruc, i al petit el gat."
+        },
+        {
+          "es": "El hijo menor no podía consolarse de haber recibido tan pobre lote. El gato, que oía sus lamentos, le dijo con aire serio: «No os aflijáis. Dadme un saco y un par de botas para andar por la maleza, y veréis que vuestro lote no es tan malo como pensáis.»",
+          "en": "The youngest son could not console himself for having received such a poor share. The cat, hearing his laments, said to him with a serious air: 'Do not be downcast. Give me a sack and a pair of boots to go through the bushes, and you will see that your share is not as bad as you think.'",
+          "fr": "Le plus jeune ne pouvait se consoler d'avoir eu un si pauvre lot. Le chat qui entendait ses plaintes lui dit d'un air posé : « Ne vous affligez point. Donnez-moi un sac et une paire de bottes pour aller dans les broussailles, et vous verrez que votre lot n'est pas si mauvais que vous le croyez. »",
+          "de": "Der jüngste Sohn konnte sich nicht damit abfinden, ein so armseliges Los erhalten zu haben. Die Katze, die sein Klagen hörte, sagte ihm mit ernstem Gesicht: Betrübt euch nicht. Gebt mir einen Sack und ein Paar Stiefel, um durch das Unterholz zu gehen, und ihr werdet sehen, dass euer Los nicht so schlecht ist, wie ihr denkt.",
+          "it": "Il figlio minore non riusciva a consolarsi di aver ricevuto un lotto così povero. Il gatto, che sentiva le sue lamentele, gli disse con aria seria: Non vi disperate. Datemi un sacco e un paio di stivali per andare nei cespugli, e vedrete che il vostro lotto non è così cattivo come pensate.",
+          "pt": "O filho mais novo não conseguia consolar-se de ter recebido uma parte tão pobre. O gato, que ouvia os seus lamentos, disse-lhe com ar sério: Não vos aflijais. Dai-me um saco e um par de botas para andar pelo matagal, e vereis que a vossa parte não é tão má como pensais.",
+          "ca": "El fill petit no podia consolar-se d'haver rebut un lot tan pobre. El gat, que escoltava els seus laments, li va dir amb aire seriós: No us afligiu. Doneu-me un sac i un parell de botes per anar pel matagall, i veureu que el vostre lot no és tan dolent com creieu."
+        },
+        {
+          "es": "El gato se calzó las botas, metió salvado y cerrajas en el saco y se tendió como muerto hasta que un conejo entró en él. Luego fue al palacio del rey y pidió hablarle.",
+          "en": "The cat put on his boots, put bran and some herbs into the sack and lay as if dead until a rabbit went inside. Then he went to the king's palace and asked to speak with him.",
+          "fr": "Le chat se chaussa les bottes, mit du son et des lacerons dans le sac et se tendit comme mort jusqu'à ce qu'un lapin y entre. Puis il alla au palais du roi et demanda à lui parler.",
+          "de": "Die Katze zog die Stiefel an, legte Kleie und etwas Unkraut in den Sack und stellte sich tot, bis ein Kaninchen hineinlief. Dann ging sie zum Königspalast und bat um eine Audienz.",
+          "it": "Il gatto si calzò gli stivali, mise crusca e alcune erbe nel sacco e si finse morto finché un coniglio ci entrò dentro. Poi andò al palazzo del re e chiese di parlargli.",
+          "pt": "O gato calçou as botas, pôs farelo e algumas ervas no saco e fingiu-se morto até que um coelho entrou nele. Depois foi ao palácio do rei e pediu para falar com ele.",
+          "ca": "El gat va calçar les botes, va posar segó i algunes herbes al sac i es va ficar com mort fins que un conill hi va entrar. Després va anar al palau del rei i va demanar parlar amb ell."
+        },
+        {
+          "es": "El gato hizo una gran reverencia al rey y le dijo: «Señor, el marqués de la Chirimía os ofrece este conejo de caza.» El rey lo recibió con mucho gusto y así el gato, durante algunos meses, llevó regularmente al rey caza en nombre de su amo.",
+          "en": "The cat made a deep bow to the king and said: 'Sire, the Marquis of Carabas presents you with this game rabbit.' The king received it very graciously, and so the cat, for several months, regularly brought the king game in his master's name.",
+          "fr": "Le chat fit une grande révérence au roi et lui dit : « Sire, le marquis de Carabas vous offre ce lapin de garenne. » Le roi le reçut de fort bonne grâce et ainsi le chat, pendant quelques mois, porta régulièrement au roi du gibier au nom de son maître.",
+          "de": "Die Katze machte dem König eine tiefe Verbeugung und sagte: Sire, der Marquis von Carabas schickt Euch dieses Jagdkaninchen. Der König nahm es sehr gnädig an und so brachte die Katze dem König mehrere Monate lang regelmäßig Wild im Namen ihres Herrn.",
+          "it": "Il gatto fece una grande riverenza al re e gli disse: Sire, il marchese di Carabas vi offre questo coniglio da caccia. Il re lo ricevette molto gentilmente e così il gatto, per alcuni mesi, portò regolarmente al re della selvaggina a nome del suo padrone.",
+          "pt": "O gato fez uma grande vénia ao rei e disse-lhe: Senhor, o marquês de Carabás oferece-vos este coelho de caça. O rei recebeu-o muito agradavelmente e assim o gato, durante alguns meses, trouxe regularmente ao rei caça em nome do seu amo.",
+          "ca": "El gat va fer una gran reverència al rei i li va dir: Senyor, el marquès de la Xiremia us ofereix aquest conill de caça. El rei el va rebre molt amablement i així el gat, durant alguns mesos, va portar regularment al rei caça en nom del seu amo."
+        }
+      ]
+    },
+    {
+      "tit": "El baño del marqués",
+      "frases": [
+        {
+          "es": "Un día el gato supo que el rey iba a pasear junto a su hija, la más bella de las princesas, a orillas del río. Fue corriendo a decirle a su amo que se bañara en el río y que dejara todo lo demás a su cargo.",
+          "en": "One day the cat learned that the king was going for a drive along the river bank with his daughter, the most beautiful princess. He ran to tell his master to go and bathe in the river and leave everything else to him.",
+          "fr": "Un jour le chat apprit que le roi devait aller se promener avec sa fille, la plus belle princesse, au bord de la rivière. Il courut dire à son maître de se baigner dans la rivière et de laisser tout le reste à ses soins.",
+          "de": "Eines Tages erfuhr die Katze, dass der König mit seiner Tochter, der schönsten Prinzessin, am Fluss spazieren fahren würde. Sie lief und sagte ihrem Herrn, er solle im Fluss baden und alles andere ihr überlassen.",
+          "it": "Un giorno il gatto seppe che il re sarebbe andato a passeggiare con sua figlia, la più bella delle principesse, lungo le rive del fiume. Corse a dire al suo padrone di fare il bagno nel fiume e di lasciare tutto il resto alle sue cure.",
+          "pt": "Um dia o gato soube que o rei ia passear com a sua filha, a mais bela das princesas, à beira do rio. Foi a correr dizer ao seu amo que se banhasse no rio e que deixasse tudo o resto ao seu cuidado.",
+          "ca": "Un dia el gat va saber que el rei anava a passejar amb la seva filla, la més bella de les princeses, a la vora del riu. Va córrer a dir al seu amo que es banyés al riu i que deixés tot la resta al seu càrrec."
+        },
+        {
+          "es": "Mientras el marqués se bañaba pasó el rey y el gato comenzó a gritar: «¡Socorro! ¡El marqués de la Chirimía se ahoga!» El rey reconoció al gato y mandó a sus guardias que sacaran al marqués del agua.",
+          "en": "While the marquis was bathing the king drove past and the cat began to cry out: 'Help! Help! My Lord Marquis of Carabas is drowning!' The king recognised the cat and ordered his guards to pull the marquis out of the water.",
+          "fr": "Pendant que le marquis se baignait, le roi passa et le chat se mit à crier : « Au secours ! Au secours ! Monsieur le marquis de Carabas se noie ! » Le roi reconnut le chat et ordonna à ses gardes de tirer le marquis de l'eau.",
+          "de": "Während der Marquis badete, kam der König vorbei und die Katze begann zu rufen: Hilfe! Hilfe! Der Herr Marquis von Carabas ertrinkt! Der König erkannte die Katze und befahl seinen Wachen, den Marquis aus dem Wasser zu ziehen.",
+          "it": "Mentre il marchese faceva il bagno passò il re e il gatto cominciò a gridare: Aiuto! Aiuto! Il marchese di Carabas sta annegando! Il re riconobbe il gatto e ordinò alle sue guardie di tirare fuori il marchese dall'acqua.",
+          "pt": "Enquanto o marquês se banhava passou o rei e o gato começou a gritar: Socorro! Socorro! O marquês de Carabás está a afogar-se! O rei reconheceu o gato e ordenou às suas guardas que tirassem o marquês da água.",
+          "ca": "Mentre el marquès es banyava va passar el rei i el gat va començar a cridar: Socorro! Socorro! El marquès de la Xiremia s'ofega! El rei va reconèixer el gat i va ordenar als seus guàrdies que traguessin el marquès de l'aigua."
+        },
+        {
+          "es": "El gato explicó al rey que unos ladrones habían robado los vestidos del marqués mientras se bañaba. El rey ordenó traer uno de sus mejores trajes y quiso que el marqués subiera al coche para acompañarle en el paseo.",
+          "en": "The cat told the king that some thieves had stolen the marquis's clothes while he bathed. The king ordered one of his finest suits to be brought and insisted that the marquis ride in the coach with him.",
+          "fr": "Le chat dit au roi que des voleurs avaient dérobé les habits du marquis pendant qu'il se baignait. Le roi ordonna qu'on apportât un de ses plus beaux habits et voulut que le marquis montât en carrosse pour l'accompagner dans sa promenade.",
+          "de": "Die Katze erklärte dem König, dass Diebe die Kleider des Marquis gestohlen hatten, während er badete. Der König ließ einen seiner schönsten Anzüge bringen und bestand darauf, dass der Marquis in die Kutsche stieg, um ihn bei seiner Spazierfahrt zu begleiten.",
+          "it": "Il gatto disse al re che dei ladri avevano rubato i vestiti del marchese mentre faceva il bagno. Il re ordinò che venisse portato uno dei suoi abiti più belli e volle che il marchese salisse in carrozza per accompagnarlo nella passeggiata.",
+          "pt": "O gato disse ao rei que uns ladrões tinham roubado as roupas do marquês enquanto ele se banhava. O rei mandou trazer um dos seus melhores trajes e quis que o marquês subisse à carruagem para o acompanhar no passeio.",
+          "ca": "El gat va dir al rei que uns lladres havien robat la roba del marquès mentre es banyava. El rei va ordenar portar un dels seus millors vestits i va voler que el marquès pugés al carruatge per acompanyar-lo en el passeig."
+        },
+        {
+          "es": "El gato corría delante de la carroza y decía a todos los que trabajaban los campos: «Si el rey os pregunta de quién son estas tierras, decidle que son del marqués de la Chirimía, o seréis destrozados.» Y así lo hacían todos, asombrando al rey con la riqueza del marqués.",
+          "en": "The cat ran ahead of the carriage and told all the labourers working in the fields: 'If the king asks whose lands these are, tell him they belong to the Marquis of Carabas, or you will be chopped into little pieces.' And so they all did, astonishing the king with the marquis's wealth.",
+          "fr": "Le chat courait devant le carrosse et disait à tous ceux qui travaillaient les champs : « Si le roi vous demande à qui appartiennent ces terres, dites-lui qu'elles sont au marquis de Carabas, ou vous serez haché menu. » Et tous le faisaient, étonnant le roi par la richesse du marquis.",
+          "de": "Die Katze lief vor der Kutsche her und sagte allen Feldarbeitern: Wenn der König euch fragt, wem diese Ländereien gehören, sagt ihm, sie gehören dem Marquis von Carabas, oder ihr werdet in Stücke gehackt. Und so taten alle, was den König über den Reichtum des Marquis erstaunte.",
+          "it": "Il gatto correva davanti alla carrozza e diceva a tutti quelli che lavoravano nei campi: Se il re vi chiede di chi sono queste terre, ditegli che sono del marchese di Carabas, o sarete fatti a pezzi. E così facevano tutti, stupendo il re con la ricchezza del marchese.",
+          "pt": "O gato corria à frente da carruagem e dizia a todos os que trabalhavam os campos: Se o rei vos perguntar de quem são estas terras, dizei-lhe que são do marquês de Carabás, ou sereis despedaçados. E assim faziam todos, surpreendendo o rei com a riqueza do marquês.",
+          "ca": "El gat corria davant del carruatge i deia a tots els que treballaven els camps: Si el rei us pregunta de qui són aquestes terres, digueu-li que són del marquès de la Xiremia, o sereu esbocinats. I així ho feien tots, sorprenent el rei amb la riquesa del marquès."
+        }
+      ]
+    },
+    {
+      "tit": "El castillo del ogro",
+      "frases": [
+        {
+          "es": "El gato llegó por último a un hermoso castillo cuyo dueño era un ogro, el más rico que se conocía. El gato pidió hablarle y el ogro le recibió con la finura de que es capaz un ogro.",
+          "en": "The cat finally arrived at a magnificent castle owned by an ogre, the richest one known. The cat asked to speak with him and the ogre received him with such courtesy as an ogre is capable of.",
+          "fr": "Le chat arriva enfin dans un beau château dont le maître était un ogre, le plus riche qu'on eût jamais vu. Le chat demanda à lui parler et l'ogre le reçut avec toute la politesse dont un ogre est capable.",
+          "de": "Die Katze gelangte schließlich zu einem prächtigen Schloss, das einem Oger gehörte, dem reichsten, der je bekannt war. Die Katze bat um eine Unterredung und der Oger empfing sie mit der Höflichkeit, zu der ein Oger fähig ist.",
+          "it": "Il gatto arrivò infine a un bel castello il cui padrone era un orco, il più ricco che si conoscesse. Il gatto chiese di parlargli e l'orco lo ricevette con tutta la cortesia di cui un orco è capace.",
+          "pt": "O gato chegou por último a um belo castelo cujo dono era um ogre, o mais rico que se conhecia. O gato pediu para falar com ele e o ogre recebeu-o com toda a delicadeza de que um ogre é capaz.",
+          "ca": "El gat va arribar finalment a un bell castell el propietari del qual era un ogre, el més ric que es coneixia. El gat va demanar parlar-li i l'ogre el va rebre amb tota la cortesia de la qual un ogre és capaç."
+        },
+        {
+          "es": "«Me han asegurado», dijo el gato, «que tenéis el don de transformaros en toda clase de animales. Por ejemplo, que podéis convertiros en leon.» «Es verdad», contestó el ogro, «y para demostrarlo me veréis convertido en leon.» Tan grande fue el espanto del gato que de un salto se subió al tejado.",
+          "en": "'I have been told,' said the cat, 'that you have the power of transforming yourself into all kinds of animals. For example, that you can change yourself into a lion.' 'That is true,' answered the ogre, 'and to prove it you shall see me become a lion.' The cat was so terrified that he leapt at once onto the roof.",
+          "fr": "« On m'a assuré, dit le chat, que vous aviez le don de vous transformer en toutes sortes d'animaux. Par exemple, que vous pouviez vous changer en lion. » « C'est vrai, répondit l'ogre, et pour le prouver vous allez me voir devenir lion. » La frayeur du chat fut si grande qu'il sauta aussitôt sur le toit.",
+          "de": "Man hat mir versichert, sagte die Katze, dass Ihr die Gabe habt, Euch in alle möglichen Tiere zu verwandeln. Zum Beispiel, dass Ihr Euch in einen Löwen verwandeln könnt. Das stimmt, antwortete der Oger, und um es zu beweisen, sollt Ihr mich als Löwen sehen. Der Schrecken der Katze war so groß, dass sie sofort aufs Dach sprang.",
+          "it": "Mi è stato assicurato, disse il gatto, che avete il dono di trasformarvi in ogni sorta di animali. Per esempio, che potete diventare un leone. È vero, rispose l'orco, e per dimostrarlo mi vedrete trasformato in leone. Lo spavento del gatto fu così grande che in un salto si arrampicò sul tetto.",
+          "pt": "Disseram-me, disse o gato, que tendes o dom de vos transformar em toda a sorte de animais. Por exemplo, que podeis transformar-vos em leão. É verdade, respondeu o ogre, e para o provar vereis como me transformo em leão. O susto do gato foi tão grande que de um salto subiu ao telhado.",
+          "ca": "M'han assegurat, va dir el gat, que teniu el do de transformar-vos en tota mena d'animals. Per exemple, que podeu convertir-vos en lleó. És veritat, va contestar l'ogre, i per demostrar-ho em veureu convertit en lleó. L'espant del gat va ser tan gran que d'un salt va pujar al teulat."
+        },
+        {
+          "es": "Cuando el ogro hubo recobrado su primera forma, el gato bajó y añadió: «También me han dicho que podéis tomar la forma de los animales más pequeños, como un ratón. Eso sí que lo tengo por imposible.» El ogro se transformó en ratón al instante y el gato se lo comió.",
+          "en": "When the ogre had taken his own form again, the cat came down and added: 'I have also been told that you can take the form of the smallest animals, such as a mouse. That I confess I find quite impossible.' The ogre changed himself at once into a mouse and the cat ate him up.",
+          "fr": "Quand l'ogre eut repris sa première forme, le chat descendit et ajouta : « On m'a aussi assuré que vous pouviez prendre la forme des plus petits animaux, comme un rat. Cela, j'avoue, me paraît tout à fait impossible. » L'ogre se transforma aussitôt en rat et le chat le mangea.",
+          "de": "Als der Oger seine ursprüngliche Gestalt wieder angenommen hatte, kam die Katze herunter und fügte hinzu: Man hat mir auch gesagt, dass Ihr die Gestalt der kleinsten Tiere annehmen könnt, wie eine Maus. Das gestehe ich, halte ich für ganz unmöglich. Der Oger verwandelte sich sofort in eine Maus und die Katze fraß ihn.",
+          "it": "Quando l'orco ebbe ripreso la sua prima forma, il gatto scese e aggiunse: Mi è stato anche detto che potete prendere la forma degli animali più piccoli, come un topo. Questo confesso che lo ritengo del tutto impossibile. L'orco si trasformò immediatamente in un topo e il gatto lo mangiò.",
+          "pt": "Quando o ogre voltou à sua primeira forma, o gato desceu e acrescentou: Disseram-me também que podeis tomar a forma dos animais mais pequenos, como um rato. Isso confesso que acho totalmente impossível. O ogre transformou-se imediatamente num rato e o gato comeu-o.",
+          "ca": "Quan l'ogre va recuperar la seva primera forma, el gat va baixar i va afegir: M'han dit també que podeu prendre la forma dels animals més petits, com un ratolí. Això confesso que ho trobo del tot impossible. L'ogre es va transformar immediatament en un ratolí i el gat se'l va menjar."
+        },
+        {
+          "es": "Cuando el rey llegó al castillo, el gato le dijo: «Bienvenido al castillo del señor marqués de la Chirimía.» El rey quedó maravillado. El marqués dio la mano a la joven princesa y el rey, muy satisfecho de las buenas cualidades del marqués, le ofreció la mano de su hija. El marqués se casó con la princesa aquel mismo día. El gato llegó a ser un señor muy principal y ya solo cazó ratones por diversión.",
+          "en": "When the king arrived at the castle, the cat said to him: 'Welcome to the castle of my Lord Marquis of Carabas.' The king was astonished. The marquis gave his hand to the young princess and the king, very pleased with the marquis's fine qualities, offered him his daughter's hand. The marquis married the princess that very day. The cat became a great lord and only chased mice for fun.",
+          "fr": "Quand le roi arriva au château, le chat lui dit : « Bienvenu au château de monsieur le marquis de Carabas. » Le roi fut émerveillé. Le marquis donna la main à la jeune princesse et le roi, très satisfait des bonnes qualités du marquis, lui offrit la main de sa fille. Le marquis épousa la princesse ce jour même. Le chat devint un grand seigneur et ne chassa plus les souris que pour son plaisir.",
+          "de": "Als der König beim Schloss ankam, sagte die Katze zu ihm: Willkommen im Schloss des Herrn Marquis von Carabas. Der König war beeindruckt. Der Marquis reichte der jungen Prinzessin die Hand und der König, sehr zufrieden mit den guten Eigenschaften des Marquis, bot ihm die Hand seiner Tochter an. Der Marquis heiratete die Prinzessin noch am selben Tag. Die Katze wurde ein großer Herr und jagte Mäuse nur noch zum Vergnügen.",
+          "it": "Quando il re arrivò al castello, il gatto gli disse: Benvenuto al castello del signor marchese di Carabas. Il re fu meravigliato. Il marchese diede la mano alla giovane principessa e il re, molto soddisfatto delle buone qualità del marchese, gli offrì la mano di sua figlia. Il marchese sposò la principessa quello stesso giorno. Il gatto divenne un gran signore e da allora cacciò i topi solo per divertimento.",
+          "pt": "Quando o rei chegou ao castelo, o gato disse-lhe: Bem-vindo ao castelo do senhor marquês de Carabás. O rei ficou maravilhado. O marquês deu a mão à jovem princesa e o rei, muito satisfeito com as boas qualidades do marquês, ofereceu-lhe a mão da sua filha. O marquês casou com a princesa nesse mesmo dia. O gato tornou-se um grande senhor e daí em diante só caçou ratos por diversão.",
+          "ca": "Quan el rei va arribar al castell, el gat li va dir: Benvingut al castell del senyor marquès de la Xiremia. El rei va quedar meravellat. El marquès va donar la mà a la jove princesa i el rei, molt satisfet de les bones qualitats del marquès, li va oferir la mà de la seva filla. El marquès es va casar amb la princesa aquell mateix dia. El gat es va convertir en un gran senyor i des d'aleshores només va caçar ratolins per diversió."
+        }
+      ]
+    }
+  ]
+}
