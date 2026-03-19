@@ -1,0 +1,116 @@
+{
+  "id": 25,
+  "tit": "Cinco en una vaina",
+  "aut": "Hans Christian Andersen",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "andersen",
+  "emo": "🫛",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Cinco_en_una_vaina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "Los cinco guisantes",
+      "frases": [
+        {
+          "es": "Cinco guisantes estaban encerrados en una vaina verde. Crecieron juntos y soñaban con el mundo exterior. Cuando la vaina se volvio amarilla, supieron que era el momento de salir.",
+          "en": "Five peas were shut up inside a green pod. They grew together and dreamed of the world outside. When the pod turned yellow they knew the time had come to leave.",
+          "fr": "Cinq petits pois etaient enfermes dans une cosse verte. Ils grandirent ensemble et rêvaient du monde exterieur. Quand la cosse devint jaune, ils sentirent que le moment etait venu de partir.",
+          "de": "Fuenf Erbsen waren in einer gruenen Huelse eingeschlossen. Sie wuchsen zusammen auf und traeumten von der Aussenwelt. Als die Huelse gelb wurde, wussten sie, dass die Zeit gekommen war zu gehen.",
+          "it": "Cinque piselli erano chiusi in un baccello verde. Crebbero insieme e sognavano il mondo esterno. Quando il baccello divento giallo, capirono che era giunto il momento di uscire.",
+          "pt": "Cinco ervilhas estavam fechadas numa vagem verde. Cresceram juntas e sonhavam com o mundo exterior. Quando a vagem ficou amarela, souberam que era o momento de sair.",
+          "ca": "Cinc pesols estaven tancats en una tavella verda. Van creixer junts i somniaven amb el mon exterior. Quan la tavella es va tornar groga, van saber que era el moment de sortir."
+        },
+        {
+          "es": "«Nos pasaremos toda la vida metidos aqui?», decian. «Me da la impresion de que hay mas cosas alla fuera.» Un dia una mano infantil arranco la vaina y un niño soplo los guisantes por un cañuto uno a uno.",
+          "en": "'Are we to stay in here for ever?' they asked. 'I have a feeling there are greater things out there.' One day a child's hand picked the pod and a boy blew the peas out through a peashooter one by one.",
+          "fr": "« Passerons-nous toute notre vie ici ? » demandaient-ils. « J'ai l'impression qu'il y a plus de choses la-dehors. » Un jour une main d'enfant cueillit la cosse et un garcon souffla les pois a travers une sarbacane un a un.",
+          "de": "Werden wir fuer immer hier drin bleiben?, fragten sie. Ich habe das Gefuehl, dass es da draussen mehr gibt. Eines Tages pflueckte eine Kinderhand die Huelse und ein Junge blies die Erbsen durch eine Pusteroehre eine nach der anderen heraus.",
+          "it": "Resteremo qui dentro per sempre?, chiedevano. Ho la sensazione che ci siano cose piu grandi la fuori. Un giorno una mano di bambino colse il baccello e un ragazzo soffi i piselli attraverso una cerbottana uno per uno.",
+          "pt": "Ficamos aqui para sempre?, perguntavam. Tenho a sensacao de que ha mais coisas la fora. Um dia uma mao infantil colheu a vagem e um menino soprou as ervilhas por uma zarabatana uma a uma.",
+          "ca": "Ens quedarem aqui per sempre?, deien. Tinc la sensacio que hi ha mes coses alla fora. Un dia una ma infantil va arrencar la tavella i un nen va bufar els pesols per un canuto un a un."
+        },
+        {
+          "es": "Cada guisante tenia un destino. Los primeros dijeron que volarian hasta el Sol o hasta lo mas lejos posible. El cuarto cayo en un vertedero y se quedo ahi muy satisfecho. Solo el quinto, el que dijo simplemente «sera lo que haya de ser», tuvo el destino mas hermoso.",
+          "en": "Each pea had its own destiny. The first ones boasted they would fly to the sun or as far as possible. The fourth fell into a gutter and stayed there very pleased with itself. Only the fifth, which simply said 'it will be what it will be', had the most beautiful fate.",
+          "fr": "Chaque pois avait son destin. Les premiers disaient qu'ils voleraient jusqu'au soleil ou le plus loin possible. Le quatrieme tomba dans un caniveau et y resta tres satisfait. Seul le cinquieme, qui dit simplement « ce sera ce qui doit etre », eut le destin le plus beau.",
+          "de": "Jede Erbse hatte ihr eigenes Schicksal. Die ersten prahlten, sie wuerden bis zur Sonne oder so weit wie moeglich fliegen. Die vierte fiel in einen Graben und blieb dort sehr zufrieden. Nur die fuenfte, die einfach sagte, es wird sein, was es sein wird, hatte das schoenste Schicksal.",
+          "it": "Ogni pisello aveva il suo destino. I primi si vantavano che sarebbero volati fino al sole o piu lontano possibile. Il quarto cadde in uno scarico e rimase li molto soddisfatto. Solo il quinto, che disse semplicemente sara quel che sara, ebbe il destino piu bello.",
+          "pt": "Cada ervilha tinha o seu destino. As primeiras gabavam-se que voariam ate ao sol ou o mais longe possivel. A quarta caiu numa sarjeta e ficou la muito satisfeita. So a quinta, que simplesmente disse sera o que tiver de ser, teve o destino mais belo.",
+          "ca": "Cada pesol tenia el seu desti. Els primers deien que volarien fins al sol o el mes lluny possible. El quart va caure en un abocador i es va quedar alla molt satisfet. Nomes el cinque, que va dir simplement sera el que hagi de ser, va tenir el desti mes bonic."
+        }
+      ]
+    },
+    {
+      "tit": "La niña enferma",
+      "frases": [
+        {
+          "es": "En una buhardilla vivia una pobre mujer con su unica hija, una mocita delicada que llevaba mucho tiempo enferma en cama. La madre suspirab: «¡Se ira con su hermanita!», recordando que ya habia perdido a una hija.",
+          "en": "In a garret room lived a poor woman with her only daughter, a delicate girl who had been ill in bed for a long time. The mother sighed: 'She will go the same way as her little sister!' remembering she had already lost one daughter.",
+          "fr": "Dans une mansarde vivait une pauvre femme avec sa fille unique, une jeune fille delicate qui etait depuis longtemps alitee. La mere soupirait : « Elle s'en ira comme sa petite soeur ! » en se souvenant qu'elle avait deja perdu une fille.",
+          "de": "Auf einem Dachboden lebte eine arme Frau mit ihrer einzigen Tochter, einem zarten Maedchen, das seit langer Zeit krank im Bett lag. Die Mutter seufzte: Sie wird das gleiche Ende nehmen wie ihre kleine Schwester!, als sie sich erinnerte, dass sie bereits eine Tochter verloren hatte.",
+          "it": "In una soffitta viveva una povera donna con la sua unica figlia, una ragazzina delicata che da molto tempo era a letto malata. La madre sospirava: Se ne andra come la sua sorellina!, ricordando che aveva gia perso una figlia.",
+          "pt": "Num sotao vivia uma pobre mulher com a sua unica filha, uma mocinha delicada que havia muito tempo estava doente na cama. A mae suspirava: Ira para junto da sua irmazinha!, lembrando que ja tinha perdido uma filha.",
+          "ca": "En unes golfes vivia una pobra dona amb la seva unica filla, una noieta delicada que feia molt temps que estava malalta al llit. La mare sospiraba: Se n'anira amb la seva germaneta!, recordant que ja havia perdut una filla."
+        },
+        {
+          "es": "Una manana de primavera la nina vio algo verde asomando junto al cristal de la ventana. Era una planta de guisante que habia brotado en una rendija. «¡Pon la camita cerca de la ventana para que pueda verla!», pidio la nina.",
+          "en": "One spring morning the girl saw something green peeping in at the window. It was a little pea plant that had sprouted in a crack. 'Move my little bed close to the window so I can see it!' the girl asked.",
+          "fr": "Un matin de printemps la petite fille vit quelque chose de vert poindre contre le carreau de la fenetre. C'etait une petite plante de pois qui avait pousse dans une fissure. « Mets mon petit lit pres de la fenetre pour que je puisse la voir ! » demanda la fillette.",
+          "de": "An einem Fruehlingsmorgen sah das Maedchen etwas Gruenes am Fensterglas erscheinen. Es war eine kleine Erbsenpflanze, die in einem Riss aufgegangen war. Stell mein Bettchen nah ans Fenster, damit ich sie sehen kann!, bat das Maedchen.",
+          "it": "Una mattina di primavera la bambina vide qualcosa di verde spuntare contro il vetro della finestra. Era una piantina di pisello germogliata in una crepa. Porta il mio lettino vicino alla finestra cosi posso vederla!, chiese la bambina.",
+          "pt": "Uma manha de primavera a menina viu algo verde a espreitar pelo vidro da janela. Era uma plantinha de ervilha que tinha brotado numa fenda. Poem a minha caminha perto da janela para eu poder ve-la!, pediu a menina.",
+          "ca": "Un mati de primavera la nena va veure alguna cosa verda apareixent al vidre de la finestra. Era una planteta de pesol que havia brotat en una escletxa. Posa el meu llit prop de la finestra per poder-la veure!, va demanar la nena."
+        },
+        {
+          "es": "La madre puso un palito al lado de la planta y un bramante para guiarla. La planta crecia dia a dia, y con ella la esperanza de la madre. La semana siguiente la nina se levanto por primera vez y se estuvo un rato, feliz, al lado de la ventana, contemplando su guisante en flor.",
+          "en": "The mother put a small stake beside the plant and a string to guide it upwards. The plant grew day by day and with it the mother's hope. The following week the girl got up for the first time and stood happily for a while by the window, looking at her flowering pea plant.",
+          "fr": "La mere mit un petit tuteur a cote de la plante et une ficelle pour la guider. La plante grandissait de jour en jour, et avec elle l'espoir de la mere. La semaine suivante la fillette se leva pour la premiere fois et se tint heureuse un moment pres de la fenetre, contemplant son pois en fleur.",
+          "de": "Die Mutter stellte einen kleinen Pfahl neben die Pflanze und eine Schnur, um sie zu fuehren. Die Pflanze wuchs von Tag zu Tag, und mit ihr die Hoffnung der Mutter. Die folgende Woche stand das Maedchen zum ersten Mal auf und stand gluecklich eine Weile am Fenster und betrachtete ihre bluehende Erbsenpflanze.",
+          "it": "La madre mise un piccolo tutore accanto alla pianta e uno spago per guidarla. La pianta cresceva giorno per giorno, e con essa la speranza della madre. La settimana successiva la bambina si alzo per la prima volta e si fermo felice per un po' accanto alla finestra, contemplando il suo pisello in fiore.",
+          "pt": "A mae pos um pequeno pau ao lado da planta e um fio para a orientar. A planta crescia dia a dia e com ela a esperanca da mae. Na semana seguinte a menina levantou-se pela primeira vez e ficou feliz um momento junto a janela, contemplando a sua ervilha em flor.",
+          "ca": "La mare va posar un paleta al costat de la planta i un braguer per guiar-la. La planta creixia dia a dia, i amb ella l'esperanca de la mare. La setmana seguent la nena es va aixecar per primera vegada i es va estar feliç una estona vora la finestra, contemplant el seu pesol florit."
+        }
+      ]
+    },
+    {
+      "tit": "El guisante que cayo bien",
+      "frases": [
+        {
+          "es": "«¡Dios misericordioso la planto y la hizo crecer para darte esperanza y alegria, hijita!», dijo la madre radiante, sonriendo a la flor como si fuese un angel bueno enviado por Dios.",
+          "en": "'God planted it and made it grow to give you hope and joy, my child!' said the mother radiantly, smiling at the flower as if it were a good angel sent by God.",
+          "fr": "« Dieu l'a plantee et l'a fait pousser pour te donner espoir et joie, ma petite ! » dit la mere radieuse, souriant a la fleur comme si c'etait un bon ange envoye par Dieu.",
+          "de": "Gott hat sie gepflanzt und wachsen lassen, um dir Hoffnung und Freude zu geben, mein Kind!, sagte die Mutter strahlend und laechelte die Blume an, als waere sie ein guter Engel, der von Gott gesandt wurde.",
+          "it": "Dio l'ha piantata e l'ha fatta crescere per darti speranza e gioia, figliola!, disse la madre raggiante, sorridendo al fiore come se fosse un buon angelo mandato da Dio.",
+          "pt": "Deus plantou-a e fez com que crescesse para te dar esperanca e alegria, filhinha!, disse a mae radiante, sorrindo para a flor como se fosse um anjo bom enviado por Deus.",
+          "ca": "Deu la va plantar i la va fer creixer per donar-te esperanca i alegria, filleta!, va dir la mare radiant, somrient a la flor com si fos un angel bo enviat per Deu."
+        },
+        {
+          "es": "¿Y los otros cuatro guisantes? Uno fue alcanzado por una paloma. Dos crecieron en la tierra y fueron comidos. El cuarto cayo en el vertedero y engordo ahi, muy satisfecho de si mismo, creyendo que era el mas notable.",
+          "en": "And the other four peas? One was caught by a pigeon. Two sprouted in the earth and were eaten. The fourth fell in the gutter and grew fat there, very pleased with itself, believing it was the most notable of all.",
+          "fr": "Et les quatre autres pois ? L'un fut attrape par un pigeon. Deux germerent dans la terre et furent manges. Le quatrieme tomba dans le caniveau et y engraissa, tres satisfait de lui-meme, croyant etre le plus remarquable.",
+          "de": "Und die anderen vier Erbsen? Eine wurde von einer Taube erwischt. Zwei keimten in der Erde auf und wurden gefressen. Die vierte fiel in den Rinnstein und wurde dort fett, sehr zufrieden mit sich selbst, glaubend, die bemerkenswerteste zu sein.",
+          "it": "E gli altri quattro piselli? Uno fu preso da un piccione. Due germogliarono nella terra e furono mangiati. Il quarto cadde nello scarico e li ingrasso, molto soddisfatto di se stesso, credendo di essere il piu notevole.",
+          "pt": "E as outras quatro ervilhas? Uma foi apanhada por um pombo. Duas germinaram na terra e foram comidas. A quarta caiu na sarjeta e la engordou, muito satisfeita consigo mesma, acreditando ser a mais notavel.",
+          "ca": "I els altres quatre pesols? Un va ser atrapat per un colom. Dos van brotar a la terra i van ser menjats. El quart va caure a l'abocador i alla va engreixar, molt satisfet de si mateix, creient que era el mes notable."
+        },
+        {
+          "es": "Pero el mejor destino fue el del quinto guisante, el que habia dicho «sera lo que haya de ser». El habia brotado justo bajo la ventana de una nina enferma, y con sus flores le habia devuelto las ganas de vivir. Ese era el mejor guisante de todos.",
+          "en": "But the best fate of all belonged to the fifth pea, the one that had said 'it will be what it will be'. It had sprouted just beneath the window of a sick girl, and with its flowers had given her back the will to live. That was the best pea of all.",
+          "fr": "Mais le meilleur destin fut celui du cinquieme pois, celui qui avait dit « ce sera ce qui doit etre ». Il avait germe juste sous la fenetre d'une petite fille malade, et avec ses fleurs lui avait redonne l'envie de vivre. C'etait le meilleur des pois.",
+          "de": "Aber das schoenste Schicksal hatte die fuenfte Erbse, die gesagt hatte, es wird sein, was es sein wird. Sie war direkt unter dem Fenster eines kranken Maedchens aufgekeimt und hatte ihr mit ihren Blueten die Lebenslust zurueckgegeben. Das war die beste Erbse von allen.",
+          "it": "Ma il destino migliore fu quello del quinto pisello, quello che aveva detto sara quel che sara. Era germogliato proprio sotto la finestra di una bambina malata, e con i suoi fiori le aveva restituito la voglia di vivere. Quello era il pisello migliore di tutti.",
+          "pt": "Mas o melhor destino foi o da quinta ervilha, a que tinha dito sera o que tiver de ser. Tinha germinado mesmo por baixo da janela de uma menina doente e com as suas flores tinha devolvido a vontade de viver. Essa era a melhor ervilha de todas.",
+          "ca": "Pero el millor desti va ser el del cinque pesol, el que havia dit sera el que hagi de ser. Havia brotat just sota la finestra d'una nena malalta, i amb les seves flors li havia tornat les ganes de viure. Aquell era el millor pesol de tots."
+        }
+      ]
+    }
+  ]
+}
