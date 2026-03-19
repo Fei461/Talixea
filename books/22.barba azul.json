@@ -1,0 +1,125 @@
+{
+  "id": 22,
+  "tit": "Barba Azul",
+  "aut": "Charles Perrault",
+  "cat": "Cuentos",
+  "gratis": true,
+  "cov": "perrault",
+  "emo": "🗝️",
+  "totalCaps": 3,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Barba_Azul",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource. Traduccion de Coll y Vehi.",
+    "changes": "Extraido, normalizado y segmentado en capitulos para Talixea."
+  },
+  "caps": [
+    {
+      "tit": "La llave prohibida",
+      "frases": [
+        {
+          "es": "En otro tiempo vivia un hombre que tenia hermosas casas en la ciudad y en el campo, vajilla de oro y plata y muebles bordados. Por desgracia, este hombre tenia la barba azul, lo que le daba un aspecto tan horrible que no habia mujer ni muchacha que no huyera al verle.",
+          "en": "Once upon a time there was a man who had fine houses both in town and country, a deal of silver and gold plate, furniture of great value and coaches gilded all over. But unfortunately this man had a blue beard, which made him so ugly and terrible that all the women and girls ran away from him.",
+          "fr": "Il etait une fois un homme qui avait de belles maisons a la ville et a la campagne, de la vaisselle d'or et d'argent et des meubles brodes. Par malheur cet homme avait la barbe bleue, ce qui le rendait si laid et si terrible que toutes les femmes et les filles s'enfuyaient a sa vue.",
+          "de": "Es war einmal ein Mann, der schoene Haeuser in der Stadt und auf dem Land hatte, silbernes und goldenes Geschirr und gestickte Moebel. Leider hatte dieser Mann einen blauen Bart, was ihn so haesslich und schrecklich aussehen liess, dass alle Frauen und Maedchen vor ihm flohen.",
+          "it": "C'era una volta un uomo che aveva belle case in citta e in campagna, vasellame d'oro e d'argento e mobili ricamati. Purtroppo quest'uomo aveva la barba azzurra, il che lo rendeva cosi brutto e terribile che tutte le donne e le ragazze fuggivano alla sua vista.",
+          "pt": "Era uma vez um homem que tinha belas casas na cidade e no campo, baixela de ouro e prata e moveis bordados. Infelizmente este homem tinha a barba azul, o que o tornava tao feio e terrivel que todas as mulheres e raparigas fugiam ao ve-lo.",
+          "ca": "Hi havia una vegada un home que tenia belles cases a la ciutat i al camp, vaixella d'or i plata i mobles brodats. Malauradament, aquest home tenia la barba blava, cosa que el feia tan lleig i terrible que totes les dones i noies fugien en veure'l."
+        },
+        {
+          "es": "Una de sus vecinas, senora de rango, tenia dos hijas muy hermosas. Barba Azul le pidio una en matrimonio. La menor acabo por aceptar al ver que en realidad no era tan malo, y se casaron.",
+          "en": "One of his neighbours, a lady of quality, had two beautiful daughters. Bluebeard asked her for one of them in marriage. The youngest finally agreed when she saw he was not so bad after all, and they were married.",
+          "fr": "Une de ses voisines, dame de qualite, avait deux belles filles. La Barbe Bleue lui en demanda une en mariage. La plus jeune finit par accepter en voyant qu'il n'etait pas si mauvais au fond, et ils se marierent.",
+          "de": "Eine seiner Nachbarinnen, eine vornehme Dame, hatte zwei schoene Toechter. Blaubart bat sie um eine ihrer Toechter zur Frau. Die juengste stimmte schliesslich zu, als sie sah, dass er im Grunde gar nicht so schlimm war, und sie heirateten.",
+          "it": "Una delle sue vicine, una signora di rango, aveva due belle figlie. Barbablu le chiese una delle due in moglie. La minore alla fine accetto vedendo che in fondo non era cosi cattivo, e si sposarono.",
+          "pt": "Uma das suas vizinhas, senhora de qualidade, tinha duas filhas muito bonitas. Barba Azul pediu-lhe uma em casamento. A mais nova acabou por aceitar ao ver que no fundo ele nao era assim tao mau, e casaram-se.",
+          "ca": "Una de les seves veinades, senyora de rang, tenia dues filles molt boniques. Barba Blava va demanar-ne una en matrimoni. La menor va acabar acceptant en veure que en el fons no era tan dolent, i es van casar."
+        },
+        {
+          "es": "Al cabo de un mes, Barba Azul dijo a su esposa que debia hacer un viaje, y le entrego todas las llaves de la casa. «Puedes entrar en todas partes, menos en el gabinete al extremo de la galeria. Si lo abres, no habra nada que te salve de mi ira.»",
+          "en": "A month later Bluebeard told his wife he had to make a journey and gave her all the keys to the house. 'You may go into every room, except for the closet at the end of the gallery. If you open it there will be nothing that can save you from my anger.'",
+          "fr": "Un mois plus tard la Barbe Bleue dit a sa femme qu'il devait faire un voyage et lui remit toutes les cles de la maison. « Tu peux entrer partout, sauf dans le cabinet au bout de la galerie. Si tu l'ouvres, il n'y aura rien qui puisse te sauver de ma colere. »",
+          "de": "Einen Monat spaeter sagte Blaubart seiner Frau, er muesse eine Reise machen, und ueberreichte ihr alle Schluessel des Hauses. Du kannst ueberall hineingehen, ausser in den Schrank am Ende der Galerie. Wenn du ihn oefffnest, gibt es nichts, das dich vor meinem Zorn retten kann.",
+          "it": "Un mese dopo Barbablu disse alla moglie che doveva fare un viaggio e le consegno tutte le chiavi della casa. Puoi entrare ovunque, tranne nel gabinetto in fondo alla galleria. Se lo apri non ci sara nulla che possa salvarti dalla mia ira.",
+          "pt": "Um mes depois Barba Azul disse a sua esposa que tinha de fazer uma viagem e entregou-lhe todas as chaves da casa. Podes entrar em todos os lugares, exceto no gabinete ao fundo da galeria. Se o abrires nao ha nada que te salve da minha ira.",
+          "ca": "Un mes despres Barba Blava va dir a la seva esposa que havia de fer un viatge i li va lliurar totes les claus de la casa. Pots entrar a tot arreu, excepte al gabinet al fons de la galeria. Si l'obres no hi haura res que et salvi de la meva ira."
+        },
+        {
+          "es": "La curiosidad pudo mas que ella. Abrio el gabinete y vio que el suelo estaba cubierto de sangre coagulada y que en el yacian los cuerpos de varias mujeres muertas: eran todas las esposas anteriores de Barba Azul. Se le cayo la llave al suelo y no pudo borrar la mancha de sangre que quedo en ella.",
+          "en": "Curiosity got the better of her. She opened the closet and saw that the floor was covered with clotted blood, and that the bodies of several dead women lay along the walls: they were all the former wives of Bluebeard. The key fell to the ground and she could not get the bloodstain off it.",
+          "fr": "La curiosite fut plus forte qu'elle. Elle ouvrit le cabinet et vit que le parquet etait tout couvert de sang caille et que les corps de plusieurs femmes mortes etaient ranges le long des murs : c'etaient toutes les femmes que la Barbe Bleue avait epousees. La cle tomba a terre et elle ne put effacer la tache de sang qui y etait.",
+          "de": "Die Neugier war staerker als sie. Sie oeffnete den Schrank und sah, dass der Boden mit geronnenem Blut bedeckt war und dass die Leichen mehrerer toter Frauen an den Waenden lagen: es waren alle frueheren Frauen Blaubarts. Der Schluessel fiel zu Boden und sie konnte den Blutfleck nicht entfernen.",
+          "it": "La curiosita fu piu forte di lei. Apri il gabinetto e vide che il pavimento era tutto coperto di sangue raggrumato e che i corpi di alcune donne morte erano allineati lungo le pareti: erano tutte le mogli precedenti di Barbablu. La chiave cadde a terra e lei non riusci a togliere la macchia di sangue.",
+          "pt": "A curiosidade foi mais forte do que ela. Abriu o gabinete e viu que o chao estava coberto de sangue coagulado e que os corpos de varias mulheres mortas estavam alinhados ao longo das paredes: eram todas as esposas anteriores de Barba Azul. A chave caiu ao chao e ela nao conseguiu apagar a mancha de sangue.",
+          "ca": "La curiositat va poder mes que ella. Va obrir el gabinet i va veure que el sol estava cobert de sang coagulada i que els cossos de diverses dones mortes estaven alineats al llarg de les parets: eren totes les esposes anteriors de Barba Blava. La clau va caure a terra i no va poder esborrar la taca de sang."
+        }
+      ]
+    },
+    {
+      "tit": "El regreso de Barba Azul",
+      "frases": [
+        {
+          "es": "Barba Azul regreso aquella misma noche. Al dia siguiente le pidio las llaves y vio la mancha de sangre en la llavecita del gabinete. «Has entrado en el gabinete», dijo. «Pues bien, entrarás en el y iras a ocupar tu puesto entre las mujeres que alli has visto.»",
+          "en": "Bluebeard returned that very night. The next day he asked for the keys and saw the bloodstain on the little key of the closet. 'You have entered the closet,' he said. 'Well then, you shall go in and take your place among the ladies you saw there.'",
+          "fr": "La Barbe Bleue revint le soir meme. Le lendemain il lui demanda les cles et vit la tache de sang sur la petite cle du cabinet. « Tu as ouvert le cabinet, dit-il. Eh bien tu y entreras et tu iras prendre ta place parmi les dames que tu y as vues. »",
+          "de": "Blaubart kehrte noch in derselben Nacht zurueck. Am naechsten Tag verlangte er die Schluessel und sah den Blutfleck auf dem kleinen Schluessel des Schranks. Du hast den Schrank geoeffnet, sagte er. Nun gut, dann wirst du hineingehen und deinen Platz unter den Damen einnehmen, die du dort gesehen hast.",
+          "it": "Barbablu torno quella stessa notte. Il giorno dopo chiese le chiavi e vide la macchia di sangue sulla piccola chiave del gabinetto. Hai aperto il gabinetto, disse. Ebbene entrerai e andrai a prendere il tuo posto tra le dame che hai visto la.",
+          "pt": "Barba Azul voltou nessa mesma noite. No dia seguinte pediu as chaves e viu a mancha de sangue na pequena chave do gabinete. Entraste no gabinete, disse. Pois bem, entrarás nele e iras ocupar o teu lugar entre as senhoras que viste la.",
+          "ca": "Barba Blava va tornar aquella mateixa nit. L'endema li va demanar les claus i va veure la taca de sang a la petita clau del gabinet. Has entrat al gabinet, va dir. Doncs be, hi entrarás i aniràs a ocupar el teu lloc entre les dames que has vist alla."
+        },
+        {
+          "es": "La esposa rogo que le concediera tiempo para rezar. Llamo a su hermana Anita y le dijo: «Sube a lo alto de la torre; mis hermanos vienen hoy a verme. Si los ves, hazles senal de que se apresuren.» Y la hermana miraba desde lo alto mientras Barba Azul la llamaba a gritos.",
+          "en": "His wife begged for time to say her prayers. She called her sister Anne and told her: 'Go up to the top of the tower; my brothers are coming to see me today. If you see them, signal to them to hurry.' And her sister watched from the top while Bluebeard shouted for her to come down.",
+          "fr": "Sa femme le supplia de lui accorder du temps pour prier. Elle appela sa soeur Anne et lui dit : « Monte au haut de la tour ; mes freres viennent me voir aujourd'hui. Si tu les vois, fais-leur signe de se depecher. » Et la soeur veillait d'en haut tandis que la Barbe Bleue la criait de descendre.",
+          "de": "Seine Frau bat um Zeit zum Beten. Sie rief ihre Schwester Anne und sagte ihr: Steig auf den Turm; meine Brueder kommen heute, mich zu besuchen. Wenn du sie siehst, gib ihnen ein Zeichen zu eilen. Und die Schwester hielt oben Ausschau, waehrend Blaubart sie anschrie, herunterzukommen.",
+          "it": "La moglie lo suppl di concederle del tempo per pregare. Chiamo la sorella Anna e le disse: Sali in cima alla torre; i miei fratelli vengono oggi a trovarmi. Se li vedi, fa' loro cenno di affrettarsi. E la sorella vigilava dall'alto mentre Barbablu la gridava di scendere.",
+          "pt": "A esposa suplicou que lhe concedesse tempo para rezar. Chamou a irma Ana e disse-lhe: Sobe ao alto da torre; os meus irmaos vem visitar-me hoje. Se os vires, faz-lhes sinal para se apressarem. E a irma vigiava do alto enquanto Barba Azul a chamava a gritos.",
+          "ca": "La seva esposa li va suplicar que li concedis temps per pregar. Va cridar la seva germana Ana i li va dir: Puja dalt de la torre; els meus germans venen avui a veure'm. Si els veus, fes-los senyal que s'afanyin. I la germana vigilava des de dalt mentre Barba Blava la cridava a grans veus."
+        },
+        {
+          "es": "«Anita, hermana mia, ¿ves algo?» preguntaba sin cesar. «Solo veo el sol que centellea y la hierba que verdea», respondia Anita. Barba Azul ya subia las escaleras con la cuchilla en la mano cuando Anita grito: «¡Veo dos caballeros que hacia aqui se encaminan!»",
+          "en": "'Anne, sister Anne, do you see anything?' she kept asking. 'I see nothing but the sun shining and the green grass growing,' Anne replied. Bluebeard was already mounting the stairs with his blade in hand when Anne cried: 'I see two horsemen coming this way!'",
+          "fr": "« Anne, ma soeur Anne, ne vois-tu rien venir ? » demandait-elle sans cesse. « Je ne vois que le soleil qui poudroie et l'herbe qui verdoie », repondait Anne. La Barbe Bleue montait deja les escaliers le couteau a la main quand Anne cria : « Je vois deux cavaliers qui viennent de ce cote ! »",
+          "de": "Anne, Schwester Anne, siehst du nichts kommen?, fragte sie unaufhoerlich. Ich sehe nichts als die Sonne, die staeubt, und das Gras, das gruent, antwortete Anne. Blaubart stieg schon mit dem Messer in der Hand die Treppe hinauf, als Anne rief: Ich sehe zwei Reiter, die hierherkommen!",
+          "it": "Anna, sorella mia, vedi niente?, chiedeva continuamente. Vedo solo il sole che splende e l'erba che verdeggia, rispondeva Anna. Barbablu saliva gia le scale con il coltello in mano quando Anna grido: Vedo due cavalieri che vengono da questa parte!",
+          "pt": "Ana, irma minha, ves alguma coisa?, perguntava sem parar. Vejo apenas o sol que brilha e a erva que verdeja, respondia Ana. Barba Azul ja subia as escadas com a faca na mao quando Ana gritou: Vejo dois cavaleiros que se aproximam!",
+          "ca": "Ana, germana meva, veus res?, preguntava sense parar. Nomes veig el sol que brilla i l'herba que verdeja, responia Ana. Barba Blava ja pujava les escales amb el ganivet a la ma quan Ana va cridar: Veig dos cavallers que s'apropen!"
+        }
+      ]
+    },
+    {
+      "tit": "El rescate",
+      "frases": [
+        {
+          "es": "Barba Azul agarro a su esposa por los cabellos y levanto la cuchilla para cortarle la cabeza. En aquel mismo instante golpearon con fuerza la puerta. Entraron dos caballeros, hermanos de la esposa, quienes desnudando las espadas corrieron hacia Barba Azul.",
+          "en": "Bluebeard grabbed his wife by the hair and raised his blade to cut off her head. At that very moment there came a loud knocking at the door. Two knights, brothers of the wife, burst in, drew their swords and ran towards Bluebeard.",
+          "fr": "La Barbe Bleue saisit sa femme par les cheveux et leva le couteau pour lui couper la tete. A ce moment precis on frappa violemment a la porte. Deux cavaliers, freres de la femme, entrerent l'epee a la main et coururent vers la Barbe Bleue.",
+          "de": "Blaubart packte seine Frau an den Haaren und hob das Messer, um ihr den Kopf abzuschlagen. In genau diesem Augenblick wurde heftig an die Tuer geklopft. Zwei Ritter, die Brueder der Frau, stuermten herein, zogen die Schwerter und rannten auf Blaubart zu.",
+          "it": "Barbablu affero la moglie per i capelli e alzo il coltello per tagliarle la testa. In quel preciso istante bussarono forte alla porta. Due cavalieri, fratelli della moglie, irruppero dentro, sfoderarono le spade e corsero verso Barbablu.",
+          "pt": "Barba Azul agarrou a sua esposa pelos cabelos e levantou a faca para lhe cortar a cabeca. Naquele mesmo instante bateram com forca a porta. Dois cavaleiros, irmaos da esposa, entraram com as espadas desembainhadas e correram para Barba Azul.",
+          "ca": "Barba Blava va agafar la seva esposa pels cabells i va aixecar el ganivet per tallar-li el cap. En aquell mateix instant van trucar amb forca a la porta. Dos cavallers, germans de l'esposa, van entrar desembeinant les espases i van correr cap a Barba Blava."
+        },
+        {
+          "es": "Persiguieron a Barba Azul y le alcanzaron antes de que pudiera llegar a la escalera. Le atravesaron con sus espadas y cayo muerto. La pobre esposa casi tan sin vida estaba como su marido.",
+          "en": "They pursued Bluebeard and caught him before he could reach the staircase. They ran their swords through him and he fell dead. The poor wife was almost as lifeless as her husband.",
+          "fr": "Ils poursuivirent la Barbe Bleue et le rattraprent avant qu'il ait pu atteindre l'escalier. Ils lui passerent leurs epees au travers du corps et il tomba mort. La pauvre femme etait presque aussi sans vie que son mari.",
+          "de": "Sie verfolgten Blaubart und holten ihn ein, bevor er die Treppe erreichen konnte. Sie durchbohrten ihn mit ihren Schwertern und er fiel tot um. Die arme Frau war fast so leblos wie ihr Mann.",
+          "it": "Inseguirono Barbablu e lo raggiunsero prima che potesse raggiungere la scala. Lo trafissero con le loro spade e cad morto. La povera moglie era quasi altrettanto esanime del marito.",
+          "pt": "Perseguiram Barba Azul e alcancaram-no antes de chegar a escada. Atravessaram-no com as espadas e ele caiu morto. A pobre esposa estava quase tao sem vida quanto o marido.",
+          "ca": "Van perseguir Barba Blava i el van atrapar abans que pogues arribar a l'escala. El van travessar amb les seves espases i va caure mort. La pobra esposa estava quasi tan sense vida com el seu marit."
+        },
+        {
+          "es": "Resulto que Barba Azul no tenia herederos, con lo cual todos sus bienes pasaron a su esposa. Ella empleo una parte en casar a su hermana Anita, otra en comprar cargos para sus dos hermanos, y lo restante en casarse ella misma con un hombre muy honesto que hizo olvidar los malos ratos pasados con Barba Azul.",
+          "en": "It turned out that Bluebeard had no heirs, so all his wealth passed to his wife. She used one part to marry her sister Anne, another to buy commissions for her two brothers, and the rest to marry herself to a very worthy man who made her forget all the bad times she had suffered with Bluebeard.",
+          "fr": "Il se trouva que la Barbe Bleue n'avait point d'heritiers, en sorte que sa femme demeura maitresse de tous ses biens. Elle en employa une partie a marier sa soeur Anne, une autre partie a acheter des charges a ses deux freres, et le reste a se marier elle-meme a un fort honnete homme qui lui fit oublier le mauvais temps qu'elle avait passe avec la Barbe Bleue.",
+          "de": "Es stellte sich heraus, dass Blaubart keine Erben hatte, so dass all sein Reichtum an seine Frau ueberging. Sie verwendete einen Teil davon, um ihre Schwester Anne zu verheiraten, einen anderen Teil, um Aemter fuer ihre zwei Brueder zu kaufen, und den Rest, um sich selbst mit einem sehr ehrenwerten Mann zu verheiraten, der sie alle schlimmen Zeiten mit Blaubart vergessen liess.",
+          "it": "Si scopr che Barbablu non aveva eredi, cosicche tutti i suoi beni passarono alla moglie. Lei ne uso una parte per maritare la sorella Anna, un'altra per comprare cariche ai due fratelli, e il resto per sposarsi lei stessa con un uomo molto onesto che le fece dimenticare i brutti momenti passati con Barbablu.",
+          "pt": "Verificou-se que Barba Azul nao tinha herdeiros, pelo que todos os seus bens passaram para a esposa. Ela usou uma parte para casar a irma Ana, outra para comprar cargos para os dois irmaos, e o restante para se casar ela propria com um homem muito honesto que a fez esquecer os maus momentos passados com Barba Azul.",
+          "ca": "Va resultar que Barba Blava no tenia hereus, de manera que tots els seus bens van passar a l'esposa. Ella va emprar una part per casar la germana Ana, una altra per comprar carrecs per als dos germans, i la resta per casar-se ella mateixa amb un home molt honest que la va fer oblidar els mals moments passats amb Barba Blava."
+        }
+      ]
+    }
+  ]
+}
