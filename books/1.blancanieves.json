@@ -1,80 +1,675 @@
 {
   "id": 1,
-  "tit": "Blancanieves",
+  "tit": "Blancanieve y Rojarosa",
   "aut": "Hermanos Grimm",
   "cat": "Cuentos",
   "gratis": true,
   "cov": "grimm",
   "emo": "🍎",
-  "totalCaps": 5,
+  "totalCaps": 7,
+  "src": {
+    "name": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Blancanieve_y_Rojarosa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Texto procedente de Wikisource (contribuidores).",
+    "changes": "Extraído y normalizado (segmentado en frases) para su uso en Talixea."
+  },
   "caps": [
     {
-      "tit": "La reina malvada",
+      "tit": "Las dos hermanas",
       "frases": [
-        {"es": "Había una vez, en pleno invierno, cuando los copos de nieve caían del cielo como plumas, una reina que estaba sentada cosiendo junto a una ventana con marco de ébano negro.", "en": "Once upon a time in the middle of winter, when the flakes of snow were falling like feathers from the sky, a queen sat at a window sewing with an ebony frame.", "fr": "Il était une fois, en plein hiver, alors que les flocons de neige tombaient du ciel comme des plumes, une reine assise à sa fenêtre à encadrement d'ébène qui cousait.", "de": "Es war einmal mitten im Winter, als die Schneeflocken wie Federn vom Himmel fielen, saß eine Königin an einem Fenster mit einem Rahmen aus Ebenholz und nähte.", "it": "C'era una volta, in pieno inverno, mentre i fiocchi di neve cadevano dal cielo come piume, una regina seduta a una finestra con un'intelaiatura di ebano che cuciva.", "pt": "Era uma vez, em pleno inverno, quando os flocos de neve caíam do céu como penas, uma rainha sentada a uma janela com moldura de ébano a costurar.", "ca": "Hi havia una vegada, en ple hivern, quan els flocs de neu queien del cel com plomes, una reina asseguda a una finestra amb marc d'eben que cosia."},
-        {"es": "Mientras cosía y miraba la nieve, se pinchó el dedo con la aguja y cayeron tres gotas de sangre sobre la nieve blanca.", "en": "While she was sewing and looking out at the snow, she pricked her finger and three drops of blood fell on the white snow.", "fr": "Pendant qu'elle cousait et regardait la neige, elle se piqua le doigt et trois gouttes de sang tombèrent sur la neige blanche.", "de": "Als sie nähte und in den Schnee schaute, stach sie sich in den Finger, und drei Blutstropfen fielen auf den weißen Schnee.", "it": "Mentre cuciva e guardava la neve, si punse il dito e tre gocce di sangue caddero sulla neve bianca.", "pt": "Enquanto costurava e olhava para a neve, picou o dedo e três gotas de sangue caíram sobre a neve branca.", "ca": "Mentre cosia i mirava la neu, es va punxar el dit i tres gotes de sang van caure sobre la neu blanca."},
-        {"es": "La reina pensó: ojalá tuviera una hija tan blanca como la nieve, tan roja como la sangre y tan negra de cabello como el ébano de ese marco.", "en": "The queen thought: if only I had a child as white as snow, as red as blood, and as black of hair as the ebony of this frame.", "fr": "La reine pensa : si seulement j'avais une enfant aussi blanche que la neige, aussi rouge que le sang et aussi noire de cheveux que l'ébène de ce cadre.", "de": "Die Königin dachte: hätte ich doch ein Kind, so weiß wie Schnee, so rot wie Blut und so schwarz von Haaren wie das Ebenholz dieses Rahmens.", "it": "La regina pensò: se solo avessi una bambina bianca come la neve, rossa come il sangue e nera di capelli come l'ebano di questo telaio.", "pt": "A rainha pensou: se ao menos tivesse uma filha tão branca como a neve, tão vermelha como o sangue e tão negra de cabelos como o ébano desta moldura.", "ca": "La reina va pensar: si almenys tingués una filla tan blanca com la neu, tan vermella com la sang i tan negra de cabells com l'eben d'aquest marc."},
-        {"es": "Poco después tuvo una hija de piel blanca como la nieve, mejillas rosadas como la sangre y cabello negro como el ébano.", "en": "Shortly after, she had a daughter with skin as white as snow, cheeks as red as blood, and hair as black as ebony.", "fr": "Peu après, elle eut une fille à la peau blanche comme la neige, aux joues roses comme le sang et aux cheveux noirs comme l'ébène.", "de": "Kurz darauf bekam sie eine Tochter mit einer Haut so weiß wie Schnee, Wangen so rot wie Blut und Haaren so schwarz wie Ebenholz.", "it": "Poco dopo ebbe una figlia con la pelle bianca come la neve, le guance rosee come il sangue e i capelli neri come l'ebano.", "pt": "Pouco depois teve uma filha com a pele branca como a neve, as faces rosadas como o sangue e os cabelos negros como o ébano.", "ca": "Poc després va tenir una filla amb la pell blanca com la neu, les galtes rosades com la sang i els cabells negres com l'eben."},
-        {"es": "La llamaron Blancanieves. Pero cuando la niña nació, la reina madre murió.", "en": "They called her Snow White. But when the child was born, the queen mother died.", "fr": "On l'appela Blanche-Neige. Mais quand l'enfant naquit, la reine mère mourut.", "de": "Sie nannten sie Schneewittchen. Aber als das Kind geboren wurde, starb die Königinmutter.", "it": "La chiamarono Biancaneve. Ma quando la bambina nacque, la regina madre morì.", "pt": "Chamaram-lhe Branca de Neve. Mas quando a criança nasceu, a rainha mãe morreu.", "ca": "La van anomenar Blancaneu. Però quan la nena va néixer, la reina mare va morir."},
-        {"es": "Al cabo de un año, el rey tomó una segunda esposa. Era una mujer hermosa, pero soberbia y arrogante, y no podía soportar que nadie la superase en belleza.", "en": "After a year had passed, the king took a second wife. She was a beautiful woman, but proud and haughty, and could not bear that anyone should surpass her in beauty.", "fr": "Au bout d'un an, le roi prit une deuxième épouse. C'était une belle femme, mais orgueilleuse et arrogante, et elle ne pouvait pas supporter que quelqu'un la surpasse en beauté.", "de": "Nach einem Jahr nahm der König eine zweite Frau. Sie war eine schöne Frau, aber stolz und arrogant und konnte es nicht ertragen, dass jemand schöner war als sie.", "it": "Dopo un anno, il re prese una seconda moglie. Era una donna bella, ma superba e arrogante, e non sopportava che qualcuno la superasse in bellezza.", "pt": "Ao fim de um ano, o rei tomou uma segunda esposa. Era uma mulher bela, mas soberba e arrogante, e não suportava que ninguém a superasse em beleza.", "ca": "Al cap d'un any, el rei va prendre una segona esposa. Era una dona bella, però superba i arrogant, i no suportava que ningú la superés en bellesa."},
-        {"es": "Tenía un espejo mágico, y cuando se miraba en él preguntaba: espejo, espejito, ¿quién es la más hermosa del reino?", "en": "She had a magic mirror, and when she looked into it she asked: mirror, mirror on the wall, who is the fairest of them all?", "fr": "Elle avait un miroir magique, et quand elle s'y regardait, elle demandait : miroir, joli miroir, qui est la plus belle du royaume ?", "de": "Sie hatte einen Zauberspiegel, und wenn sie sich darin betrachtete, fragte sie: Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?", "it": "Aveva uno specchio magico, e quando si specchiava chiedeva: specchio, specchio delle mie brame, chi è la più bella del reame?", "pt": "Tinha um espelho mágico, e quando se olhava nele perguntava: espelho, espelho meu, quem é a mais bela do reino?", "ca": "Tenia un mirall màgic, i quan s'hi mirava preguntava: mirall, mirallet, qui és la més bella del regne?"},
-        {"es": "Y el espejo respondía siempre: vos, mi señora, sois la más hermosa del reino.", "en": "And the mirror always replied: you, my lady, are the fairest in the land.", "fr": "Et le miroir répondait toujours : vous, madame, êtes la plus belle du royaume.", "de": "Und der Spiegel antwortete stets: Ihr, meine Herrin, seid die Schönste im Land.", "it": "E lo specchio rispondeva sempre: voi, mia signora, siete la più bella del reame.", "pt": "E o espelho respondia sempre: vós, minha senhora, sois a mais bela do reino.", "ca": "I el mirall responia sempre: vós, senyora meva, sou la més bella del regne."},
-        {"es": "Sin embargo, Blancanieves fue creciendo y cuando cumplió los siete años era tan hermosa como el día y más hermosa que la propia reina.", "en": "But Snow White grew up and when she was seven years old she was as beautiful as the day and more beautiful than the queen herself.", "fr": "Cependant, Blanche-Neige grandissait et quand elle eut sept ans, elle était aussi belle que le jour et plus belle que la reine elle-même.", "de": "Aber Schneewittchen wuchs heran, und als sie sieben Jahre alt war, war sie so schön wie der Tag und schöner als die Königin selbst.", "it": "Tuttavia Biancaneve cresceva e quando compì sette anni era bella come il giorno e più bella della stessa regina.", "pt": "No entanto, Branca de Neve foi crescendo e quando fez sete anos era tão bela como o dia e mais bela do que a própria rainha.", "ca": "Tanmateix, Blancaneu va anar creixent i quan va fer set anys era tan bella com el dia i més bella que la pròpia reina."},
-        {"es": "Cuando la reina preguntó al espejo aquel día, este respondió: Blancanieves es mil veces más hermosa que vos. La reina se quedó lívida de rabia y envidia.", "en": "When the queen asked the mirror that day, it replied: Snow White is a thousand times more beautiful than you. The queen turned white with rage and envy.", "fr": "Quand la reine interrogea le miroir ce jour-là, il répondit : Blanche-Neige est mille fois plus belle que vous. La reine devint livide de rage et d'envie.", "de": "Als die Königin den Spiegel an jenem Tag befragte, antwortete er: Schneewittchen ist tausendmal schöner als Ihr. Die Königin wurde bleich vor Wut und Neid.", "it": "Quando la regina interrogò lo specchio quel giorno, esso rispose: Biancaneve è mille volte più bella di voi. La regina divenne livida di rabbia e invidia.", "pt": "Quando a rainha interrogou o espelho naquele dia, ele respondeu: Branca de Neve é mil vezes mais bela do que vós. A rainha ficou lívida de raiva e inveja.", "ca": "Quan la reina va interrogar el mirall aquell dia, aquest va respondre: Blancaneu és mil vegades més bella que vós. La reina es va quedar lívida de ràbia i enveja."}
+        {
+          "es": "Una pobre mujer vivía en una cabaña en medio del campo; en un huerto situado delante de la puerta, había dos rosales, uno de los cuales daba rosas blancas y el otro rosas encarnadas.",
+          "en": "A poor woman lived in a cottage in the middle of the countryside; in a garden in front of the door there were two rose trees, one of which bore white roses and the other red ones.",
+          "fr": "Une pauvre femme vivait dans une chaumière au milieu de la campagne ; dans un jardin devant la porte, il y avait deux rosiers, l'un portant des roses blanches et l'autre des roses rouges.",
+          "de": "Eine arme Frau lebte in einem Häuschen mitten auf dem Land; in einem Gärtchen vor der Tür standen zwei Rosenstöcke, von denen der eine weiße und der andere rote Rosen trug.",
+          "it": "Una povera donna viveva in una capanna in mezzo alla campagna; in un orticello davanti alla porta c'erano due rosai, uno dei quali portava rose bianche e l'altro rose rosse.",
+          "pt": "Uma mulher pobre vivia numa cabana no meio do campo; num jardim à frente da porta havia dois roseiros, um dos quais dava rosas brancas e o outro rosas vermelhas.",
+          "ca": "Una pobra dona vivia en una cabana enmig del camp; en un hort davant la porta hi havia dos rosers, un dels quals donava roses blanques i l'altre roses vermelles."
+        },
+        {
+          "es": "La viuda tenía dos hijas que se parecían a los dos rosales; la una se llamaba Blancanieve y la otra Rojarosa.",
+          "en": "The widow had two daughters who resembled the two rose trees; one was called Snow-white and the other Rose-red.",
+          "fr": "La veuve avait deux filles qui ressemblaient aux deux rosiers ; l'une s'appelait Blanche-Neige et l'autre Rose-Rouge.",
+          "de": "Die Witwe hatte zwei Töchter, die den beiden Rosenstöcken glichen; die eine hieß Schneeweißchen und die andere Rosenrot.",
+          "it": "La vedova aveva due figlie che somigliavano ai due rosai; una si chiamava Biancaneve e l'altra Rosarossa.",
+          "pt": "A viúva tinha duas filhas que se assemelhavam aos dois roseiros; uma chamava-se Brancaneve e a outra Rosa-vermelha.",
+          "ca": "La vídua tenia dues filles que s'assemblaven als dos rosers; una s'anomenava Blancaneu i l'altra Rosaroja."
+        },
+        {
+          "es": "Eran las dos niñas lo más bueno, obediente y trabajador que se había visto nunca, pero Blancanieve tenía un carácter más tranquilo y bondadoso; a Rojarosa le gustaba mucho más correr por los prados en busca de flores y de mariposas.",
+          "en": "The two girls were the best, most obedient and hardworking that had ever been seen, but Snow-white was quieter and gentler; Rose-red much preferred running through the meadows in search of flowers and butterflies.",
+          "fr": "Les deux fillettes étaient les meilleures, les plus obéissantes et les plus travailleuses qu'on eût jamais vues, mais Blanche-Neige avait un caractère plus calme et plus doux ; Rose-Rouge aimait bien plus courir dans les prés à la recherche de fleurs et de papillons.",
+          "de": "Die beiden Mädchen waren die bravsten, gehorsamsten und fleißigsten, die man je gesehen hatte, aber Schneeweißchen war stiller und sanfter; Rosenrot lief viel lieber über die Wiesen auf der Suche nach Blumen und Schmetterlingen.",
+          "it": "Le due bambine erano le più brave, ubbidienti e laboriose che si fossero mai viste, ma Biancaneve aveva un carattere più tranquillo e buono; a Rosarossa piaceva molto di più correre per i prati in cerca di fiori e farfalle.",
+          "pt": "As duas meninas eram as mais bondosas, obedientes e trabalhadoras que se tinham visto, mas Brancaneve tinha um caráter mais tranquilo e bondoso; a Rosa-vermelha gostava muito mais de correr pelos prados à procura de flores e borboletas.",
+          "ca": "Les dues nenes eren les més bones, obedients i treballadores que s'havien vist mai, però Blancaneu tenia un caràcter més tranquil i bondadós; a Rosaroja li agradava molt més córrer pels prats a la recerca de flors i papallones."
+        },
+        {
+          "es": "Blancanieve se quedaba en su casa con su madre, la ayudaba en los trabajos domésticos y le leía algún libro cuando habían acabado su tarea.",
+          "en": "Snow-white stayed at home with her mother, helped her with the housework and read to her from a book when their tasks were done.",
+          "fr": "Blanche-Neige restait à la maison avec sa mère, l'aidait dans les travaux ménagers et lui lisait un livre quand elles avaient fini leur tâche.",
+          "de": "Schneeweißchen blieb zu Hause bei der Mutter, half ihr bei der Hausarbeit und las ihr ein Buch vor, wenn sie ihre Arbeit getan hatten.",
+          "it": "Biancaneve restava a casa con sua madre, l'aiutava nei lavori domestici e le leggeva qualche libro quando avevano finito i loro compiti.",
+          "pt": "Brancaneve ficava em casa com a mãe, ajudava-a nos trabalhos domésticos e lia-lhe algum livro quando tinham acabado as tarefas.",
+          "ca": "Blancaneu es quedava a casa amb la seva mare, l'ajudava en les tasques domèstiques i li llegia algun llibre quan havien acabat la feina."
+        },
+        {
+          "es": "Las dos hermanas se amaban tanto que iban de la mano siempre que salían, y cuando decía Blancanieve «No nos separaremos nunca», contestaba Rojarosa: «En toda nuestra vida», y la madre añadía: «Todo debería ser común entre vosotras dos.»",
+          "en": "The two sisters loved each other so much that they always went out hand in hand, and when Snow-white said 'We shall never part', Rose-red answered 'Never while we live', and their mother added 'Whatever one has, she must share with the other.'",
+          "fr": "Les deux sœurs s'aimaient tant qu'elles se tenaient toujours par la main quand elles sortaient, et quand Blanche-Neige disait « Nous ne nous séparerons jamais », Rose-Rouge répondait : « Jamais de notre vie », et la mère ajoutait : « Tout devrait être commun entre vous deux. »",
+          "de": "Die beiden Schwestern liebten sich so sehr, dass sie sich immer an der Hand hielten, wenn sie ausgingen, und wenn Schneeweißchen sagte «Wir werden uns niemals trennen», antwortete Rosenrot: «Niemals in unserem Leben», und die Mutter fügte hinzu: «Alles sollte zwischen euch beiden gemeinsam sein.»",
+          "it": "Le due sorelle si amavano tanto che andavano sempre per mano quando uscivano, e quando Biancaneve diceva «Non ci separeremo mai», Rosarossa rispondeva: «Per tutta la vita», e la madre aggiungeva: «Tutto dovrebbe essere comune tra voi due.»",
+          "pt": "As duas irmãs amavam-se tanto que andavam sempre de mão dada quando saíam, e quando Brancaneve dizia «Nunca nos separaremos», Rosa-vermelha respondia: «Em toda a nossa vida», e a mãe acrescentava: «Tudo devia ser partilhado entre vós duas.»",
+          "ca": "Les dues germanes s'estimaven tant que anaven de la mà sempre que sortien, i quan Blancaneu deia «No ens separarem mai», Rosaroja responia: «En tota la nostra vida», i la mare afegia: «Tot hauria de ser comú entre vosaltres dues.»"
+        },
+        {
+          "es": "Iban con frecuencia al bosque para coger frutos silvestres, y los animales las respetaban y se acercaban a ellas sin temor.",
+          "en": "They often went into the forest to gather wild berries, and the animals respected them and came close to them without fear.",
+          "fr": "Elles allaient souvent dans la forêt pour cueillir des fruits sauvages, et les animaux les respectaient et s'approchaient d'elles sans crainte.",
+          "de": "Sie gingen oft in den Wald, um wilde Früchte zu pflücken, und die Tiere respektierten sie und kamen ohne Scheu zu ihnen.",
+          "it": "Andavano spesso nel bosco a raccogliere frutti selvatici, e gli animali le rispettavano e si avvicinavano a loro senza timore.",
+          "pt": "Iam frequentemente ao bosque apanhar frutos silvestres, e os animais respeitavam-nas e aproximavam-se delas sem medo.",
+          "ca": "Anaven sovint al bosc a collir fruits silvestres, i els animals les respectaven i s'acostaven a elles sense por."
+        },
+        {
+          "es": "La liebre comía en su mano, el cabrito pacía a su lado, el ciervo jugueteaba delante de ellas, y los pájaros, colocados en las ramas, entonaban sus más bonitos gorjeos.",
+          "en": "The hare would eat from their hand, the kid grazed at their side, the deer frolicked before them, and the birds on the branches sang their prettiest songs.",
+          "fr": "Le lièvre mangeait dans leur main, le chevreau paissait à leurs côtés, le cerf gambadait devant elles, et les oiseaux, perchés sur les branches, entonnaient leurs plus beaux gazouillis.",
+          "de": "Der Hase fraß aus ihrer Hand, das Zicklein weidete an ihrer Seite, der Hirsch tollte vor ihnen herum, und die Vögel, die auf den Ästen saßen, sangen ihre schönsten Lieder.",
+          "it": "La lepre mangiava dalla loro mano, il capretto pascolava al loro fianco, il cervo giocherellava davanti a loro, e gli uccelli, posati sui rami, intonavano i loro più bei gorgheggi.",
+          "pt": "A lebre comia na mão delas, o cabrito pastava ao seu lado, o cervo brincava à sua frente, e os pássaros, pousados nos ramos, entoavam os seus mais belos gorgeios.",
+          "ca": "La llebre menjava a la seva mà, el cabrit pastava al seu costat, el cérvol jugava davant d'elles, i els ocells, posats a les branques, entonaven els seus gorjols més bonics."
+        },
+        {
+          "es": "Nunca les sucedía nada malo; si les sorprendía la noche en el bosque, se acostaban en el musgo una al lado de la otra y dormían hasta el día siguiente sin que su madre estuviera inquieta.",
+          "en": "Nothing bad ever happened to them; if night overtook them in the forest, they lay down side by side on the moss and slept until morning without their mother worrying.",
+          "fr": "Il ne leur arrivait jamais rien de mauvais ; si la nuit les surprenait dans la forêt, elles se couchaient dans la mousse l'une à côté de l'autre et dormaient jusqu'au lendemain sans que leur mère s'inquiète.",
+          "de": "Es geschah ihnen nie etwas Böses; wenn sie die Nacht im Wald überraschte, legten sie sich nebeneinander im Moos hin und schliefen bis zum nächsten Morgen, ohne dass die Mutter sich Sorgen machte.",
+          "it": "Non capitava mai loro nulla di brutto; se la notte le sorprendeva nel bosco, si coricavano sul muschio l'una accanto all'altra e dormivano fino al giorno dopo senza che la madre si preoccupasse.",
+          "pt": "Nunca lhes acontecia nada de mau; se a noite as surpreendia no bosque, deitavam-se no musgo uma ao lado da outra e dormiam até ao dia seguinte sem que a mãe ficasse inquieta.",
+          "ca": "Mai els passava res de dolent; si la nit les sorprenia al bosc, s'ajeiexen a la molsa una al costat de l'altra i dormien fins l'endemà sense que la seva mare s'inquietés."
+        },
+        {
+          "es": "Una vez que pasaron la noche en el bosque, cuando las despertó la aurora, vieron a su lado un niño muy hermoso vestido con una túnica de resplandeciente blancura, el cual les dirigió una mirada amiga y desapareció en el bosque sin decir una palabra.",
+          "en": "One night when they had slept in the forest, dawn woke them to find beside them a beautiful child dressed in a gleaming white robe, who gave them a friendly look and disappeared into the forest without a word.",
+          "fr": "Une nuit qu'elles avaient passé dans la forêt, quand l'aurore les réveilla, elles virent à côté d'elles un très bel enfant vêtu d'une tunique d'une blancheur éclatante, qui leur adressa un regard ami et disparut dans la forêt sans dire un seul mot.",
+          "de": "Als sie einmal die Nacht im Wald verbrachten und die Morgenröte sie weckte, sahen sie neben sich ein wunderschönes Kind in einem strahlend weißen Gewand, das ihnen einen freundlichen Blick zuwarf und lautlos im Wald verschwand.",
+          "it": "Una volta che avevano passato la notte nel bosco, quando l'aurora le svegliò, videro accanto a loro un bambino molto bello vestito con una tunica di sfolgorante bianchezza, che rivolse loro uno sguardo amico e sparì nel bosco senza dire una parola.",
+          "pt": "Uma vez que passaram a noite no bosque, quando a aurora as acordou, viram ao seu lado uma criança muito bela vestida com uma túnica de resplandecente brancura, que lhes dirigiu um olhar amigo e desapareceu no bosque sem dizer uma palavra.",
+          "ca": "Una vegada que van passar la nit al bosc, quan l'aurora les va despertar, van veure al seu costat un nen molt bonic vestit amb una túnica de resplendent blancor, que els va dirigir una mirada amigable i va desaparèixer al bosc sense dir una paraula."
+        },
+        {
+          "es": "Vieron entonces que se habían acostado cerca de un precipicio, y que hubieran caído en él con solo dar dos pasos más en la oscuridad.",
+          "en": "They then saw that they had been lying near a precipice, and would have fallen into it had they taken just two more steps in the dark.",
+          "fr": "Elles virent alors qu'elles s'étaient couchées près d'un précipice, et qu'elles y seraient tombées en faisant seulement deux pas de plus dans l'obscurité.",
+          "de": "Sie sahen dann, dass sie sich nahe an einem Abgrund niedergelegt hatten und in diesen gefallen wären, hätten sie in der Dunkelheit nur noch zwei Schritte mehr gemacht.",
+          "it": "Videro allora che si erano addormentate vicino a un precipizio, e che vi sarebbero cadute con solo due passi in più nell'oscurità.",
+          "pt": "Viram então que se tinham deitado perto de um precipício, e que teriam caído nele com apenas mais dois passos na escuridão.",
+          "ca": "Van veure llavors que s'havien jegut prop d'un precipici, i que hi haurien caigut amb només dos passos més a la foscor."
+        },
+        {
+          "es": "Su madre les dijo que aquel niño era el Ángel de la Guarda de las niñas buenas.",
+          "en": "Their mother told them that the child was the Guardian Angel of good girls.",
+          "fr": "Leur mère leur dit que cet enfant était l'Ange Gardien des bonnes petites filles.",
+          "de": "Ihre Mutter sagte ihnen, dass dieses Kind der Schutzengel der guten Mädchen sei.",
+          "it": "La loro madre disse loro che quel bambino era l'Angelo Custode delle bambine buone.",
+          "pt": "A mãe disse-lhes que aquela criança era o Anjo da Guarda das meninas boas.",
+          "ca": "La seva mare els va dir que aquell nen era l'Àngel de la Guarda de les nenes bones."
+        },
+        {
+          "es": "Blancanieve y Rojarosa tenían tan limpia la cabaña de su madre que se podía ver el propio reflejo en ella.",
+          "en": "Snow-white and Rose-red kept their mother's cottage so clean that one could see one's own reflection in it.",
+          "fr": "Blanche-Neige et Rose-Rouge tenaient la chaumière de leur mère si propre qu'on pouvait s'y mirer.",
+          "de": "Schneeweißchen und Rosenrot hielten das Häuschen ihrer Mutter so sauber, dass man sich darin spiegeln konnte.",
+          "it": "Biancaneve e Rosarossa tenevano la capanna della madre così pulita che ci si poteva specchiare.",
+          "pt": "Brancaneve e Rosa-vermelha mantinham a cabana da sua mãe tão limpa que nela se podia ver o próprio reflexo.",
+          "ca": "Blancaneu i Rosaroja tenien la cabana de la seva mare tan neta que s'hi podia veure el propi reflex."
+        },
+        {
+          "es": "Rojarosa cuidaba en verano de la limpieza, y todas las mañanas, al despertar, encontraba su madre un ramo en el que había una flor de cada uno de los dos rosales.",
+          "en": "Rose-red looked after the cleaning in summer, and every morning when she woke up their mother found a posy with one flower from each of the two rose trees.",
+          "fr": "Rose-Rouge s'occupait en été du ménage, et chaque matin en se réveillant, leur mère trouvait un bouquet contenant une fleur de chacun des deux rosiers.",
+          "de": "Rosenrot kümmerte sich im Sommer um die Sauberkeit, und jeden Morgen, wenn die Mutter aufwachte, fand sie einen Strauß mit je einer Blüte von den beiden Rosenstöcken.",
+          "it": "Rosarossa si occupava in estate della pulizia, e ogni mattina al risveglio la madre trovava un mazzetto con un fiore di ciascuno dei due rosai.",
+          "pt": "Rosa-vermelha tratava no verão da limpeza, e todas as manhãs, ao acordar, a mãe encontrava um ramo com uma flor de cada um dos dois roseiros.",
+          "ca": "Rosaroja cuidava a l'estiu de la neteja, i cada matí, en despertar-se, la mare trobava un ram amb una flor de cadascun dels dos rosers."
+        },
+        {
+          "es": "Blancanieve encendía la lumbre en invierno y colgaba la marmita en los llares; la marmita, que era de cobre amarillo, brillaba como unas perlas de limpia que estaba.",
+          "en": "Snow-white lit the fire in winter and hung the pot over the hearth; the pot, which was of yellow copper, gleamed like pearls it was so clean.",
+          "fr": "Blanche-Neige allumait le feu en hiver et accrochait la marmite sur les crémaillères ; la marmite, qui était en cuivre jaune, brillait comme des perles tellement elle était propre.",
+          "de": "Schneeweißchen machte im Winter das Feuer an und hängte den Kessel in die Feuerhaken; der Kessel aus gelbem Kupfer glänzte wie Perlen, so sauber war er.",
+          "it": "Biancaneve accendeva il fuoco in inverno e appendeva la pentola ai ganci del focolare; la pentola, che era di rame giallo, brillava come perle di quanto era pulita.",
+          "pt": "Brancaneve acendia a lareira no inverno e pendurava a marmita nos ganchos; a marmita, que era de cobre amarelo, brilhava como pérolas de tão limpa.",
+          "ca": "Blancaneu encenia la llar de foc a l'hivern i penjava la marmita als llars; la marmita, que era de coure groc, brillava com perles de tan neta que estava."
+        },
+        {
+          "es": "Cuando nevaba por la noche, la madre decía: «Blancanieve, ve a echar el cerrojo», y luego se sentaban en un rincón a la lumbre; la madre se ponía los anteojos y leía en un libro grande, y las dos niñas la escuchaban hilando, mientras cerca de ellas descansaba un pequeño cordero y detrás dormía una tórtola con la cabeza bajo el ala.",
+          "en": "When it snowed at night their mother would say 'Snow-white, go and bolt the door', and then they would sit by the fire in the corner; the mother would put on her spectacles and read from a big book, and the two girls would listen while spinning, with a little lamb resting near them and a turtledove asleep behind them with its head tucked under its wing.",
+          "fr": "Quand il neigeait la nuit, la mère disait : « Blanche-Neige, va mettre le verrou », puis elles s'asseyaient dans un coin près du feu ; la mère mettait ses lunettes et lisait dans un grand livre, et les deux fillettes l'écoutaient en filant, tandis que près d'elles reposait un petit agneau et qu'une tourterelle dormait derrière elles, la tête sous l'aile.",
+          "de": "Wenn es nachts schneite, sagte die Mutter: «Schneeweißchen, geh und riegel die Tür», dann setzten sie sich an den Herd in die Ecke; die Mutter setzte die Brille auf und las in einem großen Buch, und die beiden Mädchen hörten beim Spinnen zu, während in ihrer Nähe ein kleines Lamm ruhte und dahinter eine Turteltaube schlief mit dem Kopf unter dem Flügel.",
+          "it": "Quando nevicava di notte, la madre diceva: «Biancaneve, vai a mettere il catenaccio», poi si sedevano in un angolo vicino al fuoco; la madre metteva gli occhiali e leggeva in un grande libro, e le due bambine la ascoltavano filando, mentre vicino a loro riposava un agnellino e dietro dormiva una tortora con la testa sotto l'ala.",
+          "pt": "Quando nevava de noite, a mãe dizia: «Brancaneve, vai fechar o ferrolho», e depois sentavam-se num canto junto ao lume; a mãe punha os óculos e lia num livro grande, e as duas meninas escutavam a fiar, enquanto perto delas descansava um cordeirinho e atrás dormia uma rola com a cabeça sob a asa.",
+          "ca": "Quan nevava de nit, la mare deia: «Blancaneu, ves a posar el forrellat», i llavors s'asseien en un racó a la vora del foc; la mare es posava els ulleres i llegia en un llibre gran, i les dues nenes l'escoltaven filant, mentre prop d'elles descansava un anyell petit i darrere dormia una tórtora amb el cap sota l'ala."
+        }
       ]
     },
     {
-      "tit": "La huida al bosque",
+      "tit": "El oso llega en invierno",
       "frases": [
-        {"es": "Desde ese día, la reina odiaba a Blancanieves con toda su alma y la envidia y el orgullo crecían en su corazón como malas hierbas.", "en": "From that day on the queen hated Snow White with all her heart, and envy and pride grew in her heart like weeds.", "fr": "À partir de ce jour, la reine détestait Blanche-Neige de tout son cœur, et l'envie et l'orgueil grandissaient en elle comme de mauvaises herbes.", "de": "Von diesem Tag an hasste die Königin Schneewittchen von ganzem Herzen, und Neid und Hochmut wuchsen in ihr wie Unkraut.", "it": "Da quel giorno la regina odiava Biancaneve con tutta l'anima, e l'invidia e l'orgoglio crescevano nel suo cuore come erbacce.", "pt": "A partir desse dia, a rainha odiava Branca de Neve com toda a alma, e a inveja e o orgulho cresciam no seu coração como ervas daninhas.", "ca": "Des d'aquell dia, la reina odiava Blancaneu amb tota l'ànima, i l'enveja i l'orgull creixien al seu cor com males herbes."},
-        {"es": "Llamó a un cazador y le dijo: lleva a la niña al bosque, lejos de mi vista, y mátala. Tráeme su corazón como prueba.", "en": "She called a huntsman and said to him: take the child into the forest, far from my sight, and kill her. Bring me her heart as proof.", "fr": "Elle appela un chasseur et lui dit : emmène l'enfant dans la forêt, loin de ma vue, et tue-la. Apporte-moi son cœur comme preuve.", "de": "Sie rief einen Jäger und sagte zu ihm: bring das Kind in den Wald, weit weg von meinen Augen, und töte es. Bringe mir sein Herz als Beweis.", "it": "Chiamò un cacciatore e gli disse: porta la bambina nel bosco, lontano dai miei occhi, e uccidila. Portami il suo cuore come prova.", "pt": "Chamou um caçador e disse-lhe: leva a criança para a floresta, longe da minha vista, e mata-a. Traz-me o coração dela como prova.", "ca": "Va cridar un caçador i li va dir: porta la nena al bosc, lluny de la meva vista, i mata-la. Porta'm el seu cor com a prova."},
-        {"es": "El cazador obedeció y se llevó a Blancanieves al bosque. Cuando sacó el cuchillo, la niña se puso a llorar y le rogó que la dejase vivir.", "en": "The huntsman obeyed and took Snow White into the forest. When he drew his knife, the girl began to cry and begged him to let her live.", "fr": "Le chasseur obéit et emmena Blanche-Neige dans la forêt. Quand il sortit son couteau, la petite fille se mit à pleurer et le supplia de la laisser vivre.", "de": "Der Jäger gehorchte und brachte Schneewittchen in den Wald. Als er sein Messer zog, fing das Mädchen an zu weinen und bat ihn, es leben zu lassen.", "it": "Il cacciatore obbedì e portò Biancaneve nel bosco. Quando tirò fuori il coltello, la bambina cominciò a piangere e lo supplicò di lasciarla vivere.", "pt": "O caçador obedeceu e levou Branca de Neve para a floresta. Quando tirou a faca, a menina começou a chorar e implorou-lhe que a deixasse viver.", "ca": "El caçador va obeir i va portar Blancaneu al bosc. Quan va treure el ganivet, la nena va posar-se a plorar i li va implorar que la deixés viure."},
-        {"es": "Como era tan hermosa, el cazador sintió compasión y no pudo matarla. Le dijo: escapa, pobre niña, y no vuelvas nunca.", "en": "Because she was so beautiful, the huntsman felt pity and could not kill her. He said to her: run away, poor child, and never come back.", "fr": "Comme elle était si belle, le chasseur eut pitié et ne put la tuer. Il lui dit : enfuis-toi, pauvre enfant, et ne reviens jamais.", "de": "Weil sie so schön war, hatte der Jäger Mitleid und konnte sie nicht töten. Er sagte zu ihr: lauf weg, armes Kind, und komm nie wieder.", "it": "Poiché era così bella, il cacciatore sentì compassione e non riuscì ad ucciderla. Le disse: scappa, povera bambina, e non tornare mai.", "pt": "Como era tão bela, o caçador sentiu compaixão e não conseguiu matá-la. Disse-lhe: foge, pobre menina, e não voltes nunca.", "ca": "Com que era tan bella, el caçador va sentir compassió i no va poder matar-la. Li va dir: fuig, pobra nena, i no tornis mai."},
-        {"es": "Blancanieves corrió sola por el bosque, asustada por las bestias salvajes, hasta que sus piernas ya no pudieron más.", "en": "Snow White ran alone through the forest, frightened by the wild beasts, until her legs could carry her no further.", "fr": "Blanche-Neige courut seule à travers la forêt, effrayée par les bêtes sauvages, jusqu'à ce que ses jambes ne puissent plus la porter.", "de": "Schneewittchen lief allein durch den Wald, erschrocken vor den wilden Tieren, bis ihre Beine sie nicht mehr tragen konnten.", "it": "Biancaneve corse da sola nel bosco, spaventata dalle bestie selvatiche, finché le gambe non ressero più.", "pt": "Branca de Neve correu sozinha pela floresta, assustada com as feras selvagens, até que as pernas não a suportaram mais.", "ca": "Blancaneu va córrer sola pel bosc, espantada per les bèsties salvatges, fins que les cames ja no la van poder sostenir."},
-        {"es": "Al atardecer vio una pequeña casita y entró para descansar. Todo era muy pequeño pero muy limpio y ordenado.", "en": "At nightfall she saw a little cottage and went inside to rest. Everything was very small but very clean and neat.", "fr": "Au crépuscule, elle vit une petite maison et y entra pour se reposer. Tout était très petit mais très propre et bien rangé.", "de": "Bei Einbruch der Nacht sah sie ein kleines Häuschen und trat ein, um sich auszuruhen. Alles war sehr klein, aber sehr sauber und ordentlich.", "it": "Al tramonto vide una casetta e vi entrò per riposarsi. Tutto era molto piccolo ma molto pulito e in ordine.", "pt": "Ao anoitecer viu uma casinha e entrou para descansar. Tudo era muito pequeno mas muito limpo e arrumado.", "ca": "Al capvespre va veure una caseta i va entrar per descansar. Tot era molt petit però molt net i endreçat."},
-        {"es": "Había una mesita con siete platos pequeños, siete cucharas, siete cuchillos y siete tenedores, y siete vasitos.", "en": "There was a little table with seven little plates, seven little spoons, seven little knives and forks, and seven little cups.", "fr": "Il y avait une petite table avec sept petites assiettes, sept petites cuillères, sept petits couteaux et fourchettes, et sept petites tasses.", "de": "Es gab ein kleines Tischchen mit sieben kleinen Tellern, sieben kleinen Löffeln, sieben kleinen Messern und Gabeln und sieben kleinen Bechern.", "it": "C'era un tavolino con sette piattini, sette cucchiaini, sette coltellini e forchettine, e sette bicchierini.", "pt": "Havia uma mesinha com sete pratinhos, sete colherzinhas, sete facas e garfos pequenos, e sete copos pequenos.", "ca": "Hi havia una tauleta amb set platerets, set culleretes, set ganivets i forquilles petits, i set goters."},
-        {"es": "Blancanieves, que tenía mucha hambre y sed, comió un poco de cada plato y bebió un sorbo de cada vaso.", "en": "Snow White, who was very hungry and thirsty, ate a little from each plate and drank a sip from each cup.", "fr": "Blanche-Neige, qui avait très faim et très soif, mangea un peu dans chaque assiette et but une gorgée dans chaque verre.", "de": "Schneewittchen, das sehr hungrig und durstig war, aß ein wenig von jedem Teller und trank einen Schluck aus jedem Becher.", "it": "Biancaneve, che aveva molta fame e sete, mangiò un poco da ogni piatto e bevve un sorso da ogni bicchiere.", "pt": "Branca de Neve, que tinha muita fome e sede, comeu um pouco de cada prato e bebeu um gole de cada copo.", "ca": "Blancaneu, que tenia molta gana i set, va menjar una mica de cada plat i va beure un glop de cada got."},
-        {"es": "Después subió a los dormitorios y probó cada cama. La séptima era la que le venía bien, y se quedó dormida en ella.", "en": "Then she went upstairs to the bedrooms and tried each bed. The seventh one suited her, and she fell asleep in it.", "fr": "Ensuite, elle monta aux chambres et essaya chaque lit. Le septième lui convenait, et elle s'y endormit.", "de": "Dann ging sie hinauf in die Schlafzimmer und probierte jedes Bett aus. Das siebte passte ihr, und sie schlief darin ein.", "it": "Poi salì nelle camere da letto e provò ogni letto. Il settimo andava bene, e si addormentò in esso.", "pt": "Depois subiu aos quartos e experimentou cada cama. A sétima era a que lhe servia, e adormeceu nela.", "ca": "Després va pujar als dormitoris i va provar cada llit. El setè era el que li anava bé, i s'hi va adormir."},
-        {"es": "Cuando oscureció, llegaron a la casita los siete enanitos que trabajaban en las montañas cavando en busca de minerales.", "en": "When it grew dark, the seven dwarfs who lived in the little cottage came home, for they had been at work in the mountains digging for minerals.", "fr": "Quand il fit nuit, les sept nains qui habitaient la maisonnette rentrèrent chez eux, car ils avaient travaillé dans les montagnes à creuser des minéraux.", "de": "Als es dunkel wurde, kamen die sieben Zwerge nach Hause, die in der kleinen Hütte wohnten, denn sie hatten in den Bergen nach Mineralien gegraben.", "it": "Quando si fece buio, arrivarono alla casetta i sette nani che ci abitavano, poiché avevano lavorato nelle montagne scavando minerali.", "pt": "Quando escureceu, chegaram à casinha os sete anões que lá viviam, pois tinham trabalhado nas montanhas a cavar minerais.", "ca": "Quan va fer-se fosc, van arribar a la caseta els set nans que hi vivien, ja que havien treballat a les muntanyes cavant minerals."}
+        {
+          "es": "Una noche, cuando estaban hablando con la mayor tranquilidad, llamaron a la puerta.",
+          "en": "One night, while they were talking in perfect peace, someone knocked at the door.",
+          "fr": "Un soir, alors qu'elles bavardaient tranquillement, on frappa à la porte.",
+          "de": "Eines Abends, als sie in aller Ruhe zusammensaßen, klopfte es an die Tür.",
+          "it": "Una notte, mentre stavano parlando con la massima tranquillità, bussarono alla porta.",
+          "pt": "Uma noite, enquanto estavam a conversar com a maior tranquilidade, bateram à porta.",
+          "ca": "Una nit, quan estaven parlant amb la major tranquil·litat, van trucar a la porta."
+        },
+        {
+          "es": "«Rojarosa», dijo la madre, «ve a abrir corriendo, pues sin duda será algún viajero extraviado que buscará asilo por esta noche.»",
+          "en": "'Rose-red,' said the mother, 'go and open the door quickly; it is sure to be some traveller who has lost his way and is looking for shelter for the night.'",
+          "fr": "« Rose-Rouge, dit la mère, va ouvrir en courant, car c'est sans doute quelque voyageur égaré qui cherchera un abri pour cette nuit. »",
+          "de": "«Rosenrot», sagte die Mutter, «lauf und mach auf; es wird wohl ein Wanderer sein, der sich verirrt hat und Obdach für die Nacht sucht.»",
+          "it": "«Rosarossa», disse la madre, «vai ad aprire di corsa, poiché sarà sicuramente qualche viaggiatore smarrito che cercherà riparo per questa notte.»",
+          "pt": "«Rosa-vermelha», disse a mãe, «vai abrir a correr, pois de certo será algum viajante perdido que procurará abrigo para esta noite.»",
+          "ca": "«Rosaroja», va dir la mare, «vés a obrir corrents, perquè segurament serà algun viatger extraviat que buscarà refugi per aquesta nit.»"
+        },
+        {
+          "es": "Rojarosa fue a descorrer el cerrojo y esperaba ver entrar algún pobre, cuando asomó un oso su gran cabeza negra por la puerta entreabierta.",
+          "en": "Rose-red went to draw back the bolt expecting to see some poor man, but instead a bear thrust his great black head through the half-open door.",
+          "fr": "Rose-Rouge alla tirer le verrou et s'attendait à voir entrer quelque pauvre, quand un ours pointa sa grande tête noire par la porte entrouverte.",
+          "de": "Rosenrot ging, den Riegel zurückzuschieben, und erwartete einen Armen zu sehen, als ein Bär seinen großen schwarzen Kopf durch die halb geöffnete Tür steckte.",
+          "it": "Rosarossa andò a togliere il catenaccio e si aspettava di vedere entrare qualche povero, quando un orso sporse la sua grande testa nera dalla porta socchiusa.",
+          "pt": "Rosa-vermelha foi destrancar a porta à espera de ver entrar algum pobre, quando um urso apareceu com a sua grande cabeça negra pela porta entreaberta.",
+          "ca": "Rosaroja va anar a descorrer el forrellat i esperava veure entrar algun pobre, quan un ós va treure el seu gran cap negre per la porta entreoberta."
+        },
+        {
+          "es": "Rojarosa echó a correr dando gritos, el cordero comenzó a balar, la paloma revoloteaba por todo el cuarto y Blancanieve corrió a esconderse detrás de la cama de su madre.",
+          "en": "Rose-red ran off shrieking, the lamb began to bleat, the dove fluttered all around the room and Snow-white ran to hide behind her mother's bed.",
+          "fr": "Rose-Rouge s'enfuit en criant, l'agneau commença à bêler, la palombe voletait dans toute la pièce et Blanche-Neige courut se cacher derrière le lit de sa mère.",
+          "de": "Rosenrot lief schreiend davon, das Lamm fing an zu blöken, die Taube flatterte durch das ganze Zimmer und Schneeweißchen lief sich hinter dem Bett der Mutter zu verstecken.",
+          "it": "Rosarossa si mise a correre urlando, l'agnello cominciò a belare, la colomba svolazzava per tutta la stanza e Biancaneve corse a nascondersi dietro il letto della madre.",
+          "pt": "Rosa-vermelha pôs-se a correr aos gritos, o cordeiro começou a balir, a pomba voejava por todo o quarto e Brancaneve correu a esconder-se atrás da cama da mãe.",
+          "ca": "Rosaroja es va posar a córrer cridant, l'anyell va començar a balar, el colom volava per tota l'habitació i Blancaneu va córrer a amagar-se darrere del llit de la seva mare."
+        },
+        {
+          "es": "Pero el oso les dijo: «No temáis, no os haré daño; solo os pido permiso para calentarme un poco, pues estoy medio helado.»",
+          "en": "But the bear said to them: 'Do not be afraid, I will not hurt you; I only ask your leave to warm myself a little, for I am half frozen.'",
+          "fr": "Mais l'ours leur dit : « N'ayez pas peur, je ne vous ferai pas de mal ; je vous demande seulement la permission de me réchauffer un peu, car je suis à moitié gelé. »",
+          "de": "Der Bär aber sagte ihnen: «Fürchtet euch nicht, ich tue euch nichts; ich bitte euch nur, mich ein wenig wärmen zu lassen, denn ich bin halb erfroren.»",
+          "it": "Ma l'orso disse loro: «Non abbiate paura, non vi farò alcun danno; vi chiedo solo il permesso di scaldarmi un po', perché sono mezzo assiderato.»",
+          "pt": "Mas o urso disse-lhes: «Não tenhais medo, não vos farei mal; apenas vos peço permissão para me aquecer um pouco, pois estou meio gelado.»",
+          "ca": "Però l'ós els va dir: «No tingueu por, no us faré mal; tan sols us demano permís per escalfar-me una mica, perquè estic mig gelat.»"
+        },
+        {
+          "es": "«Acércate al fuego, pobre oso», contestó la madre, «pero ten cuidado de no quemarte la piel.»",
+          "en": "'Come close to the fire, poor bear,' answered the mother, 'but take care not to singe your fur.'",
+          "fr": "« Approche-toi du feu, pauvre ours », répondit la mère, « mais fais attention de ne pas te brûler la fourrure. »",
+          "de": "«Komm ans Feuer, armer Bär», antwortete die Mutter, «aber pass auf, dass du dein Fell nicht verbrennst.»",
+          "it": "«Avvicinati al fuoco, povero orso», rispose la madre, «ma fa' attenzione a non scottarti la pelliccia.»",
+          "pt": "«Aproxima-te do lume, pobre urso», respondeu a mãe, «mas tem cuidado para não queimares o pelo.»",
+          "ca": "«Acosta't al foc, pobre ós», va respondre la mare, «però para atenció de no cremar-te la pell.»"
+        },
+        {
+          "es": "Después llamó a sus hijas: «Blancanieve, Rojarosa, venid; el oso no os hará daño, tiene buenas intenciones.»",
+          "en": "Then she called her daughters: 'Snow-white, Rose-red, come; the bear will not hurt you, his intentions are good.'",
+          "fr": "Puis elle appela ses filles : « Blanche-Neige, Rose-Rouge, venez ; l'ours ne vous fera pas de mal, il a de bonnes intentions. »",
+          "de": "Dann rief sie ihre Töchter: «Schneeweißchen, Rosenrot, kommt; der Bär wird euch nichts tun, er meint es gut.»",
+          "it": "Poi chiamò le sue figlie: «Biancaneve, Rosarossa, venite; l'orso non vi farà del male, ha buone intenzioni.»",
+          "pt": "Depois chamou as suas filhas: «Brancaneve, Rosa-vermelha, vinde; o urso não vos fará mal, tem boas intenções.»",
+          "ca": "Després va cridar les seves filles: «Blancaneu, Rosaroja, veniu; l'ós no us farà mal, té bones intencions.»"
+        },
+        {
+          "es": "Entonces vinieron las dos hermanas, y se acercaron también poco a poco el cordero y la tórtola, y olvidaron su temor.",
+          "en": "Then the two sisters came, and little by little the lamb and the turtledove also drew near, and they all forgot their fear.",
+          "fr": "Les deux sœurs vinrent alors, et l'agneau et la tourterelle s'approchèrent aussi petit à petit, et ils oublièrent tous leur peur.",
+          "de": "Da kamen die beiden Schwestern, und auch das Lamm und die Turteltaube näherten sich nach und nach, und alle vergaßen ihre Angst.",
+          "it": "Allora vennero le due sorelle, e anche l'agnellino e la tortora si avvicinarono poco a poco, e tutti dimenticarono la loro paura.",
+          "pt": "Então vieram as duas irmãs, e também o cordeiro e a rola se foram aproximando pouco a pouco, e esqueceram o seu medo.",
+          "ca": "Llavors van venir les dues germanes, i l'anyell i la tórtora es van apropar també a poc a poc, i van oblidar la seva por."
+        },
+        {
+          "es": "«Hijas», les dijo el oso, «¿queréis sacudir la nieve que ha caído encima de mis espaldas?»",
+          "en": "'Children,' said the bear to them, 'will you brush off the snow that has fallen on my back?'",
+          "fr": "« Mes enfants », leur dit l'ours, « voulez-vous secouer la neige qui est tombée sur mon dos ? »",
+          "de": "«Kinder», sagte der Bär zu ihnen, «wollt ihr den Schnee abklopfen, der auf meinen Rücken gefallen ist?»",
+          "it": "«Figliole», disse loro l'orso, «volete scuotere la neve che è caduta sulle mie spalle?»",
+          "pt": "«Filhas», disse-lhes o urso, «quereis sacudir a neve que caiu sobre as minhas costas?»",
+          "ca": "«Filles», els va dir l'ós, «voleu sacsejar la neu que ha caigut damunt la meva esquena?»"
+        },
+        {
+          "es": "Las niñas cogieron entonces la escoba y le barrieron toda la piel; después se extendió delante de la lumbre manifestando con sus gruñidos que estaba contento y satisfecho.",
+          "en": "The girls then took a broom and swept all the snow from his fur; after that he stretched out before the fire and growled contentedly to show he was pleased.",
+          "fr": "Les fillettes prirent alors le balai et lui brossèrent toute la fourrure ; puis il s'étendit devant le feu en manifestant par ses grognements qu'il était content et satisfait.",
+          "de": "Die Mädchen nahmen dann den Besen und kehrten ihm das ganze Fell ab; danach streckte er sich vor dem Feuer aus und grunzte zufrieden, um zu zeigen, dass er glücklich war.",
+          "it": "Le bambine presero allora la scopa e gli spazzolarono tutta la pelliccia; poi si distese davanti al fuoco manifestando con i suoi grugniti che era contento e soddisfatto.",
+          "pt": "As meninas pegaram então na vassoura e varreram-lhe toda a pele; depois estendeu-se à frente da lareira manifestando com os seus rosnados que estava contente e satisfeito.",
+          "ca": "Les nenes van agafar llavors l'escombra i li van escombrar tota la pell; després es va estendre davant la llar de foc manifestant amb els seus grinyols que estava content i satisfet."
+        },
+        {
+          "es": "No tardaron en tranquilizarse por completo y aun en jugar con este inesperado huésped.",
+          "en": "It was not long before they grew quite calm and even began to play with this unexpected guest.",
+          "fr": "Elles ne tardèrent pas à se calmer tout à fait et même à jouer avec cet hôte inattendu.",
+          "de": "Es dauerte nicht lange, bis sie sich völlig beruhigten und sogar mit diesem unerwarteten Gast zu spielen begannen.",
+          "it": "Non tardarono a tranquillizzarsi del tutto e persino a giocare con questo inaspettato ospite.",
+          "pt": "Não tardaram a acalmar-se completamente e até a brincar com este inesperado hóspede.",
+          "ca": "No van trigar a tranquil·litzar-se del tot i fins i tot a jugar amb aquest inesperat hoste."
+        },
+        {
+          "es": "Le tiraban del pelo, se subían encima de su espalda, le echaban a rodar por el cuarto, y cuando gruñía, comenzaban a reír.",
+          "en": "They pulled his hair, climbed on his back, rolled him about the room, and when he growled they burst out laughing.",
+          "fr": "Elles lui tiraient les poils, montaient sur son dos, le faisaient rouler dans la chambre, et quand il grognait, elles commençaient à rire.",
+          "de": "Sie zogen ihm die Haare, kletterten auf seinen Rücken, rollten ihn durchs Zimmer, und wenn er grunzte, brachen sie in Lachen aus.",
+          "it": "Gli tiravano il pelo, gli salivano sulla schiena, lo facevano rotolare per la stanza, e quando grugniva cominciavano a ridere.",
+          "pt": "Puxavam-lhe o pelo, subiam-lhe às costas, faziam-no rolar pelo quarto, e quando ele rosnava começavam a rir.",
+          "ca": "Li tiraven del pèl, pujaven a la seva esquena, el feien rodar per l'habitació, i quan grunyia, es posaven a riure."
+        },
+        {
+          "es": "El oso las dejaba hacer cuanto querían, pero cuando veía que sus juegos iban demasiado lejos, les decía: «Dejadme vivir, no vayáis a matar a vuestro pretendiente.»",
+          "en": "The bear let them do whatever they liked, but when he felt their games were going too far he would say: 'Leave me in peace, or I shall bite; do not kill your suitor.'",
+          "fr": "L'ours les laissait faire tout ce qu'elles voulaient, mais quand il voyait que leurs jeux allaient trop loin, il leur disait : « Laissez-moi vivre, ne tuez pas votre prétendant. »",
+          "de": "Der Bär ließ sie machen, was sie wollten, aber wenn er sah, dass ihre Spiele zu weit gingen, sagte er: «Lasst mich am Leben, bringt euren Freier nicht um.»",
+          "it": "L'orso le lasciava fare quello che volevano, ma quando vedeva che i loro giochi andavano troppo oltre, diceva loro: «Lasciatemi vivere, non andate ad ammazzare il vostro pretendente.»",
+          "pt": "O urso deixava-as fazer tudo o que queriam, mas quando via que as brincadeiras iam longe demais, dizia-lhes: «Deixai-me viver, não vades matar o vosso pretendente.»",
+          "ca": "L'ós les deixava fer tot el que volien, però quan veia que els seus jocs anaven massa lluny, els deia: «Deixeu-me viure, no aneu a matar el vostre pretendent.»"
+        },
+        {
+          "es": "Cuando fueron a acostarse, la madre le dijo: «Quédate ahí; pasa la noche delante de la lumbre, pues por lo menos estarás al abrigo del frío.»",
+          "en": "When they went to bed their mother said to him: 'Stay here; spend the night in front of the fire, for at least you will be sheltered from the cold.'",
+          "fr": "Quand elles allèrent se coucher, la mère lui dit : « Reste là ; passe la nuit devant le feu, tu seras au moins à l'abri du froid. »",
+          "de": "Als sie zu Bett gingen, sagte die Mutter zu ihm: «Bleib hier; verbringe die Nacht vor dem Feuer, so bist du wenigstens vor der Kälte geschützt.»",
+          "it": "Quando andarono a letto, la madre gli disse: «Resta qui; passa la notte davanti al fuoco, almeno sarai al riparo dal freddo.»",
+          "pt": "Quando foram deitar-se, a mãe disse-lhe: «Fica aqui; passa a noite em frente ao lume, pelo menos estarás ao abrigo do frio.»",
+          "ca": "Quan van anar a dormir, la mare li va dir: «Queda't aquí; passa la nit davant la llar de foc, almenys estaràs a recer del fred.»"
+        },
+        {
+          "es": "Las niñas le abrieron las puertas al amanecer, y él se fue al bosque trotando sobre la nieve.",
+          "en": "The girls opened the door for him at dawn, and he trotted off into the forest over the snow.",
+          "fr": "Les fillettes lui ouvrirent la porte à l'aube, et il s'en alla dans la forêt en trottant sur la neige.",
+          "de": "Die Mädchen öffneten ihm die Tür in der Frühe, und er trabte über den Schnee in den Wald.",
+          "it": "Le bambine gli aprirono le porte all'alba, e lui se ne andò nel bosco trottando sulla neve.",
+          "pt": "As meninas abriram-lhe as portas ao amanhecer, e ele foi-se ao bosque a trote sobre a neve.",
+          "ca": "Les nenes li van obrir les portes a l'alba, i ell se'n va anar al bosc trotant sobre la neu."
+        },
+        {
+          "es": "Desde aquel día, volvía todas las noches a la misma hora, se extendía delante de la lumbre y permitía a las niñas que jugaran con él cuanto querían.",
+          "en": "From that day on he came back every evening at the same hour, stretched out before the fire and let the girls play with him as much as they liked.",
+          "fr": "Dès lors, il revenait chaque soir à la même heure, s'étendait devant le feu et permettait aux fillettes de jouer avec lui autant qu'elles le voulaient.",
+          "de": "Von diesem Tag an kam er jeden Abend zur selben Stunde, streckte sich vor dem Feuer aus und ließ die Mädchen mit ihm spielen, wie sie wollten.",
+          "it": "Da quel giorno tornava ogni sera alla stessa ora, si stendeva davanti al fuoco e permetteva alle bambine di giocare con lui quanto volevano.",
+          "pt": "Desde esse dia, voltava todas as noites à mesma hora, estendia-se à frente do lume e deixava as meninas brincar com ele quanto queriam.",
+          "ca": "Des d'aquell dia, tornava totes les nits a la mateixa hora, s'estenia davant la llar de foc i permetia a les nenes que juguessin amb ell tant com volien."
+        }
       ]
     },
     {
-      "tit": "Los siete enanitos",
+      "tit": "La partida del oso",
       "frases": [
-        {"es": "Los enanitos encendieron sus siete velas y vieron que alguien había estado en su casa. El primero dijo: ¿quién se ha sentado en mi silla?", "en": "The dwarfs lit their seven candles and saw that someone had been in their house. The first said: who has been sitting in my chair?", "fr": "Les nains allumèrent leurs sept bougies et virent que quelqu'un était venu dans leur maison. Le premier dit : qui s'est assis sur ma chaise ?", "de": "Die Zwerge zündeten ihre sieben Kerzen an und sahen, dass jemand in ihrem Haus gewesen war. Der erste sagte: Wer hat auf meinem Stuhl gesessen?", "it": "I nani accesero le loro sette candele e videro che qualcuno era stato in casa loro. Il primo disse: chi si è seduto sulla mia sedia?", "pt": "Os anões acenderam as suas sete velas e viram que alguém tinha estado na sua casa. O primeiro disse: quem se sentou na minha cadeira?", "ca": "Els nans van encendre les seves set espelmes i van veure que algú havia estat a casa seva. El primer va dir: qui s'ha assegut a la meva cadira?"},
-        {"es": "El segundo dijo: ¿quién ha comido de mi plato? Y el tercero: ¿quién ha usado mi cuchara?", "en": "The second said: who has been eating off my plate? And the third: who has been using my spoon?", "fr": "Le deuxième dit : qui a mangé dans mon assiette ? Et le troisième : qui a utilisé ma cuillère ?", "de": "Der zweite sagte: Wer hat von meinem Teller gegessen? Und der dritte: Wer hat meinen Löffel benutzt?", "it": "Il secondo disse: chi ha mangiato dal mio piatto? E il terzo: chi ha usato il mio cucchiaio?", "pt": "O segundo disse: quem comeu do meu prato? E o terceiro: quem usou a minha colher?", "ca": "El segon va dir: qui ha menjat del meu plat? I el tercer: qui ha fet servir la meva cullera?"},
-        {"es": "Cuando subieron arriba, el séptimo enano vio a Blancanieves durmiendo en su cama y llamó a los demás para que la viesen.", "en": "When they went upstairs, the seventh dwarf saw Snow White sleeping in his bed and called the others to come and see her.", "fr": "Quand ils montèrent, le septième nain vit Blanche-Neige endormie dans son lit et appela les autres pour qu'ils la voient.", "de": "Als sie nach oben gingen, sah der siebte Zwerg Schneewittchen in seinem Bett schlafen und rief die anderen, damit sie sie sehen konnten.", "it": "Quando salirono di sopra, il settimo nano vide Biancaneve addormentata nel suo letto e chiamò gli altri per mostrarla.", "pt": "Quando subiram, o sétimo anão viu Branca de Neve a dormir na sua cama e chamou os outros para a verem.", "ca": "Quan van pujar, el setè nan va veure Blancaneu dormint al seu llit i va cridar els altres perquè la veiessin."},
-        {"es": "Todos exclamaron admirados: ¡cielos, qué hermosa es! No la despertaron y dejaron que durmiera en la cama del séptimo enano.", "en": "They all exclaimed in wonder: heavens, how beautiful she is! They did not wake her but let her sleep in the seventh dwarf's bed.", "fr": "Tous s'exclamèrent avec admiration : mon dieu, qu'elle est belle ! Ils ne la réveillèrent pas et la laissèrent dormir dans le lit du septième nain.", "de": "Alle riefen bewundernd aus: Himmel, wie schön sie ist! Sie weckten sie nicht, sondern ließen sie im Bett des siebten Zwerges schlafen.", "it": "Tutti esclamarono ammirati: cielo, com'è bella! Non la svegliarono e la lasciarono dormire nel letto del settimo nano.", "pt": "Todos exclamaram admirados: céus, que bela ela é! Não a acordaram e deixaram-na dormir na cama do sétimo anão.", "ca": "Tots van exclamar admirats: cel, que bella és! No la van despertar i la van deixar dormir al llit del setè nan."},
-        {"es": "A la mañana siguiente Blancanieves se despertó y se asustó al ver a los siete enanitos. Pero ellos fueron amables y le preguntaron su nombre.", "en": "The next morning Snow White woke up and was frightened to see the seven dwarfs. But they were friendly and asked her name.", "fr": "Le lendemain matin, Blanche-Neige se réveilla et fut effrayée de voir les sept nains. Mais ils furent aimables et lui demandèrent son nom.", "de": "Am nächsten Morgen wachte Schneewittchen auf und erschrak, als sie die sieben Zwerge sah. Aber sie waren freundlich und fragten sie nach ihrem Namen.", "it": "La mattina dopo Biancaneve si svegliò e si spaventò vedendo i sette nani. Ma loro furono gentili e le chiesero il suo nome.", "pt": "Na manhã seguinte Branca de Neve acordou e assustou-se ao ver os sete anões. Mas eles foram amáveis e perguntaram-lhe o nome.", "ca": "Al matí següent Blancaneu es va despertar i es va espantar en veure els set nans. Però ells van ser amables i li van preguntar el nom."},
-        {"es": "Blancanieves les contó su historia y los enanitos le dijeron que podía quedarse a vivir con ellos si les cocinaba y les limpiaba la casa.", "en": "Snow White told them her story and the dwarfs said she could stay with them if she would cook for them and keep the house clean.", "fr": "Blanche-Neige leur raconta son histoire et les nains lui dirent qu'elle pouvait rester avec eux si elle leur faisait la cuisine et gardait la maison propre.", "de": "Schneewittchen erzählte ihnen ihre Geschichte und die Zwerge sagten, sie könne bei ihnen bleiben, wenn sie für sie kochen und das Haus sauber halten würde.", "it": "Biancaneve raccontò loro la sua storia e i nani le dissero che poteva restare con loro se cucinava e puliva la casa.", "pt": "Branca de Neve contou-lhes a sua história e os anões disseram-lhe que podia ficar com eles se lhes cozinhasse e mantivesse a casa limpa.", "ca": "Blancaneu els va explicar la seva història i els nans li van dir que podia quedar-se a viure amb ells si els cuinava i els netejava la casa."},
-        {"es": "Mientras los enanitos trabajaban en la montaña cada día, Blancanieves se quedaba sola en casa.", "en": "While the dwarfs were away working in the mountain each day, Snow White stayed alone at home.", "fr": "Pendant que les nains travaillaient à la montagne chaque jour, Blanche-Neige restait seule à la maison.", "de": "Während die Zwerge jeden Tag in der Bergmine arbeiteten, blieb Schneewittchen allein zu Hause.", "it": "Mentre i nani lavoravano in montagna ogni giorno, Biancaneve restava sola in casa.", "pt": "Enquanto os anões trabalhavam na montanha todos os dias, Branca de Neve ficava sozinha em casa.", "ca": "Mentre els nans treballaven a la muntanya cada dia, Blancaneu es quedava sola a casa."},
-        {"es": "Los enanitos le advirtieron: ten cuidado con tu madrastra, pues pronto sabrá que estás aquí. No dejes entrar a nadie.", "en": "The dwarfs warned her: beware of your stepmother, for she will soon know you are here. Do not let anyone in.", "fr": "Les nains l'avertirent : méfie-toi de ta belle-mère, car elle saura bientôt que tu es ici. Ne laisse entrer personne.", "de": "Die Zwerge warnten sie: pass auf deine Stiefmutter auf, denn sie wird bald wissen, dass du hier bist. Lass niemanden herein.", "it": "I nani la avvertirono: stai attenta alla tua matrigna, perché presto saprà che sei qui. Non fare entrare nessuno.", "pt": "Os anões advertiram-na: tem cuidado com a tua madrasta, pois em breve saberá que estás aqui. Não deixes entrar ninguém.", "ca": "Els nans l'advertiren: tingues cura de la teva madrastra, perquè aviat sabrà que ets aquí. No deixis entrar ningú."},
-        {"es": "Mientras tanto, la reina creyó que Blancanieves había muerto. Pero un día volvió a preguntar al espejo y este le respondió que Blancanieves vivía con los enanitos.", "en": "Meanwhile the queen believed Snow White was dead. But one day she asked the mirror again and it told her Snow White was alive with the dwarfs.", "fr": "Entre-temps, la reine croyait que Blanche-Neige était morte. Mais un jour, elle demanda à nouveau au miroir et celui-ci lui répondit que Blanche-Neige vivait avec les nains.", "de": "Inzwischen glaubte die Königin, Schneewittchen sei tot. Aber eines Tages fragte sie den Spiegel wieder und er antwortete, Schneewittchen lebe bei den Zwergen.", "it": "Nel frattempo la regina credeva che Biancaneve fosse morta. Ma un giorno tornò a chiedere allo specchio e questo le rispose che Biancaneve viveva con i nani.", "pt": "Entretanto, a rainha acreditava que Branca de Neve estava morta. Mas um dia voltou a perguntar ao espelho e este disse-lhe que Branca de Neve vivia com os anões.", "ca": "Mentrestant, la reina creia que Blancaneu havia mort. Però un dia va tornar a preguntar al mirall i aquest li va respondre que Blancaneu vivia amb els nans."},
-        {"es": "La reina se puso a pensar en cómo deshacerse de Blancanieves, porque mientras ella viviese no podría ser la más hermosa del reino.", "en": "The queen began to think how she could rid herself of Snow White, for as long as she lived she could not be the fairest in the land.", "fr": "La reine se mit à penser à la façon dont elle pourrait se débarrasser de Blanche-Neige, car tant qu'elle vivrait, elle ne pourrait pas être la plus belle du royaume.", "de": "Die Königin begann darüber nachzudenken, wie sie Schneewittchen loswerden könnte, denn solange sie lebte, konnte sie nicht die Schönste im Land sein.", "it": "La regina cominciò a pensare a come sbarazzarsi di Biancaneve, perché finché lei vivesse non avrebbe potuto essere la più bella del reame.", "pt": "A rainha pôs-se a pensar em como se livrar de Branca de Neve, pois enquanto ela vivesse não poderia ser a mais bela do reino.", "ca": "La reina es va posar a pensar com desfer-se de Blancaneu, perquè mentre ella visqués no podria ser la més bella del regne."}
+        {
+          "es": "En la primavera, en cuanto comenzó a nacer el verde, dijo el oso a Blancanieve: «Me marcho, y no volveré en todo el verano.»",
+          "en": "In the spring, as soon as the green shoots began to appear, the bear said to Snow-white: 'I am leaving and shall not return all summer.'",
+          "fr": "Au printemps, dès que le vert commença à poindre, l'ours dit à Blanche-Neige : « Je pars et je ne reviendrai pas de tout l'été. »",
+          "de": "Im Frühling, sobald das Grün zu sprießen begann, sagte der Bär zu Schneeweißchen: «Ich gehe fort und werde den ganzen Sommer nicht wiederkommen.»",
+          "it": "In primavera, non appena cominciò a spuntare il verde, l'orso disse a Biancaneve: «Parto e non tornerò per tutta l'estate.»",
+          "pt": "Na primavera, assim que o verde começou a nascer, o urso disse a Brancaneve: «Parto e não voltarei em todo o verão.»",
+          "ca": "A la primavera, en cuant va començar a néixer el verd, l'ós va dir a Blancaneu: «Me'n vaig i no tornaré en tot l'estiu.»"
+        },
+        {
+          "es": "«¿Dónde vas, querido oso?», le preguntó Blancanieve.",
+          "en": "'Where are you going, dear bear?' asked Snow-white.",
+          "fr": "« Où vas-tu, cher ours ? » lui demanda Blanche-Neige.",
+          "de": "«Wo gehst du hin, lieber Bär?», fragte Schneeweißchen.",
+          "it": "«Dove vai, caro orso?» gli chiese Biancaneve.",
+          "pt": "«Onde vais, querido urso?», perguntou-lhe Brancaneve.",
+          "ca": "«On vas, estimat ós?», li va preguntar Blancaneu."
+        },
+        {
+          "es": "«Voy al bosque; tengo que cuidar de mis tesoros para que no me los roben los malvados enanos. Por el invierno, cuando la tierra está helada, se ven obligados a permanecer en sus agujeros y no pueden salir. Pero ahora que el sol ha calentado la tierra, la rompen y salen para robar y hurtar.»",
+          "en": "'I am going to the forest; I must watch over my treasures so that the wicked dwarves do not steal them. In winter, when the earth is frozen, they are forced to stay in their holes and cannot get out. But now that the sun has warmed the earth they break through it and come out to rob and steal.'",
+          "fr": "« Je vais dans la forêt ; je dois veiller sur mes trésors pour que les méchants nains ne me les volent pas. En hiver, quand la terre est gelée, ils sont obligés de rester dans leurs trous et ne peuvent pas sortir. Mais maintenant que le soleil a réchauffé la terre, ils la percent et sortent pour voler et dérober. »",
+          "de": "«Ich gehe in den Wald; ich muss auf meine Schätze aufpassen, damit sie mir die bösen Zwerge nicht stehlen. Im Winter, wenn die Erde gefroren ist, müssen sie in ihren Höhlen bleiben und können nicht heraus. Aber jetzt, wo die Sonne die Erde gewärmt hat, brechen sie durch und kommen heraus, um zu stehlen und zu rauben.»",
+          "it": "«Vado nel bosco; devo badare ai miei tesori perché i malvagi nani non me li rubino. D'inverno, quando la terra è gelata, sono costretti a restare nelle loro tane e non possono uscire. Ma ora che il sole ha riscaldato la terra, la rompono e escono per rubare e derubare.»",
+          "pt": "«Vou ao bosque; tenho de cuidar dos meus tesouros para que os malvados anões não mo roubem. No inverno, quando a terra está gelada, são obrigados a ficar nos seus buracos e não podem sair. Mas agora que o sol aqueceu a terra, rompem-na e saem para roubar e furtar.»",
+          "ca": "«Vaig al bosc; he de cuidar els meus tresors perquè els malvats nans no me'ls robin. A l'hivern, quan la terra és gelada, es veuen obligats a quedar-se als seus forats i no poden sortir. Però ara que el sol ha escalfat la terra, la trenquen i surten per robar i furtar.»"
+        },
+        {
+          "es": "Blancanieve sintió mucho la partida del oso; cuando le abrió la puerta se desgarró un poco la piel en el gancho, y a Blancanieve le pareció ver brillar oro por debajo.",
+          "en": "Snow-white was very sorry when the bear left; as she opened the door for him a little of his fur caught on the hook and she thought she saw gold gleaming beneath it.",
+          "fr": "Blanche-Neige fut très triste du départ de l'ours ; quand elle lui ouvrit la porte, sa fourrure se déchira un peu au crochet, et il sembla à Blanche-Neige voir briller de l'or en dessous.",
+          "de": "Schneeweißchen war sehr traurig über den Abschied des Bären; als sie ihm die Tür öffnete, riss sein Fell ein wenig am Haken, und Schneeweißchen glaubte, darunter Gold glänzen zu sehen.",
+          "it": "Biancaneve sentì molto la partenza dell'orso; quando gli aprì la porta si stracciò un po' la pelliccia al gancio, e a Biancaneve parve di vedere brillare dell'oro al di sotto.",
+          "pt": "Brancaneve sentiu muito a partida do urso; quando lhe abriu a porta, a pele rasgou-se um pouco no gancho, e a Brancaneve pareceu-lhe ver brilhar ouro por baixo.",
+          "ca": "Blancaneu va sentir molt la partida de l'ós; quan li va obrir la porta es va esquinçar una mica la pell al ganxo, i a Blancaneu li va semblar veure brillar or per sota."
+        },
+        {
+          "es": "El oso partió con la mayor celeridad y desapareció pronto entre los árboles.",
+          "en": "The bear set off at great speed and soon disappeared among the trees.",
+          "fr": "L'ours partir avec la plus grande célérité et disparut bientôt parmi les arbres.",
+          "de": "Der Bär brach mit größter Eile auf und verschwand bald zwischen den Bäumen.",
+          "it": "L'orso partì con la massima celerità e scomparve presto tra gli alberi.",
+          "pt": "O urso partiu com a maior rapidez e desapareceu logo entre as árvores.",
+          "ca": "L'ós va partir amb la major rapidesa i va desaparèixer aviat entre els arbres."
+        }
       ]
     },
     {
-      "tit": "La manzana envenenada",
+      "tit": "El enano de la barba",
       "frases": [
-        {"es": "La reina se disfrazó de anciana vendedora de manzanas y recorrió el camino hacia la casita del bosque.", "en": "The queen disguised herself as an old apple seller and walked along the path to the little cottage in the forest.", "fr": "La reine se déguisa en vieille marchande de pommes et prit le chemin de la petite maison dans la forêt.", "de": "Die Königin verkleidete sich als alte Apfelverkäuferin und ging den Weg zur kleinen Hütte im Wald.", "it": "La regina si travestì da vecchia venditrice di mele e percorse il cammino verso la casetta nel bosco.", "pt": "A rainha disfarçou-se de velha vendedora de maçãs e percorreu o caminho até à casinha na floresta.", "ca": "La reina es va disfressar de vella venedora de pomes i va recórrer el camí cap a la caseta del bosc."},
-        {"es": "Blancanieves oyó que llamaban a la puerta y se asomó por la ventana. Vio a una anciana que llevaba una cesta de manzanas.", "en": "Snow White heard a knock at the door and looked out the window. She saw an old woman carrying a basket of apples.", "fr": "Blanche-Neige entendit frapper à la porte et regarda par la fenêtre. Elle vit une vieille femme portant un panier de pommes.", "de": "Schneewittchen hörte ein Klopfen an der Tür und schaute zum Fenster hinaus. Sie sah eine alte Frau mit einem Korb voller Äpfel.", "it": "Biancaneve sentì bussare alla porta e si affacciò alla finestra. Vide una vecchia che portava un cesto di mele.", "pt": "Branca de Neve ouviu bater à porta e espreitou pela janela. Viu uma velha que trazia um cesto de maçãs.", "ca": "Blancaneu va sentir que trucaven a la porta i es va abocar a la finestra. Va veure una vella que portava una cistella de pomes."},
-        {"es": "La anciana le ofreció la manzana más hermosa, roja y brillante. Blancanieves vaciló pero al final aceptó morderla.", "en": "The old woman offered her the most beautiful apple, red and shiny. Snow White hesitated but at last accepted and bit into it.", "fr": "La vieille lui offrit la plus belle pomme, rouge et brillante. Blanche-Neige hésita mais finit par accepter de la croquer.", "de": "Die alte Frau bot ihr den schönsten Apfel an, rot und glänzend. Schneewittchen zögerte, nahm aber schließlich einen Biss.", "it": "La vecchia le offrì la mela più bella, rossa e lucida. Biancaneve esitò ma alla fine accettò di morderla.", "pt": "A velha ofereceu-lhe a maçã mais bela, vermelha e brilhante. Branca de Neve hesitou mas acabou por aceitar dar-lhe uma dentada.", "ca": "La vella li va oferir la poma més bella, vermella i brillant. Blancaneu va dubtar però al final va acceptar mossegar-la."},
-        {"es": "En cuanto mordió la manzana envenenada, Blancanieves cayó al suelo sin vida. La reina se alejó riendo.", "en": "The moment she bit into the poisoned apple, Snow White fell lifeless to the ground. The queen walked away laughing.", "fr": "Au moment où elle mordit la pomme empoisonnée, Blanche-Neige tomba sans vie sur le sol. La reine s'éloigna en riant.", "de": "In dem Moment, als sie in den vergifteten Apfel biss, fiel Schneewittchen leblos zu Boden. Die Königin entfernte sich lachend.", "it": "Nel momento in cui morse la mela avvelenata, Biancaneve cadde a terra senza vita. La regina si allontanò ridendo.", "pt": "No momento em que mordeu a maçã envenenada, Branca de Neve caiu ao chão sem vida. A rainha afastou-se a rir.", "ca": "En el moment que va mossegar la poma enverinada, Blancaneu va caure a terra sense vida. La reina es va allunyar rient."},
-        {"es": "Cuando los enanitos regresaron a casa y encontraron a Blancanieves, lloraron amargamente durante tres días.", "en": "When the dwarfs came home and found Snow White, they wept bitterly for three days.", "fr": "Quand les nains rentrèrent chez eux et trouvèrent Blanche-Neige, ils pleurèrent amèrement pendant trois jours.", "de": "Als die Zwerge nach Hause kamen und Schneewittchen fanden, weinten sie drei Tage lang bitterlich.", "it": "Quando i nani tornarono a casa e trovarono Biancaneve, piansero amaramente per tre giorni.", "pt": "Quando os anões voltaram a casa e encontraram Branca de Neve, choraram amargamente durante três dias.", "ca": "Quan els nans van tornar a casa i van trobar Blancaneu, van plorar amargament durant tres dies."},
-        {"es": "Como seguía tan hermosa, con las mejillas rosadas, los enanitos no pudieron enterrarla. La pusieron en un ataúd de cristal en la cima de la montaña.", "en": "Because she still looked so beautiful, with rosy cheeks, the dwarfs could not bring themselves to bury her. They placed her in a glass coffin on top of a mountain.", "fr": "Comme elle était toujours aussi belle, avec ses joues roses, les nains ne purent se résoudre à l'enterrer. Ils la placèrent dans un cercueil de verre au sommet de la montagne.", "de": "Weil sie immer noch so schön aussah, mit rosigen Wangen, konnten die Zwerge sie nicht begraben. Sie legten sie in einen gläsernen Sarg auf dem Gipfel des Berges.", "it": "Poiché era ancora così bella, con le guance rosee, i nani non riuscirono a seppellirla. La misero in una bara di cristallo sulla cima della montagna.", "pt": "Como continuava tão bela, com as faces rosadas, os anões não conseguiram enterrá-la. Puseram-na num caixão de cristal no cimo da montanha.", "ca": "Com que continuava tan bella, amb les galtes rosades, els nans no van poder enterrar-la. La van posar en un taüt de cristall al cim de la muntanya."},
-        {"es": "Un día, un príncipe que pasaba por allí vio el ataúd de cristal y a Blancanieves en su interior. Quedó tan enamorado que pidió a los enanitos llevársela.", "en": "One day a prince who was passing by saw the glass coffin and Snow White inside it. He fell so deeply in love that he begged the dwarfs to let him take her away.", "fr": "Un jour, un prince qui passait par là vit le cercueil de verre et Blanche-Neige à l'intérieur. Il tomba tellement amoureux qu'il demanda aux nains de la lui laisser emporter.", "de": "Eines Tages sah ein vorbeireitender Prinz den gläsernen Sarg und Schneewittchen darin. Er verliebte sich so sehr in sie, dass er die Zwerge bat, sie mitnehmen zu dürfen.", "it": "Un giorno un principe di passaggio vide la bara di cristallo e Biancaneve al suo interno. Si innamorò così perdutamente che chiese ai nani di portarla con sé.", "pt": "Um dia, um príncipe que passava por ali viu o caixão de cristal e Branca de Neve lá dentro. Apaixonou-se tão profundamente que pediu aos anões que a deixassem levar.", "ca": "Un dia, un príncep que passava per allà va veure el taüt de cristall i Blancaneu al seu interior. Es va enamorar tant que va demanar als nans que se la deixessin emportar."},
-        {"es": "Al mover el ataúd, el trozo de manzana envenenada se soltó de la garganta de Blancanieves y ella abrió los ojos.", "en": "As they were moving the coffin, the piece of poisoned apple fell from Snow White's throat and she opened her eyes.", "fr": "Alors qu'on déplaçait le cercueil, le morceau de pomme empoisonnée se détacha de la gorge de Blanche-Neige et elle ouvrit les yeux.", "de": "Als der Sarg bewegt wurde, löste sich das Stück vergifteten Apfels aus Schneewittchens Hals und sie öffnete die Augen.", "it": "Mentre spostavano la bara, il pezzo di mela avvelenata si staccò dalla gola di Biancaneve ed ella aprì gli occhi.", "pt": "Ao moverem o caixão, o pedaço de maçã envenenada soltou-se da garganta de Branca de Neve e ela abriu os olhos.", "ca": "En moure el taüt, el tros de poma enverinada es va desprendre de la gola de Blancaneu i ella va obrir els ulls."},
-        {"es": "Blancanieves preguntó: ¿dónde estoy? El príncipe respondió: estás conmigo y te quiero más que a nada en el mundo.", "en": "Snow White asked: where am I? The prince replied: you are with me and I love you more than anything in the world.", "fr": "Blanche-Neige demanda : où suis-je ? Le prince répondit : tu es avec moi et je t'aime plus que tout au monde.", "de": "Schneewittchen fragte: Wo bin ich? Der Prinz antwortete: Du bist bei mir und ich liebe dich mehr als alles auf der Welt.", "it": "Biancaneve chiese: dove sono? Il principe rispose: sei con me e ti amo più di ogni cosa al mondo.", "pt": "Branca de Neve perguntou: onde estou? O príncipe respondeu: estás comigo e amo-te mais do que tudo no mundo.", "ca": "Blancaneu va preguntar: on soc? El príncep va respondre: ets amb mi i t'estimo més que res al món."},
-        {"es": "Se casaron con gran alegría. Pero la madrastra malvada también fue invitada a la boda y cuando llegó reconoció a Blancanieves y su corazón se llenó de horror.", "en": "They married with great joy. But the wicked stepmother was also invited to the wedding and when she arrived she recognized Snow White and her heart filled with horror.", "fr": "Ils se marièrent dans la grande joie. Mais la méchante belle-mère fut également invitée au mariage et quand elle arriva, elle reconnut Blanche-Neige et son cœur se remplit d'horreur.", "de": "Sie heirateten mit großer Freude. Aber die böse Stiefmutter wurde auch zur Hochzeit eingeladen, und als sie ankam, erkannte sie Schneewittchen, und ihr Herz füllte sich mit Entsetzen.", "it": "Si sposarono con grande gioia. Ma la malvagia matrigna fu invitata anche al matrimonio e quando arrivò riconobbe Biancaneve e il suo cuore si riempì di orrore.", "pt": "Casaram-se com grande alegria. Mas a malvada madrasta também foi convidada para o casamento e quando chegou reconheceu Branca de Neve e o coração encheu-se-lhe de horror.", "ca": "Es van casar amb gran alegria. Però la malvada madrastra també va ser convidada al casament i quan va arribar va reconèixer Blancaneu i el cor se li va omplir d'horror."}
+        {
+          "es": "Algún tiempo después, la madre envió a sus hijas a recoger madera seca al bosque. Vieron un árbol grande caído y distinguieron junto a él un pequeño enano de cara vieja y arrugada y una barba blanca larga.",
+          "en": "Some time later their mother sent the girls to gather dry wood in the forest. They saw a large fallen tree, and near it they made out a little dwarf with an old wrinkled face and a long white beard.",
+          "fr": "Quelque temps après, la mère envoya ses filles ramasser du bois sec dans la forêt. Elles virent un grand arbre tombé et distinguèrent près de lui un petit nain au vieux visage ridé et à la longue barbe blanche.",
+          "de": "Einige Zeit später schickte die Mutter ihre Töchter, trockenes Holz im Wald zu sammeln. Sie sahen einen großen gefällten Baum und erkannten daneben einen kleinen Zwerg mit einem alten, runzeligen Gesicht und einem langen weißen Bart.",
+          "it": "Qualche tempo dopo la madre mandò le figlie a raccogliere legna secca nel bosco. Videro un grande albero caduto e distinsero vicino a esso un piccolo nano dal viso vecchio e rugoso e dalla lunga barba bianca.",
+          "pt": "Algum tempo depois, a mãe enviou as suas filhas a apanhar lenha seca no bosque. Viram uma grande árvore caída e distinguiram junto a ela um pequeno anão de cara velha e enrugada e uma longa barba branca.",
+          "ca": "Algun temps després, la mare va enviar les seves filles a recollir llenya seca al bosc. Van veure un gran arbre caigut i van distingir al seu costat un petit nan de cara vella i arrugada i una llarga barba blanca."
+        },
+        {
+          "es": "Se le había enganchado la barba en una hendidura del árbol, y el enano saltaba como un perro sujeto por una cadena.",
+          "en": "His beard had got caught in a cleft of the tree, and the dwarf was jumping about like a dog on a lead.",
+          "fr": "Sa barbe s'était accrochée dans une fissure de l'arbre, et le nain sautillait comme un chien tenu en laisse.",
+          "de": "Sein Bart hatte sich in einem Spalt des Baumes verfangen, und der Zwerg sprang umher wie ein Hund an der Leine.",
+          "it": "La barba si era impigliata in una fenditura dell'albero, e il nano saltellava come un cane tenuto al guinzaglio.",
+          "pt": "A barba tinha ficado presa numa fenda da árvore, e o anão saltava como um cão preso por uma corrente.",
+          "ca": "La barba se li havia enganxat en una escletxa de l'arbre, i el nan saltava com un gos subjecte per una cadena."
+        },
+        {
+          "es": "«¿Cómo te has dejado coger así, pobre hombrecillo?», le preguntó Rojarosa.",
+          "en": "'How did you get caught like that, you poor little man?' Rose-red asked him.",
+          "fr": "« Comment t'es-tu laissé prendre ainsi, pauvre petit homme ? » lui demanda Rose-Rouge.",
+          "de": "«Wie hast du dich so fangen lassen, du armes Männchen?», fragte Rosenrot ihn.",
+          "it": "«Come ti sei lasciato prendere così, poveretto?» gli chiese Rosarossa.",
+          "pt": "«Como te deixaste apanhar assim, pobre homenzinho?», perguntou-lhe Rosa-vermelha.",
+          "ca": "«Com t'has deixat agafar així, pobre homenet?», li va preguntar Rosaroja."
+        },
+        {
+          "es": "«¡Tonta curiosa!», replicó el enano; «quería partir este árbol para tener pedazos pequeños de madera para mi cocina. Ya había introducido la cuña en la madera, pero era demasiado resbaladiza y ha saltado de pronto, y el árbol se ha cerrado tan deprisa que ya no he podido sacar mi barba a tiempo.»",
+          "en": "'Nosy fool!' replied the dwarf; 'I wanted to split this tree to get small pieces of wood for my kitchen. I had already driven the wedge into the wood, but it was too slippery and it sprang out suddenly, and the tree closed so fast that I could not get my beard out in time.'",
+          "fr": "« Sotte curieuse ! » répliqua le nain ; « Je voulais fendre cet arbre pour avoir de petits morceaux de bois pour ma cuisine. J'avais déjà enfoncé le coin dans le bois, mais il était trop glissant, il a sauté brusquement, et l'arbre s'est refermé si vite que je n'ai pas pu retirer ma barbe à temps. »",
+          "de": "«Neugierige Törin!», erwiderte der Zwerg; «ich wollte diesen Baum spalten, um kleine Holzstücke für meinen Herd zu bekommen. Den Keil hatte ich schon in das Holz getrieben, aber er war zu glatt und sprang plötzlich heraus, und der Baum schloss sich so schnell, dass ich meinen Bart nicht mehr rechtzeitig herausziehen konnte.»",
+          "it": "«Sciocca curiosa!» replicò il nano; «Volevo spaccare quest'albero per avere pezzi piccoli di legna per la mia cucina. Avevo già introdotto il cuneo nel legno, ma era troppo scivoloso ed è saltato via di colpo, e l'albero si è chiuso così in fretta che non sono riuscito a tirar fuori la mia barba in tempo.»",
+          "pt": "«Tola curiosa!», replicou o anão; «queria partir esta árvore para ter bocados pequenos de madeira para a minha cozinha. Já tinha metido a cunha na madeira, mas era demasiado escorregadia e saltou de repente, e a árvore fechou-se tão depressa que não consegui tirar a minha barba a tempo.»",
+          "ca": "«Tonta curiosa!», va replicar el nan; «volia partir aquest arbre per tenir trossets de llenya per a la meva cuina. Ja havia introduït la falca a la fusta, però era massa relliscosa i ha saltat de cop, i l'arbre s'ha tancat tan depressa que no he pogut treure la meva barba a temps.»"
+        },
+        {
+          "es": "«Ten un poco de paciencia», dijo Blancanieve, «y todo se arreglará.» Y sacando las tijeras de su bolsillo le cortó la punta de la barba.",
+          "en": "'Be patient a little,' said Snow-white, 'and it will all be set right.' She took her scissors from her pocket and cut off the tip of his beard.",
+          "fr": "« Aie un peu de patience », dit Blanche-Neige, « et tout s'arrangera. » Et sortant ses ciseaux de sa poche, elle lui coupa la pointe de la barbe.",
+          "de": "«Hab ein bisschen Geduld», sagte Schneeweißchen, «es wird sich alles einrichten.» Und die Schere aus der Tasche ziehend, schnitt sie ihm die Bartspitze ab.",
+          "it": "«Abbi un po' di pazienza», disse Biancaneve, «e tutto si sistemerà.» E tirando fuori le forbici dalla tasca gli tagliò la punta della barba.",
+          "pt": "«Tem um pouco de paciência», disse Brancaneve, «e tudo se arranjará.» E tirando as tesouras do bolso cortou-lhe a ponta da barba.",
+          "ca": "«Tingues una mica de paciència», va dir Blancaneu, «i tot s'arreglarà.» I traient les tisores de la butxaca li va tallar la punta de la barba."
+        },
+        {
+          "es": "En cuanto el enano se vio libre, fue a coger un saco lleno de oro que estaba oculto en las raíces del árbol y se lo echó al hombro gruñendo: «¡Qué animales son esas criaturas! ¡Cortar la punta de una barba tan hermosa! ¡El diablo os lleve!»",
+          "en": "As soon as the dwarf found himself free, he grabbed a sack full of gold that was hidden among the roots of the tree, slung it over his shoulder and growled: 'What brutes these creatures are! To cut off the tip of such a fine beard! The devil take you!'",
+          "fr": "Dès que le nain se vit libre, il alla prendre un sac plein d'or caché dans les racines de l'arbre et se le mit sur l'épaule en grognant : « Quelles brutes que ces créatures ! Couper la pointe d'une si belle barbe ! Que le diable vous emporte ! »",
+          "de": "Sobald der Zwerg sich frei sah, nahm er einen Sack voll Gold, der in den Wurzeln des Baumes versteckt war, warf ihn sich über die Schulter und brummte: «Was für Ungetüme das sind! Die Spitze eines so schönen Bartes abschneiden! Der Teufel soll euch holen!»",
+          "it": "Non appena il nano si vide libero, andò a prendere un sacco pieno d'oro nascosto nelle radici dell'albero e se lo gettò sulla spalla brontolando: «Che bestie sono queste creature! Tagliare la punta di una barba così bella! Il diavolo vi porti!»",
+          "pt": "Assim que o anão se viu livre, foi buscar um saco cheio de ouro escondido nas raízes da árvore e pô-lo ao ombro resmungando: «Que animais são essas criaturas! Cortar a ponta de uma barba tão bonita! O diabo vos leve!»",
+          "ca": "En cuant el nan es va veure lliure, va anar a agafar un sac ple d'or amagat a les arrels de l'arbre i se'l va posar a l'espatlla rondant: «Quins animals són aquestes criatures! Tallar la punta d'una barba tan bonica! El dimoni us emporti!»"
+        },
+        {
+          "es": "Después se echó el saco a la espalda y se marchó sin mirarlas siquiera.",
+          "en": "Then he slung the sack on his back and went off without so much as looking at them.",
+          "fr": "Puis il se jeta le sac sur le dos et s'en alla sans même les regarder.",
+          "de": "Dann warf er den Sack auf den Rücken und ging fort, ohne sie auch nur anzusehen.",
+          "it": "Poi si gettò il sacco in spalla e se ne andò senza nemmeno guardarle.",
+          "pt": "Depois atirou o saco às costas e foi-se embora sem sequer as olhar.",
+          "ca": "Després es va tirar el sac a l'esquena i se'n va anar sense mirar-les ni una vegada."
+        }
       ]
     },
     {
-      "tit": "El final del cuento",
+      "tit": "El enano y el pez",
       "frases": [
-        {"es": "Como castigo por sus crímenes, le pusieron a la reina malvada unos zapatos de hierro al rojo vivo y tuvo que bailar hasta caer muerta.", "en": "As punishment for her crimes, the wicked queen was made to wear red-hot iron shoes and dance until she fell down dead.", "fr": "En punition pour ses crimes, on fit chausser à la méchante reine des souliers de fer chauffés à blanc et elle dut danser jusqu'à tomber morte.", "de": "Zur Strafe für ihre Verbrechen wurden der bösen Königin glühend heiße Eisenschuhe angelegt und sie musste tanzen, bis sie tot umfiel.", "it": "Come punizione per i suoi crimini, alla regina malvagia furono messe delle scarpe di ferro roventi e dovette ballare finché non cadde morta.", "pt": "Como castigo pelos seus crimes, calçaram à rainha malvada sapatos de ferro em brasa e ela teve de dançar até cair morta.", "ca": "Com a càstig pels seus crims, van calçar a la reina malvada unes sabates de ferro al roig viu i va haver de ballar fins a caure morta."},
-        {"es": "Blancanieves y el príncipe vivieron felices y llenos de amor durante el resto de sus días.", "en": "Snow White and the prince lived happily and full of love for the rest of their days.", "fr": "Blanche-Neige et le prince vécurent heureux et pleins d'amour pour le reste de leurs jours.", "de": "Schneewittchen und der Prinz lebten glücklich und voller Liebe für den Rest ihrer Tage.", "it": "Biancaneve e il principe vissero felici e pieni d'amore per il resto dei loro giorni.", "pt": "Branca de Neve e o príncipe viveram felizes e cheios de amor pelo resto dos seus dias.", "ca": "Blancaneu i el príncep van viure feliços i plens d'amor per la resta dels seus dies."},
-        {"es": "Los siete enanitos visitaban a Blancanieves cada año y eran recibidos con gran alegría en el palacio.", "en": "The seven dwarfs visited Snow White every year and were received with great joy at the palace.", "fr": "Les sept nains rendaient visite à Blanche-Neige chaque année et étaient reçus avec grande joie au palais.", "de": "Die sieben Zwerge besuchten Schneewittchen jedes Jahr und wurden mit großer Freude im Palast empfangen.", "it": "I sette nani visitavano Biancaneve ogni anno e venivano accolti con grande gioia nel palazzo.", "pt": "Os sete anões visitavam Branca de Neve todos os anos e eram recebidos com grande alegria no palácio.", "ca": "Els set nans visitaven Blancaneu cada any i eren rebuts amb gran alegria al palau."},
-        {"es": "Y el espejo mágico, sin su malvada dueña, solo reflejaba la verdad: en aquel reino el amor era más poderoso que la envidia.", "en": "And the magic mirror, without its wicked owner, only reflected the truth: in that kingdom love was more powerful than envy.", "fr": "Et le miroir magique, sans sa méchante propriétaire, ne reflétait que la vérité : dans ce royaume, l'amour était plus puissant que l'envie.", "de": "Und der Zauberspiegel, ohne seine böse Besitzerin, spiegelte nur die Wahrheit wider: In jenem Königreich war die Liebe mächtiger als der Neid.", "it": "E lo specchio magico, senza la sua malvagia padrona, rifletteva solo la verità: in quel regno l'amore era più potente dell'invidia.", "pt": "E o espelho mágico, sem a sua malvada dona, só refletia a verdade: naquele reino o amor era mais poderoso do que a inveja.", "ca": "I el mirall màgic, sense la seva malvada propietària, només reflectia la veritat: en aquell regne l'amor era més poderós que l'enveja."}
+        {
+          "es": "Algunos meses después, las hermanas fueron a pescar al río. Al acercarse a la orilla vieron algo que parecía una langosta grande que daba saltos y que quería tirarse al agua.",
+          "en": "Some months later the sisters went fishing by the river. As they drew near the bank they saw something that looked like a large grasshopper jumping about as if it wanted to leap into the water.",
+          "fr": "Quelques mois après, les sœurs allèrent pêcher à la rivière. En s'approchant du bord, elles virent quelque chose qui ressemblait à une grande sauterelle sautillant et cherchant à se jeter à l'eau.",
+          "de": "Einige Monate später gingen die Schwestern zum Angeln an den Fluss. Als sie sich dem Ufer näherten, sahen sie etwas, das wie eine große Heuschrecke aussah, die herumsprang und sich ins Wasser stürzen wollte.",
+          "it": "Alcuni mesi dopo le sorelle andarono a pescare al fiume. Avvicinandosi alla riva videro qualcosa che sembrava una grande cavalletta che saltava e che voleva buttarsi in acqua.",
+          "pt": "Alguns meses depois, as irmãs foram pescar ao rio. Ao aproximarem-se da margem viram algo que parecia um gafanhoto grande que saltava e queria atirar-se à água.",
+          "ca": "Alguns mesos després, les germanes van anar a pescar al riu. En apropar-se a la riba van veure alguna cosa que semblava un gran llagost que saltava i que volia tirar-se a l'aigua."
+        },
+        {
+          "es": "«¿Qué tienes?», dijo Rojarosa, «¿es que quieres tirarte al río?»",
+          "en": "'What is wrong with you?' said Rose-red; 'do you want to throw yourself in the river?'",
+          "fr": "« Qu'as-tu ? » dit Rose-Rouge, « est-ce que tu veux te jeter à la rivière ? »",
+          "de": "«Was hast du?», sagte Rosenrot, «willst du dich in den Fluss stürzen?»",
+          "it": "«Che hai?» disse Rosarossa, «vuoi buttarti nel fiume?»",
+          "pt": "«Que tens?», disse Rosa-vermelha, «queres atirar-te ao rio?»",
+          "ca": "«Que tens?», va dir Rosaroja, «és que vols tirar-te al riu?»"
+        },
+        {
+          "es": "«¡Qué bestia eres!», exclamó el enano. «¿No ves que es ese maldito pez que quiere arrastrarme al agua?»",
+          "en": "'What a brute you are!' exclaimed the dwarf. 'Can't you see it's that wretched fish trying to drag me into the water?'",
+          "fr": "« Quelle bête tu es ! » s'exclama le nain. « Tu ne vois pas que c'est ce maudit poisson qui veut m'entraîner dans l'eau ? »",
+          "de": "«Was für ein Rindvieh du bist!», rief der Zwerg. «Siehst du nicht, dass dieser verfluchte Fisch mich ins Wasser ziehen will?»",
+          "it": "«Che bestia sei!» esclamò il nano. «Non vedi che è quel maledetto pesce che vuole trascinarmi in acqua?»",
+          "pt": "«Que besta és!», exclamou o anão. «Não vês que é esse maldito peixe que me quer arrastar para a água?»",
+          "ca": "«Quina bèstia ets!», va exclamar el nan. «No veus que és aquell maleït peix que em vol arrossegar a l'aigua?»"
+        },
+        {
+          "es": "Un pescador había echado el anzuelo, mas por desgracia el hilo se enredó en la barba del enano, y cuando un pez grande picó el anzuelo empezó a tirar del enano hacia el agua.",
+          "en": "A fisherman had cast his line, but unfortunately the thread had become tangled in the dwarf's beard, and when a large fish took the hook it began to drag the dwarf towards the water.",
+          "fr": "Un pêcheur avait lancé l'hameçon, mais par malheur le fil s'était emmêlé dans la barbe du nain, et quand un grand poisson avala l'hameçon, il commença à tirer le nain vers l'eau.",
+          "de": "Ein Fischer hatte seine Angel ausgeworfen, aber leider hatte sich der Faden in dem Bart des Zwerges verwickelt, und als ein großer Fisch den Haken schluckte, fing er an, den Zwerg ins Wasser zu ziehen.",
+          "it": "Un pescatore aveva gettato l'amo, ma purtroppo il filo si era aggrovigliato nella barba del nano, e quando un grosso pesce abboccò all'amo cominciò a trascinare il nano verso l'acqua.",
+          "pt": "Um pescador tinha lançado o anzol, mas infelizmente o fio enrolou-se na barba do anão, e quando um peixe grande mordeu o anzol começou a puxar o anão para a água.",
+          "ca": "Un pescador havia llançat l'ham, però malauradament el fil s'havia enredat a la barba del nan, i quan un peix gran va picar l'ham va començar a estirar el nan cap a l'aigua."
+        },
+        {
+          "es": "Las niñas llegaron a tiempo para detenerle y procuraron desenredar la barba, pero todo en vano.",
+          "en": "The girls arrived in time to hold him back and tried to untangle the beard, but all in vain.",
+          "fr": "Les fillettes arrivèrent à temps pour le retenir et essayèrent de démêler sa barbe, mais en vain.",
+          "de": "Die Mädchen kamen rechtzeitig, um ihn festzuhalten, und versuchten, den Bart zu entwirren, aber alles vergebens.",
+          "it": "Le bambine arrivarono in tempo per trattenerlo e cercarono di districare la barba, ma tutto invano.",
+          "pt": "As meninas chegaram a tempo de o segurar e tentaram desenredar a barba, mas tudo em vão.",
+          "ca": "Les nenes van arribar a temps per aturar-lo i van intentar desenredar la barba, però tot en va."
+        },
+        {
+          "es": "Fue preciso recurrir otra vez a las tijeras y cortaron un poco de la punta de la barba.",
+          "en": "It was necessary to resort to the scissors again and they cut off a little of the tip of his beard.",
+          "fr": "Il fallut recourir à nouveau aux ciseaux et elles coupèrent un peu de la pointe de la barbe.",
+          "de": "Man musste wieder zur Schere greifen und sie schnitten ein wenig von der Bartspitze ab.",
+          "it": "Fu necessario ricorrere di nuovo alle forbici e tagliarono un po' della punta della barba.",
+          "pt": "Foi preciso recorrer outra vez às tesouras e cortaram um pouco da ponta da barba.",
+          "ca": "Va caldre recórrer un altre cop a les tisores i van tallar una mica de la punta de la barba."
+        },
+        {
+          "es": "El enano exclamó encolerizado: «¿Tenéis la costumbre de desfigurar así a las gentes? ¿No ha sido bastante con haberme cortado la barba una vez? ¿Cómo me voy a presentar a mis hermanos? ¡Ojalá tengáis que correr sin zapatos y os desolleis los pies!»",
+          "en": "The dwarf cried out furiously: 'Is it your habit to disfigure people like this? Was it not enough to have cut my beard once? How am I to show myself to my brothers? May you have to run barefoot and flay your feet!'",
+          "fr": "Le nain s'exclama avec colère : « Avez-vous l'habitude de défigurer les gens ainsi ? N'était-il pas suffisant de m'avoir coupé la barbe une fois ? Comment vais-je me présenter à mes frères ? Puissiez-vous avoir à courir sans souliers et vous écorcher les pieds ! »",
+          "de": "Der Zwerg rief zornig: «Habt ihr die Gewohnheit, die Leute so zu entstellen? War es nicht genug, mir den Bart einmal abzuschneiden? Wie soll ich mich meinen Brüdern zeigen? Möget ihr ohne Schuhe laufen müssen und euch die Füße aufschürfen!»",
+          "it": "Il nano esclamò irato: «Avete l'abitudine di sfigurare così la gente? Non è stato sufficiente avermi tagliato la barba una volta? Come mi presenterò ai miei fratelli? Speriamo che dobbiate correre scalze e vi scorticiate i piedi!»",
+          "pt": "O anão exclamou encolerizado: «Tendes o costume de desfigurar assim as pessoas? Não foi suficiente ter-me cortado a barba uma vez? Como me vou apresentar aos meus irmãos? Oxalá tenhais de correr sem sapatos e vos esfoleis os pés!»",
+          "ca": "El nan va exclamar encoleritzat: «Teniu el costum de desfigurar així la gent? No ha estat prou haver-me tallat la barba una vegada? Com em vaig a presentar als meus germans? Ojalà hàgiu de córrer sense sabates i us escorxeu els peus!»"
+        },
+        {
+          "es": "Y cogiendo un saco de perlas que estaba oculto entre las cañas, se lo llevó sin decir una palabra más y desapareció detrás de una piedra.",
+          "en": "And snatching up a sack of pearls that was hidden among the reeds, he carried it off without another word and disappeared behind a rock.",
+          "fr": "Et saisissant un sac de perles caché parmi les roseaux, il l'emporta sans dire un mot de plus et disparut derrière une pierre.",
+          "de": "Und einen Sack Perlen, der im Schilf versteckt war, schnappend, trug er ihn fort ohne ein weiteres Wort und verschwand hinter einem Stein.",
+          "it": "E prendendo un sacco di perle nascosto tra i canneti, se lo portò via senza dire un'altra parola e sparì dietro un sasso.",
+          "pt": "E agarrando num saco de pérolas que estava oculto entre os caniços, levou-o sem dizer mais uma palavra e desapareceu atrás de uma pedra.",
+          "ca": "I agafant un sac de perles que estava amagat entre els canyissos, se'l va emportar sense dir cap més paraula i va desaparèixer darrere d'una pedra."
+        }
+      ]
+    },
+    {
+      "tit": "El águila y los tesoros",
+      "frases": [
+        {
+          "es": "Poco tiempo después, la madre envió a las niñas a la aldea a comprar hilo, agujas y cintas. Tenían que pasar por un erial lleno de rocas, y vieron a lo lejos un pájaro muy grande que daba vueltas en el aire.",
+          "en": "A little while later their mother sent the girls to the village to buy thread, needles and ribbons. They had to cross a rocky heath, and in the distance they saw a large bird wheeling in the air.",
+          "fr": "Peu après, la mère envoya les fillettes au village pour acheter du fil, des aiguilles et des rubans. Elles devaient traverser une lande pleine de rochers, et elles virent au loin un très grand oiseau qui tournoyait dans les airs.",
+          "de": "Kurze Zeit später schickte die Mutter die Mädchen ins Dorf, Faden, Nadeln und Bänder zu kaufen. Sie mussten über eine felsige Heide, und sie sahen in der Ferne einen sehr großen Vogel, der in der Luft kreiste.",
+          "it": "Poco tempo dopo la madre mandò le bambine al villaggio a comprare filo, aghi e nastri. Dovevano passare per una brughiera piena di rocce, e videro in lontananza un uccello molto grande che volteggiava in aria.",
+          "pt": "Pouco tempo depois a mãe enviou as meninas à aldeia comprar fio, agulhas e fitas. Tinham de passar por um baldio cheio de rochas, e viram ao longe um pássaro muito grande que dava voltas no ar.",
+          "ca": "Poc temps després, la mare va enviar les nenes al poble a comprar fil, agulles i cintes. Havien de passar per un erma ple de roques, i van veure al lluny un ocell molt gran que donava voltes a l'aire."
+        },
+        {
+          "es": "El pájaro voló largo tiempo por encima de sus cabezas y comenzó a bajar poco a poco, hasta que se dejó caer de pronto al suelo. Al mismo tiempo oyeron gritos penetrantes y lastimosos.",
+          "en": "The bird flew about over their heads for a long time and began to sink lower and lower until it dropped suddenly to the ground. At the same moment they heard piercing and pitiful cries.",
+          "fr": "L'oiseau vola longtemps au-dessus de leurs têtes et commença à descendre peu à peu, jusqu'à ce qu'il se laisse tomber soudainement au sol. Au même moment, ils entendirent des cris perçants et plaintifs.",
+          "de": "Der Vogel flog lange über ihren Köpfen und begann sich langsam zu senken, bis er plötzlich zu Boden fiel. Gleichzeitig hörten sie durchdringende und klagende Schreie.",
+          "it": "L'uccello volò a lungo sopra le loro teste e cominciò a scendere poco a poco, finché si lasciò cadere improvvisamente a terra. Nello stesso momento udirono grida acute e strazianti.",
+          "pt": "O pássaro voou longo tempo sobre as suas cabeças e começou a descer pouco a pouco, até que se deixou cair de repente ao chão. Ao mesmo tempo ouviram gritos penetrantes e dolorosos.",
+          "ca": "L'ocell va volar llarg temps sobre els seus caps i va començar a baixar a poc a poc, fins que es va deixar caure de sobte a terra. Al mateix temps van sentir crits penetrants i lamentosos."
+        },
+        {
+          "es": "Corrieron y vieron con asombro a una águila que tenía entre sus garras a su antiguo conocido el enano, y que procuraba llevársele.",
+          "en": "They ran and saw to their astonishment an eagle that had their old acquaintance the dwarf in its talons and was trying to carry him off.",
+          "fr": "Elles coururent et virent avec étonnement un aigle qui tenait dans ses serres leur ancienne connaissance le nain, et qui cherchait à l'emporter.",
+          "de": "Sie liefen hin und sahen zu ihrer Verwunderung einen Adler, der ihren alten Bekannten, den Zwerg, in seinen Klauen hielt und ihn fortzutragen versuchte.",
+          "it": "Corsero e videro con stupore un'aquila che aveva tra le sue zampe il loro antico conoscente il nano, e che cercava di portarselo via.",
+          "pt": "Correram e viram com espanto uma águia que tinha nas suas garras o seu antigo conhecido o anão, e que procurava levá-lo.",
+          "ca": "Van córrer i van veure amb sorpresa una àguila que tenia entre les seves urpes el seu antic conegut el nan, i que procurava endur-se'l."
+        },
+        {
+          "es": "Las niñas, guiadas por su bondadoso corazón, sostuvieron al enano con todas sus fuerzas, y se las hubieron también con el águila, que acabó por soltar su presa.",
+          "en": "The girls, led by their kind hearts, held on to the dwarf with all their strength, and struggled with the eagle too, until it at last released its prey.",
+          "fr": "Les fillettes, guidées par leur cœur bienveillant, soutinrent le nain de toutes leurs forces, et luttèrent aussi avec l'aigle, qui finit par lâcher sa proie.",
+          "de": "Die Mädchen, von ihren guten Herzen geleitet, hielten den Zwerg mit aller Kraft fest und kämpften auch mit dem Adler, der schließlich seine Beute losließ.",
+          "it": "Le bambine, guidate dal loro cuore buono, sostennero il nano con tutte le loro forze, e se la videro anche con l'aquila che alla fine lasciò andare la sua preda.",
+          "pt": "As meninas, guiadas pelo seu bondoso coração, seguraram o anão com todas as suas forças, e lutaram também com a águia, que acabou por largar a sua presa.",
+          "ca": "Les nenes, guiades pel seu bondadós cor, van sostenir el nan amb totes les seves forces, i se les van haver també amb l'àguila, que va acabar per alliberar la seva presa."
+        },
+        {
+          "es": "Pero en cuanto el enano se repuso del susto, les gritó: «¿No podíais haberme cogido con un poco más de suavidad? ¡Habéis tirado de tal manera de mi pobre vestido que me lo habéis hecho pedazos! ¡Qué torpes sois!»",
+          "en": "But as soon as the dwarf had recovered from his fright, he shouted at them: 'Could you not have held me more gently? You have pulled at my poor coat so hard that you have torn it to pieces! How clumsy you are!'",
+          "fr": "Mais dès que le nain fut remis de sa frayeur, il leur cria : « Ne pouviez-vous pas me tenir avec un peu plus de douceur ? Vous avez tiré de telle manière sur mon pauvre habit que vous l'avez mis en pièces ! Comme vous êtes maladroites ! »",
+          "de": "Aber sobald der Zwerg sich von seinem Schrecken erholt hatte, schrie er sie an: «Konntet ihr mich nicht etwas sanfter anfassen? Ihr habt so an meinem armen Rock gezogen, dass ihr ihn zerfetzt habt! Was seid ihr ungeschickt!»",
+          "it": "Ma non appena il nano si riprese dallo spavento, gridò loro: «Non potevate tenermi con un po' più di delicatezza? Avete tirato così tanto il mio povero vestito da ridurlo a brandelli! Come siete goffe!»",
+          "pt": "Mas assim que o anão se recuperou do susto, gritou-lhes: «Não podíeis ter-me segurado com um pouco mais de suavidade? Tirastes de tal maneira do meu pobre vestido que o fizestes em pedaços! Que desastradas sois!»",
+          "ca": "Però en cuant el nan es va recuperar del susto, els va cridar: «No podíeu haver-me agafat amb una mica més de suavitat? Heu tirat de tal manera del meu pobre vestit que me l'heu fet miques! Que maldestres sou!»"
+        },
+        {
+          "es": "Después cogió un saco de piedras preciosas y se deslizó a su agujero en medio de las rocas.",
+          "en": "Then he picked up a sack of precious stones and slipped away to his hole among the rocks.",
+          "fr": "Puis il prit un sac de pierres précieuses et se glissa dans son trou au milieu des rochers.",
+          "de": "Dann nahm er einen Sack Edelsteine und schlüpfte in sein Loch zwischen den Felsen.",
+          "it": "Poi prese un sacco di pietre preziose e scivolò nel suo buco in mezzo alle rocce.",
+          "pt": "Depois apanhou um saco de pedras preciosas e escorregou para o seu buraco no meio das rochas.",
+          "ca": "Després va agafar un sac de pedres precioses i es va lliscar al seu forat enmig de les roques."
+        },
+        {
+          "es": "Las niñas estaban acostumbradas a su ingratitud y así continuaron su camino sin hacer caso, yendo a la aldea a sus compras.",
+          "en": "The girls were used to his ingratitude and so they went on their way without taking any notice, going to the village to do their shopping.",
+          "fr": "Les fillettes étaient habituées à son ingratitude et continuèrent ainsi leur chemin sans y faire attention, allant au village faire leurs achats.",
+          "de": "Die Mädchen waren seine Undankbarkeit gewohnt und gingen so ihren Weg weiter, ohne es zu beachten, und gingen ins Dorf zum Einkaufen.",
+          "it": "Le bambine erano abituate alla sua ingratitudine e così continuarono il loro cammino senza farci caso, andando al villaggio a fare gli acquisti.",
+          "pt": "As meninas estavam habituadas à sua ingratidão e assim continuaram o seu caminho sem ligar, indo à aldeia às compras.",
+          "ca": "Les nenes estaven acostumades a la seva ingratitud i així van continuar el seu camí sense fer cas, anant al poble a les seves compres."
+        },
+        {
+          "es": "Cuando a su regreso volvieron a pasar por aquel sitio, sorprendieron al enano vaciando su saco de piedras preciosas, pues era ya muy tarde y no creía que transitase nadie por allí. El sol al ponerse iluminaba la pedrería y lanzaba rayos tan brillantes que las niñas se quedaron inmóviles para contemplarlas.",
+          "en": "When on their way back they passed through the same spot again, they came upon the dwarf emptying out his sack of precious stones, for it was already very late and he did not think anyone would be passing by. The setting sun lit up the jewels and cast such dazzling rays that the girls stopped still to gaze at them.",
+          "fr": "Lorsqu'à leur retour elles repassèrent par cet endroit, elles surprirent le nain en train de vider son sac de pierres précieuses, car il était déjà très tard et il ne croyait pas que quelqu'un passerait par là. Le soleil couchant illuminait la pierrerie et lançait des rayons si brillants que les fillettes restèrent immobiles pour les contempler.",
+          "de": "Als sie auf dem Rückweg wieder an dieser Stelle vorbeikamen, überraschten sie den Zwerg dabei, wie er seinen Sack Edelsteine ausleerte, denn es war schon sehr spät und er dachte nicht, dass noch jemand vorbeikäme. Die untergehende Sonne beleuchtete das Gestein und warf so strahlende Strahlen, dass die Mädchen reglos stehen blieben, um es zu betrachten.",
+          "it": "Quando al ritorno passarono di nuovo per quel posto, sorpresero il nano che stava svuotando il suo sacco di pietre preziose, poiché era già molto tardi e non credeva che qualcuno transitasse lì a quell'ora. Il sole al tramonto illuminava le pietre preziose e lanciava raggi così brillanti che le bambine rimasero immobili a contemplarle.",
+          "pt": "Quando no regresso voltaram a passar por aquele sítio, surpreenderam o anão a esvaziar o seu saco de pedras preciosas, pois já era muito tarde e não julgava que transitasse alguém por ali àquelas horas. O sol ao pôr-se iluminava as pedras e lançava raios tão brilhantes que as meninas ficaram imóveis a contemplá-las.",
+          "ca": "Quan en el seu retorn van tornar a passar per aquell lloc, van sorprendre el nan buidant el seu sac de pedres precioses, perquè ja era molt tard i no creia que ningú transitàs per allà a aquelles hores. El sol en pondre's il·luminava la pedreria i llançava rajos tan brillants que les nenes es van quedar immòbils per contemplar-les."
+        }
+      ]
+    },
+    {
+      "tit": "El príncipe encantado",
+      "frases": [
+        {
+          "es": "«¿Por qué os quedáis ahí embobadas?», les dijo el enano, con el rostro enteramente rojo de cólera.",
+          "en": "'Why are you standing there gaping?' the dwarf said to them, his face entirely red with rage.",
+          "fr": "« Pourquoi restez-vous là à bayer aux corneilles ? » leur dit le nain, le visage tout rouge de colère.",
+          "de": "«Was steht ihr da und gazt?», sagte der Zwerg zu ihnen, das Gesicht ganz rot vor Wut.",
+          "it": "«Perché restate lì imbambolate?» disse loro il nano, con il viso tutto rosso per la collera.",
+          "pt": "«Porque ficais aí a olhar pasmadas?», disse-lhes o anão, com o rosto completamente vermelho de cólera.",
+          "ca": "«Per què us quedeu aquí embadocades?», els va dir el nan, amb el rostre del tot vermell de còlera."
+        },
+        {
+          "es": "Iba a continuar sus insultos, cuando salió del fondo del bosque un oso completamente negro, dando terribles gruñidos.",
+          "en": "He was about to go on with his abuse when out of the depths of the forest came a completely black bear, growling terribly.",
+          "fr": "Il allait continuer ses injures, quand sortit du fond de la forêt un ours complètement noir, poussant de terribles grognements.",
+          "de": "Er wollte gerade mit seinen Beschimpfungen fortfahren, als aus dem Innern des Waldes ein völlig schwarzer Bär mit schrecklichem Knurren hervorkam.",
+          "it": "Stava per continuare i suoi insulti, quando dal fondo del bosco uscì un orso completamente nero, emettendo terribili grugniti.",
+          "pt": "Estava prestes a continuar os seus insultos, quando saiu do fundo do bosque um urso completamente negro, a dar terríveis rosnados.",
+          "ca": "Estava a punt de continuar els seus insults, quan va sortir del fons del bosc un ós completament negre, donant terribles grinyols."
+        },
+        {
+          "es": "El enano quería huir lleno de espanto, pero no tuvo tiempo para llegar a su escondrijo, pues el oso le cerró el paso. Entonces le dijo suplicándole: «Perdonadme, querido señor oso, y os daré todos mis tesoros; todas esas joyas que veis delante de vos; concededme la vida, ¿qué ganaréis en matar a un miserable enano como yo?»",
+          "en": "The dwarf wanted to flee in terror, but had no time to reach his hiding-place, for the bear blocked his path. Then he begged him saying: 'Spare me, dear lord bear, and I will give you all my treasures; all those jewels you see before you; grant me my life, what will you gain by killing a miserable dwarf like me?'",
+          "fr": "Le nain voulait fuir plein d'épouvante, mais il n'eut pas le temps d'atteindre sa cachette, car l'ours lui barra le passage. Alors il lui dit en le suppliant : « Pardonnez-moi, cher seigneur ours, et je vous donnerai tous mes trésors ; tous ces bijoux que vous voyez devant vous ; accordez-moi la vie, que gagnerez-vous à tuer un misérable nain comme moi ? »",
+          "de": "Der Zwerg wollte voller Schrecken fliehen, hatte aber keine Zeit, sein Versteck zu erreichen, denn der Bär versperrte ihm den Weg. Da sagte er flehend zu ihm: «Verzeiht mir, lieber Herr Bär, und ich werde euch alle meine Schätze geben; all jene Juwelen, die ihr vor euch seht; schenkt mir das Leben, was gewinnt ihr damit, einen elenden Zwerg wie mich zu töten?»",
+          "it": "Il nano voleva fuggire pieno di spavento, ma non ebbe il tempo di raggiungere il suo nascondiglio, poiché l'orso gli sbarrò il passo. Allora gli disse supplicandolo: «Perdonatemi, caro signor orso, e vi darò tutti i miei tesori; tutti quei gioielli che vedete davanti a voi; concedetemi la vita, cosa ci guadagnerete ad ammazzare un miserabile nano come me?»",
+          "pt": "O anão queria fugir cheio de pavor, mas não teve tempo de chegar ao seu esconderijo, pois o urso barrou-lhe o caminho. Então disse-lhe a implorar: «Perdoai-me, querido senhor urso, e dar-vos-ei todos os meus tesouros; todas essas joias que vedes à vossa frente; concedei-me a vida, que ganhareis em matar um miserável anão como eu?»",
+          "ca": "El nan volia fugir ple d'espant, però no va tenir temps d'arribar al seu amagatall, ja que l'ós li va tallar el pas. Llavors li va dir suplicant-li: «Perdoneu-me, estimat senyor ós, i us donaré tots els meus tresors; totes aquelles joies que veieu davant vostre; concediu-me la vida, què guanyareu en matar un miserable nan com jo?»"
+        },
+        {
+          "es": "«¿No es mucho mejor que cojáis a esas dos malditas muchachas, que son dos buenos bocados, gordas como codornices? ¡Zámpáoslas en nombre de Dios!»",
+          "en": "'Would it not be far better to take those two wretched girls, who are two fine mouthfuls, fat as quails? Gobble them up, for heaven's sake!'",
+          "fr": "« N'est-il pas bien meilleur de prendre ces deux maudites filles, qui sont deux bons morceaux, grasses comme des cailles ? Dévorez-les au nom de Dieu ! »",
+          "de": "«Ist es nicht viel besser, diese beiden verfluchten Mädchen zu nehmen, die zwei gute Bissen sind, fett wie Wachteln? Verschluckt sie im Namen Gottes!»",
+          "it": "«Non è molto meglio che prendiate quelle due maledette ragazze, che sono due buoni bocconi, grasse come quaglie? Sbaffatevele in nome di Dio!»",
+          "pt": "«Não é muito melhor que apanheis essas duas malditas raparigas, que são dois bons bocados, gordas como codornizes? Engoli-as em nome de Deus!»",
+          "ca": "«No és molt millor que agafeu aquelles dues maleïdes noies, que són dos bons bocins, grasses com a guatlles? Empasseu-vos-les en nom de Déu!»"
+        },
+        {
+          "es": "Pero el oso, sin escucharle, dio a aquella malvada criatura un golpe con su pata, y el enano cayó al suelo sin vida.",
+          "en": "But the bear, without heeding him, gave that wicked creature a blow with his paw, and the dwarf fell to the ground lifeless.",
+          "fr": "Mais l'ours, sans l'écouter, donna à cette méchante créature un coup de sa patte, et le nain tomba à terre sans vie.",
+          "de": "Aber der Bär, ohne auf ihn zu hören, versetzte dem bösen Wesen einen Schlag mit seiner Tatze, und der Zwerg fiel leblos zu Boden.",
+          "it": "Ma l'orso, senza ascoltarlo, diede a quella malvagia creatura un colpo con la zampa, e il nano cadde a terra senza vita.",
+          "pt": "Mas o urso, sem o escutar, deu àquela malvada criatura uma pancada com a pata, e o anão caiu ao chão sem vida.",
+          "ca": "Però l'ós, sense escoltar-lo, va donar a aquella malvada criatura un cop amb la seva pota, i el nan va caure a terra sense vida."
+        },
+        {
+          "es": "Las niñas se habían puesto a salvo, pero el oso les gritó: «¡Blancanieve! ¡Rojarosa! No tengáis miedo, esperadme.»",
+          "en": "The girls had taken refuge, but the bear called out to them: 'Snow-white! Rose-red! Do not be afraid; wait for me.'",
+          "fr": "Les fillettes s'étaient mises à l'abri, mais l'ours leur cria : « Blanche-Neige ! Rose-Rouge ! N'ayez pas peur, attendez-moi. »",
+          "de": "Die Mädchen hatten sich in Sicherheit gebracht, aber der Bär rief ihnen zu: «Schneeweißchen! Rosenrot! Habt keine Angst; wartet auf mich.»",
+          "it": "Le bambine si erano messe in salvo, ma l'orso gridò loro: «Biancaneve! Rosarossa! Non abbiate paura, aspettatemi.»",
+          "pt": "As meninas tinham posto-se a salvo, mas o urso gritou-lhes: «Brancaneve! Rosa-vermelha! Não tenhais medo, esperai por mim.»",
+          "ca": "Les nenes s'havien posat a salvo, però l'ós els va cridar: «Blancaneu! Rosaroja! No tingueu por, espereu-me.»"
+        },
+        {
+          "es": "Reconocieron su voz y se detuvieron. Cuando el oso estuvo cerca de ellas, cayó de repente su piel y vieron a un joven vestido con un traje de oro.",
+          "en": "They recognised his voice and stopped. When the bear came close to them, his skin fell from him suddenly and they saw a young man dressed in a golden suit.",
+          "fr": "Elles reconnurent sa voix et s'arrêtèrent. Quand l'ours fut près d'elles, sa peau tomba soudainement et elles virent un jeune homme vêtu d'un habit d'or.",
+          "de": "Sie erkannten seine Stimme und blieben stehen. Als der Bär nahe bei ihnen war, fiel plötzlich sein Fell von ihm und sie sahen einen jungen Mann, der ein goldenes Gewand trug.",
+          "it": "Riconobbero la sua voce e si fermarono. Quando l'orso fu vicino a loro, cadde di colpo la sua pelle e videro un giovane vestito con un abito d'oro.",
+          "pt": "Reconheceram a sua voz e pararam. Quando o urso chegou perto delas, caiu de repente a sua pele e viram um jovem vestido com um fato dourado.",
+          "ca": "Van reconèixer la seva veu i es van aturar. Quan l'ós va estar a prop d'elles, va caure de sobte la seva pell i van veure un jove vestit amb un vestit d'or."
+        },
+        {
+          "es": "«Soy un príncipe», les dijo. «Ese infame enano me había convertido en oso después de haberme robado todos mis tesoros. Me había condenado a recorrer los bosques bajo esta forma hasta que su muerte me liberara. Ahora ya ha recibido el premio de su maldad.»",
+          "en": "'I am a prince,' he told them. 'That wicked dwarf had turned me into a bear after stealing all my treasures. He had condemned me to roam the forests in this form until his death should free me. Now he has received the reward of his wickedness.'",
+          "fr": "« Je suis un prince », leur dit-il. « Ce nain infâme m'avait transformé en ours après m'avoir volé tous mes trésors. Il m'avait condamné à parcourir les forêts sous cette forme jusqu'à ce que sa mort me libère. Maintenant il a reçu la récompense de sa méchanceté. »",
+          "de": "«Ich bin ein Prinz», sagte er ihnen. «Dieser niederträchtige Zwerg hatte mich in einen Bären verwandelt, nachdem er mir alle meine Schätze gestohlen hatte. Er hatte mich verurteilt, in dieser Gestalt durch die Wälder zu streifen, bis sein Tod mich befreite. Jetzt hat er den Lohn für seine Bosheit erhalten.»",
+          "it": "«Sono un principe», disse loro. «Quel malvagio nano mi aveva trasformato in orso dopo avermi rubato tutti i miei tesori. Mi aveva condannato a percorrere i boschi sotto questa forma fino a quando la sua morte mi avesse liberato. Ora ha ricevuto il premio della sua cattiveria.»",
+          "pt": "«Sou um príncipe», disse-lhes. «Esse infame anão tinha-me convertido em urso depois de me roubar todos os meus tesouros. Tinha-me condenado a percorrer os bosques sob esta forma até que a sua morte me libertasse. Agora já recebeu o prémio da sua maldade.»",
+          "ca": "«Sóc un príncep», els va dir. «Aquell infame nan m'havia convertit en ós després d'haver-me robat tots els meus tresors. M'havia condemnat a recórrer els boscos sota aquesta forma fins que la seva mort em lliberés. Ara ja ha rebut el premi de la seva maldat.»"
+        },
+        {
+          "es": "Blancanieve se casó con el príncipe y Rojarosa con un hermano suyo, y repartieron entre todos los grandes tesoros que el enano había amontonado en su agujero.",
+          "en": "Snow-white married the prince and Rose-red his brother, and they divided among them all the great treasures the dwarf had hoarded in his den.",
+          "fr": "Blanche-Neige épousa le prince et Rose-Rouge son frère, et ils se partagèrent tous les grands trésors que le nain avait accumulés dans son terrier.",
+          "de": "Schneeweißchen heiratete den Prinzen und Rosenrot seinen Bruder, und sie teilten unter sich alle großen Schätze auf, die der Zwerg in seinem Loch angehäuft hatte.",
+          "it": "Biancaneve sposò il principe e Rosarossa un suo fratello, e divisero tra tutti i grandi tesori che il nano aveva accumulato nel suo buco.",
+          "pt": "Brancaneve casou com o príncipe e Rosa-vermelha com um irmão seu, e dividiram entre todos os grandes tesouros que o anão tinha amontoado no seu buraco.",
+          "ca": "Blancaneu es va casar amb el príncep i Rosaroja amb un germà seu, i van repartir entre tots els grans tresors que el nan havia acumulat al seu forat."
+        },
+        {
+          "es": "Su madre vivió todavía muchos años tranquila y feliz cerca de sus hijos. Tomó los dos rosales y los colocó en su ventana, donde daban todas las primaveras hermosísimas rosas blancas y encarnadas.",
+          "en": "Their mother lived many more years in peace and happiness near her children. She took the two rose trees and planted them outside her window, where every spring they bore the most beautiful white and red roses.",
+          "fr": "Leur mère vécut encore de nombreuses années tranquille et heureuse auprès de ses enfants. Elle prit les deux rosiers et les plaça à sa fenêtre, où ils donnaient chaque printemps de magnifiques roses blanches et rouges.",
+          "de": "Ihre Mutter lebte noch viele Jahre ruhig und glücklich bei ihren Kindern. Sie nahm die beiden Rosenstöcke und stellte sie an ihr Fenster, wo sie jeden Frühling wunderschöne weiße und rote Rosen trugen.",
+          "it": "La loro madre visse ancora molti anni tranquilla e felice vicino ai suoi figli. Prese i due rosai e li mise alla sua finestra, dove davano ogni primavera bellissime rose bianche e rosse.",
+          "pt": "A mãe viveu ainda muitos anos tranquila e feliz perto dos seus filhos. Pegou nos dois roseiros e colocou-os na sua janela, onde davam todas as primaveras lindíssimas rosas brancas e vermelhas.",
+          "ca": "La seva mare va viure encara molts anys tranquil·la i feliç prop dels seus fills. Va agafar els dos rosers i els va col·locar a la seva finestra, on donaven totes les primaveres bellíssimes roses blanques i vermelles."
+        }
       ]
     }
   ]
