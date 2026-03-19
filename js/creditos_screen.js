@@ -6,7 +6,8 @@
 
 // ── DATOS (añadir en expr.js, junto a LIBROS) ─────────────────────────
 const CREDITOS_CCBYSA = [
-  {id:3,  tit:'Caperucita Roja',               aut:'Charles Perrault',         attr:'Traducción de Teodoro Baró (s. XIX)',      url:'https://es.wikisource.org/wiki/Caperucita_Roja'},
+  {id:1,  tit:'Blancanieve y Rojarosa',         aut:'Hermanos Grimm',           attr:'Wikisource (contribuidores)',              url:'https://es.wikisource.org/wiki/Blancanieve_y_Rojarosa'},
+  {id:3,  tit:'Caperucita Roja',                aut:'Charles Perrault',         attr:'Traducción de Teodoro Baró (s. XIX)',      url:'https://es.wikisource.org/wiki/Caperucita_Roja'},
   {id:8,  tit:'Rapunzel',                       aut:'Hermanos Grimm',           attr:'Wikisource (contribuidores)',              url:'https://es.wikisource.org/wiki/Rapunzel'},
   {id:14, tit:'Hansel y Gretel',                aut:'Hermanos Grimm',           attr:'Wikisource (contribuidores)',              url:'https://es.wikisource.org/wiki/Hansel_y_Gretel'},
   {id:17, tit:'El príncipe feliz',              aut:'Oscar Wilde',              attr:'Wikisource (contribuidores)',              url:'https://es.wikisource.org/wiki/El_principe_feliz'},
