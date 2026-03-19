@@ -416,5 +416,13 @@
         }
       ]
     }
-  ]
+  ],
+  "src": {
+    "name": "Talixea",
+    "url": "",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "No requiere atribución.",
+    "changes": "Texto y traducciones generados/reescritos para Talixea. Inspirado en obras de dominio público."
+  }
 }
